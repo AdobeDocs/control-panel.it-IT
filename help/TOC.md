@@ -4,7 +4,7 @@ sub-product: control panel
 audience: end-user
 user-guide-title: Control Panel Help
 translation-type: tm+mt
-source-git-commit: 43bd4b2a55bdfa55aeb66808113fcd55ff79b173
+source-git-commit: 6bc165f995d34d21b5bce379db3095317db10906
 
 ---
 
@@ -27,7 +27,7 @@ source-git-commit: 43bd4b2a55bdfa55aeb66808113fcd55ff79b173
    + [Informazioni sui certificati SSL](subdomains-certificates/using/about-ssl-certificates.md)
    + [Gestione dei certificati SSL dei sottodomini](subdomains-certificates/using/managing-ssl-certificates.md)
 + Impostazioni delle istanze (Campaign Classic) {#instances-settings}
-   + [Whitelist IP per l'accesso ad esempio](instances-settings/using/ip-whitelisting-instance-access.md)
+   + [Whitelist IP per l&#39;accesso ad esempio](instances-settings/using/ip-whitelisting-instance-access.md)
    + [Autorizzazioni URL](instances-settings/using/url-permissions.md)
    + [Dettagli istanza](instances-settings/using/instance-details.md)
 + [Domande frequenti](faq.md)
