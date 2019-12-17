@@ -2,7 +2,7 @@
 title: Accesso al Pannello di controllo
 description: Scopri come accedere al Pannello di controllo
 translation-type: tm+mt
-source-git-commit: ac7d673028d823516c48a1d6874e05086d672647
+source-git-commit: 85bef8fa652be883bc2afbc42a2d893ea75a4e77
 
 ---
 
@@ -17,28 +17,28 @@ Il Pannello di controllo è disponibile direttamente da Experience Cloud o dal p
 
 Per accedere al pannello di controllo da Experience Cloud Platform, passa alla pagina alla [Home di Experience Cloud Platform](https://amc.experiencecloud.adobe.com/), quindi fai clic sul collegamento dedicato nella sezione **Accesso  rapido**.
 
-![](assets/quickaccess.png)
+![](assets/do-not-localize/quickaccess.png)
 
 Il Pannello di controllo è accessibile anche dal selettore delle **soluzioni** della piattaforma Experience Cloud:
 
 1. Passa ad [Adobe Experience Cloud](https://amc.experiencecloud.adobe.com/), quindi seleziona **Campaign** dal selettore della soluzione.
 
-   ![](assets/control_panel_access1.png)
+   ![](assets/do-not-localize/control_panel_access1.png)
 
-1. Viene visualizzato l'elenco delle istanze Campaign. Fate clic sulla scheda **Pannello** di controllo per avviarla.
+1. Viene visualizzato l&#39;elenco delle istanze Campaign. Fate clic sulla scheda **Pannello** di controllo per avviarla.
 
-   ![](assets/control_panel_access2NEW.png)
+   ![](assets/do-not-localize/control_panel_access2.png)
 
 ## Accesso dal prodotto {#access-product}
 
 >[!NOTE]
 >
->Per le istanze di **Campaign Classic** , l'accesso dall'interno del prodotto è disponibile a partire dalla versione Campaign Classic 19.1.
+>Per le istanze di **Campaign Classic** , l&#39;accesso dall&#39;interno del prodotto è disponibile a partire dalla versione Campaign Classic 19.1.
 
-1. Apri il prodotto Campaign Standard, quindi seleziona il **[!UICONTROL Administration]** menu dal **[!UICONTROL Navigation]** riquadro.
+1. Apri il prodotto Campaign Standard, quindi seleziona il **[!UICONTROL Administration]**menu dal**[!UICONTROL Navigation]** riquadro.
 
    ![](assets/control_panel_access3.png)
 
-1. Fate clic sull' **[!UICONTROL Control Panel]** icona.
+1. Fate clic sull&#39; **[!UICONTROL Control Panel]**icona.
 
-   ![](assets/control_panel_access4new.png)
+   ![](assets/control_panel_access4.png)
