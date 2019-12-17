@@ -2,7 +2,7 @@
 title: Gestione delle autorizzazioni al Pannello di controllo
 description: Scopri come gestire le autorizzazioni per il Pannello di controllo
 translation-type: tm+mt
-source-git-commit: 79dff08ee60d220c09bdcc21387bb6fb4d2f4c9e
+source-git-commit: 85bef8fa652be883bc2afbc42a2d893ea75a4e77
 
 ---
 
@@ -13,7 +13,7 @@ Il Pannello di controllo è disponibile per tutti gli utenti Admin di un&#39;ist
 
 1. Passa ad [Adobe Experience Cloud](https://amc.experiencecloud.adobe.com/exc-content/login.html), quindi seleziona la **[!UICONTROL Administration]**scheda.
 
-   ![](assets/control_panel_add_user1.png)
+   ![](assets/do-not-localize/control_panel_add_user1.png)
 
    >[!NOTE]
    >
@@ -21,11 +21,11 @@ Il Pannello di controllo è disponibile per tutti gli utenti Admin di un&#39;ist
 
 1. Avvia **Admin Console** facendo clic sui collegamenti disponibili.
 
-   ![](assets/control_panel_admin1.png)
+   ![](assets/do-not-localize/control_panel_admin1.png)
 
 1. Selezionate il prodotto Campaign desiderato.
 
-   ![](assets/control_panel_add_user3.png)
+   ![](assets/do-not-localize/control_panel_add_user3.png)
 
    >[!NOTE]
    >
@@ -33,7 +33,7 @@ Il Pannello di controllo è disponibile per tutti gli utenti Admin di un&#39;ist
 
 1. Viene visualizzato l&#39;elenco delle istanze del prodotto Campaign. Selezionate l&#39;istanza alla quale desiderate aggiungere un utente Amministratore.
 
-   ![](assets/control_panel_add_user4.png)
+   ![](assets/do-not-localize/control_panel_add_user4.png)
 
    >[!NOTE]
    >
@@ -41,7 +41,7 @@ Il Pannello di controllo è disponibile per tutti gli utenti Admin di un&#39;ist
 
 1. Viene visualizzato l&#39;elenco Profili prodotto per l&#39;istanza selezionata. Fai clic sul profilo di **[!UICONTROL Administrators]**prodotto per accedere all&#39;elenco degli utenti Admin.
 
-   ![](assets/control_panel_add_user_5.png)
+   ![](assets/do-not-localize/control_panel_add_user_5.png)
 
    >[!NOTE]
    >
@@ -49,4 +49,4 @@ Il Pannello di controllo è disponibile per tutti gli utenti Admin di un&#39;ist
 
 1. Viene visualizzato l’elenco degli utenti Admin. Fate clic sul **[!UICONTROL Add User]**pulsante per aggiungere l’utente desiderato.
 
-   ![](assets/control_panel_add_user_6.png)
+   ![](assets/do-not-localize/control_panel_add_user_6.png)
