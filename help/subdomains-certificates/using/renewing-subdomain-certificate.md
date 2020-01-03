@@ -2,20 +2,28 @@
 title: Rinnovo del certificato SSL di un sottodominio
 description: Scopri come rinnovare i certificati SSL dei sottodomini
 translation-type: tm+mt
-source-git-commit: 85bef8fa652be883bc2afbc42a2d893ea75a4e77
+source-git-commit: 52f155bbbecec9edabc66cbc28756f9579b81f04
 
 ---
 
 
 # Rinnovo del certificato SSL di un sottodominio {#renewing-subdomains-ssl-certificates}
 
+>[!NOTE]
+>
+>La delega di sottodominio del Pannello di controllo è attualmente in versione beta e soggetta a frequenti aggiornamenti e modifiche senza notifica.
+
 ## Informazioni sul rinnovo dei certificati {#about-certificate-renewal-process}
 
-Il processo di rinnovo del certificato SSL comprende 3 passaggi, tutti eseguiti direttamente dal Pannello di controllo:
+Il processo di rinnovo del certificato SSL comprende 3 passaggi:
 
 1. **La generazione della richiesta di firma dei certificati (CSR)** Adobe Customer Care genera un CSR. Per generare il CSR è necessario fornire alcune informazioni (ad esempio Nome comune, Nome organizzazione e indirizzo, ecc.).
 1. **Acquisto del certificato** SSL Una volta generato il CSR, è possibile scaricarlo e utilizzarlo per acquistare il certificato SSL dall’autorità di certificazione approvata dalla società.
 1. **Installazione del certificato** SSL Una volta acquistato il certificato SSL, è possibile installarlo nel sottodominio desiderato.
+
+>[!NOTE]
+>
+>Il rinnovo dei certificati SSL tramite il Pannello di controllo è disponibile solo per i sottodomini **delegati** completi.
 
 ## Generazione di una richiesta di firma dei certificati (CSR) {#generating-csr}
 
@@ -31,11 +39,11 @@ Per generare una richiesta di firma dei certificati (CSR), procedere come segue:
 
 1. Viene visualizzato un modulo con tutti i dettagli necessari per generare il CSR.
 
-   Assicuratevi di compilare le informazioni richieste in modo completo e accurato (se necessario, contattate il team interno, i team di sicurezza e IT), quindi fate clic **[!UICONTROL Next]**.
+   Assicuratevi di compilare le informazioni richieste in modo completo e accurato, altrimenti il certificato potrebbe non essere rinnovato (se necessario contattate il team interno, i team di sicurezza e IT), quindi fate clic **[!UICONTROL Next]**.
 
-   * **[!UICONTROL Organization]**:
-   * **[!UICONTROL Organization Unit]**:
-   * **[!UICONTROL Instance]**: URL dell&#39;istanza Campaign associata al sottodominio.
+   * **[!UICONTROL Organization]**: nome organizzazione ufficiale.
+   * **[!UICONTROL Organization Unit]**: unità collegata al sottodominio (esempio: Marketing, IT).
+   * **[!UICONTROL Instance]**(precompilato): URL dell&#39;istanza Campaign associata al sottodominio.
    ![](assets/renewal3.png)
 
 1. Seleziona i sottodomini da includere nella CSR, quindi fai clic su **[!UICONTROL OK]**.
@@ -58,7 +66,13 @@ Dopo aver ottenuto un CSR per la richiesta di firma dei certificati dal Pannello
 
 ## Installazione del certificato SSL {#installing-ssl-certificate}
 
-Una volta acquistato un certificato SSL, effettuate le seguenti operazioni per installarlo nell’istanza.
+Una volta acquistato un certificato SSL, potete installarlo nell’istanza. Prima di procedere, accertatevi di conoscere i prerequisiti seguenti:
+
+* La richiesta di firma del certificato (CSR) deve essere stata generata dal Pannello di controllo. In caso contrario, non sarà possibile installare il certificato dal Pannello di controllo.
+* Accertatevi che la richiesta di firma certificato (Certificate Signing Request, CSR) corrisponda al sottodominio delegato ad Adobe. Ad esempio, non può contenere più sottodomini di quello delegato.
+* Il certificato deve avere una data corrente. Non è possibile installare certificati con date future.
+
+Per installare il certificato, effettuate le seguenti operazioni:
 
 1. Nella **[!UICONTROL Subdomains & Certificates]**scheda, selezionate l&#39;istanza desiderata, quindi fate clic sul**[!UICONTROL Manage Certificate]** pulsante.
 
@@ -71,3 +85,7 @@ Una volta acquistato un certificato SSL, effettuate le seguenti operazioni per i
 1. Selezionate il file .zip che contiene il certificato da installare, quindi fate clic **[!UICONTROL Submit]**.
 
    ![](assets/install2.png)
+
+Una volta installato il certificato SSL, la data di scadenza e l&#39;icona di stato del certificato vengono aggiornate di conseguenza.
+
+L&#39;indirizzo URL del sottodominio passerà da **http** a **https**.
