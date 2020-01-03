@@ -4,7 +4,7 @@ sub-product: control panel
 audience: end-user
 user-guide-title: Control Panel Help
 translation-type: tm+mt
-source-git-commit: 52f155bbbecec9edabc66cbc28756f9579b81f04
+source-git-commit: 84365863dae5309cd14560843f2e6ec4c021cbab
 
 ---
 
@@ -23,11 +23,6 @@ source-git-commit: 52f155bbbecec9edabc66cbc28756f9579b81f04
    + [Gestione delle chiavi](sftp/using/key-management.md)
    + [Accesso al server SFTP](sftp/using/logging-into-sftp-server.md)
    + [Domande frequenti](sftp/using/common-questions.md)
-+ Sottodomini e certificati {#subdomains-and-certificates}
-   + [Marchio dei sottodomini](subdomains-certificates/using/subdomains-branding.md)
-   + [Impostazione di un nuovo sottodominio](subdomains-certificates/using/setting-up-new-subdomain.md)
-   + [Monitoraggio dei certificati SSL](subdomains-certificates/using/monitoring-ssl-certificates.md)
-   + [Rinnovo dei certificati SSL](subdomains-certificates/using/renewing-subdomain-certificate.md)
 + Sottodomini e certificati {#subdomains-and-certificates}
    + Gestione dei sottodomini {#managing-subdomains}
       + [Marchio dei sottodomini](subdomains-certificates/using/subdomains-branding.md)
