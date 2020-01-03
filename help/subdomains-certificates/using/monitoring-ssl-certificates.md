@@ -2,12 +2,14 @@
 title: Monitoraggio dei certificati SSL dei sottodomini
 description: Scoprite come monitorare i certificati SSL dei sottodomini
 translation-type: tm+mt
-source-git-commit: 85bef8fa652be883bc2afbc42a2d893ea75a4e77
+source-git-commit: 001064877594a10733c054f925f254545f93145d
 
 ---
 
 
 # Monitoraggio dei certificati SSL dei sottodomini {#monitoring-ssl-certificates}
+
+## Informazioni sui certificati SSL {#about-ssl-certificates}
 
 Adobe Campaign consiglia di proteggere i sottodomini che ospitano le pagine di destinazione, in particolare quelli che raccolgono informazioni riservate dei clienti.
 
@@ -19,4 +21,28 @@ Adobe Campaign consiglia di proteggere i sottodomini che ospitano le pagine di d
 
 ![](assets/no_certificate.png)
 
-Se uno dei certificati SSL del sottodominio sta per scadere, è possibile rinnovarlo direttamente dal Pannello di controllo. Per ulteriori informazioni, consulta questa sezione: Rinnovo [del certificato](../../subdomains-certificates/using/renewing-subdomain-certificate.md)SSL di un sottodominio.
+## Monitoraggio dei certificati SSL {#monitoring-certificates}
+
+Lo stato dei certificati SSL dei sottodomini è disponibile direttamente dall&#39;elenco dei sottodomini quando si seleziona la **[!UICONTROL Subdomains & Certificates]**scheda.
+
+I sottodomini sono organizzati in base alla data di scadenza più vicina del certificato SSL, con informazioni visive sulla scadenza, espressa in giorni:
+
+* **Verde**: il sottodominio non ha certificato che scade entro i successivi 60 giorni.
+* **Arancia**: uno o più sottodomini dispongono di un certificato che scade entro i successivi 60 giorni.
+* **Rosso**: uno o più sottodomini dispongono di un certificato che scade entro i prossimi 30 giorni.
+* **Grigio**: nessun certificato installato per il sottodominio.
+
+![](assets/subdomains_list.png)
+
+Per visualizzare ulteriori dettagli su un sottodominio, fare clic sul **[!UICONTROL Subdomain Details]**pulsante .
+Viene visualizzato l&#39;elenco di tutti i sottodomini correlati. In genere include sottodomini di pagine di destinazione, pagine di risorse e così via.
+
+La **[!UICONTROL Sender info]**scheda fornisce informazioni sulle inbox configurate (Mittente, Rispondi a, E-mail di errore).
+
+![](assets/subdomain_details.png)
+
+Se uno dei certificati SSL del sottodominio sta per scadere, puoi rinnovarlo direttamente dal Pannello di controllo. Per ulteriori informazioni, consulta questa sezione: Rinnovo [del certificato](../../subdomains-certificates/using/renewing-subdomain-certificate.md)SSL di un sottodominio.
+
+>[!NOTE]
+>
+>Il rinnovo del certificato dal Pannello di controllo sarà presto disponibile in versione beta. Nel frattempo, fare riferimento a [questa pagina](https://helpx.adobe.com/campaign/kb/control-panel-subdomains-certificates.html) per ulteriori informazioni su come monitorare i certificati all&#39;interno del Pannello di controllo.
