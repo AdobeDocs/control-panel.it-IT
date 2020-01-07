@@ -2,7 +2,7 @@
 title: Gestione delle chiavi
 description: Scopri come gestire le chiavi per la connessione ai server SFTP
 translation-type: tm+mt
-source-git-commit: 85bef8fa652be883bc2afbc42a2d893ea75a4e77
+source-git-commit: 46b78a83b1d613dc41983204ef9d9d371fb32156
 
 ---
 
@@ -41,7 +41,7 @@ In casi molto rari l&#39;autenticazione basata sulla password è abilitata su al
 >
 >I passaggi indicati di seguito sono solo un esempio di creazione di chiavi SSH. Seguite le linee guida aziendali relative alle chiavi SSH. L&#39;esempio seguente è solo un esempio di come ciò possa essere fatto e funge da utile punto di riferimento per comunicare i requisiti al team o al gruppo di rete interno.
 
-1. Navigate to the **[!UICONTROL Key Management]**tab, then click the**[!UICONTROL Add public key]** button.
+1. Navigate to the **[!UICONTROL Key Management]**tab, then click the**[!UICONTROL Add new public key]** button.
 
    ![](assets/key0.png)
 
