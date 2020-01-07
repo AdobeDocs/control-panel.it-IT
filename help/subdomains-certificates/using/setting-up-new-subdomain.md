@@ -2,16 +2,18 @@
 title: Impostazione di un nuovo sottodominio
 description: Scoprite come impostare un nuovo sottodominio per le istanze della campagna
 translation-type: tm+mt
-source-git-commit: 766ff590d83929eeddb69113904643517c1475ad
+source-git-commit: c44f6800a0f7905fe9e5619388c7007f0af8f973
 
 ---
 
 
 # Impostazione di un nuovo sottodominio {#setting-up-subdomain}
 
->[!NOTE]
+>[!IMPORTANT]
 >
->La delega di sottodominio del Pannello di controllo è attualmente in versione beta e soggetta a frequenti aggiornamenti e modifiche senza notifica.
+>La delega di sottodominio del Pannello di controllo sarà disponibile in versione beta entro la fine di gennaio e soggetta a frequenti aggiornamenti e modifiche senza preavviso.
+
+In caso di domande sui metodi di delega dei sottodomini, rivolgiti al team di Adobe Deliverability o contatta l&#39;Assistenza clienti per richiedere la consulenza sulla conformità.
 
 ## Delega di sottodomini completa {#full-subdomain-delegation}
 
@@ -19,8 +21,9 @@ Il Pannello di controllo consente di delegare completamente un sottodominio ad A
 
 >[!NOTE]
 >
->Se non è configurato alcun sottodominio per Adobe, il primo sottodominio configurato verrà considerato come sottodominio ****primario.
->Viene creato un record **DNS** inverso e impostato come sottodominio di invio predefinito per le inbox (mittente, risposta, indirizzi e-mail di errore).
+>Se l&#39;istanza selezionata non dispone di sottodomini configurati in precedenza, il primo sottodominio delegato ad Adobe diventerà il sottodominio **** principale per tale istanza, non sarà possibile modificarlo in futuro.
+>
+>I record DNS inversi verranno creati per altri sottodomini utilizzando il sottodominio primario. Gli indirizzi di risposta e rimbalzo per altri sottodomini verranno generati dal sottodominio primario.
 
 1. Nella **[!UICONTROL Subdomains & Certificates]**scheda, selezionate l&#39;istanza di produzione desiderata, quindi fate clic su**[!UICONTROL Setup new subdomain]**.
 
@@ -105,4 +108,4 @@ Per ottenere ulteriori dettagli sul sottodominio, fare clic sul **[!UICONTROL Su
 
 ## Utilizzo dei CNAME {#use-cnames}
 
-L’utilizzo di CNAME per la delega di sottodominio non è consigliato da Adobe e non è supportato dal Pannello di controllo. Per utilizzare questo metodo, contatta l’Assistenza clienti Adobe.
+L’utilizzo di CNAME per la delega di sottodominio non è supportato dal Pannello di controllo. Per utilizzare questo metodo, contatta l’Assistenza clienti Adobe.
