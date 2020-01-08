@@ -4,7 +4,7 @@ sub-product: control panel
 audience: end-user
 user-guide-title: Control Panel Help
 translation-type: tm+mt
-source-git-commit: 904cd7376496e0138f5c4a29b59e3f8b248d499a
+source-git-commit: 87a9a587e7728ff9b76cedb9bb5990dfe1ac1c78
 
 ---
 
@@ -26,13 +26,11 @@ source-git-commit: 904cd7376496e0138f5c4a29b59e3f8b248d499a
    + [Accesso al server SFTP](sftp/using/logging-into-sftp-server.md)
    + [Domande frequenti](sftp/using/common-questions.md)
 + Sottodomini e certificati {#subdomains-and-certificates}
-   + Gestione dei sottodomini {#managing-subdomains}
-      + [Marchio dei sottodomini](subdomains-certificates/using/subdomains-branding.md)
-      + [Monitoraggio dei sottodomini](subdomains-certificates/using/monitoring-subdomains.md)
-      + [Impostazione di un nuovo sottodominio](subdomains-certificates/using/setting-up-new-subdomain.md)
-   + Gestione dei certificati SSL {#managing-certificates}
-      + [Monitoraggio dei certificati SSL](subdomains-certificates/using/monitoring-ssl-certificates.md)
-      + [Rinnovo dei certificati SSL](subdomains-certificates/using/renewing-subdomain-certificate.md)
+   + [Marchio dei sottodomini](subdomains-certificates/using/subdomains-branding.md)
+   + [Monitoraggio dei sottodomini](subdomains-certificates/using/monitoring-subdomains.md)
+   + [Impostazione di un nuovo sottodominio](subdomains-certificates/using/setting-up-new-subdomain.md)
+   + [Monitoraggio dei certificati SSL](subdomains-certificates/using/monitoring-ssl-certificates.md)
+   + [Rinnovo dei certificati SSL](subdomains-certificates/using/renewing-subdomain-certificate.md)
 + Impostazioni delle istanze (Campaign Classic) {#instances-settings}
    + [Whitelist IP per l&#39;accesso ad esempio](instances-settings/using/ip-whitelisting-instance-access.md)
    + [Autorizzazioni URL](instances-settings/using/url-permissions.md)
