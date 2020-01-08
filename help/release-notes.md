@@ -1,7 +1,7 @@
 ---
 title: Rilasci del Pannello di controllo
 translation-type: tm+mt
-source-git-commit: 5a7200038abd647a3e77d043d14579590449218c
+source-git-commit: 5a2c66df101516a33c194851263d309ad6f29971
 
 ---
 
@@ -18,7 +18,15 @@ Qui troverete informazioni sulle ultime versioni del Pannello di controllo.
 
 *22 gennaio 2020*
 
-da definire
+Sono state aggiunte nuove funzionalità per consentire agli utenti Admin di delegare i sottodomini e rinnovare i certificati SSL dal Pannello di controllo.
+
+Per ulteriori informazioni, consulta le pagine seguenti:
+* [Impostazione di un nuovo sottodominio](subdomains-certificates/using/setting-up-new-subdomain.md)
+* [Rinnovo del certificato SSL di un sottodominio](subdomains-certificates/using/renewing-subdomain-certificate.md)
+
+>[!IMPORTANT]
+>
+>Queste funzioni saranno disponibili in versione beta e soggette a frequenti aggiornamenti e modifiche senza preavviso.
 
 ## Settembre 2019 {#september-2019}
 
