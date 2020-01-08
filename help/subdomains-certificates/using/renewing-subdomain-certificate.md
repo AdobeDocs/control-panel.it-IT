@@ -2,7 +2,7 @@
 title: Rinnovo del certificato SSL di un sottodominio
 description: Scopri come rinnovare i certificati SSL dei sottodomini
 translation-type: tm+mt
-source-git-commit: c44f6800a0f7905fe9e5619388c7007f0af8f973
+source-git-commit: 50d29d25891adc866d624888ca72e16e529ae7bf
 
 ---
 
@@ -60,6 +60,10 @@ Per generare una richiesta di firma dei certificati (CSR), procedere come segue:
 
 1. Il file .csr corrispondente alla selezione viene generato e scaricato automaticamente. Ora potete usarlo per acquistare il certificato SSL dall’autorità di certificazione approvata dalla società.
 
+   >[!NOTE]
+   >
+   >Se la CSR non viene salvata o scaricata, andrà persa e dovrete rigenerarla.
+
 ## Acquisto di un certificato con il CSR {#purchasing-certificate}
 
 Dopo aver ottenuto un CSR per la richiesta di firma dei certificati dal Pannello di controllo, acquistate un certificato SSL da un&#39;autorità di certificazione approvata dalla vostra organizzazione.
@@ -69,8 +73,18 @@ Dopo aver ottenuto un CSR per la richiesta di firma dei certificati dal Pannello
 Una volta acquistato un certificato SSL, potete installarlo nell’istanza. Prima di procedere, accertatevi di conoscere i prerequisiti seguenti:
 
 * La richiesta di firma del certificato (CSR) deve essere stata generata dal Pannello di controllo. In caso contrario, non sarà possibile installare il certificato dal Pannello di controllo.
-* Accertatevi che la richiesta di firma certificato (Certificate Signing Request, CSR) corrisponda al sottodominio delegato ad Adobe. Ad esempio, non può contenere più sottodomini di quello delegato.
-* Il certificato deve avere una data corrente. Non è possibile installare certificati con date future.
+* La richiesta di firma del certificato (CSR) deve corrispondere al sottodominio delegato ad Adobe. Ad esempio, non può contenere più sottodomini di quello delegato.
+* Il certificato deve avere una data corrente. Non è possibile installare certificati con date future e non deve essere scaduto (ovvero date di inizio e di fine valide).
+* Il certificato deve essere rilasciato da un&#39;autorità di certificazione (CA) affidabile, come Comodo, DigiCert, GoPapà, ecc.
+* La dimensione del certificato deve essere di 2048 bit e l&#39;algoritmo deve essere RSA.
+* Il certificato deve essere in formato X.509 PEM.
+* I certificati SAN sono supportati.
+* I certificati jolly non sono supportati.
+* Il file ZIP o il certificato non devono essere protetti da password.
+* Il file ZIP deve contenere solo quanto segue in preferibilmente singoli file:
+   * Certificato di entità finale.
+   * Catena certificati intermedia (ordinata in modo corretto).
+   * Certificato di origine (facoltativo).
 
 Per installare il certificato, effettuate le seguenti operazioni:
 
@@ -87,5 +101,3 @@ Per installare il certificato, effettuate le seguenti operazioni:
    ![](assets/install2.png)
 
 Una volta installato il certificato SSL, la data di scadenza e l&#39;icona di stato del certificato vengono aggiornate di conseguenza.
-
-L&#39;indirizzo URL del sottodominio passerà da **http** a **https**.
