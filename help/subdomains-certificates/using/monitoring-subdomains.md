@@ -2,7 +2,7 @@
 title: Monitoraggio dei certificati SSL dei sottodomini
 description: Scoprite come monitorare i certificati SSL dei sottodomini
 translation-type: tm+mt
-source-git-commit: 52f155bbbecec9edabc66cbc28756f9579b81f04
+source-git-commit: c51a43fb310bbb8bd7570bc4ea668d708159535c
 
 ---
 
@@ -13,15 +13,13 @@ source-git-commit: 52f155bbbecec9edabc66cbc28756f9579b81f04
 
 L&#39;elenco dei sottodomini per ciascuna istanza di produzione è accessibile direttamente quando si seleziona la **[!UICONTROL Subdomains & Certificates]**scheda.
 
-![](assets/subdomains_list.png)
-
-Nell’elenco dei sottodomini, la **[!UICONTROL Last verification]**colonna indica quando un sottodominio è stato verificato per l’ultima volta.** Puoi avviare una verifica in qualsiasi momento facendo clic su **... /**[!UICONTROL Verify subdomain]** pulsante.
+La **[!UICONTROL Last verification]**colonna indica quando un sottodominio è stato verificato per l’ultima volta.** Puoi avviare una verifica in qualsiasi momento facendo clic su **... /**[!UICONTROL Verify subdomain]** pulsante.
 
 ![](assets/subdomain_verification.png)
 
 >[!CAUTION]
 >
->Adobe non consiglia di utilizzare sottodomini senza verificate data, in quanto potrebbe indicare che tali sottodomini potrebbero presentare problemi di recapito.
+>Adobe non consiglia di utilizzare sottodomini privi di data del certificato, in quanto potrebbe indicare che tali sottodomini potrebbero presentare problemi di recapito.
 
 Quando si avvia una verifica, vengono eseguite diverse operazioni per verificare che il sottodominio sia configurato correttamente (controllo tenant istanza, test di invio e-mail, ecc.)
 
