@@ -2,7 +2,7 @@
 title: Domande frequenti sul Pannello di controllo
 description: Domande comuni relative al Pannello di controllo
 translation-type: tm+mt
-source-git-commit: b728dfe0289e44188adfa6e71aac2e9fc0abc1d2
+source-git-commit: 9bd57cd6d4430cf2cae8575547f8e332f94940c1
 
 ---
 
@@ -41,7 +41,7 @@ Se avete accesso a più soluzioni Adobe, potete disporre di più ID organizzazio
 
 Per verificare se l’istanza è in hosting su AWS, effettuate le seguenti operazioni:
 
-1. Recuperate l’URL di accesso. Si tratta dell&#39;URL utilizzato per accedere all&#39;istanza Campaign, che termina principalmente con &quot;.campaign.adobe.com&quot;.
+1. Recuperate l’URL di accesso. Si tratta dell&#39;URL usato per accedere all&#39;istanza Campaign, che termina principalmente con &quot;.campaign.adobe.com&quot; o&quot;.neolane.net&quot;.
 1. Aprite il terminale, quindi eseguite un&#39; **[!DNL nslookup]**operazione sull&#39;URL di accesso.
 
    `doe-macOS% nslookup myinstance.campaign.adobe.com`
