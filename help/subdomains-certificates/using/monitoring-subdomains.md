@@ -2,7 +2,7 @@
 title: Monitoraggio dei certificati SSL dei sottodomini
 description: Scoprite come monitorare i certificati SSL dei sottodomini
 translation-type: tm+mt
-source-git-commit: 762c445713e6e728fc1a45d5fcf8c9c1cb0dcdf6
+source-git-commit: ce15da4aabb0350cb9a60cc16556ffcf691fc3df
 
 ---
 
@@ -28,5 +28,5 @@ Se la verifica del sottodominio ha esito negativo, contatta l&#39;Assistenza cli
 **Argomenti correlati:**
 
 * [Aggiunta di certificati SSL (video di esercitazione)](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/control-panel/adding-ssl-certificates.html)
-* [Rinnovo del certificato SSL di un sottodominio](../..help/subdomains-certificates/using/renewing-subdomain-certificate.md)
+* [Rinnovo del certificato SSL di un sottodominio](../../subdomains-certificates/using/renewing-subdomain-certificate.md)
 * [Marchio dei sottodomini](../../subdomains-certificates/using/subdomains-branding.md)
