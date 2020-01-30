@@ -2,7 +2,7 @@
 title: Rinnovo del certificato SSL di un sottodominio
 description: Scopri come rinnovare i certificati SSL dei sottodomini
 translation-type: tm+mt
-source-git-commit: 50d29d25891adc866d624888ca72e16e529ae7bf
+source-git-commit: 762c445713e6e728fc1a45d5fcf8c9c1cb0dcdf6
 
 ---
 
@@ -101,3 +101,9 @@ Per installare il certificato, effettuate le seguenti operazioni:
    ![](assets/install2.png)
 
 Una volta installato il certificato SSL, la data di scadenza e l&#39;icona di stato del certificato vengono aggiornate di conseguenza.
+
+**Argomenti correlati:**
+
+* [Aggiunta di certificati SSL (video di esercitazione)](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/control-panel/adding-ssl-certificates.html)
+* [Marchio dei sottodomini](../../subdomains-certificates/using/subdomains-branding.md)
+* [Monitoraggio dei sottodomini](../../subdomains-certificates/using/monitoring-subdomains.md)
