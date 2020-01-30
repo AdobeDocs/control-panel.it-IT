@@ -2,7 +2,7 @@
 title: Impostazione di un nuovo sottodominio
 description: Scoprite come impostare un nuovo sottodominio per le istanze della campagna
 translation-type: tm+mt
-source-git-commit: c44f6800a0f7905fe9e5619388c7007f0af8f973
+source-git-commit: 762c445713e6e728fc1a45d5fcf8c9c1cb0dcdf6
 
 ---
 
@@ -109,3 +109,9 @@ Per ottenere ulteriori dettagli sul sottodominio, fare clic sul **[!UICONTROL Su
 ## Utilizzo dei CNAME {#use-cnames}
 
 L’utilizzo di CNAME per la delega di sottodominio non è supportato dal Pannello di controllo. Per utilizzare questo metodo, contatta l’Assistenza clienti Adobe.
+
+**Argomenti correlati:**
+
+* [Delega di sottodomini (video di esercitazione)](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/control-panel/subdomain-delegation.html)
+* [Marchio dei sottodomini](../../subdomains-certificates/using/subdomains-branding.md)
+* [Monitoraggio dei sottodomini](../../subdomains-certificates/using/monitoring-subdomains.md)
