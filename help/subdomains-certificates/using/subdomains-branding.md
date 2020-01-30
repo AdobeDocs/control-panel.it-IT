@@ -2,7 +2,7 @@
 title: Marchio dei sottodomini
 description: Ulteriori informazioni sul branding dei sottodomini
 translation-type: tm+mt
-source-git-commit: c44f6800a0f7905fe9e5619388c7007f0af8f973
+source-git-commit: 762c445713e6e728fc1a45d5fcf8c9c1cb0dcdf6
 
 ---
 
@@ -42,3 +42,9 @@ La tabella seguente fornisce un riepilogo del funzionamento di questi metodi, ol
 Ulteriori informazioni sulla delega del dominio sono disponibili in [questa documentazione](https://helpx.adobe.com/campaign/kb/domain-name-delegation.html).
 
 In caso di domande sui metodi di delega dei sottodomini, rivolgiti al team di Adobe Deliverability o contatta l&#39;Assistenza clienti per richiedere la consulenza sulla conformità.
+
+**Argomenti correlati:**
+
+* [Impostazione di un nuovo sottodominio](../../subdomains-certificates/using/setting-up-new-subdomain.md)
+* [Delega di sottodomini (video di esercitazione)](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/control-panel/subdomain-delegation.html)
+* [Monitoraggio dei sottodomini](../../subdomains-certificates/using/monitoring-subdomains.md)
