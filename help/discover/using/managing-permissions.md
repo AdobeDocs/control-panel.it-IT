@@ -2,7 +2,7 @@
 title: Gestione delle autorizzazioni al Pannello di controllo
 description: Scopri come gestire le autorizzazioni per il Pannello di controllo
 translation-type: tm+mt
-source-git-commit: 85bef8fa652be883bc2afbc42a2d893ea75a4e77
+source-git-commit: ddf4ca24c1583e388c07aae110522627220d5e66
 
 ---
 
@@ -11,7 +11,7 @@ source-git-commit: 85bef8fa652be883bc2afbc42a2d893ea75a4e77
 
 Il Pannello di controllo è disponibile per tutti gli utenti Admin di un&#39;istanza Campaign. Attenetevi alla procedura seguente per assegnare gli utenti al gruppo Amministratori e concedere loro l’accesso al Pannello di controllo.
 
-1. Passa ad [Adobe Experience Cloud](https://amc.experiencecloud.adobe.com/exc-content/login.html), quindi seleziona la **[!UICONTROL Administration]**scheda.
+1. Passa ad [Adobe Experience Cloud](https://experiencecloud.adobe.com/), quindi seleziona la **[!UICONTROL Administration]**scheda.
 
    ![](assets/do-not-localize/control_panel_add_user1.png)
 
