@@ -2,7 +2,7 @@
 title: Impostazione di un nuovo sottodominio
 description: Scoprite come impostare un nuovo sottodominio per le istanze della campagna
 translation-type: tm+mt
-source-git-commit: ee5567a41f68d4dc51c19ae70e8b25693a1d33fa
+source-git-commit: f0aea7944ea31b76f1f9efef6d0e759c7b5896b6
 
 ---
 
@@ -12,8 +12,6 @@ source-git-commit: ee5567a41f68d4dc51c19ae70e8b25693a1d33fa
 >[!IMPORTANT]
 >
 >La delega di sottodominio del Pannello di controllo è disponibile in versione beta e soggetta a frequenti aggiornamenti e modifiche senza preavviso.
-
-In caso di domande sui metodi di delega dei sottodomini, rivolgiti al team di Adobe Deliverability o contatta l&#39;Assistenza clienti per richiedere la consulenza sulla conformità.
 
 ## Delega di sottodomini completa {#full-subdomain-delegation}
 
@@ -25,7 +23,7 @@ Il Pannello di controllo consente di delegare completamente un sottodominio ad A
 >
 >I record DNS inversi verranno creati per altri sottodomini utilizzando il sottodominio primario. Gli indirizzi di risposta e rimbalzo per altri sottodomini verranno generati dal sottodominio primario.
 
-1. Nella **[!UICONTROL Subdomains & Certificates]**scheda, selezionate l&#39;istanza di produzione desiderata, quindi fate clic su**[!UICONTROL Setup new subdomain]**.
+1. Nella **[!UICONTROL Subdomains & Certificates]** scheda, selezionate l&#39;istanza di produzione desiderata, quindi fate clic su **[!UICONTROL Setup new subdomain]**.
 
    ![](assets/subdomain1.png)
 
@@ -33,7 +31,7 @@ Il Pannello di controllo consente di delegare completamente un sottodominio ad A
    >
    >La delega del sottodominio è disponibile solo per le istanze di **produzione** .
 
-1. Fare clic **[!UICONTROL Next]**per confermare il metodo di delega completo.
+1. Fare clic **[!UICONTROL Next]** per confermare il metodo di delega completo.
 
    ![](assets/subdomain3.png)
 
@@ -73,13 +71,13 @@ Il Pannello di controllo consente di delegare completamente un sottodominio ad A
 
 1. Dopo l&#39;invio del sottodominio, il Pannello di controllo verificherà che esso punti correttamente ai record Adobe NS e che il record Start of Authority (SOA) non esista per questo sottodominio.
 
-1. Se i controlli vengono eseguiti correttamente, il Pannello di controllo avvia la configurazione del sottodominio con record DNS, URL aggiuntivi, inbox e così via. Per maggiori dettagli sull’avanzamento della configurazione, fai clic sul **[!UICONTROL Process details]**pulsante .
+1. Se i controlli vengono eseguiti correttamente, il Pannello di controllo avvia la configurazione del sottodominio con record DNS, URL aggiuntivi, inbox e così via. Per maggiori dettagli sull’avanzamento della configurazione, fai clic sul **[!UICONTROL Process details]** pulsante .
 
    ![](assets/subdomain7.png)
 
    >[!NOTE]
    >
-   >In alcuni casi, la delega viene eseguita, ma il sottodominio potrebbe non essere stato verificato. Il sottodominio entrerà direttamente nell&#39; **[!UICONTROL Verified subdomains]**elenco con lo**[!UICONTROL Unverified]** stato e un registro di processo che fornisce informazioni sull&#39;errore. In caso di problemi con la risoluzione del problema, contatta l’Assistenza clienti.
+   >In alcuni casi, la delega viene eseguita, ma il sottodominio potrebbe non essere stato verificato. Il sottodominio entrerà direttamente nell&#39; **[!UICONTROL Verified subdomains]** elenco con lo **[!UICONTROL Unverified]** stato e un registro di processo che fornisce informazioni sull&#39;errore. In caso di problemi con la risoluzione del problema, contatta l’Assistenza clienti.
    >
    >Durante l&#39;esecuzione della delega di sottodominio, altre richieste tramite il Pannello di controllo verranno inserite in una coda ed eseguite solo al termine della delega di sottodominio, per evitare problemi di prestazioni.
 
@@ -94,15 +92,15 @@ Al termine del processo, i sottodomini saranno configurati per lavorare con l&#3
 >Per impostazione predefinita, la casella in entrata &quot;Rispondi a&quot; del Pannello di controllo è configurata per cancellare le e-mail e non è possibile visualizzarle. Se desideri monitorare la casella in entrata &quot;Rispondi a&quot; per le tue campagne di marketing, non utilizzare questo indirizzo.
 
 
-Per ottenere ulteriori dettagli sul sottodominio, fare clic sul **[!UICONTROL Subdomain Details]**pulsante.
+Per ottenere ulteriori dettagli sul sottodominio, fare clic sul **[!UICONTROL Subdomain Details]** pulsante.
 
 ![](assets/subdomain_details_general.png)
 
 ![](assets/subdomains_details_senderinfo.png)
 
->[!NOTE]
+>[!IMPORTANT]
 >
->Oltre alla fase di elaborazione, Adobe avviserà il team di recapito del nuovo sottodominio per controllare il sottodominio creato. Il processo di controllo può richiedere fino a 3 giorni dopo la delega del sottodominio.
+>Al termine della fase di elaborazione, è necessario verificare con l&#39;Assistenza clienti Adobe che sia stata inoltrata una richiesta di audit affinché il team di recapito effettui il controllo del nuovo sottodominio creato. Il processo di audit può richiedere fino a 3 10 giorni lavorativi dopo la delega del sottodominio.
 >
 >I controlli eseguiti includono cicli di feedback e cicli di reclamo spam. Pertanto non si consiglia di utilizzare il sottodominio prima che l&#39;audit sia stato completato, in quanto potrebbe portare a una cattiva reputazione del sottodominio.
 
