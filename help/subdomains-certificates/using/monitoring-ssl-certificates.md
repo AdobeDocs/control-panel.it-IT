@@ -2,7 +2,7 @@
 title: Monitoraggio dei certificati SSL dei sottodomini
 description: Scoprite come monitorare i certificati SSL dei sottodomini
 translation-type: tm+mt
-source-git-commit: ce15da4aabb0350cb9a60cc16556ffcf691fc3df
+source-git-commit: f0aea7944ea31b76f1f9efef6d0e759c7b5896b6
 
 ---
 
@@ -23,7 +23,7 @@ Adobe Campaign consiglia di proteggere i sottodomini che ospitano le pagine di d
 
 ## Monitoraggio dei certificati SSL {#monitoring-certificates}
 
-Lo stato dei certificati SSL dei sottodomini è disponibile direttamente dall&#39;elenco dei sottodomini quando si seleziona la **[!UICONTROL Subdomains & Certificates]**scheda.
+Lo stato dei certificati SSL dei sottodomini è disponibile direttamente dall&#39;elenco dei sottodomini quando si seleziona la **[!UICONTROL Subdomains & Certificates]** scheda.
 
 I sottodomini sono organizzati in base alla data di scadenza più vicina del certificato SSL, con informazioni visive sulla scadenza, espressa in giorni:
 
@@ -34,10 +34,10 @@ I sottodomini sono organizzati in base alla data di scadenza più vicina del cer
 
 ![](assets/subdomains_list.png)
 
-Per visualizzare ulteriori dettagli su un sottodominio, fare clic sul **[!UICONTROL Subdomain Details]**pulsante .
+Per visualizzare ulteriori dettagli su un sottodominio, fare clic sul **[!UICONTROL Subdomain Details]** pulsante .
 Viene visualizzato l&#39;elenco di tutti i sottodomini correlati. In genere include sottodomini di pagine di destinazione, pagine di risorse e così via.
 
-La **[!UICONTROL Sender info]**scheda fornisce informazioni sulle inbox configurate (Mittente, Rispondi a, E-mail di errore).
+La **[!UICONTROL Sender info]** scheda fornisce informazioni sulle inbox configurate (Mittente, Rispondi a, E-mail di errore).
 
 ![](assets/subdomain_details.png)
 
@@ -45,7 +45,7 @@ Se uno dei certificati SSL del sottodominio sta per scadere, puoi rinnovarlo dir
 
 >[!IMPORTANT]
 >
->Il rinnovo del certificato dal Pannello di controllo sarà disponibile in versione beta entro la fine di gennaio, e soggetto a frequenti aggiornamenti e modifiche senza preavviso.
+>Il rinnovo del certificato dal Pannello di controllo è disponibile in versione beta e soggetto a frequenti aggiornamenti e modifiche senza preavviso.
 
 **Argomenti correlati:**
 
