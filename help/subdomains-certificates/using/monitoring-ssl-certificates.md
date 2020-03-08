@@ -2,7 +2,7 @@
 title: Monitoraggio dei certificati SSL dei sottodomini
 description: Scoprite come monitorare i certificati SSL dei sottodomini
 translation-type: tm+mt
-source-git-commit: f0aea7944ea31b76f1f9efef6d0e759c7b5896b6
+source-git-commit: f22e356b283ee2601c948d5c1d514a9a59c58451
 
 ---
 
@@ -23,12 +23,17 @@ Adobe Campaign consiglia di proteggere i sottodomini che ospitano le pagine di d
 
 ## Monitoraggio dei certificati SSL {#monitoring-certificates}
 
+>[!CONTEXTUALHELP]
+>id=&quot;cp_subdomain_details&quot;
+>title=&quot;Dettagli del sottodominio&quot;
+>abstract=&quot;Recupera informazioni sui tuoi sottodomini.&quot;
+
 Lo stato dei certificati SSL dei sottodomini è disponibile direttamente dall&#39;elenco dei sottodomini quando si seleziona la **[!UICONTROL Subdomains & Certificates]** scheda.
 
 I sottodomini sono organizzati in base alla data di scadenza più vicina del certificato SSL, con informazioni visive sulla scadenza, espressa in giorni:
 
 * **Verde**: il sottodominio non ha certificato che scade entro i successivi 60 giorni.
-* **Arancia**: uno o più sottodomini dispongono di un certificato che scade entro i successivi 60 giorni.
+* **Arancione**: uno o più sottodomini dispongono di un certificato che scade entro i successivi 60 giorni.
 * **Rosso**: uno o più sottodomini dispongono di un certificato che scade entro i prossimi 30 giorni.
 * **Grigio**: nessun certificato installato per il sottodominio.
 
