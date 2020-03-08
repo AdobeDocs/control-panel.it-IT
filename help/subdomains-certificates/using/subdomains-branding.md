@@ -2,12 +2,18 @@
 title: Marchio dei sottodomini
 description: Ulteriori informazioni sul branding dei sottodomini
 translation-type: tm+mt
-source-git-commit: ee5567a41f68d4dc51c19ae70e8b25693a1d33fa
+source-git-commit: f22e356b283ee2601c948d5c1d514a9a59c58451
 
 ---
 
 
 # Marchio dei sottodomini {#subdomains-branding}
+
+>[!CONTEXTUALHELP]
+>id=&quot;cp_certificate_management&quot;
+>title=&quot;I sottodomini e i certificati SSL&quot;
+>abstract=&quot;Controlla i tuoi sottodomini e i certificati SSL associati.&quot;
+>Additional-url=&quot;https://docs.adobe.com/content/help/en/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html&quot; text=&quot;Come monitorare i certificati SSL dei sottodomini&quot;
 
 >[!IMPORTANT]
 >
@@ -36,8 +42,8 @@ La tabella seguente fornisce un riepilogo del funzionamento di questi metodi, ol
 
 | Metodo di delega | Come funziona | Livello di sforzo |
 |---|---|---|
-| **Delega completa** | Creare il record del sottodominio e dello spazio nomi. Adobe configurerà quindi tutti i record DNS richiesti per Adobe Campaign.<br/><br/>In questa configurazione, Adobe è completamente responsabile della gestione del sottodominio e di tutti i record DNS. | Bassa |
-| **CNAME, metodo personalizzato** | Creare il record del sottodominio e dello spazio nomi. Adobe fornirà quindi i record da inserire nei server DNS e configurerà i valori corrispondenti nei server DNS di Adobe Campaign.<br/><br/>In questa configurazione, sia voi che Adobe condividete la responsabilità di mantenere il DNS. | Alta |
+| **Delega completa** | Creare il record del sottodominio e dello spazio dei nomi. Adobe configurerà quindi tutti i record DNS richiesti per Adobe Campaign.<br/><br/>In questa configurazione, Adobe è completamente responsabile della gestione del sottodominio e di tutti i record DNS. | Bassa |
+| **CNAME, metodo personalizzato** | Creare il record del sottodominio e dello spazio dei nomi. Adobe fornirà quindi i record da inserire nei server DNS e configurerà i valori corrispondenti nei server DNS di Adobe Campaign.<br/><br/>In questa configurazione, sia voi che Adobe condividete la responsabilità di mantenere il DNS. | Alta |
 
 Ulteriori informazioni sulla delega del dominio sono disponibili in [questa documentazione](https://helpx.adobe.com/campaign/kb/domain-name-delegation.html).
 
