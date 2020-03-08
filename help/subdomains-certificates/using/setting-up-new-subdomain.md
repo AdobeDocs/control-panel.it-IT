@@ -2,12 +2,18 @@
 title: Impostazione di un nuovo sottodominio
 description: Scoprite come impostare un nuovo sottodominio per le istanze della campagna
 translation-type: tm+mt
-source-git-commit: f0aea7944ea31b76f1f9efef6d0e759c7b5896b6
+source-git-commit: f22e356b283ee2601c948d5c1d514a9a59c58451
 
 ---
 
 
 # Impostazione di un nuovo sottodominio {#setting-up-subdomain}
+
+>[!CONTEXTUALHELP]
+>id=&quot;cp_subdomain_management&quot;
+>title=&quot;Imposta nuovi sottodomini e gestisci certificati&quot;
+>abstract=&quot;È necessario impostare un nuovo sottodominio e gestire i certificati SSL dei sottodomini per iniziare a inviare e-mail o pubblicare pagine di destinazione con Adobe Campaign.&quot;
+>Additional-url=&quot;https://docs.adobe.com/content/help/en/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html&quot; text=&quot;Come monitorare i certificati SSL dei sottodomini&quot;
 
 >[!IMPORTANT]
 >
@@ -15,7 +21,7 @@ source-git-commit: f0aea7944ea31b76f1f9efef6d0e759c7b5896b6
 
 ## Delega di sottodomini completa {#full-subdomain-delegation}
 
-Il Pannello di controllo consente di delegare completamente un sottodominio ad Adobe Campaign. A questo scopo, attenetevi alla procedura seguente.
+Il Pannello di controllo consente di delegare completamente un sottodominio ad Adobe Campaign. A questo scopo, attenetevi alla procedura indicata di seguito.
 
 >[!NOTE]
 >
@@ -85,7 +91,7 @@ Al termine del processo, i sottodomini saranno configurati per lavorare con l&#3
 
 * **Il sottodominio** con i seguenti record **** DNS: SOA, MX, CNAME(s), DKIM, SPF, TXT,
 * **Sottodomini** aggiuntivi per mirror host, risorse, pagine di tracciamento e chiave di dominio,
-* **Inbox**: Mittente, Errore, Risposta.
+* **Caselle** in entrata: Mittente, Errore, Risposta.
 
 >[!NOTE]
 >
