@@ -2,12 +2,18 @@
 title: Gestione delle chiavi
 description: Scopri come gestire le chiavi per la connessione ai server SFTP
 translation-type: tm+mt
-source-git-commit: 46b78a83b1d613dc41983204ef9d9d371fb32156
+source-git-commit: f22e356b283ee2601c948d5c1d514a9a59c58451
 
 ---
 
 
 # Gestione delle chiavi {#key-management}
+
+>[!CONTEXTUALHELP]
+>id=&quot;cp_key_management&quot;
+>title=&quot;Informazioni sulla gestione delle chiavi&quot;
+>abstract=&quot;In questa scheda è possibile gestire le chiavi pubbliche.&quot;
+>Additional-url=&quot;https://images-tv.adobe.com/mpcv3/8a977e03-d76c-44d3-853c-95d0b799c870_1560205338.1920x1080at3000_h264.mp4#t=166&quot; text=&quot;Guarda il video dimostrativo&quot;
 
 Adobe consiglia a tutti i clienti di stabilire una connessione ai propri server SFTP con una **coppia di chiavi pubblica e privata**.
 
@@ -37,11 +43,16 @@ In casi molto rari l&#39;autenticazione basata sulla password è abilitata su al
 
 ## Installazione della chiave SSH {#installing-ssh-key}
 
+>[!CONTEXTUALHELP]
+>id=&quot;cp_sftp_publickey_add&quot;
+>title=&quot;Aggiungi nuova chiave pubblica&quot;
+>abstract=&quot;Aggiungi una nuova chiave pubblica per un’istanza.&quot;
+
 >[!CAUTION]
 >
->I passaggi indicati di seguito sono solo un esempio di creazione di chiavi SSH. Seguite le linee guida aziendali relative alle chiavi SSH. L&#39;esempio seguente è solo un esempio di come ciò possa essere fatto e funge da utile punto di riferimento per comunicare i requisiti al team o al gruppo di rete interno.
+>I passaggi indicati di seguito sono solo un esempio di creazione di chiavi SSH. Seguite le linee guida aziendali relative alle chiavi SSH. L&#39;esempio seguente è solo un esempio di come ciò possa essere fatto e funge da utile punto di riferimento per la comunicazione dei requisiti al team o al gruppo di rete interno.
 
-1. Navigate to the **[!UICONTROL Key Management]**tab, then click the**[!UICONTROL Add new public key]** button.
+1. Navigate to the **[!UICONTROL Key Management]** tab, then click the **[!UICONTROL Add new public key]** button.
 
    ![](assets/key0.png)
 
@@ -66,7 +77,7 @@ In casi molto rari l&#39;autenticazione basata sulla password è abilitata su al
    Utilizzate il terminale per generare una coppia di chiavi pubblica e privata:
    1. Immettete questo comando: `ssh-keygen -t rsa -C <your_email@example.com>`.
    1. Quando richiesto, specificate un nome alla chiave. Se la directory .ssh non esiste, il sistema ne creerà una per voi.
-   1. Quando richiesto, inserite di nuovo una passphrase. Può anche essere lasciata vuota.
+   1. Immettete, quindi reimmettete, una passphrase quando richiesto. Può anche essere lasciata vuota.
    1. Il sistema crea una coppia di chiavi &quot;name&quot; e &quot;name.pub&quot;. Cercate il file &quot;name.pub&quot;, quindi apritelo. Deve avere una stringa alfanumerica che termina con l&#39;indirizzo e-mail specificato.
    **Windows:**
 
@@ -76,7 +87,7 @@ In casi molto rari l&#39;autenticazione basata sulla password è abilitata su al
 
    ![](assets/publickey.png)
 
-1. Fate clic sul **[!UICONTROL Save]**pulsante per creare la chiave. Il Pannello di controllo salva la chiave pubblica e l&#39;impronta digitale associata, crittografata con il formato SHA256.
+1. Fate clic sul **[!UICONTROL Save]** pulsante per creare la chiave. Il Pannello di controllo salva la chiave pubblica e l&#39;impronta digitale associata, crittografata con il formato SHA256.
 
 È possibile utilizzare le impronte digitali per far corrispondere le chiavi private salvate sul computer con le corrispondenti chiavi pubbliche salvate nel Pannello di controllo.
 
