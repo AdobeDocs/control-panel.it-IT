@@ -1,7 +1,7 @@
 ---
 title: Rilasci del Pannello di controllo
 translation-type: tm+mt
-source-git-commit: 5a2c66df101516a33c194851263d309ad6f29971
+source-git-commit: 5c35db25719830d196cc87ba0142c348bd8cdd92
 
 ---
 
@@ -14,11 +14,21 @@ Qui troverete informazioni sulle ultime versioni del Pannello di controllo.
 >
 >Il Pannello di controllo è disponibile solo per i clienti ospitati su AWS. Per accedere al Pannello di controllo non sono necessari aggiornamenti. Assicurati di essere un utente amministratore per accedervi.
 
+## Aprile 2020 {#april-2020}
+
+Nuove funzionalità saranno rilasciate nel Pannello di controllo della campagna ad aprile:
+
+**Gestione** record Google TXT Aggiungi il record di verifica del sito Google TXT a tutti i tuoi sottodomini utilizzati per inviare e-mail agli indirizzi GMAIL tramite il Pannello di controllo della campagna.
+
+**Il Pannello di controllo per il monitoraggio** dello spazio del database sarà dotato di funzionalità di monitoraggio del database, che consentono di visualizzare l&#39;utilizzo dello spazio del database su richiesta e nel tempo.
+
+**Il Pannello di controllo per le** campagne di avvisi e-mail sarà dotato di funzionalità di avvisi e-mail in tempo reale, che consentono di accedere al Pannello di controllo e di registrarsi per ricevere avvisi quando il sistema è a rischio di deterioramento delle prestazioni, oppure è necessaria un&#39;azione per garantire prestazioni elevate in futuro.
+
 ## Gennaio 2020 {#january-2020}
 
 *22 gennaio 2020*
 
-Sono state aggiunte nuove funzionalità per consentire agli utenti Admin di delegare i sottodomini e rinnovare i certificati SSL dal Pannello di controllo.
+Sono state aggiunte nuove funzionalità che consentono agli utenti Admin di delegare i sottodomini e di rinnovare i certificati SSL dal Pannello di controllo.
 
 Per ulteriori informazioni, consulta le pagine seguenti:
 * [Impostazione di un nuovo sottodominio](subdomains-certificates/using/setting-up-new-subdomain.md)
