@@ -2,7 +2,7 @@
 title: whitelist della gamma IP
 description: Scoprite come inserire nella whitelist gli intervalli IP per l'accesso ai server SFTP
 translation-type: tm+mt
-source-git-commit: f22e356b283ee2601c948d5c1d514a9a59c58451
+source-git-commit: a2c19296894ff893987290cb287dc7002ab999e5
 
 ---
 
@@ -57,7 +57,7 @@ Per inserire in una whitelist un intervallo IP, effettuate le seguenti operazion
 
    ![](assets/control_panel_add_range2.png)
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >Un intervallo IP non può sovrapporsi a un intervallo esistente nella white list. In tal caso, eliminate prima l’intervallo che contiene l’IP sovrapposto.
    >
