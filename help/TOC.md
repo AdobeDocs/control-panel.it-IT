@@ -4,7 +4,7 @@ sub-product: control panel
 audience: end-user
 user-guide-title: Control Panel Help
 translation-type: tm+mt
-source-git-commit: 3719f10ecd962b8398c89f0649153628ca73c518
+source-git-commit: d81f76a07c294fdab4ed31e7741cf7ec4fb2f985
 
 ---
 
@@ -31,6 +31,11 @@ source-git-commit: 3719f10ecd962b8398c89f0649153628ca73c518
    + [Impostazione di un nuovo sottodominio](subdomains-certificates/using/setting-up-new-subdomain.md)
    + [Monitoraggio dei certificati SSL](subdomains-certificates/using/monitoring-ssl-certificates.md)
    + [Rinnovo dei certificati SSL](subdomains-certificates/using/renewing-subdomain-certificate.md)
+   + [Gestione dei record TXT](subdomains-certificates/using/managing-txt-records.md)
++ Monitoraggio delle prestazioni {#performance-monitoring}
+   + [Il monitoraggio delle prestazioni](performance-monitoring/using/about-performance-monitoring.md)
+   + [Monitoraggio del database](performance-monitoring/using/database-monitoring.md)
+   + [Avvisi e-mail](performance-monitoring/using/email-alerting.md)
 + Impostazioni delle istanze (Campaign Classic) {#instances-settings}
    + [Whitelist IP per l&#39;accesso ad esempio](instances-settings/using/ip-whitelisting-instance-access.md)
    + [Autorizzazioni URL](instances-settings/using/url-permissions.md)
