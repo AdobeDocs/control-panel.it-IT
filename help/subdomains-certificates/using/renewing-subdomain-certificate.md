@@ -2,7 +2,7 @@
 title: Rinnovo del certificato SSL di un sottodominio
 description: Scopri come rinnovare i certificati SSL dei sottodomini
 translation-type: tm+mt
-source-git-commit: f22e356b283ee2601c948d5c1d514a9a59c58451
+source-git-commit: f08b0e68cf0a208b1385052510c06ca1eb679e63
 
 ---
 
@@ -24,7 +24,7 @@ source-git-commit: f22e356b283ee2601c948d5c1d514a9a59c58451
 
 Il processo di rinnovo del certificato SSL comprende 3 passaggi:
 
-1. **La generazione della richiesta di firma dei certificati (CSR)** Adobe Customer Care genera un CSR. Per generare il CSR è necessario fornire alcune informazioni (ad esempio Nome comune, Nome organizzazione e indirizzo, ecc.).
+1. **La generazione della richiesta di firma dei certificati (CSR)** Adobe Customer Care genera un CSR. Per generare il CSR sarà necessario fornire alcune informazioni (ad esempio Nome comune, Nome organizzazione e indirizzo, ecc.).
 1. **Acquisto del certificato** SSL Una volta generato il CSR, è possibile scaricarlo e utilizzarlo per acquistare il certificato SSL dall’autorità di certificazione approvata dalla società.
 1. **Installazione del certificato** SSL Una volta acquistato il certificato SSL, è possibile installarlo nel sottodominio desiderato.
 
@@ -124,6 +124,10 @@ Per installare il certificato, effettuate le seguenti operazioni:
 1. Selezionate il file .zip che contiene il certificato da installare, quindi fate clic **[!UICONTROL Submit]**.
 
    ![](assets/install2.png)
+
+>[!NOTE]
+>
+>Il certificato verrà installato su tutti i domini/sottodomini inclusi nel CSR. Eventuali altri domini/sottodomini presenti nel certificato non saranno presi in considerazione.
 
 Una volta installato il certificato SSL, la data di scadenza e l&#39;icona di stato del certificato vengono aggiornate di conseguenza.
 
