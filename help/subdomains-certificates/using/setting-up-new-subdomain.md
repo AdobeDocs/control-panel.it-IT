@@ -2,7 +2,7 @@
 title: Impostazione di un nuovo sottodominio
 description: Scoprite come impostare un nuovo sottodominio per le istanze della campagna
 translation-type: tm+mt
-source-git-commit: f22e356b283ee2601c948d5c1d514a9a59c58451
+source-git-commit: 9bcf83c85628a59671cd5580144d86bee88e35de
 
 ---
 
@@ -47,9 +47,11 @@ Il Pannello di controllo consente di delegare completamente un sottodominio ad A
 
 1. Create il sottodominio e i server di nomi desiderati nella soluzione di hosting utilizzata dalla vostra organizzazione. A questo scopo, copiate e incollate le informazioni di Adobe Nameserver visualizzate nella procedura guidata. Per ulteriori informazioni su come creare un sottodominio in una soluzione di hosting, consulta il video [di](https://video.tv.adobe.com/v/30175?captions=ita)esercitazione.
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >Durante la configurazione dei server dei nomi, accertati di **non delegare il sottodominio principale ad Adobe**. In caso contrario, il dominio potrà funzionare solo con Adobe. Qualsiasi altro utilizzo sarà impossibile, ad esempio l&#39;invio di e-mail interne ai dipendenti dell&#39;azienda.
+   >
+   >Inoltre, **non creare un file** di area separato per il nuovo sottodominio.
 
    ![](assets/subdomain4.png)
 
@@ -59,19 +61,21 @@ Il Pannello di controllo consente di delegare completamente un sottodominio ad A
 
    * **Comunicazioni** di marketing: comunicazioni destinate a scopi commerciali. Esempio: campagna e-mail di vendita.
    * **Comunicazioni** operative e transazionali: le comunicazioni transazionali contengono informazioni volte a completare un processo avviato dal destinatario. Esempio: conferma dell&#39;acquisto, e-mail di reimpostazione della password. Le comunicazioni organizzative riguardano lo scambio di informazioni, idee e opinioni all&#39;interno e all&#39;esterno dell&#39;organizzazione, senza scopo commerciale.
+   ![](assets/subdomain5.png)
+
+   **Suddividere i sottodomini in base ai casi di utilizzo è una procedura consigliata per la recapito**. In questo modo, la reputazione di ciascun sottodominio è isolata e protetta. Ad esempio, se il tuo sottodominio per le comunicazioni di marketing finirà per essere inserito in blacklist dai provider di servizi Internet, il sottodominio delle comunicazioni transazionali non subentrerà e continuerà a essere in grado di inviare comunicazioni.
+
+   **Puoi delegare un sottodominio sia per i casi** di utilizzo Marketing che per quelli Transazionali:
+
+   * Per i casi di utilizzo di Marketing, i sottodomini saranno configurati sulle istanze **MID** (Mid sourcing).
+   * Per i casi di utilizzo transazionali, i sottodomini saranno configurati su tutte le istanze di **RT** (Message Center / Real-time messaging) per garantire la connettività. I sottodomini quindi funzioneranno con tutte le tue istanze RT.
    >[!NOTE]
    >
-   >Suddividere i sottodomini in base ai casi di utilizzo è una procedura consigliata per la recapito. In questo modo, la reputazione di ciascun sottodominio è isolata e protetta.
-   >
-   >Ad esempio, se il tuo sottodominio per le comunicazioni di marketing finirà per essere inserito in blacklist dai provider di servizi Internet, il sottodominio delle comunicazioni transazionali non subentrerà e continuerà a essere in grado di inviare comunicazioni.
-
-   ![](assets/subdomain5.png)
+   >Se utilizzate Campaign Classic, il Pannello di controllo consente di vedere quali istanze RT/MID sono collegate all&#39;istanza Marketing con cui state lavorando. For more on this, refer to [this section](../../instances-settings/using/instance-details.md).
 
 1. Immettete il sottodominio creato nella soluzione di hosting, quindi fate clic su **[!UICONTROL Submit]**.
 
-   >[!NOTE]
-   >
-   > Accertatevi di compilare il nome **** completo del sottodominio da delegare. Ad esempio, per delegare il sottodominio &quot;usoffer.email.weretail.com&quot;, digitare &quot;usoffer.email.weretail.com&quot;.
+   Accertatevi di compilare il nome **** completo del sottodominio da delegare. Ad esempio, per delegare il sottodominio &quot;usoffer.email.weretail.com&quot;, digitare &quot;usoffer.email.weretail.com&quot;.
 
    ![](assets/subdomain6.png)
 
