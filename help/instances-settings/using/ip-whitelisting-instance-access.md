@@ -2,7 +2,7 @@
 title: whitelist IP
 description: Ulteriori informazioni sulla whitelist IP nel Pannello di controllo per l'accesso ad esempio
 translation-type: tm+mt
-source-git-commit: f22e356b283ee2601c948d5c1d514a9a59c58451
+source-git-commit: a2c19296894ff893987290cb287dc7002ab999e5
 
 ---
 
@@ -15,7 +15,7 @@ source-git-commit: f22e356b283ee2601c948d5c1d514a9a59c58451
 >abstract=&quot;Gestisci whitelist IP per accedere alle tue istanze.&quot;
 >Additional-url=&quot;https://images-tv.adobe.com/mpcv3/045cac99-f948-478e-ae04-f8c161dcb9e2_1568132508.1920x1080at3000_h264.mp4&quot; text=&quot;Guarda il video dimostrativo&quot;
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Questa funzione è disponibile solo per le istanze di Campaign Classic.
 
