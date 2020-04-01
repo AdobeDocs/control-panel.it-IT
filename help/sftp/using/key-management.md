@@ -2,7 +2,7 @@
 title: Gestione delle chiavi
 description: Scopri come gestire le chiavi per la connessione ai server SFTP
 translation-type: tm+mt
-source-git-commit: f22e356b283ee2601c948d5c1d514a9a59c58451
+source-git-commit: a2c19296894ff893987290cb287dc7002ab999e5
 
 ---
 
@@ -35,7 +35,7 @@ Assicuratevi di utilizzare sempre la stessa autenticazione per collegarvi al ser
 
 In casi molto rari l&#39;autenticazione basata sulla password è abilitata su alcuni server SFTP. Adobe consiglia di utilizzare l&#39;autenticazione basata sulle chiavi, in quanto questo metodo è più efficiente e sicuro. Puoi richiedere di passare all&#39;autenticazione basata sulle chiavi contattando l&#39;Assistenza clienti.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Se la password scade, anche in presenza di chiavi installate nel sistema, non potrai accedere ai tuoi account SFTP.
 
@@ -48,7 +48,7 @@ In casi molto rari l&#39;autenticazione basata sulla password è abilitata su al
 >title=&quot;Aggiungi nuova chiave pubblica&quot;
 >abstract=&quot;Aggiungi una nuova chiave pubblica per un’istanza.&quot;
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >I passaggi indicati di seguito sono solo un esempio di creazione di chiavi SSH. Seguite le linee guida aziendali relative alle chiavi SSH. L&#39;esempio seguente è solo un esempio di come ciò possa essere fatto e funge da utile punto di riferimento per la comunicazione dei requisiti al team o al gruppo di rete interno.
 
