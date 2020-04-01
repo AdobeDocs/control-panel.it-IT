@@ -2,7 +2,7 @@
 title: Autorizzazioni URL
 description: Come gestire le autorizzazioni URL nel Pannello di controllo
 translation-type: tm+mt
-source-git-commit: f22e356b283ee2601c948d5c1d514a9a59c58451
+source-git-commit: a2c19296894ff893987290cb287dc7002ab999e5
 
 ---
 
@@ -15,7 +15,7 @@ source-git-commit: f22e356b283ee2601c948d5c1d514a9a59c58451
 >abstract=&quot;Gestisci gli URL a cui possono connettersi le istanze di Adobe Campaign.&quot;
 >Additional-url=&quot;https://images-tv.adobe.com/mpcv3/91206a19-d9af-4b6a-8197-0d2810a78941_1563488165.1920x1080at3000_h264.mp4&quot; text=&quot;Guarda il video dimostrativo&quot;
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Questa funzione è disponibile solo per le istanze di Campaign Classic.
 
