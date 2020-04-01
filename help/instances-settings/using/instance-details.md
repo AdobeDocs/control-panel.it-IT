@@ -2,7 +2,7 @@
 title: Dettagli istanza
 description: Scoprite come monitorare i dettagli dell’istanza nel Pannello di controllo
 translation-type: tm+mt
-source-git-commit: f22e356b283ee2601c948d5c1d514a9a59c58451
+source-git-commit: a2c19296894ff893987290cb287dc7002ab999e5
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: f22e356b283ee2601c948d5c1d514a9a59c58451
 >Additional-url=&quot;https://docs.adobe.com/content/help/en/campaign-classic/using/release-notes/latest-release.html&quot; text=&quot;Note sulla versione di Campaign Classic&quot;
 >Additional-url=&quot;https://docs.adobe.com/content/help/en/campaign-standard/using/release-notes/release-notes.html&quot; text=&quot;Note sulla versione di Campaign Standard&quot;
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Questa funzione è disponibile solo per le istanze di Campaign Classic.
 
