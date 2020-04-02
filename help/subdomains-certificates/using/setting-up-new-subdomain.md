@@ -2,7 +2,7 @@
 title: Impostazione di un nuovo sottodominio
 description: Scoprite come impostare un nuovo sottodominio per le istanze della campagna
 translation-type: tm+mt
-source-git-commit: 9bcf83c85628a59671cd5580144d86bee88e35de
+source-git-commit: 43d5d522c29586b9898d924dd164435ee8fbb614
 
 ---
 
@@ -101,12 +101,13 @@ Al termine del processo, i sottodomini saranno configurati per lavorare con l&#3
 >
 >Per impostazione predefinita, la casella in entrata &quot;Rispondi a&quot; del Pannello di controllo è configurata per cancellare le e-mail e non è possibile visualizzarle. Se desideri monitorare la casella in entrata &quot;Rispondi a&quot; per le tue campagne di marketing, non utilizzare questo indirizzo.
 
+Per ottenere ulteriori dettagli sul sottodominio, fare clic sui **[!UICONTROL Subdomain details]** pulsanti e **[!UICONTROL Sender info]** .
 
-Per ottenere ulteriori dettagli sul sottodominio, fare clic sul **[!UICONTROL Subdomain Details]** pulsante.
+![](assets/detail_buttons.png)
 
-![](assets/subdomain_details_general.png)
+![](assets/subdomain_details.png)
 
-![](assets/subdomains_details_senderinfo.png)
+![](assets/sender_info.png)
 
 >[!IMPORTANT]
 >
