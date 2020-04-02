@@ -2,7 +2,7 @@
 title: Monitoraggio del database
 description: Scopri come monitorare il database Campaign nel Pannello di controllo
 translation-type: tm+mt
-source-git-commit: f995e0dc51fd95d00fdcaa2eb347b2aedfdef60d
+source-git-commit: 296cbcfa8588b05c03452afdb5bdbad8da1595d0
 
 ---
 
@@ -21,11 +21,13 @@ Un overflow di un database di istanza può causare diversi problemi (impossibili
 
 >[!NOTE]
 >
->Si noti che potrebbero verificarsi delle discrepanze tra la capacità di spazio del database corrente e la quantità specificata nel contratto per periodi di tempo distinti per garantire prestazioni più elevate.
+>La quantità di spazio del database specificata nel Pannello di controllo potrebbe non riflettere la quantità di spazio del database specificata nel contratto. Nella maggior parte dei casi, viene fornito temporaneamente uno spazio di database più ampio per garantire le prestazioni del sistema.
 
 ## Monitoraggio dell&#39;utilizzo del database {#monitoring-instances-database}
 
-1. Open the **[!UICONTROL Health Monitoring]** card, then select the **[!UICONTROL Databases]** tab.
+Il Pannello di controllo consente di monitorare l&#39;utilizzo del database per ciascuna istanza di Campaign. A questo scopo, attenetevi alla procedura indicata di seguito.
+
+1. Open the **[!UICONTROL Performance Monitoring]** card, then select the **[!UICONTROL Databases]** tab.
 
 1. Selezionate l’istanza desiderata dall’ **[!UICONTROL Instance List]**.
 
@@ -38,6 +40,10 @@ Un overflow di un database di istanza può causare diversi problemi (impossibili
    Passando il mouse sul grafico potete ottenere informazioni dettagliate sul periodo di tempo selezionato.
 
    ![](assets/databases_dashboard_detail.png)
+
+>[!NOTE]
+>
+>È inoltre possibile ricevere notifiche quando uno dei database raggiunge la capacità. A questo scopo, iscriviti agli avvisi [e-mail](../../performance-monitoring/using/email-alerting.md)
 
 ## Prevenzione del sovraccarico del database {#preventing-database-overload}
 
@@ -52,7 +58,7 @@ La sezione seguente fornisce utili risorse dalla documentazione relativa a Campa
 
 **Manutenzione del database**
 
-* Flusso di lavoro tecnico per la pulizia del database ([Campaign Standard](https://docs.adobe.com/help/en/campaign-standard/using/administrating/application-settings/technical-workflowshtml#list-of-technical-workflows) / [Campaign Classic](https://docs.adobe.com/help/en/campaign-classic/using/monitoring-campaign-classic/data-processing/database-cleanup-workflow.html))
+* Flusso di lavoro tecnico per la pulizia del database ([Campaign Standard](https://docs.adobe.com/help/en/campaign-standard/using/administrating/application-settings/technical-workflows.html#list-of-technical-workflows) / [Campaign Classic](https://docs.adobe.com/help/en/campaign-classic/using/monitoring-campaign-classic/data-processing/database-cleanup-workflow.html))
 * [Guida](https://docs.adobe.com/content/help/en/campaign-classic/using/monitoring-campaign-classic/database-maintenance/recommendations.html) alla manutenzione del database (Campaign Classic)
 * [Risoluzione dei problemi](https://docs.adobe.com/content/help/en/campaign-classic/using/monitoring-campaign-classic/troubleshooting/database-performances.html) di prestazioni del database (Campaign Classic)
 * [Opzioni](https://docs.adobe.com/help/en/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options.html#database) relative al database (Campaign Classic)
