@@ -2,7 +2,7 @@
 title: Gestione dello storage SFTP
 description: Scopri come monitorare e gestire lo storage del server SFTP
 translation-type: tm+mt
-source-git-commit: f22e356b283ee2601c948d5c1d514a9a59c58451
+source-git-commit: 834adb7c937a9927901f91e257a8df44e72ca45b
 
 ---
 
@@ -25,10 +25,6 @@ source-git-commit: f22e356b283ee2601c948d5c1d514a9a59c58451
 * [Video sull&#39;esercitazione Campaign Classic](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/administrating/control-panel-acc/managing-sftp-servers.html)
 
 ## Accesso alle informazioni sulla capacità di storage {#accessing-storage-capacity-information}
-
-La **[!UICONTROL Top utilized SFTP disk capacity]** sezione dell’intestazione include i tre server più utilizzati collegati alle istanze a cui l’amministratore ha accesso. Queste informazioni sono disponibili in ogni scheda della scheda SFTP.
-
-![](assets/control_panel_topspace.png)
 
 Le informazioni sullo spazio utilizzato da tutte le istanze a cui avete accesso sono disponibili nella **[!UICONTROL Storage]** scheda della scheda SFTP. Viene aggiornato in ogni aggiornamento di pagina.
 
