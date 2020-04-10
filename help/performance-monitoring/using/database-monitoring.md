@@ -2,7 +2,7 @@
 title: Monitoraggio del database
 description: Scopri come monitorare il database Campaign nel Pannello di controllo
 translation-type: tm+mt
-source-git-commit: 296cbcfa8588b05c03452afdb5bdbad8da1595d0
+source-git-commit: 1facd377fd1276b6bf87b52c69ff599f2ecf0228
 
 ---
 
@@ -35,7 +35,11 @@ Il Pannello di controllo consente di monitorare l&#39;utilizzo del database per 
 
    ![](assets/databases_dashboard.png)
 
-   L&#39;area inferiore fornisce una rappresentazione grafica dell&#39;utilizzo del database negli ultimi 7 giorni. Potete modificare il periodo di tempo visualizzato utilizzando i filtri disponibili nell&#39;angolo superiore destro.
+   L&#39;area inferiore fornisce una rappresentazione grafica dell&#39;utilizzo minimo, medio e massimo del database negli ultimi 7 giorni, così come la soglia di utilizzo del database del 90%, rappresentata da una curva punteggiata rossa.
+
+   Potete modificare il periodo di tempo visualizzato utilizzando i filtri disponibili nell&#39;angolo superiore destro.
+
+   Per una migliore leggibilità, potete anche evidenziare una o più curve nel grafico. A questo scopo, selezionateli dalla **[!UICONTROL Aggregation Type]** legenda.
 
    Passando il mouse sul grafico potete ottenere informazioni dettagliate sul periodo di tempo selezionato.
 
@@ -43,7 +47,7 @@ Il Pannello di controllo consente di monitorare l&#39;utilizzo del database per 
 
 >[!NOTE]
 >
->È inoltre possibile ricevere notifiche quando uno dei database raggiunge la capacità. A questo scopo, iscriviti agli avvisi [e-mail](../../performance-monitoring/using/email-alerting.md)
+>In aggiunta a questo dashboard, puoi ricevere notifiche quando uno dei tuoi database raggiunge la capacità. A questo scopo, iscriviti agli avvisi [e-mail](../../performance-monitoring/using/email-alerting.md)
 
 ## Prevenzione del sovraccarico del database {#preventing-database-overload}
 
