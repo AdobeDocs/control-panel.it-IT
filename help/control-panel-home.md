@@ -1,7 +1,7 @@
 ---
 title: Documentazione del prodotto
 translation-type: tm+mt
-source-git-commit: 5a7200038abd647a3e77d043d14579590449218c
+source-git-commit: f59be0be3b183dd453ba3cc8ee8c70887e65e6e3
 
 ---
 
@@ -12,13 +12,17 @@ source-git-commit: 5a7200038abd647a3e77d043d14579590449218c
 
 ## Novità
 
-* [Monitoraggio dei certificati SSL](subdomains-certificates/using/monitoring-ssl-certificates.md)
+* [Gestione record Google TXT](subdomains-certificates/using/managing-txt-records.md)
 
-   Scopri come monitorare la data di scadenza dei certificati SSL dei tuoi sottodomini
+   Aggiungi il record di verifica del sito Google TXT a tutti i tuoi sottodomini utilizzati per inviare e-mail agli indirizzi Gmail tramite il Pannello di controllo della campagna.
 
-* [Delega sottodomini](subdomains-certificates/using/subdomains-branding.md)
+* [Monitoraggio dello spazio del database](performance-monitoring/using/database-monitoring.md)
 
-   Ulteriori informazioni sul branding dei sottodomini e sui passaggi chiave per delegare i sottodomini ad Adobe tramite il Pannello di controllo
+   Visualizzare l&#39;utilizzo dello spazio del database su richiesta e nel tempo.
+
+* [Avvisi e-mail](performance-monitoring/using/email-alerting.md)
+
+   Accedete al Pannello di controllo e registratevi per ricevere avvisi quando il sistema è a rischio di deterioramento delle prestazioni, oppure è necessaria un&#39;azione per garantire prestazioni elevate per il futuro.
 
 ## Risorse aggiuntive {#additional-resources}
 
