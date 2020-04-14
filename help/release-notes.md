@@ -1,7 +1,7 @@
 ---
 title: Rilasci del Pannello di controllo
 translation-type: tm+mt
-source-git-commit: 5c35db25719830d196cc87ba0142c348bd8cdd92
+source-git-commit: f59be0be3b183dd453ba3cc8ee8c70887e65e6e3
 
 ---
 
@@ -16,13 +16,11 @@ Qui troverete informazioni sulle ultime versioni del Pannello di controllo.
 
 ## Aprile 2020 {#april-2020}
 
-Nuove funzionalità saranno rilasciate nel Pannello di controllo della campagna ad aprile:
+**Gestione** record Google TXT Aggiungi il record di verifica del sito Google TXT a tutti i tuoi sottodomini utilizzati per inviare e-mail agli indirizzi Gmail tramite il Pannello di controllo della campagna.
 
-**Gestione** record Google TXT Aggiungi il record di verifica del sito Google TXT a tutti i tuoi sottodomini utilizzati per inviare e-mail agli indirizzi GMAIL tramite il Pannello di controllo della campagna.
+**Il Pannello di controllo per il monitoraggio** dello spazio del database è dotato di funzionalità di monitoraggio del database, che consentono di visualizzare l&#39;utilizzo dello spazio del database su richiesta e nel tempo.
 
-**Il Pannello di controllo per il monitoraggio** dello spazio del database sarà dotato di funzionalità di monitoraggio del database, che consentono di visualizzare l&#39;utilizzo dello spazio del database su richiesta e nel tempo.
-
-**Il Pannello di controllo per le** campagne di avvisi e-mail sarà dotato di funzionalità di avvisi e-mail in tempo reale, che consentono di accedere al Pannello di controllo e di registrarsi per ricevere avvisi quando il sistema è a rischio di deterioramento delle prestazioni, oppure è necessaria un&#39;azione per garantire prestazioni elevate in futuro.
+**Il Pannello di controllo per le** campagne di avvisi e-mail è dotato di funzionalità di avvisi e-mail in tempo reale, che consentono di accedere al Pannello di controllo e di registrarsi per ricevere avvisi quando il sistema è a rischio di deterioramento delle prestazioni, oppure è necessaria un&#39;azione per garantire prestazioni elevate in futuro.
 
 ## Gennaio 2020 {#january-2020}
 
