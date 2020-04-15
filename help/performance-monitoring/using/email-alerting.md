@@ -2,16 +2,12 @@
 title: Avvisi e-mail
 description: Scopri come ricevere le notifiche e-mail in caso di problemi con le istanze di Campaign
 translation-type: tm+mt
-source-git-commit: 77165e3f408f75dfb57434111b07b20ad9caab5e
+source-git-commit: e5646fdccd47b4180fd0f9d561f61c04cd515c01
 
 ---
 
 
 # Avvisi e-mail {#email-alerting}
-
->[!IMPORTANT]
->
->Gli avvisi e-mail del Pannello di controllo saranno disponibili entro la fine di aprile.
 
 ## Informazioni sugli avvisi e-mail {#about-email-alerts}
 
