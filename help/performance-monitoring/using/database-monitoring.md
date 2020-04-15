@@ -2,12 +2,16 @@
 title: Monitoraggio del database
 description: Scopri come monitorare il database Campaign nel Pannello di controllo
 translation-type: tm+mt
-source-git-commit: 1facd377fd1276b6bf87b52c69ff599f2ecf0228
+source-git-commit: 77165e3f408f75dfb57434111b07b20ad9caab5e
 
 ---
 
 
 # Monitoraggio del database {#database-monitoring}
+
+>[!IMPORTANT]
+>
+>Il monitoraggio del database dal Pannello di controllo sarà disponibile entro la fine di aprile.
 
 ## Informazioni sui database delle istanze {#about-instances-databases}
 
