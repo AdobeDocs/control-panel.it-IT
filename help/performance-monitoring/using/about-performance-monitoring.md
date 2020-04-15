@@ -2,12 +2,16 @@
 title: Informazioni sul monitoraggio delle prestazioni
 description: Scopri come monitorare le prestazioni delle istanze nel Pannello di controllo
 translation-type: tm+mt
-source-git-commit: 34dc95481fa7f2db162dbfc19a462782ee825739
+source-git-commit: 135d8101c1dc3f902844de08e7382a2eb8b548ee
 
 ---
 
 
 # Informazioni sul monitoraggio delle prestazioni {#about-performance-monitoring}
+
+>[!IMPORTANT]
+>
+>Il controllo delle prestazioni da parte del Pannello di controllo sarà disponibile entro la fine di aprile.
 
 Il Pannello di controllo offre diverse funzionalità per monitorare le istanze e garantire prestazioni ottimali.
 
