@@ -2,7 +2,7 @@
 title: Gestione dei record TXT
 description: Scopri come gestire i record TXT per la verifica della proprietà del dominio.
 translation-type: tm+mt
-source-git-commit: 5a70141e0198946928723b34c9097c5cf8a24f97
+source-git-commit: e5646fdccd47b4180fd0f9d561f61c04cd515c01
 
 ---
 
@@ -13,10 +13,6 @@ source-git-commit: 5a70141e0198946928723b34c9097c5cf8a24f97
 >id="cp_siteverification_add"
 >title="Gestione dei record TXT"
 >abstract="Alcuni servizi come Google richiedono l&#39;aggiunta di un record TXT alle impostazioni del dominio per verificare di essere proprietario del dominio."
-
->[!IMPORTANT]
->
->La gestione dei record TXT dal Pannello di controllo sarà disponibile entro la fine di aprile.
 
 ## Informazioni sui record TXT {#about-txt-records}
 
