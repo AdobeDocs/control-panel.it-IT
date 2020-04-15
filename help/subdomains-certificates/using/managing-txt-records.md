@@ -2,7 +2,7 @@
 title: Gestione dei record TXT
 description: Scopri come gestire i record TXT per la verifica della proprietà del dominio.
 translation-type: tm+mt
-source-git-commit: 77165e3f408f75dfb57434111b07b20ad9caab5e
+source-git-commit: 5a70141e0198946928723b34c9097c5cf8a24f97
 
 ---
 
@@ -28,8 +28,8 @@ Attualmente, Gmail è uno dei provider di indirizzi e-mail più popolari. Al fin
 
 Risorse aggiuntive:
 
-* [Video](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/administrating/control-panel/google-txt-record-management.html)di esercitazione su Campaign Standard.
-* [Video sull&#39;esercitazione Campaign Classic](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/administrating/control-panel/google-txt-record-management.html)
+* [Video sull&#39;esercitazione Campaign Standard](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/administrating/control-panel/google-txt-record-management.html)
+* [Video sull&#39;esercitazione Campaign Classic](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/administrating/control-panel-acc/google-txt-record-management.html)
 
 ## Aggiunta di un record Google TXT per un sottodominio {#adding-a-google-txt-record}
 
