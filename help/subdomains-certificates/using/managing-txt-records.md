@@ -2,7 +2,7 @@
 title: Gestione dei record TXT
 description: Scopri come gestire i record TXT per la verifica della proprietà del dominio.
 translation-type: tm+mt
-source-git-commit: 3ce9f62be9df0f6e6a61c16ddaf3ab8ae58712ce
+source-git-commit: 77165e3f408f75dfb57434111b07b20ad9caab5e
 
 ---
 
@@ -10,9 +10,13 @@ source-git-commit: 3ce9f62be9df0f6e6a61c16ddaf3ab8ae58712ce
 # Gestione dei record TXT {#managing-txt-records}
 
 >[!CONTEXTUALHELP]
->id=&quot;cp_siteverification_add&quot;
->title=&quot;Gestione dei record TXT&quot;
->abstract=&quot;Alcuni servizi come Google richiedono l&#39;aggiunta di un record TXT alle impostazioni del dominio per verificare di essere proprietario del dominio.&quot;
+>id="cp_siteverification_add"
+>title="Gestione dei record TXT"
+>abstract="Alcuni servizi come Google richiedono l&#39;aggiunta di un record TXT alle impostazioni del dominio per verificare di essere proprietario del dominio."
+
+>[!IMPORTANT]
+>
+>La gestione dei record TXT dal Pannello di controllo sarà disponibile entro la fine di aprile.
 
 ## Informazioni sui record TXT {#about-txt-records}
 
@@ -21,6 +25,11 @@ I record TXT sono un tipo di record DNS utilizzati per fornire informazioni test
 Al fine di garantire elevate percentuali di posta in arrivo e basse frequenze di posta indesiderata, alcuni servizi come Google richiedono l&#39;aggiunta di un record TXT alle impostazioni del dominio per verificare di essere proprietario del dominio.
 
 Attualmente, Gmail è uno dei provider di indirizzi e-mail più popolari. Al fine di garantire la buona recapito e la corretta consegna delle e-mail agli indirizzi Gmail, Adobe Campaign consente di aggiungere ai sottodomini specifici record TXT per la verifica del sito Google, in modo da verificarne la validità.
+
+Risorse aggiuntive:
+
+* [Video](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/administrating/control-panel/google-txt-record-management.html)di esercitazione su Campaign Standard.
+* [Video sull&#39;esercitazione Campaign Classic](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/administrating/control-panel/google-txt-record-management.html)
 
 ## Aggiunta di un record Google TXT per un sottodominio {#adding-a-google-txt-record}
 
@@ -42,9 +51,10 @@ Per aggiungere un record Google TXT al tuo sottodominio utilizzato per inviare i
 
 Una volta aggiunto il record TXT, è necessario che sia verificato da Google. A tal fine, andate agli strumenti di amministrazione di G Suite e avviate il passaggio di verifica (consultate la Guida [di amministrazione di](https://support.google.com/a/answer/183895)G Suite).
 
-
 Per eliminare un record, selezionatelo dall&#39;elenco dei record, quindi fate clic sul pulsante Rimuovi.
 
 >[!NOTE]
 >
 >L&#39;unico record che puoi eliminare dall&#39;elenco dei record DNS è quello che hai aggiunto in precedenza (nel nostro caso il record Google TXT).
+
+
