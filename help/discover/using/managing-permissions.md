@@ -2,7 +2,10 @@
 title: Gestione delle autorizzazioni al Pannello di controllo
 description: Scopri come gestire le autorizzazioni per il Pannello di controllo
 translation-type: tm+mt
-source-git-commit: ddf4ca24c1583e388c07aae110522627220d5e66
+source-git-commit: aae2007169cc2abc003b3ef6b72e32570ffacba5
+workflow-type: tm+mt
+source-wordcount: '262'
+ht-degree: 0%
 
 ---
 
@@ -11,7 +14,7 @@ source-git-commit: ddf4ca24c1583e388c07aae110522627220d5e66
 
 Il Pannello di controllo è disponibile per tutti gli utenti Admin di un&#39;istanza Campaign. Attenetevi alla procedura seguente per assegnare gli utenti al gruppo Amministratori e concedere loro l’accesso al Pannello di controllo.
 
-1. Passa ad [Adobe Experience Cloud](https://experiencecloud.adobe.com/), quindi seleziona la **[!UICONTROL Administration]**scheda.
+1. Passa ad [Adobe Experience Cloud](https://experiencecloud.adobe.com/), quindi seleziona la **[!UICONTROL Administration]** scheda.
 
    ![](assets/do-not-localize/control_panel_add_user1.png)
 
@@ -39,7 +42,7 @@ Il Pannello di controllo è disponibile per tutti gli utenti Admin di un&#39;ist
    >
    >Puoi aggiungere diversi utenti Admin per ogni istanza di Campaign. In tal caso, gli utenti Admin accederanno al Pannello di controllo dell&#39;istanza a cui appartengono solo.
 
-1. Viene visualizzato l&#39;elenco Profili prodotto per l&#39;istanza selezionata. Fai clic sul profilo di **[!UICONTROL Administrators]**prodotto per accedere all&#39;elenco degli utenti Admin.
+1. Viene visualizzato l&#39;elenco Profili prodotto per l&#39;istanza selezionata. Fai clic sul profilo di **[!UICONTROL Administrators]** prodotto per accedere all&#39;elenco degli utenti Admin.
 
    ![](assets/do-not-localize/control_panel_add_user_5.png)
 
@@ -47,6 +50,10 @@ Il Pannello di controllo è disponibile per tutti gli utenti Admin di un&#39;ist
    >
    >Per impostazione predefinita, gli utenti amministratore appartengono al profilo di prodotto &quot;Amministratori&quot;. In base alla configurazione aziendale, il profilo di prodotto può essere denominato in modo diverso (&quot;admin&quot;, &quot;admins&quot;, ecc.).
 
-1. Viene visualizzato l’elenco degli utenti Admin. Fate clic sul **[!UICONTROL Add User]**pulsante per aggiungere l’utente desiderato.
+1. Viene visualizzato l’elenco degli utenti Admin. Fate clic sul **[!UICONTROL Add User]** pulsante per aggiungere l’utente desiderato.
 
    ![](assets/do-not-localize/control_panel_add_user_6.png)
+
+>[!NOTE]
+>
+>Una volta configurato l&#39;accesso, l&#39;utente dovrà disconnettersi da Adobe Experience Cloud ed effettuare nuovamente l&#39;accesso, per accedere al Pannello di controllo.
