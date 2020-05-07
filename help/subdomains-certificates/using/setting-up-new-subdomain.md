@@ -2,7 +2,10 @@
 title: Impostazione di un nuovo sottodominio
 description: Scoprite come impostare un nuovo sottodominio per le istanze della campagna
 translation-type: tm+mt
-source-git-commit: 43d5d522c29586b9898d924dd164435ee8fbb614
+source-git-commit: b27c6c8db765bc61b4e2afcadf446b28b15d3a93
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -10,10 +13,10 @@ source-git-commit: 43d5d522c29586b9898d924dd164435ee8fbb614
 # Impostazione di un nuovo sottodominio {#setting-up-subdomain}
 
 >[!CONTEXTUALHELP]
->id=&quot;cp_subdomain_management&quot;
->title=&quot;Imposta nuovi sottodomini e gestisci certificati&quot;
->abstract=&quot;È necessario impostare un nuovo sottodominio e gestire i certificati SSL dei sottodomini per iniziare a inviare e-mail o pubblicare pagine di destinazione con Adobe Campaign.&quot;
->Additional-url=&quot;https://docs.adobe.com/content/help/en/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html&quot; text=&quot;Come monitorare i certificati SSL dei sottodomini&quot;
+>id="cp_subdomain_management"
+>title="Configurazione di nuovi sottodomini e gestione di certificati"
+>abstract="Devi impostare un nuovo sottodominio e gestire i certificati SSL dei tuoi sottodomini per iniziare a inviare e-mail o pubblicare pagine di destinazione con Adobe Campaign."
+>additional-url="https://docs.adobe.com/content/help/en/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html" text="Come monitorare i certificati SSL dei sottodomini"
 
 >[!IMPORTANT]
 >
@@ -81,25 +84,29 @@ Il Pannello di controllo consente di delegare completamente un sottodominio ad A
 
 1. Dopo l&#39;invio del sottodominio, il Pannello di controllo verificherà che esso punti correttamente ai record Adobe NS e che il record Start of Authority (SOA) non esista per questo sottodominio.
 
-1. Se i controlli vengono eseguiti correttamente, il Pannello di controllo avvia la configurazione del sottodominio con record DNS, URL aggiuntivi, inbox e così via. Per maggiori dettagli sull’avanzamento della configurazione, fai clic sul **[!UICONTROL Process details]** pulsante .
+   >[!NOTE]
+   >
+   >Durante l&#39;esecuzione della delega di sottodominio, altre richieste tramite il Pannello di controllo verranno inserite in una coda ed eseguite solo al termine della delega di sottodominio, per evitare problemi di prestazioni.
+
+1. Se i controlli vengono eseguiti correttamente, il Pannello di controllo avvia la configurazione del sottodominio con record DNS, URL aggiuntivi, inbox e così via.
+
+   Alla fine, il team di recapito riceverà una notifica sul nuovo sottodominio, al fine di controllarlo. Il processo di audit può richiedere fino a 3-10 giorni lavorativi dopo la delega del sottodominio. I controlli eseguiti includono cicli di feedback e cicli di reclamo spam. Pertanto non si consiglia di utilizzare il sottodominio prima che l&#39;audit sia stato completato, in quanto potrebbe portare a una cattiva reputazione del sottodominio.
+
+   Per maggiori dettagli sull’avanzamento della configurazione, fai clic sul **[!UICONTROL Process details]** pulsante .
 
    ![](assets/subdomain7.png)
 
    >[!NOTE]
    >
-   >In alcuni casi, la delega viene eseguita, ma il sottodominio potrebbe non essere stato verificato. Il sottodominio entrerà direttamente nell&#39; **[!UICONTROL Verified subdomains]** elenco con lo **[!UICONTROL Unverified]** stato e un registro di processo che fornisce informazioni sull&#39;errore. In caso di problemi con la risoluzione del problema, contatta l’Assistenza clienti.
-   >
-   >Durante l&#39;esecuzione della delega di sottodominio, altre richieste tramite il Pannello di controllo verranno inserite in una coda ed eseguite solo al termine della delega di sottodominio, per evitare problemi di prestazioni.
+   >In alcuni casi, la delega viene eseguita, ma il sottodominio potrebbe non essere stato verificato. Il sottodominio resterà nell&#39; **[!UICONTROL Processing]** elenco con un registro dei processi che fornisce informazioni sull&#39;errore. In caso di problemi con la risoluzione del problema, contatta l’Assistenza clienti.
 
 Al termine del processo, i sottodomini saranno configurati per lavorare con l&#39;istanza Adobe Campaign e verranno creati gli elementi seguenti:
 
-* **Il sottodominio** con i seguenti record **** DNS: SOA, MX, CNAME(s), DKIM, SPF, TXT,
+* **Il sottodominio con i seguenti record** DNS: SOA, MX, CNAME(s), DKIM, SPF, TXT,
 * **Sottodomini** aggiuntivi per mirror host, risorse, pagine di tracciamento e chiave di dominio,
 * **Caselle** in entrata: Mittente, Errore, Risposta.
 
->[!NOTE]
->
->Per impostazione predefinita, la casella in entrata &quot;Rispondi a&quot; del Pannello di controllo è configurata per cancellare le e-mail e non è possibile visualizzarle. Se desideri monitorare la casella in entrata &quot;Rispondi a&quot; per le tue campagne di marketing, non utilizzare questo indirizzo.
+   Per impostazione predefinita, la casella in entrata &quot;Rispondi a&quot; del Pannello di controllo è configurata per cancellare le e-mail e non è possibile visualizzarle. Se desideri monitorare la casella in entrata &quot;Rispondi a&quot; per le tue campagne di marketing, non utilizzare questo indirizzo.
 
 Per ottenere ulteriori dettagli sul sottodominio, fare clic sui **[!UICONTROL Subdomain details]** pulsanti e **[!UICONTROL Sender info]** .
 
@@ -108,12 +115,6 @@ Per ottenere ulteriori dettagli sul sottodominio, fare clic sui **[!UICONTROL Su
 ![](assets/subdomain_details.png)
 
 ![](assets/sender_info.png)
-
->[!IMPORTANT]
->
->Al termine della fase di elaborazione, è necessario verificare con l&#39;Assistenza clienti Adobe che sia stata inoltrata una richiesta di audit affinché il team di recapito effettui il controllo del nuovo sottodominio creato. Il processo di audit può richiedere fino a 3 10 giorni lavorativi dopo la delega del sottodominio.
->
->I controlli eseguiti includono cicli di feedback e cicli di reclamo spam. Pertanto non si consiglia di utilizzare il sottodominio prima che l&#39;audit sia stato completato, in quanto potrebbe portare a una cattiva reputazione del sottodominio.
 
 ## Utilizzo dei CNAME {#use-cnames}
 
