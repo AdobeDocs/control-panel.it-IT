@@ -1,7 +1,10 @@
 ---
 title: Rilasci del Pannello di controllo
 translation-type: tm+mt
-source-git-commit: f59be0be3b183dd453ba3cc8ee8c70887e65e6e3
+source-git-commit: 7bde86a86fbd128f4eb7bf029e58b0f95964390b
+workflow-type: tm+mt
+source-wordcount: '337'
+ht-degree: 0%
 
 ---
 
@@ -12,7 +15,7 @@ Qui troverete informazioni sulle ultime versioni del Pannello di controllo.
 
 >[!NOTE]
 >
->Il Pannello di controllo è disponibile solo per i clienti ospitati su AWS. Per accedere al Pannello di controllo non sono necessari aggiornamenti. Assicurati di essere un utente amministratore per accedervi.
+>Il Pannello di controllo è disponibile solo per i clienti ospitati su AWS, ad eccezione degli ambienti ibridi non ancora supportati. . Per accedere al Pannello di controllo non sono necessari aggiornamenti. Assicurati di essere un utente amministratore per accedervi.
 
 ## Aprile 2020 {#april-2020}
 
