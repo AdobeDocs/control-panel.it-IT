@@ -1,10 +1,13 @@
 ---
 product: adobe campaign
-sub-product: control panel
+sub-product: pannello di controllo
 audience: end-user
-user-guide-title: Control Panel Help
+user-guide-title: Guida del Pannello di controllo
 translation-type: tm+mt
-source-git-commit: d81f76a07c294fdab4ed31e7741cf7ec4fb2f985
+source-git-commit: 22f84071d825004b8a8aaf32cc9c1579476ee1de
+workflow-type: tm+mt
+source-wordcount: '97'
+ht-degree: 4%
 
 ---
 
@@ -40,4 +43,5 @@ source-git-commit: d81f76a07c294fdab4ed31e7741cf7ec4fb2f985
    + [Whitelist IP per l&#39;accesso ad esempio](instances-settings/using/ip-whitelisting-instance-access.md)
    + [Autorizzazioni URL](instances-settings/using/url-permissions.md)
    + [Dettagli istanza](instances-settings/using/instance-details.md)
+   + [Gestione chiavi GPG](instances-settings/using/gpg-keys-management.md)
 + [Domande frequenti](faq.md)
