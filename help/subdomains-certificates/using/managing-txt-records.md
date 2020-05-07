@@ -2,7 +2,10 @@
 title: Gestione dei record TXT
 description: Scopri come gestire i record TXT per la verifica della proprietà del dominio.
 translation-type: tm+mt
-source-git-commit: e5646fdccd47b4180fd0f9d561f61c04cd515c01
+source-git-commit: 7c2dd60c70b5f9c0b2567df289582b972a7f76b8
+workflow-type: tm+mt
+source-wordcount: '343'
+ht-degree: 0%
 
 ---
 
@@ -52,5 +55,3 @@ Per eliminare un record, selezionatelo dall&#39;elenco dei record, quindi fate c
 >[!NOTE]
 >
 >L&#39;unico record che puoi eliminare dall&#39;elenco dei record DNS è quello che hai aggiunto in precedenza (nel nostro caso il record Google TXT).
-
-
