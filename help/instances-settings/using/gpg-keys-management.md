@@ -2,9 +2,9 @@
 title: Gestione chiavi GPG
 description: Scopri come gestire le chiavi GPG per cifrare e decifrare i dati in Adobe Campaign.
 translation-type: tm+mt
-source-git-commit: 385f1c19b43d30e34d55ae655018e61aa1d2dc04
+source-git-commit: d44c0557904f0e6f6688c12687fbf84e42553d6b
 workflow-type: tm+mt
-source-wordcount: '1029'
+source-wordcount: '1028'
 ht-degree: 0%
 
 ---
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Gestione chiavi GPG {#gpg-keys-management}
 
-## Informazioni sulla crittografia GPG {about-gpg-Encryption}
+## Informazioni sulla crittografia GPG {#about-gpg-encryption}
 
 La crittografia GPG consente di proteggere i dati utilizzando un sistema di coppie di chiavi pubblica-privata che seguono le specifiche [OpenPGP](https://www.openpgp.org/about/standard/) .
 
