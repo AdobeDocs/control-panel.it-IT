@@ -2,7 +2,10 @@
 title: Domande frequenti sul Pannello di controllo
 description: Domande comuni relative al Pannello di controllo
 translation-type: tm+mt
-source-git-commit: ddf4ca24c1583e388c07aae110522627220d5e66
+source-git-commit: 7bde86a86fbd128f4eb7bf029e58b0f95964390b
+workflow-type: tm+mt
+source-wordcount: '625'
+ht-degree: 5%
 
 ---
 
@@ -11,15 +14,15 @@ source-git-commit: ddf4ca24c1583e388c07aae110522627220d5e66
 
 ## ID organizzazione IMS {#ims-org-id}
 
-**Cos’è un ID organizzazione IMS?**
+**Che cos’è un ID organizzazione IMS?**
 
 Si tratta di un ID univoco fornito all’istanza al primo accesso ad Adobe Experience Cloud. Deve essere nel formato: xxx@AdobeOrg.
 
-Per ulteriori informazioni, consulta la documentazione [di](https://marketing.adobe.com/resources/help/en_US/mcloud/organizations.html)Adobe Experience Cloud.
+Per ulteriori informazioni, consulta la documentazione [di](https://marketing.adobe.com/resources/help/it_IT/mcloud/organizations.html)Adobe Experience Cloud.
 
 **Dove posso trovare il mio ID organizzazione IMS?**
 
-One way is to navigate to [Adobe Experience Cloud Home](https://experiencecloud.adobe.com/) > **[!UICONTROL Administration]**. You will find your IMS Org ID at the bottom of Administration**[!UICONTROL Quick Access]** section. Per maggiori informazioni, consulta la [documentazione di Adobe Experience Cloud](https://marketing.adobe.com/resources/help/en_US/mcloud/organizations.html).
+One way is to navigate to [Adobe Experience Cloud Home](https://experiencecloud.adobe.com/) > **[!UICONTROL Administration]**. You will find your IMS Org ID at the bottom of Administration **[!UICONTROL Quick Access]** section. Per maggiori informazioni, consulta la [documentazione di Adobe Experience Cloud](https://marketing.adobe.com/resources/help/it_IT/mcloud/organizations.html).
 
 L&#39;altro modo consiste nell&#39;avviare **Admin Console**. L’ID organizzazione IMS sarà visibile nell’URL e avrà un aspetto simile a: https://adminconsole.adobe.com/xxx@AdobeOrg/overview.
 
@@ -42,7 +45,7 @@ Se avete accesso a più soluzioni Adobe, potete disporre di più ID organizzazio
 Per verificare se l’istanza è in hosting su AWS, effettuate le seguenti operazioni:
 
 1. Recuperate l’URL di accesso. Si tratta dell&#39;URL usato per accedere all&#39;istanza Campaign, che termina principalmente con &quot;.campaign.adobe.com&quot; o&quot;.neolane.net&quot;.
-1. Aprite il terminale, quindi eseguite un&#39; **[!DNL nslookup]**operazione sull&#39;URL di accesso.
+1. Aprite il terminale, quindi eseguite un&#39; **[!DNL nslookup]** operazione sull&#39;URL di accesso.
 
    `doe-macOS% nslookup myinstance.campaign.adobe.com`
 
@@ -99,7 +102,7 @@ Sì, potrai gestire solo le impostazioni per Adobe Campaign nel Pannello di cont
 
 **Posso usare il Pannello di controllo?**
 
-Il Pannello di controllo è aperto solo agli amministratori dei prodotti dei clienti attuali che hanno Adobe Campaign ospitato su AWS.
+Il Pannello di controllo è aperto solo agli amministratori dei prodotti dei clienti attuali che hanno Adobe Campaign ospitato su AWS. Gli ambienti ibridi non sono ancora supportati.
 
 Se non sei un amministratore, ma desideri accedere, contatta l’amministratore del prodotto per aiutarti ad aggiungerti come amministratore.
 
