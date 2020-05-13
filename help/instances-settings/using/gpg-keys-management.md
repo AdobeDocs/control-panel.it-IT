@@ -2,7 +2,7 @@
 title: Gestione chiavi GPG
 description: Scopri come gestire le chiavi GPG per cifrare e decifrare i dati in Adobe Campaign.
 translation-type: tm+mt
-source-git-commit: 2c0bd8f3583423b3b2f981390a32416e8bbcbc4a
+source-git-commit: 59b91342b6bec1f78fce87b973d9f2d32cd5c698
 workflow-type: tm+mt
 source-wordcount: '1028'
 ht-degree: 0%
@@ -65,7 +65,7 @@ Il Pannello di controllo consente di crittografare i dati provenienti dall&#39;i
 
 A tal fine, è necessario generare una coppia di chiavi GPG da uno strumento di crittografia PGP, quindi installare la chiave pubblica nel Pannello di controllo. Sarà quindi possibile crittografare i dati prima di inviarli dall&#39;istanza. A questo scopo, effettuate le seguenti operazioni:
 
-1. Generate una coppia di chiavi pubblica/privata utilizzando uno strumento di cifratura GPG dopo la specifica [OpenPGP](https://www.openpgp.org/about/standard/). A tal fine, installate un&#39;utilità GPG o un software GNuPG.
+1. Generate una coppia di chiavi pubblica/privata utilizzando uno strumento di cifratura GPG dopo la specifica [OpenPGP](https://www.openpgp.org/about/standard/). A tal fine, installare un&#39;utility GPG o un software GNuGP.
 
    >[!NOTE]
    >
@@ -85,7 +85,7 @@ A tal fine, è necessario generare una coppia di chiavi GPG da uno strumento di 
    * **passphrase**
    ![](assets/gpg_command.png)
 
-1. Una volta confermato, lo script genererà una chiave che può essere esportata in un file o incollata direttamente nel Pannello di controllo. Per esportare il file, eseguite questo comando seguito dal punto di contatto della chiave generata.
+1. Una volta confermato, lo script genererà una chiave che può essere esportata in un file o incollata direttamente nel Pannello di controllo. Per esportare il file, eseguire questo comando seguito dall&#39;impronta digitale della chiave generata.
 
    `gpg -a --export <fingerprint>`
 
@@ -105,7 +105,7 @@ A tal fine, è necessario generare una coppia di chiavi GPG da uno strumento di 
 
 1. Fate clic sul **!UICONTROL Install Key]** pulsante.
 
-Una volta installata la chiave pubblica, questa viene visualizzata nell&#39;elenco. Puoi usare il **...** per scaricarlo o copiarne l’impronta digitale.
+Una volta installata la chiave pubblica, questa viene visualizzata nell&#39;elenco. Puoi usare il **...** per scaricarlo o copiarne l&#39;impronta digitale.
 
 ![](assets/gpg_install_download.png)
 
