@@ -2,7 +2,7 @@
 title: Gestione chiavi GPG
 description: Scopri come gestire le chiavi GPG per cifrare e decifrare i dati in Adobe Campaign.
 translation-type: tm+mt
-source-git-commit: d44c0557904f0e6f6688c12687fbf84e42553d6b
+source-git-commit: 2c0bd8f3583423b3b2f981390a32416e8bbcbc4a
 workflow-type: tm+mt
 source-wordcount: '1028'
 ht-degree: 0%
@@ -69,9 +69,9 @@ A tal fine, è necessario generare una coppia di chiavi GPG da uno strumento di 
 
    >[!NOTE]
    >
-   >È disponibile un software libero open source per generare chiavi. Tuttavia, accertatevi di seguire le linee guida della vostra organizzazione e utilizzare l&#39;utility PGP consigliata dall&#39;organizzazione IT/Security.
+   >È disponibile un software libero open source per generare chiavi. Tuttavia, accertatevi di seguire le linee guida della vostra organizzazione e di utilizzare l&#39;utility GPG consigliata dall&#39;organizzazione IT/Security.
 
-1. Una volta installata l&#39;utility, eseguire il comando seguente, in Mac Terminal o Windows Machine.
+1. Una volta installata l&#39;utility, eseguite il comando seguente, in Mac Terminal o Windows.
 
    `gpg --full-generate-key`
 
@@ -111,7 +111,7 @@ Una volta installata la chiave pubblica, questa viene visualizzata nell&#39;elen
 
 La chiave è quindi disponibile per l&#39;uso nei flussi di lavoro di Adobe Campaign. È possibile utilizzarlo per cifrare i dati quando si utilizzano le attività di estrazione dei dati.
 
-Per maggiori informazioni, consulta la documentazione di Adobe Campaign:
+Per ulteriori informazioni, consulta la documentazione di Adobe Campaign:
 
 | Campaign Classic | Campaign Standard |
 ---------|----------
@@ -147,7 +147,7 @@ Puoi usare il **...** per scaricare la chiave pubblica o copiarne l’impronta d
 
 La chiave pubblica è quindi disponibile per essere condivisa con qualsiasi sistema esterno. Adobe Campaign sarà in grado di utilizzare la chiave privata nelle attività di caricamento dei dati per decifrare i dati crittografati con la chiave pubblica.
 
-Per maggiori informazioni, consulta la documentazione di Adobe Campaign:
+Per ulteriori informazioni, consulta la documentazione di Adobe Campaign:
 
 | Campaign Classic | Campaign Standard |
 ---------|----------
