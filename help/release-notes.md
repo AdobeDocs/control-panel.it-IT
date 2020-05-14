@@ -1,9 +1,9 @@
 ---
 title: Rilasci del Pannello di controllo
 translation-type: tm+mt
-source-git-commit: 7bde86a86fbd128f4eb7bf029e58b0f95964390b
+source-git-commit: 88fd5b8853864ed25a3c6f2dfb5da718d0fc8d11
 workflow-type: tm+mt
-source-wordcount: '337'
+source-wordcount: '401'
 ht-degree: 0%
 
 ---
@@ -15,15 +15,31 @@ Qui troverete informazioni sulle ultime versioni del Pannello di controllo.
 
 >[!NOTE]
 >
->Il Pannello di controllo è disponibile solo per i clienti ospitati su AWS, ad eccezione degli ambienti ibridi non ancora supportati. . Per accedere al Pannello di controllo non sono necessari aggiornamenti. Assicurati di essere un utente amministratore per accedervi.
+>Il Pannello di controllo è disponibile solo per i clienti ospitati su AWS, ad eccezione degli ambienti ibridi non ancora supportati. Per accedere al Pannello di controllo non sono necessari aggiornamenti. Assicurati di essere un utente amministratore per accedervi.
+
+## Maggio 2020 (#maggio-2020)
+
+**Gestione chiavi GPG**
+
+Installa e/o genera chiavi GPG in un&#39;istanza di marketing, per cifrare i dati inviati da Campaign e decifrare i dati in arrivo. [Leggi tutto](../..//instances-settings/using/gpg-keys-management.md)
+
+**Gestione certificati per i sottodomini CNAME**
+
+Il Pannello di controllo ora consente di rinnovare i certificati SSL dei sottodomini delegati con il metodo CNAME. [Leggi tutto](../../subdomains-certificates/using/renewing-subdomain-certificate.md)
 
 ## Aprile 2020 {#april-2020}
 
-**Gestione** record Google TXT Aggiungi il record di verifica del sito Google TXT a tutti i tuoi sottodomini utilizzati per inviare e-mail agli indirizzi Gmail tramite il Pannello di controllo della campagna.
+**Gestione record Google TXT**
 
-**Il Pannello di controllo per il monitoraggio** dello spazio del database è dotato di funzionalità di monitoraggio del database, che consentono di visualizzare l&#39;utilizzo dello spazio del database su richiesta e nel tempo.
+Aggiungi il record di verifica del sito Google TXT a tutti i tuoi sottodomini utilizzati per inviare e-mail agli indirizzi Gmail tramite il Pannello di controllo della campagna. [Leggi tutto](../../subdomains-certificates/using/managing-txt-records.md)
 
-**Il Pannello di controllo per le** campagne di avvisi e-mail è dotato di funzionalità di avvisi e-mail in tempo reale, che consentono di accedere al Pannello di controllo e di registrarsi per ricevere avvisi quando il sistema è a rischio di deterioramento delle prestazioni, oppure è necessaria un&#39;azione per garantire prestazioni elevate in futuro.
+**Monitoraggio dello spazio del database**
+
+Il Pannello di controllo della campagna è dotato di funzionalità di monitoraggio del database che consentono di visualizzare lo spazio del database utilizzato su richiesta e nel tempo. [Leggi tutto](../../performance-monitoring/using/database-monitoring.md)
+
+**Avvisi e-mail**
+
+Il Pannello di controllo della campagna è dotato di funzionalità di avvisi e-mail in tempo reale, che consentono di accedere al Pannello di controllo e di registrarsi per ricevere avvisi quando il sistema è a rischio di deterioramento delle prestazioni, oppure è necessaria un&#39;azione per garantire prestazioni elevate in futuro. [Leggi tutto](../../performance-monitoring/using/email-alerting.md)
 
 ## Gennaio 2020 {#january-2020}
 
