@@ -1,7 +1,7 @@
 ---
 title: Rilasci del Pannello di controllo
 translation-type: tm+mt
-source-git-commit: 88fd5b8853864ed25a3c6f2dfb5da718d0fc8d11
+source-git-commit: 032a4bd28b7f246771b3f246768fca083afe487b
 workflow-type: tm+mt
 source-wordcount: '401'
 ht-degree: 0%
@@ -21,25 +21,25 @@ Qui troverete informazioni sulle ultime versioni del Pannello di controllo.
 
 **Gestione chiavi GPG**
 
-Installa e/o genera chiavi GPG in un&#39;istanza di marketing, per cifrare i dati inviati da Campaign e decifrare i dati in arrivo. [Leggi tutto](../..//instances-settings/using/gpg-keys-management.md)
+Installa e/o genera chiavi GPG in un&#39;istanza di marketing, per cifrare i dati inviati da Campaign e decifrare i dati in arrivo. [Leggi tutto](instances-settings/using/gpg-keys-management.md)
 
 **Gestione certificati per i sottodomini CNAME**
 
-Il Pannello di controllo ora consente di rinnovare i certificati SSL dei sottodomini delegati con il metodo CNAME. [Leggi tutto](../../subdomains-certificates/using/renewing-subdomain-certificate.md)
+Il Pannello di controllo ora consente di rinnovare i certificati SSL dei sottodomini delegati con il metodo CNAME. [Leggi tutto](subdomains-certificates/using/renewing-subdomain-certificate.md)
 
 ## Aprile 2020 {#april-2020}
 
 **Gestione record Google TXT**
 
-Aggiungi il record di verifica del sito Google TXT a tutti i tuoi sottodomini utilizzati per inviare e-mail agli indirizzi Gmail tramite il Pannello di controllo della campagna. [Leggi tutto](../../subdomains-certificates/using/managing-txt-records.md)
+Aggiungi il record di verifica del sito Google TXT a tutti i tuoi sottodomini utilizzati per inviare e-mail agli indirizzi Gmail tramite il Pannello di controllo della campagna. [Leggi tutto](subdomains-certificates/using/managing-txt-records.md)
 
 **Monitoraggio dello spazio del database**
 
-Il Pannello di controllo della campagna è dotato di funzionalità di monitoraggio del database che consentono di visualizzare lo spazio del database utilizzato su richiesta e nel tempo. [Leggi tutto](../../performance-monitoring/using/database-monitoring.md)
+Il Pannello di controllo della campagna è dotato di funzionalità di monitoraggio del database che consentono di visualizzare lo spazio del database utilizzato su richiesta e nel tempo. [Leggi tutto](performance-monitoring/using/database-monitoring.md)
 
 **Avvisi e-mail**
 
-Il Pannello di controllo della campagna è dotato di funzionalità di avvisi e-mail in tempo reale, che consentono di accedere al Pannello di controllo e di registrarsi per ricevere avvisi quando il sistema è a rischio di deterioramento delle prestazioni, oppure è necessaria un&#39;azione per garantire prestazioni elevate in futuro. [Leggi tutto](../../performance-monitoring/using/email-alerting.md)
+Il Pannello di controllo della campagna è dotato di funzionalità di avvisi e-mail in tempo reale, che consentono di accedere al Pannello di controllo e di registrarsi per ricevere avvisi quando il sistema è a rischio di deterioramento delle prestazioni, oppure è necessaria un&#39;azione per garantire prestazioni elevate in futuro. [Leggi tutto](performance-monitoring/using/email-alerting.md)
 
 ## Gennaio 2020 {#january-2020}
 
