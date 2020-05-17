@@ -2,7 +2,7 @@
 title: Gestione chiavi GPG
 description: Scopri come gestire le chiavi GPG per cifrare e decifrare i dati in Adobe Campaign.
 translation-type: tm+mt
-source-git-commit: 110e77e00fcc0ea893fa91c3b2d3d8788216a8dd
+source-git-commit: c6e070c024df1bb7708281eff67b430e553ac258
 workflow-type: tm+mt
 source-wordcount: '1028'
 ht-degree: 0%
@@ -83,7 +83,7 @@ A tal fine, è necessario generare una coppia di chiavi GPG da uno strumento di 
    * **commento**: l’aggiunta di un’etichetta al campo del commento consente di identificare facilmente la chiave nell’elenco dei tasti del Pannello di controllo.
    * **scadenza**: Data o &quot;0&quot; per nessuna data di scadenza.
    * **passphrase**
-   ![](assets/gpg_command.png)
+   ![](assets/do-not-localize/gpg_command.png)
 
 1. Una volta confermato, lo script genererà una chiave che può essere esportata in un file o incollata direttamente nel Pannello di controllo. Per esportare il file, eseguire questo comando seguito dall&#39;impronta digitale della chiave generata.
 
