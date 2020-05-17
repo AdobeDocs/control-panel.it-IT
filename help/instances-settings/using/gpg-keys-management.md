@@ -2,9 +2,9 @@
 title: Gestione chiavi GPG
 description: Scopri come gestire le chiavi GPG per cifrare e decifrare i dati in Adobe Campaign.
 translation-type: tm+mt
-source-git-commit: c6e070c024df1bb7708281eff67b430e553ac258
+source-git-commit: a160b542a6f00a605a80605be2ab3b934f26ba72
 workflow-type: tm+mt
-source-wordcount: '1028'
+source-wordcount: '1034'
 ht-degree: 0%
 
 ---
@@ -25,39 +25,6 @@ Potrete quindi:
 * **Cifra dati** inviati: Adobe Campaign invia i dati dopo averlo crittografato con la chiave pubblica installata.
 
 * **Decrittografa dati** in arrivo: Adobe Campaign riceve i dati crittografati da un sistema esterno utilizzando una chiave pubblica scaricata dal Pannello di controllo. Adobe Campaign decrittografa i dati utilizzando una chiave privata generata dal Pannello di controllo.
-
-## Monitoraggio delle chiavi GPG
-
-Per accedere ai tasti GPG installati e generati per le istanze, aprite la **[!UICONTROL Instance settings]** scheda, quindi selezionate la **[!UICONTROL GPG keys]** scheda.
-
-![](assets/gpg_list.png)
-
-Nell&#39;elenco sono visualizzate tutte le chiavi GPG di cifratura e decrittazione installate e generate per le istanze, con informazioni dettagliate su ciascuna chiave:
-
-* **[!UICONTROL Name]**: Nome definito al momento dell’installazione o della generazione della chiave.
-* **[!UICONTROL Use case]**: Questa colonna specifica il caso di utilizzo della chiave:
-
-   ![](assets/gpg_icon_encrypt.png): La chiave è stata installata per la crittografia dei dati.
-
-   ![](assets/gpg_icon_decrypt.png): La chiave è stata generata per consentire la decrittografia dei dati.
-
-* **[!UICONTROL Fingerprint]**: l&#39;impronta digitale della chiave.
-* **[!UICONTROL Expires]**: Data di scadenza della chiave. Il Pannello di controllo fornirà indicazioni visive man mano che la chiave si avvicina alla data di scadenza:
-
-   * Urgente (rosso) è mostrato 30 giorni prima.
-   * L&#39;avviso (giallo) è visualizzato 60 giorni prima.
-   * Alla scadenza di una chiave viene visualizzato un banner rosso &quot;Scaduto&quot;.
-   >[!NOTE]
-   >
-   >Il Pannello di controllo non invierà alcuna notifica e-mail.
-
-Come procedura ottimale, si consiglia di rimuovere qualsiasi chiave non più necessaria. Per eseguire questa operazione, fare clic sul **..** quindi selezionate **[!UICONTROL Delete Key].**.
-
-![](assets/gpg_delete.png)
-
->[!IMPORTANT]
->
->Prima di rimuovere una chiave, accertati che non sia utilizzata in alcun flusso di lavoro di Adobe Campaign per evitare che si verifichi un errore.
 
 ## Cifratura dei dati {#encrypting-data}
 
@@ -89,7 +56,7 @@ A tal fine, è necessario generare una coppia di chiavi GPG da uno strumento di 
 
    `gpg -a --export <fingerprint>`
 
-1. Per installare la chiave pubblica nel Pannello di controllo, accedere alla **[!UICONTROL GPG Keys]** scheda e selezionare l&#39;istanza desiderata.
+1. Per installare la chiave pubblica nel Pannello di controllo, aprite la **[!UICONTROL Instance settings]** scheda, quindi selezionate la **[!UICONTROL GPG keys]** scheda e l&#39;istanza desiderata.
 
 1. Fate clic sul **[!UICONTROL Install Key]** pulsante.
 
@@ -134,7 +101,7 @@ A tal fine, è necessario generare una coppia di chiavi GPG direttamente dal Pan
 
 Per generare una coppia di chiavi nel Pannello di controllo, procedere come segue:
 
-1. Accedi alla **[!UICONTROL GPG Keys]** scheda, quindi seleziona l&#39;istanza Adobe Campaign desiderata.
+1. Apri la **[!UICONTROL Instance settings]** scheda, quindi seleziona la **[!UICONTROL GPG keys]** scheda e l&#39;istanza Adobe Campaign desiderata.
 
 1. Fate clic sul **[!UICONTROL Generate Key]** pulsante.
 
@@ -163,3 +130,36 @@ Per ulteriori informazioni, consulta la documentazione di Adobe Campaign:
 
 * [Gestione dei dati crittografati](https://docs.adobe.com/content/help/en/campaign-standard/using/managing-processes-and-data/workflow-general-operation/importing-data.html#managing-encrypted-data)
 * [Carica attività file](https://docs.adobe.com/content/help/en/campaign-standard/using/managing-processes-and-data/data-management-activities/load-file.html)
+
+## Monitoraggio delle chiavi GPG
+
+Per accedere ai tasti GPG installati e generati per le istanze, aprite la **[!UICONTROL Instance settings]** scheda, quindi selezionate la **[!UICONTROL GPG keys]** scheda.
+
+![](assets/gpg_list.png)
+
+Nell&#39;elenco sono visualizzate tutte le chiavi GPG di cifratura e decrittazione installate e generate per le istanze, con informazioni dettagliate su ciascuna chiave:
+
+* **[!UICONTROL Name]**: Nome definito al momento dell’installazione o della generazione della chiave.
+* **[!UICONTROL Use case]**: Questa colonna specifica il caso di utilizzo della chiave:
+
+   ![](assets/gpg_icon_encrypt.png): La chiave è stata installata per la crittografia dei dati.
+
+   ![](assets/gpg_icon_decrypt.png): La chiave è stata generata per consentire la decrittografia dei dati.
+
+* **[!UICONTROL Fingerprint]**: l&#39;impronta digitale della chiave.
+* **[!UICONTROL Expires]**: Data di scadenza della chiave. Il Pannello di controllo fornirà indicazioni visive man mano che la chiave si avvicina alla data di scadenza:
+
+   * Urgente (rosso) è mostrato 30 giorni prima.
+   * L&#39;avviso (giallo) è visualizzato 60 giorni prima.
+   * Alla scadenza di una chiave viene visualizzato un banner rosso &quot;Scaduto&quot;.
+   >[!NOTE]
+   >
+   >Il Pannello di controllo non invierà alcuna notifica e-mail.
+
+Come procedura ottimale, si consiglia di rimuovere qualsiasi chiave non più necessaria. Per eseguire questa operazione, fare clic sul **..** quindi selezionate **[!UICONTROL Delete Key].**.
+
+![](assets/gpg_delete.png)
+
+>[!IMPORTANT]
+>
+>Prima di rimuovere una chiave, accertati che non sia utilizzata in alcun flusso di lavoro di Adobe Campaign per evitare che si verifichi un errore.
