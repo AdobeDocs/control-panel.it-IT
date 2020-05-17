@@ -1,7 +1,10 @@
 ---
 title: Documentazione del prodotto
 translation-type: tm+mt
-source-git-commit: f59be0be3b183dd453ba3cc8ee8c70887e65e6e3
+source-git-commit: c6e070c024df1bb7708281eff67b430e553ac258
+workflow-type: tm+mt
+source-wordcount: '122'
+ht-degree: 11%
 
 ---
 
@@ -12,17 +15,13 @@ source-git-commit: f59be0be3b183dd453ba3cc8ee8c70887e65e6e3
 
 ## Novità
 
-* [Gestione record Google TXT](subdomains-certificates/using/managing-txt-records.md)
+* [Gestione chiavi GPG](instances-settings/using/gpg-keys-management.md)
 
-   Aggiungi il record di verifica del sito Google TXT a tutti i tuoi sottodomini utilizzati per inviare e-mail agli indirizzi Gmail tramite il Pannello di controllo della campagna.
+   Installa e/o genera chiavi GPG in un&#39;istanza di marketing, per cifrare i dati inviati da Campaign e decifrare i dati in arrivo.
 
-* [Monitoraggio dello spazio del database](performance-monitoring/using/database-monitoring.md)
+* [Gestione certificati per i sottodomini](subdomains-certificates/using/renewing-subdomain-certificate.md)CNAME)
 
-   Visualizzare l&#39;utilizzo dello spazio del database su richiesta e nel tempo.
-
-* [Avvisi e-mail](performance-monitoring/using/email-alerting.md)
-
-   Accedete al Pannello di controllo e registratevi per ricevere avvisi quando il sistema è a rischio di deterioramento delle prestazioni, oppure è necessaria un&#39;azione per garantire prestazioni elevate per il futuro.
+   Il Pannello di controllo ora consente di rinnovare i certificati SSL dei sottodomini delegati con il metodo CNAME.
 
 ## Risorse aggiuntive {#additional-resources}
 
