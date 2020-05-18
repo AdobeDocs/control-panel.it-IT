@@ -2,7 +2,10 @@
 title: Rinnovo del certificato SSL di un sottodominio
 description: Scopri come rinnovare i certificati SSL dei sottodomini
 translation-type: tm+mt
-source-git-commit: f08b0e68cf0a208b1385052510c06ca1eb679e63
+source-git-commit: bc29433167d4699ad9b840381abd0d5bbff8c630
+workflow-type: tm+mt
+source-wordcount: '840'
+ht-degree: 0%
 
 ---
 
@@ -10,11 +13,11 @@ source-git-commit: f08b0e68cf0a208b1385052510c06ca1eb679e63
 # Rinnovo del certificato SSL di un sottodominio {#renewing-subdomains-ssl-certificates}
 
 >[!CONTEXTUALHELP]
->id=&quot;cp_add_ssl_certificate&quot;
->title=&quot;Aggiungi certificato SSL&quot;
->abstract=&quot;Per aggiungere un certificato SSL, è necessario generare un CSR, acquistare il certificato SSL per i sottodomini e installare il Bundle certificati.&quot;
->Additional-url=&quot;https://docs.adobe.com/content/help/en/control-panel/using/subdomains-and-certificates/renewing-subdomain-certificate.html#generating-csr&quot; text=&quot;Generazione di una richiesta di firma dei certificati (CSR)&quot;
->Additional-url=&quot;https://docs.adobe.com/content/help/en/control-panel/using/subdomains-and-certificates/renewing-subdomain-certificate.html#installing-ssl-certificate&quot; text=&quot;Come installare un certificato SSL&quot;
+>id="cp_add_ssl_certificate"
+>title="Aggiungi certificato SSL"
+>abstract="Per aggiungere un certificato SSL, dovete generare un CSR, acquistare il certificato SSL per i vostri sottodomini e installare il Bundle certificati."
+>additional-url="https://docs.adobe.com/content/help/en/control-panel/using/subdomains-and-certificates/renewing-subdomain-certificate.html#generating-csr" text="Generazione di una richiesta di firma dei certificati (CSR)"
+>additional-url="https://docs.adobe.com/content/help/en/control-panel/using/subdomains-and-certificates/renewing-subdomain-certificate.html#installing-ssl-certificate" text="Come installare un certificato SSL"
 
 >[!IMPORTANT]
 >
@@ -28,23 +31,19 @@ Il processo di rinnovo del certificato SSL comprende 3 passaggi:
 1. **Acquisto del certificato** SSL Una volta generato il CSR, è possibile scaricarlo e utilizzarlo per acquistare il certificato SSL dall’autorità di certificazione approvata dalla società.
 1. **Installazione del certificato** SSL Una volta acquistato il certificato SSL, è possibile installarlo nel sottodominio desiderato.
 
->[!NOTE]
->
->Il rinnovo dei certificati SSL tramite il Pannello di controllo è disponibile solo per i sottodomini **delegati** completi.
-
 ## Generazione di una richiesta di firma dei certificati (CSR) {#generating-csr}
 
 >[!CONTEXTUALHELP]
->id=&quot;cp_generate_csr&quot;
->title=&quot;Generate CSR&quot;
->abstract=&quot;La richiesta di firma del certificato deve essere generata per l&#39;istanza e i sottodomini che si intende proteggere prima di acquistare un certificato.&quot;
+>id="cp_generate_csr"
+>title="Genera CSR"
+>abstract="La richiesta di firma dei certificati deve essere generata per l&#39;istanza e i sottodomini che si intende proteggere prima di acquistare un certificato."
 
 >[!CONTEXTUALHELP]
->id=&quot;cp_select_subdomini&quot;
->title=&quot;Seleziona i sottodomini per la tua CSR&quot;
->abstract=&quot;Potete scegliere di includere nella richiesta di firma dei certificati tutti i sottodomini o solo alcuni di essi. Solo i sottodomini selezionati saranno certificati tramite il certificato SSL acquistato.&quot;
->Additional-url=&quot;https://docs.adobe.com/content/help/en/control-panel/using/subdomains-and-certificates/renewing-subdomain-certificate.html#generating-csr&quot; text=&quot;Generazione di una richiesta di firma dei certificati (CSR)&quot;
->Additional-url=&quot;https://docs.adobe.com/content/help/en/control-panel/using/subdomains-and-certificates/subdomains-branding.html&quot; text=&quot;About subdomini branding&quot;
+>id="cp_select_subdomains"
+>title="Seleziona i sottodomini per la tua CSR"
+>abstract="Puoi scegliere di includere tutti i sottodomini o solo specifici nella richiesta di firma dei certificati. Solo i sottodomini selezionati saranno certificati tramite il certificato SSL acquistato."
+>additional-url="https://docs.adobe.com/content/help/en/control-panel/using/subdomains-and-certificates/renewing-subdomain-certificate.html#generating-csr" text="Generazione di una richiesta di firma dei certificati (CSR)"
+>additional-url="https://docs.adobe.com/content/help/en/control-panel/using/subdomains-and-certificates/subdomains-branding.html" text="Marchio dei sottodomini"
 
 Per generare una richiesta di firma dei certificati (CSR), procedere come segue:
 
@@ -52,7 +51,7 @@ Per generare una richiesta di firma dei certificati (CSR), procedere come segue:
 
    ![](assets/renewal1.png)
 
-1. Selezionate **[!UICONTROL Generate a CSR]**, quindi fate clic **[!UICONTROL Next]** per avviare la procedura guidata che vi guiderà attraverso il processo di generazione CSR.
+1. Selezionate **[!UICONTROL 1 - Generate a CSR]**, quindi fate clic **[!UICONTROL Next]** per avviare la procedura guidata che vi guiderà attraverso il processo di generazione CSR.
 
    ![](assets/renewal2.png)
 
@@ -90,10 +89,10 @@ Dopo aver ottenuto un CSR per la richiesta di firma dei certificati dal Pannello
 ## Installazione del certificato SSL {#installing-ssl-certificate}
 
 >[!CONTEXTUALHELP]
->id=&quot;cp_install_ssl_certificate&quot;
->title=&quot;Installa certificato SSL&quot;
->abstract=&quot;Installa il certificato SSL acquistato dall’autorità di certificazione approvata dall’organizzazione.&quot;
->Additional-url=&quot;https://docs.adobe.com/content/help/en/control-panel/using/subdomains-and-certificates/subdomains-branding.html&quot; text=&quot;About subdomini branding&quot;
+>id="cp_install_ssl_certificate"
+>title="Installa certificato SSL"
+>abstract="Installate il certificato SSL acquistato dall’autorità di certificazione approvata dall’organizzazione."
+>additional-url="https://docs.adobe.com/content/help/en/control-panel/using/subdomains-and-certificates/subdomains-branding.html" text="Marchio dei sottodomini"
 
 Una volta acquistato un certificato SSL, potete installarlo nell’istanza. Prima di procedere, accertatevi di conoscere i prerequisiti seguenti:
 
@@ -117,7 +116,7 @@ Per installare il certificato, effettuate le seguenti operazioni:
 
    ![](assets/renewal1.png)
 
-1. Fate clic **[!UICONTROL Install SSL Certificate]**, quindi **[!UICONTROL Next]** per avviare la procedura guidata che vi guiderà attraverso il processo di installazione del certificato.
+1. Selezionate **[!UICONTROL 3 - Install Certificate Bundle]**, quindi fate clic **[!UICONTROL Next]** per avviare la procedura guidata che vi guiderà attraverso il processo di installazione del certificato.
 
    ![](assets/install1.png)
 
