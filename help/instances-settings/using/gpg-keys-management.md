@@ -2,7 +2,7 @@
 title: Gestione chiavi GPG
 description: Scopri come gestire le chiavi GPG per cifrare e decifrare i dati in Adobe Campaign.
 translation-type: tm+mt
-source-git-commit: f0e9c7df9b6213f7a6fe81e3cf2e3f9d3355817c
+source-git-commit: f1cb8e26188cd7f3849fe26322943263f76af7e2
 workflow-type: tm+mt
 source-wordcount: '1034'
 ht-degree: 0%
@@ -32,7 +32,7 @@ Il Pannello di controllo consente di crittografare i dati provenienti dall&#39;i
 
 A tal fine, è necessario generare una coppia di chiavi GPG da uno strumento di crittografia PGP, quindi installare la chiave pubblica nel Pannello di controllo. Sarà quindi possibile crittografare i dati prima di inviarli dall&#39;istanza. A questo scopo, effettuate le seguenti operazioni:
 
-1. Generate una coppia di chiavi pubblica/privata utilizzando uno strumento di cifratura GPG dopo la specifica [OpenPGP](https://www.openpgp.org/about/standard/). A tal fine, installare un&#39;utility GPG o un software GNuGP.
+1. Generare una coppia di chiavi pubblica/privata utilizzando uno strumento di cifratura GPG che segue la specifica [](https://www.openpgp.org/about/standard/)OpenPGP. A tal fine, installare un&#39;utility GPG o un software GNuGP.
 
    >[!NOTE]
    >
