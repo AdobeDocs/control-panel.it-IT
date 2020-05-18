@@ -1,9 +1,9 @@
 ---
 title: Rilasci del Pannello di controllo
 translation-type: tm+mt
-source-git-commit: 032a4bd28b7f246771b3f246768fca083afe487b
+source-git-commit: 49d84c42446ed1fc996b9d57005565b15ca24e77
 workflow-type: tm+mt
-source-wordcount: '401'
+source-wordcount: '423'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ Qui troverete informazioni sulle ultime versioni del Pannello di controllo.
 
 **Gestione chiavi GPG**
 
-Installa e/o genera chiavi GPG in un&#39;istanza di marketing, per cifrare i dati inviati da Campaign e decifrare i dati in arrivo. [Leggi tutto](instances-settings/using/gpg-keys-management.md)
+Il Pannello di controllo ora consente di generare un paio di chiavi GPG, in modo da poter decrittografare facilmente i dati provenienti da Campaign dall&#39;esterno. Inoltre, è stata aggiunta una funzionalità che consente di installare una chiave GPG pubblica per crittografare i dati usciti da Campaign. [Leggi tutto](instances-settings/using/gpg-keys-management.md)
 
 **Gestione certificati per i sottodomini CNAME**
 
