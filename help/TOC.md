@@ -4,9 +4,9 @@ sub-product: pannello di controllo
 audience: end-user
 user-guide-title: Guida del Pannello di controllo
 translation-type: tm+mt
-source-git-commit: 22f84071d825004b8a8aaf32cc9c1579476ee1de
+source-git-commit: 98f2fa0b3e943026bda28b615f0f11db54c404a6
 workflow-type: tm+mt
-source-wordcount: '97'
+source-wordcount: '94'
 ht-degree: 4%
 
 ---
@@ -43,5 +43,4 @@ ht-degree: 4%
    + [Whitelist IP per l&#39;accesso ad esempio](instances-settings/using/ip-whitelisting-instance-access.md)
    + [Autorizzazioni URL](instances-settings/using/url-permissions.md)
    + [Dettagli istanza](instances-settings/using/instance-details.md)
-   + [Gestione chiavi GPG](instances-settings/using/gpg-keys-management.md)
 + [Domande frequenti](faq.md)
