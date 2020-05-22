@@ -1,9 +1,9 @@
 ---
 title: Rilasci del Pannello di controllo
 translation-type: tm+mt
-source-git-commit: 98f2fa0b3e943026bda28b615f0f11db54c404a6
+source-git-commit: ef0a3ccdec2aec6f220a93ab474242df2d3a621b
 workflow-type: tm+mt
-source-wordcount: '373'
+source-wordcount: '372'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ Qui troverete informazioni sulle ultime versioni del Pannello di controllo.
 >
 >Il Pannello di controllo è disponibile solo per i clienti ospitati su AWS, ad eccezione degli ambienti ibridi non ancora supportati. Per accedere al Pannello di controllo non sono necessari aggiornamenti. Assicurati di essere un utente amministratore per accedervi.
 
-## Maggio 2020 (#maggio-2020)
+## Maggio 2020 {#may-2020}
 
 **Gestione certificati per i sottodomini CNAME**
 
