@@ -1,10 +1,10 @@
 ---
 title: Documentazione del prodotto
 translation-type: tm+mt
-source-git-commit: c6e070c024df1bb7708281eff67b430e553ac258
+source-git-commit: 98f2fa0b3e943026bda28b615f0f11db54c404a6
 workflow-type: tm+mt
-source-wordcount: '122'
-ht-degree: 11%
+source-wordcount: '96'
+ht-degree: 14%
 
 ---
 
@@ -14,10 +14,6 @@ ht-degree: 11%
 ![](assets/do-not-localize/banner.png)
 
 ## Novità
-
-* [Gestione chiavi GPG](instances-settings/using/gpg-keys-management.md)
-
-   Installa e/o genera chiavi GPG in un&#39;istanza di marketing, per cifrare i dati inviati da Campaign e decifrare i dati in arrivo.
 
 * [Gestione certificati per i sottodomini](subdomains-certificates/using/renewing-subdomain-certificate.md)CNAME)
 
