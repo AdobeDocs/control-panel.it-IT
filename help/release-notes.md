@@ -1,9 +1,9 @@
 ---
 title: Rilasci del Pannello di controllo
 translation-type: tm+mt
-source-git-commit: 49d84c42446ed1fc996b9d57005565b15ca24e77
+source-git-commit: 98f2fa0b3e943026bda28b615f0f11db54c404a6
 workflow-type: tm+mt
-source-wordcount: '423'
+source-wordcount: '373'
 ht-degree: 0%
 
 ---
@@ -18,10 +18,6 @@ Qui troverete informazioni sulle ultime versioni del Pannello di controllo.
 >Il Pannello di controllo è disponibile solo per i clienti ospitati su AWS, ad eccezione degli ambienti ibridi non ancora supportati. Per accedere al Pannello di controllo non sono necessari aggiornamenti. Assicurati di essere un utente amministratore per accedervi.
 
 ## Maggio 2020 (#maggio-2020)
-
-**Gestione chiavi GPG**
-
-Il Pannello di controllo ora consente di generare un paio di chiavi GPG, in modo da poter decrittografare facilmente i dati provenienti da Campaign dall&#39;esterno. Inoltre, è stata aggiunta una funzionalità che consente di installare una chiave GPG pubblica per crittografare i dati usciti da Campaign. [Leggi tutto](instances-settings/using/gpg-keys-management.md)
 
 **Gestione certificati per i sottodomini CNAME**
 
