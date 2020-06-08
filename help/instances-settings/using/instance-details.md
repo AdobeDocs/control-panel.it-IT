@@ -1,76 +1,79 @@
 ---
-title: Dettagli istanza
-description: Scoprite come monitorare i dettagli dell’istanza nel Pannello di controllo
-translation-type: tm+mt
+title: Instance details (Dettagli istanza)
+description: Scopri come monitorare i dettagli dell’istanza nel Pannello di controllo Campaign
+translation-type: ht
 source-git-commit: a2c19296894ff893987290cb287dc7002ab999e5
+workflow-type: ht
+source-wordcount: '554'
+ht-degree: 100%
 
 ---
 
 
-# Dettagli istanza {#instance-details}
+# Instance details (Dettagli istanza) {#instance-details}
 
 >[!CONTEXTUALHELP]
->id=&quot;cp_instancesettings_instancedetails&quot;
->title=&quot;Informazioni sui dettagli dell’istanza&quot;
->abstract=&quot;Visualizza i dettagli delle istanze di Adobe Campaign: tipi, nomi, informazioni sulla build e possibili raccomandazioni di aggiornamento.&quot;
->Additional-url=&quot;https://docs.adobe.com/content/help/en/campaign-classic/using/release-notes/latest-release.html&quot; text=&quot;Note sulla versione di Campaign Classic&quot;
->Additional-url=&quot;https://docs.adobe.com/content/help/en/campaign-standard/using/release-notes/release-notes.html&quot; text=&quot;Note sulla versione di Campaign Standard&quot;
+>id="cp_instancesettings_instancedetails"
+>title="Informazioni su Instance details (Dettagli istanza)"
+>abstract="Visualizza i dettagli delle istanze di Adobe Campaign: tipi, nomi, informazioni sulla build e possibili raccomandazioni di aggiornamenti."
+>additional-url="https://docs.adobe.com/content/help/it-IT/campaign-classic/using/release-notes/latest-release.html" text="Note sulla versione di Campaign Classic"
+>additional-url="https://docs.adobe.com/content/help/it-IT/campaign-standard/using/release-notes/release-notes.html" text="Note sulla versione di Campaign Standard"
 
 >[!IMPORTANT]
 >
 >Questa funzione è disponibile solo per le istanze di Campaign Classic.
 
-## Informazioni sui dettagli dell’istanza {#about-instance-details}
+## Informazioni su Instance details (Dettagli istanza) {#about-instance-details}
 
-L&#39;architettura dell&#39;istanza di Adobe Campaign Classic può contenere diversi server per abilitare la flessibilità delle attività di marketing. Ad esempio, i server Marketing, Real Time (o Message Center) e Mid Sourcing possono supportare l’istanza.
+L’architettura dell’istanza di Adobe Campaign Classic può contenere diversi server per consentire la flessibilità delle attività di marketing. Ad esempio, possono supportare l’istanza i server Marketing, Real Time (In tempo reale) (o Message Center [Centro messaggi]) e Mid Sourcing.
 
-La funzionalità Instance Details (Dettagli istanza) consente di visualizzare l&#39;architettura semplice dell&#39;istanza. Oltre alle informazioni sul server, consente anche di sapere se la build dell&#39;istanza è corrente o meno e consiglia gli aggiornamenti quando necessario.
+La funzionalità Instance Details (Dettagli istanza) consente di visualizzare l’architettura semplice dell’istanza. Oltre alle informazioni sul server, ti consente anche di sapere se la build dell’istanza è corrente o meno e consiglia gli aggiornamenti quando necessario.
 
 >[!NOTE]
 >
->È consigliabile aggiornare le istanze almeno una volta all&#39;anno al fine di evitare il degrado delle prestazioni e poter sfruttare le funzionalità più recenti e le correzioni offerte da Adobe Campaign Classic.
+>È consigliabile aggiornare le istanze almeno una volta all’anno al fine di evitare il calo delle prestazioni e poter sfruttare le funzionalità più recenti e le correzioni offerte da Adobe Campaign Classic.
 
 **Argomenti correlati:**
 
-* [Esecuzione di un aggiornamento build](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/buildUpgrade.html)
-* [Aggiornamento di Adobe Campaign](https://docs.campaign.adobe.com/doc/AC/en/PRO_Updating_Adobe_Campaign_Introduction.html)
+* [Esecuzione di un aggiornamento della build](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/buildUpgrade.html)
+* [Aggiornamento di Adobe Campaign](https://docs.adobe.com/content/help/it-IT/campaign-classic/using/monitoring-campaign-classic/updating-adobe-campaign/introduction.html)
 
 ## Recupero di informazioni sulle istanze {#retrieving-information-about-instances}
 
-Per ottenere informazioni sui server connessi alle istanze, procedere come segue:
+Per ottenere informazioni sui server connessi alle istanze, procedi come segue:
 
-1. Open the **[!UICONTROL Instances Settings]** card to access the **[!UICONTROL Instance Details]** tab.
-
-   >[!NOTE]
-   >
-   >Se la scheda Instance Settings (Impostazioni istanza) non è visibile nella home page del Pannello di controllo, significa che il tuo ID ORG IMS non è associato ad alcuna istanza di Adobe Campaign Classic
-
-1. Selezionate nel riquadro a sinistra l&#39;istanza Campaign Classic desiderata.
+1. Apri la scheda **[!UICONTROL Instances Settings]** (Impostazioni istanze) per accedere alla scheda **[!UICONTROL Instance Details]** (Dettagli istanza).
 
    >[!NOTE]
    >
-   >Tutte le istanze Campaign vengono visualizzate nell&#39;elenco del riquadro a sinistra. Poiché la funzione Instance Details (Dettagli istanza) è dedicata solo alle istanze Campaign Classic, se selezionate un&#39;istanza Campaign Standard viene visualizzato il messaggio &quot;Non applicabile&quot;.
+   >Se la scheda Instance Settings (Impostazioni istanze) non è visibile nella home page del Pannello di controllo Campaign, significa che il tuo ID organizzazione IMS non è associato ad alcuna istanza di Adobe Campaign Classic
 
-1. Vengono visualizzati i server connessi all&#39;istanza.
+1. Seleziona nel riquadro a sinistra l’istanza Campaign Classic desiderata.
+
+   >[!NOTE]
+   >
+   >Tutte le istanze Campaign vengono visualizzate nell’elenco del riquadro a sinistra. Poiché la funzione Instance Details (Dettagli istanza) è dedicata solo alle istanze Campaign Classic, se selezioni un’istanza Campaign Standard viene visualizzato il messaggio “Non-Applicable Instance” (“Istanza non applicabile”).
+
+1. Vengono visualizzati i server connessi all’istanza.
 
    ![](assets/instance_details.png)
 
 Le informazioni disponibili sono:
 
-* **[!UICONTROL Type]**: il tipo di server. I valori possibili sono MKT (Marketing), MID (Mid sourcing) e RT (Message Center / Messaggistica in tempo reale).
+* **[!UICONTROL Type]**: il tipo di server. I valori possibili sono MKT (Marketing), MID (Mid sourcing) e RT (Message Center / Real-time messaging [Centro messaggi/Messaggistica in tempo reale]).
 * **[!UICONTROL Name]**: il nome del server.
 * **[!UICONTROL Build:]** la versione di build installata sul server.
 * **[!UICONTROL Upgrade info]**: questa colonna indica se è necessario aggiornare il server.
-   * Verde: il server è corrente, non è richiesto alcun aggiornamento.
-   * Giallo: è consigliabile effettuare l&#39;aggiornamento. Mancano le funzioni e le correzioni più recenti.
-   * Rosso: eseguire l&#39;aggiornamento il prima possibile. Mancano nuove funzioni e le prestazioni del server potrebbero non essere ottimali.
+   * Verde: il server è aggiornato, non è richiesto alcun aggiornamento.
+   * Giallo: è consigliabile effettuare l’aggiornamento. Non disponi delle funzioni e delle correzioni più recenti.
+   * Rosso: esegui l’aggiornamento il prima possibile. Non disponi di nuove funzioni e le prestazioni del server potrebbero non essere ottimali.
 
-Se uno dei server richiede l&#39;aggiornamento, consulta [questa documentazione](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/buildUpgrade.html) per ulteriori informazioni su come procedere.
+Se uno dei server richiede l’aggiornamento, consulta [questa documentazione](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/buildUpgrade.html) per ulteriori informazioni su come procedere.
 
-## Domande frequenti {#common-questions}
+## Domande comuni {#common-questions}
 
-**Non vedo il server MID nell&#39;architettura della mia istanza, significa che le mie istanze non funzionano correttamente? Ho bisogno dell&#39;istanza RT per una cosa che non posso fare oggi?**
+**Non visualizzo il server MID nell’architettura delle mie istanze, significa che le mie istanze non funzionano correttamente? È necessaria l’istanza RT per qualcosa che non posso fare attualmente?**
 
-La tua istanza può avere un aspetto molto diverso e potrebbe non avere tutti i tipi di server, o può avere diversi dello stesso server. Se non si dispone di un tipo di server o di un altro, non è possibile inviare un messaggio in tempo reale né eseguire altri tipi di attività. È possibile richiedere una capacità server aggiuntiva. Saranno applicati costi aggiuntivi.
+La tua istanza può avere un aspetto molto diverso e può non disporre di tutti i tipi di server, o può disporre di più server uguali. Se non disponi di un tipo di server o di un altro, non vuol dire che non puoi inviare un messaggio in tempo reale o eseguire altri tipi di attività. Puoi richiedere una capacità server aggiuntiva. Saranno applicati costi aggiuntivi.
 
-Se ritenete che alcuni server non siano visualizzati nella pagina &quot;Dettagli istanza&quot;, contattate l&#39;Assistenza clienti. Ricorda l’URL specifico dell’istanza nel messaggio.
+Se ritieni che alcuni server non siano visualizzati nella pagina “Instance Details” (“Dettagli istanza”), contatta l’Assistenza clienti. Ricorda di indicare l’URL specifico dell’istanza nel messaggio.
