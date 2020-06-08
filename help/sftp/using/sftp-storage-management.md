@@ -1,45 +1,48 @@
 ---
-title: Gestione dello storage SFTP
-description: Scopri come monitorare e gestire lo storage del server SFTP
-translation-type: tm+mt
+title: Gestione dell’archiviazione SFTP
+description: Scopri come monitorare e gestire l’archiviazione del server SFTP
+translation-type: ht
 source-git-commit: 834adb7c937a9927901f91e257a8df44e72ca45b
+workflow-type: ht
+source-wordcount: '351'
+ht-degree: 100%
 
 ---
 
 
-# Gestione dello storage SFTP {#sftp-storage-management}
+# Gestione dell’archiviazione SFTP {#sftp-storage-management}
 
 >[!CONTEXTUALHELP]
->id=&quot;cp_storage&quot;
->title=&quot;Informazioni sulla capacità di storage&quot;
->abstract=&quot;In questa scheda, è possibile visualizzare le informazioni sulla capacità di storage e sull&#39;utilizzo dei server SFTP. Solo i server SFTP a cui avete accesso sono visualizzati qui. Contattate l&#39;amministratore per richiedere l&#39;accesso ad altri server SFTP.&quot;
->Additional-url=&quot;https://images-tv.adobe.com/mpcv3/8a977e03-d76c-44d3-853c-95d0b799c870_1560205338.1920x1080at3000_h264.mp4&quot; text=&quot;Guarda il video dimostrativo&quot;
+>id="cp_storage"
+>title="Informazioni sulla capacità di archiviazione"
+>abstract="In questa scheda puoi visualizzare le informazioni sulla capacità di archiviazione e sull’utilizzo dei server SFTP. Solo i server SFTP a cui hai accesso sono visualizzati qui. Contatta l’amministratore per richiedere l’accesso ad altri server SFTP."
+>additional-url="https://images-tv.adobe.com/mpcv3/8a977e03-d76c-44d3-853c-95d0b799c870_1560205338.1920x1080at3000_h264.mp4" text="Guarda il video dimostrativo"
 
-È possibile che sul server SFTP sia stata fornita una capacità di storage diversa, a seconda dei termini contrattuali.
+È possibile che sul tuo server SFTP sia stato effettuato il provisioning di una capacità di archiviazione diversa, a seconda dei termini contrattuali.
 
-È fondamentale monitorare regolarmente lo spazio disponibile per ciascuno dei server SFTP. In caso contrario, potrebbe non essere più possibile salvare file aggiuntivi sul server o eseguire con successo flussi di lavoro che si basano sugli aggiornamenti di questo server.
+È fondamentale monitorare regolarmente lo spazio disponibile per ciascuno dei server SFTP. In caso contrario, potresti non essere più in grado di salvare ulteriori file sul server o eseguire con successo flussi di lavoro che si basano sugli aggiornamenti provenienti da questo server.
 
 **Argomenti correlati:**
 
-* [Video sull&#39;esercitazione Campaign Standard](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/control-panel/monitoring-server-capacity-whitelisting-adding-ssh-key.html)
-* [Video sull&#39;esercitazione Campaign Classic](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/administrating/control-panel-acc/managing-sftp-servers.html)
+* [Video tutorial per Campaign Standard](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/control-panel/monitoring-server-capacity-whitelisting-adding-ssh-key.html)
+* [Video tutorial per Campaign Classic](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/administrating/control-panel-acc/managing-sftp-servers.html)
 
-## Accesso alle informazioni sulla capacità di storage {#accessing-storage-capacity-information}
+## Accesso alle informazioni sulla capacità di archiviazione {#accessing-storage-capacity-information}
 
-Le informazioni sullo spazio utilizzato da tutte le istanze a cui avete accesso sono disponibili nella **[!UICONTROL Storage]** scheda della scheda SFTP. Viene aggiornato in ogni aggiornamento di pagina.
+Le informazioni sullo spazio utilizzato da tutte le istanze a cui hai accesso sono disponibili nella scheda **[!UICONTROL Storage]** della scheda SFTP. Vengono aggiornate a ogni aggiornamento di pagina.
 
 ![](assets/control_panel_space.png)
 
-Ad esempio, un avviso visivo consente di sapere quando lo storage supera la capacità:
+Per ogni istanza, un avviso visivo ti consente di sapere quando l’archiviazione supera la capacità:
 
-* **Arancione**: l&#39;istanza ha superato l&#39;80% della sua capacità,
-* **Rosso**: l&#39;istanza supera il 90% della sua capacità.
+* **Arancione**: l’istanza ha superato l’80% della sua capacità,
+* **Rosso**: l’istanza supera il 90% della sua capacità.
 
-Sono inoltre disponibili ulteriori suggerimenti per aiutarvi a sapere come procedere con l&#39;avvicinarsi della capacità del server.
+Sono inoltre disponibili ulteriori suggerimenti su come procedere quando il tuo server si avvicina all’esaurimento della capacità.
 
-## Best practice per l&#39;esaurimento della capacità di storage {#best-practices-when-capacity-runs-out}
+## Best practice in caso di esaurimento della capacità di archiviazione {#best-practices-when-capacity-runs-out}
 
-1. **Pulite il server SFTP da file** vecchi o superflui. Per ulteriori informazioni su come accedere alla cartella del server SFTP, consulta [questa sezione](../../sftp/using/logging-into-sftp-server.md).
-1. Verificate che i **flussi** di lavoro che puliscono i server SFTP siano eseguiti correttamente. Per ulteriori informazioni sui flussi di lavoro tecnici in Adobe Campaign, consulta la documentazione dedicata a [Campaign Classic](https://docs.campaign.adobe.com/doc/AC/en/WKF__General_operation_Building_a_workflow.html#Technical_workflows) e [Campaign Standard](https://helpx.adobe.com/campaign/standard/administration/using/technical-workflows.html) .
-1. Rivolgetevi al team dell&#39;account per **richiedere più spazio di archiviazione** (potrebbero essere applicati costi aggiuntivi).
+1. **Rimuovi dal server SFTP file vecchi o non necessari**. Per ulteriori informazioni su come accedere alla cartella del server SFTP, consulta [questa sezione](../../sftp/using/logging-into-sftp-server.md).
+1. Assicurati che i **flussi di lavoro** che puliscono i server SFTP siano eseguiti correttamente. Per ulteriori informazioni sui flussi di lavoro tecnici in Adobe Campaign, consulta la documentazioni dedicata di [Campaign Classic](https://docs.adobe.com/content/help/it-IT/campaign-classic/using/automating-with-workflows/general-operation/building-a-workflow.html#Technical_workflows) e [Campaign Standard](https://docs.adobe.com/content/help/it-IT/campaign-standard/using/administrating/application-settings/technical-workflows.html).
+1. Rivolgiti al team del tuo account per **richiedere più spazio di archiviazione** (potrebbero essere applicati costi aggiuntivi).
 1. Se ritieni che ci possa essere un problema, contatta l’**Assistenza clienti**.
