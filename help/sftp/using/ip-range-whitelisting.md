@@ -1,54 +1,57 @@
 ---
-title: whitelist della gamma IP
-description: Scoprite come inserire nella whitelist gli intervalli IP per l'accesso ai server SFTP
-translation-type: tm+mt
+title: Inserimento di intervalli IP nella whitelist
+description: Scopri come inserire nella whitelist gli intervalli IP per l’accesso ai server SFTP
+translation-type: ht
 source-git-commit: a2c19296894ff893987290cb287dc7002ab999e5
+workflow-type: ht
+source-wordcount: '521'
+ht-degree: 100%
 
 ---
 
 
-# whitelist della gamma IP {#ip-range-whitelisting}
+# Inserimento di intervalli IP nella whitelist {#ip-range-whitelisting}
 
 >[!CONTEXTUALHELP]
->id=&quot;cp_ip_whitelist&quot;
->title=&quot;Informazioni sulla whitelist IP&quot;
->abstract=&quot;In questa scheda, puoi inserire in una whitelist gli intervalli IP per stabilire una connessione con i server SFTP. Solo i server SFTP a cui avete accesso sono visualizzati qui. Contattate l&#39;amministratore per richiedere l&#39;accesso ad altri server SFTP.&quot;
->Additional-url=&quot;https://images-tv.adobe.com/mpcv3/8a977e03-d76c-44d3-853c-95d0b799c870_1560205338.1920x1080at3000_h264.mp4#t=98&quot; text=&quot;Guarda il video dimostrativo&quot;
+>id="cp_ip_whitelist"
+>title="Informazioni sull’inserimento di IP nella whitelist"
+>abstract="In questa scheda, puoi inserire in una whitelist gli intervalli IP per stabilire una connessione ai server SFTP. Solo i server SFTP a cui hai accesso sono visualizzati qui. Contatta l’amministratore per richiedere l’accesso ad altri server SFTP."
+>additional-url="https://images-tv.adobe.com/mpcv3/8a977e03-d76c-44d3-853c-95d0b799c870_1560205338.1920x1080at3000_h264.mp4#t=98" text="Guarda il video dimostrativo"
 
-I server SFTP sono protetti. Per potervi accedere per visualizzare i file o scriverne di nuovi, è necessario inserire in una whitelist l&#39;indirizzo IP pubblico del sistema o del client che accede ai server.
+I server SFTP sono protetti. Per potervi accedere e visualizzare i file o scriverne di nuovi, è necessario inserire in una whitelist l’indirizzo IP pubblico del sistema o del client che accede ai server.
 
 ## Informazioni sul formato CIDR {#about-cidr-format}
 
-CIDR (Classless Inter-Domain Routing) è il formato supportato per l&#39;aggiunta di intervalli IP con l&#39;interfaccia del Pannello di controllo.
+CIDR (Classless Inter-Domain Routing) è il formato supportato per l’aggiunta di intervalli IP tramite l’interfaccia del Pannello di controllo Campaign.
 
-La sintassi è composta da un indirizzo IP seguito da un carattere &quot;/&quot; e da un numero decimale. Il formato e la sintassi sono descritti dettagliatamente in [questo articolo](https://whatismyipaddress.com/cidr).
+La sintassi è composta da un indirizzo IP seguito da un carattere “/” e da un numero decimale. Il formato e la sintassi sono descritti dettagliatamente in [questo articolo](https://whatismyipaddress.com/cidr).
 
-È possibile ricercare su Internet strumenti online gratuiti che aiuteranno a convertire la gamma IP che si ha a portata di mano in formato CIDR.
+Puoi cercare su Internet strumenti online gratuiti che ti aiuteranno a convertire gli intervalli IP che hai a disposizione in formato CIDR.
 
 ## Best practice {#best-practices}
 
-Accertatevi di seguire le raccomandazioni e le limitazioni riportate di seguito quando inserite gli indirizzi IP nella white list del Pannello di controllo.
+Accertati di seguire le raccomandazioni e le limitazioni riportate di seguito quando inserisci gli indirizzi IP nella whitelist dal Pannello di controllo Campaign.
 
-* **Intervalli** IP Whitelist invece di indirizzi IP singoli. Per inserire in una whitelist un indirizzo IP singolo, aggiungete un &#39;/32&#39; per indicare che l&#39;intervallo include solo un IP.
-* **Non inserite intervalli** molto ampi, ad esempio > 265 indirizzi IP. Il Pannello di controllo rifiuterà qualsiasi intervallo di formato CIDR compreso tra /0 e /23.
-* Solo gli indirizzi **IP** pubblici possono essere inseriti nella white list.
-* Assicuratevi di eliminare **regolarmente gli indirizzi** IP elencati in bianco che non sono più necessari.
+* **Inserisci nella whitelist intervalli IP** invece di indirizzi IP singoli. Per inserire in una whitelist un indirizzo IP singolo, aggiungi “/32” per indicare che l’intervallo include solo un IP.
+* **Non inserire intervalli molto ampi**, che includono ad esempio più di 265 indirizzi IP. Il Pannello di controllo Campaign rifiuterà qualsiasi intervallo in formato CIDR compreso tra /0 e /23.
+* Solo **gli indirizzi IP pubblici** possono essere inseriti nella whitelist.
+* Assicurati di **eliminare regolarmente gli indirizzi IP inseriti nella whitelist** che non sono più necessari.
 
-## Whitelisting degli indirizzi IP {#whitelisting-ip-addresses}
+## Inserimento di indirizzi IP nella whitelist {#whitelisting-ip-addresses}
 
 >[!CONTEXTUALHELP]
->id=&quot;cp_sftp_iprange_add&quot;
->title=&quot;Aggiungi nuovo intervallo Ip&quot;
->abstract=&quot;Definite gli intervalli IP da inserire nella whitelist per la connessione ai server SFTP.&quot;
+>id="cp_sftp_iprange_add"
+>title="Aggiungere un nuovo intervallo IP"
+>abstract="Definisci gli intervalli IP da inserire nella whitelist per la connessione ai server SFTP."
 
-Per inserire in una whitelist un intervallo IP, effettuate le seguenti operazioni:
+Per inserire in una whitelist un intervallo IP, effettua le seguenti operazioni:
 
-1. Open the **[!UICONTROL SFTP]** card, then select the **[!UICONTROL IP Whistelisting]** tab.
-1. L&#39;elenco degli indirizzi IP consentiti viene visualizzato per ogni istanza. Selezionate l’istanza desiderata dall’elenco a sinistra, quindi fate clic sul **[!UICONTROL Add new IP range]** pulsante.
+1. Apri la scheda **[!UICONTROL SFTP]**, quindi seleziona la scheda **[!UICONTROL IP Whistelisting]**.
+1. L’elenco degli indirizzi IP inseriti nella whitelist viene visualizzato per ogni istanza. Seleziona l’istanza desiderata dall’elenco a sinistra, quindi fai clic sul pulsante **[!UICONTROL Add new IP range]**.
 
    ![](assets/control_panel_add_range.png)
 
-1. Definite l&#39;intervallo IP da inserire nella whitelist, in formato CIDR, quindi definite l&#39;etichetta che verrà visualizzata nell&#39;elenco.
+1. Definisci l’intervallo IP da inserire nella whitelist, in formato CIDR, quindi definisci l’etichetta che verrà visualizzata nell’elenco.
 
    >[!NOTE]
    >
@@ -59,26 +62,26 @@ Per inserire in una whitelist un intervallo IP, effettuate le seguenti operazion
 
    >[!IMPORTANT]
    >
-   >Un intervallo IP non può sovrapporsi a un intervallo esistente nella white list. In tal caso, eliminate prima l’intervallo che contiene l’IP sovrapposto.
+   >Un intervallo IP non può sovrapporsi a un intervallo esistente nella whitelist. In tal caso, elimina prima l’intervallo che contiene l’IP sovrapposto.
    >
-   >È possibile inserire in una whitelist un intervallo per più istanze. A questo scopo, premere il tasto freccia giù o digitare le prime lettere dell&#39;istanza desiderata, quindi selezionarla dall&#39;elenco dei suggerimenti.
+   >È possibile inserire in una whitelist un intervallo per più istanze. A questo scopo, premi il tasto freccia giù o digita le prime lettere dell’istanza desiderata, quindi selezionala dall’elenco dei suggerimenti.
 
    ![](assets/control_panel_add_range3.png)
 
-1. Fate clic sul **[!UICONTROL Save]** pulsante. L&#39;aggiunta della whitelist IP verrà visualizzata come IN SOSPESO fino a quando la richiesta non sarà completamente elaborata. Questo dovrebbe richiedere solo qualche secondo.
+1. Fai clic sul pulsante **[!UICONTROL Save]**. L’aggiunta degli IP nella whitelist verrà visualizzata come PENDING (IN SOSPESO) fino a quando la richiesta non sarà completamente elaborata. Questo dovrebbe richiedere solo qualche secondo.
 
-Per eliminare gli intervalli IP consentiti, selezionateli e fate clic sul **[!UICONTROL Delete IP range]** pulsante .
+Per eliminare gli intervalli IP inseriti nella whitelist, selezionali e fai clic sul pulsante **[!UICONTROL Delete IP range]**.
 
 ![](assets/control_panel_delete_range2.png)
 
 >[!NOTE]
 >
->Al momento non è possibile modificare un intervallo con autorizzazione. Per modificare un intervallo IP, eliminatelo, quindi createne uno corrispondente alle vostre esigenze.
+>Al momento non è possibile modificare un intervallo inserito nella whitelist. Per modificare un intervallo IP, eliminalo, quindi creane uno corrispondente alle tue esigenze.
 
-## Modifiche al monitoraggio {#monitoring-changes}
+## Monitoraggio delle modifiche {#monitoring-changes}
 
-Nella home page **[!UICONTROL Job Logs]** del Pannello di controllo è possibile monitorare tutte le modifiche apportate agli indirizzi IP consentiti.
+Nel **[!UICONTROL Job Logs]** nella home page del Pannello di controllo Campaign è possibile monitorare tutte le modifiche apportate agli indirizzi IP inseriti nella whitelist.
 
-Per ulteriori informazioni sull&#39;interfaccia del Pannello di controllo, consultare [questa sezione](../../discover/using/discovering-the-interface.md).
+Per ulteriori informazioni sull’interfaccia del Pannello di controllo Campaign, consulta [questa sezione](../../discover/using/discovering-the-interface.md).
 
 ![](assets/control_panel_ip_log.png)
