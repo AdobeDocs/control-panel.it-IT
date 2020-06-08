@@ -1,11 +1,11 @@
 ---
 title: Gestione dei record TXT
 description: Scopri come gestire i record TXT per la verifica della proprietà del dominio.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 7c2dd60c70b5f9c0b2567df289582b972a7f76b8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '343'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
@@ -15,43 +15,43 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="cp_siteverification_add"
 >title="Gestione dei record TXT"
->abstract="Alcuni servizi come Google richiedono l&#39;aggiunta di un record TXT alle impostazioni del dominio per verificare di essere proprietario del dominio."
+>abstract="Alcuni servizi, come Google, richiedono l’aggiunta di un record TXT alle impostazioni del dominio per verificare che tu sia il proprietario del dominio."
 
 ## Informazioni sui record TXT {#about-txt-records}
 
-I record TXT sono un tipo di record DNS utilizzati per fornire informazioni testuali su un dominio, che possono essere lette da origini esterne.
+I record TXT sono un tipo di record DNS utilizzati per fornire informazioni testuali su un dominio, leggibili da sorgenti esterne.
 
-Al fine di garantire elevate percentuali di posta in arrivo e basse frequenze di posta indesiderata, alcuni servizi come Google richiedono l&#39;aggiunta di un record TXT alle impostazioni del dominio per verificare di essere proprietario del dominio.
+Al fine di garantire elevate percentuali di posta in arrivo e basse percentuali di posta indesiderata, alcuni servizi, come Google, richiedono l’aggiunta di un record TXT alle impostazioni del dominio per verificare che tu sia il proprietario del dominio.
 
-Attualmente, Gmail è uno dei provider di indirizzi e-mail più popolari. Al fine di garantire la buona recapito e la corretta consegna delle e-mail agli indirizzi Gmail, Adobe Campaign consente di aggiungere ai sottodomini specifici record TXT per la verifica del sito Google, in modo da verificarne la validità.
+Attualmente, Gmail è uno dei provider di indirizzi e-mail più popolari. Al fine di garantire un buon recapito dei messaggi e la corretta consegna delle e-mail agli indirizzi Gmail, Adobe Campaign ti consente di aggiungere ai sottodomini record TXT di Google specifici per la verifica del sito, in modo da verificarne la validità.
 
 Risorse aggiuntive:
 
-* [Video sull&#39;esercitazione Campaign Standard](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/administrating/control-panel/google-txt-record-management.html)
-* [Video sull&#39;esercitazione Campaign Classic](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/administrating/control-panel-acc/google-txt-record-management.html)
+* [Video tutorial per Campaign Standard](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/administrating/control-panel/google-txt-record-management.html)
+* [Video tutorial per Campaign Classic](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/administrating/control-panel-acc/google-txt-record-management.html)
 
-## Aggiunta di un record Google TXT per un sottodominio {#adding-a-google-txt-record}
+## Aggiunta di un record TXT di Google a un sottodominio {#adding-a-google-txt-record}
 
-Per aggiungere un record Google TXT al tuo sottodominio utilizzato per inviare indirizzi Gmail, procedi come segue:
+Per aggiungere un record TXT di Google al tuo sottodominio utilizzato per inviare e-mail a indirizzi Gmail, procedi come segue:
 
-1. Passate alla **[!UICONTROL Subdomain and Certificates]** scheda.
+1. Accedi alla scheda **[!UICONTROL Subdomain and Certificates]**.
 
-1. Selezionare l&#39;istanza, quindi aprire i dettagli del sottodominio a cui si desidera aggiungere un record DNS.
+1. Seleziona l’istanza, quindi apri i dettagli del sottodominio a cui desideri aggiungere un record DNS.
 
    ![](assets/txt_subdomaindetails.png)
 
-1. Fate clic sul **[!UICONTROL Add TXT record]** pulsante, quindi immettete il valore generato negli strumenti di amministrazione di G Suite. Per ulteriori informazioni, consulta la Guida [di amministrazione di](https://support.google.com/a/answer/183895)G Suite.
+1. Fai clic sul pulsante **[!UICONTROL Add TXT record]**, quindi inserisci il valore generato negli strumenti di Amministratore di G Suite. Per ulteriori informazioni, consulta la [Guida di Amministratore di G Suite](https://support.google.com/a/answer/183895?hl=it).
 
    ![](assets/txt_addtxt.png)
 
-1. Fate clic sul **[!UICONTROL Add]** pulsante per confermare.
+1. Fai clic sul pulsante **[!UICONTROL Add]** per confermare.
 
    ![](assets/txt_txtadded.png)
 
-Una volta aggiunto il record TXT, è necessario che sia verificato da Google. A tal fine, andate agli strumenti di amministrazione di G Suite e avviate il passaggio di verifica (consultate la Guida [di amministrazione di](https://support.google.com/a/answer/183895)G Suite).
+Una volta aggiunto il record TXT, è necessario che sia verificato da Google. A tal fine, accedi agli strumenti di amministrazione di G Suite e avvia il passaggio di verifica (consulta la [Guida di Amministratore di G Suite](https://support.google.com/a/answer/183895?hl=it)).
 
-Per eliminare un record, selezionatelo dall&#39;elenco dei record, quindi fate clic sul pulsante Rimuovi.
+Per eliminare un record, selezionalo dall’elenco dei record, quindi fai clic sul pulsante di rimozione.
 
 >[!NOTE]
 >
->L&#39;unico record che puoi eliminare dall&#39;elenco dei record DNS è quello che hai aggiunto in precedenza (nel nostro caso il record Google TXT).
+>L’unico record che puoi eliminare dall’elenco dei record DNS è quello che hai aggiunto in precedenza (nel nostro caso il record TXT di Google).
