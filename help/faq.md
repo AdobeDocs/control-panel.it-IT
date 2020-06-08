@@ -1,11 +1,11 @@
 ---
-title: Domande frequenti sul Pannello di controllo
-description: Domande comuni relative al Pannello di controllo
-translation-type: tm+mt
+title: Domande frequenti sul Pannello di controllo Campaign
+description: Domande comuni relative al Pannello di controllo Campaign
+translation-type: ht
 source-git-commit: 7bde86a86fbd128f4eb7bf029e58b0f95964390b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '625'
-ht-degree: 5%
+ht-degree: 100%
 
 ---
 
@@ -18,34 +18,34 @@ ht-degree: 5%
 
 Si tratta di un ID univoco fornito all’istanza al primo accesso ad Adobe Experience Cloud. Deve essere nel formato: xxx@AdobeOrg.
 
-Per ulteriori informazioni, consulta la documentazione [di](https://marketing.adobe.com/resources/help/it_IT/mcloud/organizations.html)Adobe Experience Cloud.
+Per ulteriori informazioni, consulta la [documentazione di Adobe Experience Cloud](https://marketing.adobe.com/resources/help/it_IT/mcloud/organizations.html).
 
 **Dove posso trovare il mio ID organizzazione IMS?**
 
-One way is to navigate to [Adobe Experience Cloud Home](https://experiencecloud.adobe.com/) > **[!UICONTROL Administration]**. You will find your IMS Org ID at the bottom of Administration **[!UICONTROL Quick Access]** section. Per maggiori informazioni, consulta la [documentazione di Adobe Experience Cloud](https://marketing.adobe.com/resources/help/it_IT/mcloud/organizations.html).
+Un metodo consiste nell’accedere alla pagina [Home di Adobe Experience Cloud](https://experiencecloud.adobe.com/) > **[!UICONTROL Administration]**. Troverai il tuo ID organizzazione IMS nella parte inferiore della sezione **[!UICONTROL Quick Access]** di Administration (Amministrazione). Per maggiori informazioni, consulta la [documentazione di Adobe Experience Cloud](https://marketing.adobe.com/resources/help/it_IT/mcloud/organizations.html).
 
-L&#39;altro modo consiste nell&#39;avviare **Admin Console**. L’ID organizzazione IMS sarà visibile nell’URL e avrà un aspetto simile a: https://adminconsole.adobe.com/xxx@AdobeOrg/overview.
+L’altro modo consiste nell’avviare **Admin Console**. L’ID organizzazione IMS sarà visibile nell’URL e avrà un aspetto simile a: https://adminconsole.adobe.com/xxx@AdobeOrg/overview.
 
 **Perché devo conoscere il mio ID organizzazione IMS?**
 
-Per poter gestire le impostazioni per l&#39;istanza in uso, vogliamo assicurarci di ottenere le informazioni corrette per l&#39;istanza corretta nel caso in cui si utilizzino più istanze per la società.
+Per poter gestire le impostazioni per la tua istanza, vogliamo assicurarci che tu ottenga le informazioni corrette per l’istanza corretta nel caso in cui utilizzi più istanze per la tua azienda.
 
 **Cosa succede se dispongo di più ID organizzazione IMS?**
 
-Se avete accesso a più soluzioni Adobe, potete disporre di più ID organizzazione IMS. In questo caso, l&#39;ID organizzazione IMS corretto da utilizzare è quello visualizzato nell&#39;istanza di Adobe Campaign.
+Se hai accesso a più soluzioni Adobe, puoi disporre di più ID organizzazione IMS. In questo caso, l’ID organizzazione IMS corretto da utilizzare è quello visualizzato nella tua istanza di Adobe Campaign.
 
 >[!NOTE]
 >
->Se disponi dello stesso ID organizzazione IMS per Adobe Campaign e Adobe Analytics, è un&#39;ottima soluzione. Disporre di un ID organizzazione IMS tra Analytics e Campaign è un requisito se intendete integrare le soluzioni per sfruttare i casi d’uso complessi, come l’abbandono del carrello (per AA + AC).
+>Se disponi dello stesso ID organizzazione IMS per Adobe Campaign e Adobe Analytics, è un’ottima soluzione. Disporre dello stesso ID organizzazione IMS per Analytics e Campaign è un requisito se intendi integrare le soluzioni per sfruttare i casi d’uso complessi, come l’abbandono del carrello (per AA + AC).
 >
->Se disponi di ID organizzazione IMS diversi per Adobe Campaign e Adobe Analytics, contatta l&#39;Assistenza clienti per allinearli.
+>Se disponi di ID organizzazione IMS diversi per Adobe Campaign e Adobe Analytics, contatta l’Assistenza clienti per allinearli.
 
-**Come posso sapere che l&#39;istanza di Adobe Campaign è ospitata o meno su AWS?**
+**Come posso sapere se la mia istanza di Adobe Campaign è ospitata o meno su AWS?**
 
-Per verificare se l’istanza è in hosting su AWS, effettuate le seguenti operazioni:
+Per verificare se l’istanza è ospitata su AWS, effettua le seguenti operazioni:
 
-1. Recuperate l’URL di accesso. Si tratta dell&#39;URL usato per accedere all&#39;istanza Campaign, che termina principalmente con &quot;.campaign.adobe.com&quot; o&quot;.neolane.net&quot;.
-1. Aprite il terminale, quindi eseguite un&#39; **[!DNL nslookup]** operazione sull&#39;URL di accesso.
+1. Recupera l’URL di accesso. Si tratta dell’URL che utilizzi per accedere all’istanza Campaign e termina di solito con “.campaign.adobe.com” o “.neolane.net”.
+1. Apri il terminale, quindi esegui un’operazione **[!DNL nslookup]** sull’URL di accesso.
 
    `doe-macOS% nslookup myinstance.campaign.adobe.com`
 
@@ -65,11 +65,11 @@ Per verificare se l’istanza è in hosting su AWS, effettuate le seguenti opera
    Address: 12.34.567.89
    ```
 
-1. Eseguire un&#39;operazione **nssearch** sull&#39;indirizzo IP restituito.
+1. Esegui un’operazione **nslookup** sull’indirizzo IP restituito.
 
    `doe-macOS% nslookup 12.34.567.89`
 
-1. Selezionare il valore &quot;name&quot; nel risultato restituito. Se contiene &quot;amazonaws.com&quot;, significa che l’istanza è ospitata in AWS.
+1. Controlla il valore “name” nel risultato restituito. Se contiene “amazonaws.com”, significa che l’istanza è ospitata in AWS.
 
    ```
    doe-macOS% nslookup 12.34.567.89
@@ -82,34 +82,34 @@ Per verificare se l’istanza è in hosting su AWS, effettuate le seguenti opera
 
 >[!NOTE]
 >
->Se desiderate effettuare la migrazione ad AWS, avviate il processo contattando il Customer Success Manager.
+>Se desideri effettuare la migrazione ad AWS, avvia il processo contattando il tuo Customer Success Manager.
 
 ## Pannello di controllo Campaign {#control-panel}
 
-**Cos&#39;è il Pannello di controllo?**
+**Che cos’è il Pannello di controllo Campaign?**
 
-Il Pannello di controllo consente agli amministratori dei prodotti di gestire direttamente le varie impostazioni e monitorare la capacità dei server SFTP collegati ad Adobe Campaign.
+Il Pannello di controllo Campaign consente agli amministratori di prodotto di gestire direttamente le varie impostazioni e monitorare la capacità dei server SFTP connessi ad Adobe Campaign.
 
-**Quali sono alcune delle attuali funzionalità del Pannello di controllo?**
+**Quali sono alcune delle attuali funzionalità del Pannello di controllo Campaign?**
 
-Il Pannello di controllo consente di tenere traccia dello storage, inserire nella whitelist IP e gestire le chiavi SSH per i server SFTP in modo indipendente in base alle esigenze e ad altre azioni.
+Il Pannello di controllo Campaign consente di tenere traccia dell’archiviazione, inserire IP nella whitelist, gestire le chiavi SSH per i server SFTP in modo indipendente in base alle tue esigenze e altre azioni.
 
-Per ulteriori informazioni, consultare la documentazione sulle azioni supportate dal Pannello di controllo.
+Per ulteriori informazioni, consulta la documentazione sulle azioni supportate dal Pannello di controllo Campaign.
 
-**Il Pannello di controllo è solo per Adobe Campaign?**
+**Il Pannello di controllo Campaign è solo per Adobe Campaign?**
 
-Sì, potrai gestire solo le impostazioni per Adobe Campaign nel Pannello di controllo.
+Sì, puoi gestire solo le impostazioni per Adobe Campaign nel Pannello di controllo Campaign.
 
-**Posso usare il Pannello di controllo?**
+**Posso usare il Pannello di controllo Campaign?**
 
-Il Pannello di controllo è aperto solo agli amministratori dei prodotti dei clienti attuali che hanno Adobe Campaign ospitato su AWS. Gli ambienti ibridi non sono ancora supportati.
+Il Pannello di controllo Campaign è accessibile solo agli amministratori di prodotto dei nostri clienti attuali che dispongono di Adobe Campaign ospitato su AWS. Gli ambienti ibridi non sono ancora supportati.
 
-Se non sei un amministratore, ma desideri accedere, contatta l’amministratore del prodotto per aiutarti ad aggiungerti come amministratore.
+Se non sei un amministratore, ma desideri accedervi, contatta il tuo amministratore di prodotto per essere aggiunto come amministratore.
 
-**Come posso accedere al Pannello di controllo?**
+**Come posso accedere al Pannello di controllo Campaign?**
 
-Seguire le istruzioni dettagliate riportate nella documentazione Accesso al Pannello di controllo.
+Segui le istruzioni dettagliate riportate nella documentazione Accesso al Pannello di controllo Campaign.
 
-**È previsto un costo aggiuntivo per l&#39;utilizzo del Pannello di controllo?**
+**È previsto un costo aggiuntivo per l’utilizzo del Pannello di controllo Campaign?**
 
-No, non ci sono costi aggiuntivi se sei un cliente corrente di Adobe Campaign.
+No, non ci sono costi aggiuntivi se sei un cliente attuale di Adobe Campaign.
