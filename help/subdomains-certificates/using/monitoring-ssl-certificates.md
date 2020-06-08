@@ -1,8 +1,11 @@
 ---
 title: Monitoraggio dei certificati SSL dei sottodomini
-description: Scoprite come monitorare i certificati SSL dei sottodomini
-translation-type: tm+mt
+description: Scopri come monitorare i certificati SSL dei sottodomini
+translation-type: ht
 source-git-commit: f22e356b283ee2601c948d5c1d514a9a59c58451
+workflow-type: ht
+source-wordcount: '402'
+ht-degree: 100%
 
 ---
 
@@ -13,47 +16,47 @@ source-git-commit: f22e356b283ee2601c948d5c1d514a9a59c58451
 
 Adobe Campaign consiglia di proteggere i sottodomini che ospitano le pagine di destinazione, in particolare quelli che raccolgono informazioni riservate dei clienti.
 
-**La cifratura** SSL (Secure Socket Layer) garantisce che i sottodomini delegati ad Adobe siano protetti. Quando il cliente compila un modulo Web o visita una pagina di destinazione ospitata da Adobe Campaign, per impostazione predefinita le informazioni vengono inviate tramite un protocollo non protetto (HTTP). Per garantire ulteriore sicurezza, è necessario proteggere le informazioni inviate con un protocollo HTTPS. Ad esempio, l&#39;indirizzo del sottodominio &quot;http://info.mywebsite.com/&quot; sarà &quot;https://info.mywebsite.com/&quot;.
+La **cifratura SSL (Secure Socket Layer)** garantisce che i sottodomini delegati ad Adobe siano protetti. Quando il cliente compila un modulo web o visita una pagina di destinazione ospitata da Adobe Campaign, per impostazione predefinita le informazioni vengono inviate tramite un protocollo non sicuro (HTTP). Per garantire ulteriore sicurezza, proteggi le informazioni inviate con un protocollo HTTPS. Ad esempio, l’indirizzo del sottodominio “http://info.mywebsite.com/” sarà “https://info.mywebsite.com/”.
 
 **I certificati SSL non sono installati nei sottodomini delegati stessi**. Sono installati nei sottodomini associati, principalmente quelli che ospitano pagine di destinazione, pagine di risorse e altri.
 
-**I certificati SSL vengono forniti per un periodo di tempo** specifico (1 anno, 60 giorni, ecc.). Una volta scaduto il certificato, potrebbero verificarsi dei problemi durante l&#39;accesso alle pagine di destinazione o l&#39;utilizzo delle risorse del sottodominio. Per evitare questo problema, il Pannello di controllo consente di monitorare i certificati SSL dei sottodomini e di avviare il processo di rinnovo.
+**I certificati SSL vengono forniti per un periodo di tempo specifico** (1 anno, 60 giorni, ecc.). Una volta scaduto il certificato, potrebbero verificarsi dei problemi durante l’accesso alle pagine di destinazione o l’utilizzo delle risorse del sottodominio. Per evitare questo problema, il Pannello di controllo Campaign ti consente di monitorare i certificati SSL dei sottodomini e di avviare il processo di rinnovo.
 
 ![](assets/no_certificate.png)
 
 ## Monitoraggio dei certificati SSL {#monitoring-certificates}
 
 >[!CONTEXTUALHELP]
->id=&quot;cp_subdomain_details&quot;
->title=&quot;Dettagli del sottodominio&quot;
->abstract=&quot;Recupera informazioni sui tuoi sottodomini.&quot;
+>id="cp_subdomain_details"
+>title="Dettagli del sottodominio"
+>abstract="Recupera informazioni sui tuoi sottodomini."
 
-Lo stato dei certificati SSL dei sottodomini è disponibile direttamente dall&#39;elenco dei sottodomini quando si seleziona la **[!UICONTROL Subdomains & Certificates]** scheda.
+Lo stato dei certificati SSL dei sottodomini è disponibile direttamente nell’elenco dei sottodomini selezionando la scheda **[!UICONTROL Subdomains & Certificates]**.
 
 I sottodomini sono organizzati in base alla data di scadenza più vicina del certificato SSL, con informazioni visive sulla scadenza, espressa in giorni:
 
-* **Verde**: il sottodominio non ha certificato che scade entro i successivi 60 giorni.
-* **Arancione**: uno o più sottodomini dispongono di un certificato che scade entro i successivi 60 giorni.
-* **Rosso**: uno o più sottodomini dispongono di un certificato che scade entro i prossimi 30 giorni.
+* **Verde**: il sottodominio non dispone di un certificato che scade nei successivi 60 giorni.
+* **Arancione**: uno o più sottodomini dispongono di un certificato che scade nei successivi 60 giorni.
+* **Rosso**: uno o più sottodomini dispongono di un certificato che scade nei successivi 30 giorni.
 * **Grigio**: nessun certificato installato per il sottodominio.
 
 ![](assets/subdomains_list.png)
 
-Per visualizzare ulteriori dettagli su un sottodominio, fare clic sul **[!UICONTROL Subdomain Details]** pulsante .
-Viene visualizzato l&#39;elenco di tutti i sottodomini correlati. In genere include sottodomini di pagine di destinazione, pagine di risorse e così via.
+Per visualizzare ulteriori dettagli su un sottodominio, fai clic sul pulsante **[!UICONTROL Subdomain Details]**.
+Viene visualizzato l’elenco di tutti i relativi sottodomini. In genere include i sottodomini di pagine di destinazione, pagine di risorse, ecc..
 
-La **[!UICONTROL Sender info]** scheda fornisce informazioni sulle inbox configurate (Mittente, Rispondi a, E-mail di errore).
+La scheda **[!UICONTROL Sender info]** fornisce informazioni sulle caselle in entrata configurate (Sender, Reply to, Error email [Mittente, Risposta, E-mail di errore]).
 
 ![](assets/subdomain_details.png)
 
-Se uno dei certificati SSL del sottodominio sta per scadere, puoi rinnovarlo direttamente dal Pannello di controllo. Per ulteriori informazioni, consulta questa sezione: Rinnovo [del certificato](../../subdomains-certificates/using/renewing-subdomain-certificate.md)SSL di un sottodominio.
+Se uno dei certificati SSL del sottodominio sta per scadere, puoi rinnovarlo direttamente dal Pannello di controllo Campaign. Per ulteriori informazioni, consulta questa sezione: [Rinnovo del certificato SSL di un sottodominio](../../subdomains-certificates/using/renewing-subdomain-certificate.md).
 
 >[!IMPORTANT]
 >
->Il rinnovo del certificato dal Pannello di controllo è disponibile in versione beta e soggetto a frequenti aggiornamenti e modifiche senza preavviso.
+>Il rinnovo del certificato dal Pannello di controllo Campaign è disponibile in versione beta e soggetto a frequenti aggiornamenti e modifiche senza preavviso.
 
 **Argomenti correlati:**
 
-* [Aggiunta di certificati SSL (video di esercitazione)](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/control-panel/adding-ssl-certificates.html)
+* [Aggiunta di certificati SSL (video tutorial)](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/control-panel/adding-ssl-certificates.html)
 * [Rinnovo del certificato SSL di un sottodominio](../../subdomains-certificates/using/renewing-subdomain-certificate.md)
-* [Marchio dei sottodomini](../../subdomains-certificates/using/subdomains-branding.md)
+* [Branding dei sottodomini](../../subdomains-certificates/using/subdomains-branding.md)
