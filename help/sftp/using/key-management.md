@@ -1,9 +1,9 @@
 ---
 title: Gestione delle chiavi
 description: Scopri come gestire le chiavi per la connessione ai server SFTP
-translation-type: ht
-source-git-commit: a2c19296894ff893987290cb287dc7002ab999e5
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 197b3fc6726ccd12f59f85d021a5abf56535386c
+workflow-type: tm+mt
 source-wordcount: '597'
 ht-degree: 100%
 
@@ -78,7 +78,7 @@ In casi molto rari l’autenticazione basata sulla password è abilitata su alcu
    **Linux e Mac:**
 
    Utilizza il terminale per generare una coppia di chiavi pubblica e privata:
-   1. Inserisci questo comando: `ssh-keygen -t rsa -C <your_email@example.com>`.
+   1. Inserisci questo comando: `ssh-keygen -m pem -t rsa -b 2048 -C "your_email@example.com"`.
    1. Quando richiesto, specifica un nome alla chiave. Se la directory .ssh non esiste, il sistema ne creerà una.
    1. Inserisci e reinserisci una passphrase quando richiesto. Può anche essere lasciata vuota.
    1. Il sistema crea una coppia di chiavi “name” e “name.pub”. Cerca il file “name.pub”, quindi aprilo. Deve avere una stringa alfanumerica che termina con l’indirizzo e-mail specificato.
