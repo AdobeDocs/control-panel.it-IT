@@ -1,46 +1,46 @@
 ---
 product: adobe campaign
-sub-product: pannello di controllo
+sub-product: pannello di controllo Campaign
 audience: end-user
-user-guide-title: Guida del Pannello di controllo
+user-guide-title: Guida del Pannello di controllo Campaign
 translation-type: tm+mt
 source-git-commit: 98f2fa0b3e943026bda28b615f0f11db54c404a6
 workflow-type: tm+mt
-source-wordcount: '94'
-ht-degree: 4%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
-# Guida del Pannello di controllo {#using}
+# Guida del Pannello di controllo Campaign {#using}
 
 + [Documentazione del prodotto](control-panel-home.md)
 + [Note sulla versione](release-notes.md)
-+ Pannello di controllo {#discover-control-panel}
++ Esplorare il Pannello di controllo Campaign {#discover-control-panel}
    + [Funzioni principali](discover/using/key-features.md)
-   + [Accesso al Pannello di controllo](discover/using/accessing-control-panel.md)
-   + [Gestione delle autorizzazioni al Pannello di controllo](discover/using/managing-permissions.md)
-   + [Interfaccia del Pannello di controllo](discover/using/discovering-the-interface.md)
+   + [Accesso al Pannello di controllo Campaign](discover/using/accessing-control-panel.md)
+   + [Gestione delle autorizzazioni di accesso al Pannello di controllo Campaign](discover/using/managing-permissions.md)
+   + [Esplorazione dell’interfaccia del Pannello di controllo Campaign](discover/using/discovering-the-interface.md)
 + Gestione SFTP {#sftp-management}
-   + [Gestione SFTP](sftp/using/about-sftp-management.md)
-   + [Gestione dello storage SFTP](sftp/using/sftp-storage-management.md)
-   + [whitelist della gamma IP](sftp/using/ip-range-whitelisting.md)
+   + [Informazioni sulla gestione SFTP](sftp/using/about-sftp-management.md)
+   + [Gestione dell’archiviazione SFTP](sftp/using/sftp-storage-management.md)
+   + [Inserimento di intervalli IP nella whitelist](sftp/using/ip-range-whitelisting.md)
    + [Gestione delle chiavi](sftp/using/key-management.md)
    + [Accesso al server SFTP](sftp/using/logging-into-sftp-server.md)
-   + [Domande frequenti](sftp/using/common-questions.md)
+   + [Domande comuni](sftp/using/common-questions.md)
 + Sottodomini e certificati {#subdomains-and-certificates}
-   + [Marchio dei sottodomini](subdomains-certificates/using/subdomains-branding.md)
+   + [Branding dei sottodomini](subdomains-certificates/using/subdomains-branding.md)
    + [Monitoraggio dei sottodomini](subdomains-certificates/using/monitoring-subdomains.md)
-   + [Impostazione di un nuovo sottodominio](subdomains-certificates/using/setting-up-new-subdomain.md)
+   + [Configurazione di un nuovo sottodominio](subdomains-certificates/using/setting-up-new-subdomain.md)
    + [Monitoraggio dei certificati SSL](subdomains-certificates/using/monitoring-ssl-certificates.md)
    + [Rinnovo dei certificati SSL](subdomains-certificates/using/renewing-subdomain-certificate.md)
    + [Gestione dei record TXT](subdomains-certificates/using/managing-txt-records.md)
 + Monitoraggio delle prestazioni {#performance-monitoring}
-   + [Il monitoraggio delle prestazioni](performance-monitoring/using/about-performance-monitoring.md)
+   + [Informazioni sul monitoraggio delle prestazioni](performance-monitoring/using/about-performance-monitoring.md)
    + [Monitoraggio del database](performance-monitoring/using/database-monitoring.md)
    + [Avvisi e-mail](performance-monitoring/using/email-alerting.md)
 + Impostazioni delle istanze (Campaign Classic) {#instances-settings}
-   + [Whitelist IP per l&#39;accesso ad esempio](instances-settings/using/ip-whitelisting-instance-access.md)
+   + [Inserimento di IP nella whitelist per l’accesso all’istanza](instances-settings/using/ip-whitelisting-instance-access.md)
    + [Autorizzazioni URL](instances-settings/using/url-permissions.md)
-   + [Dettagli istanza](instances-settings/using/instance-details.md)
+   + [Instance details (Dettagli istanza)](instances-settings/using/instance-details.md)
 + [Domande frequenti](faq.md)
