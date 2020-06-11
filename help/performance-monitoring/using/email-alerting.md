@@ -2,14 +2,15 @@
 title: Avvisi e-mail
 description: Scopri come ricevere le notifiche e-mail in caso di problemi con le istanze di Campaign
 translation-type: tm+mt
-source-git-commit: e5646fdccd47b4180fd0f9d561f61c04cd515c01
+source-git-commit: e2ee8badd9fffdfadabbe6c659aef8504ee62e9d
+workflow-type: tm+mt
+source-wordcount: '166'
+ht-degree: 2%
 
 ---
 
 
 # Avvisi e-mail {#email-alerting}
-
-## Informazioni sugli avvisi e-mail {#about-email-alerts}
 
 Per offrire maggiore flessibilità al lavoro, il Pannello di controllo è dotato di funzionalità di avvisi e-mail in tempo reale.
 
@@ -30,9 +31,9 @@ Per effettuare la sottoscrizione a questi avvisi, procedere come segue:
 
 L&#39;elenco degli avvisi è il seguente:
 
-* **Utilizzo** dell&#39;archivio SFTP: Uno dei server SFTP ha raggiunto l&#39;80% o più della capacità. Consultate Gestione dell&#39;archiviazione [SFTP](../../sftp/using/sftp-storage-management.md).
+* **Utilizzo** dell&#39;archivio SFTP: Uno dei server SFTP ha raggiunto l&#39;80% o più della capacità. See [SFTP storage management](../../sftp/using/sftp-storage-management.md).
 
 * **Uso** del database: Uno dei database delle istanze ha raggiunto l&#39;80% o più della capacità. Vedere Monitoraggio [del](../../performance-monitoring/using/database-monitoring.md)database.
 
-* **Scadenza** certificato SSL: Uno dei certificati SSL di uno dei tuoi sottodomini è scaduto o scadrà tra 60 giorni o meno. Consultate [Monitoraggio dei certificati](../../subdomains-certificates/using/monitoring-ssl-certificates.md)SSL dei sottodomini.
+* **Scadenza** certificato SSL: Uno dei certificati SSL di uno dei tuoi sottodomini è scaduto o scadrà tra 60 giorni o meno. See [Monitoring subdomains&#39; SSL certificates](../../subdomains-certificates/using/monitoring-ssl-certificates.md).
 
