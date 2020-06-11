@@ -1,11 +1,11 @@
 ---
 title: Accesso al Pannello di controllo Campaign
 description: Scopri come accedere al Pannello di controllo Campaign
-translation-type: ht
-source-git-commit: 7bde86a86fbd128f4eb7bf029e58b0f95964390b
-workflow-type: ht
-source-wordcount: '274'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 3752494c9de9de3ccb4d8dc29853d2c20df89062
+workflow-type: tm+mt
+source-wordcount: '289'
+ht-degree: 95%
 
 ---
 
@@ -51,7 +51,12 @@ Vantaggi principali:
     <td>
         <a href="../../instances-settings/using/ip-whitelisting-instance-access.md"><img alt="condizioni" src="assets/do-not-localize/instance_settings.png"/></a>
         <div><a href="../../instances-settings/using/ip-whitelisting-instance-access.md"><strong>Gestire le impostazioni delle istanze</strong></a></div>
-        <br/><em>Scopri come gestire le impostazioni delle istanze (solo Campaign Classic)</em>
+        <br/><em>Scopri come gestire le impostazioni delle istanze (solo Campaign Classic).</em>
+    </td>
+    <td>
+        <a href="../../performance-monitoring/using/about-performance-monitoring.md"><img alt="condizioni" src="assets/do-not-localize/monitoring-performance.png"/></a>
+        <div><a href="../../performance-monitoring/using/about-performance-monitoring.md"><strong>Prestazioni del monitor</strong></a></div>
+        <br/><em>Scoprite come monitorare l’utilizzo delle risorse chiave nelle vostre istanze.</em>
     </td>
 </tr>
 </table>
