@@ -1,10 +1,10 @@
 ---
 title: Versioni del Pannello di controllo Campaign
 translation-type: tm+mt
-source-git-commit: ef0a3ccdec2aec6f220a93ab474242df2d3a621b
+source-git-commit: fce9635ff6086ba6826bddc4a5af9dbfe310e3e1
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '453'
+ht-degree: 82%
 
 ---
 
@@ -16,6 +16,18 @@ Qui trovi informazioni sulle ultime versioni del Pannello di controllo Campaign.
 >[!NOTE]
 >
 >Il Pannello di controllo Campaign è disponibile solo per i clienti ospitati su AWS, ad eccezione degli ambienti ibridi non ancora supportati. Per accedere al Pannello di controllo Campaign non sono necessari aggiornamenti. Assicurati di essere un utente amministratore per accedervi.
+
+## Giugno 2020 {#june-2020}
+
+**Monitoraggio profili attivi**
+
+Il Pannello di controllo ora consente di monitorare il numero di profili attivi utilizzati dalle istanze e conteggiati a scopo di fatturazione. [Leggi tutto](performance-monitoring/using/active-profiles-monitoring.md)
+
+>[!IMPORTANT]
+>
+>Il monitoraggio dei profili attivi dal Pannello di controllo è disponibile in versione beta e soggetto a frequenti aggiornamenti e modifiche senza preavviso.
+>
+>Questa funzione è disponibile per i clienti ospitati su AWS dalla build Campaign Standard 10368 e dalla build Campaign Classic 8931. Se si utilizza una build precedente, è necessario eseguire l&#39;aggiornamento per utilizzare questa funzione.
 
 ## Maggio 2020 {#may-2020}
 
