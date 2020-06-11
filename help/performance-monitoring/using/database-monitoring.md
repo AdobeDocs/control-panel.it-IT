@@ -2,13 +2,15 @@
 title: Monitoraggio del database
 description: Scopri come monitorare il database Campaign nel Pannello di controllo
 translation-type: tm+mt
-source-git-commit: e5646fdccd47b4180fd0f9d561f61c04cd515c01
+source-git-commit: b2447b30314f4bd46b2b6e144f7f713ff2f1ec59
+workflow-type: tm+mt
+source-wordcount: '443'
+ht-degree: 4%
 
 ---
 
 
 # Monitoraggio del database {#database-monitoring}
-
 
 ## Informazioni sui database delle istanze {#about-instances-databases}
 
@@ -26,9 +28,9 @@ Un overflow di un database di istanza può causare diversi problemi (impossibili
 
 ## Monitoraggio dell&#39;utilizzo del database {#monitoring-instances-database}
 
-Il Pannello di controllo consente di monitorare l&#39;utilizzo del database per ciascuna istanza di Campaign. A questo scopo, attenetevi alla procedura indicata di seguito.
+Il Pannello di controllo consente di monitorare l&#39;utilizzo del database per ciascuna istanza di Campaign. Per farlo, segui la procedura indicata di seguito.
 
-1. Open the **[!UICONTROL Performance Monitoring]** card, then select the **[!UICONTROL Databases]** tab.
+1. Apri la scheda **[!UICONTROL Performance Monitoring]**, quindi seleziona la scheda **[!UICONTROL Databases]**.
 
 1. Selezionate l’istanza desiderata dall’ **[!UICONTROL Instance List]**.
 
