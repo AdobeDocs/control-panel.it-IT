@@ -1,11 +1,11 @@
 ---
 title: Autorizzazioni URL
 description: Scopri come gestire le autorizzazioni URL nel Pannello di controllo Campaign
-translation-type: ht
-source-git-commit: a2c19296894ff893987290cb287dc7002ab999e5
-workflow-type: ht
-source-wordcount: '590'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 8d2fb9c03fb628dda78bf5e915bbb69bda5ef64d
+workflow-type: tm+mt
+source-wordcount: '607'
+ht-degree: 95%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->Questa funzione è disponibile solo per le istanze di Campaign Classic.
+>Questa funzione è disponibile solo per le istanze Campaign Classic, dalla build 8850. Se si utilizza una build precedente, è necessario eseguire l&#39;aggiornamento per utilizzare questa funzione.
 
 ## Informazioni sulle autorizzazioni URL {#about-url-permissions}
 
