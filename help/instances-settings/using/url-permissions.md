@@ -2,10 +2,10 @@
 title: Autorizzazioni URL
 description: Scopri come gestire le autorizzazioni URL nel Pannello di controllo Campaign
 translation-type: tm+mt
-source-git-commit: 8d2fb9c03fb628dda78bf5e915bbb69bda5ef64d
+source-git-commit: 3faeb9651681a9edd18cf889fff65b02644cb690
 workflow-type: tm+mt
-source-wordcount: '607'
-ht-degree: 95%
+source-wordcount: '608'
+ht-degree: 92%
 
 ---
 
@@ -93,4 +93,4 @@ Tieni presente che, se elimini un URL, l’istanza non sarà più in grado di ri
 
 **Ho aggiunto un nuovo URL, ma la mia istanza non è ancora in grado di connettersi a esso. Perché?**
 
-In alcuni casi, gli URL a cui tenti di connetterti richiedono l’inserimento nella whitelist, l’accesso tramite password o un altro tipo di autenticazione. Il Pannello di controllo Campaign non gestisce l’autenticazione aggiuntiva.
+In alcuni casi, gli URL che si tenta di connettere richiedono di consentire l’inserimento di elenchi, password o un altro tipo di autenticazione. Il Pannello di controllo Campaign non gestisce l’autenticazione aggiuntiva.
