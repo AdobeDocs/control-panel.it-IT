@@ -1,55 +1,55 @@
 ---
-title: Inserimento di IP nella whitelist
-description: Ulteriori informazioni sull’inserimento di IP nella whitelist nel Pannello di controllo Campaign per l’accesso alle istanze
-translation-type: ht
-source-git-commit: a2c19296894ff893987290cb287dc7002ab999e5
-workflow-type: ht
-source-wordcount: '705'
-ht-degree: 100%
+title: Elenco di indirizzi IP consentiti
+description: Scoprite come aggiungere indirizzi IP all'elenco di indirizzi consentiti nel Pannello di controllo, ad esempio l'accesso
+translation-type: tm+mt
+source-git-commit: 3faeb9651681a9edd18cf889fff65b02644cb690
+workflow-type: tm+mt
+source-wordcount: '765'
+ht-degree: 50%
 
 ---
 
 
-# Inserimento di IP nella whitelist {#ip-whitelisting}
+# Elenco di indirizzi IP consentiti {#ip-whitelisting}
 
 >[!CONTEXTUALHELP]
 >id="cp_instancesettings_iprange"
->title="Informazioni sull’inserimento di IP nella whitelist"
->abstract="Gestisci l’inserimento di IP nella whitelist per accedere alle istanze."
+>title="Informazioni sull&#39;impostazione di autorizzazione IP"
+>abstract="Aggiungete gli indirizzi IP all&#39;elenco Consenti per accedere alle vostre istanze."
 >additional-url="https://images-tv.adobe.com/mpcv3/045cac99-f948-478e-ae04-f8c161dcb9e2_1568132508.1920x1080at3000_h264.mp4" text="Guarda il video dimostrativo"
 
 >[!IMPORTANT]
 >
 >Questa funzione è disponibile solo per le istanze di Campaign Classic.
 
-## Informazioni sull’inserimento di IP nella whitelist {#about-ip-whitelisting}
+## Informazioni sull&#39;impostazione di autorizzazione IP {#about-ip-whitelisting}
 
 Per impostazione predefinita, l’istanza di Adobe Campaign Classic non è accessibile da vari indirizzi IP.
 
-Se il tuo indirizzo IP non è stato inserito nella whitelist, non puoi accedere all’istanza da tale indirizzo. Allo stesso modo, potresti non riuscire a collegare un’API al Message Center (Centro messaggi) o all’istanza Marketing se l’indirizzo IP non è stato inserito nella whitelist dell’istanza in modo esplicito.
+Se il tuo indirizzo IP non è stato aggiunto all&#39;elenco di indirizzi consentiti, non potrai accedere all&#39;istanza da questo indirizzo. Allo stesso modo, potrebbe non essere possibile collegare un&#39;API al Centro messaggi o all&#39;istanza Marketing se l&#39;indirizzo IP non è stato aggiunto all&#39;elenco allow con l&#39;istanza esplicitamente.
 
-Il Pannello di controllo Campaign ti consente di impostare nuove connessioni alle istanze tramite l’inserimento di intervalli IP nella whitelist. Per farlo, attieniti alla procedura descritta di seguito.
+Il Pannello di controllo consente di impostare nuove connessioni alle istanze aggiungendo intervalli di indirizzi IP all&#39;elenco di indirizzi consentiti. Per farlo, attieniti alla procedura descritta di seguito.
 
-Una volta inseriti gli indirizzi IP nella whitelist, puoi creare e collegare ad essi gli operatori Campaign per consentire agli utenti di accedere all’istanza.
+Una volta che gli indirizzi IP sono nell&#39;elenco di indirizzi consentiti, puoi creare e collegare gli operatori Campaign per consentire agli utenti di accedere all&#39;istanza.
 
 ## Best practice {#best-practices}
 
-Accertati di seguire le raccomandazioni e le limitazioni riportate di seguito quando inserisci gli indirizzi IP nella whitelist dal Pannello di controllo Campaign.
+Quando aggiungete indirizzi IP all&#39;elenco di autorizzazioni del Pannello di controllo, accertatevi di rispettare le raccomandazioni e le limitazioni riportate di seguito.
 
 * **Non abilitare l’accesso IP per tutti i tipi di accesso** se non vuoi che l’indirizzo IP si connetta ai tuoi server RT o all’area di sicurezza AEM.
-* **Se hai temporaneamente attivato l’accesso all’istanza per un indirizzo IP**, assicurati di rimuoverlo dagli indirizzi IP inseriti nella whitelist una volta che non è più necessario per connettersi all’istanza.
-* **Sconsigliamo di inserire nella whitelist gli indirizzi IP di luoghi pubblici** (aeroporti, alberghi, ecc.). Utilizza l’indirizzo VPN dell’azienda per proteggere sempre la tua istanza.
+* **Se avete temporaneamente attivato l&#39;accesso all&#39;istanza per un indirizzo** IP, accertatevi di rimuovere gli indirizzi IP dall&#39;elenco di autorizzazioni una volta che non è più necessario connettersi all&#39;istanza.
+* **Non si consiglia di aggiungere indirizzi IP di luoghi pubblici alla lista** di autorizzazione (aeroporti, alberghi, ecc.). Utilizza l’indirizzo VPN dell’azienda per proteggere sempre la tua istanza.
 
-## Inserimento di indirizzi IP nella whitelist per l’accesso alle istanze {#whistelisting-ip-addresses}
+## Aggiunta di indirizzi IP all&#39;elenco allow per l&#39;accesso a Instance {#whistelisting-ip-addresses}
 
 >[!CONTEXTUALHELP]
 >id="cp_instancesettings_iprange_add"
 >title="Aggiungere un nuovo intervallo IP"
->abstract="Definisci l’intervallo IP da inserire nella whitelist per collegarti all’istanza."
+>abstract="Definire l&#39;intervallo IP che si desidera aggiungere all&#39;elenco di autorizzazioni per collegarsi all&#39;istanza."
 
-Per inserire gli indirizzi IP nella whitelist , effettua le seguenti operazioni:
+Per aggiungere indirizzi IP all&#39;elenco di indirizzi consentiti, procedere come segue:
 
-1. Apri la scheda **[!UICONTROL Instances Settings card]** per accedere all’inserimento di IP nella whitelist, quindi fai clic su **[!UICONTROL Add new IP Range]**.
+1. Open the **[!UICONTROL Instances Settings card]** to access the IP allow listing tab, then click **[!UICONTROL Add new IP Range]**.
 
    >[!NOTE]
    >
@@ -57,19 +57,19 @@ Per inserire gli indirizzi IP nella whitelist , effettua le seguenti operazioni:
 
    ![](assets/ip_whitelist_list1.png)
 
-1. Immetti le informazioni dell’intervallo IP da inserire nella whitelist come descritto di seguito.
+1. Compilate le informazioni per l&#39;intervallo IP che desiderate aggiungere all&#39;elenco di autorizzazioni come descritto di seguito.
 
    ![](assets/ip_whitelist_add1.png)
 
-   * **[!UICONTROL Instance(s)]**: le istanze a cui gli indirizzi IP saranno in grado di connettersi. È possibile operare su più istanze contemporaneamente. Ad esempio, l’inserimento di IP nella whitelist può essere eseguito sia sulle istanze Production (Produzione) che Stage nello stesso passaggio.
-   * **[!UICONTROL IP Range]**: l’intervallo IP che si desidera inserire nella whitelist, in formato CIDR. Tieni presente che un intervallo IP non può sovrapporsi a un intervallo esistente nella whitelist. In tal caso, elimina prima l’intervallo che contiene l’IP sovrapposto.
+   * **[!UICONTROL Instance(s)]**: le istanze a cui gli indirizzi IP saranno in grado di connettersi. È possibile operare su più istanze contemporaneamente. Ad esempio, l&#39;opzione IP consente l&#39;elencazione sia nelle istanze Produzione che Stage attraverso lo stesso passaggio.
+   * **[!UICONTROL IP Range]**: L&#39;intervallo IP che si desidera aggiungere all&#39;elenco di valori consentiti, in formato CIDR. Un intervallo IP non può sovrapporsi a un intervallo esistente nell&#39;elenco allow. In tal caso, elimina prima l’intervallo che contiene l’IP sovrapposto.
    >[!NOTE]
    >
    >CIDR (Classless Inter-Domain Routing) è il formato supportato per l’aggiunta di intervalli IP tramite l’interfaccia del Pannello di controllo Campaign. La sintassi è composta da un indirizzo IP seguito da un carattere “/” e da un numero decimale. Il formato e la sintassi sono descritti dettagliatamente in [questo articolo](https://whatismyipaddress.com/cidr).
    >
    >Puoi cercare su Internet strumenti online gratuiti che ti aiuteranno a convertire gli intervalli IP che hai a disposizione in formato CIDR.
 
-   * **[!UICONTROL Label]**: l’etichetta che verrà visualizzata nell’elenco degli indirizzi IP inseriti nella whitelist.
+   * **[!UICONTROL Label]**: Etichetta che verrà visualizzata nell&#39;elenco Consenti.
    * **[!UICONTROL Name]**: il nome deve essere univoco per Access Type (Tipo di accesso), Instance (Istanza) (in caso di connessione API esterna) e per l’indirizzo IP.
 
 
@@ -80,12 +80,12 @@ Per inserire gli indirizzi IP nella whitelist , effettua le seguenti operazioni:
    * **[!UICONTROL External API connection]**: le API esterne con gli indirizzi IP specificati saranno autorizzate a connettersi all’istanza Marketing e/o Message Center (Centro messaggi) (RT). La connessione delle istanze RT alla console non è abilitata.
    ![](assets/ip_whitelist_acesstype.png)
 
-1. Fai clic sul pulsante **[!UICONTROL Save]**. L’intervallo IP viene aggiunto all’elenco degli indirizzi IP inseriti nella whitelist.
+1. Fai clic sul pulsante **[!UICONTROL Save]**. L&#39;intervallo IP viene aggiunto all&#39;elenco allow.
 
    ![](assets/ip_whitelist_added.png)
 
-Per eliminare gli intervalli IP inseriti nella whitelist, selezionali e fai clic sul pulsante **[!UICONTROL Delete IP range]**.
+Per eliminare gli intervalli IP dall&#39;elenco Consenti, selezionateli e fate clic sul **[!UICONTROL Delete IP range]** pulsante .
 
 **Argomenti correlati:**
-* [Inserimento di IP nella whitelist (video tutorial)](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/administrating/control-panel-acc/ip-whitelisting.html)
+* [Elenco di indirizzi IP consentiti (video di esercitazione)](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/administrating/control-panel-acc/ip-whitelisting.html)
 * [Collegamento di un’area di sicurezza a un operatore](https://docs.adobe.com/content/help/it-IT/campaign-classic/using/installing-campaign-classic/additional-configurations/configuring-campaign-server.html#Linking_a_security_zone_to_an_operator)
