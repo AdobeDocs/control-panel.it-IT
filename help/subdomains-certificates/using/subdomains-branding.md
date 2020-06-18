@@ -1,11 +1,11 @@
 ---
 title: Branding dei sottodomini
 description: Ulteriori informazioni sul branding dei sottodomini
-translation-type: ht
-source-git-commit: f22e356b283ee2601c948d5c1d514a9a59c58451
-workflow-type: ht
-source-wordcount: '459'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 198c974d269289a6a9e5a87314662dba0bc85aff
+workflow-type: tm+mt
+source-wordcount: '467'
+ht-degree: 91%
 
 ---
 
@@ -31,7 +31,7 @@ Prendiamo ad esempio il dominio “mybrand.com”, che viene utilizzato per invi
 * sottodominio “info.mybrand.com” per le comunicazioni transazionali (conferma degli acquisti, reimpostazione della password, ecc.),
 * sottodominio “marketing.mybrand.com” per le e-mail di ricerca di potenziali clienti.
 
-In questo modo potrai preservare la reputazione del tuo dominio e di altri sottodomini. Ad esempio, se i sottodomini “marketing.mybrand.com” finissero per essere inseriti in blacklist dai provider di servizi Internet a causa di uno scarso recapito di messaggi, ciò impedirebbe l’inserimento in blacklist dell’intero dominio “mybrand.com” e del sottodominio “info.mybrand.com”.
+In questo modo potrai preservare la reputazione del tuo dominio e di altri sottodomini. Ad esempio, se i sottodomini &quot;marketing.mybrand.com&quot; finissero per essere aggiunti all&#39;elenco dei blocchi da provider di servizi Internet a causa di una scarsa recapito, ciò impedirebbe l&#39;aggiunta all&#39;elenco dei blocchi dell&#39;intero dominio &quot;mybrand.com&quot; e del sottodominio &quot;info.mybrand.com&quot;.
 
 ## Metodi di delega dei sottodomini {#subdomain-delegation-methods}
 
