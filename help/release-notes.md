@@ -1,10 +1,10 @@
 ---
 title: Versioni del Pannello di controllo Campaign
 translation-type: tm+mt
-source-git-commit: fce9635ff6086ba6826bddc4a5af9dbfe310e3e1
+source-git-commit: 3faeb9651681a9edd18cf889fff65b02644cb690
 workflow-type: tm+mt
-source-wordcount: '453'
-ht-degree: 82%
+source-wordcount: '459'
+ht-degree: 77%
 
 ---
 
@@ -67,7 +67,7 @@ Per ulteriori informazioni, consulta le pagine seguenti:
 
 *16 settembre 2019*
 
-Sono state aggiunte nuove funzionalità destinate agli utenti amministratori per inserire nella whitelist gli indirizzi IP per collegarsi alle istanze di Campaign Classic.
+Sono state aggiunte nuove funzionalità per consentire agli utenti Admin di aggiungere indirizzi IP all&#39;elenco di indirizzi consentiti per connettersi alle istanze Campaign Classic.
 Inoltre, gli utenti amministratori possono ora visualizzare l’elenco delle istanze di Campaign Classic e l’idoneità agli aggiornamenti della build.
 
 Per ulteriori informazioni, consulta la [documentazione dedicata](instances-settings/using/ip-whitelisting-instance-access.md).
