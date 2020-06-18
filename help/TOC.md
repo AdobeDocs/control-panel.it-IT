@@ -4,10 +4,10 @@ sub-product: pannello di controllo Campaign
 audience: end-user
 user-guide-title: Guida del Pannello di controllo Campaign
 translation-type: tm+mt
-source-git-commit: b2447b30314f4bd46b2b6e144f7f713ff2f1ec59
+source-git-commit: 3faeb9651681a9edd18cf889fff65b02644cb690
 workflow-type: tm+mt
-source-wordcount: '97'
-ht-degree: 96%
+source-wordcount: '99'
+ht-degree: 86%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 96%
 + Gestione SFTP {#sftp-management}
    + [Informazioni sulla gestione SFTP](sftp/using/about-sftp-management.md)
    + [Gestione dell’archiviazione SFTP](sftp/using/sftp-storage-management.md)
-   + [Inserimento di intervalli IP nella whitelist](sftp/using/ip-range-whitelisting.md)
+   + [Intervallo IP per l&#39;inserimento](sftp/using/ip-range-whitelisting.md)
    + [Gestione delle chiavi](sftp/using/key-management.md)
    + [Accesso al server SFTP](sftp/using/logging-into-sftp-server.md)
    + [Domande comuni](sftp/using/common-questions.md)
@@ -41,7 +41,7 @@ ht-degree: 96%
    + [Monitoraggio profili attivi](performance-monitoring/using/active-profiles-monitoring.md)
    + [Avvisi e-mail](performance-monitoring/using/email-alerting.md)
 + Impostazioni delle istanze (Campaign Classic) {#instances-settings}
-   + [Inserimento di IP nella whitelist per l’accesso all’istanza](instances-settings/using/ip-whitelisting-instance-access.md)
+   + [Accesso IP consentito](instances-settings/using/ip-whitelisting-instance-access.md)
    + [Autorizzazioni URL](instances-settings/using/url-permissions.md)
    + [Instance details (Dettagli istanza)](instances-settings/using/instance-details.md)
 + [Domande frequenti](faq.md)
