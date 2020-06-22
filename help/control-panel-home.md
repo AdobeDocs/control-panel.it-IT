@@ -1,10 +1,10 @@
 ---
 title: Documentazione del prodotto
 translation-type: tm+mt
-source-git-commit: 8c1bf6fbd36d12ff498f7316f764fda24a9b4fc9
+source-git-commit: 0bea4b1508305254d53eb23d45bd62944a32495a
 workflow-type: tm+mt
-source-wordcount: '96'
-ht-degree: 72%
+source-wordcount: '137'
+ht-degree: 51%
 
 ---
 
@@ -15,9 +15,9 @@ ht-degree: 72%
 
 ## Novità
 
-[Monitoraggio profili attivi](performance-monitoring/using/active-profiles-monitoring.md)
+* Sia i termini &quot;whitelist&quot; che &quot;blacklist&quot; sono stati rimossi dalla documentazione  Adobe Campaign. Alcune occorrenze di questi termini potrebbero ancora esistere nell&#39;interfaccia utente del prodotto, nei nomi delle opzioni e nel codice interno, ma verranno sostituiti nelle prossime release di Campaign con ‘blocklist’ e ‘Allowlist’.
 
-Il Pannello di controllo ora consente di monitorare il numero di profili attivi utilizzati dalle istanze e conteggiati a scopo di fatturazione.
+* [Monitoraggio](performance-monitoring/using/active-profiles-monitoring.md)profili attivi: Il Pannello di controllo ora consente di monitorare il numero di profili attivi utilizzati dalle istanze e conteggiati a scopo di fatturazione.
 
 ## Risorse aggiuntive {#additional-resources}
 
