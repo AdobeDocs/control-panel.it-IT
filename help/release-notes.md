@@ -1,10 +1,10 @@
 ---
 title: Versioni del Pannello di controllo Campaign
 translation-type: tm+mt
-source-git-commit: 3faeb9651681a9edd18cf889fff65b02644cb690
+source-git-commit: 0bea4b1508305254d53eb23d45bd62944a32495a
 workflow-type: tm+mt
-source-wordcount: '459'
-ht-degree: 77%
+source-wordcount: '503'
+ht-degree: 70%
 
 ---
 
@@ -18,6 +18,10 @@ Qui trovi informazioni sulle ultime versioni del Pannello di controllo Campaign.
 >Il Pannello di controllo Campaign è disponibile solo per i clienti ospitati su AWS, ad eccezione degli ambienti ibridi non ancora supportati. Per accedere al Pannello di controllo Campaign non sono necessari aggiornamenti. Assicurati di essere un utente amministratore per accedervi.
 
 ## Giugno 2020 {#june-2020}
+
+**Rimozione di &#39;Whitelist&#39; / &#39;Blacklist&#39;**
+
+Sia i termini &quot;whitelist&quot; che &quot;blacklist&quot; sono stati rimossi dalla documentazione  Adobe Campaign. Alcune occorrenze di questi termini potrebbero ancora esistere nell&#39;interfaccia utente del prodotto, nei nomi delle opzioni e nel codice interno, ma verranno sostituiti nelle prossime release di Campaign con ‘blocklist’ e ‘Allowlist’.
 
 **Monitoraggio profili attivi**
 
