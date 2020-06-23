@@ -2,9 +2,9 @@
 title: Gestione chiavi GPG
 description: Scoprite come gestire le chiavi GPG per cifrare e decifrare i dati all'interno  Adobe Campaign.
 translation-type: tm+mt
-source-git-commit: 6a28859565cf9385ac33886355d43e1d1a825e0e
+source-git-commit: 18c9c946301fab81f617e3cba1f72989645d552e
 workflow-type: tm+mt
-source-wordcount: '1079'
+source-wordcount: '1080'
 ht-degree: 2%
 
 ---
@@ -83,7 +83,7 @@ Per ulteriori informazioni, consulta la documentazione  Adobe Campaign:
 **Campaign Classic:**
 
 * [Zipping o cifratura di un file](https://docs.adobe.com/content/help/en/campaign-classic/using/automating-with-workflows/general-operation/how-to-use-workflow-data.html#zipping-or-encrypting-a-file)
-* [Caso di utilizzo: Importazione di dati crittografati con una chiave generata dal Pannello di controllo](https://docs.adobe.com/content/help/en/campaign-classic/using/automating-with-workflows/general-operation/how-to-use-workfow-data.html#use-case-gpg-encrypt)
+* [Caso di utilizzo: Cifratura ed esportazione dei dati tramite una chiave installata nel Pannello di controllo](https://docs.adobe.com/content/help/en/campaign-classic/using/automating-with-workflows/general-operation/how-to-use-workflow-data.html#use-case-gpg-encrypt)
 
 **Campaign Standard:**
 
