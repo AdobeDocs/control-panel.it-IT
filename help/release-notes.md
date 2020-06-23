@@ -1,9 +1,9 @@
 ---
 title: Versioni del Pannello di controllo Campaign
 translation-type: tm+mt
-source-git-commit: 0bea4b1508305254d53eb23d45bd62944a32495a
+source-git-commit: 5b7e8126789690662e72e72c885700b971362004
 workflow-type: tm+mt
-source-wordcount: '503'
+source-wordcount: '577'
 ht-degree: 70%
 
 ---
@@ -18,6 +18,14 @@ Qui trovi informazioni sulle ultime versioni del Pannello di controllo Campaign.
 >Il Pannello di controllo Campaign è disponibile solo per i clienti ospitati su AWS, ad eccezione degli ambienti ibridi non ancora supportati. Per accedere al Pannello di controllo Campaign non sono necessari aggiornamenti. Assicurati di essere un utente amministratore per accedervi.
 
 ## Giugno 2020 {#june-2020}
+
+**Controllo recapito sottodominio**
+
+Dopo aver delegato un nuovo sottodominio, il Pannello di controllo ora consente di monitorare il controllo eseguito dal team di recapito. [Leggi tutto](subdomains-certificates/using/setting-up-new-subdomain.md)
+
+**Gestione chiavi GPG**
+
+Il Pannello di controllo Campaign ora ti consente di generare una coppia di chiavi GPG, in modo da poter decifrare facilmente i dati che arrivano in Campaign dall’esterno. Inoltre, è stata aggiunta una funzionalità che ti consente di installare una chiave GPG pubblica per cifrare i dati in uscita da Campaign. [Leggi tutto](instances-settings/using/gpg-keys-management.md)
 
 **Rimozione di &#39;Whitelist&#39; / &#39;Blacklist&#39;**
 
