@@ -1,10 +1,10 @@
 ---
 title: Documentazione del prodotto
 translation-type: tm+mt
-source-git-commit: 99fbe1670d470172a2103e2b60b36b5b56c6a53d
+source-git-commit: 5b7e8126789690662e72e72c885700b971362004
 workflow-type: tm+mt
-source-wordcount: '112'
-ht-degree: 66%
+source-wordcount: '136'
+ht-degree: 75%
 
 ---
 
@@ -15,9 +15,15 @@ ht-degree: 66%
 
 ## Novità
 
-* Sia i termini &quot;whitelist&quot; che &quot;blacklist&quot; sono stati rimossi dalla documentazione  Adobe Campaign. [Leggi tutto](release-notes.md)
+* **Controllo recapito sottodominio**
 
-* **Monitoraggio** profili attivi: Il Pannello di controllo ora consente di monitorare il numero di profili attivi utilizzati dalle istanze e conteggiati a scopo di fatturazione. [Leggi tutto](performance-monitoring/using/active-profiles-monitoring.md)
+   Dopo aver delegato un nuovo sottodominio, il Pannello di controllo ora consente di monitorare il controllo eseguito dal team di recapito. [Leggi tutto](subdomains-certificates/using/setting-up-new-subdomain.md)
+
+* **Gestione chiavi GPG**
+
+   Installa e/o genera chiavi GPG in un’istanza di marketing per cifrare i dati inviati da Campaign e decifrare i dati in arrivo. [Leggi tutto](instances-settings/using/gpg-keys-management.md)
+
+* Sia i termini &quot;whitelist&quot; che &quot;blacklist&quot; sono stati rimossi dalla documentazione  Adobe Campaign. [Leggi tutto](release-notes.md)
 
 ## Risorse aggiuntive {#additional-resources}
 
