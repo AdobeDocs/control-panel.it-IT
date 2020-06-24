@@ -1,11 +1,11 @@
 ---
 title: Gestione dell’archiviazione SFTP
 description: Scopri come monitorare e gestire l’archiviazione del server SFTP
-translation-type: ht
-source-git-commit: 834adb7c937a9927901f91e257a8df44e72ca45b
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: d8fe1c2e847fa25919f81bf0a4195de5ad0b2781
+workflow-type: tm+mt
 source-wordcount: '351'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
 
@@ -24,8 +24,8 @@ ht-degree: 100%
 
 **Argomenti correlati:**
 
-* [Video tutorial per Campaign Standard](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/control-panel/monitoring-server-capacity-whitelisting-adding-ssh-key.html)
-* [Video tutorial per Campaign Classic](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/administrating/control-panel-acc/managing-sftp-servers.html)
+* [Video tutorial per Campaign Standard](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/administrating/control-panel/monitoring-server-capacity-allow-listing-adding-ssh-key.html)
+* [Video tutorial per Campaign Classic](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/administrating/control-panel-acc/monitoring-server-capacity-allow-listing-adding-ssh-key.html)
 
 ## Accesso alle informazioni sulla capacità di archiviazione {#accessing-storage-capacity-information}
 
