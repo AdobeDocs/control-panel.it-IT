@@ -1,10 +1,10 @@
 ---
 title: Versioni del Pannello di controllo Campaign
 translation-type: tm+mt
-source-git-commit: 759d3ca0c3cafa84067c31a48432b0bfe2df186f
+source-git-commit: a83309bfb6e42db231fe970f47475fb85d6d441b
 workflow-type: tm+mt
-source-wordcount: '577'
-ht-degree: 70%
+source-wordcount: '605'
+ht-degree: 68%
 
 ---
 
@@ -26,6 +26,8 @@ Dopo aver delegato un nuovo sottodominio, il Pannello di controllo ora consente 
 **Gestione chiavi GPG**
 
 Il Pannello di controllo Campaign ora ti consente di generare una coppia di chiavi GPG, in modo da poter decifrare facilmente i dati che arrivano in Campaign dall’esterno. Inoltre, è stata aggiunta una funzionalità che ti consente di installare una chiave GPG pubblica per cifrare i dati in uscita da Campaign. [Leggi tutto](instances-settings/using/gpg-keys-management.md)
+* [Video tutorial per Campaign Standard](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/administrating/control-panel/generating-and-installing-gpg-keys.html)
+* [Video tutorial per Campaign Classic](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/administrating/control-panel-acc/generating-and-installing-gpg-keys.html)
 
 **Rimozione di &#39;Whitelist&#39; / &#39;Blacklist&#39;**
 
