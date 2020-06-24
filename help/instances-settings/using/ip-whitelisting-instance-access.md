@@ -2,10 +2,10 @@
 title: Elenco di indirizzi IP consentiti
 description: Scoprite come aggiungere indirizzi IP all'elenco di indirizzi consentiti nel Pannello di controllo, ad esempio l'accesso
 translation-type: tm+mt
-source-git-commit: 3faeb9651681a9edd18cf889fff65b02644cb690
+source-git-commit: d8fe1c2e847fa25919f81bf0a4195de5ad0b2781
 workflow-type: tm+mt
 source-wordcount: '765'
-ht-degree: 50%
+ht-degree: 49%
 
 ---
 
@@ -87,5 +87,5 @@ Per aggiungere indirizzi IP all&#39;elenco di indirizzi consentiti, procedere co
 Per eliminare gli intervalli IP dall&#39;elenco Consenti, selezionateli e fate clic sul **[!UICONTROL Delete IP range]** pulsante .
 
 **Argomenti correlati:**
-* [Elenco di indirizzi IP consentiti (video di esercitazione)](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/administrating/control-panel-acc/ip-whitelisting.html)
+* [Elenco di indirizzi IP consentiti (video di esercitazione)](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/administrating/control-panel-acc/ip-allow-listing.html)
 * [Collegamento di un’area di sicurezza a un operatore](https://docs.adobe.com/content/help/it-IT/campaign-classic/using/installing-campaign-classic/additional-configurations/configuring-campaign-server.html#Linking_a_security_zone_to_an_operator)
