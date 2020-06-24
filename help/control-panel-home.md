@@ -1,10 +1,10 @@
 ---
 title: Documentazione del prodotto
 translation-type: tm+mt
-source-git-commit: 5b7e8126789690662e72e72c885700b971362004
+source-git-commit: d8fe1c2e847fa25919f81bf0a4195de5ad0b2781
 workflow-type: tm+mt
-source-wordcount: '136'
-ht-degree: 75%
+source-wordcount: '122'
+ht-degree: 81%
 
 ---
 
@@ -22,8 +22,6 @@ ht-degree: 75%
 * **Gestione chiavi GPG**
 
    Installa e/o genera chiavi GPG in un’istanza di marketing per cifrare i dati inviati da Campaign e decifrare i dati in arrivo. [Leggi tutto](instances-settings/using/gpg-keys-management.md)
-
-* Sia i termini &quot;whitelist&quot; che &quot;blacklist&quot; sono stati rimossi dalla documentazione  Adobe Campaign. [Leggi tutto](release-notes.md)
 
 ## Risorse aggiuntive {#additional-resources}
 
