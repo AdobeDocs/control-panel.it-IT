@@ -1,7 +1,7 @@
 ---
 title: Versioni del Pannello di controllo Campaign
 translation-type: tm+mt
-source-git-commit: a83309bfb6e42db231fe970f47475fb85d6d441b
+source-git-commit: 7625d291486772c6f68924a70c57e85c3aee9606
 workflow-type: tm+mt
 source-wordcount: '605'
 ht-degree: 68%
@@ -31,7 +31,7 @@ Il Pannello di controllo Campaign ora ti consente di generare una coppia di chia
 
 **Rimozione di &#39;Whitelist&#39; / &#39;Blacklist&#39;**
 
-Sia i termini &quot;whitelist&quot; che &quot;blacklist&quot; sono stati rimossi dalla documentazione  Adobe Campaign. Alcune occorrenze di questi termini potrebbero ancora esistere nell&#39;interfaccia utente del prodotto, nei nomi delle opzioni e nel codice interno, ma verranno sostituiti nelle prossime release di Campaign con ‘blocklist’ e ‘Allowlist’.
+Sia i termini &quot;whitelist&quot; che &quot;blacklist&quot; sono stati rimossi dalla documentazione  Adobe Campaign. Alcune occorrenze di questi termini possono ancora esistere nell&#39;interfaccia utente del prodotto, nei nomi delle opzioni e nel codice interno, ma saranno sostituite nelle prossime release di Campaign con &quot; inserii nell&#39;elenco Bloccati&quot; e &quot; inserire nell&#39;elenco Consentiti&quot;.
 
 **Monitoraggio profili attivi**
 
@@ -81,10 +81,10 @@ Per ulteriori informazioni, consulta le pagine seguenti:
 
 *16 settembre 2019*
 
-Sono state aggiunte nuove funzionalità per consentire agli utenti Admin di aggiungere indirizzi IP all&#39;elenco di indirizzi consentiti per connettersi alle istanze Campaign Classic.
+Sono state aggiunte nuove funzionalità che consentono agli utenti Admin di aggiungere indirizzi IP al elenco consentiti  per connettersi alle istanze Campaign Classic.
 Inoltre, gli utenti amministratori possono ora visualizzare l’elenco delle istanze di Campaign Classic e l’idoneità agli aggiornamenti della build.
 
-Per ulteriori informazioni, consulta la [documentazione dedicata](instances-settings/using/ip-whitelisting-instance-access.md).
+Per ulteriori informazioni, consulta la [documentazione dedicata](instances-settings/using/ip-allow-listing-instance-access.md).
 
 ## Agosto 2019 {#august-2019}
 
