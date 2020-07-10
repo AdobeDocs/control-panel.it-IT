@@ -2,9 +2,9 @@
 title: Gestione chiavi GPG
 description: Scoprite come gestire le chiavi GPG per cifrare e decifrare i dati all'interno  Adobe Campaign.
 translation-type: tm+mt
-source-git-commit: a83309bfb6e42db231fe970f47475fb85d6d441b
+source-git-commit: 23ca04d0b071a0dd24e72a4db4b29cba35437995
 workflow-type: tm+mt
-source-wordcount: '1110'
+source-wordcount: '1112'
 ht-degree: 2%
 
 ---
@@ -28,9 +28,8 @@ Potrete quindi:
 
 **Argomenti correlati:**
 
-* [Video tutorial per Campaign Standard](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/administrating/control-panel/generating-and-installing-gpg-keys.html)
-* [Video tutorial per Campaign Classic](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/administrating/control-panel-acc/generating-and-installing-gpg-keys.html)
-
+* [Video di esercitazione Campaign Standard](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/administrating/control-panel/gpg-key-management/gpg-key-management-overview.html)
+* [Video di esercitazione Campaign Classic](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/administrating/control-panel-acc/gpg-key-management/gpg-key-management-overview.html)
 
 ## Cifratura dei dati {#encrypting-data}
 
@@ -56,6 +55,7 @@ A tal fine, è necessario generare una coppia di chiavi GPG da uno strumento di 
    * **commento**: l&#39;aggiunta di un&#39;etichetta al campo del commento consente di identificare facilmente la chiave da utilizzare per cifrare i dati.
    * **scadenza**: Data o &quot;0&quot; per nessuna data di scadenza.
    * **passphrase**
+
    ![](assets/do-not-localize/gpg_command.png)
 
 1. Una volta confermato, lo script genererà una chiave con l&#39;impronta digitale associata, da esportare in un file o incollare direttamente nel Pannello di controllo. Per esportare il file, eseguire questo comando seguito dall&#39;impronta digitale della chiave generata.
@@ -158,6 +158,7 @@ Nell&#39;elenco sono visualizzate tutte le chiavi GPG di cifratura e decrittazio
    * Urgente (rosso) è mostrato 30 giorni prima.
    * L&#39;avviso (giallo) è visualizzato 60 giorni prima.
    * Alla scadenza di una chiave viene visualizzato un banner rosso &quot;Scaduto&quot;.
+
    >[!NOTE]
    >
    >Il Pannello di controllo non invierà alcuna notifica e-mail.
