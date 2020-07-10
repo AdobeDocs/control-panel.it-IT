@@ -2,10 +2,10 @@
 title: Elenco di indirizzi IP consentiti
 description: Scoprite come aggiungere indirizzi IP al elenco consentiti  nel Pannello di controllo, ad esempio l'accesso
 translation-type: tm+mt
-source-git-commit: abe22509e3389874e0b3586a99a1ad2d49681ed8
+source-git-commit: 35723590195ef54df42d1d1df5b37490787f8836
 workflow-type: tm+mt
 source-wordcount: '765'
-ht-degree: 49%
+ht-degree: 45%
 
 ---
 
@@ -53,7 +53,7 @@ Per aggiungere indirizzi IP al elenco consentiti , procedere come segue:
 
    >[!NOTE]
    >
-   >Se la scheda Instance Settings (Impostazioni istanze) non è visibile nella home page del Pannello di controllo Campaign, significa che il tuo ID organizzazione IMS non è associato ad alcuna istanza di Adobe Campaign Classic
+   >Se la scheda Instance Settings (Impostazioni istanza) non è visibile nella home page del Pannello di controllo, significa che l&#39;ID organizzazione IMS non è associato ad alcuna istanza  Adobe Campaign Classic
 
    ![](assets/ip_whitelist_list1.png)
 
@@ -63,6 +63,7 @@ Per aggiungere indirizzi IP al elenco consentiti , procedere come segue:
 
    * **[!UICONTROL Instance(s)]**: le istanze a cui gli indirizzi IP saranno in grado di connettersi. È possibile operare su più istanze contemporaneamente. Ad esempio, l&#39;opzione IP consente l&#39;elencazione sia nelle istanze Produzione che Stage attraverso lo stesso passaggio.
    * **[!UICONTROL IP Range]**: L&#39;intervallo IP che si desidera aggiungere al elenco consentiti , in formato CIDR. Un intervallo IP non può sovrapporsi a un intervallo esistente sul elenco consentiti . In tal caso, elimina prima l’intervallo che contiene l’IP sovrapposto.
+
    >[!NOTE]
    >
    >CIDR (Classless Inter-Domain Routing) è il formato supportato per l’aggiunta di intervalli IP tramite l’interfaccia del Pannello di controllo Campaign. La sintassi è composta da un indirizzo IP seguito da un carattere “/” e da un numero decimale. Il formato e la sintassi sono descritti dettagliatamente in [questo articolo](https://whatismyipaddress.com/cidr).
@@ -78,6 +79,7 @@ Per aggiungere indirizzi IP al elenco consentiti , procedere come segue:
    * **[!UICONTROL Campaign Console Access]**: gli indirizzi IP saranno autorizzati a connettersi alla console Campaign Classic. L’accesso alla console è abilitato solo per le istanze Marketing. L’accesso all’istanza MID e RT non è consentito e pertanto non è abilitato.
    * **[!UICONTROL AEM connection]**: gli indirizzi IP AEM specificati saranno autorizzati a connettersi all’istanza Marketing.
    * **[!UICONTROL External API connection]**: le API esterne con gli indirizzi IP specificati saranno autorizzate a connettersi all’istanza Marketing e/o Message Center (Centro messaggi) (RT). La connessione delle istanze RT alla console non è abilitata.
+
    ![](assets/ip_whitelist_acesstype.png)
 
 1. Fai clic sul pulsante **[!UICONTROL Save]**. L&#39;intervallo IP viene aggiunto al elenco consentiti .
