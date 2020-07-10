@@ -2,7 +2,7 @@
 title: Intervallo IP per l'inserimento
 description: Scopri come aggiungere intervalli IP al elenco consentiti  per l'accesso ai server SFTP
 translation-type: tm+mt
-source-git-commit: f6d75de9c3d92e4f5d0b3d254f103db0901ab20a
+source-git-commit: d96c044e83d37f020b5fd6ea55199c1223b9fa39
 workflow-type: tm+mt
 source-wordcount: '601'
 ht-degree: 40%
@@ -46,7 +46,7 @@ Quando aggiungete indirizzi IP al elenco consentiti  nel Pannello di controllo, 
 
 Per aggiungere un intervallo IP al elenco consentiti , procedere come segue:
 
-1. Apri la scheda **[!UICONTROL SFTP]**, quindi seleziona la scheda **[!UICONTROL IP Whistelisting]**.
+1. Apri la scheda **[!UICONTROL SFTP]**, quindi seleziona la scheda **[!UICONTROL IP Allow Listing]**.
 1. L&#39;elenco degli indirizzi IP nel elenco consentiti  viene visualizzato per ogni istanza. Seleziona l’istanza desiderata dall’elenco a sinistra, quindi fai clic sul pulsante **[!UICONTROL Add new IP range]**.
 
    ![](assets/control_panel_add_range.png)
