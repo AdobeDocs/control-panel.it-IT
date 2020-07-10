@@ -1,11 +1,11 @@
 ---
 title: Instance details (Dettagli istanza)
 description: Scopri come monitorare i dettagli dell’istanza nel Pannello di controllo Campaign
-translation-type: ht
-source-git-commit: a2c19296894ff893987290cb287dc7002ab999e5
-workflow-type: ht
-source-wordcount: '554'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 35723590195ef54df42d1d1df5b37490787f8836
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -46,7 +46,7 @@ Per ottenere informazioni sui server connessi alle istanze, procedi come segue:
 
    >[!NOTE]
    >
-   >Se la scheda Instance Settings (Impostazioni istanze) non è visibile nella home page del Pannello di controllo Campaign, significa che il tuo ID organizzazione IMS non è associato ad alcuna istanza di Adobe Campaign Classic
+   >Se la scheda Instance Settings (Impostazioni istanza) non è visibile nella home page del Pannello di controllo, significa che l&#39;ID organizzazione IMS non è associato ad alcuna istanza  Adobe Campaign Classic
 
 1. Seleziona nel riquadro a sinistra l’istanza Campaign Classic desiderata.
 
