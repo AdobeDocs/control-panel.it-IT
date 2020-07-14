@@ -1,10 +1,10 @@
 ---
 title: Documentazione del prodotto
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d8fe1c2e847fa25919f81bf0a4195de5ad0b2781
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '122'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -15,9 +15,9 @@ ht-degree: 81%
 
 ## Novità
 
-* **Controllo recapito sottodominio**
+* **Audit del recapito di messaggi dei sottodomini**
 
-   Dopo aver delegato un nuovo sottodominio, il Pannello di controllo ora consente di monitorare il controllo eseguito dal team di recapito. [Leggi tutto](subdomains-certificates/using/setting-up-new-subdomain.md)
+   Dopo aver delegato un nuovo sottodominio, il Pannello di controllo Campaign ora consente di monitorare l’audit eseguito dal team di Adobe Deliverability. [Leggi tutto](subdomains-certificates/using/setting-up-new-subdomain.md)
 
 * **Gestione chiavi GPG**
 
