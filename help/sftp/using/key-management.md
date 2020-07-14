@@ -5,7 +5,7 @@ translation-type: tm+mt
 source-git-commit: 067921a32d0b99107fc148609f78ac664da717dd
 workflow-type: tm+mt
 source-wordcount: '601'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ Adobe consiglia a tutti i clienti di stabilire una connessione ai propri server 
 
 Di seguito sono descritti i passaggi per generare una chiave SSH pubblica e aggiungerla per accedere al server SFTP, nonché le raccomandazioni relative all’autenticazione.
 
-Once access to the server is set up, remember to **add the IP addresses that will require access to the server to the allow list** so that you can connect to it. Per ulteriori informazioni al riguardo, consulta [questa sezione](../../instances-settings/using/ip-allow-listing-instance-access.md).
+Una volta configurato l’accesso al server, ricorda di **inserire nell’elenco Consentiti gli indirizzi IP che richiederanno l’accesso al server** in modo da poterti connettere a esso. Per ulteriori informazioni al riguardo, consulta [questa sezione](../../instances-settings/using/ip-allow-listing-instance-access.md).
 
 >[!NOTE]
 >
@@ -80,6 +80,7 @@ In casi molto rari l’autenticazione basata sulla password è abilitata su alcu
    1. Quando richiesto, specifica un nome alla chiave. Se la directory .ssh non esiste, il sistema ne creerà una.
    1. Inserisci e reinserisci una passphrase quando richiesto. Può anche essere lasciata vuota.
    1. Il sistema crea una coppia di chiavi “name” e “name.pub”. Cerca il file “name.pub”, quindi aprilo. Deve avere una stringa alfanumerica che termina con l’indirizzo e-mail specificato.
+
    **Windows:**
 
    Potrebbe essere necessario installare uno strumento di terze parti che ti aiuterà a generare una coppia di chiavi pubblica/privata nello stesso formato “name.pub”.
