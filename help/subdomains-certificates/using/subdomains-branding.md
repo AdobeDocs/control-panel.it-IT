@@ -1,11 +1,11 @@
 ---
 title: Branding dei sottodomini
 description: Ulteriori informazioni sul branding dei sottodomini
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 80b35e82116b064a7b141d957ab79ecfc9a99026
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '467'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ Prendiamo ad esempio il dominio “mybrand.com”, che viene utilizzato per invi
 * sottodominio “info.mybrand.com” per le comunicazioni transazionali (conferma degli acquisti, reimpostazione della password, ecc.),
 * sottodominio “marketing.mybrand.com” per le e-mail di ricerca di potenziali clienti.
 
-In questo modo potrai preservare la reputazione del tuo dominio e di altri sottodomini. Ad esempio, se i sottodomini &quot;marketing.mybrand.com&quot; finissero per essere aggiunti all&#39;elenco dei blocchi da provider di servizi Internet a causa di una scarsa recapito, ciò impedirebbe l&#39;aggiunta all&#39;elenco dei blocchi dell&#39;intero dominio &quot;mybrand.com&quot; e del sottodominio &quot;info.mybrand.com&quot;.
+In questo modo potrai preservare la reputazione del tuo dominio e di altri sottodomini. Ad esempio, se i sottodomini “marketing.mybrand.com” venissero inseriti nell’elenco Bloccati dai provider di servizi Internet a causa di uno scarso recapito di messaggi, ciò impedirebbe l’inserimento nell’elenco Bloccati dell’intero dominio “mybrand.com” e del sottodominio “info.mybrand.com”.
 
 ## Metodi di delega dei sottodomini {#subdomain-delegation-methods}
 
@@ -45,7 +45,7 @@ La tabella seguente fornisce un riepilogo del funzionamento di questi metodi, ol
 
 | Metodo di delega | Come funziona | Livello di impegno |
 |---|---|---|
-| **Delega completa** | Crea il record del sottodominio e dello spazio dei nomi. Adobe configurerà quindi tutti i record DNS necessari per Adobe Campaign.<br/><br/>In questa configurazione, Adobe è completamente responsabile della gestione del sottodominio e di tutti i record DNS. | Basso |
+| **Delega completa** | Crea il record del sottodominio e dello spazio dei nomi. Adobe configurerà quindi tutti i record DNS necessari per Adobe Campaign.<br/><br/>In questa configurazione, Adobe si assume la piena responsabilità della gestione del sottodominio e di tutti i record DNS. | Basso |
 | **CNAME, metodo personalizzato** | Crea il record del sottodominio e dello spazio dei nomi. Adobe fornirà quindi i record da inserire nei server DNS e configurerà i valori corrispondenti nei server DNS di Adobe Campaign.<br/><br/>In questa configurazione, tu e Adobe condividete la responsabilità di mantenere il DNS. | Alto |
 
 Ulteriori informazioni sulla delega del dominio sono disponibili in [questa documentazione](https://helpx.adobe.com/it/campaign/kb/domain-name-delegation.html).
