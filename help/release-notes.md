@@ -4,7 +4,7 @@ translation-type: tm+mt
 source-git-commit: 23ca04d0b071a0dd24e72a4db4b29cba35437995
 workflow-type: tm+mt
 source-wordcount: '563'
-ht-degree: 72%
+ht-degree: 94%
 
 ---
 
@@ -19,9 +19,9 @@ Qui trovi informazioni sulle ultime versioni del Pannello di controllo Campaign.
 
 ## Giugno 2020 {#june-2020}
 
-**Controllo recapito sottodominio**
+**Audit del recapito di messaggi dei sottodomini**
 
-Dopo aver delegato un nuovo sottodominio, il Pannello di controllo ora consente di monitorare il controllo eseguito dal team di recapito. [Leggi tutto](subdomains-certificates/using/setting-up-new-subdomain.md)
+Dopo aver delegato un nuovo sottodominio, il Pannello di controllo Campaign ora consente di monitorare l’audit eseguito dal team di Adobe Deliverability. [Leggi tutto](subdomains-certificates/using/setting-up-new-subdomain.md)
 
 **Gestione chiavi GPG**
 
@@ -31,13 +31,13 @@ Il Pannello di controllo Campaign ora ti consente di generare una coppia di chia
 
 **Monitoraggio profili attivi**
 
-Il Pannello di controllo ora consente di monitorare il numero di profili attivi utilizzati dalle istanze e conteggiati a scopo di fatturazione. [Leggi tutto](performance-monitoring/using/active-profiles-monitoring.md)
+Il Pannello di controllo Campaign ora consente di monitorare il numero di profili attivi utilizzati dalle istanze e conteggiati a scopo di fatturazione. [Leggi tutto](performance-monitoring/using/active-profiles-monitoring.md)
 
 >[!IMPORTANT]
 >
->Il monitoraggio dei profili attivi dal Pannello di controllo è disponibile in versione beta e soggetto a frequenti aggiornamenti e modifiche senza preavviso.
+>Il monitoraggio profili attivi dal Pannello di controllo Campaign è disponibile in versione beta e soggetto a frequenti aggiornamenti e modifiche senza preavviso.
 >
->Questa funzione è disponibile per i clienti ospitati su AWS dalla build Campaign Standard 10368 e dalla build Campaign Classic 8931. Se si utilizza una build precedente, è necessario eseguire l&#39;aggiornamento per utilizzare questa funzione.
+>Questa funzione è disponibile per i clienti ospitati su AWS dalla build Campaign Standard 10368 e dalla build Campaign Classic 8931. Se utilizzi una build precedente, dovrai eseguire l’aggiornamento per utilizzare questa funzione.
 
 ## Maggio 2020 {#may-2020}
 
@@ -77,7 +77,7 @@ Per ulteriori informazioni, consulta le pagine seguenti:
 
 *16 settembre 2019*
 
-Sono state aggiunte nuove funzionalità che consentono agli utenti Admin di aggiungere indirizzi IP al elenco consentiti  per connettersi alle istanze Campaign Classic.
+Sono state introdotte nuove funzionalità che consentono agli utenti amministratori di aggiungere indirizzi IP all’elenco Consentiti per connettersi alle istanze Campaign Classic.
 Inoltre, gli utenti amministratori possono ora visualizzare l’elenco delle istanze di Campaign Classic e l’idoneità agli aggiornamenti della build.
 
 Per ulteriori informazioni, consulta la [documentazione dedicata](instances-settings/using/ip-allow-listing-instance-access.md).
