@@ -5,7 +5,7 @@ translation-type: tm+mt
 source-git-commit: f6d75de9c3d92e4f5d0b3d254f103db0901ab20a
 workflow-type: tm+mt
 source-wordcount: '291'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 84%
 >abstract="La home page del Pannello di controllo Campaign ti consente di accedere a tutte le azioni che possono essere eseguite sulle istanze Campaign."
 >additional-url="https://docs.adobe.com/content/help/it-IT/control-panel/using/discover-control-panel/discovering-the-interface.html" text="Esplorazione dell’interfaccia"
 
-Il Pannello di controllo Campaign ti aiuta a migliorare l’efficienza del tuo lavoro di amministratore di prodotto di Adobe Campaign Standard e/o Classic, consentendoti di gestire le impostazioni e tenere traccia degli usi per ciascuna istanza. L&#39;interfaccia intuitiva consente di monitorare facilmente l&#39;utilizzo delle risorse chiave, nonché di eseguire attività amministrative come indirizzi IP  aggiunta al elenco consentiti, monitoraggio dello storage SFTP, gestione delle chiavi e altro ancora.
+Il Pannello di controllo Campaign ti aiuta a migliorare l’efficienza del tuo lavoro di amministratore di prodotto di Adobe Campaign Standard e/o Classic, consentendoti di gestire le impostazioni e tenere traccia degli usi per ciascuna istanza. L’interfaccia intuitiva consente di monitorare facilmente l’utilizzo delle risorse chiave, nonché di eseguire attività amministrative come l’inserimento di indirizzi IP nell’elenco Consentiti, il monitoraggio dell’archiviazione SFTP, la gestione delle chiavi e altro ancora.
 
 Vantaggi principali:
 
@@ -55,8 +55,8 @@ Vantaggi principali:
     </td>
     <td>
         <a href="../../performance-monitoring/using/about-performance-monitoring.md"><img alt="condizioni" src="assets/do-not-localize/monitoring-performance.png"/></a>
-        <div><a href="../../performance-monitoring/using/about-performance-monitoring.md"><strong>Prestazioni del monitor</strong></a></div>
-        <br/><em>Scoprite come monitorare l’utilizzo delle risorse chiave nelle vostre istanze.</em>
+        <div><a href="../../performance-monitoring/using/about-performance-monitoring.md"><strong>Monitoraggio delle prestazioni</strong></a></div>
+        <br/><em>Scopri come monitorare l’utilizzo delle risorse chiave nelle istanze.</em>
     </td>
 </tr>
 </table>
