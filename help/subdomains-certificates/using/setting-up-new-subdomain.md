@@ -1,11 +1,11 @@
 ---
 title: Configurazione di un nuovo sottodominio
 description: Scopri come configurare un nuovo sottodominio per le istanze della campaign
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 5b7e8126789690662e72e72c885700b971362004
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '995'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 81%
 
 ## Delega di sottodomini completa {#full-subdomain-delegation}
 
-Il Pannello di controllo Campaign ti consente di delegare completamente un sottodominio ad Adobe Campaign. A questo scopo, effettuate le seguenti operazioni:
+Il Pannello di controllo Campaign ti consente di delegare completamente un sottodominio ad Adobe Campaign. Per farlo, esegui questi passaggi:
 
 1. Nella scheda **[!UICONTROL Subdomains & Certificates]**, seleziona l’istanza di produzione desiderata, quindi fai clic su **[!UICONTROL Setup new subdomain]**.
 
@@ -38,7 +38,7 @@ Il Pannello di controllo Campaign ti consente di delegare completamente un sotto
 
 1. Fai clic su **[!UICONTROL Next]** per confermare il metodo di delega completa.
 
-   Note that [CNAME](#use-cnames) and custom methods are currently not supported by the Control Panel.
+   Ricorda che i metodi [CNAME](#use-cnames) e personalizzati non sono attualmente supportati dal Pannello di controllo Campaign.
 
    ![](assets/subdomain3.png)
 
@@ -60,7 +60,7 @@ Il Pannello di controllo Campaign ti consente di delegare completamente un sotto
    * **Comunicazioni operative e transazionali**: le comunicazioni transazionali contengono informazioni volte a completare un processo avviato dal destinatario. Esempio: conferma dell’acquisto, e-mail di reimpostazione della password. Le comunicazioni organizzative riguardano lo scambio di informazioni, idee e opinioni all’interno e all’esterno dell’organizzazione, senza scopo commerciale.
    ![](assets/subdomain5.png)
 
-   **Suddividere i sottodomini in base ai casi di utilizzo è una best practice per il recapito di messaggi**. In questo modo, la reputazione di ciascun sottodominio è isolata e protetta. Ad esempio, se il sottodominio per le comunicazioni di marketing viene aggiunto all&#39;elenco dei blocchi dai provider di servizi Internet, il sottodominio delle comunicazioni transazionali non subentrerà e continuerà a essere in grado di inviare comunicazioni.
+   **Suddividere i sottodomini in base ai casi di utilizzo è una best practice per il recapito di messaggi**. In questo modo, la reputazione di ciascun sottodominio è isolata e protetta. Ad esempio, se il tuo sottodominio per le comunicazioni di marketing viene inserito nell’elenco Bloccati dai provider di servizi Internet, il sottodominio delle comunicazioni transazionali non sarà coinvolto e continuerà a inviare comunicazioni.
 
    **Puoi delegare un sottodominio sia per i casi di utilizzo di marketing che per quelli transazionali**:
 
@@ -68,7 +68,7 @@ Il Pannello di controllo Campaign ti consente di delegare completamente un sotto
    * Per i casi di utilizzo transazionali, i sottodomini saranno configurati su TUTTE le istanze **RT** (Message Center / Real-time messaging [Centro messaggi/Messaggistica in tempo reale]) per garantire la connettività. I sottodomini funzioneranno quindi con tutte le tue istanze RT.
    >[!NOTE]
    >
-   >Se utilizzi Campaign Classic, il Pannello di controllo Campaign ti consente di visualizzare quali istanze RT/MID sono collegate all’istanza di marketing con cui stai lavorando. Per ulteriori informazioni, consultate la sezione Dettagli [](../../instances-settings/using/instance-details.md) istanza.
+   >Se utilizzi Campaign Classic, il Pannello di controllo Campaign ti consente di visualizzare quali istanze RT/MID sono collegate all’istanza di marketing con cui stai lavorando. Per ulteriori informazioni, consulta la sezione [Instance details](../../instances-settings/using/instance-details.md) (Dettagli istanza).
 
 1. Immetti il sottodominio creato nella tua soluzione di hosting, quindi fai clic su **[!UICONTROL Submit]**.
 
@@ -86,7 +86,7 @@ Il Pannello di controllo Campaign ti consente di delegare completamente un sotto
 
    ![](assets/subdomain7.png)
 
-   Alla fine, il team di **recapito** verrà informato del nuovo sottodominio, al fine di controllarlo. Il processo di controllo può richiedere fino a 10 giorni lavorativi dopo la delega del sottodominio. I controlli eseguiti includono test di cicli di feedback e cicli di reclamo posta indesiderata. Sconsigliamo quindi di utilizzare il sottodominio prima che l’audit sia stato completato, in quanto potrebbe portare a una cattiva reputazione del sottodominio.
+   Successivamente, il **team di Adobe Deliverability** verrà informato del nuovo sottodominio al fine di sottoporlo ad audit. Il processo di audit può richiedere fino a 10 giorni lavorativi dopo la delega del sottodominio. I controlli eseguiti includono test di cicli di feedback e cicli di reclamo posta indesiderata. Sconsigliamo quindi di utilizzare il sottodominio prima che l’audit sia stato completato, in quanto potrebbe portare a una cattiva reputazione del sottodominio.
 
    Per maggiori dettagli sull’avanzamento della configurazione, fai clic sul pulsante **[!UICONTROL Process details]**.
 
@@ -94,9 +94,9 @@ Il Pannello di controllo Campaign ti consente di delegare completamente un sotto
 
    **Risoluzione dei problemi:**
 
-   * In alcuni casi, la delega viene eseguita, ma il sottodominio potrebbe non essere stato verificato correttamente. Il sottodominio resterà nell&#39; **[!UICONTROL Configured]** elenco con un registro dei processi che fornisce informazioni sull&#39;errore. In caso di difficoltà nella risoluzione del problema, contatta l’Assistenza clienti.
-   * Se il sottodominio viene visualizzato come &quot;Non verificato&quot; dopo la configurazione, avvia una nuova verifica del sottodominio (**...** / **[!UICONTROL Verify subdomain]**). Se mostra ancora lo stesso stato, il motivo potrebbe essere che è stata eseguita una certa personalizzazione sullo schema dei destinatari, che non può essere verificata utilizzando i processi standard. Prova a inviare una campagna con quel sottodominio.
-   * Se la configurazione del sottodominio richiede troppo tempo (più di 10 giorni lavorativi) al passaggio del controllo della recapito, contattare l&#39;Assistenza clienti.
+   * In alcuni casi, la delega viene eseguita, ma il sottodominio potrebbe non essere stato verificato correttamente. Il sottodominio resterà nell’elenco **[!UICONTROL Configured]** con un job log che fornisce informazioni sull’errore. In caso di difficoltà nella risoluzione del problema, contatta l’Assistenza clienti.
+   * Se il sottodominio viene visualizzato come “Unverified” (Non verificato) dopo la configurazione, avvia una nuova verifica del sottodominio (**...** / **[!UICONTROL Verify subdomain]**). Se viene ancora mostrato lo stesso stato, ciò potrebbe essere dovuto al fatto che è stata eseguita una personalizzazione sullo schema dei destinatari che non può essere verificata con i processi standard. Prova ad avviare una campagna con quel sottodominio.
+   * Se la configurazione del sottodominio richiede troppo tempo (più di 10 giorni lavorativi) durante il passaggio dell’audit del recapito di messaggi, contatta l’Assistenza clienti.
 
 Al termine del processo, i sottodomini saranno configurati per lavorare con l’istanza Adobe Campaign e verranno creati gli elementi seguenti:
 
