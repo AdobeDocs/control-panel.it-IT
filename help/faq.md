@@ -5,7 +5,7 @@ translation-type: tm+mt
 source-git-commit: 35723590195ef54df42d1d1df5b37490787f8836
 workflow-type: tm+mt
 source-wordcount: '629'
-ht-degree: 66%
+ht-degree: 71%
 
 ---
 
@@ -92,7 +92,7 @@ Il Pannello di controllo Campaign consente agli amministratori di prodotto di ge
 
 **Quali sono alcune delle attuali funzionalità del Pannello di controllo Campaign?**
 
-Il Pannello di controllo consente di monitorare lo storage, aggiungere IP al elenco consentiti  e gestire le chiavi SSH per i server SFTP in modo indipendente in base alle esigenze e ad altre azioni.
+Il Pannello di controllo Campaign consente di tenere traccia dell’archiviazione, inserire IP nell’elenco Consentiti, gestire le chiavi SSH per i server SFTP in modo indipendente in base alle tue esigenze e svolgere altre azioni.
 
 Per ulteriori informazioni, consulta la documentazione sulle azioni supportate dal Pannello di controllo Campaign.
 
