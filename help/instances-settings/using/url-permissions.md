@@ -5,7 +5,7 @@ translation-type: tm+mt
 source-git-commit: 35723590195ef54df42d1d1df5b37490787f8836
 workflow-type: tm+mt
 source-wordcount: '608'
-ht-degree: 87%
+ht-degree: 95%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 87%
 
 >[!IMPORTANT]
 >
->Questa funzione è disponibile solo per le istanze Campaign Classic, dalla build 8850. Se si utilizza una build precedente, è necessario eseguire l&#39;aggiornamento per utilizzare questa funzione.
+>Questa funzione è disponibile solo per le istanze Campaign Classic, a partire dalla build 8850. Se utilizzi una build precedente, dovrai eseguire l’aggiornamento per utilizzare questa funzione.
 
 ## Informazioni sulle autorizzazioni URL {#about-url-permissions}
 
@@ -81,7 +81,7 @@ Per aggiungere un URL a cui l’istanza può connettersi, effettua le seguenti o
 
    >[!NOTE]
    >
-   >I caratteri “/.*” vengono aggiunti automaticamente alla fine dell’URL immesso dopo la convalida, in modo da includere tutte le sottopagine della pagina immessa.
+   >I caratteri &quot;/.*&quot; vengono aggiunti automaticamente alla fine dell’URL immesso dopo la convalida, in modo da includere tutte le sottopagine della pagina immessa.
 
    ![](assets/add_url_listnew.png)
 
@@ -93,4 +93,4 @@ Tieni presente che, se elimini un URL, l’istanza non sarà più in grado di ri
 
 **Ho aggiunto un nuovo URL, ma la mia istanza non è ancora in grado di connettersi a esso. Perché?**
 
-In alcuni casi, gli URL che si tenta di connettere richiedono di consentire l’inserimento di elenchi, password o un altro tipo di autenticazione. Il Pannello di controllo Campaign non gestisce l’autenticazione aggiuntiva.
+In alcuni casi, gli URL a cui tenti di connetterti richiedono l’inserimento nell’elenco Consentiti, l’accesso tramite password o un altro tipo di autenticazione. Il Pannello di controllo Campaign non gestisce l’autenticazione aggiuntiva.
