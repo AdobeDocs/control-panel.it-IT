@@ -55,7 +55,7 @@ Per aggiungere un URL a cui l’istanza può connettersi, effettua le seguenti o
 
    >[!NOTE]
    >
-   >Se la scheda Instance Settings (Impostazioni istanza) non è visibile nella home page del Pannello di controllo, significa che l&#39;ID organizzazione IMS non è associato ad alcuna istanza  Adobe Campaign Classic
+   >Se la scheda Instance Settings (Impostazioni istanza) non è visibile nella home page del Pannello di controllo Campaign, significa che il tuo ID organizzazione IMS non è associato ad alcuna istanza  Adobe Campaign Classic
    >
    >La scheda <b><span class="uicontrol">URL permissions (Autorizzazioni URL)</span></b> elenca tutti gli URL esterni a cui l’istanza può connettersi. Questo elenco non include gli URL necessari per il funzionamento di Campaign (ad esempio, le connessioni tra parti dell’infrastruttura).
 
