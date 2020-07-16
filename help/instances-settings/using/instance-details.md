@@ -46,7 +46,7 @@ Per ottenere informazioni sui server connessi alle istanze, procedi come segue:
 
    >[!NOTE]
    >
-   >Se la scheda Instance Settings (Impostazioni istanza) non è visibile nella home page del Pannello di controllo, significa che l&#39;ID organizzazione IMS non è associato ad alcuna istanza  Adobe Campaign Classic
+   >Se la scheda Instance Settings (Impostazioni istanza) non è visibile nella home page del Pannello di controllo Campaign, significa che il tuo ID organizzazione IMS non è associato ad alcuna istanza  Adobe Campaign Classic
 
 1. Seleziona nel riquadro a sinistra l’istanza Campaign Classic desiderata.
 
