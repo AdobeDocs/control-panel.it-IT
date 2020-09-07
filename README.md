@@ -1,8 +1,11 @@
 ---
 source-git-commit: 730d8bf6d40679a777c2c6ae94088a4dd4f066b6
-translation-type: tm+mt
+workflow-type: ht
+translation-type: ht
+source-wordcount: '6'
+ht-degree: 100%
 
 ---
-# control-panel.en
+# control-panel.it-IT
 
-Repo per la documentazione del Pannello di controllo
+Repository della documentazione del Pannello di controllo Campaign
