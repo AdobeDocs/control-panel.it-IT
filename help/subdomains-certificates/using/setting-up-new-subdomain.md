@@ -2,9 +2,9 @@
 title: Configurazione di un nuovo sottodominio
 description: Scopri come configurare un nuovo sottodominio per le istanze della campaign
 translation-type: tm+mt
-source-git-commit: c215836129487530e50398ca1454895a2f319867
+source-git-commit: 4488040118bac708348bc73c5e525f35f6b1e6c1
 workflow-type: tm+mt
-source-wordcount: '1098'
+source-wordcount: '1100'
 ht-degree: 50%
 
 ---
@@ -27,7 +27,7 @@ Questa pagina fornisce informazioni su come impostare nuovi sottodomini utilizza
 **Argomenti correlati:**
 
 * [Delega di sottodomini (video tutorial)](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/control-panel/subdomain-delegation.html)
-* [Configurazione di sottodomini tramite CNAME](https://docs.adobe.com/content/help/en/campaign-classic-learn/control-panel/subdomains-and-certificates/delegating-subdomains-using-cname.html)
+* [Configurazione di sottodomini tramite CNAME (video di esercitazione)](https://docs.adobe.com/content/help/en/campaign-classic-learn/control-panel/subdomains-and-certificates/delegating-subdomains-using-cname.html)
 * [Monitoraggio dei sottodomini](../../subdomains-certificates/using/monitoring-subdomains.md)
 
 ## Must-read {#must-read}
