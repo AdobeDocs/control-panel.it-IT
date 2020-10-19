@@ -1,9 +1,9 @@
 ---
 title: Versioni del Pannello di controllo Campaign
 translation-type: tm+mt
-source-git-commit: 1c7e5a830ff9a6b6a726cfbe30ca2ad264f1d8c6
+source-git-commit: ee5c44c8b22b1053b7993744aa4898a10761782a
 workflow-type: tm+mt
-source-wordcount: '619'
+source-wordcount: '620'
 ht-degree: 79%
 
 ---
@@ -25,7 +25,7 @@ L’Pannello di controllo Campaign ora consente di configurare un sottodominio i
 
 **Miglioramenti al monitoraggio del database**
 
-La **[!UICONTROL Database monitoring]** scheda è stata migliorata con metriche aggiuntive, che consentono di ottenere informazioni dettagliate sulle risorse che occupano spazio nel database. [Leggi tutto](performance-monitoring/using/database-monitoring.md)
+Il monitoraggio del database è stato migliorato con metriche aggiuntive che consentono di ottenere informazioni dettagliate sulle risorse che occupano spazio nel database. [Leggi tutto](performance-monitoring/using/database-monitoring.md)
 
 ## Giugno 2020 {#june-2020}
 
