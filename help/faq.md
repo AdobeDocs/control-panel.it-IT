@@ -1,11 +1,11 @@
 ---
 title: Domande frequenti sul Pannello di controllo Campaign
 description: Domande comuni relative al Pannello di controllo Campaign
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 35723590195ef54df42d1d1df5b37490787f8836
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '629'
-ht-degree: 71%
+ht-degree: 100%
 
 ---
 
@@ -22,23 +22,23 @@ Per ulteriori informazioni, consulta la [documentazione di Adobe Experience Clou
 
 **Dove posso trovare il mio ID organizzazione IMS?**
 
-Un metodo consiste nell’accedere alla pagina [Home di Adobe Experience Cloud](https://experiencecloud.adobe.com/) > **[!UICONTROL Administration]**. You will find your IMS Organization ID at the bottom of Administration **[!UICONTROL Quick Access]** section. Per maggiori informazioni, consulta la [documentazione di Adobe Experience Cloud](https://marketing.adobe.com/resources/help/it_IT/mcloud/organizations.html).
+Un metodo consiste nell’accedere alla pagina [Home di Adobe Experience Cloud](https://experiencecloud.adobe.com/) > **[!UICONTROL Administration]**. Troverai il tuo ID organizzazione IMS nella parte inferiore della sezione **[!UICONTROL Quick Access]** di Administration (Amministrazione). Per maggiori informazioni, consulta la [documentazione di Adobe Experience Cloud](https://marketing.adobe.com/resources/help/it_IT/mcloud/organizations.html).
 
 L’altro modo consiste nell’avviare **Admin Console**. L’ID organizzazione IMS sarà visibile nell’URL e avrà un aspetto simile a: https://adminconsole.adobe.com/xxx@AdobeOrg/overview.
 
 **Perché devo conoscere il mio ID organizzazione IMS?**
 
-Per poter gestire le impostazioni per la tua istanza, vogliamo assicurarci che tu ottenga le informazioni corrette per l’istanza corretta nel caso in cui utilizzi più istanze per la tua azienda.
+Affinché tu possa gestire le impostazioni per la tua istanza, vogliamo assicurarci che tu ottenga le informazioni corrette per l’istanza corretta nel caso in cui utilizzi più istanze per la tua azienda.
 
-**Cosa succede se si dispone di più ID organizzazione IMS?**
+**Cosa succede se dispongo di più ID organizzazione IMS?**
 
-Se avete accesso a più soluzioni Adobe, potete disporre di più ID organizzazione IMS. In questo caso, l&#39;ID organizzazione IMS corretto da utilizzare è quello visualizzato nell&#39;istanza del Adobe Campaign .
+Se hai accesso a più soluzioni Adobe, potresti disporre di più ID organizzazione IMS. In questo caso, l’ID organizzazione IMS corretto da utilizzare è quello visualizzato nella tua istanza di Adobe Campaign.
 
 >[!NOTE]
 >
->Se disponete dello stesso ID organizzazione IMS per  Adobe Campaign e Adobe  Analytics, è una scelta straordinaria. Disporre di un ID organizzazione IMS tra  Analytics e Campaign è un requisito se si intende integrare le soluzioni per sfruttare i casi d&#39;uso complessi, come l&#39;abbandono del carrello (per AA + AC).
+>Se disponi dello stesso ID organizzazione IMS per Adobe Campaign e Adobe Analytics, il problema non si pone. Disporre dello stesso ID organizzazione IMS per Analytics e Campaign è un requisito se intendi integrare le soluzioni per sfruttare i casi d’uso complessi, come l’abbandono del carrello (per AA + AC).
 >
->Se disponete di ID organizzazione IMS diversi per  Adobe Campaign e Adobe  Analytics, contattate l&#39;Assistenza clienti per allinearli.
+>Se disponi di ID organizzazione IMS diversi per Adobe Campaign e Adobe Analytics, contatta l’Assistenza clienti per allinearli.
 
 **Come posso sapere se la mia istanza di Adobe Campaign è ospitata o meno su AWS?**
 
