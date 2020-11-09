@@ -2,10 +2,10 @@
 title: Branding dei sottodomini
 description: Ulteriori informazioni sul branding dei sottodomini
 translation-type: tm+mt
-source-git-commit: 17f51b60310b4fbc89e2106eb4ee9251fd525a59
+source-git-commit: a9dbcef585be629b77b7154535df95fc4778d781
 workflow-type: tm+mt
-source-wordcount: '702'
-ht-degree: 80%
+source-wordcount: '707'
+ht-degree: 79%
 
 ---
 
@@ -54,7 +54,7 @@ In caso di domande sui metodi di configurazione del sottodominio, rivolgiti  tea
 
 ## Casi di utilizzo dei sottodomini (Campaign Classic) (#subdomain-use-cases)
 
-Quando si impostano i sottodomini per le istanze di Campaign Classic, è necessario selezionare il caso di utilizzo per il quale verrà utilizzato il sottodominio (vedere [](../../subdomains-certificates/using/setting-up-new-subdomain.md)).
+Quando si impostano i sottodomini per le istanze di Campaign Classic, è necessario selezionare il caso di utilizzo per il quale verrà utilizzato il sottodominio (vedere [Impostazione di un nuovo sottodominio](../../subdomains-certificates/using/setting-up-new-subdomain.md)).
 
 I possibili casi di utilizzo sono:
 
