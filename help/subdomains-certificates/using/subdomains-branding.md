@@ -2,9 +2,9 @@
 title: Branding dei sottodomini
 description: Ulteriori informazioni sul branding dei sottodomini
 translation-type: tm+mt
-source-git-commit: a9dbcef585be629b77b7154535df95fc4778d781
+source-git-commit: 3ff864e7e8c896d49c89d49800b7471d00b777e7
 workflow-type: tm+mt
-source-wordcount: '707'
+source-wordcount: '706'
 ht-degree: 79%
 
 ---
@@ -52,7 +52,7 @@ Additional information on domain configuration is available in [this documentati
 
 In caso di domande sui metodi di configurazione del sottodominio, rivolgiti  team di recapito del Adobe o contatta l&#39;Assistenza clienti per richiedere la consulenza sulla recapito.
 
-## Casi di utilizzo dei sottodomini (Campaign Classic) (#subdomain-use-cases)
+## Casi di utilizzo dei sottodomini (Campaign Classic){#subdomains-use-cases}
 
 Quando si impostano i sottodomini per le istanze di Campaign Classic, è necessario selezionare il caso di utilizzo per il quale verrà utilizzato il sottodominio (vedere [Impostazione di un nuovo sottodominio](../../subdomains-certificates/using/setting-up-new-subdomain.md)).
 
