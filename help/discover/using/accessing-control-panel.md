@@ -1,31 +1,36 @@
 ---
-title: Accesso al Pannello di controllo
-description: Scopri come accedere al Pannello di controllo
+product: campaign
+solution: Campaign
+title: Accesso al Pannello di controllo Campaign
+description: Scopri come accedere al Pannello di controllo Campaign
 translation-type: tm+mt
-source-git-commit: ddf4ca24c1583e388c07aae110522627220d5e66
+source-git-commit: 168ae32d7931497bb37d63f7dd1d14eadbb4b1bf
+workflow-type: tm+mt
+source-wordcount: '158'
+ht-degree: 27%
 
 ---
 
 
-# Accesso al Pannello di controllo {#accessing-control-panel}
+# Accesso al Pannello di controllo Campaign {#accessing-control-panel}
 
-Il Pannello di controllo è disponibile direttamente da Experience Cloud o dal prodotto stesso.
+Il Pannello di controllo Campaign è disponibile direttamente dal Experience Cloud  o dal prodotto stesso.
 
 È accessibile solo agli utenti **** amministratore. Per ulteriori informazioni su come assegnare gli utenti al gruppo Amministratori, consulta [questa sezione](../../discover/using/managing-permissions.md).
 
-## Accesso dalla piattaforma Experience Cloud {#access-experience-cloud-platform}
+## Accesso dalla piattaforma  Experience Cloud {#access-experience-cloud-platform}
 
 Per accedere al pannello di controllo da Experience Cloud Platform, passa alla pagina alla [Home di Experience Cloud Platform](https://experiencecloud.adobe.com/), quindi fai clic sul collegamento dedicato nella sezione **Accesso  rapido**.
 
 ![](assets/do-not-localize/quickaccess.png)
 
-Il Pannello di controllo è accessibile anche dal selettore delle **soluzioni** della piattaforma Experience Cloud:
+L&#39;Pannello di controllo Campaign è accessibile anche dal selettore della **soluzione  Experience Cloud Platform**:
 
-1. Passa ad [Adobe Experience Cloud](https://experiencecloud.adobe.com/), quindi seleziona **Campaign** dal selettore della soluzione.
+1. Andate su [Adobe Experience Cloud](https://experiencecloud.adobe.com/), quindi selezionate **Campaign** dal selettore della soluzione.
 
    ![](assets/do-not-localize/control_panel_access1.png)
 
-1. Viene visualizzato l&#39;elenco delle istanze Campaign. Fate clic sulla scheda **Pannello** di controllo per avviarla.
+1. Viene visualizzato l&#39;elenco delle istanze Campaign. Fate clic sulla scheda **Pannello di controllo Campaign** per avviarla.
 
    ![](assets/do-not-localize/control_panel_access2.png)
 
@@ -35,10 +40,10 @@ Il Pannello di controllo è accessibile anche dal selettore delle **soluzioni** 
 >
 >L&#39;accesso dall&#39;interno del prodotto è disponibile solo per Campaign Standard.
 
-1. Apri il prodotto Campaign Standard, quindi seleziona il **[!UICONTROL Administration]**menu dal**[!UICONTROL Navigation]** riquadro.
+1. Aprite il prodotto Campaign Standard, quindi selezionate il **[!UICONTROL Administration]** menu dal **[!UICONTROL Navigation]** riquadro.
 
    ![](assets/control_panel_access3.png)
 
-1. Fate clic sull&#39; **[!UICONTROL Control Panel]**icona.
+1. Fate clic sull&#39; **[!UICONTROL Control Panel]** icona.
 
    ![](assets/control_panel_access4.png)
