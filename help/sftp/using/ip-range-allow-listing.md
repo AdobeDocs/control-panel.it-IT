@@ -1,24 +1,26 @@
 ---
-title: Intervallo IP per l'inserimento
-description: Scopri come aggiungere intervalli IP al elenco consentiti  per l'accesso ai server SFTP
+product: campaign
+solution: Campaign
+title: Inserimento di intervalli IP nell’elenco Consentiti
+description: Scopri come aggiungere intervalli IP all’elenco Consentiti per accedere ai server SFTP
 translation-type: tm+mt
-source-git-commit: d96c044e83d37f020b5fd6ea55199c1223b9fa39
+source-git-commit: 168ae32d7931497bb37d63f7dd1d14eadbb4b1bf
 workflow-type: tm+mt
 source-wordcount: '601'
-ht-degree: 40%
+ht-degree: 100%
 
 ---
 
 
-# Intervallo IP per l&#39;inserimento {#ip-range-allow-listing}
+# Inserimento di intervalli IP nell’elenco Consentiti {#ip-range-allow-listing}
 
 >[!CONTEXTUALHELP]
 >id="cp_ip_whitelist"
->title="Informazioni sull&#39;impostazione di autorizzazione IP"
->abstract="In questa scheda, puoi aggiungere intervalli IP al elenco consentiti , per stabilire una connessione ai server SFTP. Solo i server SFTP a cui hai accesso sono visualizzati qui. Contatta l’amministratore per richiedere l’accesso ad altri server SFTP."
+>title="Informazioni sull’inserimento di IP nell’elenco Consentiti"
+>abstract="In questa scheda puoi aggiungere intervalli IP all’elenco Consentiti per stabilire una connessione ai server SFTP. Solo i server SFTP a cui hai accesso sono visualizzati qui. Contatta l’amministratore per richiedere l’accesso ad altri server SFTP."
 >additional-url="https://images-tv.adobe.com/mpcv3/8a977e03-d76c-44d3-853c-95d0b799c870_1560205338.1920x1080at3000_h264.mp4#t=98" text="Guarda il video dimostrativo"
 
-I server SFTP sono protetti. Per potervi accedere per visualizzare i file o scriverne di nuovi, è necessario aggiungere l&#39;indirizzo IP pubblico del sistema o del client che accede ai server al elenco consentiti .
+I server SFTP sono protetti. Per potervi accedere e visualizzare i file o scriverne di nuovi, è necessario inserire nell’elenco Consentiti l’indirizzo IP pubblico del sistema o del client che accede ai server.
 
 ## Informazioni sul formato CIDR {#about-cidr-format}
 
@@ -30,28 +32,28 @@ Puoi cercare su Internet strumenti online gratuiti che ti aiuteranno a convertir
 
 ## Best practice {#best-practices}
 
-Quando aggiungete indirizzi IP al elenco consentiti  nel Pannello di controllo, accertatevi di rispettare le raccomandazioni e i limiti indicati di seguito.
+Accertati di seguire le raccomandazioni e le limitazioni riportate di seguito quando inserisci gli indirizzi IP nell’elenco Consentiti dal Pannello di controllo Campaign.
 
-* **Aggiungete intervalli IP al elenco consentiti**  anziché a indirizzi IP singoli. Per aggiungere un singolo indirizzo IP al elenco consentiti , aggiungete un &#39;/32&#39; per indicare che l&#39;intervallo include solo un IP.
-* **Non aggiungete intervalli molto ampi al elenco consentiti**, ad esempio includendo > 265 indirizzi IP. Il Pannello di controllo Campaign rifiuterà qualsiasi intervallo in formato CIDR compreso tra /0 e /23.
-* Solo gli indirizzi **IP** pubblici possono essere aggiunti al elenco consentiti .
-* Assicuratevi di eliminare **regolarmente gli indirizzi** IP di cui non avete più bisogno dal elenco consentiti .
+* **Aggiungere intervalli IP all’elenco Consentiti** anziché indirizzi IP singoli. Per inserire un indirizzo IP singolo nell’elenco Consentiti, aggiungi “/32” per indicare che l’intervallo include un solo IP.
+* **Non aggiungere intervalli eccessivamente ampi all’elenco Consentiti**, ad esempio intervalli che includono > 265 indirizzi IP. Il Pannello di controllo Campaign rifiuterà qualsiasi intervallo in formato CIDR compreso tra /0 e /23.
+* Solo gli **indirizzi IP pubblici** possono essere aggiunti all’elenco Consentiti.
+* Accertati di **eliminare regolarmente gli indirizzi IP** di cui non hai più bisogno dall’elenco Consentiti.
 
-## Aggiunta di indirizzi IP al elenco consentiti  {#adding-ip-addresses-allow-list}
+## Aggiungere indirizzi IP all’elenco Consentiti {#adding-ip-addresses-allow-list}
 
 >[!CONTEXTUALHELP]
 >id="cp_sftp_iprange_add"
 >title="Aggiungere un nuovo intervallo IP"
->abstract="Definite gli intervalli IP che desiderate aggiungere al elenco consentiti  per la connessione ai server SFTP."
+>abstract="Definisci gli intervalli IP che desideri aggiungere all’elenco Consentiti per la connessione ai server SFTP."
 
-Per aggiungere un intervallo IP al elenco consentiti , procedere come segue:
+Per aggiungere un intervallo IP all’elenco Consentiti, esegui questi passaggi:
 
 1. Apri la scheda **[!UICONTROL SFTP]**, quindi seleziona la scheda **[!UICONTROL IP Allow Listing]**.
-1. L&#39;elenco degli indirizzi IP nel elenco consentiti  viene visualizzato per ogni istanza. Seleziona l’istanza desiderata dall’elenco a sinistra, quindi fai clic sul pulsante **[!UICONTROL Add new IP range]**.
+1. L’elenco degli indirizzi IP inseriti nell’elenco Consentiti viene visualizzato per ogni istanza. Seleziona l’istanza desiderata dall’elenco a sinistra, quindi fai clic sul pulsante **[!UICONTROL Add new IP range]**.
 
    ![](assets/control_panel_add_range.png)
 
-1. Definite l&#39;intervallo IP che desiderate aggiungere al elenco consentiti , in formato CIDR, quindi definite l&#39;etichetta che verrà visualizzata nell&#39;elenco.
+1. Definisci l’intervallo IP da inserire nell’elenco Consentiti, in formato CIDR, quindi definisci l’etichetta che verrà visualizzata nell’elenco.
 
    >[!NOTE]
    >
@@ -62,25 +64,25 @@ Per aggiungere un intervallo IP al elenco consentiti , procedere come segue:
 
    >[!IMPORTANT]
    >
-   >Un intervallo IP non può sovrapporsi a un intervallo esistente sul elenco consentiti . In tal caso, elimina prima l’intervallo che contiene l’IP sovrapposto.
+   >Un intervallo IP non può sovrapporsi a un intervallo esistente nell’elenco Consentiti. In tal caso, elimina prima l’intervallo che contiene l’IP sovrapposto.
    >
-   >È possibile aggiungere un intervallo nel elenco consentiti  per più istanze. A questo scopo, premi il tasto freccia giù o digita le prime lettere dell’istanza desiderata, quindi selezionala dall’elenco dei suggerimenti.
+   >È possibile aggiungere un intervallo all’elenco Consentiti per più istanze. A questo scopo, premi il tasto freccia giù o digita le prime lettere dell’istanza desiderata, quindi selezionala dall’elenco dei suggerimenti.
 
    ![](assets/control_panel_add_range3.png)
 
-1. Fai clic sul pulsante **[!UICONTROL Save]**. L&#39;aggiunta IP al elenco consentiti  viene visualizzata come IN SOSPESO fino a quando la richiesta non viene completamente elaborata. Questo dovrebbe richiedere solo qualche secondo.
+1. Fai clic sul pulsante **[!UICONTROL Save]**. L’aggiunta dell’IP all’elenco Consentiti viene visualizzata come PENDING (IN SOSPESO) fino a quando la richiesta non viene completamente elaborata. Questo dovrebbe richiedere solo qualche secondo.
 
-Per eliminare gli intervalli IP dal elenco consentiti , selezionateli e fate clic sul **[!UICONTROL Delete IP range]** pulsante .
+Per eliminare gli intervalli IP dall’elenco Consentiti, selezionali e fai clic sul pulsante **[!UICONTROL Delete IP range]**.
 
 ![](assets/control_panel_delete_range2.png)
 
 >[!NOTE]
 >
->Al momento non è possibile modificare un intervallo nel elenco consentiti . Per modificare un intervallo IP, eliminalo, quindi creane uno corrispondente alle tue esigenze.
+>Al momento non è possibile modificare un intervallo nell’elenco Consentiti. Per modificare un intervallo IP, eliminalo, quindi creane uno corrispondente alle tue esigenze.
 
 ## Monitoraggio delle modifiche {#monitoring-changes}
 
-The **[!UICONTROL Job Logs]** in the Control Panel home page let you monitor all changes that have been made to IP addresses on the allow list.
+La sezione **[!UICONTROL Job Logs]** nella home page del Pannello di controllo Campaign consente di monitorare tutte le modifiche apportate agli indirizzi IP inseriti nell’elenco Consentiti.
 
 Per ulteriori informazioni sull’interfaccia del Pannello di controllo Campaign, consulta [questa sezione](../../discover/using/discovering-the-interface.md).
 
