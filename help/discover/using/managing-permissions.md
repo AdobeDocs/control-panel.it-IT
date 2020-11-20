@@ -1,8 +1,10 @@
 ---
-title: Gestione delle autorizzazioni al Pannello di controllo
-description: Scopri come gestire le autorizzazioni per il Pannello di controllo
+product: campaign
+solution: Campaign
+title: Gestione delle autorizzazioni al Pannello di controllo Campaign
+description: Scopri come gestire le autorizzazioni per il Pannello di controllo Campaign
 translation-type: tm+mt
-source-git-commit: aae2007169cc2abc003b3ef6b72e32570ffacba5
+source-git-commit: 168ae32d7931497bb37d63f7dd1d14eadbb4b1bf
 workflow-type: tm+mt
 source-wordcount: '262'
 ht-degree: 0%
@@ -10,11 +12,11 @@ ht-degree: 0%
 ---
 
 
-# Gestione delle autorizzazioni al Pannello di controllo {#managing-permissions-control-panel}
+# Managing permsissions to Control Panel {#managing-permissions-control-panel}
 
-Il Pannello di controllo è disponibile per tutti gli utenti Admin di un&#39;istanza Campaign. Attenetevi alla procedura seguente per assegnare gli utenti al gruppo Amministratori e concedere loro l’accesso al Pannello di controllo.
+L&#39;Pannello di controllo Campaign è disponibile per tutti gli utenti Admin di un&#39;istanza Campaign. Seguite i passaggi riportati di seguito per assegnare gli utenti al gruppo Amministratori e concedere loro l’accesso al Pannello di controllo Campaign.
 
-1. Passa ad [Adobe Experience Cloud](https://experiencecloud.adobe.com/), quindi seleziona la **[!UICONTROL Administration]** scheda.
+1. Andate su [Adobe Experience Cloud](https://experiencecloud.adobe.com/), quindi selezionate la **[!UICONTROL Administration]** scheda.
 
    ![](assets/do-not-localize/control_panel_add_user1.png)
 
@@ -22,7 +24,7 @@ Il Pannello di controllo è disponibile per tutti gli utenti Admin di un&#39;ist
    >
    >Se la scheda <b>Amministrazione</b> non è visibile, significa che non disponete dei diritti di amministratore per la vostra organizzazione. Contattate gli amministratori dell&#39;organizzazione per eseguire i passaggi necessari.
 
-1. Avvia **Admin Console** facendo clic sui collegamenti disponibili.
+1. Avviate l’Admin Console **** facendo clic sui collegamenti disponibili.
 
    ![](assets/do-not-localize/control_panel_admin1.png)
 
@@ -40,7 +42,7 @@ Il Pannello di controllo è disponibile per tutti gli utenti Admin di un&#39;ist
 
    >[!NOTE]
    >
-   >Puoi aggiungere diversi utenti Admin per ogni istanza di Campaign. In tal caso, gli utenti Admin accederanno al Pannello di controllo dell&#39;istanza a cui appartengono solo.
+   >Puoi aggiungere diversi utenti Admin per ogni istanza di Campaign. In tal caso, gli utenti Admin accederanno al Pannello di controllo Campaign dell&#39;istanza a cui appartengono solo.
 
 1. Viene visualizzato l&#39;elenco Profili prodotto per l&#39;istanza selezionata. Fai clic sul profilo di **[!UICONTROL Administrators]** prodotto per accedere all&#39;elenco degli utenti Admin.
 
