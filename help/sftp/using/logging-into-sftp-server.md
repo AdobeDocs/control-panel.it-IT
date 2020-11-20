@@ -1,8 +1,10 @@
 ---
+product: campaign
+solution: Campaign
 title: Accesso al server SFTP
 description: Scopri come accedere al server SFTP
 translation-type: tm+mt
-source-git-commit: f6d75de9c3d92e4f5d0b3d254f103db0901ab20a
+source-git-commit: 168ae32d7931497bb37d63f7dd1d14eadbb4b1bf
 workflow-type: tm+mt
 source-wordcount: '343'
 ht-degree: 5%
@@ -16,7 +18,7 @@ Nei passaggi seguenti viene descritto come collegare il server SFTP tramite l&#3
 
 Prima di accedere al server, accertatevi che:
 
-* Il server SFTP è **ospitato da Adobe**.
+* Il server SFTP è **ospitato da  Adobe**.
 * Il tuo **nome utente** è stato configurato per il server. You can check this information directly in the Control Panel, in the **Key management** tab from the SFTP Card.
 * Hai una coppia **di chiavi pubblica e** privata per accedere al server SFTP. Per ulteriori informazioni su come aggiungere la chiave SSH, fare riferimento a [questa sezione](../../sftp/using/key-management.md) .
 * Il tuo indirizzo IP **pubblico è stato aggiunto al elenco consentiti**  sul server SFTP. In caso contrario, consulta [questa sezione](../../sftp/using/ip-range-allow-listing.md) per ulteriori informazioni su come aggiungere l’intervallo IP al elenco consentiti .
@@ -28,7 +30,7 @@ Per connettersi al server SFTP, attenetevi alla procedura seguente:
 
    ![](assets/sftp_card.png)
 
-1. Avviate l&#39;applicazione client SFTP, quindi copiate e incollate l&#39;indirizzo del server dal Pannello di controllo, seguito da &quot;campaign.adobe.com&quot;, quindi inserite il vostro nome utente.
+1. Avviate l&#39;applicazione client SFTP, quindi copiate e incollate l&#39;indirizzo del server dal Pannello di controllo Campaign, seguito da &quot;campaign.adobe.com&quot;, quindi inserite il vostro nome utente.
 
    ![](assets/do-not-localize/connect1.png)
 
@@ -40,7 +42,7 @@ Per connettersi al server SFTP, attenetevi alla procedura seguente:
 
    ![](assets/do-not-localize/connect3.png)
 
-   È possibile verificare che la chiave che si sta tentando di utilizzare sia salvata nel Pannello di controllo confrontando l&#39;impronta digitale della chiave privata o pubblica con l&#39;impronta digitale delle chiavi visualizzate nella scheda Gestione chiavi della scheda SFTP.
+   È possibile verificare che la chiave che si sta tentando di utilizzare sia salvata nel Pannello di controllo Campaign confrontando l&#39;impronta digitale della chiave privata o pubblica con l&#39;impronta digitale delle chiavi visualizzate nella scheda Gestione chiavi della scheda SFTP.
 
    ![](assets/fingerprint_compare.png)
 
