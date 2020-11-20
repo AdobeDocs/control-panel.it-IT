@@ -1,68 +1,70 @@
 ---
-title: Elenco di indirizzi IP consentiti
-description: Scoprite come aggiungere indirizzi IP al elenco consentiti  nel Pannello di controllo, ad esempio l'accesso
+product: campaign
+solution: Campaign
+title: Inserimento di IP nell’elenco Consentiti
+description: Scopri come aggiungere indirizzi IP all’elenco Consentiti nel Pannello di controllo Campaign per accedere alle istanze
 translation-type: tm+mt
-source-git-commit: 35723590195ef54df42d1d1df5b37490787f8836
+source-git-commit: 168ae32d7931497bb37d63f7dd1d14eadbb4b1bf
 workflow-type: tm+mt
 source-wordcount: '765'
-ht-degree: 45%
+ht-degree: 96%
 
 ---
 
 
-# Elenco di indirizzi IP consentiti {#ip-allow-listing}
+# Inserimento di IP nell’elenco Consentiti {#ip-allow-listing}
 
 >[!CONTEXTUALHELP]
 >id="cp_instancesettings_iprange"
->title="Informazioni sull&#39;impostazione di autorizzazione IP"
->abstract="Aggiungete indirizzi IP al elenco consentiti  per accedere alle vostre istanze."
+>title="Informazioni sull’inserimento di IP nell’elenco Consentiti"
+>abstract="Aggiungi indirizzi IP all’elenco Consentiti per accedere alle istanze."
 >additional-url="https://images-tv.adobe.com/mpcv3/045cac99-f948-478e-ae04-f8c161dcb9e2_1568132508.1920x1080at3000_h264.mp4" text="Guarda il video dimostrativo"
 
 >[!IMPORTANT]
 >
 >Questa funzione è disponibile solo per le istanze di Campaign Classic.
 
-## Informazioni sull&#39;impostazione di autorizzazione IP {#about-ip-allow-listing}
+## Informazioni sull’inserimento di IP nell’elenco Consentiti {#about-ip-allow-listing}
 
 Per impostazione predefinita, l’istanza di Adobe Campaign Classic non è accessibile da vari indirizzi IP.
 
-Se l&#39;indirizzo IP non è stato aggiunto al elenco consentiti , non potrete accedere all&#39;istanza da questo indirizzo. Allo stesso modo, potrebbe non essere possibile collegare un&#39;API al Centro messaggi o all&#39;istanza Marketing se l&#39;indirizzo IP non è stato aggiunto in modo esplicito al elenco consentiti  con l&#39;istanza.
+Se il tuo indirizzo IP non è stato inserito nell’elenco Consentiti non potrai accedere all’istanza da tale indirizzo. Allo stesso modo, potresti non riuscire a collegare un’API al Message Center (Centro messaggi) o all’istanza Marketing se l’indirizzo IP non è stato inserito nell’elenco Consentiti insieme all’istanza in modo esplicito.
 
-Il Pannello di controllo consente di impostare nuove connessioni alle istanze aggiungendo intervalli di indirizzi IP al elenco consentiti . Per farlo, attieniti alla procedura descritta di seguito.
+Il Pannello di controllo Campaign ti consente di impostare nuove connessioni alle istanze tramite l’inserimento di intervalli IP nell’elenco Consentiti. Per farlo, attieniti alla procedura descritta di seguito.
 
-Una volta che gli indirizzi IP si trovano nel elenco consentiti , potete creare e collegare gli operatori Campaign per consentire agli utenti di accedere all&#39;istanza.
+Una volta inseriti gli indirizzi IP nell’elenco Consentiti, puoi creare e collegare ad essi gli operatori Campaign per consentire agli utenti di accedere all’istanza.
 
 ## Best practice {#best-practices}
 
-Quando aggiungete indirizzi IP al elenco consentiti  nel Pannello di controllo, accertatevi di rispettare le raccomandazioni e i limiti indicati di seguito.
+Accertati di seguire le raccomandazioni e le limitazioni riportate di seguito quando inserisci gli indirizzi IP nell’elenco Consentiti dal Pannello di controllo Campaign.
 
 * **Non abilitare l’accesso IP per tutti i tipi di accesso** se non vuoi che l’indirizzo IP si connetta ai tuoi server RT o all’area di sicurezza AEM.
-* **Se avete temporaneamente attivato l&#39;accesso all&#39;istanza per un indirizzo** IP, accertatevi di rimuovere gli indirizzi IP dal elenco consentiti  una volta che non è più necessario connettersi all&#39;istanza.
-* **Non si consiglia di aggiungere indirizzi IP di luoghi pubblici al elenco consentiti**  (aeroporti, alberghi, ecc.). Utilizza l’indirizzo VPN dell’azienda per proteggere sempre la tua istanza.
+* **Se hai temporaneamente attivato l’accesso all’istanza per un indirizzo IP**, assicurati di rimuoverlo dall’elenco Consentiti una volta che non è più necessario per connettersi all’istanza.
+* **Si sconsiglia di aggiungere all’elenco Consentiti gli indirizzi IP di luoghi pubblici** (aeroporti, alberghi, ecc.). Utilizza l’indirizzo VPN dell’azienda per proteggere sempre la tua istanza.
 
-## Aggiunta di indirizzi IP al elenco consentiti  per l&#39;accesso a Instance {#adding-ip-addresses-allow-list}
+## Aggiungere indirizzi IP all’elenco Consentiti per accedere alle istanze {#adding-ip-addresses-allow-list}
 
 >[!CONTEXTUALHELP]
 >id="cp_instancesettings_iprange_add"
 >title="Aggiungere un nuovo intervallo IP"
->abstract="Definite l&#39;intervallo IP che desiderate aggiungere al elenco consentiti  per collegarvi all&#39;istanza."
+>abstract="Definisci l’intervallo IP da aggiungere all’elenco Consentiti per collegarti all’istanza."
 
-Per aggiungere indirizzi IP al elenco consentiti , procedere come segue:
+Per aggiungere indirizzi IP all’elenco Consentiti, esegui i seguenti passaggi:
 
-1. Open the **[!UICONTROL Instances Settings card]** to access the IP allow listing tab, then click **[!UICONTROL Add new IP Range]**.
+1. Apri **[!UICONTROL Instances Settings card]** per accedere alla scheda dell’inserimento di IP nell’elenco Consentiti, quindi fai clic su **[!UICONTROL Add new IP Range]**.
 
    >[!NOTE]
    >
-   >Se la scheda Instance Settings (Impostazioni istanza) non è visibile nella home page del Pannello di controllo, significa che l&#39;ID organizzazione IMS non è associato ad alcuna istanza  Adobe Campaign Classic
+   >Se la scheda Instance Settings (Impostazioni istanza) non è visibile nella home page del Pannello di controllo Campaign, significa che il tuo IMS Organization ID non è associato ad alcuna istanza Adobe Campaign Classic
 
    ![](assets/ip_whitelist_list1.png)
 
-1. Compilate le informazioni per l&#39;intervallo IP che desiderate aggiungere al elenco consentiti  come descritto di seguito.
+1. Immetti le informazioni dell’intervallo IP da inserire nell’elenco Consentiti come descritto di seguito.
 
    ![](assets/ip_whitelist_add1.png)
 
-   * **[!UICONTROL Instance(s)]**: le istanze a cui gli indirizzi IP saranno in grado di connettersi. È possibile operare su più istanze contemporaneamente. Ad esempio, l&#39;opzione IP consente l&#39;elencazione sia nelle istanze Produzione che Stage attraverso lo stesso passaggio.
-   * **[!UICONTROL IP Range]**: L&#39;intervallo IP che si desidera aggiungere al elenco consentiti , in formato CIDR. Un intervallo IP non può sovrapporsi a un intervallo esistente sul elenco consentiti . In tal caso, elimina prima l’intervallo che contiene l’IP sovrapposto.
+   * **[!UICONTROL Instance(s)]**: le istanze a cui gli indirizzi IP saranno in grado di connettersi. È possibile operare su più istanze contemporaneamente. Ad esempio, l’inserimento di IP nell’elenco Consentiti può essere eseguito sia sulle istanze Production che Stage nello stesso passaggio.
+   * **[!UICONTROL IP Range]**: l’intervallo IP che desideri aggiungere all’elenco Consentiti, in formato CIDR. Ricorda che un intervallo IP non può sovrapporsi a un intervallo esistente nell’elenco Consentiti. In tal caso, elimina prima l’intervallo che contiene l’IP sovrapposto.
 
    >[!NOTE]
    >
@@ -70,7 +72,7 @@ Per aggiungere indirizzi IP al elenco consentiti , procedere come segue:
    >
    >Puoi cercare su Internet strumenti online gratuiti che ti aiuteranno a convertire gli intervalli IP che hai a disposizione in formato CIDR.
 
-   * **[!UICONTROL Label]**: Etichetta che verrà visualizzata nel elenco consentiti .
+   * **[!UICONTROL Label]**: l’etichetta che verrà visualizzata nell’elenco Consentiti.
    * **[!UICONTROL Name]**: il nome deve essere univoco per Access Type (Tipo di accesso), Instance (Istanza) (in caso di connessione API esterna) e per l’indirizzo IP.
 
 
@@ -82,12 +84,12 @@ Per aggiungere indirizzi IP al elenco consentiti , procedere come segue:
 
    ![](assets/ip_whitelist_acesstype.png)
 
-1. Fai clic sul pulsante **[!UICONTROL Save]**. L&#39;intervallo IP viene aggiunto al elenco consentiti .
+1. Fai clic sul pulsante **[!UICONTROL Save]**. L’intervallo IP viene aggiunto all’elenco Consentiti.
 
    ![](assets/ip_whitelist_added.png)
 
-Per eliminare gli intervalli IP dal elenco consentiti , selezionateli e fate clic sul **[!UICONTROL Delete IP range]** pulsante .
+Per eliminare gli intervalli IP dall’elenco Consentiti, selezionali e fai clic sul pulsante **[!UICONTROL Delete IP range]**.
 
 **Argomenti correlati:**
-* [Elenco di indirizzi IP consentiti (video di esercitazione)](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/administrating/control-panel-acc/ip-allow-listing.html)
+* [Inserimento di IP nell’elenco Consentiti (video di esercitazione)](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/administrating/control-panel-acc/ip-allow-listing.html)
 * [Collegamento di un’area di sicurezza a un operatore](https://docs.adobe.com/content/help/it-IT/campaign-classic/using/installing-campaign-classic/additional-configurations/configuring-campaign-server.html#Linking_a_security_zone_to_an_operator)
