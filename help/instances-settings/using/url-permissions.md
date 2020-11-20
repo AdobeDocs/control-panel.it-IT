@@ -1,8 +1,10 @@
 ---
+product: campaign
+solution: Campaign
 title: Autorizzazioni URL
 description: Scopri come gestire le autorizzazioni URL nel Pannello di controllo Campaign
 translation-type: tm+mt
-source-git-commit: 35723590195ef54df42d1d1df5b37490787f8836
+source-git-commit: 168ae32d7931497bb37d63f7dd1d14eadbb4b1bf
 workflow-type: tm+mt
 source-wordcount: '608'
 ht-degree: 95%
@@ -55,7 +57,7 @@ Per aggiungere un URL a cui l’istanza può connettersi, effettua le seguenti o
 
    >[!NOTE]
    >
-   >Se la scheda Instance Settings (Impostazioni istanza) non è visibile nella home page del Pannello di controllo Campaign, significa che il tuo ID organizzazione IMS non è associato ad alcuna istanza  Adobe Campaign Classic
+   >Se la scheda Instance Settings (Impostazioni istanza) non è visibile nella home page del Pannello di controllo Campaign, significa che il tuo IMS Organization ID non è associato ad alcuna istanza Adobe Campaign Classic
    >
    >La scheda <b><span class="uicontrol">URL permissions (Autorizzazioni URL)</span></b> elenca tutti gli URL esterni a cui l’istanza può connettersi. Questo elenco non include gli URL necessari per il funzionamento di Campaign (ad esempio, le connessioni tra parti dell’infrastruttura).
 
