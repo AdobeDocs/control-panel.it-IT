@@ -4,10 +4,10 @@ solution: Campaign
 title: Gestione chiavi GPG
 description: Scoprite come gestire le chiavi GPG per cifrare e decifrare i dati in  Adobe Campaign.
 translation-type: tm+mt
-source-git-commit: 168ae32d7931497bb37d63f7dd1d14eadbb4b1bf
+source-git-commit: 317b4c1cee34667a36f5e1a1197649bfd69c151a
 workflow-type: tm+mt
-source-wordcount: '1112'
-ht-degree: 9%
+source-wordcount: '1221'
+ht-degree: 8%
 
 ---
 
@@ -20,6 +20,8 @@ La crittografia GPG consente di proteggere i dati utilizzando un sistema di copp
 
 Una volta implementati, è possibile che i dati in entrata siano decrittografati e quelli in uscita crittografati prima del trasferimento, per garantire che non siano accessibili a nessuno senza una coppia di chiavi corrispondente valida.
 
+![](assets/do-not-localize/how-to-video.png) Scoprite questa funzione nel video con [Campaign Classic](https://docs.adobe.com/content/help/it-IT/campaign-classic-learn/tutorials/administrating/control-panel-acc/gpg-key-management/gpg-key-management-overview.html) o [Campaign Standard](https://docs.adobe.com/content/help/it-IT/campaign-standard-learn/tutorials/administrating/control-panel/gpg-key-management/gpg-key-management-overview.html)
+
 Per implementare la crittografia GPG con Campaign, un utente amministratore deve installare e/o generare le chiavi GPG in un’istanza di marketing direttamente dal Pannello di controllo Campaign.
 
 Potrete quindi:
@@ -28,16 +30,13 @@ Potrete quindi:
 
 * **Decrittografa dati** in arrivo:  Adobe Campaign riceve i dati crittografati da un sistema esterno utilizzando una chiave pubblica scaricata dal Pannello di controllo Campaign.  Adobe Campaign decrittografa i dati utilizzando una chiave privata generata dal Pannello di controllo Campaign.
 
-**Argomenti correlati:**
-
-* [Video tutorial per Campaign Standard](https://docs.adobe.com/content/help/it-IT/campaign-standard-learn/tutorials/administrating/control-panel/gpg-key-management/gpg-key-management-overview.html)
-* [Video tutorial per Campaign Classic](https://docs.adobe.com/content/help/it-IT/campaign-classic-learn/tutorials/administrating/control-panel-acc/gpg-key-management/gpg-key-management-overview.html)
-
 ## Cifratura dei dati {#encrypting-data}
 
 Il Pannello di controllo Campaign consente di crittografare i dati provenienti dall’istanza Adobe Campaign.
 
-A tal fine, è necessario generare una coppia di chiavi GPG da uno strumento di crittografia PGP, quindi installare la chiave pubblica nel Pannello di controllo Campaign. Sarà quindi possibile crittografare i dati prima di inviarli dall&#39;istanza. Per farlo, esegui questi passaggi:
+A tal fine, è necessario generare una coppia di chiavi GPG da uno strumento di crittografia PGP, quindi installare la chiave pubblica nel Pannello di controllo Campaign. Sarà quindi possibile crittografare i dati prima di inviarli dall&#39;istanza. Per farlo, segui la procedura indicata di seguito.
+
+![](assets/do-not-localize/how-to-video.png) Scoprite come generare e installare chiavi GPG in video usando [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/instance-settings/gpg-key-management/generating-and-installing-gpg-keys-for-data-encryption.html?lang=en#instance-settings) o [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/instance-settings/gpg-key-management/generating-and-installing-gpg-keys-for-data-encryption.html?lang=en#instance-settings)
 
 1. Generare una coppia di chiavi pubblica/privata utilizzando uno strumento di crittografia PGP che segue la specifica [](https://www.openpgp.org/about/standard/)OpenPGP. A tal fine, installare un&#39;utility GPG o un software GNuGP.
 
@@ -86,7 +85,7 @@ Una volta installata la chiave pubblica, questa viene visualizzata nell&#39;elen
 
 La chiave è quindi disponibile per l&#39;uso  flussi di lavoro Adobe Campaign. È possibile utilizzarlo per cifrare i dati quando si utilizzano le attività di estrazione dei dati.
 
-Per ulteriori informazioni, consulta  documentazione Adobe Campaign:
+Per ulteriori informazioni su questo argomento, consulta  documentazione Adobe Campaign:
 
 **Campaign Classic:**
 
@@ -98,6 +97,8 @@ Per ulteriori informazioni, consulta  documentazione Adobe Campaign:
 * [Gestione dei dati crittografati](https://docs.adobe.com/content/help/en/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html)
 * [Caso di utilizzo: Cifratura ed esportazione di dati tramite una chiave installata sul Pannello di controllo Campaign](https://docs.adobe.com/content/help/en/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html#use-case-gpg-encrypt)
 
+![](assets/do-not-localize/how-to-video.png) Come cifrare i dati in un video utilizzando [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/instance-settings/gpg-key-management/using-a-gpg-key-to-encrypt-data.html?lang=en#instance-settings) o [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/instance-settings/gpg-key-management/using-a-gpg-key-to-encrypt-data.html?lang=en#instance-settings)
+
 ## Decrittografia dei dati {#decrypting-data}
 
 Pannello di controllo Campaign consente di decrittografare dati esterni nelle istanze Adobe Campaign .
@@ -106,6 +107,8 @@ A tal fine, è necessario generare una coppia di chiavi GPG direttamente dal Pan
 
 * La chiave **** pubblica verrà condivisa con il sistema esterno, che la utilizzerà per crittografare i dati da inviare a Campaign.
 * La chiave **** privata verrà utilizzata da Campaign per decifrare i dati crittografati in arrivo.
+
+![](assets/do-not-localize/how-to-video.png) Scoprite questa funzione nel video con [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/instance-settings/gpg-key-management/decrypting-data.html?lang=en#decrypting-data) o [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/instance-settings/gpg-key-management/decrypting-data.html?lang=en#instance-settings)
 
 Per generare una coppia di chiavi nel Pannello di controllo Campaign, effettuate le seguenti operazioni:
 
