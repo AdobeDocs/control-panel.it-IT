@@ -4,10 +4,10 @@ solution: Campaign
 title: Accesso al server SFTP
 description: Scopri come accedere al server SFTP
 translation-type: tm+mt
-source-git-commit: 168ae32d7931497bb37d63f7dd1d14eadbb4b1bf
+source-git-commit: 317b4c1cee34667a36f5e1a1197649bfd69c151a
 workflow-type: tm+mt
-source-wordcount: '343'
-ht-degree: 5%
+source-wordcount: '374'
+ht-degree: 4%
 
 ---
 
@@ -15,6 +15,8 @@ ht-degree: 5%
 # Accesso al server SFTP {#logging-into-sft-server}
 
 Nei passaggi seguenti viene descritto come collegare il server SFTP tramite l&#39;applicazione client SFTP.
+
+![](assets/do-not-localize/how-to-video.png) Scoprite questa funzione nel video con [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/sftp-management/connect-to-sftp-server.html?lang=en#sftp-management) o [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/sftp-management/connect-to-sftp-server.html?lang=en#sftp-management)
 
 Prima di accedere al server, accertatevi che:
 
