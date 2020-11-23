@@ -4,9 +4,9 @@ solution: Campaign
 title: Monitoraggio del database
 description: Scopri come monitorare il database Campaign nel Pannello di controllo Campaign
 translation-type: tm+mt
-source-git-commit: 168ae32d7931497bb37d63f7dd1d14eadbb4b1bf
+source-git-commit: 2d84a5ebe8dbf42264c94f882a51180aae2a58a6
 workflow-type: tm+mt
-source-wordcount: '905'
+source-wordcount: '936'
 ht-degree: 0%
 
 ---
@@ -29,6 +29,8 @@ Un overflow di un database di istanza può causare diversi problemi (impossibili
 >Se la quantità di spazio del database fornito come indicato nel Pannello di controllo Campaign non riflette la quantità specificata nel contratto, rivolgiti all&#39;Assistenza clienti.
 
 ## Monitoraggio dell&#39;utilizzo del database {#monitoring-instances-database}
+
+![](assets/do-not-localize/how-to-video.png) Scoprite questa funzione nel video con [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/performance-monitoring/monitoring-databases.html?lang=en#performance-monitoring) o [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/performance-monitoring/monitoring-databases.html?lang=en#performance-monitoring)
 
 Il Pannello di controllo Campaign consente di monitorare l&#39;utilizzo del database per ciascuna istanza di Campaign. A questo scopo, aprite la **[!UICONTROL Performance Monitoring]** scheda, quindi selezionate la **[!UICONTROL Databases]** scheda.
 
