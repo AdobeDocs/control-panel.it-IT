@@ -4,7 +4,7 @@ solution: Campaign
 title: Autorizzazioni URL
 description: Scopri come gestire le autorizzazioni URL nel Pannello di controllo Campaign
 translation-type: tm+mt
-source-git-commit: 317b4c1cee34667a36f5e1a1197649bfd69c151a
+source-git-commit: 2d84a5ebe8dbf42264c94f882a51180aae2a58a6
 workflow-type: tm+mt
 source-wordcount: '608'
 ht-degree: 93%
@@ -20,11 +20,11 @@ ht-degree: 93%
 >abstract="Gestisci gli URL a cui le istanze di Adobe Campaign possono connettersi."
 >additional-url="https://images-tv.adobe.com/mpcv3/91206a19-d9af-4b6a-8197-0d2810a78941_1563488165.1920x1080at3000_h264.mp4" text="Guarda il video dimostrativo"
 
+## Informazioni sulle autorizzazioni URL {#about-url-permissions}
+
 >[!IMPORTANT]
 >
 >Questa funzione è disponibile solo per le istanze Campaign Classic, a partire dalla build 8850. Se utilizzi una build precedente, dovrai eseguire l’aggiornamento per utilizzare questa funzione.
-
-## Informazioni sulle autorizzazioni URL {#about-url-permissions}
 
 L’elenco predefinito di URL che possono essere richiamati tramite codici JavaScript (flussi di lavoro, ecc.) dalle istanze Campaign Classic è limitato. Si tratta di URL che consentono il corretto funzionamento delle istanze.
 
