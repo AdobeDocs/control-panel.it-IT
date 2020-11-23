@@ -4,7 +4,7 @@ solution: Campaign
 title: Branding dei sottodomini
 description: Ulteriori informazioni sul branding dei sottodomini
 translation-type: tm+mt
-source-git-commit: 317b4c1cee34667a36f5e1a1197649bfd69c151a
+source-git-commit: 2d84a5ebe8dbf42264c94f882a51180aae2a58a6
 workflow-type: tm+mt
 source-wordcount: '694'
 ht-degree: 79%
@@ -20,11 +20,11 @@ ht-degree: 79%
 >abstract="Monitora i sottodomini e i certificati SSL associati."
 >additional-url="https://docs.adobe.com/content/help/it-IT/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html" text="Come monitorare i certificati SSL dei sottodomini"
 
+## Perché impostare i sottodomini? {#why-setting-up-subdomains}
+
 >[!IMPORTANT]
 >
 >La configurazione del sottodominio del Pannello di controllo Campaign è disponibile in versione beta e soggetta a frequenti aggiornamenti e modifiche senza preavviso.
-
-## Perché impostare i sottodomini? {#why-setting-up-subdomains}
 
 Un sottodominio è una divisione del dominio che può essere utilizzata per isolare i brand o vari tipi di traffico (messaggi transazionali, informazioni di marketing, ecc.).
 
