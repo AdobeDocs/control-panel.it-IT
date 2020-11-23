@@ -4,10 +4,10 @@ solution: Campaign
 title: Informazioni sul monitoraggio delle prestazioni
 description: Scoprite come monitorare le prestazioni delle istanze nel Pannello di controllo Campaign
 translation-type: tm+mt
-source-git-commit: 317b4c1cee34667a36f5e1a1197649bfd69c151a
+source-git-commit: 2d84a5ebe8dbf42264c94f882a51180aae2a58a6
 workflow-type: tm+mt
-source-wordcount: '143'
-ht-degree: 11%
+source-wordcount: '112'
+ht-degree: 14%
 
 ---
 
@@ -26,4 +26,3 @@ La **[!UICONTROL Performance monitoring]** scheda nella home page del Pannello d
 
 Inoltre, il Pannello di controllo Campaign consente di registrarsi per ricevere notifiche e-mail ogni volta che viene rilevato un problema in una delle istanze della campagna. Per ulteriori informazioni al riguardo, consulta [questa sezione](../../performance-monitoring/using/email-alerting.md).
 
-![](assets/do-not-localize/how-to-video.png) Scoprite questa funzione nel video con [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/performance-monitoring/monitoring-databases.html?lang=en#performance-monitoring) o [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/performance-monitoring/monitoring-databases.html?lang=en#performance-monitoring)
