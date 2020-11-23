@@ -4,10 +4,10 @@ solution: Campaign
 title: Monitoraggio dei certificati SSL dei sottodomini
 description: Scopri come monitorare i certificati SSL dei sottodomini
 translation-type: tm+mt
-source-git-commit: 168ae32d7931497bb37d63f7dd1d14eadbb4b1bf
+source-git-commit: 317b4c1cee34667a36f5e1a1197649bfd69c151a
 workflow-type: tm+mt
-source-wordcount: '404'
-ht-degree: 93%
+source-wordcount: '389'
+ht-degree: 92%
 
 ---
 
@@ -59,6 +59,5 @@ Se uno dei certificati SSL del sottodominio sta per scadere, puoi rinnovarlo dir
 
 **Argomenti correlati:**
 
-* [Aggiunta di certificati SSL (video tutorial)](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/control-panel/adding-ssl-certificates.html)
 * [Rinnovo del certificato SSL di un sottodominio](../../subdomains-certificates/using/renewing-subdomain-certificate.md)
 * [Branding dei sottodomini](../../subdomains-certificates/using/subdomains-branding.md)
