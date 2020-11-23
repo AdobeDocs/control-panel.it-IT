@@ -4,10 +4,10 @@ solution: Campaign
 title: Gestione delle chiavi
 description: Scopri come gestire le chiavi per la connessione ai server SFTP
 translation-type: tm+mt
-source-git-commit: 168ae32d7931497bb37d63f7dd1d14eadbb4b1bf
+source-git-commit: 317b4c1cee34667a36f5e1a1197649bfd69c151a
 workflow-type: tm+mt
-source-wordcount: '601'
-ht-degree: 100%
+source-wordcount: '632'
+ht-degree: 95%
 
 ---
 
@@ -29,6 +29,8 @@ Una volta configurato l’accesso al server, ricorda di **inserire nell’elenco
 >[!NOTE]
 >
 >Attualmente non è possibile eliminare una chiave pubblica SSH.
+
+![](assets/do-not-localize/how-to-video.png) Scoprite questa funzione nel video con [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/sftp-management/generate-ssh-key.html?lang=en#sftp-management) o [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/sftp-management/generate-ssh-key.html?lang=en#sftp-management)
 
 ## Best practice {#best-practices}
 
