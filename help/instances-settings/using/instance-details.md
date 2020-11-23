@@ -4,7 +4,7 @@ solution: Campaign
 title: Instance details (Dettagli istanza)
 description: Scopri come monitorare i dettagli dell’istanza nel Pannello di controllo Campaign
 translation-type: tm+mt
-source-git-commit: 168ae32d7931497bb37d63f7dd1d14eadbb4b1bf
+source-git-commit: 2d84a5ebe8dbf42264c94f882a51180aae2a58a6
 workflow-type: tm+mt
 source-wordcount: '554'
 ht-degree: 94%
@@ -21,11 +21,11 @@ ht-degree: 94%
 >additional-url="https://docs.adobe.com/content/help/it-IT/campaign-classic/using/release-notes/latest-release.html" text="Note sulla versione di Campaign Classic"
 >additional-url="https://docs.adobe.com/content/help/it-IT/campaign-standard/using/release-notes/release-notes.html" text="Note sulla versione di Campaign Standard"
 
+## Informazioni su Instance details (Dettagli istanza) {#about-instance-details}
+
 >[!IMPORTANT]
 >
 >Questa funzione è disponibile solo per le istanze di Campaign Classic.
-
-## Informazioni su Instance details (Dettagli istanza) {#about-instance-details}
 
 L’architettura dell’istanza di Adobe Campaign Classic può contenere diversi server per consentire la flessibilità delle attività di marketing. Ad esempio, possono supportare l’istanza i server Marketing, Real Time (In tempo reale) (o Message Center [Centro messaggi]) e Mid Sourcing.
 
