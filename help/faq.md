@@ -3,9 +3,9 @@ product: campaign
 solution: Campaign
 title: Domande frequenti sul Pannello di controllo Campaign
 description: Domande comuni relative al Pannello di controllo Campaign
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 168ae32d7931497bb37d63f7dd1d14eadbb4b1bf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '629'
 ht-degree: 100%
 
