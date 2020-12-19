@@ -21,8 +21,8 @@ L&#39;accesso ai server SFTP viene effettuato utilizzando un software client SFT
 
 Il pannello di controllo consente di eseguire le azioni riportate di seguito per gestire i server SFTP:
 
-* monitorare la loro capacità **di** stoccaggio,
-* Gestisci indirizzi **IP per consentire l&#39;elencazione**: aggiungere o eliminare intervalli di indirizzi IP per uno o più server,
-* Gestire le chiavi **SSH** pubbliche per accedere ai server.
+* monitorare la loro **capacità di storage**,
+* Gestire gli indirizzi **IP per consentire l&#39;elencazione**: aggiungere o eliminare intervalli di indirizzi IP per uno o più server,
+* Gestire **chiavi SSH pubbliche** per accedere ai server.
 
 Informazioni dettagliate su ciascuna di queste azioni sono disponibili nelle sezioni seguenti.
