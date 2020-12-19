@@ -18,7 +18,7 @@ L&#39;Pannello di controllo Campaign è disponibile per tutti gli utenti Admin d
 
 ![](assets/do-not-localize/how-to-video.png)[ Scopri questa funzione nel video](#video)
 
-1. Andate su [Adobe Experience Cloud](https://experiencecloud.adobe.com/), quindi selezionate la **[!UICONTROL Administration]** scheda.
+1. Andate su [Adobe Experience Cloud](https://experiencecloud.adobe.com/), quindi selezionate la scheda **[!UICONTROL Administration]**.
 
    ![](assets/do-not-localize/control_panel_add_user1.png)
 
@@ -26,7 +26,7 @@ L&#39;Pannello di controllo Campaign è disponibile per tutti gli utenti Admin d
    >
    >Se la scheda <b>Amministrazione</b> non è visibile, significa che non disponete dei diritti di amministratore per la vostra organizzazione. Contattate gli amministratori dell&#39;organizzazione per eseguire i passaggi necessari.
 
-1. Avviate l’Admin Console **** facendo clic sui collegamenti disponibili.
+1. Avviare il Admin Console **** facendo clic sui collegamenti disponibili.
 
    ![](assets/do-not-localize/control_panel_admin1.png)
 
@@ -46,7 +46,7 @@ L&#39;Pannello di controllo Campaign è disponibile per tutti gli utenti Admin d
    >
    >Puoi aggiungere diversi utenti Admin per ogni istanza di Campaign. In tal caso, gli utenti Admin accederanno al Pannello di controllo Campaign dell&#39;istanza a cui appartengono solo.
 
-1. Viene visualizzato l&#39;elenco Profili prodotto per l&#39;istanza selezionata. Fai clic sul profilo di **[!UICONTROL Administrators]** prodotto per accedere all&#39;elenco degli utenti Admin.
+1. Viene visualizzato l&#39;elenco Profili prodotto per l&#39;istanza selezionata. Fai clic sul profilo di prodotto **[!UICONTROL Administrators]** per accedere all&#39;elenco degli utenti Admin.
 
    ![](assets/do-not-localize/control_panel_add_user_5.png)
 
@@ -54,7 +54,7 @@ L&#39;Pannello di controllo Campaign è disponibile per tutti gli utenti Admin d
    >
    >Per impostazione predefinita, gli utenti amministratore appartengono al profilo di prodotto &quot;Amministratori&quot;. In base alla configurazione aziendale, il profilo di prodotto può essere denominato in modo diverso (&quot;admin&quot;, &quot;admins&quot;, ecc.).
 
-1. Viene visualizzato l’elenco degli utenti Admin. Fate clic sul **[!UICONTROL Add User]** pulsante per aggiungere l’utente desiderato.
+1. Viene visualizzato l’elenco degli utenti Admin. Fate clic sul pulsante **[!UICONTROL Add User]** per aggiungere l&#39;utente desiderato.
 
    ![](assets/do-not-localize/control_panel_add_user_6.png)
 
