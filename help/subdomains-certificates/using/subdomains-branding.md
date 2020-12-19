@@ -50,7 +50,7 @@ La tabella seguente fornisce un riepilogo del funzionamento di questi metodi, ol
 | **Delega completa** | Crea il record del sottodominio e dello spazio dei nomi. Adobe configurerà quindi tutti i record DNS necessari per Adobe Campaign.<br/><br/>In questa configurazione, Adobe si assume la piena responsabilità della gestione del sottodominio e di tutti i record DNS. | Basso |
 | **CNAME, metodo personalizzato** | Crea il record del sottodominio e dello spazio dei nomi. Adobe fornirà quindi i record da inserire nei server DNS e configurerà i valori corrispondenti nei server DNS di Adobe Campaign.<br/><br/>In questa configurazione, tu e Adobe condividete la responsabilità di mantenere il DNS. | Alto |
 
-Additional information on domain configuration is available in [this documentation](https://helpx.adobe.com/it/campaign/kb/domain-name-delegation.html).
+Ulteriori informazioni sulla configurazione del dominio sono disponibili in [questa documentazione](https://helpx.adobe.com/it/campaign/kb/domain-name-delegation.html).
 
 In caso di domande sui metodi di configurazione del sottodominio, rivolgiti  team di recapito del Adobe o contatta l&#39;Assistenza clienti per richiedere la consulenza sulla recapito.
 
