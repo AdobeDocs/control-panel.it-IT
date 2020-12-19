@@ -16,7 +16,7 @@ ht-degree: 14%
 
 Il Pannello di controllo Campaign offre diverse funzionalità per monitorare le istanze e garantire prestazioni ottimali.
 
-La **[!UICONTROL Performance monitoring]** scheda nella home page del Pannello di controllo Campaign consente di monitorare l&#39;utilizzo delle istanze Campaign come, ad esempio, la capacità del database. Per ulteriori informazioni al riguardo, consulta [questa sezione](../../performance-monitoring/using/database-monitoring.md).
+La scheda **[!UICONTROL Performance monitoring]** nella home page del Pannello di controllo Campaign consente di monitorare l&#39;utilizzo delle istanze Campaign come, ad esempio, la capacità del database. Per ulteriori informazioni al riguardo, consulta [questa sezione](../../performance-monitoring/using/database-monitoring.md).
 
 ![](assets/performance_card.png)
 
