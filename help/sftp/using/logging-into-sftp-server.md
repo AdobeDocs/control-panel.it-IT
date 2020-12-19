@@ -21,14 +21,14 @@ Nei passaggi seguenti viene descritto come collegare il server SFTP tramite l&#3
 Prima di accedere al server, accertatevi che:
 
 * Il server SFTP è **ospitato da  Adobe**.
-* Il tuo **nome utente** è stato configurato per il server. You can check this information directly in the Control Panel, in the **Key management** tab from the SFTP Card.
-* Hai una coppia **di chiavi pubblica e** privata per accedere al server SFTP. Per ulteriori informazioni su come aggiungere la chiave SSH, fare riferimento a [questa sezione](../../sftp/using/key-management.md) .
-* Il tuo indirizzo IP **pubblico è stato aggiunto al elenco consentiti**  sul server SFTP. In caso contrario, consulta [questa sezione](../../sftp/using/ip-range-allow-listing.md) per ulteriori informazioni su come aggiungere l’intervallo IP al elenco consentiti .
-* Hai accesso a un software **client** SFTP. È possibile consultare il reparto IT per l&#39;applicazione client SFTP che si consiglia di utilizzare, o cercare uno su Internet, se ciò è consentito dalle politiche aziendali.
+* Il tuo **nome utente** è stato configurato per il server. Puoi controllare queste informazioni direttamente nel Pannello di controllo Campaign, nella scheda **Gestione chiavi** dalla scheda SFTP.
+* Hai una **coppia di chiavi pubblica e privata** per accedere al server SFTP. Per ulteriori informazioni sull&#39;aggiunta della chiave SSH, fare riferimento a [questa sezione](../../sftp/using/key-management.md).
+* Il tuo **indirizzo IP pubblico è stato aggiunto al elenco consentiti** sul server SFTP. In caso contrario, consultare [questa sezione](../../sftp/using/ip-range-allow-listing.md) per ulteriori informazioni su come aggiungere l&#39;intervallo IP al elenco consentiti .
+* Hai accesso a un **software client SFTP**. È possibile consultare il reparto IT per l&#39;applicazione client SFTP che si consiglia di utilizzare, o cercare uno su Internet, se ciò è consentito dalle politiche aziendali.
 
 Per connettersi al server SFTP, attenetevi alla procedura seguente:
 
-1. Launch the Control Panel, then select the **[!UICONTROL Key Management]** tab from the **[!UICONTROL SFTP]** card.
+1. Avviate l&#39;Pannello di controllo Campaign, quindi selezionate la scheda **[!UICONTROL Key Management]** dalla scheda **[!UICONTROL SFTP]**.
 
    ![](assets/sftp_card.png)
 
@@ -36,11 +36,11 @@ Per connettersi al server SFTP, attenetevi alla procedura seguente:
 
    ![](assets/do-not-localize/connect1.png)
 
-1. Nel **[!UICONTROL SSH Private Key]** campo selezionare il file di chiave privata memorizzato nel computer. Corrisponde a un file di testo che ha lo stesso nome della chiave pubblica, senza l&#39;estensione &quot;.pub&quot; (ad esempio, &quot;enable&quot;).
+1. Nel campo **[!UICONTROL SSH Private Key]**, selezionare il file di chiave privata memorizzato nel computer. Corrisponde a un file di testo che ha lo stesso nome della chiave pubblica, senza l&#39;estensione &quot;.pub&quot; (ad esempio, &quot;enable&quot;).
 
    ![](assets/do-not-localize/connect2.png)
 
-   Il **[!UICONTROL Password]** campo viene compilato automaticamente con la chiave privata del file.
+   Il campo **[!UICONTROL Password]** viene compilato automaticamente con la chiave privata del file.
 
    ![](assets/do-not-localize/connect3.png)
 
@@ -54,6 +54,6 @@ Per connettersi al server SFTP, attenetevi alla procedura seguente:
    >
    >`ssh-keygen -lf <path of the privatekey>`
 
-1. Una volta compilate tutte le informazioni, fate clic **[!UICONTROL Connect]** per accedere al vostro server SFTP.
+1. Una volta compilate tutte le informazioni, fate clic su **[!UICONTROL Connect]** per accedere al server SFTP.
 
    ![](assets/do-not-localize/sftpconnected.png)
