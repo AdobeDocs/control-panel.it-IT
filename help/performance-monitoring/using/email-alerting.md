@@ -18,7 +18,7 @@ Per offrire maggiore flessibilità al lavoro, il Pannello di controllo Campaign 
 
 Per effettuare la sottoscrizione a questi avvisi, procedere come segue:
 
-1. Fate clic sul **[!UICONTROL Alerting notifications]** pulsante disponibile in qualsiasi posizione del Pannello di controllo Campaign, quindi fate clic su **[!UICONTROL Subscribe]**.
+1. Fare clic sul pulsante **[!UICONTROL Alerting notifications]** disponibile da qualsiasi posizione nel Pannello di controllo Campaign, quindi fare clic su **[!UICONTROL Subscribe]**.
 
    ![](assets/subscribing.png)
 
@@ -33,9 +33,9 @@ Per effettuare la sottoscrizione a questi avvisi, procedere come segue:
 
 L&#39;elenco degli avvisi è il seguente:
 
-* **Utilizzo** dell&#39;archivio SFTP: Uno dei server SFTP ha raggiunto l&#39;80% o più della capacità. See [SFTP storage management](../../sftp/using/sftp-storage-management.md).
+* **Utilizzo** dell&#39;archivio SFTP: Uno dei server SFTP ha raggiunto l&#39;80% o più della capacità. Vedere [Gestione dell&#39;archiviazione SFTP](../../sftp/using/sftp-storage-management.md).
 
-* **Uso** del database: Uno dei database delle istanze ha raggiunto l&#39;80% o più della capacità. Vedere Monitoraggio [del](../../performance-monitoring/using/database-monitoring.md)database.
+* **Uso** del database: Uno dei database delle istanze ha raggiunto l&#39;80% o più della capacità. Vedere [Monitoraggio del database](../../performance-monitoring/using/database-monitoring.md).
 
-* **Scadenza** certificato SSL: Uno dei certificati SSL di uno dei sottodomini è scaduto o scadrà tra 60 giorni o meno. See [Monitoring subdomains&#39; SSL certificates](../../subdomains-certificates/using/monitoring-ssl-certificates.md).
+* **Scadenza** certificato SSL: Uno dei certificati SSL di uno dei sottodomini è scaduto o scadrà tra 60 giorni o meno. Vedere [Monitoraggio dei certificati SSL dei sottodomini](../../subdomains-certificates/using/monitoring-ssl-certificates.md).
 
