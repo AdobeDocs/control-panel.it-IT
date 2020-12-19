@@ -22,9 +22,9 @@ Con le prossime release di Campaign, saranno disponibili ulteriori argomenti e s
 
 ![](assets/control_panel_interface.png)
 
-## Registri processi {#job-logs}
+## Registri di processo {#job-logs}
 
-The **[!UICONTROL Job Logs]** button in the upper-right corner lets you audit all the changes that have been made by users of your organization.
+Il pulsante **[!UICONTROL Job Logs]** nell&#39;angolo superiore destro consente di controllare tutte le modifiche apportate dagli utenti dell&#39;organizzazione.
 
 ![](assets/control_panel_interface2.png)
 
@@ -34,8 +34,8 @@ Il pulsante **[!UICONTROL Open]** (Apri) consente di accedere direttamente alla 
 
 ![](assets/control_panel_logdetails.png)
 
-## Risorse di aiuto {#help-resources}
+## Risorse della Guida {#help-resources}
 
-La **[!UICONTROL Help Resources]** sezione fornisce una documentazione utile per aiutarti nell&#39;utilizzo dei prodotti Pannello di controllo Campaign e Campaign. Non esitate a esplorarle.
+La sezione **[!UICONTROL Help Resources]** fornisce una documentazione utile per aiutarti nell&#39;utilizzo dei prodotti Pannello di controllo Campaign e Campaign. Non esitate a esplorarle.
 
 ![](assets/helpresources.png)
