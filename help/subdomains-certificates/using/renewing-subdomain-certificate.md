@@ -36,7 +36,7 @@ Una volta generata la CSR, è possibile scaricarla e utilizzarla per acquistare 
 1. **Installazione del certificato SSL**
 Una volta acquistato il certificato SSL, puoi installarlo nel sottodominio desiderato.
 
-![](assets/do-not-localize/how-to-video.png) Scoprite questa funzione nel video con [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/adding-ssl-certificates.html?lang=en#subdomains-and-certificates) o [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/adding-ssl-certificates.html?lang=en#adding-ssl-certificates)
+![](assets/do-not-localize/how-to-video.png) Scopri questa funzione nel video tramite  [Campaign ](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/adding-ssl-certificates.html?lang=en#subdomains-and-certificates) Classicor  [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/adding-ssl-certificates.html?lang=en#adding-ssl-certificates)
 
 ## Generazione di una richiesta di firma del certificato (CSR, Certificate Signing Request) {#generating-csr}
 
@@ -49,7 +49,7 @@ Una volta acquistato il certificato SSL, puoi installarlo nel sottodominio desid
 >id="cp_select_subdomains"
 >title="Seleziona i sottodomini per la tua CSR"
 >abstract="Puoi scegliere di includere tutti i sottodomini o solo alcuni specifici nella richiesta di firma del certificato. Solo i sottodomini selezionati saranno certificati tramite il certificato SSL acquistato."
->additional-url="https://docs.adobe.com/content/help/it-IT/control-panel/using/subdomains-and-certificates/renewing-subdomain-certificate.html#generating-csr" text="Generazione di una richiesta di firma del certificato (CSR, Certificate Signing Request)"
+>additional-url="https://docs.adobe.com/content/help/en/control-panel/using/subdomains-and-certificates/renewing-subdomain-certificate.html#generating-csr" text="Generazione di una richiesta di firma del certificato (CSR, Certificate Signing Request)"
 >additional-url="https://docs.adobe.com/content/help/it-IT/control-panel/using/subdomains-and-certificates/subdomains-branding.html" text="Informazioni sul branding dei sottodomini"
 
 Per generare una richiesta di firma del certificato (CSR, Certificate Signing Request), procedi come segue:
@@ -100,7 +100,7 @@ Dopo aver ottenuto una CSR dal Pannello di controllo Campaign, acquista un certi
 >id="cp_install_ssl_certificate"
 >title="Installa il certificato SSL"
 >abstract="Installa il certificato SSL acquistato dall’autorità di certificazione approvata dalla tua organizzazione."
->additional-url="https://docs.adobe.com/content/help/it-IT/control-panel/using/subdomains-and-certificates/subdomains-branding.html" text="Informazioni sul branding dei sottodomini"
+>additional-url="https://docs.adobe.com/content/help/en/control-panel/using/subdomains-and-certificates/subdomains-branding.html" text="Informazioni sul branding dei sottodomini"
 
 Una volta acquistato un certificato SSL, puoi installarlo nell’istanza. Prima di procedere, accertati di conoscere i prerequisiti seguenti:
 
