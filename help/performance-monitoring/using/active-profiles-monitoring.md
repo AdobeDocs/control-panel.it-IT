@@ -4,10 +4,10 @@ solution: Campaign
 title: Monitoraggio profili attivi
 description: Scopri come ottenere informazioni in tempo reale su utilizzi ed evoluzioni più recenti e storici dei profili attivi per ciascuna delle istanze di Campaign.
 translation-type: tm+mt
-source-git-commit: 2d84a5ebe8dbf42264c94f882a51180aae2a58a6
+source-git-commit: 90c6d50dcb0d70616745170b5c35e42b7e5d784e
 workflow-type: tm+mt
-source-wordcount: '389'
-ht-degree: 100%
+source-wordcount: '387'
+ht-degree: 97%
 
 ---
 
@@ -53,7 +53,7 @@ Per farlo, esegui questi passaggi:
 >I profili attivi vengono conteggiati in base ai flussi di lavoro tecnici dedicati che vengono eseguiti quotidianamente sulle istanze:
 >
 >* Il flusso di lavoro [“Billing”](https://docs.adobe.com/help/it-IT/campaign-standard/using/administrating/application-settings/technical-workflows.html) (Fatturazione) per Campaign Standard,
->* Il flusso di lavoro [“Number of active billing profiles”](https://docs.adobe.com/content/help/it-IT/campaign-classic/using/automating-with-workflows/technical-workflows/deliveries.html) (Numero di profili di fatturazione attivi) per Campaign Classic.
+>* Il flusso di lavoro [“Number of active billing profiles”](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/about-technical-workflows.html) (Numero di profili di fatturazione attivi) per Campaign Classic.
 
 
 L’area inferiore fornisce una rappresentazione grafica dell’utilizzo dei profili attivi negli ultimi 30 giorni. Puoi impostare il periodo di tempo visualizzato a 1 anno utilizzando i filtri disponibili nell’angolo in alto a destra.
