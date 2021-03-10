@@ -3,10 +3,13 @@ product: campaign
 solution: Campaign
 title: Branding dei sottodomini
 description: Ulteriori informazioni sul branding dei sottodomini
+feature: 'Pannello di controllo Campaign   '
+role: Architetto
+level: Intermedio
 translation-type: tm+mt
-source-git-commit: 2d84a5ebe8dbf42264c94f882a51180aae2a58a6
+source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
 workflow-type: tm+mt
-source-wordcount: '694'
+source-wordcount: '698'
 ht-degree: 79%
 
 ---
@@ -24,7 +27,7 @@ ht-degree: 79%
 
 >[!IMPORTANT]
 >
->La configurazione del sottodominio del Pannello di controllo Campaign è disponibile in versione beta e soggetta a frequenti aggiornamenti e modifiche senza preavviso.
+>La configurazione del sottodominio dal Pannello di controllo Campaign è disponibile in versione beta e soggetta a frequenti aggiornamenti e modifiche senza preavviso.
 
 Un sottodominio è una divisione del dominio che può essere utilizzata per isolare i brand o vari tipi di traffico (messaggi transazionali, informazioni di marketing, ecc.).
 
@@ -35,13 +38,13 @@ Prendiamo ad esempio il dominio “mybrand.com”, che viene utilizzato per invi
 
 In questo modo potrai preservare la reputazione del tuo dominio e di altri sottodomini. Ad esempio, se i sottodomini “marketing.mybrand.com” venissero inseriti nell’elenco Bloccati dai provider di servizi Internet a causa di uno scarso recapito di messaggi, ciò impedirebbe l’inserimento nell’elenco Bloccati dell’intero dominio “mybrand.com” e del sottodominio “info.mybrand.com”.
 
-## Metodi di configurazione del sottodominio {#subdomain-delegation-methods}
+## Metodi di configurazione dei sottodomini {#subdomain-delegation-methods}
 
-La configurazione del sottodominio consente di configurare una sottosezione del dominio (tecnicamente una &quot;zona DNS&quot;) da utilizzare con  Adobe Campaign. I metodi di configurazione disponibili sono:
+La configurazione dei sottodomini ti consente di configurare una sottosezione del dominio (tecnicamente una &quot;zona DNS&quot;) da utilizzare con Adobe Campaign. I metodi di configurazione disponibili sono:
 
 * **Delega completa del sottodominio ad Adobe Campaign** (consigliato): il sottodominio viene delegato completamente ad Adobe. Adobe è in grado di fornire Campaign come servizio gestito controllando e mantenendo tutti gli aspetti del DNS necessari per la distribuzione, il rendering e il tracciamento delle campagne e-mail.
 
-* **Utilizzo dei CNAME**: Create un sottodominio e utilizzate i CNAME per puntare a  record specifici del Adobe. Utilizzando questa configurazione, sia Adobe che il cliente condividono la responsabilità della manutenzione del DNS.
+* **Utilizzo dei CNAME**: Crea un sottodominio e utilizza i CNAME per puntare a record specifici per l’Adobe. Utilizzando questa configurazione, sia Adobe che il cliente condividono la responsabilità della manutenzione del DNS.
 
 La tabella seguente fornisce un riepilogo del funzionamento di questi metodi, oltre al livello di impegno che comportano:
 
@@ -52,13 +55,13 @@ La tabella seguente fornisce un riepilogo del funzionamento di questi metodi, ol
 
 Ulteriori informazioni sulla configurazione del dominio sono disponibili in [questa documentazione](https://helpx.adobe.com/it/campaign/kb/domain-name-delegation.html).
 
-In caso di domande sui metodi di configurazione del sottodominio, rivolgiti  team di recapito del Adobe o contatta l&#39;Assistenza clienti per richiedere la consulenza sulla recapito.
+Se hai domande sui metodi di configurazione dei sottodomini, rivolgiti al team di Adobe Deliverability o contatta l’Assistenza clienti per richiedere consulenza sul recapito messaggi.
 
-## Casi di utilizzo dei sottodomini (Campaign Classic){#subdomains-use-cases}
+## Casi d’uso dei sottodomini (Campaign Classic){#subdomains-use-cases}
 
-Quando si impostano i sottodomini per le istanze di Campaign Classic, è necessario selezionare il caso di utilizzo per il quale verrà utilizzato il sottodominio (vedere [Impostazione di un nuovo sottodominio](../../subdomains-certificates/using/setting-up-new-subdomain.md)).
+Quando imposti i sottodomini per le istanze di Campaign Classic, devi selezionare il caso d’uso per il quale verrà utilizzato il sottodominio (consulta [Configurazione di un nuovo sottodominio](../../subdomains-certificates/using/setting-up-new-subdomain.md)).
 
-I possibili casi di utilizzo sono:
+I casi d’uso possibili sono:
 
 * **Comunicazioni di marketing**: comunicazioni destinate a scopi commerciali. Esempio: campagna e-mail di vendita.
 
@@ -66,7 +69,7 @@ I possibili casi di utilizzo sono:
 
 **Suddividere i sottodomini in base ai casi di utilizzo è una best practice per il recapito di messaggi**. In questo modo, la reputazione di ciascun sottodominio è isolata e protetta. Ad esempio, se il tuo sottodominio per le comunicazioni di marketing viene inserito nell’elenco Bloccati dai provider di servizi Internet, il sottodominio delle comunicazioni transazionali non sarà coinvolto e continuerà a inviare comunicazioni.
 
-**Puoi configurare un sottodominio sia per i casi** di utilizzo di Marketing che per quelli di Transazione:
+**Puoi configurare un sottodominio sia per i casi** di utilizzo di marketing che per quelli transazionali:
 
 * Per i casi di utilizzo di marketing, i sottodomini saranno configurati sulle istanze **MID** (Mid sourcing).
 * Per i casi di utilizzo transazionali, i sottodomini saranno configurati su TUTTE le istanze **RT** (Message Center / Real-time messaging [Centro messaggi/Messaggistica in tempo reale]) per garantire la connettività. I sottodomini funzioneranno quindi con tutte le tue istanze RT.
