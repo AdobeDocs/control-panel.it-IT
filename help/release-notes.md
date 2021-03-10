@@ -2,10 +2,13 @@
 product: campaign
 solution: Campaign
 title: Versioni del Pannello di controllo Campaign
+feature: 'Pannello di controllo Campaign   '
+role: Architetto
+level: Principiante
 translation-type: tm+mt
-source-git-commit: 1e1421494e5a6e357e56a77ee192475a03d18a28
+source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
 workflow-type: tm+mt
-source-wordcount: '590'
+source-wordcount: '594'
 ht-degree: 95%
 
 ---
