@@ -3,32 +3,35 @@ product: campaign
 solution: Campaign
 title: Monitoraggio dei certificati SSL dei sottodomini
 description: Scopri come monitorare i certificati SSL dei sottodomini
+feature: 'Pannello di controllo Campaign   '
+role: Architetto
+level: Esperienza
 translation-type: tm+mt
-source-git-commit: 317b4c1cee34667a36f5e1a1197649bfd69c151a
+source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
 workflow-type: tm+mt
-source-wordcount: '142'
-ht-degree: 16%
+source-wordcount: '146'
+ht-degree: 17%
 
 ---
 
 
 # Monitoraggio dei sottodomini {#monitoring-subdomains}
 
-È essenziale monitorare i sottodomini per assicurarsi che siano configurati correttamente per lavorare con  Adobe Campaign.
+È essenziale monitorare i sottodomini per garantire che siano configurati correttamente per lavorare con Adobe Campaign.
 
-L&#39;elenco dei sottodomini per ciascuna istanza di produzione è accessibile direttamente quando si seleziona la scheda **[!UICONTROL Subdomains & Certificates]**.
+L’elenco dei sottodomini per ciascuna istanza di produzione è accessibile direttamente quando selezioni la scheda **[!UICONTROL Subdomains & Certificates]** .
 
-La colonna **[!UICONTROL Last verification]** indica quando un sottodominio è stato verificato per l&#39;ultima volta. È possibile avviare una verifica in qualsiasi momento facendo clic su **...Pulsante** / **[!UICONTROL Verify subdomain]**.
+La colonna **[!UICONTROL Last verification]** indica quando un sottodominio è stato verificato per l’ultima volta. Puoi avviare una verifica in qualsiasi momento facendo clic su **..Pulsante** / **[!UICONTROL Verify subdomain]** .
 
 ![](assets/subdomain_verification.png)
 
 >[!IMPORTANT]
 >
-> Adobe non consiglia di utilizzare sottodomini senza data certificato, in quanto potrebbe significare che tali sottodomini potrebbero presentare alcuni problemi di recapito.
+>L’Adobe non consiglia di utilizzare sottodomini privi di data di certificato, in quanto ciò potrebbe significare che questi sottodomini potrebbero avere alcuni problemi di recapito messaggi.
 
-Quando si avvia una verifica, vengono eseguite diverse operazioni per verificare che il sottodominio sia configurato correttamente (controllo tenant istanza, test di invio e-mail, ecc.)
+Quando si avvia una verifica, vengono eseguite diverse operazioni per verificare che il sottodominio sia configurato correttamente (controllo del tenant dell’istanza, test di invio dell’e-mail, ecc.)
 
-Se la verifica del sottodominio ha esito negativo, contatta  Assistenza clienti del Adobe per ulteriori indagini.
+Se la verifica del sottodominio non riesce, contatta l’Assistenza clienti Adobe per ulteriori indagini.
 
 **Argomenti correlati:**
 
