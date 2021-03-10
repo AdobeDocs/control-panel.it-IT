@@ -3,11 +3,14 @@ product: campaign
 solution: Campaign
 title: Gestione dell’archiviazione SFTP
 description: Scopri come monitorare e gestire l’archiviazione del server SFTP
+feature: 'Pannello di controllo Campaign   '
+role: Architetto
+level: Esperienza
 translation-type: tm+mt
-source-git-commit: 317b4c1cee34667a36f5e1a1197649bfd69c151a
+source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
 workflow-type: tm+mt
-source-wordcount: '352'
-ht-degree: 91%
+source-wordcount: '356'
+ht-degree: 90%
 
 ---
 
@@ -24,7 +27,7 @@ ht-degree: 91%
 
 È fondamentale monitorare regolarmente lo spazio disponibile per ciascuno dei server SFTP. In caso contrario, potresti non essere più in grado di salvare ulteriori file sul server o eseguire con successo flussi di lavoro che si basano sugli aggiornamenti provenienti da questo server.
 
-![](assets/do-not-localize/how-to-video.png) Scopri questa funzione nel video tramite  [Campaign ](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/sftp-management/monitoring-server-capacity.html?lang=en#sftp-management) Classicor  [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/sftp-management/monitoring-server-capacity.html?lang=en#sftp-management)
+![](assets/do-not-localize/how-to-video.png) Scopri questa funzione nel video utilizzando  [Campaign ](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/sftp-management/monitoring-server-capacity.html?lang=en#sftp-management) Classicor  [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/sftp-management/monitoring-server-capacity.html?lang=en#sftp-management)
 
 ## Accesso alle informazioni sulla capacità di archiviazione {#accessing-storage-capacity-information}
 
