@@ -3,10 +3,13 @@ product: campaign
 solution: Campaign
 title: Monitoraggio profili attivi
 description: Scopri come ottenere informazioni in tempo reale su utilizzi ed evoluzioni più recenti e storici dei profili attivi per ciascuna delle istanze di Campaign.
+feature: 'Pannello di controllo Campaign   '
+role: Architetto
+level: Esperienza
 translation-type: tm+mt
-source-git-commit: 90c6d50dcb0d70616745170b5c35e42b7e5d784e
+source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
 workflow-type: tm+mt
-source-wordcount: '387'
+source-wordcount: '391'
 ht-degree: 97%
 
 ---
