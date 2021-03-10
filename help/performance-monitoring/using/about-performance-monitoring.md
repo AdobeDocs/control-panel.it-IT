@@ -2,27 +2,30 @@
 product: campaign
 solution: Campaign
 title: Informazioni sul monitoraggio delle prestazioni
-description: Scoprite come monitorare le prestazioni delle istanze nel Pannello di controllo Campaign
+description: Scopri come monitorare le prestazioni delle istanze nel Pannello di controllo Campaign
+feature: 'Pannello di controllo Campaign   '
+role: Architetto
+level: Esperienza
 translation-type: tm+mt
-source-git-commit: 2d84a5ebe8dbf42264c94f882a51180aae2a58a6
+source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
 workflow-type: tm+mt
-source-wordcount: '112'
-ht-degree: 14%
+source-wordcount: '116'
+ht-degree: 15%
 
 ---
 
 
 # Informazioni sul monitoraggio delle prestazioni {#about-performance-monitoring}
 
-Il Pannello di controllo Campaign offre diverse funzionalità per monitorare le istanze e garantire prestazioni ottimali.
+Pannelli di controllo Campaign offre diverse funzionalità per monitorare le istanze e garantire prestazioni ottimali.
 
-La scheda **[!UICONTROL Performance monitoring]** nella home page del Pannello di controllo Campaign consente di monitorare l&#39;utilizzo delle istanze Campaign come, ad esempio, la capacità del database. Per ulteriori informazioni al riguardo, consulta [questa sezione](../../performance-monitoring/using/database-monitoring.md).
+La scheda **[!UICONTROL Performance monitoring]** nella home page del Pannello di controllo Campaign ti consente di monitorare l’utilizzo delle istanze Campaign, ad esempio la capacità del database. Per ulteriori informazioni al riguardo, consulta [questa sezione](../../performance-monitoring/using/database-monitoring.md).
 
 ![](assets/performance_card.png)
 
 >[!NOTE]
 >
->Con le prossime release di Pannello di controllo Campaign, in questa scheda saranno disponibili ulteriori funzionalità di monitoraggio.
+>Con le prossime versioni del Pannello di controllo Campaign, saranno disponibili ulteriori funzionalità di monitoraggio in questa scheda.
 
-Inoltre, il Pannello di controllo Campaign consente di registrarsi per ricevere notifiche e-mail ogni volta che viene rilevato un problema in una delle istanze della campagna. Per ulteriori informazioni al riguardo, consulta [questa sezione](../../performance-monitoring/using/email-alerting.md).
+Inoltre, il Pannello di controllo Campaign ti consente di registrarti per ricevere notifiche e-mail ogni volta che viene rilevato un problema su una delle istanze Campaign. Per ulteriori informazioni al riguardo, consulta [questa sezione](../../performance-monitoring/using/email-alerting.md).
 
