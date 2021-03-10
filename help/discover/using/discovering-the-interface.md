@@ -3,10 +3,13 @@ product: campaign
 solution: Campaign
 title: Esplorazione dell’interfaccia del Pannello di controllo Campaign
 description: Ulteriori informazioni sull'interfaccia del Pannello di controllo Campaign
+feature: 'Pannello di controllo Campaign   '
+role: Architetto
+level: Intermedio
 translation-type: tm+mt
-source-git-commit: 168ae32d7931497bb37d63f7dd1d14eadbb4b1bf
+source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
 workflow-type: tm+mt
-source-wordcount: '137'
+source-wordcount: '141'
 ht-degree: 32%
 
 ---
@@ -18,17 +21,17 @@ La home page del Pannello di controllo Campaign ti consente di accedere a tutte 
 
 Sono rappresentati da schede organizzate in argomenti, ad esempio **Storage &amp; Database Management**.
 
-Con le prossime release di Campaign, saranno disponibili ulteriori argomenti e schede.
+Con le prossime versioni di Campaign, saranno disponibili ulteriori argomenti e schede.
 
 ![](assets/control_panel_interface.png)
 
-## Registri di processo {#job-logs}
+## Registri di lavoro {#job-logs}
 
-Il pulsante **[!UICONTROL Job Logs]** nell&#39;angolo superiore destro consente di controllare tutte le modifiche apportate dagli utenti dell&#39;organizzazione.
+Il pulsante **[!UICONTROL Job Logs]** nell’angolo in alto a destra consente di controllare tutte le modifiche apportate dagli utenti dell’organizzazione.
 
 ![](assets/control_panel_interface2.png)
 
-Fate clic su un elemento dell’elenco per ottenere ulteriori dettagli.
+Fai clic su un elemento dell’elenco per ottenere ulteriori dettagli.
 
 Il pulsante **[!UICONTROL Open]** (Apri) consente di accedere direttamente alla scheda del pannello di controllo in cui è stata apportata la modifica.
 
@@ -36,6 +39,6 @@ Il pulsante **[!UICONTROL Open]** (Apri) consente di accedere direttamente alla 
 
 ## Risorse della Guida {#help-resources}
 
-La sezione **[!UICONTROL Help Resources]** fornisce una documentazione utile per aiutarti nell&#39;utilizzo dei prodotti Pannello di controllo Campaign e Campaign. Non esitate a esplorarle.
+La sezione **[!UICONTROL Help Resources]** fornisce un’utile documentazione sull’utilizzo dei prodotti Pannelli di controllo Campaign e Campaign. Non esitate a esplorarle.
 
 ![](assets/helpresources.png)
