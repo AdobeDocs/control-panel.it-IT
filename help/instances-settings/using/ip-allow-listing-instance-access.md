@@ -3,10 +3,13 @@ product: campaign
 solution: Campaign
 title: Inserimento di IP nell’elenco Consentiti
 description: Scopri come aggiungere indirizzi IP all’elenco Consentiti nel Pannello di controllo Campaign per accedere alle istanze
+feature: 'Pannello di controllo Campaign   '
+role: Architetto
+level: Intermedio
 translation-type: tm+mt
-source-git-commit: 2d84a5ebe8dbf42264c94f882a51180aae2a58a6
+source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
 workflow-type: tm+mt
-source-wordcount: '765'
+source-wordcount: '769'
 ht-degree: 94%
 
 ---
@@ -57,7 +60,7 @@ Per aggiungere indirizzi IP all’elenco Consentiti, esegui i seguenti passaggi:
 
    >[!NOTE]
    >
-   >Se la scheda Instance Settings (Impostazioni istanza) non è visibile nella home page del Pannello di controllo Campaign, significa che il tuo IMS Organization ID non è associato ad alcuna istanza Adobe Campaign Classic
+   >Se la scheda Instance Settings (Impostazioni istanze) non è visibile nella home page del Pannello di controllo Campaign, significa che il tuo ID organizzazione IMS non è associato ad alcuna istanza Adobe Campaign Classic
 
    ![](assets/ip_whitelist_list1.png)
 
