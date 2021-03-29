@@ -3,11 +3,11 @@ product: campaign
 solution: Campaign
 title: Accesso al Pannello di controllo Campaign
 description: Scopri come accedere al Pannello di controllo Campaign
-feature: 'Pannello di controllo Campaign   '
+feature: Pannello di controllo Campaign
 role: Architetto
 level: Principiante
 translation-type: tm+mt
-source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
+source-git-commit: c6401d8aba84e414f37eada9da593c353dcf3080
 workflow-type: tm+mt
 source-wordcount: '295'
 ht-degree: 99%
@@ -36,7 +36,7 @@ Vantaggi principali:
 >
 >Per accedere al Pannello di controllo Campaign non è necessario effettuare l’aggiornamento alla build Campaign più recente.
 
-<table>
+<table style="table-layout:fixed">
 <tr>
     <td>
         <a href="../../discover/using/accessing-control-panel.md"><img alt="condizioni" src="assets/do-not-localize/discover.png"/></a>
