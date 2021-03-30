@@ -7,10 +7,10 @@ feature: Pannello di controllo Campaign
 role: Architetto
 level: Principiante
 translation-type: tm+mt
-source-git-commit: c6401d8aba84e414f37eada9da593c353dcf3080
+source-git-commit: 56797d4d418f353738a241534eab3938fc5f747f
 workflow-type: tm+mt
-source-wordcount: '295'
-ht-degree: 99%
+source-wordcount: '329'
+ht-degree: 71%
 
 ---
 
@@ -32,9 +32,10 @@ Vantaggi principali:
 * Migliora la sicurezza controllando le impostazioni di accesso in base alle necessità.
 
 >[!NOTE]
->Il Pannello di controllo Campaign è accessibile solo agli utenti amministratori e disponibile per tutti i clienti ospitati su AWS, a eccezione degli ambienti ibridi non ancora supportati. I passaggi per concedere all’amministratore l’accesso a un utente sono descritti in [questa sezione](../../discover/using/managing-permissions.md). Per verificare se l’istanza è ospitata su AWS, segui i passaggi descritti in [questa sezione](../../faq.md).
 >
->Per accedere al Pannello di controllo Campaign non è necessario effettuare l’aggiornamento alla build Campaign più recente.
+>Il Pannello di controllo Campaign è accessibile a tutti gli utenti amministratori. I passaggi per concedere all’amministratore l’accesso a un utente sono descritti in [questa sezione](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=en#discover-control-panel).
+>
+>Per Campaign Classic, tieni presente che l’istanza deve essere ospitata su AWS e aggiornata con la build [Gold Standard](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/gs-release/gs-overview.html) più recente o con la build [GA più recente (21.1)](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html#release-notes). Scopri come controllare la versione in [questa sezione](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html#getting-your-campaign-version). Per verificare se l&#39;istanza è ospitata su AWS, segui i passaggi descritti in [questa pagina](../../faq.md).
 
 <table style="table-layout:fixed">
 <tr>
