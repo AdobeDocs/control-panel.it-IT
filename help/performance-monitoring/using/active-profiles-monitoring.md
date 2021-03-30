@@ -3,14 +3,14 @@ product: campaign
 solution: Campaign
 title: Monitoraggio profili attivi
 description: Scopri come ottenere informazioni in tempo reale su utilizzi ed evoluzioni più recenti e storici dei profili attivi per ciascuna delle istanze di Campaign.
-feature: 'Pannello di controllo Campaign   '
+feature: Pannello di controllo Campaign
 role: Architetto
 level: Esperienza
 translation-type: tm+mt
-source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
+source-git-commit: 5a74107daaff7e3470e1db45f4ef8d75e40c83c1
 workflow-type: tm+mt
-source-wordcount: '391'
-ht-degree: 97%
+source-wordcount: '366'
+ht-degree: 95%
 
 ---
 
@@ -21,9 +21,7 @@ ht-degree: 97%
 
 >[!IMPORTANT]
 >
->Il monitoraggio profili attivi dal Pannello di controllo Campaign è disponibile in versione beta e soggetto a frequenti aggiornamenti e modifiche senza preavviso.
->
->Questa funzione è disponibile per i clienti ospitati su AWS dalla build Campaign Standard 10368 e dalla build Campaign Classic 8931. Se utilizzi una build precedente, dovrai eseguire l’aggiornamento per utilizzare questa funzione.
+>Il monitoraggio profili attivi dal Pannello di controllo Campaign è disponibile in versione beta e soggetto a frequenti aggiornamenti e modifiche senza preavviso. È disponibile dalla build Campaign Standard 10368.
 
 In base al contratto, a ciascuna istanza di Campaign viene fornito un numero specifico di profili attivi conteggiati a scopo di fatturazione. Per informazioni sul numero di profili attivi acquistati, fai riferimento al contratto più recente.
 
