@@ -4,16 +4,16 @@ solution: Campaign
 title: Monitoraggio del database
 description: Scopri come monitorare il database Campaign nel Pannello di controllo Campaign
 feature: Pannello di controllo Campaign
-role: Architetto
-level: Esperienza
-translation-type: tm+mt
-source-git-commit: 8fc348d0a4c858219fbead48e1d31f86c8576f72
-workflow-type: tm+mt
-source-wordcount: '945'
-ht-degree: 0%
+role: Architect
+level: Experienced
+exl-id: bb9e1ce3-2472-4bc1-a82a-a301c6bf830e
+translation-type: ht
+source-git-commit: 4fc34b07b497c743e2ca6c182e68d6ea5c180ac9
+workflow-type: ht
+source-wordcount: '943'
+ht-degree: 100%
 
 ---
-
 
 # Monitoraggio del database {#database-monitoring}
 
@@ -21,21 +21,21 @@ ht-degree: 0%
 
 In base al contratto, a ciascuna istanza di Campaign viene fornito uno spazio di database specifico.
 
-I database includono tutti i **risorse**, **flussi di lavoro** e **dati** memorizzati in Adobe Campaign.
+I database includono tutte le **risorse**, i **flussi di lavoro** e i **dati** memorizzati in Adobe Campaign.
 
-Nel tempo, i database possono raggiungere la loro capacità massima, soprattutto se le risorse memorizzate non vengono mai eliminate dall&#39;istanza o se sono presenti molti flussi di lavoro in stato di pausa.
+Nel tempo, i database possono raggiungere la loro capacità massima, soprattutto se le risorse memorizzate non vengono mai eliminate dall’istanza o se sono presenti molti flussi di lavoro in stato di pausa.
 
-Lo overflow di un database di istanze può causare diversi problemi (impossibilità di accedere, inviare e-mail, ecc.). Il monitoraggio dei database delle istanze è quindi essenziale per garantire prestazioni ottimali.
+L’overflow del database di un’istanza può causare diversi problemi (impossibilità di accedere, inviare e-mail, ecc.). Il monitoraggio dei database delle istanze è quindi essenziale per garantire prestazioni ottimali.
 
 >[!NOTE]
 >
 >Se la quantità di spazio del database fornito come mostrato nel Pannello di controllo Campaign non riflette la quantità specificata nel contratto, contatta l’Assistenza clienti.
 
-## Monitoraggio dell&#39;utilizzo del database {#monitoring-instances-database}
+## Monitoraggio dell’utilizzo del database {#monitoring-instances-database}
 
-![](assets/do-not-localize/how-to-video.png) Scopri questa funzione nel video utilizzando  [Campaign ](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/performance-monitoring/monitoring-databases.html?lang=en#performance-monitoring) Classicor  [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/performance-monitoring/monitoring-databases.html?lang=en#performance-monitoring)
+![](assets/do-not-localize/how-to-video.png) Scopri questa funzione nel video per [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/performance-monitoring/monitoring-databases.html?lang=it#performance-monitoring) o [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/performance-monitoring/monitoring-databases.html?lang=it#performance-monitoring)
 
-Il Pannello di controllo Campaign ti consente di monitorare l’utilizzo del database per ciascuna istanza di Campaign. A questo scopo, apri la scheda **[!UICONTROL Performance Monitoring]** , quindi seleziona la scheda **[!UICONTROL Databases]** .
+Il Pannello di controllo Campaign consente di monitorare l’utilizzo del database per ciascuna istanza di Campaign. Per fare questo, apri la scheda **[!UICONTROL Performance Monitoring]**, quindi seleziona la scheda **[!UICONTROL Databases]**.
 
 Seleziona l’istanza desiderata da **[!UICONTROL Instance List]** per visualizzare informazioni sulla capacità del database dell’istanza e sullo spazio utilizzato.
 
@@ -43,35 +43,35 @@ Seleziona l’istanza desiderata da **[!UICONTROL Instance List]** per visualizz
 
 >[!NOTE]
 >
->I dati di questo dashboard vengono aggiornati in base alla documentazione **[!UICONTROL Database cleanup technical workflow]** in esecuzione nell’istanza Campaign (consulta [Campaign Standard](https://docs.adobe.com/help/en/campaign-standard/using/administrating/application-settings/technical-workflows.html#list-of-technical-workflows) e [Campaign Classic](https://docs.adobe.com/help/en/campaign-classic/using/monitoring-campaign-classic/data-processing/database-cleanup-workflow.html) ).
+>I dati di questo dashboard vengono aggiornati in base al **[!UICONTROL Database cleanup technical workflow]** in esecuzione nell’istanza Campaign (consulta la documentazione di [Campaign Standard](https://docs.adobe.com/help/it-IT/campaign-standard/using/administrating/application-settings/technical-workflows.html#list-of-technical-workflows) e [Campaign Classic](https://docs.adobe.com/help/it-IT/campaign-classic/using/monitoring-campaign-classic/data-processing/database-cleanup-workflow.html)).
 >
->Puoi controllare in modo editoriale, puoi ricevere notifiche quando uno dei tuoi database raggiunge la c l&#39;ultima volta che il flusso di lavoro viene eseguito sotto le metriche **[!UICONTROL Used Space]** e **[!UICONTROL Provided Space]**. Tieni presente che, se il flusso di lavoro non è in esecuzione da più di 3 giorni, ti consigliamo di contattare l’Assistenza clienti di Adobe in modo che possa indagare il motivo per cui il flusso di lavoro non è in esecuzione.
+>Inoltre, puoi ricevere notifiche quando uno dei tuoi database raggiunge la capacità massima e controllare l’ultima volta che un flusso di lavoro è stato eseguito, sotto le metriche **[!UICONTROL Used Space]** e **[!UICONTROL Provided Space]**. Tieni presente che, se il flusso di lavoro non è stato eseguito da almeno 3 giorni, ti consigliamo di contattare l’Assistenza clienti di Adobe in modo che possa indagare il motivo per cui il flusso di lavoro si è interrotto.
 
-Altre metriche, descritte di seguito, sono disponibili in questo dashboard per consentirti di analizzare l’utilizzo del database dell’istanza.
+Il dashboard contiene anche altre metriche, descritte di seguito, che consentono di analizzare l’utilizzo del database dell’istanza.
 
 ### Utilizzo del database {#database-utilization}
 
-L&#39;area **[!UICONTROL Database utilization]** fornisce una rappresentazione grafica dell&#39;utilizzo minimo, medio e massimo del database negli ultimi 7 giorni e della soglia di utilizzo del database del 90% rappresentata da una curva punteggiata rossa.
+L’area **[!UICONTROL Database utilization]** fornisce una rappresentazione grafica dell’utilizzo minimo, medio e massimo del database negli ultimi 7 giorni; la soglia di utilizzo del database del 90% è rappresentata da una curva punteggiata rossa.
 
 Per modificare il periodo di tempo, utilizza i filtri disponibili nell’angolo superiore destro del grafico.
 
-Per una migliore leggibilità, potete anche evidenziare una o più curve nel grafico. A questo scopo, selezionali dalla legenda **[!UICONTROL Aggregation Type]**.
+Per una migliore leggibilità, puoi anche evidenziare una o più curve nel grafico. A questo scopo, selezionali dalla legenda **[!UICONTROL Aggregation Type]**.
 
-Per ulteriori dettagli su un periodo di tempo specifico, passa il cursore del mouse sul grafico per visualizzare le informazioni sull’utilizzo del database in questo momento.
+Per ulteriori dettagli su un periodo di tempo specifico, passa il cursore del mouse sul grafico per visualizzare le informazioni sull’utilizzo del database in quel momento.
 
 ![](assets/databases_dashboard_detail.png)
 
-### Panoramica sullo storage {#storage-overview}
+### Panoramica sull’archiviazione {#storage-overview}
 
-L&#39;area **[!UICONTROL Storage overview]** fornisce una rappresentazione grafica dello spazio occupato da:
+L’area **[!UICONTROL Storage overview]** fornisce una rappresentazione grafica dello spazio occupato da:
 
 * **[!UICONTROL System resources]**
 
    Tieni presente che, se le risorse di sistema occupano gran parte dello spazio del database, è consigliabile contattare l’Assistenza clienti.
 
-* **[!UICONTROL Out-of-the-box tables]** fornito per impostazione predefinita con le istanze Campaign,
-* **[!UICONTROL Temporary tables]** creati da flussi di lavoro e consegne,
-* **[!UICONTROL Non-out of the box tables]** generato dopo la creazione di risorse personalizzate.
+* **[!UICONTROL Out-of-the-box tables]** fornite per impostazione predefinita con le istanze Campaign,
+* **[!UICONTROL Temporary tables]** create da flussi di lavoro e consegne,
+* **[!UICONTROL Non-out of the box tables]** generate dopo la creazione di risorse personalizzate.
 
 ![](assets/database-storage-overview.png)
 
@@ -79,7 +79,7 @@ Fai clic sul pulsante **[!UICONTROL View details]** per ottenere ulteriori detta
 
 ![](assets/database-storage-details.png)
 
-Usa il filtro per perfezionare le tabelle di ricerca e visualizzazione solo da un tipo di risorsa specifico.
+Usa il filtro per perfezionare le ricerche e per visualizzare solo le tabelle con un tipo specifico di risorsa.
 
 ![](assets/database-storage-overview-filter.png)
 
@@ -87,49 +87,49 @@ Usa il filtro per perfezionare le tabelle di ricerca e visualizzazione solo da u
 
 Nell’area **[!UICONTROL Top 10 temporary resources]** sono elencate le 10 risorse temporanee più grandi generate dai flussi di lavoro e dalle consegne.
 
-Il monitoraggio dei flussi di lavoro e delle consegne che creano grandi risorse temporanee è un passaggio chiave per monitorare il database. Se una risorsa temporanea richiede troppo spazio nel database, assicurati che sia necessario disporre di questo flusso di lavoro o di questa consegna e, infine, accedi all’istanza per interromperla.
+Il monitoraggio dei flussi di lavoro e delle consegne che creano grandi risorse temporanee è un passaggio chiave per monitorare il database. Se una risorsa temporanea occupa troppo spazio nel database, assicurati che il flusso di lavoro o la consegna sia effettivamente indispensabile e, nel caso non lo sia, accedi all’istanza per interromperla.
 
 >[!IMPORTANT]
 >
->Si consiglia di evitare di avere **più di 40 colonne** in risorse non preconfigurate.
+>Si consiglia di evitare di avere **più di 40 colonne** in risorse non fornite con il prodotto.
 
 ![](assets/database-top10.png)
 
 >[!NOTE]
 >
->Se un flusso di lavoro ha un numero elevato di conteggi di tabella o dimensioni del database, è consigliabile rivedere il flusso di lavoro per scoprire perché sta generando così tanti dati.
+>Se un flusso di lavoro ha un numero elevato di voci di tabella o dimensioni eccessive nel database, è consigliabile rivedere il flusso di lavoro per scoprire perché genera così tanti dati.
 >
->Le risorse di Campaign Standard e Classic sono disponibili anche alla fine di questa pagina per evitare il sovraccarico del database.
+>Alla fine di questa pagina trovi alcune risorse di Campaign Standard e Classic utili per evitare il sovraccarico del database.
 
-Il pulsante **[!UICONTROL View all]** ti consente di accedere a informazioni dettagliate su queste risorse temporanee.
+Il pulsante **[!UICONTROL View all]** consente di accedere a informazioni dettagliate su queste risorse temporanee.
 
 ![](assets/database-top10-view.png)
 
 >[!NOTE]
 >
->Il valore nella colonna **[!UICONTROL Keep interim results]** indica se l’opzione è abilitata (&quot;1&quot;) o disabilitata (&quot;0&quot;) in Campaign. L’opzione **[!UICONTROL Keep interim results]** è accessibile nelle proprietà dei flussi di lavoro. Ti consente di salvare i risultati delle transizioni tra le varie attività di un flusso di lavoro (consulta la documentazione [Campaign Standard](https://docs.adobe.com/content/help/en/campaign-standard/using/managing-processes-and-data/executing-a-workflow/managing-execution-options.html) e [Campaign Classic](https://docs.adobe.com/content/help/en/campaign-classic/using/automating-with-workflows/general-operation/workflow-best-practices.html#logs) ).
+>Il valore nella colonna **[!UICONTROL Keep interim results]** indica se l’opzione è abilitata (&quot;1&quot;) o disabilitata (&quot;0&quot;) in Campaign. L’opzione **[!UICONTROL Keep interim results]** è accessibile nelle proprietà dei flussi di lavoro. Consente di salvare i risultati delle transizioni tra le varie attività di un flusso di lavoro (consulta la documentazione di [Campaign Standard](https://docs.adobe.com/content/help/it-IT/campaign-standard/using/managing-processes-and-data/executing-a-workflow/managing-execution-options.html) e [Campaign Classic](https://docs.adobe.com/content/help/it-IT/campaign-classic/using/automating-with-workflows/general-operation/workflow-best-practices.html#logs)).
 >
->Se l’opzione è abilitata per uno dei flussi di lavoro, il flusso di lavoro di pulizia del database non sarà in grado di recuperare lo spazio utilizzato dai risultati provvisori. Pertanto, consigliamo di rivedere il flusso di lavoro per verificare se l’opzione può essere disattivata.
+>Se questa opzione è abilitata per uno dei flussi di lavoro, il flusso di lavoro di pulizia del database non sarà in grado di recuperare lo spazio utilizzato dai risultati provvisori. Pertanto, consigliamo di rivedere il flusso di lavoro per verificare se l’opzione può essere disattivata.
 
 ## Prevenzione del sovraccarico del database {#preventing-database-overload}
 
 Campaign Standard e Classic offrono diversi modi per evitare un eccessivo consumo di spazio su disco del database.
 
-La sezione seguente fornisce utili risorse dalla documentazione di Campaign per ottimizzare l’utilizzo dei database:
+La sezione seguente fornisce utili riferimenti dalla documentazione di Campaign per ottimizzare l’utilizzo dei database:
 
 **Monitoraggio dei flussi di lavoro**
 
-* [Best practice per i flussi di lavoro](https://docs.adobe.com/content/help/en/campaign-standard/using/managing-processes-and-data/workflow-general-operation/best-practices-workflows.html)  (Campaign Standard)
-* [Monitoraggio dell’esecuzione del flusso di lavoro](https://docs.adobe.com/help/en/campaign-classic/using/automating-with-workflows/monitoring-workflows/monitoring-workflow-execution.html)  (Campaign Classic)
+* [Best practice per i flussi di lavoro](https://docs.adobe.com/content/help/it-IT/campaign-standard/using/managing-processes-and-data/workflow-general-operation/best-practices-workflows.html) (Campaign Standard)
+* [Monitoraggio dell’esecuzione dei flussi di lavoro](https://docs.adobe.com/help/it-IT/campaign-classic/using/automating-with-workflows/monitoring-workflows/monitoring-workflow-execution.html) (Campaign Classic)
 
 **Manutenzione del database**
 
-* Flusso di lavoro tecnico di pulizia del database ([Campaign Standard](https://docs.adobe.com/help/en/campaign-standard/using/administrating/application-settings/technical-workflows.html#list-of-technical-workflows) / [Campaign Classic](https://docs.adobe.com/help/en/campaign-classic/using/monitoring-campaign-classic/data-processing/database-cleanup-workflow.html))
-* [Guida alla manutenzione del database](https://docs.adobe.com/content/help/en/campaign-classic/using/monitoring-campaign-classic/database-maintenance/recommendations.html)  (Campaign Classic)
-* [Risoluzione dei problemi di prestazioni del database](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/troubleshooting-toc/database-issues-toc/database-performances.html)  (Campaign Classic)
-* [Opzioni relative al database](https://docs.adobe.com/help/en/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options.html#database)  (Campaign Classic)
-* Conservazione dei dati ([Campaign Standard](https://docs.adobe.com/help/en/campaign-standard/using/administrating/application-settings/data-retention.html) / [Campaign Classic](https://docs.adobe.com/help/en/campaign-classic/using/configuring-campaign-classic/data-model/data-model-best-practices.html#data-retention))
+* Flusso di lavoro tecnico per la pulizia del database ([Campaign Standard](https://docs.adobe.com/help/it-IT/campaign-standard/using/administrating/application-settings/technical-workflows.html#list-of-technical-workflows) / [Campaign Classic](https://docs.adobe.com/help/it-IT/campaign-classic/using/monitoring-campaign-classic/data-processing/database-cleanup-workflow.html))
+* [Guida alla manutenzione del database](https://docs.adobe.com/content/help/it-IT/campaign-classic/using/monitoring-campaign-classic/database-maintenance/recommendations.html) (Campaign Classic)
+* [Risoluzione dei problemi di prestazioni del database](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/troubleshooting-toc/database-issues-toc/database-performances.html?lang=it) (Campaign Classic)
+* [Opzioni relative al database](https://docs.adobe.com/help/it-IT/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options.html#database) (Campaign Classic)
+* Conservazione dei dati ([Campaign Standard](https://docs.adobe.com/help/it-IT/campaign-standard/using/administrating/application-settings/data-retention.html) / [Campaign Classic](https://docs.adobe.com/help/it-IT/campaign-classic/using/configuring-campaign-classic/data-model/data-model-best-practices.html#data-retention))
 
 >[!NOTE]
 >
->Inoltre, puoi ricevere notifiche quando uno dei tuoi database raggiunge la sua capacità. A questo scopo, abbonati a [avvisi e-mail](../../performance-monitoring/using/email-alerting.md).
+>Inoltre, puoi ricevere notifiche quando uno dei database raggiunge la sua capacità massima. A questo scopo, abbonati agli [avvisi e-mail](../../performance-monitoring/using/email-alerting.md).
