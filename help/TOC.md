@@ -3,14 +3,14 @@ product: adobe campaign
 sub-product: pannello di controllo Campaign
 audience: end-user
 user-guide-title: Guida al pannello di controllo Campaign
-feature: 'Pannello di controllo Campaign   '
-role: Architetto
-level: Principiante
-translation-type: tm+mt
+feature: Pannello di controllo Campaign
+role: Architect
+level: Beginner
+translation-type: ht
 source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
-workflow-type: tm+mt
-source-wordcount: '104'
-ht-degree: 98%
+workflow-type: ht
+source-wordcount: '102'
+ht-degree: 100%
 
 ---
 
