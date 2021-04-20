@@ -3,9 +3,9 @@ product: campaign
 solution: Campaign
 title: Gestione delle chiavi
 description: Scopri come gestire le chiavi per la connessione ai server SFTP
-feature: 'Pannello di controllo Campaign   '
-role: Architetto
-level: Esperienza
+feature: Control Panel
+role: Architect
+level: Experienced
 translation-type: tm+mt
 source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
 workflow-type: tm+mt

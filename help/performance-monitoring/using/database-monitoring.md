@@ -3,7 +3,7 @@ product: campaign
 solution: Campaign
 title: Monitoraggio del database
 description: Scopri come monitorare il database Campaign nel Pannello di controllo Campaign
-feature: Pannello di controllo Campaign
+feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: bb9e1ce3-2472-4bc1-a82a-a301c6bf830e

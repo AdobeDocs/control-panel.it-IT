@@ -3,9 +3,9 @@ product: campaign
 solution: Campaign
 title: Informazioni sul monitoraggio delle prestazioni
 description: Scopri come monitorare le prestazioni delle istanze nel Pannello di controllo Campaign
-feature: 'Pannello di controllo Campaign   '
-role: Architetto
-level: Esperienza
+feature: Control Panel
+role: Architect
+level: Experienced
 translation-type: tm+mt
 source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
 workflow-type: tm+mt

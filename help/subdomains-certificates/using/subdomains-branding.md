@@ -3,9 +3,9 @@ product: campaign
 solution: Campaign
 title: Branding dei sottodomini
 description: Ulteriori informazioni sul branding dei sottodomini
-feature: 'Pannello di controllo Campaign   '
-role: Architetto
-level: Intermedio
+feature: Control Panel
+role: Architect
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
 workflow-type: tm+mt

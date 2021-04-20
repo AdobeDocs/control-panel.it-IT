@@ -3,7 +3,7 @@ product: campaign
 solution: Campaign
 title: Configurazione di un nuovo sottodominio
 description: Scopri come configurare un nuovo sottodominio per le istanze della campaign
-feature: Pannello di controllo Campaign
+feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: d92781c3-14cc-4716-a131-580ccff46d6e

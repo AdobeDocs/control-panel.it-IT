@@ -3,7 +3,7 @@ product: campaign
 solution: Campaign
 title: Domande frequenti sul Pannello di controllo Campaign
 description: Domande comuni relative al Pannello di controllo Campaign
-feature: Pannello di controllo Campaign
+feature: Control Panel
 role: Architect
 level: Intermediate
 exl-id: 4f329764-ed8b-4939-affc-ed994fd6101d
