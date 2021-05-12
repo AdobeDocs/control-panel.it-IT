@@ -5,14 +5,14 @@ solution: Campaign
 feature-set: Campaign
 git-repo: https://git.corp.adobe.com/AdobeDocs/control-panel.it-IT
 index: true
-feature: Control Panel
+feature: Pannello di controllo Campaign
 role: Architect
 level: Beginner
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 63491701dd099b12d22bf9a1eab3c8a290a2e6af
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '10'
+ht-degree: 100%
 
 ---
 
