@@ -7,11 +7,11 @@ feature: Pannello di controllo Campaign
 role: Architect
 level: Experienced
 exl-id: bb9e1ce3-2472-4bc1-a82a-a301c6bf830e
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 263f86fb08cdfdc42e84812d07ac790119bd302f
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '952'
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ L’overflow del database di un’istanza può causare diversi problemi (impossi
 
 >[!NOTE]
 >
->Se la quantità di spazio disponibile nel database mostrata nel Pannello di controllo Campaign non riflette la quantità specificata nel contratto, contatta l’Assistenza clienti.
+>Se lo spazio del database disponibile riportata nel Pannello di controllo Campaign non corrisponde alla quantità specificata nel contratto, contatta l’Assistenza clienti.
 
 ## Monitoraggio dell’utilizzo del database {#monitoring-instances-database}
 
@@ -45,7 +45,7 @@ Seleziona l’istanza desiderata da **[!UICONTROL Instance List]** per visualizz
 >
 >I dati di questo dashboard vengono aggiornati in base al **[!UICONTROL Database cleanup technical workflow]** in esecuzione nell’istanza Campaign (consulta la documentazione di [Campaign Standard](https://docs.adobe.com/help/it-IT/campaign-standard/using/administrating/application-settings/technical-workflows.html#list-of-technical-workflows) e [Campaign Classic](https://docs.adobe.com/help/it-IT/campaign-classic/using/monitoring-campaign-classic/data-processing/database-cleanup-workflow.html)).
 >
->Inoltre, puoi ricevere notifiche quando uno dei tuoi database raggiunge la c l&#39;ultima volta che il flusso di lavoro viene eseguito sotto le metriche **[!UICONTROL Used Space]** e **[!UICONTROL Provided Space]**. Tieni presente che, se il flusso di lavoro non è stato eseguito da almeno 3 giorni, ti consigliamo di contattare l’Assistenza clienti di Adobe in modo che possa indagare il motivo per cui il flusso di lavoro si è interrotto.
+>Inoltre, puoi ricevere notifiche quando uno dei tuoi database raggiunge la capacità massima e controllare l’ultima volta che un flusso di lavoro è stato eseguito, sotto le metriche **[!UICONTROL Used Space]** e **[!UICONTROL Provided Space]**. Tieni presente che, se il flusso di lavoro non è stato eseguito da almeno 3 giorni, ti consigliamo di contattare l’Assistenza clienti di Adobe in modo che possa indagare il motivo per cui il flusso di lavoro si è interrotto.
 
 Il dashboard contiene anche altre metriche, descritte di seguito, che consentono di analizzare l’utilizzo del database dell’istanza.
 
@@ -105,13 +105,13 @@ Il pulsante **[!UICONTROL View all]** consente di accedere a informazioni dettag
 
 ![](assets/database-top10-view.png)
 
-Il valore nella colonna **[!UICONTROL Keep interim results]** indica se l’opzione è abilitata (&quot;1&quot;) o disabilitata (&quot;0&quot;) in Campaign. Questa opzione ti consente di salvare i risultati delle transizioni tra le varie attività di un flusso di lavoro (consulta la documentazione [Campaign Standard](https://docs.adobe.com/content/help/it-IT/campaign-standard/using/managing-processes-and-data/executing-a-workflow/managing-execution-options.html) e [Campaign Classic](https://docs.adobe.com/content/help/it-IT/campaign-classic/using/automating-with-workflows/general-operation/workflow-best-practices.html#logs) ).
+Il valore nella colonna **[!UICONTROL Keep interim results]** indica se l’opzione è abilitata (&quot;1&quot;) o disabilitata (&quot;0&quot;) in Campaign. Questa opzione consente di salvare i risultati delle transizioni tra le varie attività di un flusso di lavoro (consulta la documentazione di [Campaign Standard](https://docs.adobe.com/content/help/it-IT/campaign-standard/using/managing-processes-and-data/executing-a-workflow/managing-execution-options.html) e [Campaign Classic](https://docs.adobe.com/content/help/it-IT/campaign-classic/using/automating-with-workflows/general-operation/workflow-best-practices.html#logs)).
 
 >[!IMPORTANT]
 >
->Questa opzione non deve mai essere selezionata in un flusso di lavoro di produzione. Viene utilizzato per analizzare i risultati ed è progettato solo a scopo di test e quindi deve essere utilizzato solo in ambienti di sviluppo o di staging.
+>Questa opzione non deve mai essere selezionata in un flusso di lavoro di produzione. Viene utilizzata per analizzare i risultati ed è progettata solo a scopo di test e quindi deve essere utilizzata solo in ambienti di sviluppo o di staging.
 >
->Se il valore in Pannello di controllo Campaign indica che l’opzione è abilitata per uno dei flussi di lavoro, si consiglia vivamente di disattivarla in Campaign.
+>Se il valore in Pannello di controllo Campaign indica che l’opzione è abilitata per uno dei flussi di lavoro, si consiglia vivamente di disattivarla.
 
 ## Prevenzione del sovraccarico del database {#preventing-database-overload}
 
@@ -126,7 +126,7 @@ La sezione seguente fornisce utili riferimenti dalla documentazione di Campaign 
 
 **Manutenzione del database**
 
-* Flusso di lavoro tecnico per la pulizia del database ([Campaign Standard](https://docs.adobe.com/help/en/campaign-standard/using/administrating/application-settings/technical-workflows.html#list-of-technical-workflows) / [Campaign Classic](https://docs.adobe.com/help/en/campaign-classic/using/monitoring-campaign-classic/data-processing/database-cleanup-workflow.html))
+* Flusso di lavoro tecnico per la pulizia del database ([Campaign Standard](https://docs.adobe.com/help/it-IT/campaign-standard/using/administrating/application-settings/technical-workflows.html#list-of-technical-workflows) / [Campaign Classic](https://docs.adobe.com/help/it-IT/campaign-classic/using/monitoring-campaign-classic/data-processing/database-cleanup-workflow.html))
 * [Guida alla manutenzione del database](https://docs.adobe.com/content/help/it-IT/campaign-classic/using/monitoring-campaign-classic/database-maintenance/recommendations.html) (Campaign Classic)
 * [Risoluzione dei problemi di prestazioni del database](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/troubleshooting-toc/database-issues-toc/database-performances.html?lang=it) (Campaign Classic)
 * [Opzioni relative al database](https://docs.adobe.com/help/it-IT/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options.html#database) (Campaign Classic)
