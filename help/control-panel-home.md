@@ -5,7 +5,7 @@ feature: Pannello di controllo Campaign
 role: Architect
 level: Beginner
 exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab
-source-git-commit: 9c7a17d3e6d5bb953cb584f5a255d7b76d5c2973
+source-git-commit: 99c24d7f27464741ee9eec0339c52fa95174b1cf
 workflow-type: tm+mt
 source-wordcount: '210'
 ht-degree: 68%
@@ -31,13 +31,7 @@ La scheda **[!UICONTROL Database monitoring]** è stata migliorata con metriche 
 >* Il Pannello di controllo Campaign è limitato agli utenti amministratori. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=it#discover-control-panel).
    >
    >
-* Per Campaign Classic, tieni presente che l’istanza deve essere ospitata su Amazon Web Services (AWS) e aggiornata alla build [Campaign GA](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html#rn-statuses) più recente.
-   >   
-   >   
-   * Scopri come controllare la versione di Campaign Classic in [questa sezione](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=it#getting-your-campaign-version).
-      >   
-      >   
-   * Per verificare se l&#39;istanza Campaign Classic è ospitata su AWS, segui i passaggi descritti in [questa pagina](faq.md).
+* Per Campaign Classic, tieni presente che l’istanza deve essere ospitata su Amazon Web Services (AWS) e aggiornata alla build [Campaign GA](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html#rn-statuses) più recente. Scopri come controllare la versione di Campaign Classic in [questa sezione](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=it#getting-your-campaign-version). Per verificare se l&#39;istanza Campaign Classic è ospitata su AWS, segui i passaggi descritti in [questa pagina](faq.md).
 
 
 ## Risorse aggiuntive {#additional-resources}
