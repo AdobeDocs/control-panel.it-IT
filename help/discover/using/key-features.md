@@ -3,17 +3,16 @@ product: campaign
 solution: Campaign
 title: Accesso al Pannello di controllo Campaign
 description: Scopri come accedere al Pannello di controllo Campaign
-feature: Control Panel
+feature: Pannello di controllo Campaign
 role: Architect
 level: Beginner
-translation-type: tm+mt
-source-git-commit: 56797d4d418f353738a241534eab3938fc5f747f
+exl-id: cb6cc63b-d6cc-4c8b-870f-e108d05aa740
+source-git-commit: 12ec4cada1b038e6edc46457d5cebe6a0693bfe3
 workflow-type: tm+mt
-source-wordcount: '329'
-ht-degree: 71%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
-
 
 # Funzioni principali {#key-features}
 
@@ -33,9 +32,9 @@ Vantaggi principali:
 
 >[!NOTE]
 >
->Il Pannello di controllo Campaign è accessibile a tutti gli utenti amministratori. I passaggi per concedere all’amministratore l’accesso a un utente sono descritti in [questa sezione](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=en#discover-control-panel).
+>Il Pannello di controllo Campaign è limitato agli utenti amministratori. I passaggi per concedere a un utente i diritti da amministratore sono descritti in [questa sezione](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=it#discover-control-panel).
 >
->Per Campaign Classic, tieni presente che l’istanza deve essere ospitata su AWS e aggiornata con la build [Gold Standard](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/gs-release/gs-overview.html) più recente o con la build [GA più recente (21.1)](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html#release-notes). Scopri come controllare la versione in [questa sezione](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html#getting-your-campaign-version). Per verificare se l&#39;istanza è ospitata su AWS, segui i passaggi descritti in [questa pagina](../../faq.md).
+>Per Campaign Classic, tieni presente che l’istanza deve essere ospitata su Amazon Web Services (AWS) e aggiornata alla build [Campaign GA](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html#rn-statuses) più recente. Scopri come controllare la versione in [questa sezione](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=it#getting-your-campaign-version). Per verificare se l’istanza è ospitata su AWS, segui i passaggi descritti in [questa sezione](../../faq.md).
 
 <table style="table-layout:fixed">
 <tr>
