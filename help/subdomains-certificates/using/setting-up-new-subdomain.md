@@ -7,7 +7,7 @@ feature: Pannello di controllo Campaign
 role: Architect
 level: Experienced
 exl-id: d92781c3-14cc-4716-a131-580ccff46d6e
-source-git-commit: c8a17ca49f83282070c4ab50883454433970f2a7
+source-git-commit: 27b5baaf67a23799a3ecb56fcfcb7f5e891a25b9
 workflow-type: tm+mt
 source-wordcount: '1158'
 ht-degree: 98%
@@ -66,7 +66,7 @@ Per delegare completamente un sottodominio ad Adobe Campaign, effettua le seguen
 
    >[!NOTE]
    >
-   > Ad esempio, i sottodomini ti consentiranno di inviare comunicazioni di marketing e transazionali.
+   > Per Adobe Campaign Standard, i sottodomini delegati ti consentiranno di inviare comunicazioni **Marketing** e **Transazionali**.
 
    ![](assets/subdomain4.png)
 
