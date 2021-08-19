@@ -7,10 +7,10 @@ feature: Pannello di controllo Campaign
 role: Architect
 level: Experienced
 exl-id: d92781c3-14cc-4716-a131-580ccff46d6e
-source-git-commit: 27b5baaf67a23799a3ecb56fcfcb7f5e891a25b9
+source-git-commit: 3bd3dcc0e09d887cab7d810d43f2c72bb4251ac9
 workflow-type: tm+mt
-source-wordcount: '1158'
-ht-degree: 98%
+source-wordcount: '1166'
+ht-degree: 97%
 
 ---
 
@@ -22,11 +22,14 @@ ht-degree: 98%
 >abstract="Devi impostare un nuovo sottodominio e gestire i certificati SSL dei tuoi sottodomini per iniziare a inviare e-mail o pubblicare pagine di destinazione con Adobe Campaign."
 >additional-url="https://docs.adobe.com/content/help/it-IT/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html" text="Come monitorare i certificati SSL dei sottodomini"
 
+
 ## Da leggere {#must-read}
 
 >[!IMPORTANT]
 >
 >La configurazione dei sottodomini dal Pannello di controllo Campaign è disponibile in versione beta e soggetta a frequenti aggiornamenti e modifiche senza preavviso.
+>
+>Questa funzionalità non è disponibile per Campaign v8.
 
 Questa pagina fornisce informazioni su come impostare nuovi sottodomini utilizzando la delega completa dei sottodomini o CNAME. I concetti globali su questi due metodi sono descritti in questa sezione: [Branding dei sottodomini](../../subdomains-certificates/using/subdomains-branding.md).
 
