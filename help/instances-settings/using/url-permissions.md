@@ -3,17 +3,16 @@ product: campaign
 solution: Campaign
 title: Autorizzazioni URL
 description: Scopri come gestire le autorizzazioni URL nel Pannello di controllo Campaign
-feature: Control Panel
+feature: Pannello di controllo Campaign
 role: Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 8fc348d0a4c858219fbead48e1d31f86c8576f72
+exl-id: a7df90da-a2ce-409f-9bc3-c7d4fa3024c8
+source-git-commit: 1bf4f7b6f6d4d9a47f6496299ca1c155eec4a2f3
 workflow-type: tm+mt
 source-wordcount: '607'
-ht-degree: 91%
+ht-degree: 89%
 
 ---
-
 
 # Autorizzazioni URL {#url-permissions}
 
@@ -27,9 +26,9 @@ ht-degree: 91%
 
 >[!IMPORTANT]
 >
->Questa funzione è disponibile solo per le istanze Campaign Classic, a partire dalla build 8850. Se utilizzi una build precedente, dovrai eseguire l’aggiornamento per utilizzare questa funzione.
+>Questa funzione è disponibile solo per le istanze Campaign v8 e Campaign Classic v7, dalla build 8850. Se utilizzi una build precedente, dovrai eseguire l’aggiornamento per utilizzare questa funzione.
 
-L’elenco predefinito di URL che possono essere richiamati tramite codici JavaScript (flussi di lavoro, ecc.) dalle istanze Campaign Classic è limitato. Si tratta di URL che consentono il corretto funzionamento delle istanze.
+L’elenco predefinito di URL che possono essere richiamati tramite codici JavaScript (flussi di lavoro, ecc.) dalle istanze Campaign è limitato. Si tratta di URL che consentono il corretto funzionamento delle istanze.
 
 Per impostazione predefinita, le istanze non possono connettersi a URL esterni. Il Pannello di controllo Campaign consente di aggiungere degli URL esterni all’elenco degli URL autorizzati, in modo che l’istanza possa connettersi a tali URL. Questo consente di connettere le istanze Campaign a sistemi esterni, ad esempio server SFTP o siti Web, per abilitare il trasferimento di file e/o dati.
 
@@ -61,7 +60,7 @@ Per aggiungere un URL a cui l’istanza può connettersi, effettua le seguenti o
 
    >[!NOTE]
    >
-   >Se la scheda Instance Settings (Impostazioni istanze) non è visibile nella home page del Pannello di controllo Campaign, significa che il tuo ID organizzazione IMS non è associato ad alcuna istanza Adobe Campaign Classic
+   >Se la scheda Instance Settings (Impostazioni istanze) non è visibile nella home page del Pannello di controllo Campaign, significa che il tuo ID organizzazione IMS non è associato ad alcuna istanza Adobe Campaign
    >
    >La scheda <b><span class="uicontrol">URL permissions (Autorizzazioni URL)</span></b> elenca tutti gli URL esterni a cui l’istanza può connettersi. Questo elenco non include gli URL necessari per il funzionamento di Campaign (ad esempio, le connessioni tra parti dell’infrastruttura).
 
