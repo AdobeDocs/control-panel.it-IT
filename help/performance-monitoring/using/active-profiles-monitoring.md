@@ -3,17 +3,16 @@ product: campaign
 solution: Campaign
 title: Monitoraggio profili attivi
 description: Scopri come ottenere informazioni in tempo reale su utilizzi ed evoluzioni più recenti e storici dei profili attivi per ciascuna delle istanze di Campaign.
-feature: Control Panel
+feature: Pannello di controllo Campaign
 role: Architect
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 5a74107daaff7e3470e1db45f4ef8d75e40c83c1
+exl-id: a157cc27-577f-490f-8c4f-0f203219cfb5
+source-git-commit: 1bf4f7b6f6d4d9a47f6496299ca1c155eec4a2f3
 workflow-type: tm+mt
-source-wordcount: '366'
-ht-degree: 95%
+source-wordcount: '365'
+ht-degree: 92%
 
 ---
-
 
 # Monitoraggio profili attivi {#active-profiles-monitoring}
 
@@ -33,7 +32,7 @@ I profili sono considerati attivi se sono stati targetizzati o se è avvenuta un
 >
 >I canali Facebook e Twitter non vengono presi in considerazione.
 
-Per ulteriori informazioni sui profili attivi, consulta la documentazione [Campaign Standard](https://docs.adobe.com/content/help/it-IT/campaign-standard/using/profiles-and-audiences/managing-profiles/active-profiles.html) e [Campaign Classic](https://docs.adobe.com/content/help/it-IT/campaign-classic/using/getting-started/profile-management/about-profiles.html#active-profiles).
+Per ulteriori informazioni sui profili attivi, consulta la documentazione [Campaign Standard](https://docs.adobe.com/content/help/it-IT/campaign-standard/using/profiles-and-audiences/managing-profiles/active-profiles.html) e [Campaign Classic v7](https://docs.adobe.com/content/help/it-IT/campaign-classic/using/getting-started/profile-management/about-profiles.html#active-profiles) .
 
 ## Monitorare i profili attivi {#monitoring-active-profiles}
 
