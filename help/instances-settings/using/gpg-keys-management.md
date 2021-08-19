@@ -3,17 +3,16 @@ product: campaign
 solution: Campaign
 title: Gestione chiavi GPG
 description: Scopri come gestire le chiavi GPG per crittografare e decrittografare i dati in Adobe Campaign.
-feature: Control Panel
+feature: Pannello di controllo Campaign
 role: Architect
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 8fc348d0a4c858219fbead48e1d31f86c8576f72
+exl-id: 366dd2ea-c6be-41a2-a4d6-4ffecb5f3d39
+source-git-commit: 1bf4f7b6f6d4d9a47f6496299ca1c155eec4a2f3
 workflow-type: tm+mt
-source-wordcount: '1151'
+source-wordcount: '1157'
 ht-degree: 8%
 
 ---
-
 
 # Gestione chiavi GPG {#gpg-keys-management}
 
@@ -31,7 +30,7 @@ Potrai quindi:
 
 * **Decrittografare i dati** in arrivo: Adobe Campaign riceve i dati crittografati da un sistema esterno utilizzando una chiave pubblica scaricata dal Pannello di controllo Campaign. Adobe Campaign decrittografa i dati utilizzando una chiave privata generata dal Pannello di controllo Campaign.
 
-## Cifratura dati {#encrypting-data}
+## Crittografia dei dati {#encrypting-data}
 
 Il Pannello di controllo Campaign consente di crittografare i dati provenienti dall’istanza Adobe Campaign.
 
@@ -90,7 +89,7 @@ La chiave è quindi disponibile per l’utilizzo nei flussi di lavoro Adobe Camp
 
 Per ulteriori informazioni su questo argomento, consulta la documentazione di Adobe Campaign:
 
-**Campaign Classic:**
+**Campaign Classic v7 e Campaign v8:**
 
 * [ZIP o cifratura di un file](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/managing-data-encryption-compression/zip-encrypt.html)
 * [Caso di utilizzo: Crittografia ed esportazione di dati utilizzando una chiave installata sul Pannello di controllo Campaign](https://docs.adobe.com/content/help/en/campaign-classic/using/automating-with-workflows/general-operation/how-to-use-workflow-data.html#use-case-gpg-encrypt)
@@ -133,7 +132,7 @@ La chiave pubblica è quindi disponibile per essere condivisa con qualsiasi sist
 
 Per ulteriori informazioni, consulta la documentazione di Adobe Campaign:
 
-**Campaign Classic:**
+**Campaign Classic v7 e Campaign v8:**
 
 * [Estrazione o decrittografia di un file prima dell’elaborazione](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/managing-data-encryption-compression/unzip-decrypt.html)
 * [Caso di utilizzo: Importazione di dati crittografati utilizzando una chiave generata dal Pannello di controllo Campaign](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/managing-data-encryption-compression/unzip-decrypt.html#use-case-gpg-decrypt)
@@ -184,4 +183,3 @@ Il video seguente mostra come generare e installare le chiavi GPG per la crittog
 Nelle pagine delle esercitazioni [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/instance-settings/gpg-key-management/gpg-key-management-overview.html?lang=en#instance-settings) e [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/instance-settings/gpg-key-management/gpg-key-management-overview.html?lang=en#instance-settings) sono disponibili ulteriori video dimostrativi relativi alla gestione delle chiavi GPG.
 
 >[!VIDEO](https://video.tv.adobe.com/v/36386?quality=12)
-
