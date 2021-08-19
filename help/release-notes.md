@@ -3,15 +3,14 @@ product: campaign
 solution: Campaign
 title: Versioni del Pannello di controllo Campaign
 description: Note sulla versione più recente del Pannello di controllo Campaign.
-feature: Control Panel
+feature: Pannello di controllo Campaign
 role: Architect
 level: Beginner
 exl-id: 13aceffb-ceaa-4cfe-8741-95d66c5c6caa
-translation-type: tm+mt
-source-git-commit: 4c8347f7b0f4a776ea726f02029ea1c92a83406a
+source-git-commit: 1bf4f7b6f6d4d9a47f6496299ca1c155eec4a2f3
 workflow-type: tm+mt
-source-wordcount: '631'
-ht-degree: 95%
+source-wordcount: '632'
+ht-degree: 91%
 
 ---
 
@@ -23,7 +22,7 @@ Qui troverai informazioni sulle ultime versioni del Pannello di controllo Campai
 >
 >Il Pannello di controllo Campaign è accessibile a tutti gli utenti amministratori. I passaggi per concedere a un utente i diritti da amministratore sono descritti in [questa sezione](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=it#discover-control-panel).
 >
->Per Campaign Classic, tieni presente che l’istanza deve essere ospitata su AWS e aggiornata con la build [Gold Standard](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/gs-release/gs-overview.html?lang=it) più recente o con la build [GA più recente (21.1)](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html?lang=it#release-notes). Scopri come controllare la versione in [questa sezione](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=it#getting-your-campaign-version). Per verificare se l’istanza è ospitata su AWS, segui i passaggi descritti in [questa sezione](faq.md).
+>Per Campaign Classic v7, tieni presente che l’istanza deve essere ospitata su AWS e aggiornata con la build [Gold Standard](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/gs-release/gs-overview.html?lang=it) più recente o con la build [GA più recente (21.1)](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html?lang=it#release-notes). Scopri come controllare la versione in [questa sezione](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=it#getting-your-campaign-version). Per verificare se l’istanza è ospitata su AWS, segui i passaggi descritti in [questa sezione](faq.md).
 
 ## Ottobre 2020 {#october-2020}
 
