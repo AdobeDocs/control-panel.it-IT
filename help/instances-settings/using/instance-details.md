@@ -3,19 +3,18 @@ product: campaign
 solution: Campaign
 title: Instance details (Dettagli istanza)
 description: Scopri come monitorare i dettagli dell’istanza nel Pannello di controllo Campaign
-feature: Control Panel
+feature: Pannello di controllo Campaign
 role: Architect
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
+exl-id: 02819bfc-9886-43fc-8014-9bfe64c42048
+source-git-commit: 1bf4f7b6f6d4d9a47f6496299ca1c155eec4a2f3
 workflow-type: tm+mt
 source-wordcount: '558'
-ht-degree: 94%
+ht-degree: 92%
 
 ---
 
-
-# Instance details (Dettagli istanza) {#instance-details}
+# Instance details (Dettagli istanza)  {#instance-details}
 
 >[!CONTEXTUALHELP]
 >id="cp_instancesettings_instancedetails"
@@ -24,13 +23,13 @@ ht-degree: 94%
 >additional-url="https://docs.adobe.com/content/help/it-IT/campaign-classic/using/release-notes/latest-release.html" text="Note sulla versione di Campaign Classic"
 >additional-url="https://docs.adobe.com/content/help/it-IT/campaign-standard/using/release-notes/release-notes.html" text="Note sulla versione di Campaign Standard"
 
-## Informazioni su Instance details (Dettagli istanza) {#about-instance-details}
+## Informazioni su Instance details (Dettagli istanza)  {#about-instance-details}
 
 >[!IMPORTANT]
 >
->Questa funzione è disponibile solo per le istanze di Campaign Classic.
+>Questa funzione è disponibile solo per le istanze Campaign Classic v7 e Campaign v8 .
 
-L’architettura dell’istanza di Adobe Campaign Classic può contenere diversi server per consentire la flessibilità delle attività di marketing. Ad esempio, possono supportare l’istanza i server Marketing, Real Time (In tempo reale) (o Message Center [Centro messaggi]) e Mid Sourcing.
+L’architettura dell’istanza di Adobe Campaign può contenere diversi server per consentire la flessibilità delle attività di marketing. Ad esempio, possono supportare l’istanza i server Marketing, Real Time (In tempo reale) (o Message Center [Centro messaggi]) e Mid Sourcing.
 
 La funzionalità Instance Details (Dettagli istanza) consente di visualizzare l’architettura semplice dell’istanza. Oltre alle informazioni sul server, ti consente anche di sapere se la build dell’istanza è corrente o meno e consiglia gli aggiornamenti quando necessario.
 
@@ -53,7 +52,7 @@ Per ottenere informazioni sui server connessi alle istanze, procedi come segue:
    >
    >Se la scheda Instance Settings (Impostazioni istanze) non è visibile nella home page del Pannello di controllo Campaign, significa che il tuo ID organizzazione IMS non è associato ad alcuna istanza Adobe Campaign Classic
 
-1. Seleziona nel riquadro a sinistra l’istanza Campaign Classic desiderata.
+1. Seleziona nel riquadro a sinistra l’istanza Campaign desiderata.
 
    >[!NOTE]
    >
