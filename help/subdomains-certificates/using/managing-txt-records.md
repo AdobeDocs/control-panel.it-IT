@@ -7,7 +7,7 @@ feature: Pannello di controllo Campaign
 role: Architect
 level: Experienced
 exl-id: 547ca6f2-720f-4d58-b31b-5b2611ba9156
-source-git-commit: 3bd3dcc0e09d887cab7d810d43f2c72bb4251ac9
+source-git-commit: 008edcd915017d147ee496ae7c0130a868b099b9
 workflow-type: tm+mt
 source-wordcount: '354'
 ht-degree: 92%
@@ -21,11 +21,11 @@ ht-degree: 92%
 >title="Gestione dei record TXT"
 >abstract="Alcuni servizi, come Google, richiedono l’aggiunta di un record TXT alle impostazioni del dominio per verificare che tu sia il proprietario del dominio."
 
+## Informazioni sui record TXT {#about-txt-records}
+
 >[!AVAILABILITY]
 >
 >Questa funzionalità non è disponibile per Campaign v8.
-
-## Informazioni sui record TXT {#about-txt-records}
 
 I record TXT sono un tipo di record DNS utilizzati per fornire informazioni testuali su un dominio, leggibili da sorgenti esterne.
 
