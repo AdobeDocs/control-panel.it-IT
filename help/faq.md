@@ -3,15 +3,14 @@ product: campaign
 solution: Campaign
 title: Domande frequenti sul Pannello di controllo Campaign
 description: Domande comuni relative al Pannello di controllo Campaign
-feature: Control Panel
+feature: Pannello di controllo Campaign
 role: Architect
 level: Intermediate
 exl-id: 4f329764-ed8b-4939-affc-ed994fd6101d
-translation-type: ht
-source-git-commit: 4fc34b07b497c743e2ca6c182e68d6ea5c180ac9
-workflow-type: ht
-source-wordcount: '631'
-ht-degree: 100%
+source-git-commit: c88e18e97d2f6fa1fc308050c337a2a578187f9b
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -27,7 +26,7 @@ Per ulteriori informazioni, consulta la [documentazione di Adobe Experience Clou
 
 **Dove posso trovare il mio ID organizzazione IMS?**
 
-Un metodo consiste nell’accedere alla pagina [Home di Adobe Experience Cloud](https://experiencecloud.adobe.com/) > **[!UICONTROL Administration]**. Troverai il tuo ID organizzazione IMS nella parte inferiore della sezione **[!UICONTROL Quick Access]** di Administration (Amministrazione). Per maggiori informazioni, consulta la [documentazione di Adobe Experience Cloud](https://marketing.adobe.com/resources/help/it_IT/mcloud/organizations.html).
+Un metodo consiste nell’accedere alla pagina [Home di Adobe Experience Cloud](https://experiencecloud.adobe.com/) > **[!UICONTROL Administration]**. Troverai il tuo ID organizzazione IMS nella parte inferiore della sezione **[!UICONTROL Quick Access]** di Administration (Amministrazione). Per maggiori informazioni, consulta la [documentazione di Adobe Experience Cloud](https://marketing.adobe.com/resources/help/en_US/mcloud/organizations.html).
 
 L’altro modo consiste nell’avviare **Admin Console**. L’ID organizzazione IMS sarà visibile nell’URL e avrà un aspetto simile a: https://adminconsole.adobe.com/xxx@AdobeOrg/overview.
 
@@ -100,6 +99,10 @@ Il Pannello di controllo Campaign consente agli amministratori di prodotto di ge
 Il Pannello di controllo Campaign consente di tenere traccia dell’archiviazione, inserire IP nell’elenco Consentiti, gestire le chiavi SSH per i server SFTP in modo indipendente in base alle tue esigenze e svolgere altre azioni.
 
 Per ulteriori informazioni, consulta la documentazione sulle azioni supportate dal Pannello di controllo Campaign.
+
+**Quali funzionalità non sono supportate in Campaign v8 ma disponibili in Campaign Classic v7**
+
+Le funzioni relative al sottodominio e alla gestione dei certificati non sono ancora supportate tramite il Pannello di controllo Campaign in Campaign v8. Contatta l’Assistenza clienti di Campaign per qualsiasi supporto correlato.
 
 **Il Pannello di controllo Campaign è solo per Adobe Campaign?**
 
