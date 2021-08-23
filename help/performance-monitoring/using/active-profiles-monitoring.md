@@ -7,10 +7,10 @@ feature: Pannello di controllo Campaign
 role: Architect
 level: Experienced
 exl-id: a157cc27-577f-490f-8c4f-0f203219cfb5
-source-git-commit: 1bf4f7b6f6d4d9a47f6496299ca1c155eec4a2f3
+source-git-commit: c29b6d4bf59628a10f6b8e402176b1835770fc54
 workflow-type: tm+mt
-source-wordcount: '365'
-ht-degree: 92%
+source-wordcount: '364'
+ht-degree: 84%
 
 ---
 
@@ -32,7 +32,7 @@ I profili sono considerati attivi se sono stati targetizzati o se è avvenuta un
 >
 >I canali Facebook e Twitter non vengono presi in considerazione.
 
-Per ulteriori informazioni sui profili attivi, consulta la documentazione [Campaign Standard](https://docs.adobe.com/content/help/it-IT/campaign-standard/using/profiles-and-audiences/managing-profiles/active-profiles.html) e [Campaign Classic v7](https://docs.adobe.com/content/help/it-IT/campaign-classic/using/getting-started/profile-management/about-profiles.html#active-profiles) .
+Per ulteriori informazioni sui profili attivi, consulta la documentazione [Campaign Standard](https://https://experienceleague.adobe.com/docs/campaign-standard/using/profiles-and-audiences/managing-profiles/active-profiles.html) e [Campaign Classic v7](https://https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/about-profiles.html#active-profiles) .
 
 ## Monitorare i profili attivi {#monitoring-active-profiles}
 
@@ -52,7 +52,7 @@ Per farlo, esegui questi passaggi:
 >
 >I profili attivi vengono conteggiati in base ai flussi di lavoro tecnici dedicati che vengono eseguiti quotidianamente sulle istanze:
 >
->* Il flusso di lavoro [“Billing”](https://docs.adobe.com/help/it-IT/campaign-standard/using/administrating/application-settings/technical-workflows.html) (Fatturazione) per Campaign Standard,
+>* Il flusso di lavoro [“Billing”](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/technical-workflows.html?lang=en) (Fatturazione) per Campaign Standard,
 >* Il flusso di lavoro [“Number of active billing profiles”](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/about-technical-workflows.html) (Numero di profili di fatturazione attivi) per Campaign Classic.
 
 
