@@ -3,14 +3,14 @@ product: campaign
 solution: Campaign
 title: Configurazione di un nuovo sottodominio
 description: Scopri come configurare un nuovo sottodominio per le istanze della campaign
-feature: Pannello di controllo Campaign
+feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: d92781c3-14cc-4716-a131-580ccff46d6e
-source-git-commit: 3bd3dcc0e09d887cab7d810d43f2c72bb4251ac9
-workflow-type: tm+mt
-source-wordcount: '1166'
-ht-degree: 97%
+source-git-commit: 599cb22da734f53c0b06583be3e47668dcb57ef1
+workflow-type: ht
+source-wordcount: '1163'
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 97%
 >id="cp_subdomain_management"
 >title="Configurare nuovi sottodomini e gestire certificati"
 >abstract="Devi impostare un nuovo sottodominio e gestire i certificati SSL dei tuoi sottodomini per iniziare a inviare e-mail o pubblicare pagine di destinazione con Adobe Campaign."
->additional-url="https://docs.adobe.com/content/help/it-IT/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html" text="Come monitorare i certificati SSL dei sottodomini"
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html?lang=it" text="Come monitorare i certificati SSL dei sottodomini"
 
 
 ## Da leggere {#must-read}
@@ -87,7 +87,7 @@ Per delegare completamente un sottodominio ad Adobe Campaign, effettua le seguen
 
 Una volta inviato il sottodominio, il Pannello di controllo Campaign eseguirà vari controlli e passaggi di configurazione. Per ulteriori informazioni, consulta [Controlli e configurazione dei sottodomini](#subdomain-checks-and-configuration).
 
-## Configurazione di sottodomini tramite CNAME {#use-cnames}
+## Configurazione dei sottodomini tramite CNAME {#use-cnames}
 
 Per configurare un sottodominio utilizzando i CNAME, segui i passaggi riportati di seguito.
 
