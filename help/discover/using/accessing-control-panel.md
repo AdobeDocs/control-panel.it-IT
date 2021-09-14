@@ -6,14 +6,13 @@ description: Scopri come accedere al Pannello di controllo Campaign
 feature: Control Panel
 role: Architect
 level: Beginner
-translation-type: tm+mt
-source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
+exl-id: eb67af6e-a64e-49a7-9656-782f91bc1d67
+source-git-commit: 7115dac6b3a4cf002979fba36113b98507fdf3db
 workflow-type: tm+mt
-source-wordcount: '162'
-ht-degree: 28%
+source-wordcount: '182'
+ht-degree: 13%
 
 ---
-
 
 # Accesso al Pannello di controllo Campaign {#accessing-control-panel}
 
@@ -23,13 +22,17 @@ Il Pannello di controllo Campaign è disponibile direttamente dall’Experience 
 
 ## Accesso dalla piattaforma Experience Cloud {#access-experience-cloud-platform}
 
-Per accedere al pannello di controllo da Experience Cloud Platform, passa alla pagina alla [Home di Experience Cloud Platform](https://experiencecloud.adobe.com/), quindi fai clic sul collegamento dedicato nella sezione **Accesso  rapido**.
+Per accedere al Pannello di controllo Campaign dalla piattaforma Adobe Experience Cloud, segui i passaggi riportati di seguito.
 
-![](assets/do-not-localize/quickaccess.png)
+1. Passa alla pagina iniziale [Experience Cloud](https://experiencecloud.adobe.com/){target=&quot;_blank&quot;}.
+
+1. Fai clic sul collegamento dedicato nella sezione **Accesso rapido** .
+
+   ![](assets/do-not-localize/quickaccess.png)
 
 Il Pannello di controllo Campaign è accessibile anche dal selettore delle soluzioni **della piattaforma Experience Cloud**:
 
-1. Passa a [Adobe Experience Cloud](https://experiencecloud.adobe.com/), quindi seleziona **Campaign** dal selettore delle soluzioni.
+1. Dalla home page di [Adobe Experience Cloud](https://experiencecloud.adobe.com/){target=&quot;_blank&quot;}, seleziona **Campaign** dalla sezione **Accesso rapido** o dal menu principale a destra.
 
    ![](assets/do-not-localize/control_panel_access1.png)
 
@@ -41,9 +44,11 @@ Il Pannello di controllo Campaign è accessibile anche dal selettore delle soluz
 
 >[!NOTE]
 >
->L’accesso dall’interno del prodotto è disponibile solo per Campaign Standard.
+>L&#39;accesso dall&#39;interno del prodotto è disponibile solo per [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/campaign-standard-home.html?lang=it){target=&quot;_blank&quot;}.
 
-1. Apri il prodotto Campaign Standard, quindi seleziona il menu **[!UICONTROL Administration]** dal riquadro **[!UICONTROL Navigation]**.
+1. Apri il prodotto Campaign Standard.
+
+1. Selezionare il menu **[!UICONTROL Administration]** dal riquadro **Navigazione**.
 
    ![](assets/control_panel_access3.png)
 

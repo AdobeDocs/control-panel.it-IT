@@ -1,19 +1,18 @@
 ---
 product: campaign
 solution: Campaign
-title: Gestione delle autorizzazioni al Pannello di controllo Campaign
+title: Gestione delle autorizzazioni di accesso al Pannello di controllo Campaign
 description: Scopri come gestire le autorizzazioni per il Pannello di controllo Campaign
 feature: Control Panel
 role: Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 8fc348d0a4c858219fbead48e1d31f86c8576f72
+exl-id: 7314a679-78c3-4650-bf3a-2bde8be82747
+source-git-commit: 7115dac6b3a4cf002979fba36113b98507fdf3db
 workflow-type: tm+mt
-source-wordcount: '273'
-ht-degree: 5%
+source-wordcount: '282'
+ht-degree: 6%
 
 ---
-
 
 # Gestione delle autorizzazioni di accesso al Pannello di controllo Campaign {#managing-permissions-control-panel}
 
@@ -21,21 +20,19 @@ Il Pannello di controllo Campaign è disponibile per tutti gli utenti amministra
 
 ![](assets/do-not-localize/how-to-video.png)[ Scopri questa funzione nel video](../../discover/using/managing-permissions.md#video)
 
-1. Passa a [Adobe Experience Cloud](https://experiencecloud.adobe.com/), quindi seleziona la scheda **[!UICONTROL Administration]** .
+1. Passa alla [home page di Adobe Experience Cloud](https://experiencecloud.adobe.com/){target=&quot;_blank&quot;}.
 
-   ![](assets/do-not-localize/control_panel_add_user1.png)
+1. Avvia l&#39; **Admin Console** facendo clic sul collegamento disponibile dalla sezione **Accesso rapido** o dal menu in alto a destra.
+
+   ![](assets/do-not-localize/control_panel_admin-console.png)
 
    >[!NOTE]
    >
-   >Se la scheda <b>Amministrazione</b> non è visibile, significa che non disponi dei diritti di amministratore per la tua organizzazione. Contatta gli amministratori dell’organizzazione per eseguire i passaggi necessari.
+   >Se il collegamento **Admin Console** non è visibile, significa che non disponi dei diritti di amministratore per la tua organizzazione. Contatta gli amministratori dell’organizzazione per eseguire i passaggi necessari.
 
-1. Avvia l&#39; **Admin Console** facendo clic sui collegamenti disponibili.
+1. Dall’elenco **Admin Console**, seleziona il prodotto Campaign desiderato dall’elenco **[!UICONTROL Products and services]**.
 
-   ![](assets/do-not-localize/control_panel_admin1.png)
-
-1. Seleziona il prodotto Campaign desiderato.
-
-   ![](assets/do-not-localize/control_panel_add_user3.png)
+   ![](assets/do-not-localize/control_panel_product-list.png)
 
    >[!NOTE]
    >
@@ -43,13 +40,13 @@ Il Pannello di controllo Campaign è disponibile per tutti gli utenti amministra
 
 1. Viene visualizzato l’elenco delle istanze del prodotto Campaign. Seleziona l’istanza a cui desideri aggiungere un utente amministratore.
 
-   ![](assets/do-not-localize/control_panel_add_user4.png)
+   ![](assets/do-not-localize/control_panel_add_user_4.png)
 
    >[!NOTE]
    >
-   >Puoi aggiungere diversi utenti amministratori per ogni istanza di Campaign. In tal caso, gli utenti amministratori accederanno al Pannello di controllo Campaign dell’istanza a cui appartengono solo.
+   >Puoi aggiungere diversi utenti amministratori per ogni istanza di Campaign. Gli utenti amministratori accederanno al Pannello di controllo Campaign dell’istanza a cui appartengono solo.
 
-1. Viene visualizzato l’elenco dei profili di prodotto per l’istanza selezionata. Fai clic sul profilo di prodotto **[!UICONTROL Administrators]** per accedere all’elenco degli utenti amministratore.
+1. Viene visualizzato l’elenco di **[!UICONTROL Product Profiles]** per l’istanza selezionata. Fai clic sul profilo di prodotto **[!UICONTROL Administrators]** per accedere all’elenco degli utenti amministratore.
 
    ![](assets/do-not-localize/control_panel_add_user_5.png)
 

@@ -3,14 +3,14 @@ product: campaign
 solution: Campaign
 title: Branding dei sottodomini
 description: Ulteriori informazioni sul branding dei sottodomini
-feature: Pannello di controllo Campaign
+feature: Control Panel
 role: Architect
 level: Intermediate
 exl-id: a489d051-fb95-45cf-bb6d-33aef10b7795
 source-git-commit: 599cb22da734f53c0b06583be3e47668dcb57ef1
 workflow-type: tm+mt
-source-wordcount: '707'
-ht-degree: 79%
+source-wordcount: '705'
+ht-degree: 81%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 79%
 >id="cp_certificate_management"
 >title="Informazioni sui sottodomini e i certificati SSL"
 >abstract="Monitora i sottodomini e i certificati SSL associati."
->additional-url="https://https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html" text="Come monitorare i certificati SSL dei sottodomini"
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html?lang=it" text="Come monitorare i certificati SSL dei sottodomini"
 
 
 ## Perché impostare i sottodomini? {#why-setting-up-subdomains}

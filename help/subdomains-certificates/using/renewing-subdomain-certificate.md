@@ -3,14 +3,14 @@ product: campaign
 solution: Campaign
 title: Rinnovo del certificato SSL di un sottodominio
 description: Scopri come rinnovare i certificati SSL dei sottodomini
-feature: Pannello di controllo Campaign
+feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: e9b7c67d-6afa-44f9-b19d-39c0ec9a7edd
 source-git-commit: 599cb22da734f53c0b06583be3e47668dcb57ef1
 workflow-type: tm+mt
-source-wordcount: '863'
-ht-degree: 88%
+source-wordcount: '861'
+ht-degree: 89%
 
 ---
 

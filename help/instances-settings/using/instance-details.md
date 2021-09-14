@@ -3,13 +3,13 @@ product: campaign
 solution: Campaign
 title: Instance details (Dettagli istanza)
 description: Scopri come monitorare i dettagli dell’istanza nel Pannello di controllo Campaign
-feature: Pannello di controllo Campaign
+feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: 02819bfc-9886-43fc-8014-9bfe64c42048
 source-git-commit: 599cb22da734f53c0b06583be3e47668dcb57ef1
 workflow-type: tm+mt
-source-wordcount: '556'
+source-wordcount: '554'
 ht-degree: 89%
 
 ---
