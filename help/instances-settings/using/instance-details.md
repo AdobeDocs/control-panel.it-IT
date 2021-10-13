@@ -7,21 +7,21 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: 02819bfc-9886-43fc-8014-9bfe64c42048
-source-git-commit: 599cb22da734f53c0b06583be3e47668dcb57ef1
+source-git-commit: 62ad3edb604ebd9fab6a3f930b7c79af6b9ca968
 workflow-type: tm+mt
-source-wordcount: '554'
-ht-degree: 89%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
-# Instance details (Dettagli istanza)  {#instance-details}
+# Instance details (Dettagli istanza) {#instance-details}
 
 >[!CONTEXTUALHELP]
 >id="cp_instancesettings_instancedetails"
 >title="Informazioni su Instance details (Dettagli istanza)"
->abstract="Visualizza i dettagli delle istanze di Adobe Campaign: tipi, nomi, informazioni sulla build e possibili raccomandazioni di aggiornamenti."
->additional-url="https://https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html" text="Note sulla versione di Campaign Classic"
->additional-url="https://https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/release-notes.html" text="Note sulla versione di Campaign Standard"
+>abstract="Visualizza i dettagli delle istanze Adobe Campaign: tipi, nomi, informazioni sulla build e possibili raccomandazioni di aggiornamento."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html" text="Note sulla versione di Campaign Classic"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/release-notes.html" text="Note sulla versione di Campaign Standard"
 
 ## Informazioni su Instance details (Dettagli istanza)  {#about-instance-details}
 

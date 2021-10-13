@@ -7,14 +7,20 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: 366dd2ea-c6be-41a2-a4d6-4ffecb5f3d39
-source-git-commit: 599cb22da734f53c0b06583be3e47668dcb57ef1
+source-git-commit: 62ad3edb604ebd9fab6a3f930b7c79af6b9ca968
 workflow-type: tm+mt
-source-wordcount: '1151'
-ht-degree: 8%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # Gestione chiavi GPG {#gpg-keys-management}
+
+>[!CONTEXTUALHELP]
+>id="cp_instancesettings_gpg_management"
+>title="Informazioni sulle chiavi GPG"
+>abstract="In questa scheda, puoi installare e/o generare chiavi GPG in un’istanza di marketing per crittografare i dati inviati da Campaign e decrittografare i dati in arrivo."
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html?lang=en" text="Informazioni sul monitoraggio delle prestazioni"
 
 ## Informazioni sulla crittografia GPG {#about-gpg-encryption}
 
@@ -44,7 +50,7 @@ A questo scopo, devi generare una coppia di chiavi GPG da uno strumento di critt
    >
    >È disponibile un software libero open source per generare chiavi. Tuttavia, assicurati di seguire le linee guida della tua organizzazione e utilizza l&#39;utility GPG consigliata dalla tua organizzazione IT/Security.
 
-1. Una volta installata l&#39;utility, esegui il comando sottostante, nel comando Mac Terminal o Windows.
+1. Una volta installata l&#39;utilità, eseguire il comando sottostante, nel comando Mac Terminal o Windows.
 
    `gpg --full-generate-key`
 
@@ -92,7 +98,7 @@ Per ulteriori informazioni su questo argomento, consulta la documentazione di Ad
 **Campaign Classic v7 e Campaign v8:**
 
 * [ZIP o cifratura di un file](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/managing-data-encryption-compression/zip-encrypt.html)
-* [Caso di utilizzo: Crittografia ed esportazione di dati utilizzando una chiave installata sul Pannello di controllo Campaign](https://https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/general-operation/how-to-use-workflow-data.html#use-case-gpg-encrypt)
+* [Caso di utilizzo: Crittografia ed esportazione di dati utilizzando una chiave installata sul Pannello di controllo Campaign](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html#use-case-gpg-encrypt)
 
 **Campaign Standard:**
 

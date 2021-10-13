@@ -5,14 +5,21 @@ feature: Control Panel
 role: Architect
 level: Beginner
 exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab
-source-git-commit: 599cb22da734f53c0b06583be3e47668dcb57ef1
+source-git-commit: 959fb37034e787d5f61634d55abfe931968613d2
 workflow-type: tm+mt
-source-wordcount: '177'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # Centro risorse {#control-panel-documentation}
+
+>[!CONTEXTUALHELP]
+>id="cp_overview"
+>title="Informazioni sul Pannello di controllo Campaign"
+>abstract="La home page del Pannello di controllo Campaign ti consente di accedere a tutte le azioni che possono essere eseguite sulle istanze Campaign."
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/discovering-the-interface.html" text="Scopri l’interfaccia"
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/accessing-control-panel.html?lang=en" text="Come accedere al Pannello di controllo Campaign"
 
 ![](assets/do-not-localize/banner.png)
 

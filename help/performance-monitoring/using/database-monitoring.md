@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: bb9e1ce3-2472-4bc1-a82a-a301c6bf830e
-source-git-commit: c29b6d4bf59628a10f6b8e402176b1835770fc54
+source-git-commit: 62ad3edb604ebd9fab6a3f930b7c79af6b9ca968
 workflow-type: tm+mt
-source-wordcount: '954'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -31,6 +31,12 @@ L’overflow del database di un’istanza può causare diversi problemi (impossi
 >Se lo spazio del database disponibile riportata nel Pannello di controllo Campaign non corrisponde alla quantità specificata nel contratto, contatta l’Assistenza clienti.
 
 ## Monitoraggio dell’utilizzo del database {#monitoring-instances-database}
+
+>[!CONTEXTUALHELP]
+>id="cp_performancemonitoring_database"
+>title="Informazioni sul monitoraggio del database"
+>abstract="In questa scheda, puoi ottenere informazioni in tempo reale sull’utilizzo e l’evoluzione più recenti e storici del database per ciascuna istanza di Campaign."
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html?lang=en" text="Informazioni sul monitoraggio delle prestazioni"
 
 ![](assets/do-not-localize/how-to-video.png) Scopri questa funzione nel video per [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/performance-monitoring/monitoring-databases.html?lang=it#performance-monitoring) o [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/performance-monitoring/monitoring-databases.html?lang=it#performance-monitoring)
 
@@ -61,6 +67,11 @@ Per ulteriori dettagli su un periodo di tempo specifico, passa il cursore del mo
 ![](assets/databases_dashboard_detail.png)
 
 ### Panoramica sull’archiviazione {#storage-overview}
+
+>[!CONTEXTUALHELP]
+>id="cp_dbdetails_storagedetails"
+>title="Panoramica sullo storage"
+>abstract="In questa scheda puoi ottenere informazioni dettagliate sulle diverse risorse di Campaign che occupano spazio nel database."
 
 L’area **[!UICONTROL Storage overview]** fornisce una rappresentazione grafica dello spazio occupato da:
 

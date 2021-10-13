@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Intermediate
 exl-id: a489d051-fb95-45cf-bb6d-33aef10b7795
-source-git-commit: 599cb22da734f53c0b06583be3e47668dcb57ef1
+source-git-commit: 62ad3edb604ebd9fab6a3f930b7c79af6b9ca968
 workflow-type: tm+mt
-source-wordcount: '705'
-ht-degree: 81%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -20,8 +20,7 @@ ht-degree: 81%
 >id="cp_certificate_management"
 >title="Informazioni sui sottodomini e i certificati SSL"
 >abstract="Monitora i sottodomini e i certificati SSL associati."
->additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html?lang=it" text="Come monitorare i certificati SSL dei sottodomini"
-
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html?lang=it" text="Monitoraggio dei certificati SSL"
 
 ## Perché impostare i sottodomini? {#why-setting-up-subdomains}
 
@@ -60,6 +59,13 @@ Ulteriori informazioni sulla configurazione del dominio sono disponibili in [que
 Se hai domande sui metodi di configurazione dei sottodomini, rivolgiti al team di Adobe Deliverability o contatta l’Assistenza clienti per richiedere consulenza sul recapito messaggi.
 
 ## Casi d’uso dei sottodomini (Campaign Classic){#subdomains-use-cases}
+
+>[!CONTEXTUALHELP]
+>id="cp_add_subdomain_usecase_selection"
+>title="Seleziona il caso d’uso per il sottodominio"
+>abstract="Suddividere i sottodomini per casi d’uso è una best practice per il recapito di messaggi. In questo modo, la reputazione di ciascun sottodominio è isolata e protetta."
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=it" text="Configurazione di un nuovo sottodominio"
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html?lang=it" text="Branding dei sottodomini"
 
 Quando imposti i sottodomini per le istanze di Campaign Classic, devi selezionare il caso d’uso per il quale verrà utilizzato il sottodominio (consulta [Configurazione di un nuovo sottodominio](../../subdomains-certificates/using/setting-up-new-subdomain.md)).
 

@@ -3,14 +3,14 @@ product: campaign
 solution: Campaign
 title: Inserimento di IP nell’elenco Consentiti
 description: Scopri come aggiungere indirizzi IP all’elenco Consentiti nel Pannello di controllo Campaign per accedere alle istanze
-feature: Pannello di controllo Campaign
+feature: Control Panel
 role: Architect
 level: Intermediate
 exl-id: 1d1eeff8-969e-4529-b947-2a68defb8d13
-source-git-commit: 1bf4f7b6f6d4d9a47f6496299ca1c155eec4a2f3
+source-git-commit: 62ad3edb604ebd9fab6a3f930b7c79af6b9ca968
 workflow-type: tm+mt
-source-wordcount: '770'
-ht-degree: 91%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -46,11 +46,11 @@ Accertati di seguire le raccomandazioni e le limitazioni riportate di seguito qu
 * **Se hai temporaneamente attivato l’accesso all’istanza per un indirizzo IP**, assicurati di rimuoverlo dall’elenco Consentiti una volta che non è più necessario per connettersi all’istanza.
 * **Si sconsiglia di aggiungere all’elenco Consentiti gli indirizzi IP di luoghi pubblici** (aeroporti, alberghi, ecc.). Utilizza l’indirizzo VPN dell’azienda per proteggere sempre la tua istanza.
 
-## Aggiungere indirizzi IP all’elenco Consentiti per accedere alle istanze {#adding-ip-addresses-allow-list}
+## Aggiunta di indirizzi IP all’elenco consentiti per l’accesso alle istanze {#adding-ip-addresses-allow-list}
 
 >[!CONTEXTUALHELP]
 >id="cp_instancesettings_iprange_add"
->title="Aggiungere un nuovo intervallo IP"
+>title="Configurazione dell&#39;intervallo IP"
 >abstract="Definisci l’intervallo IP da aggiungere all’elenco Consentiti per collegarti all’istanza."
 
 Per aggiungere indirizzi IP all’elenco Consentiti, esegui i seguenti passaggi:
