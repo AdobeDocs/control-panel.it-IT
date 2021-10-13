@@ -5,10 +5,10 @@ feature: Control Panel
 role: Architect
 level: Beginner
 exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab
-source-git-commit: 959fb37034e787d5f61634d55abfe931968613d2
+source-git-commit: cca04cd965c00a9e2bc496de632ee41ce53a166a
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '212'
+ht-degree: 90%
 
 ---
 
@@ -18,8 +18,8 @@ ht-degree: 0%
 >id="cp_overview"
 >title="Informazioni sul Pannello di controllo Campaign"
 >abstract="La home page del Pannello di controllo Campaign ti consente di accedere a tutte le azioni che possono essere eseguite sulle istanze Campaign."
->additional-url="https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/discovering-the-interface.html" text="Scopri l’interfaccia"
->additional-url="https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/accessing-control-panel.html?lang=en" text="Come accedere al Pannello di controllo Campaign"
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/discovering-the-interface.html" text="Esplorazione dell’interfaccia"
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/accessing-control-panel.html" text="Accesso al Pannello di controllo Campaign"
 
 ![](assets/do-not-localize/banner.png)
 
@@ -35,7 +35,7 @@ La scheda **[!UICONTROL Database monitoring]** è stata migliorata con metriche 
 
 >[!CAUTION]
 >
->* Il Pannello di controllo Campaign è riservato agli utenti amministratori. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=it#discover-control-panel)
+>* Il Pannello di controllo Campaign è riservato agli utenti amministratori. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html#discover-control-panel)
 >
 >* Per Campaign Classic v7, si applicano restrizioni di distribuzione. [Ulteriori informazioni](faq.md#v7-restrictions)
 >
@@ -55,13 +55,13 @@ La scheda **[!UICONTROL Database monitoring]** è stata migliorata con metriche 
         <td><b>Campaign Classic v7</b><br/>
         <ul>
             <li><a href="https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/control-panel-overview.html?lang=it">Video tutorial sul Pannello di controllo Campaign</a></li>
-            <li><a href="https://experienceleague.adobe.com/docs/campaign-classic/using/campaign-classic-home.html?lang=it">Documentazione del prodotto di Campaign Classic v7</a></li>
+            <li><a href="://experienceleague.adobe.com/docs/campaign-classic/using/campaign-classic-home.html?lang=it">Documentazione del prodotto di Campaign Classic v7</a></li>
         </ul>
         </td>
         <td><b>Campaign v8</b><br/>
         <ul>
             <li><a href="https://experienceleague.adobe.com/docs/campaign-learn/control-panel/control-panel-overview.html?lang=it">Video tutorial sul Pannello di controllo Campaign</a></li>
-            <li><a href="https://experienceleague.adobe.com/docs/campaign-classic/using/campaign-classic-home.html?lang=it">Documentazione del prodotto di Campaign v8</a></li>
+            <li><a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html">Documentazione del prodotto di Campaign v8</a></li>
         </ul>
         </td>
     </tr>

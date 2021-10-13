@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: a157cc27-577f-490f-8c4f-0f203219cfb5
-source-git-commit: 62ad3edb604ebd9fab6a3f930b7c79af6b9ca968
+source-git-commit: cca04cd965c00a9e2bc496de632ee41ce53a166a
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '396'
+ht-degree: 76%
 
 ---
 
@@ -32,7 +32,7 @@ I profili sono considerati attivi se sono stati targetizzati o se è avvenuta un
 >
 >I canali Facebook e Twitter non vengono presi in considerazione.
 
-Per ulteriori informazioni sui profili attivi, consulta la documentazione [Campaign Standard](https://https://experienceleague.adobe.com/docs/campaign-standard/using/profiles-and-audiences/managing-profiles/active-profiles.html) e [Campaign Classic v7](https://https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/about-profiles.html#active-profiles) .
+Per ulteriori informazioni sui profili attivi, consulta la documentazione [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/profiles-and-audiences/managing-profiles/active-profiles.html) e [Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/about-profiles.html#active-profiles) .
 
 ## Monitorare i profili attivi {#monitoring-active-profiles}
 
@@ -40,7 +40,7 @@ Per ulteriori informazioni sui profili attivi, consulta la documentazione [Campa
 >id="cp_performancemonitoring_active_profile"
 >title="Informazioni sul monitoraggio dei profili attivi"
 >abstract="In questa scheda, puoi ottenere informazioni in tempo reale sull’utilizzo e l’evoluzione dei profili attivi più recenti e storici per ciascuna delle istanze Campaign."
->additional-url="https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html?lang=en" text="Informazioni sul monitoraggio delle prestazioni"
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html" text="Informazioni sul monitoraggio delle prestazioni"
 
 Il Pannello di controllo Campaign consente di monitorare l’utilizzo dei profili attivi per ciascuna istanza di Campaign.
 
@@ -58,7 +58,7 @@ Per farlo, esegui questi passaggi:
 >
 >I profili attivi vengono conteggiati in base ai flussi di lavoro tecnici dedicati che vengono eseguiti quotidianamente sulle istanze:
 >
->* Il flusso di lavoro [“Billing”](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/technical-workflows.html?lang=it) (Fatturazione) per Campaign Standard,
+>* Il flusso di lavoro [“Billing”](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/technical-workflows.html) (Fatturazione) per Campaign Standard,
 >* Il flusso di lavoro [“Number of active billing profiles”](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/about-technical-workflows.html) (Numero di profili di fatturazione attivi) per Campaign Classic.
 
 
