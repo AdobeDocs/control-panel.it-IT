@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: 03815e01-6371-4e1c-b4b8-7abe25957cee
-source-git-commit: cca04cd965c00a9e2bc496de632ee41ce53a166a
+source-git-commit: 99861c898c216d2589f23bd52779db328ea47256
 workflow-type: tm+mt
-source-wordcount: '642'
-ht-degree: 91%
+source-wordcount: '1053'
+ht-degree: 36%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 91%
 >[!CONTEXTUALHELP]
 >id="cp_key_management"
 >title="Informazioni sulla gestione delle chiavi pubbliche"
->abstract="In questa scheda puoi creare, gestire e modificare le chiavi pubbliche."
+>abstract="In questa scheda, crea, gestisci e modifica le tue chiavi pubbliche."
 >additional-url="https://images-tv.adobe.com/mpcv3/8a977e03-d76c-44d3-853c-95d0b799c870_1560205338.1920x1080at3000_h264.mp4#t=166" text="Guarda il video dimostrativo"
 
 Adobe consiglia a tutti i clienti di stabilire una connessione ai propri server SFTP con una **coppia di chiavi pubblica e privata**.
@@ -27,10 +27,6 @@ Adobe consiglia a tutti i clienti di stabilire una connessione ai propri server 
 Di seguito sono descritti i passaggi per generare una chiave SSH pubblica e aggiungerla per accedere al server SFTP, nonché le raccomandazioni relative all’autenticazione.
 
 Una volta configurato l’accesso al server, ricorda di **inserire nell’elenco Consentiti gli indirizzi IP che richiederanno l’accesso al server** in modo da poterti connettere a esso. Per ulteriori informazioni al riguardo, consulta [questa sezione](../../instances-settings/using/ip-allow-listing-instance-access.md).
-
->[!NOTE]
->
->Attualmente non è possibile eliminare una chiave pubblica SSH.
 
 ![](assets/do-not-localize/how-to-video.png) Scopri questa funzione nel video per [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/sftp-management/generate-ssh-key.html#sftp-management) o [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/sftp-management/generate-ssh-key.html#sftp-management)
 
@@ -42,7 +38,7 @@ Assicurati di utilizzare sempre la stessa autenticazione per connetterti al serv
 
 **Integrazione API con nome utente e password**
 
-In casi molto rari l’autenticazione basata sulla password è abilitata su alcuni server SFTP. Adobe consiglia di utilizzare l’autenticazione basata sulle chiavi, in quanto questo metodo è più efficiente e sicuro. Puoi richiedere di passare all’autenticazione basata sulle chiavi contattando l’Assistenza clienti.
+In rari casi, l’autenticazione basata su password è abilitata su alcuni server SFTP. Adobe consiglia di utilizzare l’autenticazione basata sulle chiavi, in quanto questo metodo è più efficiente e sicuro. Puoi richiedere di passare all’autenticazione basata sulle chiavi contattando l’Assistenza clienti.
 
 >[!IMPORTANT]
 >
@@ -57,7 +53,7 @@ In casi molto rari l’autenticazione basata sulla password è abilitata su alcu
 
 >[!IMPORTANT]
 >
->I passaggi indicati di seguito sono solo un esempio di creazione di chiavi SSH. Segui le linee guida aziendali relative alle chiavi SSH. Il seguente è solo un esempio di come ciò possa essere fatto e funge da utile punto di riferimento per la comunicazione dei requisiti al tuo team o gruppo di rete interno.
+>Devi sempre seguire le linee guida aziendali relative alle chiavi SSH. I passaggi seguenti sono solo un esempio di come è possibile creare chiavi SSH e possono fungere da utile punto di riferimento per la comunicazione dei requisiti al tuo team o gruppo di rete interno.
 
 1. Accedi alla scheda **[!UICONTROL Key Management]**, quindi fai clic sul pulsante **[!UICONTROL Add new public key]**.
 
@@ -65,19 +61,25 @@ In casi molto rari l’autenticazione basata sulla password è abilitata su alcu
 
 1. Nella finestra di dialogo visualizzata, seleziona il nome utente per il quale desideri creare la chiave pubblica e il server per il quale desideri attivare la chiave.
 
+   ![](assets/key1.png)
+
    >[!NOTE]
    >
-   >L’interfaccia controllerà se un determinato nome utente è attivo in una determinata istanza e ti darà la possibilità di attivare la chiave in una o più istanze.
+   >Il Pannello di controllo Campaign controllerà se un determinato nome utente è attivo in una determinata istanza e ti consentirà di attivare la chiave in una o più istanze.
    >
    >Per ogni utente è possibile aggiungere una o più chiavi SSH pubbliche.
 
-   ![](assets/key1.png)
+1. Per gestire meglio le chiavi pubbliche, puoi impostare una durata per la disponibilità di ogni chiave. A questo scopo, seleziona un’unità nell’elenco a discesa **[!UICONTROL Type]** e definisci una durata nel campo corrispondente. Per ulteriori informazioni sulla scadenza delle chiavi pubbliche, consulta [questa sezione](#expiry).
 
-1. Copia e incolla la chiave SSH pubblica. Per generare una chiave pubblica, attieniti alla procedura seguente corrispondente al tuo sistema operativo:
+   ![](assets/key_expiry.png)
 
    >[!NOTE]
    >
-   >La dimensione della chiave SSH pubblica deve essere **2048 bit**.
+   >Per impostazione predefinita, il campo **[!UICONTROL Type]** è impostato su **[!UICONTROL Unlimited]**, il che significa che la chiave pubblica non scade.
+
+1. Nel campo **[!UICONTROL Comment]** puoi indicare un motivo per aggiungere questa chiave pubblica (perché, per chi, ecc.).
+
+1. Per poter compilare il campo **[!UICONTROL Public Key]**, devi generare una chiave SSH pubblica. Segui i passaggi riportati di seguito in base al tuo sistema operativo.
 
    **Linux e Mac:**
 
@@ -89,18 +91,82 @@ In casi molto rari l’autenticazione basata sulla password è abilitata su alcu
 
    **Windows:**
 
-   Potrebbe essere necessario installare uno strumento di terze parti che ti aiuterà a generare una coppia di chiavi pubblica/privata nello stesso formato “name.pub”.
+   Potrebbe essere necessario installare uno strumento di terze parti che ti aiuterà a generare una coppia di chiavi pubblica/privata nello stesso formato &quot;name.pub&quot;.
 
 1. Apri il file .pub, quindi copia e incolla l’intera stringa a partire da “ssh...” nel Pannello di controllo Campaign.
 
    ![](assets/publickey.png)
 
-1. Fai clic sul pulsante **[!UICONTROL Save]** per creare la chiave. Il Pannello di controllo Campaign salva la chiave pubblica e l’impronta digitale associata, crittografate con il formato SHA256.
+   >[!NOTE]
+   >
+   >Il campo **[!UICONTROL Public Key]** accetta solo il formato OpenSSH. La dimensione della chiave SSH pubblica deve essere **2048 bit**.
 
-Puoi utilizzare le impronte digitali per far corrispondere le chiavi private salvate sul computer alle corrispondenti chiavi pubbliche salvate nel Pannello di controllo Campaign.
+1. Fai clic sul pulsante **[!UICONTROL Save]** per creare la chiave. Il Pannello di controllo Campaign salva la chiave pubblica e l&#39;impronta digitale associata, crittografate con il formato SHA256.
+
+>[!IMPORTANT]
+>
+>Se la chiave creata viene utilizzata per stabilire una connessione con un sistema che non è mai stato connesso al server SFTP selezionato in precedenza, dovrai aggiungere un IP pubblico di tale sistema all’elenco consentiti prima di poter utilizzare questo sistema con il server SFTP. Vedi [questa sezione](ip-range-allow-listing.md).
+
+È possibile utilizzare le impronte digitali per far corrispondere le chiavi private salvate sul computer con le corrispondenti chiavi pubbliche salvate nel Pannello di controllo Campaign.
 
 ![](assets/fingerprint_compare.png)
 
 Il pulsante “**...**” ti consente di eliminare una chiave esistente o di copiarne l’impronta digitale negli Appunti.
 
 ![](assets/key_options.png)
+
+## Gestione delle chiavi pubbliche {#managing-public-keys}
+
+Le chiavi pubbliche create vengono visualizzate nella scheda **[!UICONTROL Key Management]** .
+
+Puoi ordinare gli elementi in base alla data di creazione o di modifica, all’utente che lo ha creato o modificato e alla scadenza dell’intervallo IP.
+
+È inoltre possibile cercare una chiave pubblica iniziando a digitare un nome o un commento.
+
+![](assets/control_panel_key_management_sort.png)
+
+Per modificare uno o più intervalli IP, consulta [questa sezione](#editing-public-keys).
+
+Per eliminare una o più chiavi pubbliche dall&#39;elenco, selezionale, quindi fai clic sul pulsante **[!UICONTROL Delete public key]** .
+
+![](assets/control_panel_delete_key.png)
+
+### Scadenza {#expiry}
+
+La colonna **[!UICONTROL Expires]** mostra quanti giorni rimangono fino alla scadenza della chiave pubblica.
+
+Se ti sei iscritto a [Avvisi e-mail](../../performance-monitoring/using/email-alerting.md), riceverai notifiche via e-mail 10 giorni e 5 giorni prima della scadenza di una chiave pubblica e il giorno in cui scade. Dopo aver ricevuto l&#39;avviso, puoi [modificare la chiave pubblica](#editing-public-keys) per estenderne il periodo di validità, se necessario.
+
+Una chiave pubblica scaduta verrà eliminata automaticamente dopo 7 giorni. Viene visualizzato come **[!UICONTROL Expired]** nella colonna **[!UICONTROL Expires]**. Entro questo periodo di 7 giorni:
+
+* Impossibile più utilizzare una chiave pubblica scaduta per connettersi al server SFTP.
+
+* È possibile [modificare](#editing-public-keys) una chiave pubblica scaduta e aggiornarne la durata per renderla nuovamente disponibile.
+
+* È possibile eliminarlo dall’elenco.
+
+## Modifica delle chiavi pubbliche {#editing-public-keys}
+
+>[!CONTEXTUALHELP]
+>id="cp_sftp_publickey_update"
+>title="Modifica chiavi pubbliche"
+>abstract="Aggiorna le chiavi pubbliche selezionate per accedere al server SFTP."
+
+Per modificare le chiavi pubbliche, segui i passaggi seguenti.
+
+>[!NOTE]
+>
+>Puoi modificare solo le chiavi pubbliche create a partire dalla versione di ottobre 2021 del Pannello di controllo Campaign.
+
+1. Seleziona uno o più elementi dall&#39;elenco **[!UICONTROL Key Management]**.
+1. Fai clic sul pulsante **[!UICONTROL Update public key]**.
+
+   ![](assets/control_panel_edit_key.png)
+
+1. È possibile modificare solo la scadenza della chiave pubblica e/o aggiungere un nuovo commento.
+
+   >[!NOTE]
+   >
+   >Per modificare il nome utente, l’istanza e la chiave pubblica in formato OpenSSH, elimina la chiave pubblica e creane una nuova corrispondente alle tue esigenze.
+
+1. Salva le modifiche.
