@@ -6,28 +6,27 @@ description: Ulteriori informazioni sull'interfaccia del Pannello di controllo C
 feature: Control Panel
 role: Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
+exl-id: 20302017-d4b1-489b-a6b4-f086e5bad4d5
+source-git-commit: 99409f462993191d8fb4d6dfacc77c1e4b973f68
 workflow-type: tm+mt
-source-wordcount: '141'
-ht-degree: 32%
+source-wordcount: '124'
+ht-degree: 35%
 
 ---
-
 
 # Esplorazione dell’interfaccia del Pannello di controllo Campaign {#discovering-interface}
 
 La home page del Pannello di controllo Campaign ti consente di accedere a tutte le azioni che possono essere eseguite sulle istanze Campaign.
 
-Sono rappresentati da schede organizzate in argomenti, ad esempio **Storage &amp; Database Management**.
+Sono rappresentati da schede organizzate in argomenti, ad esempio **Monitoraggio delle prestazioni**.
 
-Con le prossime versioni di Campaign, saranno disponibili ulteriori argomenti e schede.
+<!--With upcoming Campaign releases, more topics and cards will be made available.-->
 
 ![](assets/control_panel_interface.png)
 
 ## Registri di lavoro {#job-logs}
 
-Il pulsante **[!UICONTROL Job Logs]** nell’angolo in alto a destra consente di controllare tutte le modifiche apportate dagli utenti dell’organizzazione.
+La **[!UICONTROL Job Logs]** nell’angolo in alto a destra consente di controllare tutte le modifiche apportate dagli utenti dell’organizzazione.
 
 ![](assets/control_panel_interface2.png)
 
@@ -37,8 +36,8 @@ Il pulsante **[!UICONTROL Open]** (Apri) consente di accedere direttamente alla 
 
 ![](assets/control_panel_logdetails.png)
 
-## Risorse della Guida {#help-resources}
+## Risorse dell’Aiuto {#help-resources}
 
-La sezione **[!UICONTROL Help Resources]** fornisce un’utile documentazione sull’utilizzo dei prodotti Pannelli di controllo Campaign e Campaign. Non esitate a esplorarle.
+La **[!UICONTROL Help Resources]** La sezione fornisce una documentazione utile per aiutarti nell’utilizzo dei prodotti Pannelli di controllo Campaign e Campaign. Non esitate a esplorarle.
 
 ![](assets/helpresources.png)

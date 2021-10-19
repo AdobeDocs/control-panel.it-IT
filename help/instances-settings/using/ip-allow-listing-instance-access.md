@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Intermediate
 exl-id: 1d1eeff8-969e-4529-b947-2a68defb8d13
-source-git-commit: cca04cd965c00a9e2bc496de632ee41ce53a166a
+source-git-commit: 83a6d002a5a21815a66d198c6e5e805f559d5ee2
 workflow-type: tm+mt
-source-wordcount: '765'
-ht-degree: 89%
+source-wordcount: '770'
+ht-degree: 87%
 
 ---
 
@@ -53,13 +53,15 @@ Accertati di seguire le raccomandazioni e le limitazioni riportate di seguito qu
 >title="Configurazione dell&#39;intervallo IP"
 >abstract="Definisci l’intervallo IP da aggiungere all’elenco Consentiti per collegarti all’istanza."
 
+>[!NOTE]
+>
+>Se la scheda **[!UICONTROL Instance Settings]** non è visibile nella home page del Pannello di controllo Campaign, significa che il tuo ID organizzazione IMS non è associato ad alcuna istanza di Adobe Campaign Classic v7 o Campaign v8.
+
 Per aggiungere indirizzi IP all’elenco Consentiti, esegui i seguenti passaggi:
 
 1. Apri **[!UICONTROL Instances Settings card]** per accedere alla scheda dell’inserimento di IP nell’elenco Consentiti, quindi fai clic su **[!UICONTROL Add new IP Range]**.
 
-   >[!NOTE]
-   >
-   >Se la scheda Instance Settings (Impostazioni istanze) non è visibile nella home page del Pannello di controllo Campaign, significa che il tuo ID organizzazione IMS non è associato ad alcuna istanza Adobe Campaign Classic
+
 
    ![](assets/ip_whitelist_list1.png)
 
@@ -90,9 +92,11 @@ Per aggiungere indirizzi IP all’elenco Consentiti, esegui i seguenti passaggi:
 
 1. Fai clic sul pulsante **[!UICONTROL Save]**. L’intervallo IP viene aggiunto all’elenco Consentiti.
 
-   ![](assets/ip_whitelist_added.png)
+   <!--![](assets/ip_whitelist_added.png)-->
 
-Per eliminare gli intervalli IP dall’elenco Consentiti, selezionali e fai clic sul pulsante **[!UICONTROL Delete IP range]**.
+Per eliminare uno o più intervalli IP dall’elenco consentiti, selezionali, quindi fai clic sul pulsante **[!UICONTROL Delete IP range]** .
+
+![](assets/ip_whitelist_delete.png)
 
 **Argomento correlato:**
 
