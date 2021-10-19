@@ -22,17 +22,17 @@ Qui troverai informazioni sulle ultime versioni del Pannello di controllo Campai
 >
 >Il Pannello di controllo Campaign è accessibile a tutti gli utenti amministratori. I passaggi per concedere a un utente i diritti da amministratore sono descritti in [questa sezione](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html#discover-control-panel).
 >
->Per Campaign Classic v7, tieni presente che l’istanza deve essere ospitata su AWS e aggiornata con la build [Gold Standard](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/gs-release/gs-overview.html?lang=it) più recente o con la build [GA più recente (21.1)](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html?lang=it#release-notes). Scopri come controllare la versione in [questa sezione](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=it#getting-your-campaign-version). Per verificare se l’istanza è ospitata su AWS, segui i passaggi descritti in [questa sezione](faq.md).
+>Per Campaign Classic v7, tieni presente che l’istanza deve essere ospitata su AWS e aggiornata con l’ultima [Gold Standard](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/gs-release/gs-overview.html?lang=it) o [build GA più recente (21.1)](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html?lang=it#release-notes). Scopri come controllare la versione in [questa sezione](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=it#getting-your-campaign-version). Per verificare se l’istanza è ospitata su AWS, segui i passaggi descritti in [questa sezione](faq.md).
 
 ## Ottobre 2021 {#october-2021}
 
 **Intervallo IP e periodo di validità della chiave pubblica**
 
-È ora possibile impostare una durata per la disponibilità di intervalli IP e chiavi pubbliche. Per ulteriori informazioni, consulta le sezioni [Inserimento di IP nell’elenco Consentiti](sftp/using/ip-range-allow-listing.md#adding-ip-addresses-allow-list) e [Gestione delle chiavi](sftp/using/key-management.md#installing-ssh-key) .
+È ora possibile impostare una durata per la disponibilità di intervalli IP e chiavi pubbliche. Ulteriori informazioni nella sezione [Inserimento di intervalli IP nell’elenco Consentiti](sftp/using/ip-range-allow-listing.md#adding-ip-addresses-allow-list) e [Gestione delle chiavi](sftp/using/key-management.md#installing-ssh-key) sezioni.
 
 **Gamma IP e chiave pubblica**
 
-Ora puoi modificare gli [intervalli IP](sftp/using/ip-range-allow-listing.md#editing-ip-ranges) e le [chiavi pubbliche](sftp/using/key-management.md#editing-public-keys) che crei. Questa funzione non è disponibile per gli elementi creati prima della versione del Pannello di controllo Campaign corrente.
+È ora possibile modificare le [Intervalli IP](sftp/using/ip-range-allow-listing.md#editing-ip-ranges) e [chiavi pubbliche](sftp/using/key-management.md#editing-public-keys) che crei. Questa funzione non è disponibile per gli elementi creati prima della versione del Pannello di controllo Campaign corrente.
 
 **Avvisi sull’intervallo IP SFTP e sulla scadenza della chiave pubblica**
 
@@ -40,13 +40,13 @@ La funzionalità di avvisi e-mail ora include avvisi sulla scadenza dell’inser
 
 **Supporto completo con Campaign v8**
 
-Le funzionalità di gestione **Sottodominio** e **Certificato** sono ora supportate da Pannelli di controllo Campaign in Adobe Campaign v8.
+La **Sottodominio** e **Certificato** le funzionalità di gestione sono ora supportate da Pannelli di controllo Campaign in Adobe Campaign v8.
 
 ## Agosto 2021 {#august-2021}
 
 **Supporto con Campaign v8**
 
-Il Pannello di controllo Campaign è ora disponibile per Adobe Campaign v8, ad eccezione delle funzionalità di gestione **Sottodominio** e **Certificato**, che non sono ancora supportate. Ulteriori informazioni sono disponibili nella [documentazione di Campaign  v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/deploy/self-service.html){target=&quot;_blank&quot;}
+Il Pannello di controllo Campaign è ora disponibile per Adobe Campaign v8, tranne il **Sottodominio** e **Certificato** funzionalità di gestione non ancora supportate. Ulteriori informazioni sono disponibili nella [documentazione di Campaign  v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/deploy/self-service.html){target=&quot;_blank&quot;}
 
 ## Ottobre 2020 {#october-2020}
 

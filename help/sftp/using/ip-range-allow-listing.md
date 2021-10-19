@@ -30,7 +30,7 @@ I server SFTP sono protetti. Per potervi accedere per visualizzare i file o scri
 
 CIDR (Classless Inter-Domain Routing) è il formato supportato per l’aggiunta di intervalli IP tramite l’interfaccia del Pannello di controllo Campaign.
 
-La sintassi è composta da un indirizzo IP seguito da un carattere “/” e da un numero decimale. Il formato e la sintassi sono descritti in [questo articolo](https://whatismyipaddress.com/cidr){target=&quot;_blank&quot;}.
+La sintassi è composta da un indirizzo IP seguito da un carattere “/” e da un numero decimale. Il formato e la sintassi sono descritti dettagliatamente in [articolo](https://whatismyipaddress.com/cidr){target=&quot;_blank&quot;}.
 
 È possibile cercare su Internet strumenti online gratuiti che ti aiuteranno a convertire l&#39;intervallo IP in formato CIDR.
 
@@ -41,7 +41,7 @@ Accertati di seguire le raccomandazioni e le limitazioni riportate di seguito qu
 * **Aggiungere intervalli IP all’elenco Consentiti** anziché indirizzi IP singoli. Per inserire un indirizzo IP singolo nell’elenco Consentiti, aggiungi “/32” per indicare che l’intervallo include un solo IP.
 * **Non aggiungere intervalli eccessivamente ampi all’elenco Consentiti**, ad esempio intervalli che includono > 265 indirizzi IP. Il Pannello di controllo Campaign rifiuterà qualsiasi intervallo in formato CIDR compreso tra /0 e /23.
 * Solo gli **indirizzi IP pubblici** possono essere aggiunti all’elenco Consentiti.
-* Assicurati di **eliminare regolarmente gli indirizzi IP** di cui non hai più bisogno dall&#39;elenco consentiti.
+* Assicurati di **eliminare regolarmente gli indirizzi IP** che non ti serve più dall&#39;elenco consentiti.
 
 ## Aggiungere indirizzi IP all’elenco Consentiti {#adding-ip-addresses-allow-list}
 
@@ -75,20 +75,20 @@ Per aggiungere un intervallo IP all’elenco Consentiti, esegui questi passaggi:
 
    >[!NOTE]
    >
-   >Nel campo **[!UICONTROL Label]** sono consentiti i seguenti caratteri speciali:
+   >I seguenti caratteri speciali sono consentiti nella variabile **[!UICONTROL Label]** campo:
    > `. _ - : / ( ) # , @ [ ] + = & ; { } ! $`
 
-1. Per gestire meglio il tuo elenco consentiti IP, puoi impostare una durata per la disponibilità di ogni intervallo IP. A questo scopo, seleziona un’unità nell’elenco a discesa **[!UICONTROL Type]** e definisci una durata nel campo corrispondente. Per ulteriori informazioni sulla scadenza degli intervalli IP, consulta [questa sezione](#expiry).
+1. Per gestire meglio il tuo elenco consentiti IP, puoi impostare una durata per la disponibilità di ogni intervallo IP. A questo scopo, seleziona un’unità nella **[!UICONTROL Type]** elenco a discesa e definire una durata nel campo corrispondente. Per ulteriori informazioni sulla scadenza dell’intervallo IP, consulta [questa sezione](#expiry).
 
    ![](assets/control_panel_add_range5.png)
 
    >[!NOTE]
    >
-   >Per impostazione predefinita, il campo **[!UICONTROL Type]** è impostato su **[!UICONTROL Unlimited]**, il che significa che l’intervallo IP non scade.
+   >Per impostazione predefinita, la **[!UICONTROL Type]** campo impostato su **[!UICONTROL Unlimited]**, il che significa che l’intervallo IP non scade mai.
 
-1. Nel campo **[!UICONTROL Comment]** puoi indicare un motivo per l’autorizzazione di questo intervallo IP (perché, per chi, ecc.).
+1. In **[!UICONTROL Comment]** campo , puoi indicare un motivo per consentire questo intervallo IP (perché, per chi, ecc.).
 
-1. Fai clic sul pulsante **[!UICONTROL Save]**. L’aggiunta dell’intervallo IP all’elenco consentiti verrà visualizzata come **[!UICONTROL Pending]** finché la richiesta non viene completamente elaborata, il che dovrebbe richiedere solo alcuni secondi.
+1. Fai clic sul pulsante **[!UICONTROL Save]**. L’intervallo IP aggiunto all’elenco consentiti verrà visualizzato come **[!UICONTROL Pending]** fino a quando la richiesta non viene completamente elaborata, il che dovrebbe richiedere solo pochi secondi.
 
    ![](assets/control_panel_add_range6.png)
 
@@ -98,7 +98,7 @@ Per aggiungere un intervallo IP all’elenco Consentiti, esegui questi passaggi:
 
 ## Gestione degli intervalli IP {#managing-ip-ranges}
 
-Gli intervalli IP creati vengono visualizzati nella scheda **[!UICONTROL IP Allow Listing]** .
+Gli intervalli IP creati vengono visualizzati nel **[!UICONTROL IP Allow Listing]** scheda .
 
 Puoi ordinare gli elementi in base alla data di creazione o di modifica, all’utente che lo ha creato o modificato e alla scadenza dell’intervallo IP.
 
@@ -106,25 +106,25 @@ Puoi anche eseguire la ricerca in un intervallo IP iniziando a digitare un’eti
 
 ![](assets/control_panel_allow_list_sort.png)
 
-Per modificare uno o più intervalli IP, consulta [questa sezione](#editing-ip-ranges).
+Per modificare uno o più intervalli IP, vedi [questa sezione](#editing-ip-ranges).
 
-Per eliminare uno o più intervalli IP dall’elenco consentiti, selezionali, quindi fai clic sul pulsante **[!UICONTROL Delete IP range]** .
+Per eliminare uno o più intervalli IP dall’elenco consentiti, selezionali, quindi fai clic sul pulsante **[!UICONTROL Delete IP range]** pulsante .
 
 ![](assets/control_panel_delete_range.png)
 
 ### Scadenza {#expiry}
 
-La colonna **[!UICONTROL Expires]** mostra quanti giorni rimangono fino alla scadenza dell’intervallo IP.
+La **[!UICONTROL Expires]** mostra quanti giorni rimangono fino alla scadenza dell’intervallo IP.
 
-Se ti sei abbonato a [e-mail di avviso](../../performance-monitoring/using/email-alerting.md), riceverai notifiche via e-mail 10 giorni e 5 giorni prima della scadenza di un intervallo IP e il giorno in cui scade. Dopo aver ricevuto l&#39;avviso, puoi [modificare l&#39;intervallo IP](#editing-ip-ranges) per estenderne il periodo di validità, se necessario.
+Se hai effettuato la sottoscrizione a [avvisi e-mail](../../performance-monitoring/using/email-alerting.md), riceverai notifiche via e-mail 10 giorni e 5 giorni prima della scadenza di un intervallo IP e il giorno in cui scade. Dopo aver ricevuto l&#39;avviso, puoi [modifica dell’intervallo IP](#editing-ip-ranges) di prorogare, se necessario, il periodo di validità.
 
-Un intervallo IP scaduto verrà eliminato automaticamente dopo 7 giorni. Viene visualizzato come **[!UICONTROL Expired]** nella colonna **[!UICONTROL Expires]**. Entro questo periodo di 7 giorni:
+Un intervallo IP scaduto verrà eliminato automaticamente dopo 7 giorni. Viene visualizzato come **[!UICONTROL Expired]** in **[!UICONTROL Expires]** colonna. Entro questo periodo di 7 giorni:
 
 * Non è più possibile utilizzare un intervallo IP scaduto per accedere ai server SFTP.
 
 * Non puoi creare un altro intervallo IP che si sovrappone a un intervallo scaduto. Prima di creare il nuovo intervallo, devi prima eliminare l’intervallo IP scaduto.
 
-* È possibile [modificare](#editing-ip-ranges) un intervallo IP scaduto e aggiornarne la durata per renderlo nuovamente disponibile.
+* È possibile [modifica](#editing-ip-ranges) un intervallo IP scaduto e aggiornarne la durata per renderlo nuovamente disponibile.
 
 * È possibile eliminarlo dall’elenco consentiti.
 
@@ -143,7 +143,7 @@ Per modificare gli intervalli IP, effettua le seguenti operazioni.
 
 <!--Edition is not available for IP ranges that have been created before the Control Panel October 2021 release.-->
 
-1. Seleziona uno o più intervalli IP dall&#39;elenco **[!UICONTROL IP Allow Listing]**.
+1. Seleziona uno o più intervalli IP dal **[!UICONTROL IP Allow Listing]** elenco.
 
 1. Fai clic sul pulsante **[!UICONTROL Update IP range]**.
 
@@ -161,7 +161,7 @@ Per modificare gli intervalli IP, effettua le seguenti operazioni.
 
 ## Monitoraggio delle modifiche {#monitoring-changes}
 
-La sezione **[!UICONTROL Job Logs]** nella home page del Pannello di controllo Campaign consente di monitorare e monitorare tutte le modifiche apportate agli indirizzi IP nell’elenco consentiti.
+La **[!UICONTROL Job Logs]** nella home page del Pannello di controllo Campaign puoi monitorare e monitorare tutte le modifiche apportate agli indirizzi IP nell’elenco consentiti.
 
 Per ulteriori informazioni sull’interfaccia del Pannello di controllo Campaign, consulta [questa sezione](../../discover/using/discovering-the-interface.md).
 
