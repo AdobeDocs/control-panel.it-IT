@@ -7,9 +7,9 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: d92781c3-14cc-4716-a131-580ccff46d6e
-source-git-commit: cca04cd965c00a9e2bc496de632ee41ce53a166a
+source-git-commit: d37c83c19863992fb02251e50dddd6965b068e23
 workflow-type: tm+mt
-source-wordcount: '1342'
+source-wordcount: '1334'
 ht-degree: 89%
 
 ---
@@ -27,8 +27,6 @@ ht-degree: 89%
 >[!IMPORTANT]
 >
 >La configurazione dei sottodomini dal Pannello di controllo Campaign è disponibile in versione beta e soggetta a frequenti aggiornamenti e modifiche senza preavviso.
->
->Questa funzionalità non è disponibile per Campaign v8.
 
 Questa pagina fornisce informazioni su come impostare nuovi sottodomini utilizzando la delega completa dei sottodomini o CNAME. I concetti globali su questi due metodi sono descritti in questa sezione: [Branding dei sottodomini](../../subdomains-certificates/using/subdomains-branding.md).
 

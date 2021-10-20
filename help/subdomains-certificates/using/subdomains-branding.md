@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Intermediate
 exl-id: a489d051-fb95-45cf-bb6d-33aef10b7795
-source-git-commit: 62ad3edb604ebd9fab6a3f930b7c79af6b9ca968
+source-git-commit: d37c83c19863992fb02251e50dddd6965b068e23
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '745'
+ht-degree: 79%
 
 ---
 
@@ -27,8 +27,6 @@ ht-degree: 0%
 >[!IMPORTANT]
 >
 >La configurazione dei sottodomini dal Pannello di controllo Campaign è disponibile in versione beta e soggetta a frequenti aggiornamenti e modifiche senza preavviso.
->
->Questa funzionalità non è disponibile per Campaign v8.
 
 Un sottodominio è una divisione del dominio che può essere utilizzata per isolare i brand o vari tipi di traffico (messaggi transazionali, informazioni di marketing, ecc.).
 
@@ -67,7 +65,7 @@ Se hai domande sui metodi di configurazione dei sottodomini, rivolgiti al team d
 >additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=it" text="Configurazione di un nuovo sottodominio"
 >additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html?lang=it" text="Branding dei sottodomini"
 
-Quando imposti i sottodomini per le istanze di Campaign Classic, devi selezionare il caso d’uso per il quale verrà utilizzato il sottodominio (consulta [Configurazione di un nuovo sottodominio](../../subdomains-certificates/using/setting-up-new-subdomain.md)).
+Quando imposti i sottodomini per le istanze di Campaign Classic, devi selezionare il caso d’uso per il quale verrà utilizzato il sottodominio (vedi [Configurazione di un nuovo sottodominio](../../subdomains-certificates/using/setting-up-new-subdomain.md)).
 
 I casi d’uso possibili sono:
 
@@ -77,7 +75,7 @@ I casi d’uso possibili sono:
 
 **Suddividere i sottodomini in base ai casi di utilizzo è una best practice per il recapito di messaggi**. In questo modo, la reputazione di ciascun sottodominio è isolata e protetta. Ad esempio, se il tuo sottodominio per le comunicazioni di marketing viene inserito nell’elenco Bloccati dai provider di servizi Internet, il sottodominio delle comunicazioni transazionali non sarà coinvolto e continuerà a inviare comunicazioni.
 
-**Puoi configurare un sottodominio sia per i casi** di utilizzo di marketing che per quelli transazionali:
+**Puoi configurare un sottodominio sia per i casi di utilizzo di marketing che per quelli transazionali**:
 
 * Per i casi di utilizzo di marketing, i sottodomini saranno configurati sulle istanze **MID** (Mid sourcing).
 * Per i casi di utilizzo transazionali, i sottodomini saranno configurati su TUTTE le istanze **RT** (Message Center / Real-time messaging [Centro messaggi/Messaggistica in tempo reale]) per garantire la connettività. I sottodomini funzioneranno quindi con tutte le tue istanze RT.

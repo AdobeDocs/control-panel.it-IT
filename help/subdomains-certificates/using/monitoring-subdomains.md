@@ -3,28 +3,24 @@ product: campaign
 solution: Campaign
 title: Monitoraggio dei certificati SSL dei sottodomini
 description: Scopri come monitorare i certificati SSL dei sottodomini
-feature: Pannello di controllo Campaign
+feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: edd55d07-bf0b-44b0-8281-be69c698d5e8
-source-git-commit: 3bd3dcc0e09d887cab7d810d43f2c72bb4251ac9
+source-git-commit: d37c83c19863992fb02251e50dddd6965b068e23
 workflow-type: tm+mt
-source-wordcount: '152'
-ht-degree: 17%
+source-wordcount: '142'
+ht-degree: 16%
 
 ---
 
 # Monitoraggio dei sottodomini {#monitoring-subdomains}
 
->[!AVAILABILITY]
->
->Questa funzionalità non è disponibile per Campaign v8.
-
 È essenziale monitorare i sottodomini per garantire che siano configurati correttamente per lavorare con Adobe Campaign.
 
-L’elenco dei sottodomini per ciascuna istanza di produzione è accessibile direttamente quando selezioni la scheda **[!UICONTROL Subdomains & Certificates]** .
+L’elenco dei sottodomini per ciascuna istanza di produzione è accessibile direttamente quando selezioni la **[!UICONTROL Subdomains & Certificates]** il Card.
 
-La colonna **[!UICONTROL Last verification]** indica quando un sottodominio è stato verificato per l’ultima volta. Puoi avviare una verifica in qualsiasi momento facendo clic su **..Pulsante** / **[!UICONTROL Verify subdomain]** .
+La **[!UICONTROL Last verification]** indica quando un sottodominio è stato verificato per l’ultima volta. Puoi avviare una verifica in qualsiasi momento facendo clic sul pulsante **...** / **[!UICONTROL Verify subdomain]** pulsante .
 
 ![](assets/subdomain_verification.png)
 
