@@ -5,10 +5,10 @@ feature: Control Panel
 role: Architect
 level: Beginner
 exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab
-source-git-commit: cca04cd965c00a9e2bc496de632ee41ce53a166a
+source-git-commit: a315b98ac3fc35eca0234a44afdd513ba24dce63
 workflow-type: tm+mt
-source-wordcount: '212'
-ht-degree: 90%
+source-wordcount: '232'
+ht-degree: 57%
 
 ---
 
@@ -25,21 +25,23 @@ ht-degree: 90%
 
 ## Novità
 
-**Configurazione di sottodomini tramite CNAME**
+**Supporto completo con Campaign v8**
 
-Il Pannello di controllo Campaign ora consente di configurare un sottodominio in modo che sia compatibile con Adobe tramite CNAME direttamente dall’interfaccia. [Leggi tutto](subdomains-certificates/using/setting-up-new-subdomain.md)
+Tutte le funzionalità, tra cui **Sottodominio** e **Certificato** sono ora supportati da Pannelli di controllo Campaign in Adobe Campaign v8. [Leggi tutto](faq.md#v8-restrictions)
 
-**Miglioramenti al monitoraggio del database**
+**Periodo di validità e modifica dell&#39;intervallo IP**
 
-La scheda **[!UICONTROL Database monitoring]** è stata migliorata con metriche aggiuntive, che consentono di ottenere informazioni dettagliate sulle risorse che occupano spazio nel database. [Leggi tutto](performance-monitoring/using/database-monitoring.md)
+È ora possibile impostare una durata per la disponibilità degli intervalli IP e modificare gli intervalli IP creati. [Leggi tutto](sftp/using/ip-range-allow-listing.md)
+
+**Periodo di validità e edizione a chiave pubblica**
+
+Allo stesso modo, ora puoi impostare una durata per la disponibilità delle chiavi pubbliche e modificare le chiavi pubbliche create. [Leggi tutto](sftp/using/key-management.md)
 
 >[!CAUTION]
 >
 >* Il Pannello di controllo Campaign è riservato agli utenti amministratori. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html#discover-control-panel)
 >
 >* Per Campaign Classic v7, si applicano restrizioni di distribuzione. [Ulteriori informazioni](faq.md#v7-restrictions)
->
->* Per Campaign v8, alcune funzionalità non sono disponibili. [Ulteriori informazioni](faq.md#v8-restrictions)
 
 
 ## Risorse aggiuntive {#additional-resources}
