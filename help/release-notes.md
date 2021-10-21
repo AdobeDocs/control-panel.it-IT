@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Beginner
 exl-id: 13aceffb-ceaa-4cfe-8741-95d66c5c6caa
-source-git-commit: eb7cfbd68bdaaf3761e8901feecebea2d8b3b38a
+source-git-commit: 8b0f652559e0296a22b3eac92057e6f4487215e1
 workflow-type: tm+mt
-source-wordcount: '792'
-ht-degree: 72%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -38,9 +38,9 @@ Qui troverai informazioni sulle ultime versioni del Pannello di controllo Campai
 
 La funzionalità di avvisi e-mail ora include avvisi sulla scadenza dell’inserimento nell’elenco Consentiti SFTP e sulla scadenza della chiave pubblica SFTP. [Leggi tutto](performance-monitoring/using/email-alerting.md)
 
-**Supporto completo con Campaign v8**
+<!--**Full support with Campaign v8**
 
-La **Sottodominio** e **Certificato** le funzionalità di gestione sono ora supportate da Pannelli di controllo Campaign in Adobe Campaign v8.
+The **Subdomain** and **Certificate** management capabilities are now supported by Control Panel on Adobe Campaign v8.-->
 
 ## Agosto 2021 {#august-2021}
 
