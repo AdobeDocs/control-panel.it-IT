@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Intermediate
 exl-id: 4f329764-ed8b-4939-affc-ed994fd6101d
-source-git-commit: 7998dba576488ca1e7e587a9d987458beec101b3
+source-git-commit: d6bf3db521085078499e88c9a2077f63914d9c4c
 workflow-type: tm+mt
-source-wordcount: '771'
-ht-degree: 91%
+source-wordcount: '768'
+ht-degree: 97%
 
 ---
 
@@ -28,9 +28,9 @@ Il Pannello di controllo Campaign consente di tenere traccia dell’archiviazion
 
 Per ulteriori informazioni, consulta la documentazione sulle azioni supportate dal Pannello di controllo Campaign.
 
-### Esistono alcune funzionalità non ancora supportate in Campaign v8 ma disponibili in Campaign Classic v7{#v8-restrictions}
+### Quali funzionalità non sono supportate in Campaign v8 ma disponibili in Campaign Classic v7{#v8-restrictions}
 
-No. Tutte le funzionalità disponibili in Campaign Classic v7 sono ora supportate anche tramite Pannello di controllo Campaign su Campaign v8, incluse le funzioni relative a Subdomain e Certificate Management.
+Le funzioni relative al sottodominio e alla gestione dei certificati non sono ancora supportate tramite il Pannello di controllo Campaign in Campaign v8. Contatta l’Assistenza clienti di Campaign per supporto relativo al prodotto.
 
 ### Il Pannello di controllo Campaign è solo per Adobe Campaign?
 
