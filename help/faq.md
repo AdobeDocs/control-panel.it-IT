@@ -10,7 +10,7 @@ exl-id: 4f329764-ed8b-4939-affc-ed994fd6101d
 source-git-commit: 47a57b38e9af8b03d277bf9ee6922b19f0298944
 workflow-type: tm+mt
 source-wordcount: '771'
-ht-degree: 91%
+ht-degree: 94%
 
 ---
 
@@ -44,7 +44,7 @@ Se non sei un amministratore, ma desideri accedervi, contatta il tuo amministrat
 
 ### In qualità di utente di Campaign Classic v7, quali sono le condizioni per poter accedere al Pannello di controllo Campaign? {#v7-restrictions}
 
-Il Pannello di controllo Campaign è riservato agli utenti amministratori. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html#discover-control-panel).
+Il Pannello di controllo Campaign è riservato agli utenti amministratori. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=it#discover-control-panel).
 
 Per Campaign Classic v7, tieni presente che l’istanza deve essere ospitata su Amazon Web Services (AWS) e aggiornata all’ultima build [Campaign GA](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=it#rn-statuses). Per controllare la versione di Campaign Classic in uso, consulta [questa sezione](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=it#getting-your-campaign-version). Per verificare se l’istanza di Campaign Classic è ospitata su AWS, segui i passaggi descritti in [questa sezione](#hosted-aws).
 
@@ -62,7 +62,7 @@ No, non ci sono costi aggiuntivi se sei un cliente attuale di Adobe Campaign.
 
 Si tratta di un ID univoco fornito all’istanza al primo accesso ad Adobe Experience Cloud. Deve essere nel formato: xxx@AdobeOrg.
 
-Per ulteriori informazioni, consulta la [documentazione di Adobe Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html).
+Per ulteriori informazioni, consulta la [documentazione di Adobe Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=it).
 
 ### Dove posso trovare il mio ID organizzazione IMS?
 

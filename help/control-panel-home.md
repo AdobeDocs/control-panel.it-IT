@@ -8,7 +8,7 @@ exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab
 source-git-commit: 28688c8abc92d77d41ee27fe727b85504ba74877
 workflow-type: tm+mt
 source-wordcount: '232'
-ht-degree: 57%
+ht-degree: 66%
 
 ---
 
@@ -18,8 +18,8 @@ ht-degree: 57%
 >id="cp_overview"
 >title="Informazioni sul Pannello di controllo Campaign"
 >abstract="La home page del Pannello di controllo Campaign ti consente di accedere a tutte le azioni che possono essere eseguite sulle istanze Campaign."
->additional-url="https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/discovering-the-interface.html" text="Esplorazione dell’interfaccia"
->additional-url="https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/accessing-control-panel.html" text="Accesso al Pannello di controllo Campaign"
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/discovering-the-interface.html?lang=it" text="Descrizione dell’interfaccia"
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/accessing-control-panel.html?lang=it" text="Accesso al Pannello di controllo Campaign"
 
 ![](assets/do-not-localize/banner.png)
 
@@ -39,7 +39,7 @@ Allo stesso modo, ora puoi impostare una durata per la disponibilità delle chia
 
 >[!CAUTION]
 >
->* Il Pannello di controllo Campaign è riservato agli utenti amministratori. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html#discover-control-panel)
+>* Il Pannello di controllo Campaign è riservato agli utenti amministratori. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=it#discover-control-panel)
 >
 >* Per Campaign Classic v7, si applicano restrizioni di distribuzione. [Ulteriori informazioni](faq.md#v7-restrictions)
 
@@ -63,7 +63,7 @@ Allo stesso modo, ora puoi impostare una durata per la disponibilità delle chia
         <td><b>Campaign v8</b><br/>
         <ul>
             <li><a href="https://experienceleague.adobe.com/docs/campaign-learn/control-panel/control-panel-overview.html?lang=it">Video tutorial sul Pannello di controllo Campaign</a></li>
-            <li><a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html">Documentazione del prodotto di Campaign v8</a></li>
+            <li><a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html?lang=it">Documentazione del prodotto Campaign v8</a></li>
         </ul>
         </td>
     </tr>

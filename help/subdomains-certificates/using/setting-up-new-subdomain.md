@@ -10,7 +10,7 @@ exl-id: d92781c3-14cc-4716-a131-580ccff46d6e
 source-git-commit: 46a4e13e8017c5406dcd65f21c9839374dd44aa7
 workflow-type: tm+mt
 source-wordcount: '1334'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -53,9 +53,9 @@ Inoltre, **non creare un file di zona separato** per il nuovo sottodominio.
 >[!CONTEXTUALHELP]
 >id="cp_add_new_subdomain"
 >title="Aggiungi nuovo sottodominio"
->abstract="Adobe consiglia la delega completa del sottodominio. Tuttavia, puoi utilizzare CNAME o metodo personalizzato per impostare i sottodomini."
+>abstract="Adobe consiglia la delega completa del sottodominio. Tuttavia, puoi utilizzare CNAME o un metodo personalizzato per impostare i sottodomini."
 >additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=it" text="Configurazione di un nuovo sottodominio"
->additional-url="https://helpx.adobe.com/it/enterprise/using/support-for-experience-cloud.html" text="Contatta l’Assistenza clienti"
+>additional-url="https://helpx.adobe.com/it/enterprise/using/support-for-experience-cloud.html" text="Contattare l’Assistenza clienti"
 
 
 >[!CONTEXTUALHELP]
@@ -72,7 +72,7 @@ Inoltre, **non creare un file di zona separato** per il nuovo sottodominio.
 
 Per delegare completamente un sottodominio ad Adobe Campaign, effettua le seguenti operazioni.
 
-![](assets/do-not-localize/how-to-video.png) Scopri questa funzione nel video per [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html#subdomains-and-certificates) o [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html#subdomains-and-certificates)
+![](assets/do-not-localize/how-to-video.png) Scopri questa funzione nel video per [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html?lang=it#subdomains-and-certificates) o [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html?lang=it#subdomains-and-certificates)
 
 1. Nella scheda **[!UICONTROL Subdomains & Certificates]**, seleziona l’istanza di produzione desiderata, quindi fai clic su **[!UICONTROL Setup new subdomain]**.
 
@@ -114,7 +114,7 @@ Una volta inviato il sottodominio, il Pannello di controllo Campaign eseguirà v
 
 >[!CONTEXTUALHELP]
 >id="cp_add_cname_records"
->title="Genera record"
+>title="Generare record"
 >abstract="Passa alla soluzione di hosting per generare l’elenco dei record DNS mostrati in questa schermata."
 >additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html" text="Configurazione di un nuovo sottodominio"
 
@@ -126,7 +126,7 @@ Una volta inviato il sottodominio, il Pannello di controllo Campaign eseguirà v
 
 Per configurare un sottodominio utilizzando i CNAME, segui i passaggi riportati di seguito.
 
-![](assets/do-not-localize/how-to-video.png) Scopri questa funzione nel video per [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/delegating-subdomains-using-cname.html#subdomains-and-certificates) o [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/delegating-subdomains-using-cname.html)
+![](assets/do-not-localize/how-to-video.png) Scopri questa funzione nel video per [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/delegating-subdomains-using-cname.html?lang=it#subdomains-and-certificates) o [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/delegating-subdomains-using-cname.html?lang=it)
 
 1. Nella scheda **[!UICONTROL Subdomains & Certificates]**, seleziona l’istanza di produzione desiderata, quindi fai clic su **[!UICONTROL Setup new subdomain]**.
 
