@@ -55,7 +55,7 @@ Accertati di seguire le raccomandazioni e le limitazioni riportate di seguito qu
 
 >[!NOTE]
 >
->Se la scheda **[!UICONTROL Instance Settings]** non è visibile nella home page del Pannello di controllo Campaign, significa che il tuo ID organizzazione IMS non è associato ad alcuna istanza di Adobe Campaign Classic v7 o Campaign v8.
+>Se la **[!UICONTROL Instance Settings]** la scheda non è visibile nella home page del Pannello di controllo Campaign, il che significa che il tuo ID organizzazione IMS non è associato ad alcuna istanza di Adobe Campaign Classic v7 o Campaign v8.
 
 Per aggiungere indirizzi IP all’elenco Consentiti, esegui i seguenti passaggi:
 
@@ -94,7 +94,7 @@ Per aggiungere indirizzi IP all’elenco Consentiti, esegui i seguenti passaggi:
 
    <!--![](assets/ip_whitelist_added.png)-->
 
-Per eliminare uno o più intervalli IP dall’elenco consentiti, selezionali, quindi fai clic sul pulsante **[!UICONTROL Delete IP range]** .
+Per eliminare uno o più intervalli IP dall’elenco consentiti, selezionali, quindi fai clic sul pulsante **[!UICONTROL Delete IP range]** pulsante .
 
 ![](assets/ip_whitelist_delete.png)
 

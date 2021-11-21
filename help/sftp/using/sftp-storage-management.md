@@ -10,7 +10,7 @@ exl-id: eaf67573-f088-47d9-8a25-273d08dc541a
 source-git-commit: cca04cd965c00a9e2bc496de632ee41ce53a166a
 workflow-type: tm+mt
 source-wordcount: '344'
-ht-degree: 90%
+ht-degree: 93%
 
 ---
 
@@ -44,6 +44,6 @@ Sono inoltre disponibili ulteriori suggerimenti su come procedere quando il tuo 
 ## Best practice in caso di esaurimento della capacità di archiviazione {#best-practices-when-capacity-runs-out}
 
 1. **Rimuovi dal server SFTP file vecchi o non necessari**. Per ulteriori informazioni su come accedere alla cartella del server SFTP, consulta [questa sezione](../../sftp/using/logging-into-sftp-server.md).
-1. Assicurati che i **flussi di lavoro** che puliscono i server SFTP siano eseguiti correttamente. Per ulteriori informazioni sui flussi di lavoro tecnici in Adobe Campaign, consulta la documentazioni dedicata di [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/about-technical-workflows.html) e [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/technical-workflows.html).
+1. Assicurati che i **flussi di lavoro** che puliscono i server SFTP siano eseguiti correttamente. Per ulteriori informazioni sui flussi di lavoro tecnici in Adobe Campaign, consulta la documentazioni dedicata di [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/about-technical-workflows.html) e [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/technical-workflows.html?lang=it).
 1. Rivolgiti al team del tuo account per **richiedere più spazio di archiviazione** (potrebbero essere applicati costi aggiuntivi).
 1. Se ritieni che ci possa essere un problema, contatta l’**Assistenza clienti**.

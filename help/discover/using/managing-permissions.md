@@ -20,17 +20,17 @@ Il Pannello di controllo Campaign è disponibile per tutti gli utenti amministra
 
 ![](assets/do-not-localize/how-to-video.png)[ Scopri questa funzione nel video](../../discover/using/managing-permissions.md#video)
 
-1. Passa alla [home page di Adobe Experience Cloud](https://experiencecloud.adobe.com/){target=&quot;_blank&quot;}.
+1. Passa a [Homepage Adobe Experience Cloud](https://experiencecloud.adobe.com/){target=&quot;_blank&quot;}.
 
-1. Avvia l&#39; **Admin Console** facendo clic sul collegamento disponibile dalla sezione **Accesso rapido** o dal menu in alto a destra.
+1. Avvia **Admin Console** facendo clic sul collegamento disponibile dal **Accesso rapido** o il menu in alto a destra.
 
    ![](assets/do-not-localize/control_panel_admin-console.png)
 
    >[!NOTE]
    >
-   >Se il collegamento **Admin Console** non è visibile, significa che non disponi dei diritti di amministratore per la tua organizzazione. Contatta gli amministratori dell’organizzazione per eseguire i passaggi necessari.
+   >Se la **Admin Console** Il collegamento non è visibile, significa che non disponi dei diritti di amministratore per la tua organizzazione. Contatta gli amministratori dell’organizzazione per eseguire i passaggi necessari.
 
-1. Dall’elenco **Admin Console**, seleziona il prodotto Campaign desiderato dall’elenco **[!UICONTROL Products and services]**.
+1. Da **Admin Console**, seleziona il prodotto Campaign desiderato dal **[!UICONTROL Products and services]** elenco.
 
    ![](assets/do-not-localize/control_panel_product-list.png)
 
@@ -46,7 +46,7 @@ Il Pannello di controllo Campaign è disponibile per tutti gli utenti amministra
    >
    >Puoi aggiungere diversi utenti amministratori per ogni istanza di Campaign. Gli utenti amministratori accederanno al Pannello di controllo Campaign dell’istanza a cui appartengono solo.
 
-1. Viene visualizzato l’elenco di **[!UICONTROL Product Profiles]** per l’istanza selezionata. Fai clic sul profilo di prodotto **[!UICONTROL Administrators]** per accedere all’elenco degli utenti amministratore.
+1. L&#39;elenco di **[!UICONTROL Product Profiles]** viene visualizzata l’istanza selezionata. Fai clic sul pulsante **[!UICONTROL Administrators]** profilo di prodotto per accedere all’elenco degli utenti amministratori.
 
    ![](assets/do-not-localize/control_panel_add_user_5.png)
 

@@ -51,7 +51,7 @@ Una volta acquistato il certificato SSL, puoi installarlo nel sottodominio desid
 >id="cp_select_subdomains"
 >title="Seleziona i sottodomini per la tua CSR"
 >abstract="Puoi scegliere di includere tutti i sottodomini o solo alcuni specifici nella richiesta di firma del certificato. Solo i sottodomini selezionati saranno certificati tramite il certificato SSL acquistato."
->additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html" text="Informazioni sul branding dei sottodomini"
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html?lang=it" text="Informazioni sul branding dei sottodomini"
 
 Per generare una richiesta di firma del certificato (CSR, Certificate Signing Request), procedi come segue:
 
