@@ -6,9 +6,9 @@ role: Architect
 level: Beginner
 exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab
 source-git-commit: 28688c8abc92d77d41ee27fe727b85504ba74877
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '232'
-ht-degree: 66%
+ht-degree: 100%
 
 ---
 
@@ -27,15 +27,15 @@ ht-degree: 66%
 
 **Supporto completo con Campaign v8**
 
-Tutte le funzionalità, tra cui **Sottodominio** e **Certificato** sono ora supportati da Pannelli di controllo Campaign in Adobe Campaign v8. [Leggi tutto](faq.md#v8-restrictions)
+Tutte le funzionalità, tra cui **Sottodominio** e **Certificato** sono ora supportati da Pannello di controllo Campaign in Adobe Campaign v8. [Maggiori informazioni](faq.md#v8-restrictions)
 
-**Periodo di validità e modifica dell&#39;intervallo IP**
+**Periodo di validità e modifica delgli ntervalli IP**
 
-È ora possibile impostare una durata per la disponibilità degli intervalli IP e modificare gli intervalli IP creati. [Leggi tutto](sftp/using/ip-range-allow-listing.md)
+Ora è possibile impostare una durata per la disponibilità degli intervalli IP e modificare gli intervalli IP creati. [Maggiori informazioni](sftp/using/ip-range-allow-listing.md)
 
-**Periodo di validità e edizione a chiave pubblica**
+**Periodo di validità e modifica delle chiavi pubbliche**
 
-Allo stesso modo, ora puoi impostare una durata per la disponibilità delle chiavi pubbliche e modificare le chiavi pubbliche create. [Leggi tutto](sftp/using/key-management.md)
+Allo stesso modo, ora puoi impostare una durata per la disponibilità delle chiavi pubbliche e modificare le chiavi pubbliche create. [Maggiori informazioni](sftp/using/key-management.md)
 
 >[!CAUTION]
 >
