@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Beginner
 exl-id: cb6cc63b-d6cc-4c8b-870f-e108d05aa740
-source-git-commit: cca04cd965c00a9e2bc496de632ee41ce53a166a
+source-git-commit: 5c7937fc201e83f8afd3973b50e8121e2fd2bf41
 workflow-type: tm+mt
-source-wordcount: '278'
-ht-degree: 100%
+source-wordcount: '275'
+ht-degree: 89%
 
 ---
 
@@ -26,9 +26,9 @@ Vantaggi principali:
 
 >[!NOTE]
 >
->Il Pannello di controllo Campaign è riservato agli utenti amministratori. I passaggi per concedere a un utente i diritti da amministratore sono descritti in [questa sezione](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=it#discover-control-panel).
+>Il Pannello di controllo Campaign è riservato agli utenti amministratori. I passaggi per concedere a un utente i diritti da amministratore sono descritti in [questa sezione](managing-permissions.md).
 >
->Per Campaign Classic, tieni presente che l’istanza deve essere ospitata su Amazon Web Services (AWS) e aggiornata all’ultima versione [GA di Campaign](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=it#rn-statuses). Scopri come controllare la versione in [questa sezione](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=it#getting-your-campaign-version). Per verificare se l’istanza è ospitata su AWS, segui i passaggi descritti in [questa sezione](../../faq.md).
+>Per Campaign Classic, tieni presente che l’istanza deve essere ospitata su Amazon Web Services (AWS) e aggiornata alla versione più recente [Build stabile della campagna](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=it#rn-statuses) o per costruire 9032 o versioni successive. Scopri come controllare la versione in [questa sezione](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=it#getting-your-campaign-version). Per verificare se l’istanza è ospitata su AWS, segui i passaggi descritti in [questa sezione](../../faq.md#hosted-aws).
 
 <table style="table-layout:fixed">
 <tr>
