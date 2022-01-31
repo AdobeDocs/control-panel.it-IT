@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Beginner
 exl-id: 13aceffb-ceaa-4cfe-8741-95d66c5c6caa
-source-git-commit: 5c7937fc201e83f8afd3973b50e8121e2fd2bf41
+source-git-commit: 10c4cf41dc9502bb66566951780cf8f963b08aa9
 workflow-type: tm+mt
-source-wordcount: '778'
-ht-degree: 71%
+source-wordcount: '858'
+ht-degree: 65%
 
 ---
 
@@ -23,6 +23,20 @@ Qui troverai informazioni sulle ultime versioni del Pannello di controllo Campai
 >Il Pannello di controllo Campaign è accessibile solo agli utenti amministratori. Ulteriori informazioni sulle autorizzazioni in [questa sezione](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=it#discover-control-panel).
 >
 >Per Campaign Classic v7, l’istanza deve essere ospitata su Amazon Web Services (AWS) e aggiornata alla versione più recente [Build stabile della campagna](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=it#rn-statuses) (o per costruire 9032 o superiore). Scopri come controllare la versione in [questa sezione](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=it#getting-your-campaign-version). Per verificare se l’istanza è ospitata su AWS, segui i passaggi descritti in [questa sezione](faq.md#hosted-aws).
+
+## Gennaio 2022 {#january-2022}
+
+**Monitoraggio delle query attive**
+
+Il Pannello di controllo Campaign ora consente di monitorare le query in esecuzione da molto tempo sulle istanze. [Maggiori informazioni](performance-monitoring/using/database-active-queries.md)
+
+**Trasmissione e monitoraggio della latenza**
+
+È ora possibile monitorare la tendenza degli output di consegna e della latenza in un periodo di tempo sulle istanze. [Maggiori informazioni](performance-monitoring/using/thoughputs-latencies.md)
+
+**Operazioni sui certificati SSL nei nuovi sottodomini**
+
+Le operazioni sui certificati SSL possono ora essere eseguite su un sottodominio appena configurato, anche se il controllo del recapito messaggi è ancora in corso. [Maggiori informazioni](subdomains-certificates/using/renewing-subdomain-certificate.md)
 
 ## Ottobre 2021 {#october-2021}
 

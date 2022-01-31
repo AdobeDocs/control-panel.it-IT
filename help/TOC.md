@@ -6,10 +6,10 @@ user-guide-title: Guida al pannello di controllo Campaign
 feature: Control Panel
 role: Architect
 level: Beginner
-source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
+source-git-commit: 9a864f8a80ed0d34212e5e825cc8962e557345a7
 workflow-type: tm+mt
-source-wordcount: '98'
-ht-degree: 100%
+source-wordcount: '118'
+ht-degree: 94%
 
 ---
 
@@ -39,8 +39,15 @@ ht-degree: 100%
    + [Gestione dei record TXT](subdomains-certificates/using/managing-txt-records.md)
 + Monitoraggio delle prestazioni {#performance-monitoring}
    + [Informazioni sul monitoraggio delle prestazioni](performance-monitoring/using/about-performance-monitoring.md)
-   + [Monitoraggio del database](performance-monitoring/using/database-monitoring.md)
+   + Monitoraggio del database {#database-monitoring}
+      + [Informazioni sul monitoraggio del database](performance-monitoring/using/database-monitoring.md)
+      + [Utilizzo del database](performance-monitoring/using/database-utilization.md)
+      + [Panoramica sull’archiviazione](performance-monitoring/using/database-storage-overview.md)
+      + [Le 10 risorse temporanee principali](performance-monitoring/using/database-top-ten-resources.md)
+      + [Monitoraggio delle query attive](performance-monitoring/using/database-active-queries.md)
+      + [Prevenzione del sovraccarico del database](performance-monitoring/using/database-preventing-overload.md)
    + [Monitoraggio profili attivi](performance-monitoring/using/active-profiles-monitoring.md)
+   + [Trasmissione e monitoraggio della latenza](performance-monitoring/using/thoughputs-latencies.md)
    + [Avvisi e-mail](performance-monitoring/using/email-alerting.md)
 + Impostazioni delle istanze {#instances-settings}
    + [Inserimento degli IP nell’elenco Consentiti per l’accesso alle istanze](instances-settings/using/ip-allow-listing-instance-access.md)
