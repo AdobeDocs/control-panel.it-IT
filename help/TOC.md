@@ -2,27 +2,27 @@
 product: adobe campaign
 sub-product: control panel
 audience: end-user
-user-guide-title: Guida al pannello di controllo Campaign
+user-guide-title: Guida al pannello di controllo
 feature: Control Panel
 role: Architect
 level: Beginner
 source-git-commit: 9a864f8a80ed0d34212e5e825cc8962e557345a7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '118'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
 
-# Guida al pannello di controllo Campaign {#using}
+# Guida al pannello di controllo {#using}
 
 + [Documentazione del prodotto](control-panel-home.md)
 + [Note sulla versione](release-notes.md)
-+ Esplorare il Pannello di controllo Campaign {#discover-control-panel}
++ Esplorare il Pannello di controllo {#discover-control-panel}
    + [Funzioni principali](discover/using/key-features.md)
-   + [Accesso al Pannello di controllo Campaign](discover/using/accessing-control-panel.md)
-   + [Gestione delle autorizzazioni di accesso al Pannello di controllo Campaign](discover/using/managing-permissions.md)
-   + [Esplorazione dell’interfaccia del Pannello di controllo Campaign](discover/using/discovering-the-interface.md)
+   + [Accesso al Pannello di controllo ](discover/using/accessing-control-panel.md)
+   + [Gestione delle autorizzazioni di accesso al Pannello di controllo ](discover/using/managing-permissions.md)
+   + [Esplorazione dell’interfaccia del Pannello di controllo ](discover/using/discovering-the-interface.md)
 + Gestione SFTP {#sftp-management}
    + [Informazioni sulla gestione SFTP](sftp/using/about-sftp-management.md)
    + [Gestione dell’archiviazione SFTP](sftp/using/sftp-storage-management.md)
@@ -52,6 +52,6 @@ ht-degree: 94%
 + Impostazioni delle istanze {#instances-settings}
    + [Inserimento degli IP nell’elenco Consentiti per l’accesso alle istanze](instances-settings/using/ip-allow-listing-instance-access.md)
    + [Autorizzazioni URL](instances-settings/using/url-permissions.md)
-   + [Instance details (Dettagli istanza)](instances-settings/using/instance-details.md)
+   + [Dettagli istanza](instances-settings/using/instance-details.md)
    + [Gestione chiavi GPG](instances-settings/using/gpg-keys-management.md)
 + [Domande frequenti](faq.md)
