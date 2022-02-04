@@ -6,9 +6,9 @@ role: Architect
 level: Beginner
 exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab
 source-git-commit: a99c3753a2bf4378e981629feb934e39fdd410d8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '197'
-ht-degree: 77%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 77%
 
 **Monitoraggio delle query attive**
 
-Il Pannello di controllo Campaign ora consente di monitorare le query in esecuzione da molto tempo sulle istanze. [Maggiori informazioni](performance-monitoring/using/database-active-queries.md)
+Il Pannello di controllo ora consente di monitorare le query in esecuzione da molto tempo sulle istanze. [Maggiori informazioni](performance-monitoring/using/database-active-queries.md)
 
 **Trasmissione e monitoraggio della latenza**
 
