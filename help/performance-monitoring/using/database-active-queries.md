@@ -6,11 +6,10 @@ description: Scopri come monitorare le query attive sulle istanze Campaign nel P
 feature: Control Panel
 role: Architect
 level: Experienced
-exl-id: bb9e1ce3-2472-4bc1-a82a-a301c6bf830e
-source-git-commit: 6922e132321f67e1e8122e33ead3c5e54c639763
-workflow-type: ht
-source-wordcount: '106'
-ht-degree: 100%
+source-git-commit: 12e9326ba220776874654705587152bf3978949c
+workflow-type: tm+mt
+source-wordcount: '118'
+ht-degree: 50%
 
 ---
 
@@ -24,4 +23,6 @@ Le **[!UICONTROL Duration]** colonne specificano per quanto tempo una query è i
 
 >[!IMPORTANT]
 >
->Se una delle query è attiva da più di 24 ore, contatta l’Assistenza clienti per identificare e risolvere il problema. In tal caso, dovrai fornire loro il **[!UICONTROL PID]** valore di colonna, che è un identificatore univoco per la query.
+>Se una delle query è attiva da più di 24 ore, riceverai una notifica via e-mail se ti sei abbonato a [avvisi e-mail](email-alerting.md).
+>
+>In tal caso, contatta l’Assistenza clienti in modo che identifichino e risolvano il problema. Dovrai fornire loro il **[!UICONTROL PID]** valore di colonna, che è un identificatore univoco per la query.

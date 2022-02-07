@@ -7,9 +7,9 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: 7942d2b1-d28f-4760-aa25-5ba94a627fd0
-source-git-commit: 6249776ef4981cd3d706bf1946be0e054b471fb6
+source-git-commit: ec83878e93536c979c39da52ed07b465f4fbbcb1
 workflow-type: tm+mt
-source-wordcount: '219'
+source-wordcount: '240'
 ht-degree: 1%
 
 ---
@@ -43,3 +43,5 @@ L&#39;elenco degli avvisi è il seguente:
 * **Scadenza dell’inserimento di IP SFTP**: Uno degli intervalli IP definiti è scaduto o scadrà tra 10 giorni o meno. Vedi [Inserimento di intervalli IP nell’elenco Consentiti](../../sftp/using/ip-range-allow-listing.md).
 
 * **Scadenza della chiave pubblica SFTP**: Una delle chiavi pubbliche definite è scaduta o scadrà tra 10 giorni o meno. Vedi [Gestione delle chiavi](../../sftp/using/key-management.md).
+
+* **Query a lungo termine**: Una query è in esecuzione da più di 24 ore su una delle istanze. Vedi [Monitoraggio delle query attive](database-active-queries.md).
