@@ -7,9 +7,9 @@ feature: Control Panel
 role: Architect
 level: Experienced
 source-git-commit: 12e9326ba220776874654705587152bf3978949c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '118'
-ht-degree: 50%
+ht-degree: 100%
 
 ---
 
@@ -23,6 +23,6 @@ Le **[!UICONTROL Duration]** colonne specificano per quanto tempo una query è i
 
 >[!IMPORTANT]
 >
->Se una delle query è attiva da più di 24 ore, riceverai una notifica via e-mail se ti sei abbonato a [avvisi e-mail](email-alerting.md).
+>Se una delle query è attiva da più di 24 ore, riceverai una notifica via e-mail se ti sei abbonato agli [avvisi e-mail](email-alerting.md).
 >
->In tal caso, contatta l’Assistenza clienti in modo che identifichino e risolvano il problema. Dovrai fornire loro il **[!UICONTROL PID]** valore di colonna, che è un identificatore univoco per la query.
+>In tal caso, contatta l’Assistenza clienti affinché possano identificare e risolvere il problema. Dovrai fornire loro il valore della colonna **[!UICONTROL PID]**, che è un identificatore univoco per la query.
