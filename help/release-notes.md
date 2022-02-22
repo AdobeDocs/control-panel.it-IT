@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Beginner
 exl-id: 13aceffb-ceaa-4cfe-8741-95d66c5c6caa
-source-git-commit: 76301a1e222da17a2b4fd58d68d24efd04b07b1c
+source-git-commit: c52094b8145bdd84aa9e71430a811b8a7b32354d
 workflow-type: tm+mt
-source-wordcount: '858'
-ht-degree: 71%
+source-wordcount: '882'
+ht-degree: 69%
 
 ---
 
@@ -23,6 +23,12 @@ Qui troverai informazioni sulle ultime versioni del Pannello di controllo Campai
 >Il Pannello di controllo Campaign è accessibile solo agli utenti amministratori. Ulteriori informazioni sulle autorizzazioni in [questa sezione](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=it#discover-control-panel).
 >
 >Per Campaign Classic v7, l’istanza deve essere ospitata su Amazon Web Services (AWS) e aggiornata alla versione più recente [Build stabile della campagna](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=it#rn-statuses) (o per costruire 9032 o superiore). Scopri come controllare la versione in [questa sezione](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=it#getting-your-campaign-version). Per verificare se l’istanza è ospitata su AWS, segui i passaggi descritti in [questa sezione](faq.md#hosted-aws).
+
+## Febbraio 2022 {#february-2022}
+
+**Monitoraggio dei parametri del flusso di lavoro**
+
+Ora puoi monitorare i parametri del flusso di lavoro che possono richiedere un’attenzione specifica per evitare problemi alle istanze. [Leggi tutto](performance-monitoring/using/workflow-monitoring.md).
 
 ## Gennaio 2022 {#january-2022}
 

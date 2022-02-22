@@ -6,9 +6,9 @@ user-guide-title: Guida al pannello di controllo
 feature: Control Panel
 role: Architect
 level: Beginner
-source-git-commit: 76301a1e222da17a2b4fd58d68d24efd04b07b1c
+source-git-commit: 33afa568cb850c72d1a65b03f68d1922addfc034
 workflow-type: tm+mt
-source-wordcount: '117'
+source-wordcount: '119'
 ht-degree: 98%
 
 ---
@@ -45,6 +45,7 @@ ht-degree: 98%
       + [Panoramica sull’archiviazione](performance-monitoring/using/database-storage-overview.md)
       + [Le 10 risorse temporanee principali](performance-monitoring/using/database-top-ten-resources.md)
       + [Query attive](performance-monitoring/using/database-active-queries.md)
+      + [Monitorare i flussi di lavoro](performance-monitoring/using/workflow-monitoring.md)
       + [Prevenzione del sovraccarico del database](performance-monitoring/using/database-preventing-overload.md)
    + [Monitoraggio profili attivi](performance-monitoring/using/active-profiles-monitoring.md)
    + [Trasmissione e monitoraggio della latenza](performance-monitoring/using/thoughputs-latencies.md)
