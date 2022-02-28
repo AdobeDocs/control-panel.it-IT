@@ -1,13 +1,14 @@
 ---
 title: Monitorare i flussi di lavoro
-description: Scopri come monitorare parametri di flusso di lavoro specifici che possono richiedere attenzione per evitare problemi nelle istanze.
+description: Scopri come monitorare specifici parametri dei flussi di lavoro che richiedono attenzione per evitare problemi nelle istanze.
 feature: Control Panel
 role: Architect
 level: Experienced
-source-git-commit: 062fce923fe638925a9fee22aeab589a890cfa37
-workflow-type: tm+mt
+exl-id: 8016f800-430a-413d-a77b-b7f18f5ab733
+source-git-commit: f22a935769d74a2b8bae3f79cd53f2ee31d19737
+workflow-type: ht
 source-wordcount: '311'
-ht-degree: 9%
+ht-degree: 100%
 
 ---
 
@@ -43,36 +44,36 @@ To clean paused and completed workflows, follow these steps:
 
 Monitor workflow parameters -->
 
-In Adobe Campaign, alcuni parametri del flusso di lavoro possono richiedere un’attenzione specifica per evitare problemi alle istanze. Il Pannello di controllo Campaign **[!UICONTROL Storage overview]** i dettagli ti consentono di verificare se una di queste opzioni è abilitata per i flussi di lavoro.
+In Adobe Campaign, alcuni parametri dei flussi di lavoro possono richiedere particolare attenzione per evitare problemi alle istanze. I dettagli **[!UICONTROL Storage overview]** nel Pannello di controllo Campaign consentono di verificare se una di queste opzioni è abilitata per i flussi di lavoro.
 
 ![](assets/wkf-monitoring-parameters.png)
 
 ## **[!UICONTROL Keep interim results]** {#keep-results}
 
-Quando abilitata (valore &quot;1&quot;), questa opzione salva i risultati delle transizioni tra le varie attività di un flusso di lavoro. Ulteriori informazioni in [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/executing-a-workflow/managing-execution-options.html?lang=it) e [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/workflow-best-practices.html?lang=it#logs) documentazione.
+Quando è abilitata (valore “1”), questa opzione salva i risultati delle transizioni tra le varie attività di un flusso di lavoro. Per ulteriori informazioni, consulta la documentazione di [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/executing-a-workflow/managing-execution-options.html?lang=it) e [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/workflow-best-practices.html?lang=it#logs).
 
 >[!IMPORTANT]
 >
->Questa opzione non deve mai essere selezionata in un flusso di lavoro di produzione. Viene utilizzato a scopo di analisi e test e deve pertanto essere utilizzato solo in ambienti di sviluppo o di staging. È consigliabile disattivarlo in Campaign.
+>Questa opzione non deve mai essere selezionata in un flusso di lavoro di produzione. Viene utilizzata a scopo di analisi e test e pertanto deve essere utilizzata solo in ambienti di sviluppo o di staging. È consigliabile disattivarla in Campaign.
 
 ![](assets/wkf-monitoring-keep.png)
 
 ## **[!UICONTROL Show SQL log]** {#sql}
 
-Quando questa opzione è abilitata, le query SQL inviate al database durante l’esecuzione del flusso di lavoro vengono visualizzate in Adobe Campaign. Ulteriori informazioni in [Campaign Standard](https://experienceleague.corp.adobe.com/docs/campaign-standard/using/managing-processes-and-data/executing-a-workflow/managing-execution-options.html?lang=en) e [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/workflow-properties.html?lang=en#execution) documentazione.
+Quando questa opzione è abilitata, le query SQL inviate al database durante l’esecuzione del flusso di lavoro vengono visualizzate in Adobe Campaign. Per ulteriori informazioni, consulta la documentazione di [Campaign Standard](https://experienceleague.corp.adobe.com/docs/campaign-standard/using/managing-processes-and-data/executing-a-workflow/managing-execution-options.html?lang=it) e [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/workflow-properties.html?lang=it#execution).
 
-Il valore &quot;1&quot; indica che il flusso di lavoro ha **Gravità** campo impostato su &quot;Produzione&quot; e che l&#39;opzione del registro query SQL sia abilitata.
+Il valore “1” indica che il flusso di lavoro ha il campo **Severity** (Gravità) è impostato su “Produzione” e che l’opzione del registro query SQL è abilitata.
 
 >[!IMPORTANT]
 >
->L’attivazione di questa opzione può influire sulle prestazioni e compilare i file di registro sul server. Deve essere utilizzato esclusivamente a fini di analisi e di diagnosi.
+>L’attivazione di questa opzione può influire sulle prestazioni e compilare i file di registro sul server. Deve essere utilizzata esclusivamente a fini di analisi e di diagnosi.
 
 ![](assets/wkf-monitoring-sql.png)
 
 ## **[!UICONTROL Supervisors]** {#supervisors}
 
-Questo campo ti consente di assegnare un operatore a un flusso di lavoro. Se il flusso di lavoro non riesce, viene avvisato l’operatore associato. Ulteriori informazioni in [Campaign Standard](https://experienceleague.corp.adobe.com/docs/campaign-standard/using/managing-processes-and-data/executing-a-workflow/monitoring-workflow-execution.html?lang=en#error-management) e [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/workflow-properties.html?lang=en#error-management) documentazione.
+Questo campo consente di assegnare un operatore a un flusso di lavoro. Se il flusso di lavoro non riesce, l’operatore riceve un avviso. Per ulteriori informazioni, consulta la documentazione di [Campaign Standard](https://experienceleague.corp.adobe.com/docs/campaign-standard/using/managing-processes-and-data/executing-a-workflow/monitoring-workflow-execution.html?lang=it#error-management) e [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/workflow-properties.html?lang=it#error-management).
 
-Il valore &quot;1&quot; indica che il flusso di lavoro ha **Gravità** campo impostato su &quot;Produzione&quot; e che nessun gruppo di supervisori è stato assegnato al flusso di lavoro.
+Il valore “1” indica che il flusso di lavoro ha il campo **Severity** (Gravità) impostato su “Produzione” e che nessun gruppo di supervisori è stato assegnato al flusso di lavoro.
 
 ![](assets/wkf-monitoring-supervisors.png)
