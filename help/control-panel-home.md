@@ -6,9 +6,9 @@ role: Architect
 level: Beginner
 exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab
 source-git-commit: c52094b8145bdd84aa9e71430a811b8a7b32354d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '220'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -25,9 +25,9 @@ ht-degree: 90%
 
 ## Novità
 
-**Monitoraggio dei parametri del flusso di lavoro**
+**Monitoraggio dei parametri dei flussi di lavoro**
 
-Ora puoi monitorare i parametri del flusso di lavoro che possono richiedere un’attenzione specifica per evitare problemi alle istanze. [Maggiori informazioni](performance-monitoring/using/workflow-monitoring.md)
+Ora puoi monitorare i parametri dei flussi di lavoro che richiedono particolare attenzione per evitare problemi alle istanze. [Maggiori informazioni](performance-monitoring/using/workflow-monitoring.md)
 
 
 **Monitoraggio delle query attive**
