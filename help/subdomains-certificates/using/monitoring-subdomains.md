@@ -1,16 +1,16 @@
 ---
 product: campaign
 solution: Campaign
-title: Monitoraggio dei certificati SSL dei sottodomini
-description: Scopri come monitorare i certificati SSL dei sottodomini
+title: Monitoraggio dei sottodomini
+description: Monitora i sottodomini per assicurarti che siano configurati correttamente per lavorare con Adobe Campaign.
 feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: edd55d07-bf0b-44b0-8281-be69c698d5e8
-source-git-commit: 46a4e13e8017c5406dcd65f21c9839374dd44aa7
+source-git-commit: fa45ec38ff06a0b02ab724e7ced79b7b5de2c766
 workflow-type: tm+mt
-source-wordcount: '142'
-ht-degree: 16%
+source-wordcount: '148'
+ht-degree: 10%
 
 ---
 

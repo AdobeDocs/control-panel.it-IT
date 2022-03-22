@@ -1,16 +1,16 @@
 ---
 product: campaign
 solution: Campaign
-title: Accesso al Pannello di controllo Campaign
+title: Il Pannello di controllo Campaign consente di aumentare l’efficienza del lavoro come amministratore di prodotto di Adobe Campaign Standard e/o Classic.
 description: Scopri come accedere al Pannello di controllo Campaign
 feature: Control Panel
 role: Architect
 level: Beginner
 exl-id: cb6cc63b-d6cc-4c8b-870f-e108d05aa740
-source-git-commit: 5c7937fc201e83f8afd3973b50e8121e2fd2bf41
+source-git-commit: fa45ec38ff06a0b02ab724e7ced79b7b5de2c766
 workflow-type: tm+mt
-source-wordcount: '275'
-ht-degree: 89%
+source-wordcount: '293'
+ht-degree: 83%
 
 ---
 
