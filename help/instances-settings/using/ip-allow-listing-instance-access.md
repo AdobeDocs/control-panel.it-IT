@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Intermediate
 exl-id: 1d1eeff8-969e-4529-b947-2a68defb8d13
-source-git-commit: 83a6d002a5a21815a66d198c6e5e805f559d5ee2
+source-git-commit: c1c80c03a351613ec0c6870a11ab39a634e8eab7
 workflow-type: tm+mt
-source-wordcount: '770'
-ht-degree: 87%
+source-wordcount: '764'
+ht-degree: 88%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 87%
 
 >[!IMPORTANT]
 >
->Questa funzione è disponibile solo per le istanze Campaign Classic v7 e Campaign v8 .
+>Questa funzione è disponibile solo per le istanze Campaign v7/v8 .
 
 Per impostazione predefinita, l’istanza di Adobe Campaign non è accessibile da vari indirizzi IP.
 
@@ -55,7 +55,7 @@ Accertati di seguire le raccomandazioni e le limitazioni riportate di seguito qu
 
 >[!NOTE]
 >
->Se la **[!UICONTROL Instance Settings]** la scheda non è visibile nella home page del Pannello di controllo Campaign, il che significa che il tuo ID organizzazione IMS non è associato ad alcuna istanza di Adobe Campaign Classic v7 o Campaign v8.
+>Se la **[!UICONTROL Instance Settings]** la scheda non è visibile nella home page del Pannello di controllo Campaign, il che significa che il tuo ID organizzazione IMS non è associato ad alcuna istanza di Adobe Campaign v7/v8.
 
 Per aggiungere indirizzi IP all’elenco Consentiti, esegui i seguenti passaggi:
 

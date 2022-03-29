@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: eaf67573-f088-47d9-8a25-273d08dc541a
-source-git-commit: cca04cd965c00a9e2bc496de632ee41ce53a166a
+source-git-commit: c1c80c03a351613ec0c6870a11ab39a634e8eab7
 workflow-type: tm+mt
-source-wordcount: '344'
-ht-degree: 93%
+source-wordcount: '346'
+ht-degree: 84%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 93%
 
 È fondamentale monitorare regolarmente lo spazio disponibile per ciascuno dei server SFTP. In caso contrario, potresti non essere più in grado di salvare ulteriori file sul server o eseguire con successo flussi di lavoro che si basano sugli aggiornamenti provenienti da questo server.
 
-![](assets/do-not-localize/how-to-video.png) Scopri questa funzione nel video per [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/sftp-management/monitoring-server-capacity.html#sftp-management) o [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/sftp-management/monitoring-server-capacity.html#sftp-management)
+![](assets/do-not-localize/how-to-video.png) Scopri questa funzione nel video utilizzando [Campaign v7/v8](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/sftp-management/monitoring-server-capacity.html#sftp-management) o [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/sftp-management/monitoring-server-capacity.html#sftp-management)
 
 ## Accesso alle informazioni sulla capacità di archiviazione {#accessing-storage-capacity-information}
 
@@ -44,6 +44,6 @@ Sono inoltre disponibili ulteriori suggerimenti su come procedere quando il tuo 
 ## Best practice in caso di esaurimento della capacità di archiviazione {#best-practices-when-capacity-runs-out}
 
 1. **Rimuovi dal server SFTP file vecchi o non necessari**. Per ulteriori informazioni su come accedere alla cartella del server SFTP, consulta [questa sezione](../../sftp/using/logging-into-sftp-server.md).
-1. Assicurati che i **flussi di lavoro** che puliscono i server SFTP siano eseguiti correttamente. Per ulteriori informazioni sui flussi di lavoro tecnici in Adobe Campaign, consulta la documentazioni dedicata di [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/about-technical-workflows.html) e [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/technical-workflows.html?lang=it).
+1. Assicurati che i **flussi di lavoro** che puliscono i server SFTP siano eseguiti correttamente. Per ulteriori informazioni sui flussi di lavoro tecnici in Adobe Campaign, consulta l’ [Campaign v7/v8](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/about-technical-workflows.html) e [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/technical-workflows.html?lang=it) documentazione.
 1. Rivolgiti al team del tuo account per **richiedere più spazio di archiviazione** (potrebbero essere applicati costi aggiuntivi).
 1. Se ritieni che ci possa essere un problema, contatta l’**Assistenza clienti**.

@@ -6,10 +6,11 @@ description: Accedi alle risorse della documentazione di Campaign per evitare il
 feature: Control Panel
 role: Architect
 level: Experienced
-source-git-commit: 34af1000aeb444b273ade358eb35096bd3365fc7
+exl-id: 07118637-cebd-4dd8-8374-2d7c20a47a89
+source-git-commit: c1c80c03a351613ec0c6870a11ab39a634e8eab7
 workflow-type: tm+mt
-source-wordcount: '189'
-ht-degree: 92%
+source-wordcount: '195'
+ht-degree: 72%
 
 ---
 
@@ -22,15 +23,15 @@ La sezione seguente fornisce utili riferimenti dalla documentazione di Campaign 
 **Monitoraggio dei flussi di lavoro**
 
 * [Best practice per i flussi di lavoro](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/workflow-general-operation/best-practices-workflows.html?lang=it) (Campaign Standard)
-* [Monitoraggio dell’esecuzione dei flussi di lavoro](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/monitoring-workflows/monitoring-workflow-execution.html?lang=it) (Campaign Classic)
+* [Monitoraggio dell’esecuzione del flusso di lavoro](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/monitoring-workflows/monitoring-workflow-execution.html?lang=it) (Campaign v7/v8)
 
 **Manutenzione del database**
 
-* Flusso di lavoro tecnico per la pulizia del database: [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/technical-workflows.html?lang=it#list-of-technical-workflows) - [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/data-processing/database-cleanup-workflow.html?lang=it)
-* [Guida alla manutenzione del database](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/database-maintenance/recommendations.html?lang=it) (Campaign Classic)
-* [Risoluzione dei problemi di prestazioni del database](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/troubleshooting-toc/database-issues-toc/database-performances.html?lang=it) (Campaign Classic)
-* [Opzioni relative al database](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options.html?lang=it#database) (Campaign Classic)
-* Conservazione dei dati: [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/data-retention.html?lang=it) - [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/data-model/data-model-best-practices.html?lang=it#data-retention)
+* Flusso di lavoro tecnico di pulizia del database: [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/technical-workflows.html?lang=it#list-of-technical-workflows) - [Campaign v7/v8](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/data-processing/database-cleanup-workflow.html?lang=it)
+* [Guida alla manutenzione del database](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/database-maintenance/recommendations.html?lang=it) (Campaign v7/v8)
+* [Risoluzione dei problemi di prestazioni del database](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/troubleshooting-toc/database-issues-toc/database-performances.html?lang=it) (Campaign v7/v8)
+* [Opzioni relative al database](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options.html?lang=it#database) (Campaign v7/v8)
+* Conservazione dei dati: [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/data-retention.html?lang=it) - [Campaign v7/v8](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/data-model/data-model-best-practices.html?lang=it#data-retention)
 
 >[!NOTE]
 >

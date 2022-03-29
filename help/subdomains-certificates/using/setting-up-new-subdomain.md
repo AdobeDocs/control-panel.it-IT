@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: d92781c3-14cc-4716-a131-580ccff46d6e
-source-git-commit: 278788a69f06865b6a38d8a901077866e1bc88ee
+source-git-commit: c1c80c03a351613ec0c6870a11ab39a634e8eab7
 workflow-type: tm+mt
-source-wordcount: '1354'
-ht-degree: 96%
+source-wordcount: '1358'
+ht-degree: 91%
 
 ---
 
@@ -70,7 +70,7 @@ Inoltre, **non creare un file di zona separato** per il nuovo sottodominio.
 
 Per delegare completamente un sottodominio ad Adobe Campaign, effettua le seguenti operazioni.
 
-![](assets/do-not-localize/how-to-video.png) Scopri questa funzione nel video per [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html?lang=it#subdomains-and-certificates) o [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html?lang=it#subdomains-and-certificates)
+![](assets/do-not-localize/how-to-video.png) Scopri questa funzione nel video utilizzando [Campaign v7/v8](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html?lang=it#subdomains-and-certificates) o [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html?lang=it#subdomains-and-certificates)
 
 1. Nella scheda **[!UICONTROL Subdomains & Certificates]**, seleziona l’istanza di produzione desiderata, quindi fai clic su **[!UICONTROL Setup new subdomain]**.
 
@@ -90,7 +90,7 @@ Per delegare completamente un sottodominio ad Adobe Campaign, effettua le seguen
 
 1. Una volta creato il sottodominio con le informazioni corrispondenti del server dei nomi Adobe, fai clic su **[!UICONTROL Next]**.
 
-1. Se hai selezionato un’istanza di Campaign Classic, seleziona il caso d’uso desiderato per il sottodominio: **Comunicazioni di marketing** o **Comunicazioni operative e transazionali**. I concetti globali sui casi di utilizzo dei sottodomini sono descritti in [questa sezione](../../subdomains-certificates/using/subdomains-branding.md#about-subdomains-use-cases).
+1. Se hai selezionato un’istanza Campaign v7/v8, seleziona il caso d’uso desiderato per il sottodominio: **Comunicazioni di marketing** o **Comunicazioni operative e transazionali**. I concetti globali sui casi di utilizzo dei sottodomini sono descritti in [questa sezione](../../subdomains-certificates/using/subdomains-branding.md#about-subdomains-use-cases).
 
    ![](assets/subdomain5.png)
 
@@ -124,7 +124,7 @@ Una volta inviato il sottodominio, il Pannello di controllo Campaign eseguirà v
 
 Per configurare un sottodominio utilizzando i CNAME, segui i passaggi riportati di seguito.
 
-![](assets/do-not-localize/how-to-video.png) Scopri questa funzione nel video per [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/delegating-subdomains-using-cname.html?lang=it#subdomains-and-certificates) o [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/delegating-subdomains-using-cname.html?lang=it)
+![](assets/do-not-localize/how-to-video.png) Scopri questa funzione nel video utilizzando [Campaign v7/v8](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/delegating-subdomains-using-cname.html?lang=it#subdomains-and-certificates) o [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/delegating-subdomains-using-cname.html?lang=it)
 
 1. Nella scheda **[!UICONTROL Subdomains & Certificates]**, seleziona l’istanza di produzione desiderata, quindi fai clic su **[!UICONTROL Setup new subdomain]**.
 
@@ -134,7 +134,7 @@ Per configurare un sottodominio utilizzando i CNAME, segui i passaggi riportati 
 
    ![](assets/cname-method-selection.png)
 
-1. Se hai selezionato un’istanza di Campaign Classic, seleziona il caso d’uso desiderato per il sottodominio: **Comunicazioni di marketing** o **Comunicazioni operative e transazionali**. I concetti globali sui casi di utilizzo dei sottodomini sono descritti in [questa sezione](../../subdomains-certificates/using/subdomains-branding.md#about-subdomains-use-cases).
+1. Se hai selezionato un’istanza Campaign v7/v8, seleziona il caso d’uso desiderato per il sottodominio: **Comunicazioni di marketing** o **Comunicazioni operative e transazionali**. I concetti globali sui casi di utilizzo dei sottodomini sono descritti in [questa sezione](../../subdomains-certificates/using/subdomains-branding.md#about-subdomains-use-cases).
 
    ![](assets/cname-use-case.png)
 

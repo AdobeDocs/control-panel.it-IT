@@ -6,10 +6,11 @@ description: Scopri come monitorare il database Campaign nel Pannello di control
 feature: Control Panel
 role: Architect
 level: Experienced
-source-git-commit: 34af1000aeb444b273ade358eb35096bd3365fc7
+exl-id: 2bd7d2dd-97be-49bb-9f8e-7161d0742bc1
+source-git-commit: c1c80c03a351613ec0c6870a11ab39a634e8eab7
 workflow-type: tm+mt
-source-wordcount: '378'
-ht-degree: 84%
+source-wordcount: '380'
+ht-degree: 81%
 
 ---
 
@@ -45,7 +46,7 @@ Inoltre, puoi ricevere notifiche quando uno dei database raggiunge la sua capaci
 
 ![](assets/databases_dashboard.png)
 
-I dati provenienti da questo dashboard vengono aggiornati in base al **[!UICONTROL Database cleanup technical workflow]** che viene eseguito sull’istanza Campaign (vedi [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/technical-workflows.html?lang=it#list-of-technical-workflows) e [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/data-processing/database-cleanup-workflow.html?lang=it) documentazione). Puoi controllare l’ultima volta che il flusso di lavoro è stato eseguito sotto il **[!UICONTROL Used Space]** e **[!UICONTROL Provided Space]** metriche. Tieni presente che, se il flusso di lavoro non è stato eseguito da almeno 3 giorni, ti consigliamo di contattare l’Assistenza clienti di Adobe in modo che possa indagare il motivo per cui il flusso di lavoro si è interrotto.
+I dati provenienti da questo dashboard vengono aggiornati in base al **[!UICONTROL Database cleanup technical workflow]** che viene eseguito sull’istanza Campaign (vedi [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/technical-workflows.html?lang=it#list-of-technical-workflows) e [Campaign v7/v8](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/data-processing/database-cleanup-workflow.html?lang=it) documentazione). Puoi controllare l’ultima volta che il flusso di lavoro è stato eseguito sotto il **[!UICONTROL Used Space]** e **[!UICONTROL Provided Space]** metriche. Tieni presente che, se il flusso di lavoro non è stato eseguito da almeno 3 giorni, ti consigliamo di contattare l’Assistenza clienti di Adobe in modo che possa indagare il motivo per cui il flusso di lavoro si è interrotto.
 
 In questa dashboard sono disponibili ulteriori metriche per analizzare l’utilizzo del database dell’istanza. Sono descritti in dettaglio in queste sezioni:
 
@@ -54,4 +55,4 @@ In questa dashboard sono disponibili ulteriori metriche per analizzare l’utili
 * [Le 10 risorse temporanee principali](../../performance-monitoring/using/database-top-ten-resources.md)
 * [Query attive](../../performance-monitoring/using/database-active-queries.md)
 
-![](assets/do-not-localize/how-to-video.png) Scopri questa funzione nel video per [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/performance-monitoring/monitoring-databases.html?lang=it#performance-monitoring) o [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/performance-monitoring/monitoring-databases.html?lang=it#performance-monitoring)
+![](assets/do-not-localize/how-to-video.png) Scopri questa funzione nel video utilizzando [Campaign v7/v8](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/performance-monitoring/monitoring-databases.html?lang=it#performance-monitoring) o [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/performance-monitoring/monitoring-databases.html?lang=it#performance-monitoring)
