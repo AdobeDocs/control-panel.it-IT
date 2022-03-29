@@ -4,9 +4,9 @@ solution: Campaign
 title: Versioni del Pannello di controllo Campaign
 description: In questa pagina sono elencate tutte le nuove funzioni e i miglioramenti apportati al Pannello di controllo Campaign
 exl-id: 13aceffb-ceaa-4cfe-8741-95d66c5c6caa
-source-git-commit: 84fe0aeb10bc5e535a7ab54a3316a51a1a32b3ca
+source-git-commit: 35b849725711bfee9852cf8f503bc599f6d8eaff
 workflow-type: tm+mt
-source-wordcount: '1017'
+source-wordcount: '1022'
 ht-degree: 63%
 
 ---
@@ -32,7 +32,7 @@ In questa pagina sono elencate tutte le nuove funzioni e i miglioramenti apporta
 <tbody>
 <tr>
 <td>
-<p>Il monitoraggio della velocità di trasmissione e della latenza è ora disponibile per tutti i clienti Campaign Standard e v8 con numeri di build 9032,9330, 9346 o 9349 che dispongono di distribuzioni indipendenti (senza istanza intermedia).</p><p>Per ulteriori informazioni, consulta la <a href="performance-monitoring/using/thoughputs-latencies.md">documentazione dettagliata.</a></p>
+<p>Il monitoraggio dei flussi di lavoro e della latenza è ora disponibile per tutti i clienti Campaign Standard e v8 e per i clienti Campaign V7 con numeri di build 9032,9330, 9346 o 9349 che dispongono di distribuzioni indipendenti (senza istanza intermedia).</p><p>Per ulteriori informazioni, consulta la <a href="performance-monitoring/using/thoughputs-latencies.md">documentazione dettagliata.</a></p>
 </td>
 </tr>
 </tbody>
