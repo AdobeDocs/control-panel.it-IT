@@ -10,7 +10,7 @@ exl-id: 4f329764-ed8b-4939-affc-ed994fd6101d
 source-git-commit: c1c80c03a351613ec0c6870a11ab39a634e8eab7
 workflow-type: tm+mt
 source-wordcount: '767'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ Per ulteriori informazioni, consulta la documentazione sulle azioni supportate d
 
 ### Esistono alcune funzionalità non ancora supportate in Campaign v8 ma disponibili in Campaign Classic v7?{#v8-restrictions}
 
-No. Tutte le funzionalità disponibili in Campaign  v7 sono ora supportate anche tramite il Pannello di controllo di Campaign v8, incluse le funzioni relative a sottodomini e gestione dei certificati.
+No. Tutte le funzionalità disponibili in Campaign v7 sono ora supportate anche tramite il Pannello di controllo di Campaign v8, incluse le funzioni relative alla gestione dei sottodomini e dei certificati.
 
 ### Il Pannello di controllo Campaign è solo per Adobe Campaign?
 
@@ -46,7 +46,7 @@ Se non sei un amministratore, ma desideri accedervi, contatta il tuo amministrat
 
 Il Pannello di controllo Campaign è riservato agli utenti amministratori. [Ulteriori informazioni](discover/using/managing-permissions.md).
 
-Per Campaign v7, tieni presente che l’istanza deve essere ospitata su Amazon Web Services (AWS) e aggiornata all’ultima [versione stabile di Campaign](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=it#rn-statuses) o alla versione 9032 o superiore. Scopri come controllare la versione di Campaign Classic v7 in [questa sezione](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=it#getting-your-campaign-version). Per verificare se l’istanza di Campaign Classic è ospitata su AWS, segui i passaggi descritti in [questa sezione](#hosted-aws).
+Per Campaign v7, tieni presente che l’istanza deve essere ospitata su Amazon Web Services (AWS) e aggiornata all’ultima [versione stabile di Campaign](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=it#rn-statuses) o alla versione 9032 o superiore. Per controllare la versione di Campaign Classic v7 in uso, consulta [questa sezione](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=it#getting-your-campaign-version). Per verificare se l’istanza di Campaign Classic è ospitata su AWS, segui i passaggi descritti in [questa sezione](#hosted-aws).
 
 ### Come posso accedere al Pannello di controllo Campaign?
 

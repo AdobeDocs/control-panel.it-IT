@@ -10,7 +10,7 @@ exl-id: eddef17f-0667-4b43-bc56-2b1aeeae61bb
 source-git-commit: 84fe0aeb10bc5e535a7ab54a3316a51a1a32b3ca
 workflow-type: tm+mt
 source-wordcount: '314'
-ht-degree: 73%
+ht-degree: 100%
 
 ---
 
@@ -21,11 +21,11 @@ ht-degree: 73%
 >title="Informazioni sulle uscite e sul monitoraggio della latenza "
 >abstract="In questa scheda, puoi monitorare la tendenza delle consegne e della latenza in un periodo di tempo sulle istanze."
 
-Il Pannello di controllo Campaign ti consente di monitorare l’esecuzione delle consegne e la latenza di ciascuna istanza.
+Il Pannello di controllo ti consente di monitorare gli output di consegna e la latenza di ciascuna istanza.
 
 >[!IMPORTANT]
 >
->Questa funzione è disponibile per tutti i clienti Campaign Standard e v8 e per i clienti Campaign V7 con numeri di build 9032,9330, 9346 o 9349 che hanno [indipendente](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/deployment-types-/standalone-deployment.html) implementazioni (senza alcuna istanza mid).
+>Questa funzione è disponibile per tutti i clienti Campaign Standard e v8 e per i clienti Campaign v7 con numeri di build 9032, 9330, 9346 o 9349 che hanno distribuzioni [autonome](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/deployment-types-/standalone-deployment.html?lang=it) (senza alcuna istanza MID).
 
 Per comprendere l’utilizzo delle istanze e garantirne le prestazioni, è essenziale monitorare la tendenza degli output di consegna e della latenza in un determinato periodo di tempo.
 
@@ -35,7 +35,7 @@ Queste informazioni sono disponibili nel Pannello di controllo Campaign per cias
 
    >[!NOTE]
    >
-   >Per Campaign v7/v8, il numero di throughput visualizzato è il throughput ottenuto dalle istanze MID (mid sourcing). Per le implementazioni di marketing standalone (MKT) (senza alcuna istanza MID), viene mostrato invece il throughput dall’istanza MKT.
+   >Per Campaign v7/v8, il valore di velocità effettiva visualizzato è quello ottenuto dalle istanze MID (mid sourcing). Per le distribuzioni di marketing (MKT) autonome (senza alcuna istanza MID), viene mostrata invece la velocità effettiva dall’istanza MKT.
 
 * L’area **[!UICONTROL Latency]** fornisce informazioni sulla latenza riscontrata nell’istanza selezionata durante l’invio di comunicazioni transazionali in tempo reale. Le latenze vengono acquisite e visualizzate al 95 e 99 percentile, il che significa che il 95% e il 99% delle richieste dovrebbero essere più veloci della latenza specificata.
 

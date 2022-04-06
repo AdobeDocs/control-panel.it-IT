@@ -8,7 +8,7 @@ exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab
 source-git-commit: aa5dbe361febee91eb936661da6dea09fc023eaa
 workflow-type: tm+mt
 source-wordcount: '228'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 84%
 
 ![](assets/do-not-localize/banner.png)
 
-Il Pannello di controllo Campaign Campaign ti consente di aumentare l’efficienza del lavoro come amministratore di prodotto di Campaign Standard e V7/v8, consentendoti di gestire le impostazioni e monitorare gli utilizzi per ciascuna istanza di Campaign.
+Il Pannello di controllo Campaign ti aiuta ad amministrare Campaign Standard e v7/v8 in modo più efficiente, consentendoti di gestire le impostazioni e tenere traccia dell’utilizzo di ciascuna istanza di Campaign.
 
 ## Novità
 
@@ -56,7 +56,7 @@ Ora puoi monitorare i parametri dei flussi di lavoro che richiedono particolare 
         <td><b>Campaign v7</b><br/>
         <ul>
             <li><a href="https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/control-panel-overview.html?lang=it">Video tutorial sul Pannello di controllo Campaign</a></li>
-            <li><a href="https://experienceleague.adobe.com/docs/campaign-classic/using/campaign-classic-home.html?lang=it">Documentazione del prodotto Campaign v7</a></li>
+            <li><a href="https://experienceleague.adobe.com/docs/campaign-classic/using/campaign-classic-home.html?lang=it">Documentazione del prodotto di Campaign v7</a></li>
         </ul>
         </td>
         <td><b>Campaign v8</b><br/>
