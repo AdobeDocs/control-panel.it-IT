@@ -4,10 +4,10 @@ solution: Campaign
 title: Versioni del Pannello di controllo Campaign
 description: In questa pagina sono elencate tutte le nuove funzioni e i miglioramenti apportati al Pannello di controllo Campaign
 exl-id: 13aceffb-ceaa-4cfe-8741-95d66c5c6caa
-source-git-commit: 35b849725711bfee9852cf8f503bc599f6d8eaff
+source-git-commit: da68420340ea8605f6e1347e86797c9e6a790ea6
 workflow-type: tm+mt
-source-wordcount: '1022'
-ht-degree: 63%
+source-wordcount: '1070'
+ht-degree: 61%
 
 ---
 
@@ -20,6 +20,23 @@ In questa pagina sono elencate tutte le nuove funzioni e i miglioramenti apporta
 >Il Pannello di controllo Campaign è accessibile solo agli utenti amministratori. Ulteriori informazioni sulle autorizzazioni in [questa sezione](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=it#discover-control-panel).
 >
 >Per Campaign v7, l’istanza deve essere ospitata su Amazon Web Services (AWS) e aggiornata alla versione più recente [Build stabile della campagna](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=it#rn-statuses) (o per costruire 9032 o superiore). Scopri come controllare la versione in [questa sezione](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=it#getting-your-campaign-version). Per verificare se l’istanza è ospitata su AWS, segui i passaggi descritti in [questa sezione](faq.md#hosted-aws).
+
+## Aprile 2022 {#april-2022}
+
+<table>
+<thead>
+<tr>
+<th><strong>Monitorare contatti ed eventi chiave nelle istanze</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Ora puoi monitorare le versioni precedenti e future e le revisioni dei servizi che si verificano sulle tue istanze, nonché accedere a un elenco di contatti chiave all’Adobe per qualsiasi richiesta o problema.</p><p>Per ulteriori informazioni, consulta la <a href="service-events/service-events.md">documentazione dettagliata.</a></p>
+</td>
+</tr>
+</tbody>
+</table>
 
 ## Marzo 2022 {#march-2022}
 

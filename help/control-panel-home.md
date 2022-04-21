@@ -5,10 +5,10 @@ feature: Control Panel
 role: Architect
 level: Beginner
 exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab
-source-git-commit: aa5dbe361febee91eb936661da6dea09fc023eaa
+source-git-commit: da68420340ea8605f6e1347e86797c9e6a790ea6
 workflow-type: tm+mt
-source-wordcount: '228'
-ht-degree: 100%
+source-wordcount: '221'
+ht-degree: 82%
 
 ---
 
@@ -27,14 +27,9 @@ Il Pannello di controllo Campaign ti aiuta ad amministrare Campaign Standard e v
 
 ## Novità
 
-**Monitoraggio dei parametri dei flussi di lavoro**
+**Monitorare contatti ed eventi chiave nelle istanze**
 
-Ora puoi monitorare i parametri dei flussi di lavoro che richiedono particolare attenzione per evitare problemi alle istanze. [Maggiori informazioni](performance-monitoring/using/workflow-monitoring.md)
-
-**Trasmissione e monitoraggio della latenza**
-
-È ora possibile monitorare la tendenza degli output di consegna e della latenza in un periodo di tempo sulle istanze. [Maggiori informazioni](performance-monitoring/using/thoughputs-latencies.md)
-
+Ora puoi monitorare le versioni precedenti e future e le revisioni dei servizi che si verificano sulle tue istanze, nonché accedere a un elenco di contatti chiave all’Adobe per qualsiasi richiesta o problema. [Maggiori informazioni](service-events/service-events.md)
 
 >[!CAUTION]
 >
