@@ -8,7 +8,7 @@ role: Architect
 level: Experienced
 exl-id: eddef17f-0667-4b43-bc56-2b1aeeae61bb
 source-git-commit: 84fe0aeb10bc5e535a7ab54a3316a51a1a32b3ca
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '314'
 ht-degree: 100%
 
