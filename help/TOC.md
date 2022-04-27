@@ -7,9 +7,9 @@ feature: Control Panel
 role: Architect
 level: Beginner
 source-git-commit: 9dc288986f11cd64f187ba9253e4e4ff9f1b00b3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '124'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 95%
    + [Accesso al Pannello di controllo ](discover/using/accessing-control-panel.md)
    + [Gestione delle autorizzazioni di accesso al Pannello di controllo ](discover/using/managing-permissions.md)
    + [Esplorazione dell’interfaccia del Pannello di controllo ](discover/using/discovering-the-interface.md)
-+ [Monitorare contatti ed eventi chiave](service-events/service-events.md)
++ [Monitorare eventi e contatti chiave](service-events/service-events.md)
 + Gestione SFTP {#sftp-management}
    + [Informazioni sulla gestione SFTP](sftp/using/about-sftp-management.md)
    + [Gestione dell’archiviazione SFTP](sftp/using/sftp-storage-management.md)
