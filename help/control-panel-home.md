@@ -6,9 +6,9 @@ role: Architect
 level: Beginner
 exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab
 source-git-commit: da68420340ea8605f6e1347e86797c9e6a790ea6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '221'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -27,9 +27,9 @@ Il Pannello di controllo Campaign ti aiuta ad amministrare Campaign Standard e v
 
 ## Novità
 
-**Monitorare contatti ed eventi chiave nelle istanze**
+**Monitorare eventi e contatti chiave nelle istanze**
 
-Ora puoi monitorare le versioni precedenti e future e le revisioni dei servizi che si verificano sulle tue istanze, nonché accedere a un elenco di contatti chiave all’Adobe per qualsiasi richiesta o problema. [Maggiori informazioni](service-events/service-events.md)
+Ora puoi monitorare le versioni precedenti e future e le revisioni dei servizi che si verificano sulle tue istanze, nonché accedere a un elenco di contatti chiave in Adobe per eventuali richieste o problemi. [Maggiori informazioni](service-events/service-events.md)
 
 >[!CAUTION]
 >
