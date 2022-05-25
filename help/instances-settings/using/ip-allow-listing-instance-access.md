@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Intermediate
 exl-id: 1d1eeff8-969e-4529-b947-2a68defb8d13
-source-git-commit: 330733c5a025ed8f26120a38f40743bfb5023fd4
+source-git-commit: 2458263ef5981a16d983912b498e320501df7889
 workflow-type: tm+mt
-source-wordcount: '763'
-ht-degree: 88%
+source-wordcount: '831'
+ht-degree: 82%
 
 ---
 
@@ -27,6 +27,8 @@ ht-degree: 88%
 >[!IMPORTANT]
 >
 >Questa funzione è disponibile solo per le istanze Campaign v7/v8 .
+>
+>Se utilizzi un’istanza con un modello di hosting ibrido, potrai aggiungere solo indirizzi IP in &quot;Connessione API esterna&quot; per l’istanza RT.
 
 Per impostazione predefinita, l’istanza di Adobe Campaign non è accessibile da vari indirizzi IP.
 
@@ -55,7 +57,7 @@ Accertati di seguire le raccomandazioni e le limitazioni riportate di seguito qu
 
 >[!NOTE]
 >
->Se la **[!UICONTROL Instance Settings]** la scheda non è visibile nella home page del Pannello di controllo Campaign, il che significa che il tuo ID organizzazione non è associato ad alcuna istanza di Adobe Campaign v7/v8.
+>Se la **[!UICONTROL Instance Settings]** la scheda non è visibile nella home page del Pannello di controllo Campaign, il che significa che il tuo ID organizzazione IMS non è associato ad alcuna istanza di Adobe Campaign v7/v8.
 
 Per aggiungere indirizzi IP all’elenco Consentiti, esegui i seguenti passaggi:
 
@@ -88,11 +90,16 @@ Per aggiungere indirizzi IP all’elenco Consentiti, esegui i seguenti passaggi:
    * **[!UICONTROL AEM connection]**: gli indirizzi IP AEM specificati saranno autorizzati a connettersi all’istanza Marketing.
    * **[!UICONTROL External API connection]**: le API esterne con gli indirizzi IP specificati saranno autorizzate a connettersi all’istanza Marketing e/o Message Center (Centro messaggi) (RT). La connessione delle istanze RT alla console non è abilitata.
 
+      >[!NOTE]
+      >
+      >Se utilizzi un’istanza con un modello di hosting ibrido, potrai aggiungere solo indirizzi IP in &quot;Connessione API esterna&quot; per l’istanza RT.
    ![](assets/ip_whitelist_acesstype.png)
 
 1. Fai clic sul pulsante **[!UICONTROL Save]**. L’intervallo IP viene aggiunto all’elenco Consentiti.
 
    <!--![](assets/ip_whitelist_added.png)-->
+
+Per impostazione predefinita, l’istanza di Adobe Campaign non è accessibile da vari indirizzi IP.
 
 Per eliminare uno o più intervalli IP dall’elenco consentiti, selezionali, quindi fai clic sul pulsante **[!UICONTROL Delete IP range]** pulsante .
 

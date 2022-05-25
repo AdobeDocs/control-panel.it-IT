@@ -4,10 +4,10 @@ solution: Campaign
 title: Versioni del Pannello di controllo Campaign
 description: In questa pagina sono elencate tutte le nuove funzioni e i miglioramenti apportati al Pannello di controllo Campaign
 exl-id: 13aceffb-ceaa-4cfe-8741-95d66c5c6caa
-source-git-commit: da68420340ea8605f6e1347e86797c9e6a790ea6
+source-git-commit: 87b28195ede08756d5084aad36bf1c95f621b5f5
 workflow-type: tm+mt
-source-wordcount: '1070'
-ht-degree: 61%
+source-wordcount: '1174'
+ht-degree: 60%
 
 ---
 
@@ -21,18 +21,51 @@ In questa pagina sono elencate tutte le nuove funzioni e i miglioramenti apporta
 >
 >Per Campaign v7, l’istanza deve essere ospitata su Amazon Web Services (AWS) e aggiornata alla versione più recente [Build stabile della campagna](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=it#rn-statuses) (o per costruire 9032 o superiore). Scopri come controllare la versione in [questa sezione](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=it#getting-your-campaign-version). Per verificare se l’istanza è ospitata su AWS, segui i passaggi descritti in [questa sezione](faq.md#hosted-aws).
 
-## Aprile 2022 {#april-2022}
+## Maggio 2022 {#may-2022}
 
 <table>
 <thead>
 <tr>
-<th><strong>Monitorare contatti ed eventi chiave nelle istanze</strong><br/></th>
+<th><strong>Disponibilità del Pannello di controllo Campaign al modello di hosting ibrido</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Ora puoi monitorare le versioni precedenti e future e le revisioni dei servizi che si verificano sulle tue istanze, nonché accedere a un elenco di contatti chiave all’Adobe per qualsiasi richiesta o problema.</p><p>Per ulteriori informazioni, consulta la <a href="service-events/service-events.md">documentazione dettagliata.</a></p>
+<p>Il Pannello di controllo Campaign è ora disponibile per i clienti con un modello di hosting ibrido. Questi clienti possono sfruttare le funzioni del Pannello di controllo Campaign fornendo il loro URL dell’istanza MID/RT configurato nella loro istanza di marketing nel Pannello di controllo Campaign .</p><p>Per ulteriori informazioni, consulta la <a href="instances-settings/using/external-accounts.md">documentazione dettagliata.</a></p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Aggiornamenti del monitoraggio di throughput e latenze</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Sono state migliorate le funzionalità di monitoraggio dei thread e delle latenze:<ul><li>Ora puoi identificare gli ID delle prime 5 consegne che contribuiscono al throughput dell’istanza.</li><li>I clienti di Campaign Classic v7/v8 possono ora visualizzare la latenza per un canale specifico.</p></li><p>Per ulteriori informazioni, consulta la <a href="performance-monitoring/using/thoughputs-latencies.md">documentazione dettagliata.</a></p>
+</td>
+</tr>
+</tbody>
+</table>
+
+
+## Aprile 2022 {#april-2022}
+
+<table>
+<thead>
+<tr>
+<th><strong>Monitorare eventi e contatti chiave nelle istanze</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Ora puoi monitorare le versioni precedenti e future e le revisioni dei servizi che si verificano sulle tue istanze, nonché accedere a un elenco di contatti chiave in Adobe per eventuali richieste o problemi.</p><p>Per ulteriori informazioni, consulta la <a href="service-events/service-events.md">documentazione dettagliata.</a></p>
 </td>
 </tr>
 </tbody>

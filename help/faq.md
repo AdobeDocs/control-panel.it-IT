@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Intermediate
 exl-id: 4f329764-ed8b-4939-affc-ed994fd6101d
-source-git-commit: 330733c5a025ed8f26120a38f40743bfb5023fd4
+source-git-commit: 3f68145c40f40df3e69f4fdfd889f3a7a2e995ab
 workflow-type: tm+mt
-source-wordcount: '753'
-ht-degree: 94%
+source-wordcount: '767'
+ht-degree: 100%
 
 ---
 
@@ -56,33 +56,33 @@ Segui le istruzioni dettagliate riportate nella documentazione Accesso al Pannel
 
 No, non ci sono costi aggiuntivi se sei un cliente attuale di Adobe Campaign.
 
-## ID organizzazione {#ims-org-id}
+## ID organizzazione IMS {#ims-org-id}
 
-### Cos’è un ID organizzazione 
+### Cos’è un ID organizzazione IMS?
 
 Si tratta di un ID univoco fornito all’istanza al primo accesso ad Adobe Experience Cloud. Deve essere nel formato: xxx@AdobeOrg.
 
-Per ulteriori informazioni, consulta [Documentazione di Adobe Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=it){_blank}.
+Per ulteriori informazioni, consulta la [documentazione di Adobe Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=it).
 
-### Dove posso trovare il mio ID organizzazione 
+### Dove posso trovare il mio ID organizzazione IMS?
 
-Un metodo consiste nell’accedere alla pagina [Home di Adobe Experience Cloud](https://experiencecloud.adobe.com/) > **[!UICONTROL Administration]**. Troverai il tuo ID organizzazione nella parte inferiore della sezione **[!UICONTROL Quick Access]** di Administration (Amministrazione). Puoi trovare informazioni più dettagliate nella sezione [Documentazione di Adobe Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html){_blank}.
+Un metodo consiste nell’accedere alla pagina [Home di Adobe Experience Cloud](https://experiencecloud.adobe.com/) > **[!UICONTROL Administration]**. Troverai il tuo ID organizzazione IMS nella parte inferiore della sezione **[!UICONTROL Quick Access]** di Administration (Amministrazione). Per maggiori informazioni, consulta la [documentazione di Adobe Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html).
 
-L’altro modo consiste nell’avviare **Admin Console**. L&#39;ID organizzazione sarà visibile nell&#39;URL e avrà un aspetto simile a: `https://adminconsole.adobe.com/xxx@AdobeOrg/overview`.
+L’altro modo consiste nell’avviare **Admin Console**. L’ID organizzazione IMS sarà visibile nell’URL e avrà un aspetto simile a: https://adminconsole.adobe.com/xxx@AdobeOrg/overview.
 
-### Perché devo conoscere il mio ID organizzazione 
+### Perché devo conoscere il mio ID organizzazione IMS?
 
 Affinché tu possa gestire le impostazioni per la tua istanza, se utilizzi più istanze per la tua azienda è importante essere certi che tu ottenga le informazioni giuste per una specifica istanza.
 
-### Cosa succede se dispongo di più ID organizzazione 
+### Cosa succede se dispongo di più ID organizzazione IMS?
 
-Se hai accesso a più soluzioni Adobe, potresti disporre di più ID organizzazione In questo caso, l’ID organizzazione corretto da utilizzare è quello visualizzato nella tua istanza di Adobe Campaign.
+Se hai accesso a più soluzioni Adobe, potresti disporre di più ID organizzazione IMS. In questo caso, l’ID organizzazione IMS corretto da utilizzare è quello visualizzato nella tua istanza di Adobe Campaign.
 
 >[!NOTE]
 >
->Se disponi dello stesso ID organizzazione per Adobe Campaign e Adobe Analytics, il problema non si pone. Disporre dello stesso ID organizzazione per Analytics e Campaign è un requisito se intendi integrare le soluzioni per sfruttare i casi d’uso complessi, come l’abbandono del carrello (per AA + AC).
+>Se disponi dello stesso ID organizzazione IMS per Adobe Campaign e Adobe Analytics, il problema non si pone. Disporre dello stesso ID organizzazione IMS per Analytics e Campaign è un requisito se intendi integrare le soluzioni per sfruttare i casi d’uso complessi, come l’abbandono del carrello (per AA + AC).
 >
->Se disponi di ID organizzazione diversi per Adobe Campaign e Adobe Analytics, contatta l’Assistenza clienti per allinearli.
+>Se disponi di ID organizzazione IMS diversi per Adobe Campaign e Adobe Analytics, contatta l’Assistenza clienti per allinearli.
 
 ### Come posso sapere se la mia istanza di Adobe Campaign è ospitata o meno su AWS?{#hosted-aws}
 
