@@ -7,9 +7,9 @@ feature: Control Panel
 role: Architect
 level: Beginner
 source-git-commit: 085d1854eda2c9fe05473760e1f1a30113de01a9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '130'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -56,5 +56,5 @@ ht-degree: 95%
    + [Autorizzazioni URL](instances-settings/using/url-permissions.md)
    + [Dettagli istanza](instances-settings/using/instance-details.md)
    + [Gestione chiavi GPG](instances-settings/using/gpg-keys-management.md)
-   + [Aggiungi istanze MID/RT (modello ibrido)](instances-settings/using/external-accounts.md)
+   + [Aggiungere istanze MID/RT (modello ibrido)](instances-settings/using/external-accounts.md)
 + [Domande frequenti](faq.md)
