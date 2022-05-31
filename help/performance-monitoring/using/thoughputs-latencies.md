@@ -1,25 +1,25 @@
 ---
 product: campaign
 solution: Campaign
-title: Trasmissione e monitoraggio della latenza
-description: Scopri come monitorare le esperienze di Campaign e la latenza nel Pannello di controllo.
+title: Monitoraggio delle velocità effettive e della latenza
+description: Scopri come monitorare le velocità effettive e la latenza delle istanze di Campaign nel Pannello di controllo Campaign.
 feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: eddef17f-0667-4b43-bc56-2b1aeeae61bb
 source-git-commit: a5bd04c4659ae18c4f05934f42e071b209a58fff
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '425'
-ht-degree: 73%
+ht-degree: 100%
 
 ---
 
-# Trasmissione e monitoraggio della latenza {#throughputs-latency-monitoring}
+# Monitoraggio delle velocità effettive e della latenza {#throughputs-latency-monitoring}
 
 >[!CONTEXTUALHELP]
 >id="cp_performancemonitoring_throughputslatencies"
->title="Informazioni sulle uscite e sul monitoraggio della latenza "
->abstract="In questa scheda, puoi monitorare la tendenza delle consegne e della latenza in un periodo di tempo sulle istanze. Per informazioni sulle consegne che contribuiscono al throughput, passa alla visualizzazione a tabella."
+>title="Informazioni sul monitoraggio delle velocità effettive e della latenza "
+>abstract="In questa scheda, puoi monitorare la tendenza nel tempo delle velocità effettive di consegna e della latenza per le tue istanze. Per informazioni sulle consegne che contribuiscono alla velocità effettiva, passa alla vista a tabella."
 
 Il Pannello di controllo ti consente di monitorare gli output di consegna e la latenza di ciascuna istanza.
 
@@ -37,34 +37,34 @@ Queste informazioni sono disponibili nel Pannello di controllo Campaign per cias
 
 ![](assets/throughput-latencies-overview.png)
 
-Per impostazione predefinita, i dati vengono visualizzati per il giorno corrente. È possibile modificare il periodo di tempo visualizzato utilizzando i pulsanti **[!UICONTROL 6 months]**, **[!UICONTROL 30 days]** e **[!UICONTROL 7 days]**. Verranno presentati i dati:
-* Vista oraria per 1 giorno e 7 giorni,
-* 6 ore per visualizzazione 30 giorni,
-* Vista giornaliera per 6 mesi.
+Per impostazione predefinita, i dati vengono visualizzati per il giorno corrente. È possibile modificare il periodo di tempo visualizzato utilizzando i pulsanti **[!UICONTROL 6 months]**, **[!UICONTROL 30 days]** e **[!UICONTROL 7 days]**. I dati verranno presentati come segue:
+* Su base oraria per le visualizzazioni a 1 giorno e 7 giorni
+* Su base di 6 ore per la visualizzazione a 30 giorni
+* Su base giornaliera per la visualizzazione a 6 mesi
 
 Puoi anche visualizzare queste informazioni in formato tabulare con colonne ordinabili, anziché con un grafico. Per farlo, fai clic sul pulsante **[!UICONTROL Visualization settings]**, quindi seleziona **[!UICONTROL Table]**.
 
 ![](assets/throughput-latencies-table.png)
 
-## Pensiero del monitor {#throughput}
+## Monitorare la velocità effettiva {#throughput}
 
-L’area **[!UICONTROL Throughput]** fornisce informazioni sul numero di messaggi inviati all’ora dall’istanza di Campaign selezionata per tutti i canali di comunicazione a cui hai diritto.
+L’area **[!UICONTROL Throughput]** fornisce informazioni sul numero di messaggi inviati all’ora dall’istanza di Campaign selezionata, per tutti i canali di comunicazione a cui hai diritto.
 
 >[!NOTE]
 >
 >Per Campaign v7/v8, il valore di velocità effettiva visualizzato è quello ottenuto dalle istanze MID (mid sourcing). Per le distribuzioni di marketing (MKT) autonome (senza alcuna istanza MID), viene mostrata invece la velocità effettiva dall’istanza MKT.
 
-Inoltre, Pannelli di controllo Campaign ti consente di identificare gli ID delle prime 5 consegne che contribuiscono al throughput per il periodo di tempo selezionato. Queste informazioni sono disponibili solo in visualizzazione a tabella:
+Il Pannello di controllo Campaign consente inoltre di identificare gli ID delle prime 5 consegne che contribuiscono alla velocità effettiva relativamente al periodo di tempo selezionato. Queste informazioni sono disponibili solo nella vista a tabella:
 
 ![](assets/throughput-latencies-top5.png)
 
-## Latenza monitor {#latency}
+## Monitorare la latenza {#latency}
 
 L’area **[!UICONTROL Latency]** fornisce informazioni sulla latenza riscontrata nell’istanza selezionata durante l’invio di comunicazioni transazionali in tempo reale.
 
 >[!NOTE]
 >
->Tieni presente che le informazioni relative a **Latenza profilo** è disponibile anche per [!DNL Campaign Standard] Solo istanze.
+>Inoltre, sono disponibili informazioni relative alla **latenza profilo** per le sole istanze di [!DNL Campaign Standard].
 
 Le latenze vengono acquisite e visualizzate al 95 e 99 percentile, il che significa che il 95% e il 99% delle richieste dovrebbero essere più veloci della latenza specificata.
 
@@ -76,4 +76,4 @@ Per impostazione predefinita, la latenza viene visualizzata per tutti i canali. 
 
 >[!NOTE]
 >
->Il filtro dei canali è disponibile solo per le istanze Campaign Classic v7/v8 .
+>Il filtro dei canali è disponibile solo per le istanze di Campaign Classic v7/v8.
