@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: eddef17f-0667-4b43-bc56-2b1aeeae61bb
-source-git-commit: a5bd04c4659ae18c4f05934f42e071b209a58fff
-workflow-type: ht
-source-wordcount: '425'
-ht-degree: 100%
+source-git-commit: bcc9ae9e8f3d6ed88f6f930af81e46c98dfd3d89
+workflow-type: tm+mt
+source-wordcount: '424'
+ht-degree: 93%
 
 ---
 
@@ -25,7 +25,7 @@ Il Pannello di controllo ti consente di monitorare gli output di consegna e la l
 
 >[!IMPORTANT]
 >
->Questa funzione è disponibile per tutti i clienti Campaign Standard e v8 e per i clienti Campaign v7 con numeri di build 9032, 9330, 9346 o 9349 che hanno distribuzioni [autonome](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/deployment-types-/standalone-deployment.html?lang=it) (senza alcuna istanza MID).
+>Questa funzione è disponibile per tutti i clienti Campaign Standard, v8 e Campaign v7 con numeri di build 9032 e versioni successive, tra cui [distribuzioni indipendenti](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/deployment-types-/standalone-deployment.html?lang=it) (senza istanza mid).
 
 Per comprendere l’utilizzo delle istanze e garantirne le prestazioni, è essenziale monitorare la tendenza degli output di consegna e della latenza in un determinato periodo di tempo.
 
