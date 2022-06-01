@@ -5,10 +5,10 @@ feature: Control Panel
 role: Architect
 level: Beginner
 exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab
-source-git-commit: da68420340ea8605f6e1347e86797c9e6a790ea6
-workflow-type: ht
-source-wordcount: '221'
-ht-degree: 100%
+source-git-commit: d2d5f43b4fcd8f0161681b55d2834e753e388de4
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -27,9 +27,17 @@ Il Pannello di controllo Campaign ti aiuta ad amministrare Campaign Standard e v
 
 ## Novità
 
-**Monitorare eventi e contatti chiave nelle istanze**
+**Disponibilità del Pannello di controllo Campaign al modello di hosting ibrido**
 
-Ora puoi monitorare le versioni precedenti e future e le revisioni dei servizi che si verificano sulle tue istanze, nonché accedere a un elenco di contatti chiave in Adobe per eventuali richieste o problemi. [Maggiori informazioni](service-events/service-events.md)
+Il Pannello di controllo Campaign è ora disponibile per i clienti con un modello di hosting ibrido. Questi clienti possono sfruttare le funzioni del Pannello di controllo Campaign fornendo il loro URL dell’istanza MID/RT configurato nella loro istanza di marketing nel Pannello di controllo Campaign . [Maggiori informazioni](instances-settings/using/external-accounts.md)
+
+
+**Aggiornamenti del monitoraggio di throughput e latenze**
+
+Sono state migliorate le funzionalità di monitoraggio dei flussi di lavoro e delle latenze. [Maggiori informazioni](performance-monitoring/using/thoughputs-latencies.md)
+
+* Ora puoi identificare gli ID delle prime 5 consegne che contribuiscono al throughput dell’istanza.
+* I clienti di Campaign Classic v7/v8 possono ora visualizzare la latenza per un canale specifico.
 
 >[!CAUTION]
 >
