@@ -8,9 +8,9 @@ role: Architect
 level: Experienced
 exl-id: eddef17f-0667-4b43-bc56-2b1aeeae61bb
 source-git-commit: bcc9ae9e8f3d6ed88f6f930af81e46c98dfd3d89
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '424'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -21,11 +21,11 @@ ht-degree: 93%
 >title="Informazioni sul monitoraggio delle velocità effettive e della latenza "
 >abstract="In questa scheda, puoi monitorare la tendenza nel tempo delle velocità effettive di consegna e della latenza per le tue istanze. Per informazioni sulle consegne che contribuiscono alla velocità effettiva, passa alla vista a tabella."
 
-Il Pannello di controllo ti consente di monitorare gli output di consegna e la latenza di ciascuna istanza.
+Il Pannello di controllo Campaign consente di monitorare le prestazione di consegna e la latenza di ciascuna istanza.
 
 >[!IMPORTANT]
 >
->Questa funzione è disponibile per tutti i clienti Campaign Standard, v8 e Campaign v7 con numeri di build 9032 e versioni successive, tra cui [distribuzioni indipendenti](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/deployment-types-/standalone-deployment.html?lang=it) (senza istanza mid).
+>Questa funzione è disponibile per tutti i clienti di Campaign Standard e Campaign v8, nonché per i clienti di Campaign v7 con build 9032 e successive, incluse le [implementazioni autonome](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/deployment-types-/standalone-deployment.html?lang=it) (senza alcuna istanza MID).
 
 Per comprendere l’utilizzo delle istanze e garantirne le prestazioni, è essenziale monitorare la tendenza degli output di consegna e della latenza in un determinato periodo di tempo.
 
