@@ -6,10 +6,10 @@ user-guide-title: Guida al pannello di controllo
 feature: Control Panel
 role: Architect
 level: Beginner
-source-git-commit: 085d1854eda2c9fe05473760e1f1a30113de01a9
-workflow-type: ht
-source-wordcount: '130'
-ht-degree: 100%
+source-git-commit: e0b0daba3a5820dc80b35d8c83ffc9143d547529
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -17,27 +17,35 @@ ht-degree: 100%
 # Guida al pannello di controllo {#using}
 
 + [Documentazione del prodotto](control-panel-home.md)
-+ [Note sulla versione](release-notes.md)
++ Note sulla versione {#release-notes}
+   + [Ultima versione](rn/release-notes.md)
+   + Versioni precedenti {#previous-releases}
+      + [Note sulla versione 2021](rn/release-notes-2021.md)
+      + [Note sulla versione 2020](rn/release-notes-2020.md)
+      + [Note sulla versione 20219](rn/release-notes-2019.md)
 + Esplorare il Pannello di controllo {#discover-control-panel}
    + [Funzioni principali](discover/using/key-features.md)
-   + [Accesso al Pannello di controllo ](discover/using/accessing-control-panel.md)
-   + [Gestione delle autorizzazioni di accesso al Pannello di controllo ](discover/using/managing-permissions.md)
-   + [Esplorazione dell’interfaccia del Pannello di controllo ](discover/using/discovering-the-interface.md)
+   + [Pannello di controllo di Access](discover/using/accessing-control-panel.md)
+   + [Gestire le autorizzazioni al Pannello di controllo Campaign](discover/using/managing-permissions.md)
+   + [Interfaccia di Discover Pannelli di controllo Campaign](discover/using/discovering-the-interface.md)
 + [Monitorare eventi e contatti chiave](service-events/service-events.md)
 + Gestione SFTP {#sftp-management}
    + [Informazioni sulla gestione SFTP](sftp/using/about-sftp-management.md)
    + [Gestione dell’archiviazione SFTP](sftp/using/sftp-storage-management.md)
    + [Inserimento di intervalli IP nell’elenco Consentiti](sftp/using/ip-range-allow-listing.md)
    + [Gestione delle chiavi](sftp/using/key-management.md)
-   + [Accesso al server SFTP](sftp/using/logging-into-sftp-server.md)
+   + [Accedi al tuo server SFTP](sftp/using/logging-into-sftp-server.md)
    + [Domande comuni](sftp/using/common-questions.md)
 + Sottodomini e certificati {#subdomains-and-certificates}
    + [Branding dei sottodomini](subdomains-certificates/using/subdomains-branding.md)
-   + [Monitoraggio dei sottodomini](subdomains-certificates/using/monitoring-subdomains.md)
-   + [Configurazione di un nuovo sottodominio](subdomains-certificates/using/setting-up-new-subdomain.md)
-   + [Monitoraggio dei certificati SSL](subdomains-certificates/using/monitoring-ssl-certificates.md)
-   + [Rinnovo dei certificati SSL](subdomains-certificates/using/renewing-subdomain-certificate.md)
-   + [Gestione dei record TXT](subdomains-certificates/using/managing-txt-records.md)
+   + [Monitorare i sottodomini](subdomains-certificates/using/monitoring-subdomains.md)
+   + [Configurare un nuovo sottodominio](subdomains-certificates/using/setting-up-new-subdomain.md)
+   + [Gestire i record TXT](subdomains-certificates/using/managing-txt-records.md)
+   + [Monitorare i certificati SSL](subdomains-certificates/using/monitoring-ssl-certificates.md)
+   + Rinnovare i certificati SSL {#renew-ssl}
+      + [Informazioni sul rinnovo dei certificati SSL](subdomains-certificates/using/renewing-subdomain-certificate.md)
+      + [Generare la CSR](subdomains-certificates/using/generate-csr.md)
+      + [Installare il certificato SSL](subdomains-certificates/using/install-ssl-certificate.md)
 + Monitoraggio delle prestazioni {#performance-monitoring}
    + [Informazioni sul monitoraggio delle prestazioni](performance-monitoring/using/about-performance-monitoring.md)
    + Monitoraggio del database {#database-monitoring}
@@ -47,7 +55,7 @@ ht-degree: 100%
       + [Le 10 risorse temporanee principali](performance-monitoring/using/database-top-ten-resources.md)
       + [Query attive](performance-monitoring/using/database-active-queries.md)
       + [Monitorare i flussi di lavoro](performance-monitoring/using/workflow-monitoring.md)
-      + [Prevenzione del sovraccarico del database](performance-monitoring/using/database-preventing-overload.md)
+      + [Impedisci il sovraccarico del database](performance-monitoring/using/database-preventing-overload.md)
    + [Monitoraggio profili attivi](performance-monitoring/using/active-profiles-monitoring.md)
    + [Trasmissione e monitoraggio della latenza](performance-monitoring/using/thoughputs-latencies.md)
    + [Avvisi e-mail](performance-monitoring/using/email-alerting.md)

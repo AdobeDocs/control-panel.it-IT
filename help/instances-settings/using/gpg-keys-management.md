@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: 366dd2ea-c6be-41a2-a4d6-4ffecb5f3d39
-source-git-commit: c1c80c03a351613ec0c6870a11ab39a634e8eab7
+source-git-commit: 140a84657325a3cb0e209996ca1aed7d6c1a3282
 workflow-type: tm+mt
-source-wordcount: '1179'
-ht-degree: 9%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -40,7 +40,11 @@ Potrai quindi:
 
 Il Pannello di controllo Campaign consente di crittografare i dati provenienti dall’istanza Adobe Campaign.
 
-A questo scopo, devi generare una coppia di chiavi GPG da uno strumento di crittografia PGP, quindi installare la chiave pubblica nel Pannello di controllo Campaign. Potrai quindi crittografare i dati prima di inviarli dall’istanza. Per farlo, segui la procedura indicata di seguito.
+A questo scopo, devi generare una coppia di chiavi GPG da uno strumento di crittografia PGP, quindi installare la chiave pubblica nel Pannello di controllo Campaign. Potrai quindi crittografare i dati prima di inviarli dall’istanza. A tale scopo, segui la procedura indicata di seguito.
+
+>[!NOTE]
+>
+>È possibile installare fino a 60 chiavi GPG in Pannello di controllo Campaign.
 
 ![](assets/do-not-localize/how-to-video.png)[ Scopri questa funzione nel video](#video)
 

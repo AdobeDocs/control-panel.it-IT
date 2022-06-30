@@ -5,10 +5,10 @@ feature: Control Panel
 role: Architect
 level: Beginner
 exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab
-source-git-commit: d2d5f43b4fcd8f0161681b55d2834e753e388de4
-workflow-type: ht
-source-wordcount: '271'
-ht-degree: 100%
+source-git-commit: 66456eefea1bf442874e2b388f292af9df9ec186
+workflow-type: tm+mt
+source-wordcount: '252'
+ht-degree: 73%
 
 ---
 
@@ -27,17 +27,19 @@ Il Pannello di controllo Campaign ti aiuta ad amministrare Campaign Standard e v
 
 ## Novità
 
-**Disponibilità del Pannello di controllo Campaign per il modello di hosting ibrido**
+**Primi 10 file che occupano spazio su server SFTP**
 
-Il Pannello di controllo Campaign è ora disponibile per i clienti con modello di hosting ibrido. Questi clienti possono ora sfruttarne le funzionalità fornendo l’URL dell’istanza MID/RT configurato nella propria istanza marketing nel Pannello di controllo Campaign. [Ulteriori informazioni](instances-settings/using/external-accounts.md)
+Ora puoi identificare i 10 file principali che occupano più spazio su un server SFTP. [Ulteriori informazioni](sftp/using/sftp-storage-management.md)
 
 
-**Aggiornamenti al monitoraggio delle prestazioni di consegna e delle latenze**
+**Ricordatori del calendario dei servizi**
 
-Sono state migliorate le funzionalità di monitoraggio delle prestazioni di consegna e delle latenze. [Ulteriori informazioni](performance-monitoring/using/thoughputs-latencies.md)
+Service Calendar (Calendario servizi) ora consente di impostare i promemoria per ricevere una notifica via e-mail prima che un evento si verifichi sulle istanze. [Ulteriori informazioni](instances-settings/using/external-accounts.md)
 
-* Ora puoi identificare gli ID delle prime 5 consegne che contribuiscono alle prestazioni della tua istanza.
-* I clienti di Campaign Classic v7/v8 possono ora visualizzare la latenza per un canale specifico.
+**Miglioramenti alla generazione CSR dei sottodomini**
+
+Sono stati apportati diversi miglioramenti al processo di generazione della RSI. [Maggiori informazioni](subdomains-certificates/using/renewing-subdomain-certificate.md)
+
 
 >[!CAUTION]
 >

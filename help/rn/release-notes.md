@@ -1,0 +1,203 @@
+---
+title: Ultima versione
+description: In questa pagina sono elencate tutte le nuove funzioni e i miglioramenti apportati al Pannello di controllo Campaign
+exl-id: 13aceffb-ceaa-4cfe-8741-95d66c5c6caa
+source-git-commit: e0b0daba3a5820dc80b35d8c83ffc9143d547529
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
+
+---
+
+# Ultima versione {#control-panel-releases}
+
+In questa pagina sono elencate tutte le nuove funzioni e i miglioramenti apportati al Pannello di controllo Campaign.
+
+## Giugno 2022 {#june-2022}
+
+### Novità?
+
+<table>
+<thead>
+<tr>
+<th><strong>Primi 10 file che occupano spazio su server SFTP</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Ora puoi identificare i 10 file principali che occupano più spazio su un server SFTP. <a href="../sftp/using/sftp-storage-management.md">Ulteriori informazioni</a></p>
+<img src="../assets/do-not-localize/sftp.gif"/>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Ricordatori del calendario dei servizi</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Service Calendar (Calendario servizi) ora consente di impostare i promemoria per ricevere una notifica via e-mail prima che un evento si verifichi sulle istanze. <a href="../instances-settings/using/external-accounts.md">Ulteriori informazioni</a></p>
+<img src="../assets/do-not-localize/reminders.gif"/>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Miglioramenti alla generazione CSR dei sottodomini</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Sono stati apportati diversi miglioramenti al processo di generazione della RSI. <a href="../subdomains-certificates/using/renewing-subdomain-certificate.md">Ulteriori informazioni</a></p><ul><li>Quando generi una CSR, ora puoi selezionare uno dei sottodomini inclusi come Nome comune.</li><li>Ora puoi copiare il riepilogo CSR prima di generare la CSR.</li><li>Una volta generata una CSR, puoi scaricarla nuovamente dai registri di lavoro. Questa funzionalità non si applica ai certificati generati prima di questa versione.</li></ul><p>
+<img src="../assets/do-not-localize/CSR.gif"/>
+</td>
+</tr>
+</tbody>
+</table>
+
+### Miglioramenti
+
+**Impostazioni delle istanze**
+
+* Il numero massimo di chiavi GPG nel Pannello di controllo Campaign è stato aumentato a 60 chiavi. [Ulteriori informazioni](../instances-settings/using/gpg-keys-management.md)
+
+## Maggio 2022 {#may-2022}
+
+<table>
+<thead>
+<tr>
+<th><strong>Disponibilità del Pannello di controllo Campaign per il modello di hosting ibrido</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Il Pannello di controllo Campaign è ora disponibile per i clienti con modello di hosting ibrido. Questi clienti possono ora sfruttarne le funzionalità fornendo l’URL dell’istanza MID/RT configurato nella propria istanza marketing nel Pannello di controllo Campaign.</p><p>Per ulteriori informazioni, consulta la <a href="../instances-settings/using/external-accounts.md">documentazione dettagliata.</a></p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Aggiornamenti al monitoraggio delle prestazioni di consegna e delle latenze</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Sono state migliorate le funzionalità di monitoraggio delle prestazioni di consegna e delle latenze:<ul><li>Ora puoi identificare gli ID delle prime 5 consegne che contribuiscono alle prestazioni della tua istanza.</li><li>I clienti di Campaign Classic v7/v8 possono ora visualizzare la latenza per un canale specifico.</p></li><p>Per ulteriori informazioni, consulta la <a href="../performance-monitoring/using/thoughputs-latencies.md">documentazione dettagliata.</a></p>
+</td>
+</tr>
+</tbody>
+</table>
+
+
+## Aprile 2022 {#april-2022}
+
+<table>
+<thead>
+<tr>
+<th><strong>Monitorare eventi e contatti chiave nelle istanze</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Ora puoi monitorare le versioni precedenti e future e le revisioni dei servizi che si verificano sulle tue istanze, nonché accedere a un elenco di contatti chiave in Adobe per eventuali richieste o problemi.</p><p>Per ulteriori informazioni, consulta la <a href="../service-events/service-events.md">documentazione dettagliata.</a></p>
+</td>
+</tr>
+</tbody>
+</table>
+
+## Marzo 2022 {#march-2022}
+
+<table>
+<thead>
+<tr>
+<th><strong>Disponibilità del monitoraggio della latenza e delle immagini</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Il monitoraggio dei flussi di lavoro e della latenza è ora disponibile per tutti i clienti Campaign Standard e v8 e per i clienti Campaign V7 con numeri di build 9032,9330, 9346 o 9349 che dispongono di distribuzioni indipendenti (senza istanza intermedia).</p><p>Per ulteriori informazioni, consulta la <a href="../performance-monitoring/using/thoughputs-latencies.md">documentazione dettagliata.</a></p>
+</td>
+</tr>
+</tbody>
+</table>
+
+## Febbraio 2022 {#february-2022}
+
+<table>
+<thead>
+<tr>
+<th><strong>Monitoraggio dei parametri dei flussi di lavoro</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Ora puoi monitorare i parametri dei flussi di lavoro che richiedono particolare attenzione per evitare problemi alle istanze. </p><p>Per ulteriori informazioni, consulta la <a href="../performance-monitoring/using/workflow-monitoring.md">documentazione dettagliata</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+## Gennaio 2022 {#january-2022}
+
+<table>
+<thead>
+<tr>
+<th><strong>Monitoraggio delle query attive</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Il Pannello di controllo ora consente di monitorare le query in esecuzione da molto tempo sulle istanze.</p><p>Per ulteriori informazioni, consulta la <a href="../performance-monitoring/using/database-active-queries.md">documentazione dettagliata</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Monitoraggio delle velocità effettive e della latenza</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>È ora possibile monitorare la tendenza degli output di consegna e della latenza in un periodo di tempo sulle istanze.</p><p>Per ulteriori informazioni, consulta la <a href="../performance-monitoring/using/thoughputs-latencies.md">documentazione dettagliata</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Operazioni sui certificati SSL nei nuovi sottodomini</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Le operazioni sui certificati SSL possono ora essere eseguite su un sottodominio appena configurato, anche se il controllo del recapito messaggi è ancora in corso.</p><p>Per ulteriori informazioni, consulta la <a href="../subdomains-certificates/using/renewing-subdomain-certificate.md">documentazione dettagliata</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>

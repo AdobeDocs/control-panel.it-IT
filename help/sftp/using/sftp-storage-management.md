@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: eaf67573-f088-47d9-8a25-273d08dc541a
-source-git-commit: c1c80c03a351613ec0c6870a11ab39a634e8eab7
+source-git-commit: 8db39899be5dfe610f39a6cecc23bd5f969078c6
 workflow-type: tm+mt
-source-wordcount: '346'
-ht-degree: 84%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 84%
 >[!CONTEXTUALHELP]
 >id="cp_storage"
 >title="Informazioni sulla capacità di archiviazione"
->abstract="In questa scheda puoi visualizzare le informazioni sulla capacità di archiviazione e sull’utilizzo dei server SFTP. Solo i server SFTP a cui hai accesso sono visualizzati qui. Contatta l’amministratore per richiedere l’accesso ad altri server SFTP."
+>abstract="In questa scheda puoi visualizzare le informazioni sulla capacità di archiviazione e sull’utilizzo dei server SFTP. Puoi anche elencare i 10 file che occupano più spazio su un server SFTP facendo clic sul suo nome. Solo i server SFTP a cui hai accesso sono visualizzati qui. Contatta l’amministratore per richiedere l’accesso ad altri server SFTP."
 >additional-url="https://images-tv.adobe.com/mpcv3/8a977e03-d76c-44d3-853c-95d0b799c870_1560205338.1920x1080at3000_h264.mp4" text="Guarda il video dimostrativo"
 
 È possibile che sul tuo server SFTP sia stato effettuato il provisioning di una capacità di archiviazione diversa, a seconda dei termini contrattuali.
@@ -38,6 +38,10 @@ Per ogni istanza, un avviso visivo ti consente di sapere quando l’archiviazion
 
 * **Arancione**: l’istanza ha superato l’80% della sua capacità,
 * **Rosso**: l’istanza supera il 90% della sua capacità.
+
+Puoi inoltre identificare i 10 file che occupano più spazio su un server SFTP facendo clic sul suo nome.
+
+![](assets/sftp-top10.png)
 
 Sono inoltre disponibili ulteriori suggerimenti su come procedere quando il tuo server si avvicina all’esaurimento della capacità.
 
