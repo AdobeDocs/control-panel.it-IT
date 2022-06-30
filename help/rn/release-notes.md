@@ -2,10 +2,10 @@
 title: Ultima versione
 description: In questa pagina sono elencate tutte le nuove funzioni e i miglioramenti apportati al Pannello di controllo Campaign
 exl-id: 13aceffb-ceaa-4cfe-8741-95d66c5c6caa
-source-git-commit: e0b0daba3a5820dc80b35d8c83ffc9143d547529
+source-git-commit: daa52035ea5db89552b56afc4ab5690610b6e846
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '501'
+ht-degree: 55%
 
 ---
 
@@ -42,7 +42,7 @@ In questa pagina sono elencate tutte le nuove funzioni e i miglioramenti apporta
 <tbody>
 <tr>
 <td>
-<p>Service Calendar (Calendario servizi) ora consente di impostare i promemoria per ricevere una notifica via e-mail prima che un evento si verifichi sulle istanze. <a href="../instances-settings/using/external-accounts.md">Ulteriori informazioni</a></p>
+<p>Service Calendar (Calendario servizi) ora consente di impostare i promemoria per ricevere una notifica via e-mail prima che un evento si verifichi sulle istanze. <a href="../service-events/service-events.md">Ulteriori informazioni</a></p>
 <img src="../assets/do-not-localize/reminders.gif"/>
 </td>
 </tr>
