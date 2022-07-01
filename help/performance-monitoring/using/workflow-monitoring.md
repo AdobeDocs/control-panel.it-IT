@@ -5,10 +5,10 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: 8016f800-430a-413d-a77b-b7f18f5ab733
-source-git-commit: f22a935769d74a2b8bae3f79cd53f2ee31d19737
-workflow-type: ht
+source-git-commit: 485069285709a7cc5c074f8813b322328e2840c0
+workflow-type: tm+mt
 source-wordcount: '311'
-ht-degree: 100%
+ht-degree: 93%
 
 ---
 
@@ -60,7 +60,7 @@ Quando è abilitata (valore “1”), questa opzione salva i risultati delle tra
 
 ## **[!UICONTROL Show SQL log]** {#sql}
 
-Quando questa opzione è abilitata, le query SQL inviate al database durante l’esecuzione del flusso di lavoro vengono visualizzate in Adobe Campaign. Per ulteriori informazioni, consulta la documentazione di [Campaign Standard](https://experienceleague.corp.adobe.com/docs/campaign-standard/using/managing-processes-and-data/executing-a-workflow/managing-execution-options.html?lang=it) e [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/workflow-properties.html?lang=it#execution).
+Quando questa opzione è abilitata, le query SQL inviate al database durante l’esecuzione del flusso di lavoro vengono visualizzate in Adobe Campaign. Per ulteriori informazioni, consulta la documentazione di [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/executing-a-workflow/managing-execution-options.html?lang=en) e [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/workflow-properties.html?lang=it#execution).
 
 Il valore “1” indica che il flusso di lavoro ha il campo **Severity** (Gravità) è impostato su “Produzione” e che l’opzione del registro query SQL è abilitata.
 
@@ -72,7 +72,7 @@ Il valore “1” indica che il flusso di lavoro ha il campo **Severity** (Gravi
 
 ## **[!UICONTROL Supervisors]** {#supervisors}
 
-Questo campo consente di assegnare un operatore a un flusso di lavoro. Se il flusso di lavoro non riesce, l’operatore riceve un avviso. Per ulteriori informazioni, consulta la documentazione di [Campaign Standard](https://experienceleague.corp.adobe.com/docs/campaign-standard/using/managing-processes-and-data/executing-a-workflow/monitoring-workflow-execution.html?lang=it#error-management) e [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/workflow-properties.html?lang=it#error-management).
+Questo campo consente di assegnare un operatore a un flusso di lavoro. Se il flusso di lavoro non riesce, l’operatore riceve un avviso. Per ulteriori informazioni, consulta la documentazione di [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/executing-a-workflow/monitoring-workflow-execution.html?lang=en#error-management) e [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/workflow-properties.html?lang=it#error-management).
 
 Il valore “1” indica che il flusso di lavoro ha il campo **Severity** (Gravità) impostato su “Produzione” e che nessun gruppo di supervisori è stato assegnato al flusso di lavoro.
 
