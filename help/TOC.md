@@ -6,10 +6,10 @@ user-guide-title: Guida al pannello di controllo
 feature: Control Panel
 role: Architect
 level: Beginner
-source-git-commit: e0b0daba3a5820dc80b35d8c83ffc9143d547529
+source-git-commit: bf710d56b0f4d3834ab505633ae85cf9444b6ccf
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '153'
+ht-degree: 73%
 
 ---
 
@@ -20,9 +20,10 @@ ht-degree: 0%
 + Note sulla versione {#release-notes}
    + [Ultima versione](rn/release-notes.md)
    + Versioni precedenti {#previous-releases}
+      + [Note sulla versione 2022](rn/release-notes-2022.md)
       + [Note sulla versione 2021](rn/release-notes-2021.md)
       + [Note sulla versione 2020](rn/release-notes-2020.md)
-      + [Note sulla versione 20219](rn/release-notes-2019.md)
+      + [Note sulla versione 2019](rn/release-notes-2019.md)
 + Esplorare il Pannello di controllo {#discover-control-panel}
    + [Funzioni principali](discover/using/key-features.md)
    + [Pannello di controllo di Access](discover/using/accessing-control-panel.md)
