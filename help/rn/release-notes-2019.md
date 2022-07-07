@@ -1,10 +1,10 @@
 ---
 title: Note sulla versione 2019
-description: In questa pagina sono elencate tutte le versioni di Pannello di controllo Campaign del 2019.
+description: In questa pagina sono elencate tutte le versioni del Pannello di controllo Campaign del 2019.
 source-git-commit: e0b0daba3a5820dc80b35d8c83ffc9143d547529
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '150'
+ht-degree: 100%
 
 ---
 
@@ -12,8 +12,8 @@ ht-degree: 0%
 
 ## Settembre 2019 {#september-2019}
 
-Sono state aggiunte nuove funzionalità che consentono agli utenti amministratori di aggiungere indirizzi IP all’elenco consentiti per connettersi alle istanze Campaign v7/v8.
-Inoltre, gli utenti amministratori possono ora visualizzare l’elenco delle istanze Campaign v7/v8 e l’idoneità per gli aggiornamenti della build.
+Sono state introdotte nuove funzionalità che consentono agli utenti amministratori di aggiungere indirizzi IP all’elenco Consentiti per connettersi alle istanze Campaign v7/v8.
+Inoltre, gli utenti amministratori possono ora visualizzare l’elenco delle istanze di Campaign v7/v8 e l’idoneità agli aggiornamenti della versione.
 
 Per ulteriori informazioni, consulta la [documentazione dedicata](../instances-settings/using/ip-allow-listing-instance-access.md).
 
