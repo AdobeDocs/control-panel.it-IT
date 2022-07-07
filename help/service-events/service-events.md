@@ -8,9 +8,9 @@ role: Architect
 level: Intermediate
 exl-id: d230aae6-4f0e-4201-bb3c-0e3f83a7c1b8
 source-git-commit: 8d1eda31cbe6ab915760d4894a03a4a0055a3130
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '497'
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="cp_servicecalendar_serviceevents"
 >title="Calendario dei servizi"
->abstract="Nella sezione dei contatti chiave sono elencate le persone in Adobe da contattare per eventuali richieste o problemi relativi alle istanze. Nella sezione Calendario eventi del servizio è possibile identificare le versioni e le revisioni del servizio per l&#39;istanza selezionata e impostare promemoria per i prossimi eventi."
+>abstract="Nella sezione dei contatti chiave sono elencate le persone in Adobe da contattare per eventuali richieste o problemi relativi alle istanze. Nella sezione Service Event Calendar (Calendario eventi dei servizi) trovi le versioni e le revisioni dei servizi per l’istanza selezionata e puoi impostare promemoria per i prossimi eventi."
 
 >[!IMPORTANT]
 >
@@ -71,17 +71,17 @@ Puoi assegnare un flag a uno o più eventi in programma per tenerne traccia. A q
 
 ![](assets/service-events-flag.png)
 
-### Imposta promemoria {#reminders}
+### Impostare i promemoria {#reminders}
 
-Con Service Calendar (Calendario servizi), è possibile impostare i promemoria per ricevere le notifiche via e-mail prima che si verifichi un evento.
+Con Service Calendar (Calendario dei servizi), è possibile impostare i promemoria per ricevere le notifiche via e-mail prima che si verifichi un evento.
 
 >[!NOTE]
 >
->Per ricevere notifiche sui prossimi eventi, assicurati di aver effettuato la sottoscrizione agli avvisi e-mail in Pannello di controllo Campaign. [Ulteriori informazioni](../performance-monitoring/using/email-alerting.md)
+>Per ricevere notifiche sui prossimi eventi, assicurati di aver richiesto la ricezione degli avvisi e-mail in Pannello di controllo Campaign. [Ulteriori informazioni](../performance-monitoring/using/email-alerting.md)
 
 Per impostare un avviso per un evento, effettua le seguenti operazioni:
 
-1. Fare clic sul pulsante di sospensione accanto all&#39;evento di cui si desidera ricevere il promemoria, quindi selezionare **[!UICONTROL Set Reminder]**.
+1. Fai clic sul pulsante con i tre punti (...) accanto all’evento di cui vuoi cevere il promemoria, quindi seleziona **[!UICONTROL Set Reminder]**.
 
 1. Assegna un titolo al promemoria, quindi seleziona la data in cui desideri ricevere la notifica prima che si verifichi l’evento.
 
@@ -89,7 +89,7 @@ Per impostare un avviso per un evento, effettua le seguenti operazioni:
 
    >[!NOTE]
    >
-   >Se non ti sei iscritto agli avvisi del Pannello di controllo Campaign, verrà visualizzato un messaggio che ti consentirà di iscriverti alla ricezione di notifiche e-mail.
+   >Se non ti sei iscritto agli avvisi del Pannello di controllo Campaign, verrà visualizzato un messaggio che ti consentirà di registrarti per ricevere le notifiche e-mail.
 
 1. Il promemoria è ora impostato per l’evento selezionato. Puoi passare il cursore sopra di esso in qualsiasi momento per visualizzarne il titolo.
 
@@ -99,4 +99,4 @@ Per impostare un avviso per un evento, effettua le seguenti operazioni:
    >
    >È possibile impostare fino a 2 promemoria per lo stesso evento.
 
-1. Alla data specificata nel promemoria, verrà inviata un’e-mail per avvisarti dell’evento successivo e il promemoria verrà rimosso automaticamente dal **[!UICONTROL Reminders]** nel menu Calendario servizi.
+1. Alla data specificata nel promemoria, verrà inviata un’e-mail per avvisarti dell’evento in arrivo e il promemoria verrà rimosso automaticamente dal conteggio **[!UICONTROL Reminders]** nel menu Service Calendar (Calendario dei servizi).
