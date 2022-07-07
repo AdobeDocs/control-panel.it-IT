@@ -1,11 +1,11 @@
 ---
 title: Ultima versione
-description: In questa pagina sono elencate tutte le nuove funzioni e i miglioramenti apportati al Pannello di controllo Campaign
+description: Questa pagina elenca tutte le nuove funzionalità e i miglioramenti introdotti in Pannello di controllo Campaign
 exl-id: 13aceffb-ceaa-4cfe-8741-95d66c5c6caa
 source-git-commit: 737ff99e60bb940980f3b7179672fdb984e6d4bf
 workflow-type: tm+mt
 source-wordcount: '175'
-ht-degree: 10%
+ht-degree: 93%
 
 ---
 
@@ -15,7 +15,7 @@ In questa pagina sono elencate le nuove funzioni e i miglioramenti apportati al 
 
 ## Giugno 2022 {#june-2022}
 
-### Novità?
+### Novità
 
 <table>
 <thead>
@@ -26,7 +26,7 @@ In questa pagina sono elencate le nuove funzioni e i miglioramenti apportati al 
 <tbody>
 <tr>
 <td>
-<p>Ora puoi identificare i 10 file principali che occupano più spazio su un server SFTP. <a href="../sftp/using/sftp-storage-management.md">Ulteriori informazioni</a></p>
+<p>Ora puoi identificare i primi 10 file che occupano più spazio su un server SFTP. <a href="../sftp/using/sftp-storage-management.md">Ulteriori informazioni</a></p>
 <img src="../assets/do-not-localize/sftp.gif"/>
 </td>
 </tr>
@@ -36,7 +36,7 @@ In questa pagina sono elencate le nuove funzioni e i miglioramenti apportati al 
 <table>
 <thead>
 <tr>
-<th><strong>Ricordatori del calendario dei servizi</strong><br/></th>
+<th><strong>Promemoria del calendario dei servizi</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -58,7 +58,7 @@ In questa pagina sono elencate le nuove funzioni e i miglioramenti apportati al 
 <tbody>
 <tr>
 <td>
-<p>Sono stati apportati diversi miglioramenti al processo di generazione della RSI. <a href="../subdomains-certificates/using/renewing-subdomain-certificate.md">Ulteriori informazioni</a></p><ul><li>Quando generi una CSR, ora puoi selezionare uno dei sottodomini inclusi come Nome comune.</li><li>Ora puoi copiare il riepilogo CSR prima di generare la CSR.</li><li>Una volta generata una CSR, puoi scaricarla nuovamente dai registri di lavoro. Questa funzionalità non si applica ai certificati generati prima di questa versione.</li></ul><p>
+<p>Sono stati apportati diversi miglioramenti al processo di generazione della CSR. <a href="../subdomains-certificates/using/renewing-subdomain-certificate.md">Ulteriori informazioni</a></p><ul><li>Quando generi una CSR, ora puoi selezionare uno dei sottodomini inclusi come Nome comune.</li><li>Ora puoi copiare il riepilogo CSR prima di generare la CSR.</li><li>Una volta generata una CSR, puoi scaricarla nuovamente dai registri di processo. Questa funzionalità non si applica ai certificati generati prima di questa versione.</li></ul><p>
 <img src="../assets/do-not-localize/CSR.gif"/>
 </td>
 </tr>

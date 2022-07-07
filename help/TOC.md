@@ -9,7 +9,7 @@ level: Beginner
 source-git-commit: bf710d56b0f4d3834ab505633ae85cf9444b6ccf
 workflow-type: tm+mt
 source-wordcount: '153'
-ht-degree: 73%
+ht-degree: 100%
 
 ---
 
@@ -26,16 +26,16 @@ ht-degree: 73%
       + [Note sulla versione 2019](rn/release-notes-2019.md)
 + Esplorare il Pannello di controllo {#discover-control-panel}
    + [Funzioni principali](discover/using/key-features.md)
-   + [Pannello di controllo di Access](discover/using/accessing-control-panel.md)
-   + [Gestire le autorizzazioni al Pannello di controllo Campaign](discover/using/managing-permissions.md)
-   + [Interfaccia di Discover Pannelli di controllo Campaign](discover/using/discovering-the-interface.md)
+   + [Pannello di controllo degli accessi Campaign](discover/using/accessing-control-panel.md)
+   + [Gestione delle autorizzazioni al Pannello di controllo Campaign](discover/using/managing-permissions.md)
+   + [Esplorare l’interfaccia del Pannello di controllo Campaign](discover/using/discovering-the-interface.md)
 + [Monitorare eventi e contatti chiave](service-events/service-events.md)
 + Gestione SFTP {#sftp-management}
    + [Informazioni sulla gestione SFTP](sftp/using/about-sftp-management.md)
-   + [Gestione dell’archiviazione SFTP](sftp/using/sftp-storage-management.md)
+   + [Gestire l’archiviazione SFTP](sftp/using/sftp-storage-management.md)
    + [Inserimento di intervalli IP nell’elenco Consentiti](sftp/using/ip-range-allow-listing.md)
    + [Gestione delle chiavi](sftp/using/key-management.md)
-   + [Accedi al tuo server SFTP](sftp/using/logging-into-sftp-server.md)
+   + [Accesso al server SFTP](sftp/using/logging-into-sftp-server.md)
    + [Domande comuni](sftp/using/common-questions.md)
 + Sottodomini e certificati {#subdomains-and-certificates}
    + [Branding dei sottodomini](subdomains-certificates/using/subdomains-branding.md)
@@ -56,7 +56,7 @@ ht-degree: 73%
       + [Le 10 risorse temporanee principali](performance-monitoring/using/database-top-ten-resources.md)
       + [Query attive](performance-monitoring/using/database-active-queries.md)
       + [Monitorare i flussi di lavoro](performance-monitoring/using/workflow-monitoring.md)
-      + [Impedisci il sovraccarico del database](performance-monitoring/using/database-preventing-overload.md)
+      + [Impedire il sovraccarico del database](performance-monitoring/using/database-preventing-overload.md)
    + [Monitoraggio profili attivi](performance-monitoring/using/active-profiles-monitoring.md)
    + [Trasmissione e monitoraggio della latenza](performance-monitoring/using/thoughputs-latencies.md)
    + [Avvisi e-mail](performance-monitoring/using/email-alerting.md)
