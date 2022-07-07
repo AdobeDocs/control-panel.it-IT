@@ -1,10 +1,10 @@
 ---
 title: Note sulla versione 2020
-description: In questa pagina sono elencate tutte le versioni di Pannello di controllo Campaign del 2020.
+description: In questa pagina sono elencate tutte le versioni del Pannello di controllo Campaign del 2020.
 source-git-commit: e0b0daba3a5820dc80b35d8c83ffc9143d547529
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '429'
+ht-degree: 100%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 0%
 <tbody>
 <tr>
 <td>
-<p>Il monitoraggio del database è stato migliorato con metriche aggiuntive che consentono di ottenere informazioni dettagliate sulle risorse che occupano spazio nel database.</p><p>Per ulteriori informazioni, consulta la <a href="../performance-monitoring/using/database-monitoring.md">documentazione dettagliata</a>.</p>
+<p>Il monitoraggio del database è stato migliorato con metriche aggiuntive, che consentono di ottenere informazioni dettagliate sulle risorse che occupano spazio nel database.</p><p>Per ulteriori informazioni, consulta la <a href="../performance-monitoring/using/database-monitoring.md">documentazione dettagliata</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -53,7 +53,7 @@ ht-degree: 0%
 <tbody>
 <tr>
 <td>
-<p>Dopo aver delegato un nuovo sottodominio, il Pannello di controllo Campaign ora consente di monitorare l’audit eseguito dal team di Adobe Deliverability.</p><p>Per ulteriori informazioni, consulta la <a href="../subdomains-certificates/using/setting-up-new-subdomain.md">documentazione dettagliata</a>.</p>
+<p>Dopo aver delegato un nuovo sottodominio, il Pannello di controllo Campaign ora consente di monitorare l’audit eseguito dal team Deliverability.</p><p>Per ulteriori informazioni, consulta la <a href="../subdomains-certificates/using/setting-up-new-subdomain.md">documentazione dettagliata</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -68,7 +68,7 @@ ht-degree: 0%
 <tbody>
 <tr>
 <td>
-<p>Il Pannello di controllo Campaign ora ti consente di generare una coppia di chiavi GPG, in modo da poter decifrare facilmente i dati che arrivano in Campaign dall’esterno. Inoltre, è stata aggiunta una funzionalità che ti consente di installare una chiave GPG pubblica per cifrare i dati in uscita da Campaign.</p><p>Per ulteriori informazioni, consulta la <a href="../instances-settings/using/gpg-keys-management.md">documentazione dettagliata</a>.</p>
+<p>Il Pannello di controllo Campaign ora ti consente di generare una coppia di chiavi GPG, in modo da poter decrittografrare facilmente i dati che arrivano in Campaign dall’esterno. Inoltre, è stata aggiunta una funzionalità che ti consente di installare una chiave GPG pubblica per crittografare i dati in uscita da Campaign.</p><p>Per ulteriori informazioni, consulta la <a href="../instances-settings/using/gpg-keys-management.md">documentazione dettagliata</a>.</p>
 </td>
 </tr>
 </tbody>
