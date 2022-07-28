@@ -1,14 +1,71 @@
 ---
 title: Note sulla versione 2022
-description: In questa pagina sono elencate tutte le versioni di Pannello di controllo Campaign del 2022.
-source-git-commit: 737ff99e60bb940980f3b7179672fdb984e6d4bf
+description: In questa pagina sono elencate tutte le versioni del Pannello di controllo Campaign del 2022.
+exl-id: 9fb18bb6-c4e4-48aa-849c-d9129add5266
+source-git-commit: c3c8d71e36cb1d55c2fcc8600b5063ea73d6e2e8
 workflow-type: tm+mt
-source-wordcount: '337'
-ht-degree: 78%
+source-wordcount: '485'
+ht-degree: 100%
 
 ---
 
 # Note sulla versione 2021 {#rn-2022}
+
+## Giugno 2022 {#june-2022}
+
+### Novità
+
+<table>
+<thead>
+<tr>
+<th><strong>Primi 10 file che occupano spazio su server SFTP</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Ora puoi identificare i primi 10 file che occupano più spazio su un server SFTP. <a href="../sftp/using/sftp-storage-management.md">Ulteriori informazioni</a></p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Promemoria del calendario dei servizi</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Service Calendar (Calendario servizi) ora consente di impostare i promemoria per ricevere una notifica via e-mail prima che un evento si verifichi sulle istanze. <a href="../service-events/service-events.md">Ulteriori informazioni</a></p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Miglioramenti alla generazione CSR dei sottodomini</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Sono stati apportati diversi miglioramenti al processo di generazione della CSR. <a href="../subdomains-certificates/using/renewing-subdomain-certificate.md">Ulteriori informazioni</a></p><ul><li>Quando generi una CSR, ora puoi selezionare uno dei sottodomini inclusi come Nome comune.</li><li>Ora puoi copiare il riepilogo CSR prima di generare la CSR.</li><li>Una volta generata una CSR, puoi scaricarla nuovamente dai registri di processo. Questa funzionalità non si applica ai certificati generati prima di questa versione.</li></ul><p>
+
+</td>
+</tr>
+</tbody>
+</table>
+
+### Miglioramenti
+
+**Impostazioni delle istanze**
+
+* Il numero massimo di chiavi GPG nel Pannello di controllo Campaign è stato aumentato a 60 chiavi. [Ulteriori informazioni](../instances-settings/using/gpg-keys-management.md)
 
 ## Maggio 2022 {#may-2022}
 
@@ -65,13 +122,13 @@ ht-degree: 78%
 <table>
 <thead>
 <tr>
-<th><strong>Disponibilità del monitoraggio della latenza e delle immagini</strong><br/></th>
+<th><strong>Monitoraggio delle velocità effettive e della latenza</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Il monitoraggio dei flussi di lavoro e della latenza è ora disponibile per tutti i clienti Campaign Standard e v8 e per i clienti Campaign V7 con numeri di build 9032,9330, 9346 o 9349 che dispongono di distribuzioni indipendenti (senza istanza intermedia).</p><p>Per ulteriori informazioni, consulta la <a href="../performance-monitoring/using/thoughputs-latencies.md">documentazione dettagliata.</a></p>
+<p>Questa funzione è disponibile per tutti i clienti Campaign Standard e v8 e per i clienti Campaign v7 con numeri di build 9032, 9330, 9346 o 9349 che hanno distribuzioni autonome (senza alcuna istanza MID).</p><p>Per ulteriori informazioni, consulta la <a href="../performance-monitoring/using/thoughputs-latencies.md">documentazione dettagliata.</a></p>
 </td>
 </tr>
 </tbody>
@@ -114,7 +171,7 @@ ht-degree: 78%
 <table>
 <thead>
 <tr>
-<th><strong>Monitoraggio delle velocità effettive e della latenza</strong><br/></th>
+<th><strong>Trasmissione e monitoraggio della latenza</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -135,7 +192,7 @@ ht-degree: 78%
 <tbody>
 <tr>
 <td>
-<p>Le operazioni sui certificati SSL possono ora essere eseguite su un sottodominio appena configurato, anche se il controllo del recapito messaggi è ancora in corso.</p><p>Per ulteriori informazioni, consulta la <a href="../subdomains-certificates/using/renewing-subdomain-certificate.md">documentazione dettagliata</a>.</p>
+<p>Le operazioni sui certificati SSL possono ora essere eseguite su un sottodominio appena configurato, anche se l'audit del recapito messaggi è ancora in corso.</p><p>Per ulteriori informazioni, consulta la <a href="../subdomains-certificates/using/renewing-subdomain-certificate.md">documentazione dettagliata</a>.</p>
 </td>
 </tr>
 </tbody>

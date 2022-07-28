@@ -2,10 +2,10 @@
 title: Ultima versione
 description: Questa pagina elenca tutte le nuove funzionalità e i miglioramenti introdotti in Pannello di controllo Campaign
 exl-id: 13aceffb-ceaa-4cfe-8741-95d66c5c6caa
-source-git-commit: 737ff99e60bb940980f3b7179672fdb984e6d4bf
+source-git-commit: c3c8d71e36cb1d55c2fcc8600b5063ea73d6e2e8
 workflow-type: tm+mt
-source-wordcount: '175'
-ht-degree: 93%
+source-wordcount: '59'
+ht-degree: 42%
 
 ---
 
@@ -13,61 +13,19 @@ ht-degree: 93%
 
 In questa pagina sono elencate le nuove funzioni e i miglioramenti apportati al Pannello di controllo Campaign.
 
-## Giugno 2022 {#june-2022}
-
-### Novità
+## Luglio 2022 {#july-2022}
 
 <table>
 <thead>
 <tr>
-<th><strong>Primi 10 file che occupano spazio su server SFTP</strong><br/></th>
+<th><strong>Installazione dei certificati dei sottodomini per il modello di hosting ibrido</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Ora puoi identificare i primi 10 file che occupano più spazio su un server SFTP. <a href="../sftp/using/sftp-storage-management.md">Ulteriori informazioni</a></p>
-<img src="../assets/do-not-localize/sftp.gif"/>
+<p><p>I clienti con modello di hosting ibrido possono ora rinnovare i certificati SSL dei loro sottodomini dal Pannello di controllo Campaign.</p><p>Per ulteriori informazioni, consulta la <a href="../subdomains-certificates/using/renewing-subdomain-certificate.md">documentazione dettagliata.</a></p>
 </td>
 </tr>
 </tbody>
 </table>
-
-<table>
-<thead>
-<tr>
-<th><strong>Promemoria del calendario dei servizi</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Service Calendar (Calendario servizi) ora consente di impostare i promemoria per ricevere una notifica via e-mail prima che un evento si verifichi sulle istanze. <a href="../service-events/service-events.md">Ulteriori informazioni</a></p>
-<img src="../assets/do-not-localize/reminders.gif"/>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>Miglioramenti alla generazione CSR dei sottodomini</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Sono stati apportati diversi miglioramenti al processo di generazione della CSR. <a href="../subdomains-certificates/using/renewing-subdomain-certificate.md">Ulteriori informazioni</a></p><ul><li>Quando generi una CSR, ora puoi selezionare uno dei sottodomini inclusi come Nome comune.</li><li>Ora puoi copiare il riepilogo CSR prima di generare la CSR.</li><li>Una volta generata una CSR, puoi scaricarla nuovamente dai registri di processo. Questa funzionalità non si applica ai certificati generati prima di questa versione.</li></ul><p>
-<img src="../assets/do-not-localize/CSR.gif"/>
-</td>
-</tr>
-</tbody>
-</table>
-
-### Miglioramenti
-
-**Impostazioni delle istanze**
-
-* Il numero massimo di chiavi GPG nel Pannello di controllo Campaign è stato aumentato a 60 chiavi. [Ulteriori informazioni](../instances-settings/using/gpg-keys-management.md)
-
