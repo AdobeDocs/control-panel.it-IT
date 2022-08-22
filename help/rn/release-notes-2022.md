@@ -3,7 +3,7 @@ title: Note sulla versione 2022
 description: In questa pagina sono elencate tutte le versioni del Pannello di controllo Campaign del 2022.
 exl-id: 9fb18bb6-c4e4-48aa-849c-d9129add5266
 source-git-commit: c3c8d71e36cb1d55c2fcc8600b5063ea73d6e2e8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '485'
 ht-degree: 100%
 
@@ -54,7 +54,7 @@ ht-degree: 100%
 <tbody>
 <tr>
 <td>
-<p>Sono stati apportati diversi miglioramenti al processo di generazione della CSR. <a href="../subdomains-certificates/using/renewing-subdomain-certificate.md">Ulteriori informazioni</a></p><ul><li>Quando generi una CSR, ora puoi selezionare uno dei sottodomini inclusi come Nome comune.</li><li>Ora puoi copiare il riepilogo CSR prima di generare la CSR.</li><li>Una volta generata una CSR, puoi scaricarla nuovamente dai registri di processo. Questa funzionalità non si applica ai certificati generati prima di questa versione.</li></ul><p>
+<p>Sono stati apportati diversi miglioramenti al processo di generazione della CSR. <a href="../subdomains-certificates/using/renewing-subdomain-certificate.md">Ulteriori informazioni</a></p><ul><li>Quando generi una CSR, ora puoi selezionare uno dei sottodomini inclusi come Nome comune.</li><li>Ora puoi copiare il riepilogo CSR prima di generare la CSR.</li><li>Una volta generata una CSR, puoi scaricarla nuovamente dai registri dei lavori. Questa funzionalità non si applica ai certificati generati prima di questa versione.</li></ul><p>
 
 </td>
 </tr>
