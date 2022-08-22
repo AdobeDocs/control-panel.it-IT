@@ -8,9 +8,9 @@ role: Architect
 level: Intermediate
 exl-id: ff64acbe-d8cb-499b-b20f-b0934fb0f695
 source-git-commit: 4740a446265e5d06be35e66aa29676a24d4f7d29
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '460'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -74,7 +74,7 @@ Per poter accedere alle funzionalità del Pannello di controllo Campaign, devi f
 
 1. Fai clic su **[!UICONTROL Save]** per confermare.
 
-Quando si aggiunge un URL MID/RT, viene attivato un processo asincrono per convalidare la correttezza degli URL. Questo processo potrebbe richiedere alcuni minuti. Fino a quando l’URL dell’istanza MID/RT non viene convalidato, il processo sarà in sospeso. Al completamento della convalida, potrai accedere alle funzionalità principali del Pannello di controllo Campaign.
+Quando si aggiunge un URL MID/RT, viene attivato un processo asincrono per convalidare la correttezza degli URL. Questo processo potrebbe richiedere alcuni minuti. Fino a quando l’URL dell’istanza MID/RT non viene convalidato, il lavoro risulterà in sospeso. Al completamento della convalida, potrai accedere alle funzionalità principali del Pannello di controllo Campaign.
 
 ![](assets/external-account-pending.png)
 
@@ -94,4 +94,4 @@ Una volta aggiunta un’istanza MID/RT al Pannello di controllo Campaign, puoi s
 * [Visualizzare i dettagli dell’istanza](../../instances-settings/using/instance-details.md)
 * [Aggiungere indirizzi IP all’elenco consentiti](../../instances-settings/using/ip-allow-listing-instance-access.md) (per le istanze RT)
 * [Visualizzare informazioni sui sottodomini delegati](../../subdomains-certificates/using/monitoring-subdomains.md)
-* [Rinnova i certificati SSL dei sottodomini](../../subdomains-certificates/using/renewing-subdomain-certificate.md).
+* [Rinnovare i certificati SSL dei sottodomini](../../subdomains-certificates/using/renewing-subdomain-certificate.md).
