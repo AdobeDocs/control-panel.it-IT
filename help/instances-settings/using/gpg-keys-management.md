@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: 366dd2ea-c6be-41a2-a4d6-4ffecb5f3d39
-source-git-commit: 140a84657325a3cb0e209996ca1aed7d6c1a3282
+source-git-commit: 5d2f0d08b7f9ae78fecfaa169190d6248ec4505b
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1189'
+ht-degree: 8%
 
 ---
 
@@ -61,7 +61,7 @@ A questo scopo, devi generare una coppia di chiavi GPG da uno strumento di critt
 1. Quando richiesto, specifica i parametri desiderati per la chiave. I parametri richiesti sono:
 
    * **tipo di chiave**: RSA
-   * **lunghezza chiave**: 1024 - 4096 bit
+   * **lunghezza chiave**: 3072 - 4096 bit
    * **nome reale** e **indirizzo e-mail**: Consente di tenere traccia di chi ha creato la coppia di chiavi. Immetti un nome e un indirizzo e-mail collegati alla tua organizzazione o reparto.
    * **commento**: l’aggiunta di un’etichetta al campo commento consente di identificare facilmente la chiave da utilizzare per crittografare i dati.
    * **scadenza**: Data o &quot;0&quot; per nessuna data di scadenza.
