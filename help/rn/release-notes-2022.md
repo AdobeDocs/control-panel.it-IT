@@ -2,14 +2,19 @@
 title: Note sulla versione 2022
 description: In questa pagina sono elencate tutte le versioni del Pannello di controllo Campaign del 2022.
 exl-id: 9fb18bb6-c4e4-48aa-849c-d9129add5266
-source-git-commit: 6ba347d1cbcefa9b9d59b1f368a7d754d3eb92bb
+source-git-commit: bbf1aa11ef7e1b43b4df7799c4a4491b73cfbef1
 workflow-type: tm+mt
-source-wordcount: '517'
-ht-degree: 100%
+source-wordcount: '544'
+ht-degree: 95%
 
 ---
 
 # Note sulla versione 2022 {#rn-2022}
+
+## Agosto 2022 {#august-2022}
+
+* I clienti con modello di hosting ibrido ora possono verificare i loro sottodomini. [Ulteriori informazioni](../subdomains-certificates/using/monitoring-subdomains.md)
+* Il campo Unità organizzativa (OU) è ora facoltativo nella richiesta di generazione del certificato (CSR, Certificate Generation Request). [Ulteriori informazioni](../subdomains-certificates/using/renewing-subdomain-certificate.md)
 
 ## Luglio 2022 {#july-2022}
 
