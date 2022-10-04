@@ -7,9 +7,9 @@ feature: Control Panel
 role: Architect
 level: Intermediate
 exl-id: 1d1eeff8-969e-4529-b947-2a68defb8d13
-source-git-commit: 2458263ef5981a16d983912b498e320501df7889
+source-git-commit: c834ae7226ed9dd1f78d4f4511b52cb5f04abfae
 workflow-type: tm+mt
-source-wordcount: '831'
+source-wordcount: '837'
 ht-degree: 82%
 
 ---
@@ -57,7 +57,7 @@ Accertati di seguire le raccomandazioni e le limitazioni riportate di seguito qu
 
 >[!NOTE]
 >
->Se la **[!UICONTROL Instance Settings]** la scheda non è visibile nella home page del Pannello di controllo Campaign, il che significa che il tuo ID organizzazione IMS non è associato ad alcuna istanza di Adobe Campaign v7/v8.
+>Se la **[!UICONTROL Instance Settings]** la scheda non è visibile sulla home page del Pannello di controllo Campaign, questo significa che il tuo [ID organizzazione](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=it) non è associato ad alcuna istanza di Adobe Campaign v7/v8.
 
 Per aggiungere indirizzi IP all’elenco Consentiti, esegui i seguenti passaggi:
 

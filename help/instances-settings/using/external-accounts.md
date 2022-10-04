@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Intermediate
 exl-id: ff64acbe-d8cb-499b-b20f-b0934fb0f695
-source-git-commit: bbf1aa11ef7e1b43b4df7799c4a4491b73cfbef1
+source-git-commit: c834ae7226ed9dd1f78d4f4511b52cb5f04abfae
 workflow-type: tm+mt
-source-wordcount: '459'
-ht-degree: 99%
+source-wordcount: '466'
+ht-degree: 93%
 
 ---
 
@@ -48,7 +48,7 @@ I clienti ibridi devono connettersi al Pannello di controllo Campaign tramite Ex
 
 >[!NOTE]
 >
->Nel caso riscontrassi problemi durante l’accesso al Pannello di controllo Campaign, è probabile che l’istanza marketing non sia ancora stata mappata con il tuo ID organizzazione. Contatta l’Assistenza clienti per completare la configurazione e procedere. Una volta stabilita la connessione, verrà visualizzata la pagina home del Pannello di controllo Campaign.
+>Nel caso in cui si verifichino problemi nell’accesso al Pannello di controllo Campaign, è molto probabile che l’istanza di marketing non sia ancora stata mappata con il tuo [ID organizzazione](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=it). Contatta l’Assistenza clienti per completare la configurazione e procedere. Una volta stabilita la connessione, verrà visualizzata la pagina home del Pannello di controllo Campaign.
 
 Per poter accedere alle funzionalità del Pannello di controllo Campaign, devi fornire le informazioni sull’istanza MID/RT nella scheda **[!UICONTROL Instances Settings]**. A tale scopo, segui la procedura indicata di seguito.
 
