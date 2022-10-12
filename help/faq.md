@@ -1,88 +1,88 @@
 ---
 product: campaign
 solution: Campaign
-title: Domande frequenti sul Pannello di controllo Campaign
-description: Domande comuni relative al Pannello di controllo Campaign
+title: Domande frequenti sul Pannello di controllo
+description: Domande comuni relative al Pannello di controllo
 feature: Control Panel
 role: Architect
 level: Intermediate
 exl-id: 4f329764-ed8b-4939-affc-ed994fd6101d
 source-git-commit: c834ae7226ed9dd1f78d4f4511b52cb5f04abfae
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '783'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
 # Domande frequenti {#faq}
 
-## Pannello di controllo Campaign {#control-panel}
+## Pannello di controllo {#control-panel}
 
-### Che cos’è il Pannello di controllo Campaign?
+### Che cos’è il Pannello di controllo?
 
-Il Pannello di controllo Campaign consente agli amministratori di prodotto di gestire direttamente le varie impostazioni e monitorare la capacità dei server SFTP connessi ad Adobe Campaign.
+Il Pannello di controllo consente agli amministratori di prodotto di gestire direttamente le varie impostazioni e monitorare la capacità dei server SFTP connessi ad Adobe Campaign.
 
-### Quali sono alcune delle attuali funzionalità del Pannello di controllo Campaign?
+### Quali sono alcune delle attuali funzionalità del Pannello di controllo?
 
-Il Pannello di controllo Campaign consente di tenere traccia dell’archiviazione, inserire IP nell’elenco Consentiti, gestire le chiavi SSH per i server SFTP in modo indipendente in base alle tue esigenze e svolgere altre azioni.
+Il Pannello di controllo consente di tenere traccia dell’archiviazione, inserire IP nell’elenco Consentiti, gestire le chiavi SSH per i server SFTP in modo indipendente in base alle tue esigenze e svolgere altre azioni.
 
-Per ulteriori informazioni, consulta la documentazione sulle azioni supportate dal Pannello di controllo Campaign.
+Per ulteriori informazioni, consulta la documentazione sulle azioni supportate dal Pannello di controllo.
 
 ### Esistono alcune funzionalità non ancora supportate in Campaign v8 ma disponibili in Campaign Classic v7?{#v8-restrictions}
 
 No. Tutte le funzionalità disponibili in Campaign v7 sono ora supportate anche tramite il Pannello di controllo di Campaign v8, incluse le funzioni relative alla gestione dei sottodomini e dei certificati.
 
-### Il Pannello di controllo Campaign è solo per Adobe Campaign?
+### Il Pannello di controllo è solo per Adobe Campaign?
 
-Sì, puoi gestire solo le impostazioni per Adobe Campaign nel Pannello di controllo Campaign.
+Sì, puoi gestire solo le impostazioni per Adobe Campaign nel Pannello di controllo.
 
-### Posso usare il Pannello di controllo Campaign?
+### Posso usare il Pannello di controllo?
 
-Il Pannello di controllo Campaign è accessibile solo agli amministratori di prodotto dei nostri clienti attuali che dispongono di Adobe Campaign ospitato su AWS.
+Il Pannello di controllo è accessibile solo agli amministratori di prodotto dei nostri clienti attuali che dispongono di Adobe Campaign ospitato su AWS.
 
-Il Pannello di controllo Campaign consente ai clienti con un modello di hosting ibrido di sfruttarne le funzionalità specifiche. A questo scopo, è necessario fornire l’URL dell’istanza MID/RT configurato nell’istanza marketing nel Pannello di controllo Campaign. [Ulteriori informazioni](instances-settings/using/external-accounts.md)
+Il Pannello di controllo consente ai clienti con un modello di hosting ibrido di sfruttarne le funzionalità specifiche. A questo scopo, è necessario fornire l’URL dell’istanza MID/RT configurato nell’istanza marketing nel Pannello di controllo. [Ulteriori informazioni](instances-settings/using/external-accounts.md)
 
 Se non sei un amministratore, ma desideri accedervi, contatta il tuo amministratore di prodotto per essere aggiunto come amministratore.
 
-### In qualità di utente di Campaign Classic v7, quali sono le condizioni per poter accedere al Pannello di controllo Campaign? {#v7-restrictions}
+### In qualità di utente di Campaign Classic v7, quali sono le condizioni per poter accedere al Pannello di controllo? {#v7-restrictions}
 
-Il Pannello di controllo Campaign è riservato agli utenti amministratori. [Ulteriori informazioni](discover/using/managing-permissions.md).
+Il Pannello di controllo è riservato agli utenti amministratori. [Ulteriori informazioni](discover/using/managing-permissions.md).
 
 Per Campaign v7, tieni presente che l’istanza deve essere ospitata su Amazon Web Services (AWS) e aggiornata all’ultima [versione stabile di Campaign](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=it#rn-statuses) o alla versione 9032 o superiore. Per controllare la versione di Campaign Classic v7 in uso, consulta [questa sezione](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=it#getting-your-campaign-version). Per verificare se l’istanza di Campaign Classic è ospitata su AWS, segui i passaggi descritti in [questa sezione](#hosted-aws).
 
-### Come posso accedere al Pannello di controllo Campaign?
+### Come posso accedere al Pannello di controllo?
 
-Segui le istruzioni dettagliate riportate nella documentazione Accesso al Pannello di controllo Campaign.
+Segui le istruzioni dettagliate riportate nella documentazione Accesso al Pannello di controllo.
 
-### È previsto un costo aggiuntivo per l’utilizzo del Pannello di controllo Campaign?
+### È previsto un costo aggiuntivo per l’utilizzo del Pannello di controllo?
 
 No, non ci sono costi aggiuntivi se sei un cliente attuale di Adobe Campaign.
 
-## ID organizzazione {#ims-org-id}
+## ID organizzazione  {#ims-org-id}
 
-### Che cos&#39;è un ID organizzazione?
+### Cos’è un ID organizzazione?
 
 Si tratta di un ID univoco fornito all’istanza al primo accesso ad Adobe Experience Cloud. Deve essere nel formato: xxx@AdobeOrg.
 
 Per ulteriori informazioni, consulta la [documentazione di Adobe Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=it).
 
-### Dove posso trovare l&#39;ID organizzazione?
+### Dove posso trovare il mio ID organizzazione? 
 
-Un metodo consiste nell’accedere alla pagina [Home di Adobe Experience Cloud](https://experiencecloud.adobe.com/) > **[!UICONTROL Administration]**. Troverai l’ID organizzazione nella parte inferiore di Administration **[!UICONTROL Quick Access]** sezione . Per maggiori informazioni, consulta la [documentazione di Adobe Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html).
+Un metodo consiste nell’accedere alla pagina [Home di Adobe Experience Cloud](https://experiencecloud.adobe.com/) > **[!UICONTROL Administration]**. Troverai il tuo ID organizzazione nella parte inferiore della sezione **[!UICONTROL Quick Access]** di Administration (Amministrazione). Per maggiori informazioni, consulta la [documentazione di Adobe Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=it).
 
-L’altro modo consiste nell’avviare **Admin Console**. L&#39;ID organizzazione sarà visibile nell&#39;URL e avrà un aspetto simile a: https://adminconsole.adobe.com/xxx@AdobeOrg/overview.
+L’altro modo consiste nell’avviare **Admin Console**. L’ID organizzazione sarà visibile nell’URL e avrà un aspetto simile a: https://adminconsole.adobe.com/it_IT/xxx@AdobeOrg/overview.
 
-### Perché devo conoscere il mio ID organizzazione?
+### Perché devo conoscere il mio ID organizzazione? 
 
 Affinché tu possa gestire le impostazioni per la tua istanza, se utilizzi più istanze per la tua azienda è importante essere certi che tu ottenga le informazioni giuste per una specifica istanza.
 
-### Cosa succede se dispongo di più ID organizzazione?
+### Cosa succede se dispongo di più ID organizzazione? 
 
-Se hai accesso a più soluzioni Adobe, puoi disporre di più ID organizzazione. In questo caso, l’ID organizzazione corretto da utilizzare è quello visualizzato nella tua istanza Adobe Campaign.
+Se hai accesso a più soluzioni Adobe, potresti disporre di più ID organizzazione. In questo caso, l’ID organizzazione corretto da utilizzare è quello visualizzato nella tua istanza di Adobe Campaign.
 
 >[!NOTE]
 >
->Se disponi dello stesso ID organizzazione per Adobe Campaign e Adobe Analytics, è ottimo. Disporre di un unico ID organizzazione tra Analytics e Campaign è un requisito se intendi integrare le soluzioni per sfruttare i casi d’uso complessi, come l’abbandono del carrello (per AA + AC).
+>Se disponi dello stesso ID organizzazione per Adobe Campaign e Adobe Analytics, il problema non si pone. Disporre di un ID organizzazione per Analytics e Campaign è un requisito se intendi integrare le soluzioni per sfruttare i casi d’uso complessi, come l’abbandono del carrello (per AA + AC).
 >
 >Se disponi di ID organizzazione diversi per Adobe Campaign e Adobe Analytics, contatta l’Assistenza clienti per allinearli.
 
