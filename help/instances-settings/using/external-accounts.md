@@ -2,15 +2,15 @@
 product: campaign
 solution: Campaign
 title: Aggiungere istanze MID/RT (modello ibrido)
-description: Scopri come aggiungere istanze MID/RT al Pannello di controllo Campaign con un modello di hosting ibrido.
+description: Scopri come aggiungere istanze MID/RT al Pannello di controllo con un modello di hosting ibrido.
 feature: Control Panel
 role: Architect
 level: Intermediate
 exl-id: ff64acbe-d8cb-499b-b20f-b0934fb0f695
 source-git-commit: c834ae7226ed9dd1f78d4f4511b52cb5f04abfae
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '466'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -19,9 +19,9 @@ ht-degree: 93%
 >[!CONTEXTUALHELP]
 >id="cp_externalaccounts"
 >title="Account esterni"
->abstract="In questa schermata, i clienti con modello di hosting ibrido possono fornire l’URL dell’istanza MID/RT configurato nell’istanza marketing del Pannello di controllo Campaign, al fine di sfruttarne le funzionalità."
+>abstract="In questa schermata, i clienti con modello di hosting ibrido possono fornire l’URL dell’istanza MID/RT configurato nell’istanza marketing del Pannello di controllo, al fine di sfruttarne le funzionalità."
 
-Il Pannello di controllo Campaign consente ai clienti con un modello di hosting ibrido di sfruttarne le funzionalità specifiche. A questo scopo, è necessario fornire l’URL dell’istanza MID/RT configurato nell’istanza marketing nel Pannello di controllo Campaign.
+Il Pannello di controllo consente ai clienti con un modello di hosting ibrido di sfruttarne le funzionalità specifiche. A questo scopo, è necessario fornire l’URL dell’istanza MID/RT configurato nell’istanza marketing nel Pannello di controllo.
 
 Per ulteriori informazioni sui modelli di hosting, consulta la [documentazione di Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=it).
 
@@ -42,15 +42,15 @@ Per ulteriori informazioni sui modelli di hosting, consulta la [documentazione d
 >title="Password"
 >abstract="Password dell’operatore fornita dopo il provisioning iniziale da Adobe Admin."
 
-I clienti ibridi devono connettersi al Pannello di controllo Campaign tramite Experience Cloud. Quando si accede al Pannello di controllo Campaign per la prima volta, nella pagina home vengono visualizzate solo due schede.
+I clienti ibridi devono connettersi al Pannello di controllo tramite Experience Cloud. Quando si accede al Pannello di controllo per la prima volta, nella pagina home vengono visualizzate solo due schede.
 
 ![](assets/hybrid-homepage.png)
 
 >[!NOTE]
 >
->Nel caso in cui si verifichino problemi nell’accesso al Pannello di controllo Campaign, è molto probabile che l’istanza di marketing non sia ancora stata mappata con il tuo [ID organizzazione](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=it). Contatta l’Assistenza clienti per completare la configurazione e procedere. Una volta stabilita la connessione, verrà visualizzata la pagina home del Pannello di controllo Campaign.
+>Nel caso riscontrassi problemi durante l’accesso al Pannello di controllo, è probabile che l’istanza marketing non sia ancora stata mappata con il tuo [ID organizzazione](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=it). Contatta l’Assistenza clienti per completare la configurazione e procedere. Una volta stabilita la connessione, verrà visualizzata la pagina home del Pannello di controllo.
 
-Per poter accedere alle funzionalità del Pannello di controllo Campaign, devi fornire le informazioni sull’istanza MID/RT nella scheda **[!UICONTROL Instances Settings]**. A tale scopo, segui la procedura indicata di seguito.
+Per poter accedere alle funzionalità del Pannello di controllo, devi fornire le informazioni sull’istanza MID/RT nella scheda **[!UICONTROL Instances Settings]**. A tale scopo, segui la procedura indicata di seguito.
 
 1. Nella scheda **[!UICONTROL Instances Settings]**, seleziona la scheda **[!UICONTROL External Accounts]**.
 
@@ -74,7 +74,7 @@ Per poter accedere alle funzionalità del Pannello di controllo Campaign, devi f
 
 1. Fai clic su **[!UICONTROL Save]** per confermare.
 
-Quando si aggiunge un URL MID/RT, viene attivato un processo asincrono per convalidare la correttezza degli URL. Questo processo potrebbe richiedere alcuni minuti. Fino a quando l’URL dell’istanza MID/RT non viene convalidato, il lavoro risulterà in sospeso. Al completamento della convalida, potrai accedere alle funzionalità principali del Pannello di controllo Campaign.
+Quando si aggiunge un URL MID/RT, viene attivato un processo asincrono per convalidare la correttezza degli URL. Questo processo potrebbe richiedere alcuni minuti. Fino a quando l’URL dell’istanza MID/RT non viene convalidato, il lavoro risulterà in sospeso. Al completamento della convalida, potrai accedere alle funzionalità principali del Pannello di controllo.
 
 ![](assets/external-account-pending.png)
 
@@ -88,10 +88,10 @@ Inoltre puoi monitorare qualsiasi azione eseguita nella scheda **[!UICONTROL Ext
 
 ## Funzionalità disponibili per i clienti ibridi {#capabilities}
 
-Una volta aggiunta un’istanza MID/RT al Pannello di controllo Campaign, puoi sfruttare le funzionalità elencate di seguito:
+Una volta aggiunta un’istanza MID/RT al Pannello di controllo, puoi sfruttare le funzionalità elencate di seguito:
 
 * [Monitorare eventi e contatti chiave](../../service-events/service-events.md)
 * [Visualizzare i dettagli dell’istanza](../../instances-settings/using/instance-details.md)
 * [Aggiungere indirizzi IP all’elenco consentiti](../../instances-settings/using/ip-allow-listing-instance-access.md) (per le istanze RT)
-* [Configurare nuovi sottodomini](../../subdomains-certificates/using/setting-up-new-subdomain.md),
-* [Rinnovare i certificati SSL dei sottodomini](../../subdomains-certificates/using/renewing-subdomain-certificate.md).
+* [Configurare nuovi sottodomini](../../subdomains-certificates/using/setting-up-new-subdomain.md)
+* [Rinnovare i certificati SSL dei sottodomini](../../subdomains-certificates/using/renewing-subdomain-certificate.md)
