@@ -1,15 +1,15 @@
 ---
-title: Note sulla versione 2022
-description: In questa pagina sono elencate tutte le versioni del Pannello di controllo Campaign del 2022.
+title: Note sulla versioni 2022
+description: In questa pagina sono elencate tutte le versioni del Pannello di controllo del 2022.
 exl-id: 9fb18bb6-c4e4-48aa-849c-d9129add5266
 source-git-commit: bbf1aa11ef7e1b43b4df7799c4a4491b73cfbef1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '544'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
-# Note sulla versione 2022 {#rn-2022}
+# Note sulle versioni 2022 {#rn-2022}
 
 ## Agosto 2022 {#august-2022}
 
@@ -27,7 +27,7 @@ ht-degree: 95%
 <tbody>
 <tr>
 <td>
-<p><p>I clienti con modello di hosting ibrido possono ora rinnovare i certificati SSL dei loro sottodomini dal Pannello di controllo Campaign.</p><p>Per ulteriori informazioni, consulta la <a href="../subdomains-certificates/using/renewing-subdomain-certificate.md">documentazione dettagliata.</a></p>
+<p><p>I clienti con modello di hosting ibrido possono ora rinnovare i certificati SSL dei loro sottodomini dal Pannello di controllo.</p><p>Per ulteriori informazioni, consulta la <a href="../subdomains-certificates/using/renewing-subdomain-certificate.md">documentazione dettagliata.</a></p>
 </td>
 </tr>
 </tbody>
@@ -87,20 +87,20 @@ ht-degree: 95%
 
 **Impostazioni delle istanze**
 
-* Il numero massimo di chiavi GPG nel Pannello di controllo Campaign è stato aumentato a 60 chiavi. [Ulteriori informazioni](../instances-settings/using/gpg-keys-management.md)
+* Il numero massimo di chiavi GPG nel Pannello di controllo è stato aumentato a 60 chiavi. [Ulteriori informazioni](../instances-settings/using/gpg-keys-management.md)
 
 ## Maggio 2022 {#may-2022}
 
 <table>
 <thead>
 <tr>
-<th><strong>Disponibilità del Pannello di controllo Campaign per il modello di hosting ibrido</strong><br/></th>
+<th><strong>Disponibilità del Pannello di controllo per il modello di hosting ibrido</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Il Pannello di controllo Campaign è ora disponibile per i clienti con modello di hosting ibrido. Questi clienti possono ora sfruttarne le funzionalità fornendo l’URL dell’istanza MID/RT configurato nella propria istanza marketing nel Pannello di controllo Campaign.</p><p>Per ulteriori informazioni, consulta la <a href="../instances-settings/using/external-accounts.md">documentazione dettagliata.</a></p>
+<p>Il Pannello di controllo è ora disponibile per i clienti con modello di hosting ibrido. Questi clienti possono ora sfruttarne le funzionalità fornendo l’URL dell’istanza MID/RT configurato nella propria istanza marketing nel Pannello di controllo.</p><p>Per ulteriori informazioni, consulta la <a href="../instances-settings/using/external-accounts.md">documentazione dettagliata.</a></p>
 </td>
 </tr>
 </tbody>
