@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Intermediate
 exl-id: d230aae6-4f0e-4201-bb3c-0e3f83a7c1b8
-source-git-commit: 8d1eda31cbe6ab915760d4894a03a4a0055a3130
-workflow-type: ht
+source-git-commit: 80a96152ffcfa184fbeb6fc5cddcb119655ffab1
+workflow-type: tm+mt
 source-wordcount: '497'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
@@ -89,7 +89,7 @@ Per impostare un avviso per un evento, effettua le seguenti operazioni:
 
    >[!NOTE]
    >
-   >Se non ti sei iscritto agli avvisi del Pannello di controllo Campaign, verrà visualizzato un messaggio che ti consentirà di registrarti per ricevere le notifiche e-mail.
+   >Se non hai effettuato la sottoscrizione agli avvisi di Pannello di controllo Campaign, verrà visualizzato un messaggio che ti consentirà di iscriverti alla ricezione di notifiche e-mail.
 
 1. Il promemoria è ora impostato per l’evento selezionato. Puoi passare il cursore sopra di esso in qualsiasi momento per visualizzarne il titolo.
 

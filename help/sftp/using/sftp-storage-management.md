@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: eaf67573-f088-47d9-8a25-273d08dc541a
-source-git-commit: 8db39899be5dfe610f39a6cecc23bd5f969078c6
-workflow-type: ht
-source-wordcount: '388'
-ht-degree: 100%
+source-git-commit: 641c5ef1a62c278972e6a90ed85c52851deddb56
+workflow-type: tm+mt
+source-wordcount: '417'
+ht-degree: 93%
 
 ---
 
@@ -25,6 +25,8 @@ ht-degree: 100%
 È possibile che sul tuo server SFTP sia stato effettuato il provisioning di una capacità di archiviazione diversa, a seconda dei termini contrattuali.
 
 È fondamentale monitorare regolarmente lo spazio disponibile per ciascuno dei server SFTP. In caso contrario, potresti non essere più in grado di salvare ulteriori file sul server o eseguire con successo flussi di lavoro che si basano sugli aggiornamenti provenienti da questo server.
+
+Se hai effettuato la sottoscrizione a [avvisi e-mail](../../performance-monitoring/using/email-alerting.md), riceverai notifiche e-mail quando uno dei tuoi server SFTP raggiunge l’80% o più della capacità. Vedi [Gestione dell’archiviazione SFTP](../../sftp/using/sftp-storage-management.md).
 
 ![](assets/do-not-localize/how-to-video.png) Scopri questa funzione nel video per [Campaign v7/v8](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/sftp-management/monitoring-server-capacity.html?lang=it#sftp-management) o [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/sftp-management/monitoring-server-capacity.html?lang=it#sftp-management)
 
