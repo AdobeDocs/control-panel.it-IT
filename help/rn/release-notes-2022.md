@@ -3,9 +3,9 @@ title: Note sulla versioni 2022
 description: In questa pagina sono elencate tutte le versioni del Pannello di controllo del 2022.
 exl-id: 9fb18bb6-c4e4-48aa-849c-d9129add5266
 source-git-commit: 95390bb1f8af21907ce8984279a6a73dd7828b00
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '558'
+ht-degree: 100%
 
 ---
 
