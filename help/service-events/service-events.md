@@ -8,9 +8,9 @@ role: Architect
 level: Intermediate
 exl-id: d230aae6-4f0e-4201-bb3c-0e3f83a7c1b8
 source-git-commit: 80a96152ffcfa184fbeb6fc5cddcb119655ffab1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '497'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -27,9 +27,9 @@ ht-degree: 95%
 
 È importante essere a conoscenza degli eventi pianificati sulle tue istanze di Campaign.
 
-Con il Pannello di controllo Campaign, puoi monitorare le versioni e le revisioni dei servizi che si verificano sulle tue istanze e accedere a un elenco di contatti chiave in Adobe per eventuali richieste o problemi.
+Con il Pannello di controllo, puoi monitorare le versioni e le revisioni dei servizi che si verificano sulle tue istanze e accedere a un elenco di contatti chiave in Adobe per eventuali richieste o problemi.
 
-Queste informazioni sono accessibili dalla scheda **[!UICONTROL Service Calendar]** sulla pagina home del Pannello di controllo Campaign.
+Queste informazioni sono accessibili dalla scheda **[!UICONTROL Service Calendar]** sulla pagina home del Pannello di controllo.
 
 ## Contatti chiave {#key-contacts}
 
@@ -77,7 +77,7 @@ Con Service Calendar (Calendario dei servizi), è possibile impostare i promemor
 
 >[!NOTE]
 >
->Per ricevere notifiche sui prossimi eventi, assicurati di aver richiesto la ricezione degli avvisi e-mail in Pannello di controllo Campaign. [Ulteriori informazioni](../performance-monitoring/using/email-alerting.md)
+>Per ricevere notifiche sui prossimi eventi, assicurati di aver richiesto la ricezione degli avvisi e-mail in Pannello di controllo. [Ulteriori informazioni](../performance-monitoring/using/email-alerting.md)
 
 Per impostare un avviso per un evento, effettua le seguenti operazioni:
 
@@ -89,7 +89,7 @@ Per impostare un avviso per un evento, effettua le seguenti operazioni:
 
    >[!NOTE]
    >
-   >Se non hai effettuato la sottoscrizione agli avvisi di Pannello di controllo Campaign, verrà visualizzato un messaggio che ti consentirà di iscriverti alla ricezione di notifiche e-mail.
+   >Se non ti sei iscritto agli avvisi del Pannello di controllo, verrà visualizzato un messaggio che ti consentirà di registrarti per ricevere le notifiche e-mail.
 
 1. Il promemoria è ora impostato per l’evento selezionato. Puoi passare il cursore sopra di esso in qualsiasi momento per visualizzarne il titolo.
 
