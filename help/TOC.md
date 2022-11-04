@@ -7,7 +7,7 @@ feature: Control Panel
 role: Architect
 level: Beginner
 source-git-commit: 80a96152ffcfa184fbeb6fc5cddcb119655ffab1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '153'
 ht-degree: 100%
 
@@ -27,8 +27,8 @@ ht-degree: 100%
 + Esplorare il Pannello di controllo {#discover-control-panel}
    + [Funzioni principali](discover/using/key-features.md)
    + [Pannello di controllo degli accessi Campaign](discover/using/accessing-control-panel.md)
-   + [Gestione delle autorizzazioni al Pannello di controllo Campaign](discover/using/managing-permissions.md)
-   + [Esplorare l’interfaccia del Pannello di controllo Campaign](discover/using/discovering-the-interface.md)
+   + [Gestione delle autorizzazioni al Pannello di controllo](discover/using/managing-permissions.md)
+   + [Esplorare l’interfaccia del Pannello di controllo](discover/using/discovering-the-interface.md)
 + [Monitorare eventi e contatti chiave](service-events/service-events.md)
 + [Avvisi e-mail](performance-monitoring/using/email-alerting.md)
 + Impostazioni delle istanze {#instances-settings}
