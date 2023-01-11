@@ -1,6 +1,6 @@
 ---
 source-git-commit: e4901cc72d25d9677437f5e0f0945a27b206650b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '431'
 ht-degree: 100%
 
@@ -48,4 +48,4 @@ I manutentori del progetto che non seguono o non applicano il Codice di condotta
 
 ## Attribuzione
 
-Il presente Codice di condotta è adattato dal [Contributor Covenant](https://www.contributor-covenant.org/it), versione 1.4, disponibile all’indirizzo [https://www.contributor-covenant.org/it/version/1/4/code-of-conduct/](https://www.contributor-covenant.org/it/version/1/4/code-of-conduct/)
+Il presente Codice di condotta è adattato dal [Contributor Covenant](https://contributor-covenant.org), versione 1.4, disponibile all’indirizzo [https://contributor-covenant.org/version/1/4](https://contributor-covenant.org/version/1/4/)
