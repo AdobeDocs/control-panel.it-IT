@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Intermediate
 exl-id: 1d1eeff8-969e-4529-b947-2a68defb8d13
-source-git-commit: c834ae7226ed9dd1f78d4f4511b52cb5f04abfae
+source-git-commit: b6ccd751ee9885bacd955dfaf1ee61e923e0c07f
 workflow-type: tm+mt
-source-wordcount: '837'
-ht-degree: 82%
+source-wordcount: '812'
+ht-degree: 85%
 
 ---
 
@@ -27,8 +27,6 @@ ht-degree: 82%
 >[!IMPORTANT]
 >
 >Questa funzione è disponibile solo per le istanze Campaign v7/v8 .
->
->Se utilizzi un’istanza con un modello di hosting ibrido, potrai aggiungere solo indirizzi IP in &quot;Connessione API esterna&quot; per l’istanza RT.
 
 Per impostazione predefinita, l’istanza di Adobe Campaign non è accessibile da vari indirizzi IP.
 
@@ -90,9 +88,10 @@ Per aggiungere indirizzi IP all’elenco Consentiti, esegui i seguenti passaggi:
    * **[!UICONTROL AEM connection]**: gli indirizzi IP AEM specificati saranno autorizzati a connettersi all’istanza Marketing.
    * **[!UICONTROL External API connection]**: le API esterne con gli indirizzi IP specificati saranno autorizzate a connettersi all’istanza Marketing e/o Message Center (Centro messaggi) (RT). La connessione delle istanze RT alla console non è abilitata.
 
-      >[!NOTE]
-      >
-      >Se utilizzi un’istanza con un modello di hosting ibrido, potrai aggiungere solo indirizzi IP in &quot;Connessione API esterna&quot; per l’istanza RT.
+   >[!NOTE]
+   >
+   >Se utilizzi un’istanza con un modello di hosting ibrido, potrai aggiungere solo indirizzi IP in &quot;Connessione API esterna&quot; per le istanze MID e RT.
+
    ![](assets/ip_whitelist_acesstype.png)
 
 1. Fai clic sul pulsante **[!UICONTROL Save]**. L’intervallo IP viene aggiunto all’elenco Consentiti.
