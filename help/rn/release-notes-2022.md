@@ -2,14 +2,18 @@
 title: Note sulla versioni 2022
 description: In questa pagina sono elencate tutte le versioni del Pannello di controllo del 2022.
 exl-id: 9fb18bb6-c4e4-48aa-849c-d9129add5266
-source-git-commit: 95390bb1f8af21907ce8984279a6a73dd7828b00
+source-git-commit: f617995e7313e7ac239116e0595d1746dfc7e51f
 workflow-type: ht
-source-wordcount: '558'
+source-wordcount: '0'
 ht-degree: 100%
 
 ---
 
 # Note sulle versioni 2022 {#rn-2022}
+
+## Ottobre 2022 {#october-2022}
+
+Gli avvisi via e-mail ora ti avvisano quando uno dei certificati SSL è in scadenza entro 30 giorni o meno. [Ulteriori informazioni](../performance-monitoring/using/email-alerting.md)
 
 ## Settembre 2022 {#september-2022}
 
