@@ -8,9 +8,9 @@ role: Architect
 level: Intermediate
 exl-id: ff64acbe-d8cb-499b-b20f-b0934fb0f695
 source-git-commit: 803068a1f6dec68afba11a4ea49edae1eafcedd5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '463'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -92,6 +92,6 @@ Una volta aggiunta un’istanza MID/RT al Pannello di controllo, puoi sfruttare 
 
 * [Monitorare eventi e contatti chiave](../../service-events/service-events.md)
 * [Visualizzare i dettagli dell’istanza](../../instances-settings/using/instance-details.md)
-* [Aggiungi indirizzi IP all’elenco consentiti](../../instances-settings/using/ip-allow-listing-instance-access.md),
+* [Aggiungere indirizzi IP all’elenco Consentiti](../../instances-settings/using/ip-allow-listing-instance-access.md),
 * [Configurare nuovi sottodomini](../../subdomains-certificates/using/setting-up-new-subdomain.md)
 * [Rinnovare i certificati SSL dei sottodomini](../../subdomains-certificates/using/renewing-subdomain-certificate.md)
