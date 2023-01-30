@@ -2,8 +2,8 @@
 title: Note sulle versioni 2022
 description: In questa pagina sono elencate tutte le versioni del Pannello di controllo del 2022.
 exl-id: 9fb18bb6-c4e4-48aa-849c-d9129add5266
-source-git-commit: f617995e7313e7ac239116e0595d1746dfc7e51f
-workflow-type: ht
+source-git-commit: e0eb0bba95bcd02fef8f9bac4e9605711d3a9c30
+workflow-type: tm+mt
 source-wordcount: '580'
 ht-degree: 100%
 
@@ -123,7 +123,7 @@ I clienti con modello di hosting ibrido possono ora configurare nuovi sottodomin
 <tbody>
 <tr>
 <td>
-<p>Sono state migliorate le funzionalità di monitoraggio delle prestazioni di consegna e delle latenze:<ul><li>Ora puoi identificare gli ID delle prime 5 consegne che contribuiscono alle prestazioni della tua istanza.</li><li>I clienti di Campaign Classic v7/v8 possono ora visualizzare la latenza per un canale specifico.</p></li><p>Per ulteriori informazioni, consulta la <a href="../performance-monitoring/using/thoughputs-latencies.md">documentazione dettagliata.</a></p>
+<p>Sono state migliorate le funzionalità di monitoraggio delle prestazioni di consegna e delle latenze:<ul><li>Ora puoi identificare gli ID delle prime 5 consegne che contribuiscono alle prestazioni della tua istanza.</li><li>I clienti di Campaign Classic v7/v8 possono ora visualizzare la latenza per un canale specifico.</p></li><p>Per ulteriori informazioni, consulta la <a href="../performance-monitoring/using/throughputs-latencies.md">documentazione dettagliata.</a></p>
 </td>
 </tr>
 </tbody>
@@ -158,7 +158,7 @@ I clienti con modello di hosting ibrido possono ora configurare nuovi sottodomin
 <tbody>
 <tr>
 <td>
-<p>Questa funzione è disponibile per tutti i clienti Campaign Standard e v8 e per i clienti Campaign v7 con numeri di build 9032, 9330, 9346 o 9349 che hanno distribuzioni autonome (senza alcuna istanza MID).</p><p>Per ulteriori informazioni, consulta la <a href="../performance-monitoring/using/thoughputs-latencies.md">documentazione dettagliata.</a></p>
+<p>Questa funzione è disponibile per tutti i clienti Campaign Standard e v8 e per i clienti Campaign v7 con numeri di build 9032, 9330, 9346 o 9349 che hanno distribuzioni autonome (senza alcuna istanza MID).</p><p>Per ulteriori informazioni, consulta la <a href="../performance-monitoring/using/throughputs-latencies.md">documentazione dettagliata.</a></p>
 </td>
 </tr>
 </tbody>
@@ -207,7 +207,7 @@ I clienti con modello di hosting ibrido possono ora configurare nuovi sottodomin
 <tbody>
 <tr>
 <td>
-<p>È ora possibile monitorare la tendenza degli output di consegna e della latenza in un periodo di tempo sulle istanze.</p><p>Per ulteriori informazioni, consulta la <a href="../performance-monitoring/using/thoughputs-latencies.md">documentazione dettagliata</a>.</p>
+<p>È ora possibile monitorare la tendenza degli output di consegna e della latenza in un periodo di tempo sulle istanze.</p><p>Per ulteriori informazioni, consulta la <a href="../performance-monitoring/using/throughputs-latencies.md">documentazione dettagliata</a>.</p>
 </td>
 </tr>
 </tbody>
