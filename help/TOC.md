@@ -6,8 +6,8 @@ user-guide-title: Guida al pannello di controllo
 feature: Control Panel
 role: Architect
 level: Beginner
-source-git-commit: 80a96152ffcfa184fbeb6fc5cddcb119655ffab1
-workflow-type: ht
+source-git-commit: e0eb0bba95bcd02fef8f9bac4e9605711d3a9c30
+workflow-type: tm+mt
 source-wordcount: '153'
 ht-degree: 100%
 
@@ -60,7 +60,7 @@ ht-degree: 100%
       + [Monitorare i flussi di lavoro](performance-monitoring/using/workflow-monitoring.md)
       + [Impedire il sovraccarico del database](performance-monitoring/using/database-preventing-overload.md)
    + [Monitoraggio profili attivi](performance-monitoring/using/active-profiles-monitoring.md)
-   + [Trasmissione e monitoraggio della latenza](performance-monitoring/using/thoughputs-latencies.md)
+   + [Trasmissione e monitoraggio della latenza](performance-monitoring/using/throughputs-latencies.md)
    + [Inserimento degli IP nell’elenco Consentiti per l’accesso alle istanze](instances-settings/using/ip-allow-listing-instance-access.md)
    + [Autorizzazioni URL](instances-settings/using/url-permissions.md)
    + [Dettagli istanza](instances-settings/using/instance-details.md)
