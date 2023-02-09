@@ -6,7 +6,7 @@ user-guide-title: Guida al pannello di controllo
 feature: Control Panel
 role: Architect
 level: Beginner
-source-git-commit: e0eb0bba95bcd02fef8f9bac4e9605711d3a9c30
+source-git-commit: 99241b1b4982049f844fcf51d307ace36ee70c94
 workflow-type: tm+mt
 source-wordcount: '153'
 ht-degree: 100%
@@ -31,7 +31,6 @@ ht-degree: 100%
    + [Esplorare l’interfaccia del Pannello di controllo](discover/using/discovering-the-interface.md)
 + [Monitorare eventi e contatti chiave](service-events/service-events.md)
 + [Avvisi e-mail](performance-monitoring/using/email-alerting.md)
-+ Impostazioni delle istanze {#instances-settings}
 + Gestione SFTP {#sftp-management}
    + [Informazioni sulla gestione SFTP](sftp/using/about-sftp-management.md)
    + [Gestire l’archiviazione SFTP](sftp/using/sftp-storage-management.md)
@@ -61,6 +60,7 @@ ht-degree: 100%
       + [Impedire il sovraccarico del database](performance-monitoring/using/database-preventing-overload.md)
    + [Monitoraggio profili attivi](performance-monitoring/using/active-profiles-monitoring.md)
    + [Trasmissione e monitoraggio della latenza](performance-monitoring/using/throughputs-latencies.md)
++ Impostazioni delle istanze {#instances-settings}
    + [Inserimento degli IP nell’elenco Consentiti per l’accesso alle istanze](instances-settings/using/ip-allow-listing-instance-access.md)
    + [Autorizzazioni URL](instances-settings/using/url-permissions.md)
    + [Dettagli istanza](instances-settings/using/instance-details.md)
