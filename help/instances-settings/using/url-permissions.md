@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Intermediate
 exl-id: a7df90da-a2ce-409f-9bc3-c7d4fa3024c8
-source-git-commit: c834ae7226ed9dd1f78d4f4511b52cb5f04abfae
+source-git-commit: 78ac04811f0110fa8f90d4ec51bc33a0ac97c4eb
 workflow-type: tm+mt
-source-wordcount: '606'
-ht-degree: 86%
+source-wordcount: '603'
+ht-degree: 84%
 
 ---
 
@@ -38,7 +38,7 @@ Una volta aggiunto l’URL, viene inserito un suo riferimento nel file di config
 
 **Argomenti correlati:**
 
-* [Configurazione del server Campaign](https://docs.adobe.com/content/help/it-IT/campaign-classic/using/installing-campaign-classic/additional-configurations/configuring-campaign-server.html)
+* [Configurazione del server Campaign](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/additional-configurations/configuring-campaign-server.html)
 * [Protezione delle connessioni in uscita](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/security-privacy/server-configuration.html#outgoing-connection-protection)
 
 ## Best practice {#best-practices}

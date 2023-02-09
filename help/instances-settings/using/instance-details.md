@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: 02819bfc-9886-43fc-8014-9bfe64c42048
-source-git-commit: c834ae7226ed9dd1f78d4f4511b52cb5f04abfae
+source-git-commit: 78ac04811f0110fa8f90d4ec51bc33a0ac97c4eb
 workflow-type: tm+mt
-source-wordcount: '529'
-ht-degree: 77%
+source-wordcount: '527'
+ht-degree: 72%
 
 ---
 
@@ -37,8 +37,8 @@ La funzionalità Instance Details (Dettagli istanza) consente di visualizzare l�
 
 **Argomenti correlati:**
 
-* [Esecuzione di un aggiornamento della build](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/buildUpgrade.html)
-* [Aggiornamento di Adobe Campaign](https://docs.adobe.com/content/help/it-IT/campaign-classic/using/monitoring-campaign-classic/updating-adobe-campaign/introduction.html)
+* [Esecuzione di un aggiornamento della build](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/updating-adobe-campaign/build-upgrade.html)
+* [Aggiornamento di Adobe Campaign](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/updating-adobe-campaign/introduction.html)
 
 ## Recupero di informazioni sulle istanze {#retrieving-information-about-instances}
 
@@ -70,7 +70,7 @@ Le informazioni disponibili sono:
    * Giallo: è consigliabile effettuare l’aggiornamento. Non disponi delle funzioni e delle correzioni più recenti.
    * Rosso: esegui l’aggiornamento il prima possibile. Non disponi di nuove funzioni e le prestazioni del server potrebbero non essere ottimali.
 
-Se uno dei server richiede l’aggiornamento, consulta [questa documentazione](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/buildUpgrade.html) per ulteriori informazioni su come procedere.
+Se uno dei server richiede l’aggiornamento, consulta [questa documentazione](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/updating-adobe-campaign/build-upgrade.html) per ulteriori informazioni su come procedere.
 
 ## Domande comuni {#common-questions}
 
