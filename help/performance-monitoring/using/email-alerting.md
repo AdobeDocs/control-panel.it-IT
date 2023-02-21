@@ -10,7 +10,7 @@ exl-id: 7942d2b1-d28f-4760-aa25-5ba94a627fd0
 source-git-commit: 80a96152ffcfa184fbeb6fc5cddcb119655ffab1
 workflow-type: tm+mt
 source-wordcount: '282'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
@@ -22,7 +22,7 @@ Per offrire una maggiore flessibilità al tuo lavoro, il Pannello di controllo C
 
 L&#39;elenco degli avvisi è il seguente:
 
-* **Utilizzo dell’archiviazione SFTP**: Uno dei server SFTP ha raggiunto l’80% o più della sua capacità. Vedi [Gestione dell’archiviazione SFTP](../../sftp/using/sftp-storage-management.md).
+* **Utilizzo dell’archiviazione SFTP**: Uno dei server SFTP ha raggiunto l’80% o più della sua capacità. Consulta [Gestione dell’archiviazione SFTP](../../sftp/using/sftp-storage-management.md).
 
 * **Utilizzo del database**: Uno dei database delle istanze ha raggiunto l&#39;80% o più della sua capacità. Vedi [Monitoraggio del database](../../performance-monitoring/using/database-monitoring.md).
 

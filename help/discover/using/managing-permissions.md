@@ -9,18 +9,18 @@ level: Intermediate
 exl-id: 7314a679-78c3-4650-bf3a-2bde8be82747
 source-git-commit: 7115dac6b3a4cf002979fba36113b98507fdf3db
 workflow-type: tm+mt
-source-wordcount: '282'
+source-wordcount: '280'
 ht-degree: 6%
 
 ---
 
-# Gestione delle autorizzazioni di accesso al Pannello di controllo Campaign {#managing-permissions-control-panel}
+# Gestione delle autorizzazioni di accesso al Pannello di controllo  {#managing-permissions-control-panel}
 
 Il Pannello di controllo Campaign è disponibile per tutti gli utenti amministratori di un’istanza Campaign. Segui i passaggi riportati di seguito per assegnare gli utenti al gruppo Amministratori e concedere loro un accesso al Pannello di controllo Campaign.
 
 ![](assets/do-not-localize/how-to-video.png)[ Scopri questa funzione nel video](../../discover/using/managing-permissions.md#video)
 
-1. Passa a [Homepage Adobe Experience Cloud](https://experiencecloud.adobe.com/){target=&quot;_blank&quot;}.
+1. Passa a [Homepage Adobe Experience Cloud](https://experiencecloud.adobe.com/){target="_blank"}.
 
 1. Avvia **Admin Console** facendo clic sul collegamento disponibile dal **Accesso rapido** o il menu in alto a destra.
 

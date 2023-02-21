@@ -9,12 +9,12 @@ level: Beginner
 exl-id: eb67af6e-a64e-49a7-9656-782f91bc1d67
 source-git-commit: cca04cd965c00a9e2bc496de632ee41ce53a166a
 workflow-type: tm+mt
-source-wordcount: '180'
-ht-degree: 12%
+source-wordcount: '174'
+ht-degree: 13%
 
 ---
 
-# Accesso al Pannello di controllo Campaign {#accessing-control-panel}
+# Accesso al Pannello di controllo  {#accessing-control-panel}
 
 Il Pannello di controllo Campaign è disponibile direttamente dall’Experience Cloud o dal prodotto stesso.
 
@@ -24,7 +24,7 @@ Il Pannello di controllo Campaign è disponibile direttamente dall’Experience 
 
 Per accedere al Pannello di controllo Campaign dalla piattaforma Adobe Experience Cloud, segui i passaggi riportati di seguito.
 
-1. Passa a [homepage di Experience Cloud](https://experiencecloud.adobe.com/){target=&quot;_blank&quot;}.
+1. Passa a [homepage di Experience Cloud](https://experiencecloud.adobe.com/){target="_blank"}.
 
 1. Fai clic sul collegamento dedicato nel **Accesso rapido** sezione .
 
@@ -32,7 +32,7 @@ Per accedere al Pannello di controllo Campaign dalla piattaforma Adobe Experienc
 
 Il Pannello di controllo Campaign è accessibile anche dalla piattaforma Experience Cloud **selettore delle soluzioni**:
 
-1. Da [Homepage Adobe Experience Cloud](https://experiencecloud.adobe.com/){target=&quot;_blank&quot;}, seleziona **Campaign** dal **Accesso rapido** o il menu principale a destra.
+1. Da [Homepage Adobe Experience Cloud](https://experiencecloud.adobe.com/){target="_blank"}, seleziona **Campaign** dal **Accesso rapido** o il menu principale a destra.
 
    ![](assets/do-not-localize/control_panel_access1.png)
 
@@ -44,7 +44,7 @@ Il Pannello di controllo Campaign è accessibile anche dalla piattaforma Experie
 
 >[!NOTE]
 >
->L’accesso dall’interno del prodotto è disponibile per [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/campaign-standard-home.html?lang=it)Solo {target=&quot;_blank&quot;}.
+>L’accesso dall’interno del prodotto è disponibile per [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/campaign-standard-home.html?lang=it){target="_blank"} solo.
 
 1. Apri il prodotto Campaign Standard.
 

@@ -26,7 +26,7 @@ Vantaggi principali:
 
 >[!NOTE]
 >
->Il Pannello di controllo Campaign è riservato agli utenti amministratori. I passaggi per concedere a un utente i diritti da amministratore sono descritti in [questa sezione](managing-permissions.md).
+>Il Pannello di controllo è riservato agli utenti amministratori. I passaggi per concedere a un utente i diritti da amministratore sono descritti in [questa sezione](managing-permissions.md).
 >
 >Per Campaign v7/v8, tieni presente che l’istanza deve essere ospitata su Amazon Web Services (AWS) e aggiornata all’ultima versione [Build stabile della campagna](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=it#rn-statuses) o per costruire 9032 o versioni successive. Scopri come controllare la versione in [questa sezione](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=it#getting-your-campaign-version). Per verificare se l’istanza è ospitata su AWS, segui i passaggi descritti in [questa sezione](../../faq.md#hosted-aws).
 

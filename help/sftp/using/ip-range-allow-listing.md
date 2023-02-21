@@ -9,8 +9,8 @@ level: Experienced
 exl-id: 45a3bfcd-500c-4139-b610-d39989260ab7
 source-git-commit: c1c80c03a351613ec0c6870a11ab39a634e8eab7
 workflow-type: tm+mt
-source-wordcount: '1050'
-ht-degree: 36%
+source-wordcount: '1048'
+ht-degree: 38%
 
 ---
 
@@ -24,13 +24,13 @@ ht-degree: 36%
 
 I server SFTP sono protetti. Per potervi accedere per visualizzare i file o scriverne di nuovi, devi aggiungere all’elenco consentiti l’indirizzo IP pubblico del sistema o del client che accede ai server.
 
-![](assets/do-not-localize/how-to-video.png) Scopri questa funzione nel video utilizzando [Campaign v7/v8](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/sftp-management/adding-ip-range-to-allow-list.html#sftp-management) o [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/sftp-management/adding-ip-range-to-allow-list.html#sftp-management)
+![](assets/do-not-localize/how-to-video.png) Scopri questa funzione nel video per [Campaign v7/v8](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/sftp-management/adding-ip-range-to-allow-list.html#sftp-management) o [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/sftp-management/adding-ip-range-to-allow-list.html#sftp-management)
 
 ## Informazioni sul formato CIDR {#about-cidr-format}
 
 CIDR (Classless Inter-Domain Routing) è il formato supportato per l’aggiunta di intervalli IP tramite l’interfaccia del Pannello di controllo Campaign.
 
-La sintassi è composta da un indirizzo IP seguito da un carattere “/” e da un numero decimale. Il formato e la sintassi sono descritti dettagliatamente in [articolo](https://whatismyipaddress.com/cidr){target=&quot;_blank&quot;}.
+La sintassi è composta da un indirizzo IP seguito da un carattere “/” e da un numero decimale. Il formato e la sintassi sono descritti dettagliatamente in [questo articolo](https://whatismyipaddress.com/cidr){target="_blank"}.
 
 È possibile cercare su Internet strumenti online gratuiti che ti aiuteranno a convertire l&#39;intervallo IP in formato CIDR.
 
