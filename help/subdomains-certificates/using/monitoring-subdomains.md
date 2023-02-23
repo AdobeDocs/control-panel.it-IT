@@ -7,19 +7,15 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: edd55d07-bf0b-44b0-8281-be69c698d5e8
-source-git-commit: f0c3df4727e89e3f6127fe4563908b955ccb820c
+source-git-commit: acf0334e894649d6b5edf0b96877c3f643894763
 workflow-type: tm+mt
-source-wordcount: '205'
-ht-degree: 7%
+source-wordcount: '148'
+ht-degree: 10%
 
 ---
 
-# Monitoraggio dei sottodomini {#monitoring-subdomains}
 
->[!CONTEXTUALHELP]
->id="cp_subdomain_undelegate"
->title="Rimuovi delega sottodominio"
->abstract="Questa schermata ti consente di rimuovere ad Adobe la delega di un sottodominio. Tieni presente che questo processo non può essere annullato o interrotto una volta inviato.<br><br>Se stai tentando di rimuovere la delega di un dominio primario per l&#39;istanza selezionata, ti verrà chiesto di scegliere il dominio che la sostituirà."
+# Monitorare i sottodomini {#monitoring-subdomains}
 
 È essenziale monitorare i sottodomini per garantire che siano configurati correttamente per lavorare con Adobe Campaign.
 
@@ -33,9 +29,7 @@ La **[!UICONTROL Last verification]** indica quando un sottodominio è stato ver
 >
 >L’Adobe non consiglia di utilizzare sottodomini privi di data di certificato, in quanto ciò potrebbe significare che questi sottodomini potrebbero avere alcuni problemi di recapito messaggi.
 
-Quando si avvia una verifica, vengono eseguite diverse operazioni per verificare che il sottodominio sia configurato correttamente (controllo del tenant dell’istanza, test di invio dell’e-mail, ecc.)
-
-Se la verifica del sottodominio non riesce, contatta l’Assistenza clienti Adobe per ulteriori indagini.
+Quando si avvia una verifica, vengono eseguite diverse operazioni per verificare che il sottodominio sia configurato correttamente (controllo del tenant dell’istanza, test di invio dell’e-mail, ecc.) Se la verifica del sottodominio non riesce, contatta l’Assistenza clienti Adobe per ulteriori indagini.
 
 **Argomenti correlati:**
 

@@ -6,10 +6,10 @@ user-guide-title: Guida al pannello di controllo
 feature: Control Panel
 role: Architect
 level: Beginner
-source-git-commit: 99241b1b4982049f844fcf51d307ace36ee70c94
+source-git-commit: a62bf4913a97c12ab282709d06c9a50b8b503d8d
 workflow-type: tm+mt
-source-wordcount: '153'
-ht-degree: 100%
+source-wordcount: '160'
+ht-degree: 94%
 
 ---
 
@@ -20,6 +20,7 @@ ht-degree: 100%
 + Note sulla versione {#release-notes}
    + [Ultima versione](rn/release-notes.md)
    + Versioni precedenti {#previous-releases}
+      + [Note sulle versioni 2023](rn/release-notes-2023.md)
       + [Note sulla versione 2022](rn/release-notes-2022.md)
       + [Note sulla versione 2021](rn/release-notes-2021.md)
       + [Note sulla versione 2020](rn/release-notes-2020.md)
@@ -42,10 +43,11 @@ ht-degree: 100%
    + [Branding dei sottodomini](subdomains-certificates/using/subdomains-branding.md)
    + [Monitorare i sottodomini](subdomains-certificates/using/monitoring-subdomains.md)
    + [Configurare un nuovo sottodominio](subdomains-certificates/using/setting-up-new-subdomain.md)
+   + [Rimuovi la delega dei sottodomini ad Adobe](subdomains-certificates/using/remove-delegated-subdomains.md)
    + [Gestire i record TXT](subdomains-certificates/using/managing-txt-records.md)
-   + [Monitorare i certificati SSL](subdomains-certificates/using/monitoring-ssl-certificates.md)
-   + Rinnovare i certificati SSL {#renew-ssl}
-      + [Informazioni sul rinnovo dei certificati SSL](subdomains-certificates/using/renewing-subdomain-certificate.md)
+   + Gestire i certificati SSL {#manage-certificates}
+      + [Monitorare i certificati SSL](subdomains-certificates/using/monitoring-ssl-certificates.md)
+      + [Rinnovare i certificati SSL](subdomains-certificates/using/renewing-subdomain-certificate.md)
       + [Generare la CSR](subdomains-certificates/using/generate-csr.md)
       + [Installare il certificato SSL](subdomains-certificates/using/install-ssl-certificate.md)
 + Monitoraggio delle prestazioni {#performance-monitoring}
