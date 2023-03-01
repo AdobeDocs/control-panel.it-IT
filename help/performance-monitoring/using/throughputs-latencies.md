@@ -2,7 +2,7 @@
 product: campaign
 solution: Campaign
 title: Monitoraggio delle velocità effettive e della latenza
-description: Scopri come monitorare le velocità effettive e la latenza delle istanze di Campaign nel Pannello di controllo Campaign.
+description: Scopri come monitorare le velocità effettive e la latenza delle istanze di Campaign nel Pannello di controllo.
 feature: Control Panel
 role: Architect
 level: Experienced
@@ -21,7 +21,7 @@ ht-degree: 100%
 >title="Informazioni sul monitoraggio delle velocità effettive e della latenza "
 >abstract="In questa scheda, puoi monitorare la tendenza nel tempo delle velocità effettive di consegna e della latenza per le tue istanze. Per informazioni sulle consegne che contribuiscono alla velocità effettiva, passa alla vista a tabella."
 
-Il Pannello di controllo Campaign consente di monitorare le prestazione di consegna e la latenza di ciascuna istanza.
+Il Pannello di controllo consente di monitorare le prestazione di consegna e la latenza di ciascuna istanza.
 
 >[!IMPORTANT]
 >
@@ -29,7 +29,7 @@ Il Pannello di controllo Campaign consente di monitorare le prestazione di conse
 
 Per comprendere l’utilizzo delle istanze e garantirne le prestazioni, è essenziale monitorare la tendenza degli output di consegna e della latenza in un determinato periodo di tempo.
 
-Queste informazioni sono disponibili nel Pannello di controllo Campaign per ciascuna istanza di Campaign nella sezione **[!UICONTROL Performance Monitoring]**, all’interno della scheda **[!UICONTROL Throughputs & Latency]**. Tieni presente che il Pannello di controllo Campaign può richiedere fino a 1 ora prima di visualizzare i dati.
+Queste informazioni sono disponibili nel Pannello di controllo per ciascuna istanza di Campaign nella sezione **[!UICONTROL Performance Monitoring]**, all’interno della scheda **[!UICONTROL Throughputs & Latency]**. Tieni presente che il Pannello di controllo può richiedere fino a 1 ora prima di visualizzare i dati.
 
 >[!NOTE]
 >
@@ -54,7 +54,7 @@ L’area **[!UICONTROL Throughput]** fornisce informazioni sul numero di messagg
 >
 >Per Campaign v7/v8, il valore di velocità effettiva visualizzato è quello ottenuto dalle istanze MID (mid sourcing). Per le distribuzioni di marketing (MKT) autonome (senza alcuna istanza MID), viene mostrata invece la velocità effettiva dall’istanza MKT.
 
-Il Pannello di controllo Campaign consente inoltre di identificare gli ID delle prime 5 consegne che contribuiscono alla velocità effettiva relativamente al periodo di tempo selezionato. Queste informazioni sono disponibili solo nella vista a tabella:
+Il Pannello di controllo consente inoltre di identificare gli ID delle prime 5 consegne che contribuiscono alla velocità effettiva relativamente al periodo di tempo selezionato. Queste informazioni sono disponibili solo nella vista a tabella:
 
 ![](assets/throughput-latencies-top5.png)
 
