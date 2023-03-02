@@ -2,10 +2,10 @@
 title: Ultima versione
 description: Questa pagina elenca tutte le nuove funzionalità e i miglioramenti introdotti in Pannello di controllo
 exl-id: 13aceffb-ceaa-4cfe-8741-95d66c5c6caa
-source-git-commit: 975ed013a50c6f5e15178e3c8700c554c5baa34c
+source-git-commit: 349eb8778a19263b83b70b8c920c401aff7fa24a
 workflow-type: tm+mt
-source-wordcount: '94'
-ht-degree: 34%
+source-wordcount: '105'
+ht-degree: 30%
 
 ---
 
@@ -17,10 +17,13 @@ Questa pagina elenca le nuove funzionalità e i miglioramenti introdotti in Pann
 
 **Rimozione della delega per i sottodomini delegata all’Adobe**
 
-Ora puoi rimuovere la delega di un sottodominio che è stato delegato ad Adobe, inclusa la configurazione del CNAME. [Ulteriori informazioni](../subdomains-certificates/using/remove-delegated-subdomains.md)
+Ora puoi rimuovere la delega di un sottodominio completamente delegato ad Adobe. [Ulteriori informazioni](../subdomains-certificates/using/remove-delegated-subdomains.md)
 
 ![](assets/do-not-localize/gif-delegation.gif)
 
+>[!NOTE]
+>
+>La rimozione della delega non è attualmente disponibile per i sottodomini impostati tramite CNAME.
 
 **Calendario dei servizi**
 
