@@ -2,7 +2,7 @@
 product: campaign
 solution: Campaign
 title: Instance details (Dettagli istanza)
-description: Scopri come monitorare i dettagli dell’istanza nel Pannello di controllo Campaign
+description: Scopri come monitorare i dettagli dell’istanza nel Pannello di controllo
 feature: Control Panel
 role: Architect
 level: Experienced
@@ -25,7 +25,7 @@ ht-degree: 72%
 
 >[!IMPORTANT]
 >
->Questa funzione è disponibile solo per le istanze Campaign v7/v8 .
+>Questa funzione è disponibile solo per le istanze Campaign v7/v8.
 
 L’architettura dell’istanza di Adobe Campaign può contenere diversi server per consentire la flessibilità delle attività di marketing. Ad esempio, possono supportare l’istanza i server Marketing, Real Time (In tempo reale) (o Message Center [Centro messaggi]) e Mid Sourcing.
 
@@ -33,7 +33,7 @@ La funzionalità Instance Details (Dettagli istanza) consente di visualizzare l�
 
 >[!NOTE]
 >
->Si consiglia di aggiornare le istanze almeno una volta all’anno per evitare il deterioramento delle prestazioni e di poter sfruttare le funzioni e le correzioni più recenti offerte da Adobe Campaign v7/v8.
+>È consigliabile aggiornare le istanze almeno una volta all’anno per evitare il calo delle prestazioni e poter sfruttare le funzioni e le correzioni più recenti offerte da Adobe Campaign v7/v8.
 
 **Argomenti correlati:**
 
@@ -48,13 +48,13 @@ Per ottenere informazioni sui server connessi alle istanze, procedi come segue:
 
    >[!NOTE]
    >
-   >Se la scheda Instance Settings (Impostazioni istanze) non è visibile nella home page del Pannello di controllo Campaign, significa che l’ID organizzazione non è associato ad alcuna istanza di Adobe Campaign v7/v8
+   >Se la scheda Instance Settings (Impostazioni istanze) non è visibile nella home page del Pannello di controllo Campaign, significa che il tuo ID organizzazione non è associato ad alcuna istanza di Adobe Campaign v7/v8.
 
 1. Seleziona nel riquadro a sinistra l’istanza Campaign desiderata.
 
    >[!NOTE]
    >
-   >Tutte le istanze Campaign vengono visualizzate nell’elenco del riquadro a sinistra. Poiché la funzione Instance Details (Dettagli istanza) è dedicata solo alle istanze Campaign v7/v8, se selezioni un’istanza di Campaign Standard viene visualizzato il messaggio &quot;Non-Applicable Instance&quot; (Istanza non applicabile).
+   >Tutte le istanze Campaign vengono visualizzate nell’elenco del riquadro a sinistra. Poiché la funzione Instance Details (Dettagli istanza) è dedicata solo alle istanze Campaign v7/v8, se selezioni un’istanza Campaign Standard viene visualizzato il messaggio &quot;Non-Applicable Instance&quot; (Istanza non applicabile).
 
 1. Vengono visualizzati i server connessi all’istanza.
 

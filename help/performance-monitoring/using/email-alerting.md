@@ -2,7 +2,7 @@
 product: campaign
 solution: Campaign
 title: Avvisi e-mail
-description: Scopri come ricevere notifiche e-mail in caso di problemi con le istanze di Campaign
+description: Scopri come ricevere notifiche e-mail in caso di problemi con le istanze Campaign
 feature: Control Panel
 role: Architect
 level: Experienced
@@ -16,35 +16,35 @@ ht-degree: 3%
 
 # Avvisi e-mail {#email-alerting}
 
-Per offrire una maggiore flessibilità al tuo lavoro, il Pannello di controllo Campaign è dotato di funzionalità di avviso e-mail in tempo reale.
+Per garantire una maggiore flessibilità al lavoro, Pannelli di controllo Campaign è dotato di funzionalità di avviso e-mail in tempo reale.
 
-## Elenco degli avvisi {#list}
+## Elenco delle segnalazioni {#list}
 
-L&#39;elenco degli avvisi è il seguente:
+L’elenco delle segnalazioni è il seguente:
 
-* **Utilizzo dell’archiviazione SFTP**: Uno dei server SFTP ha raggiunto l’80% o più della sua capacità. Consulta [Gestione dell’archiviazione SFTP](../../sftp/using/sftp-storage-management.md).
+* **Utilizzo dell’archiviazione SFTP**: uno dei server SFTP ha raggiunto l’80% o più della capacità. Consulta [Gestione dell’archiviazione SFTP](../../sftp/using/sftp-storage-management.md).
 
-* **Utilizzo del database**: Uno dei database delle istanze ha raggiunto l&#39;80% o più della sua capacità. Vedi [Monitoraggio del database](../../performance-monitoring/using/database-monitoring.md).
+* **Utilizzo del database**: uno dei database delle istanze ha raggiunto l’80% o più della capacità. Consulta [Monitoraggio del database](../../performance-monitoring/using/database-monitoring.md).
 
-* **Scadenza dell’inserimento di IP SFTP**: Uno degli intervalli IP definiti è scaduto o scadrà tra 10 giorni o meno. Vedi [Inserimento di intervalli IP nell’elenco Consentiti](../../sftp/using/ip-range-allow-listing.md).
+* **Scadenza dell’inserimento di IP nell’elenco Consentiti SFTP**: uno degli intervalli IP definiti è scaduto o scade tra 10 giorni o meno. Consulta [Inserimento di intervalli IP nell’elenco Consentiti](../../sftp/using/ip-range-allow-listing.md).
 
-* **Scadenza della chiave pubblica SFTP**: Una delle chiavi pubbliche definite è scaduta o scadrà tra 10 giorni o meno. Vedi [Gestione delle chiavi](../../sftp/using/key-management.md).
+* **Scadenza chiave pubblica SFTP**: una delle chiavi pubbliche definita è scaduta o scadrà tra 10 giorni o meno. Consulta [Gestione delle chiavi](../../sftp/using/key-management.md).
 
-* **Scadenza certificato SSL**: Uno dei certificati SSL di uno dei sottodomini è scaduto o scadrà tra 30 giorni o meno. Vedi [Monitoraggio dei certificati SSL dei sottodomini](../../subdomains-certificates/using/monitoring-ssl-certificates.md).
+* **Scadenza certificato SSL**: uno dei certificati SSL dei sottodomini è scaduto o scade tra 30 giorni o meno. Consulta [Monitoraggio dei certificati SSL dei sottodomini](../../subdomains-certificates/using/monitoring-ssl-certificates.md).
 
 <!--* **Long running Queries**: A query has been running for more than 24 hours on one of your instances. See [Monitoring active queries](database-active-queries.md).-->
 
 >[!NOTE]
 >
->Inoltre, il Pannello di controllo Campaign consente di: **impostare promemoria** per ricevere notifiche e-mail prima che si verifichi un evento sulle tue istanze (versioni e revisioni dei servizi).
+>Inoltre, il Pannello di controllo Campaign consente di: **impostare i promemoria** per ricevere notifiche tramite e-mail prima che un evento si verifichi sulle istanze (versioni e revisioni dei servizi).
 >
->A questo scopo, devi aver effettuato la sottoscrizione agli avvisi e-mail e impostare un promemoria per gli eventi imminenti desiderati. [Scopri come impostare i promemoria per i prossimi eventi](../../service-events/service-events.md#reminders)
+>A questo scopo, è necessario essersi abbonati agli avvisi e-mail e aver impostato un promemoria per i prossimi eventi desiderati. [Scopri come impostare i promemoria per i prossimi eventi](../../service-events/service-events.md#reminders)
 
 ## Abbonati agli avvisi {#subscribe}
 
-Per abbonarti a questi avvisi, segui questi passaggi:
+Per iscriverti a questi avvisi, segui questi passaggi:
 
-1. Fai clic sul pulsante **[!UICONTROL Alerting notifications]** pulsante disponibile in qualsiasi posizione del Pannello di controllo Campaign, quindi fare clic su **[!UICONTROL Subscribe]**.
+1. Fai clic su **[!UICONTROL Alerting notifications]** disponibile da qualsiasi posizione nel Pannello di controllo Campaign, quindi fai clic su **[!UICONTROL Subscribe]**.
 
    ![](assets/subscribing.png)
 
@@ -52,6 +52,6 @@ Per abbonarti a questi avvisi, segui questi passaggi:
 
    ![](assets/email_subscription.png)
 
-1. Dopo l&#39;iscrizione, il Pannello di controllo Campaign invierà una notifica dei problemi di sistema e raccomanderà le azioni da intraprendere. Gli avvisi e-mail vengono inviati a tutti coloro che si sono registrati per **tutte le istanze** di cui sono amministratori.
+1. Dopo l’abbonamento, il Pannello di controllo Campaign invierà una notifica sui problemi del sistema e raccomanderà le azioni da intraprendere. Gli avvisi e-mail vengono inviati a tutti coloro che si sono iscritti a **tutte le istanze** di essere amministratori di.
 
    ![](assets/alert_sample.png)

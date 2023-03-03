@@ -4,7 +4,7 @@ description: In questa pagina sono elencate tutte le versioni del Pannello di co
 source-git-commit: a62bf4913a97c12ab282709d06c9a50b8b503d8d
 workflow-type: tm+mt
 source-wordcount: '56'
-ht-degree: 60%
+ht-degree: 100%
 
 ---
 
@@ -16,6 +16,6 @@ ht-degree: 60%
 
 I clienti con modello di hosting ibrido possono ora aggiungere indirizzi IP all’elenco consentiti per accedere alle istanze MID. [Ulteriori informazioni](../instances-settings/using/ip-allow-listing-instance-access.md)
 
-**Miglioramento della richiesta di firma del certificato (CSR, Certificate Signing Request)**
+**Miglioramento della richiesta di firma del certificato (CSR)**
 
 Il campo Città/Località è ora facoltativo durante la generazione della richiesta di firma del certificato.

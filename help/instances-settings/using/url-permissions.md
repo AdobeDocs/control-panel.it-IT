@@ -2,7 +2,7 @@
 product: campaign
 solution: Campaign
 title: Autorizzazioni URL
-description: Scopri come gestire le autorizzazioni URL nel Pannello di controllo Campaign
+description: Scopri come gestire le autorizzazioni URL nel Pannello di controllo
 feature: Control Panel
 role: Architect
 level: Intermediate
@@ -26,11 +26,11 @@ ht-degree: 84%
 
 >[!IMPORTANT]
 >
->Questa funzione è disponibile solo per le istanze Campaign v7/v8, dalla build 8850. Se utilizzi una build precedente, dovrai eseguire l’aggiornamento per utilizzare questa funzione.
+>Questa funzione è disponibile solo per le istanze Campaign v7/v8, a partire dalla build 8850. Se utilizzi una build precedente, dovrai eseguire l’aggiornamento per utilizzare questa funzione.
 
 L’elenco predefinito di URL che possono essere richiamati tramite codici JavaScript (flussi di lavoro, ecc.) dalle istanze Campaign è limitato. Si tratta di URL che consentono il corretto funzionamento delle istanze.
 
-Per impostazione predefinita, le istanze non possono connettersi a URL esterni. Il Pannello di controllo Campaign consente di aggiungere degli URL esterni all’elenco degli URL autorizzati, in modo che l’istanza possa connettersi a tali URL. Questo consente di connettere le istanze Campaign a sistemi esterni, ad esempio server SFTP o siti Web, per abilitare il trasferimento di file e/o dati.
+Per impostazione predefinita, le istanze non possono connettersi a URL esterni. Il Pannello di controllo consente di aggiungere degli URL esterni all’elenco degli URL autorizzati, in modo che l’istanza possa connettersi a tali URL. Questo consente di connettere le istanze Campaign a sistemi esterni, ad esempio server SFTP o siti Web, per abilitare il trasferimento di file e/o dati.
 
 Una volta aggiunto l’URL, viene inserito un suo riferimento nel file di configurazione dell’istanza (serverConf.xml).
 
@@ -45,7 +45,7 @@ Una volta aggiunto l’URL, viene inserito un suo riferimento nel file di config
 
 * Non collegare l’istanza Campaign a siti web/server ai quali non intendi connetterti.
 * Elimina gli URL con i quali non lavori più. Tuttavia, tieni presente che, se un’altra sezione della tua azienda continua a collegarsi all’URL eliminato, nessuno potrà più utilizzarlo.
-* Il Pannello di controllo Campaign supporta protocolli **http**, **https** e **sftp**. L’immissione di URL o protocolli non validi causa errori.
+* Il Pannello di controllo supporta protocolli **http**, **https** e **sftp**. L’immissione di URL o protocolli non validi causa errori.
 
 ## Gestione delle autorizzazioni URL {#managing-url-permissions}
 
@@ -72,7 +72,7 @@ Per aggiungere un URL a cui l’istanza può connettersi, effettua le seguenti o
    >
    >Tutte le istanze Campaign vengono visualizzate nell’elenco del riquadro a sinistra.
    >
-   >Poiché la gestione delle autorizzazioni URL è dedicata solo alle istanze Campaign v7/v8, se selezioni un’istanza di Campaign Standard viene visualizzato il messaggio &quot;Non-Applicable Instance&quot; (&quot;Istanza non applicabile&quot;).
+   >Poiché la gestione delle autorizzazioni URL è dedicata solo alle istanze Campaign v7/v8, se selezioni un’istanza Campaign Standard viene visualizzato il messaggio &quot;Non-Applicable Instance&quot; (Istanza non applicabile).
 
 1. Digita l’URL da autorizzare, con il relativo protocollo associato (http, https o sftp).
 
@@ -98,4 +98,4 @@ Tieni presente che, se elimini un URL, l’istanza non sarà più in grado di ri
 
 **Ho aggiunto un nuovo URL, ma la mia istanza non è ancora in grado di connettersi a esso. Perché?**
 
-In alcuni casi, gli URL a cui tenti di connetterti richiedono l’inserimento nell’elenco Consentiti, l’accesso tramite password o un altro tipo di autenticazione. Il Pannello di controllo Campaign non gestisce l’autenticazione aggiuntiva.
+In alcuni casi, gli URL a cui tenti di connetterti richiedono l’inserimento nell’elenco Consentiti, l’accesso tramite password o un altro tipo di autenticazione. Il Pannello di controllo non gestisce l’autenticazione aggiuntiva.

@@ -20,11 +20,11 @@ ht-degree: 90%
 
 Adobe Campaign consiglia di proteggere i sottodomini che ospitano le pagine di destinazione, in particolare quelli che raccolgono informazioni riservate dei clienti.
 
-**Crittografia SSL (Secure Socket Layer)** assicura che i sottodomini configurati per lavorare con Adobe siano protetti. Quando il cliente compila un modulo web o visita una pagina di destinazione ospitata da Adobe Campaign, per impostazione predefinita le informazioni vengono inviate tramite un protocollo non sicuro (HTTP). Per garantire ulteriore sicurezza, proteggi le informazioni inviate con un protocollo HTTPS. Ad esempio, l’indirizzo del sottodominio “http://info.mywebsite.com/” sarà “https://info.mywebsite.com/”.
+**Crittografia SSL (Secure Socket Layer)** garantisce che i sottodomini configurati per l’utilizzo di Adobe siano protetti. Quando il cliente compila un modulo web o visita una pagina di destinazione ospitata da Adobe Campaign, per impostazione predefinita le informazioni vengono inviate tramite un protocollo non sicuro (HTTP). Per garantire ulteriore sicurezza, proteggi le informazioni inviate con un protocollo HTTPS. Ad esempio, l’indirizzo del sottodominio “http://info.mywebsite.com/” sarà “https://info.mywebsite.com/”.
 
-**I certificati SSL non sono installati nei sottodomini configurati**. Sono installati nei sottodomini associati, principalmente quelli che ospitano pagine di destinazione, pagine di risorse e altri.
+**I certificati SSL non sono installati nei sottodomini configurati stessi**. Sono installati nei sottodomini associati, principalmente quelli che ospitano pagine di destinazione, pagine di risorse e altri.
 
-**I certificati SSL vengono forniti per un periodo di tempo specifico** (1 anno, 60 giorni, ecc.). Una volta scaduto il certificato, potrebbero verificarsi dei problemi durante l’accesso alle pagine di destinazione o l’utilizzo delle risorse del sottodominio. Per evitare questo problema, il Pannello di controllo Campaign ti consente di monitorare i certificati SSL dei sottodomini e di avviare il processo di rinnovo.
+**I certificati SSL vengono forniti per un periodo di tempo specifico** (1 anno, 60 giorni, ecc.). Una volta scaduto il certificato, potrebbero verificarsi dei problemi durante l’accesso alle pagine di destinazione o l’utilizzo delle risorse del sottodominio. Per evitare questo problema, il Pannello di controllo ti consente di monitorare i certificati SSL dei sottodomini e di avviare il processo di rinnovo.
 
 ![](assets/no_certificate.png)
 
@@ -33,7 +33,7 @@ Adobe Campaign consiglia di proteggere i sottodomini che ospitano le pagine di d
 >[!CONTEXTUALHELP]
 >id="cp_subdomain_details"
 >title="Dettagli del sottodominio"
->abstract="Recupera informazioni sui certificati SSL dei sottodomini."
+>abstract="Recupera informazioni sui certificati SSL dei tuoi sottodomini."
 
 Lo stato dei certificati SSL dei sottodomini è disponibile direttamente nell’elenco dei sottodomini selezionando la scheda **[!UICONTROL Subdomains & Certificates]**.
 
@@ -53,7 +53,7 @@ La scheda **[!UICONTROL Sender info]** fornisce informazioni sulle caselle in en
 
 ![](assets/subdomain_details.png)
 
-Se uno dei certificati SSL del sottodominio sta per scadere, puoi rinnovarlo direttamente dal Pannello di controllo Campaign. Per ulteriori informazioni, consulta questa sezione: [Rinnovo del certificato SSL di un sottodominio](../../subdomains-certificates/using/renewing-subdomain-certificate.md).
+Se uno dei certificati SSL del sottodominio sta per scadere, puoi rinnovarlo direttamente dal Pannello di controllo. Per ulteriori informazioni, consulta questa sezione: [Rinnovo del certificato SSL di un sottodominio](../../subdomains-certificates/using/renewing-subdomain-certificate.md).
 
 **Argomenti correlati:**
 

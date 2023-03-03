@@ -2,7 +2,7 @@
 product: campaign
 solution: Campaign
 title: Le 10 risorse temporanee principali
-description: Scopri come monitorare nel Pannello di controllo Campaign le 10 risorse temporanee più grandi generate dai flussi di lavoro e dalle consegne sul database Campaign.
+description: Scopri come monitorare nel Pannello di controllo Campaign le 10 risorse temporanee più grandi generate dai flussi di lavoro e dalle consegne nel database di Campaign.
 feature: Control Panel
 role: Architect
 level: Experienced
@@ -28,4 +28,4 @@ Il monitoraggio dei flussi di lavoro e delle consegne che creano grandi risorse 
 
 ![](assets/database-top10.png)
 
-La **[!UICONTROL View all]** consente di accedere al **[!UICONTROL Storage overview]** informazioni dettagliate su queste risorse temporanee. Per ulteriori informazioni, consulta [questa pagina](database-storage-overview.md).
+Il **[!UICONTROL View all]** consente di accedere al **[!UICONTROL Storage overview]** dettagli per ottenere informazioni dettagliate su queste risorse temporanee. Per ulteriori informazioni, consulta [questa pagina](database-storage-overview.md).

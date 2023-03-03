@@ -24,7 +24,7 @@ ht-degree: 89%
 
 Una volta acquistato un certificato SSL, puoi installarlo nell’istanza. Prima di procedere, accertati di conoscere i prerequisiti seguenti:
 
-* La richiesta di firma del certificato (CSR, Certificate Signing Request) deve essere stata generata dal Pannello di controllo Campaign. In caso contrario, non potrai installare il certificato dal Pannello di controllo Campaign.
+* La richiesta di firma del certificato (CSR, Certificate Signing Request) deve essere stata generata dal Pannello di controllo. In caso contrario, non potrai installare il certificato dal Pannello di controllo.
 * La richiesta di firma del certificato (CSR, Certificate Signing Request) deve corrispondere al sottodominio configurato per funzionare con Adobe. Ad esempio, non può contenere più sottodomini di quello configurato.
 * Il certificato deve avere una data corrente. Non è possibile installare certificati con date future e non deve essere scaduto (vale a dire date di inizio e fine valide).
 * Il certificato deve essere rilasciato da un’autorità di certificazione (CA, Certificate Authority) affidabile, come Comodo, DigiCert, GoDaddy, ecc..

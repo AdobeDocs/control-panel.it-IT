@@ -2,7 +2,7 @@
 product: campaign
 solution: Campaign
 title: Informazioni sul monitoraggio del database
-description: Scopri come monitorare il database Campaign nel Pannello di controllo Campaign
+description: Scopri come monitorare il database Campaign nel Pannello di controllo
 feature: Control Panel
 role: Architect
 level: Experienced
@@ -24,7 +24,7 @@ Nel tempo, i database possono raggiungere la loro capacità massima, soprattutto
 
 L’overflow del database di un’istanza può causare diversi problemi (impossibilità di accedere, inviare e-mail, ecc.). Il monitoraggio dei database delle istanze è quindi essenziale per garantire prestazioni ottimali.
 
-Se hai effettuato la sottoscrizione a [avvisi e-mail](../../performance-monitoring/using/email-alerting.md), riceverai notifiche tramite e-mail quando uno dei database delle istanze ha raggiunto l’80% o più della sua capacità.
+Se ti sei iscritto a [avvisi e-mail](../../performance-monitoring/using/email-alerting.md), riceverai notifiche tramite e-mail quando uno dei database delle istanze raggiunge l’80% o più della capacità.
 
 ## Monitoraggio dell’utilizzo del database{#monitoring-database-usage}
 
@@ -34,19 +34,19 @@ Se hai effettuato la sottoscrizione a [avvisi e-mail](../../performance-monitori
 >abstract="In questa scheda, puoi ottenere informazioni in tempo reale dati attuali e storici sull’utilizzo e l’evoluzione del database per ciascuna istanza di Campaign."
 >additional-url="https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html?lang=it" text="Informazioni sul monitoraggio delle prestazioni"
 
-Il Pannello di controllo Campaign consente di monitorare l’utilizzo del database per ciascuna istanza di Campaign. Per fare questo, apri la scheda **[!UICONTROL Performance Monitoring]**, quindi seleziona la scheda **[!UICONTROL Databases]**.
+Il Pannello di controllo consente di monitorare l’utilizzo del database per ciascuna istanza di Campaign. Per fare questo, apri la scheda **[!UICONTROL Performance Monitoring]**, quindi seleziona la scheda **[!UICONTROL Databases]**.
 
 Seleziona l’istanza desiderata da **[!UICONTROL Instance List]** per visualizzare informazioni sulla capacità del database dell’istanza e sullo spazio utilizzato.
 
 >[!NOTE]
 >
->Se lo spazio del database disponibile riportata nel Pannello di controllo Campaign non corrisponde alla quantità specificata nel contratto, contatta l’Assistenza clienti.
+>Se lo spazio del database disponibile riportata nel Pannello di controllo non corrisponde alla quantità specificata nel contratto, contatta l’Assistenza clienti.
 
 ![](assets/databases_dashboard.png)
 
-I dati provenienti da questo dashboard vengono aggiornati in base al **[!UICONTROL Database cleanup technical workflow]** che viene eseguito sull’istanza Campaign (vedi [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/technical-workflows.html?lang=it#list-of-technical-workflows) e [Campaign v7/v8](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/data-processing/database-cleanup-workflow.html?lang=it) documentazione). Puoi controllare l’ultima volta che il flusso di lavoro è stato eseguito sotto il **[!UICONTROL Used Space]** e **[!UICONTROL Provided Space]** metriche. Tieni presente che, se il flusso di lavoro non è stato eseguito da almeno 3 giorni, ti consigliamo di contattare l’Assistenza clienti di Adobe in modo che possa indagare il motivo per cui il flusso di lavoro si è interrotto.
+I dati di questo dashboard vengono aggiornati in base al **[!UICONTROL Database cleanup technical workflow]** in esecuzione sull’istanza Campaign (consulta [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/technical-workflows.html?lang=it#list-of-technical-workflows) e [Campaign v7/v8](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/data-processing/database-cleanup-workflow.html?lang=it) documentazione). Puoi controllare l’ultima volta che il flusso di lavoro è stato eseguito, sotto **[!UICONTROL Used Space]** e **[!UICONTROL Provided Space]** metriche. Tieni presente che, se il flusso di lavoro non è stato eseguito da almeno 3 giorni, ti consigliamo di contattare l’Assistenza clienti di Adobe in modo che possa indagare il motivo per cui il flusso di lavoro si è interrotto.
 
-In questa dashboard sono disponibili ulteriori metriche per analizzare l’utilizzo del database dell’istanza. Sono descritti in dettaglio in queste sezioni:
+In questa dashboard sono disponibili metriche aggiuntive per aiutarti ad analizzare l’utilizzo del database dell’istanza. Sono descritte in dettaglio nelle seguenti sezioni:
 
 * [Utilizzo del database](../../performance-monitoring/using/database-utilization.md)
 * [Panoramica sull’archiviazione](../../performance-monitoring/using/database-storage-overview.md)

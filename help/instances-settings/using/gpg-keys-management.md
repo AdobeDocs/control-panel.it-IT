@@ -19,42 +19,42 @@ ht-degree: 9%
 >[!CONTEXTUALHELP]
 >id="cp_instancesettings_gpg_management"
 >title="Informazioni sulle chiavi GPG"
->abstract="In questa scheda, puoi installare e/o generare chiavi GPG in un’istanza di marketing per crittografare i dati inviati da Campaign e decrittografare i dati in arrivo."
+>abstract="In questa scheda, puoi installare e/o generare chiavi GPG in un’istanza di marketing, al fine di crittografare i dati inviati da Campaign e decrittografare i dati in arrivo."
 >additional-url="https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html?lang=it" text="Informazioni sul monitoraggio delle prestazioni"
 
 ## Informazioni sulla crittografia GPG {#about-gpg-encryption}
 
-La crittografia GPG consente di proteggere i dati utilizzando un sistema di coppie di chiavi pubblica-privata che seguono la [OpenPGP](https://www.openpgp.org/about/standard/) specifica.
+La crittografia GPG consente di proteggere i dati utilizzando un sistema di coppie di chiavi pubblico-privato che seguono il [OpenPGP](https://www.openpgp.org/about/standard/) specifica.
 
-Una volta implementati, è possibile crittografare i dati in arrivo decrittografati e in uscita prima del trasferimento, per garantire che nessuno li acceda senza una coppia di chiavi corrispondente valida.
+Una volta implementati, i dati in entrata possono essere decrittografati e quelli in uscita crittografati prima del trasferimento, per garantire che nessuno possa accedervi senza una coppia di chiavi valida.
 
-Per implementare la crittografia GPG con Campaign, un utente amministratore deve installare e/o generare le chiavi GPG in un’istanza di marketing direttamente dal Pannello di controllo Campaign.
+Per implementare la crittografia GPG con Campaign, un utente amministratore deve installare e/o generare le chiavi GPG in un’istanza di marketing direttamente dal Pannello di controllo.
 
 Potrai quindi:
 
-* **Cifratura dei dati inviati**: Adobe Campaign invia i dati dopo averlo crittografato con la chiave pubblica installata.
+* **Crittografare i dati inviati**: Adobe Campaign invia i dati dopo averli crittografati con la chiave pubblica installata.
 
-* **Decrittografare i dati in arrivo**: Adobe Campaign riceve i dati crittografati da un sistema esterno utilizzando una chiave pubblica scaricata dal Pannello di controllo Campaign. Adobe Campaign decrittografa i dati utilizzando una chiave privata generata dal Pannello di controllo Campaign.
+* **Decrittare i dati in arrivo**: Adobe Campaign riceve i dati crittografati da un sistema esterno utilizzando una chiave pubblica scaricata dal Pannello di controllo Campaign. Adobe Campaign decrittografa i dati utilizzando una chiave privata generata dal Pannello di controllo Campaign.
 
 ## Crittografia dei dati {#encrypting-data}
 
-Il Pannello di controllo Campaign consente di crittografare i dati provenienti dall’istanza Adobe Campaign.
+Il Pannello di controllo consente di crittografare i dati provenienti dall’istanza Adobe Campaign.
 
 A questo scopo, devi generare una coppia di chiavi GPG da uno strumento di crittografia PGP, quindi installare la chiave pubblica nel Pannello di controllo Campaign. Potrai quindi crittografare i dati prima di inviarli dall’istanza. A tale scopo, segui la procedura indicata di seguito.
 
 >[!NOTE]
 >
->È possibile installare fino a 60 chiavi GPG in Pannello di controllo Campaign.
+>È possibile installare fino a 60 chiavi GPG nel Pannello di controllo Campaign.
 
 ![](assets/do-not-localize/how-to-video.png)[ Scopri questa funzione nel video](#video)
 
-1. Generare una coppia di chiavi pubblica/privata utilizzando uno strumento di crittografia PGP che segue [Specifica OpenPGP](https://www.openpgp.org/about/standard/). A questo scopo, installare un&#39;utility GPG o un software GNuGP.
+1. Generare una coppia di chiavi pubblica/privata utilizzando uno strumento di crittografia PGP seguendo la [Specifiche OpenPGP](https://www.openpgp.org/about/standard/). Per eseguire questa operazione, installare un&#39;utility GPG o un software GNuGP.
 
    >[!NOTE]
    >
-   >È disponibile un software libero open source per generare chiavi. Tuttavia, assicurati di seguire le linee guida della tua organizzazione e utilizza l&#39;utility GPG consigliata dalla tua organizzazione IT/Security.
+   >È disponibile un software libero open source per generare le chiavi. Tuttavia, assicurati di seguire le linee guida della tua organizzazione e di utilizzare l’utility GPG consigliata dall’organizzazione IT/Security.
 
-1. Una volta installata l&#39;utilità, eseguire il comando sottostante, nel comando Mac Terminal o Windows.
+1. Una volta installata l&#39;utilità, eseguire il comando seguente in Mac Terminal o nel comando Windows.
 
    `gpg --full-generate-key`
 
@@ -62,24 +62,24 @@ A questo scopo, devi generare una coppia di chiavi GPG da uno strumento di critt
 
    * **tipo di chiave**: RSA
    * **lunghezza chiave**: 3072 - 4096 bit
-   * **nome reale** e **indirizzo e-mail**: Consente di tenere traccia di chi ha creato la coppia di chiavi. Immetti un nome e un indirizzo e-mail collegati alla tua organizzazione o reparto.
-   * **commento**: l’aggiunta di un’etichetta al campo commento consente di identificare facilmente la chiave da utilizzare per crittografare i dati.
-   * **scadenza**: Data o &quot;0&quot; per nessuna data di scadenza.
+   * **nome reale** e **indirizzo e-mail**: consente di tenere traccia di chi ha creato la coppia di chiavi. Immetti un nome e un indirizzo e-mail collegati all’organizzazione o al reparto.
+   * **commento**: l’aggiunta di un’etichetta al campo del commento ti aiuterà a identificare facilmente la chiave da utilizzare per crittografare i dati.
+   * **scadenza**: data o &quot;0&quot; per nessuna data di scadenza.
    * **passphrase**
 
    ![](assets/do-not-localize/gpg_command.png)
 
-1. Una volta confermato, lo script genera una chiave con l’impronta digitale associata, che può essere esportata in un file o incollata direttamente nel Pannello di controllo Campaign. Per esportare il file, esegui questo comando seguito dall’impronta digitale della chiave generata.
+1. Una volta confermato, lo script genera una chiave con l&#39;impronta digitale associata, che puoi esportare in un file o incollare direttamente nel Pannello di controllo Campaign. Per esportare il file, esegui questo comando seguito dall’impronta digitale della chiave generata.
 
    `gpg -a --export <fingerprint>`
 
-1. Per installare la chiave pubblica nel Pannello di controllo Campaign, apri la **[!UICONTROL Instance settings]** , quindi seleziona la scheda **[!UICONTROL GPG keys]** e l&#39;istanza desiderata.
+1. Per installare la chiave pubblica nel Pannello di controllo Campaign, apri **[!UICONTROL Instance settings]** , quindi selezionare la scheda **[!UICONTROL GPG keys]** e l&#39;istanza desiderata.
 
 1. Fai clic sul pulsante **[!UICONTROL Install Key]**.
 
    ![](assets/gpg_install_button.png)
 
-1. Incolla la chiave pubblica generata dal tuo strumento di crittografia PGP. Puoi anche trascinare direttamente il file della chiave pubblica esportato.
+1. Incolla la chiave pubblica generata dallo strumento di crittografia PGP. Puoi anche trascinare e rilasciare direttamente il file della chiave pubblica esportato.
 
    >[!NOTE]
    >
@@ -89,11 +89,11 @@ A questo scopo, devi generare una coppia di chiavi GPG da uno strumento di critt
 
 1. Fai clic sul pulsante **[!UICONTROL Install Key]**.
 
-Una volta installata la chiave pubblica, questa viene visualizzata nell’elenco. È possibile utilizzare **...** per scaricarlo o copiarne l&#39;impronta digitale.
+Una volta installata, la chiave pubblica viene visualizzata nell’elenco. È possibile utilizzare **...** per scaricarla o copiarne l&#39;impronta digitale.
 
 ![](assets/gpg_install_download.png)
 
-La chiave è quindi disponibile per l’utilizzo nei flussi di lavoro Adobe Campaign. Puoi utilizzarlo per crittografare i dati quando utilizzi le attività di estrazione dati.
+La chiave è quindi disponibile per l’utilizzo nei flussi di lavoro di Adobe Campaign. Puoi utilizzarlo per crittografare i dati quando utilizzi attività di estrazione dati.
 
 ![](assets/do-not-localize/how-to-video.png)[ Scopri questa funzione nel video](#video)
 
@@ -101,28 +101,28 @@ Per ulteriori informazioni su questo argomento, consulta la documentazione di Ad
 
 **Campaign v7/v8:**
 
-* [ZIP o cifratura di un file](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/managing-data-encryption-compression/zip-encrypt.html)
-* [Caso di utilizzo: Crittografia ed esportazione di dati utilizzando una chiave installata sul Pannello di controllo Campaign](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html#use-case-gpg-encrypt)
+* [Compressione o crittografia di un file](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/managing-data-encryption-compression/zip-encrypt.html)
+* [Caso di utilizzo: crittografia ed esportazione di dati tramite una chiave installata sul Pannello di controllo Campaign](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html#use-case-gpg-encrypt)
 
 **Campaign Standard:**
 
 * [Gestione dei dati crittografati](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html)
-* [Caso di utilizzo: Crittografia ed esportazione di dati utilizzando una chiave installata sul Pannello di controllo Campaign](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/managing-data-encryption-compression/zip-encrypt.html#use-case-gpg-encrypt)
+* [Caso di utilizzo: crittografia ed esportazione di dati tramite una chiave installata sul Pannello di controllo Campaign](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/managing-data-encryption-compression/zip-encrypt.html#use-case-gpg-encrypt)
 
 ## Decrittografia dei dati {#decrypting-data}
 
-Il Pannello di controllo Campaign consente di decrittografare i dati esterni che entrano nelle istanze Adobe Campaign.
+Pannelli di controllo Campaign consente di decrittografare i dati esterni che entrano nelle istanze Adobe Campaign.
 
 A questo scopo, devi generare una coppia di chiavi GPG direttamente dal Pannello di controllo Campaign.
 
-* La **chiave pubblica** verranno condivisi con il sistema esterno, che lo utilizzerà per crittografare i dati da inviare a Campaign.
-* La **chiave privata** verrà utilizzato da Campaign per decrittografare i dati crittografati in arrivo.
+* Il **chiave pubblica** verrà condiviso con il sistema esterno, che lo utilizzerà per crittografare i dati da inviare a Campaign.
+* Il **chiave privata** verrà utilizzato da Campaign per decrittografare i dati crittografati in arrivo.
 
 ![](assets/do-not-localize/how-to-video.png)[ Scopri questa funzione nel video](#video)
 
-Per generare una coppia di chiavi nel Pannello di controllo Campaign, effettua le seguenti operazioni:
+Per generare una coppia di chiavi nel Pannello di controllo Campaign, effettuare le seguenti operazioni:
 
-1. Apri **[!UICONTROL Instance settings]** , quindi seleziona la scheda **[!UICONTROL GPG keys]** e l’istanza Adobe Campaign desiderata.
+1. Apri **[!UICONTROL Instance settings]** , quindi selezionare la scheda **[!UICONTROL GPG keys]** e l’istanza di Adobe Campaign desiderata.
 
 1. Fai clic sul pulsante **[!UICONTROL Generate Key]**.
 
@@ -132,7 +132,7 @@ Per generare una coppia di chiavi nel Pannello di controllo Campaign, effettua l
 
    ![](assets/gpg_generate_name.png)
 
-Una volta generata la coppia di chiavi, la chiave pubblica viene visualizzata nell’elenco. Tieni presente che le coppie chiave di decrittografia vengono generate senza data di scadenza.
+Una volta generata la coppia di chiavi, la chiave pubblica viene visualizzata nell’elenco. Tieni presente che le coppie di chiavi di decrittografia vengono generate senza data di scadenza.
 
 È possibile utilizzare **...** per scaricare la chiave pubblica o copiarne l&#39;impronta digitale.
 
@@ -145,51 +145,51 @@ Per ulteriori informazioni, consulta la documentazione di Adobe Campaign:
 **Campaign v7 e v8:**
 
 * [Estrazione o decrittografia di un file prima dell’elaborazione](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/managing-data-encryption-compression/unzip-decrypt.html)
-* [Caso di utilizzo: Importazione di dati crittografati utilizzando una chiave generata dal Pannello di controllo Campaign](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/managing-data-encryption-compression/unzip-decrypt.html#use-case-gpg-decrypt)
+* [Caso di utilizzo: importazione di dati crittografati utilizzando una chiave generata dal Pannello di controllo Campaign](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/managing-data-encryption-compression/unzip-decrypt.html#use-case-gpg-decrypt)
 
 **Campaign Standard:**
 
 * [Gestione dei dati crittografati](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html)
-* [Caso di utilizzo: Importazione di dati crittografati utilizzando una chiave generata dal Pannello di controllo Campaign](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html#use-case-gpg-decrypt)
+* [Caso di utilizzo: importazione di dati crittografati utilizzando una chiave generata dal Pannello di controllo Campaign](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html#use-case-gpg-decrypt)
 
 ## Monitoraggio delle chiavi GPG
 
-Per accedere alle chiavi GPG installate e generate per le istanze, apri la **[!UICONTROL Instance settings]** , quindi seleziona la scheda **[!UICONTROL GPG keys]** scheda .
+Per accedere alle chiavi GPG installate e generate per le istanze, apri la **[!UICONTROL Instance settings]** , quindi selezionare la scheda **[!UICONTROL GPG keys]** scheda.
 
 ![](assets/gpg_list.png)
 
-L’elenco visualizza tutte le chiavi GPG di crittografia e decrittografia installate e generate per le istanze con informazioni dettagliate su ciascuna chiave:
+L’elenco mostra tutte le chiavi GPG di crittografia e decrittografia installate e generate per le istanze con informazioni dettagliate su ciascuna chiave:
 
-* **[!UICONTROL Name]**: Nome definito durante l’installazione o la generazione della chiave.
-* **[!UICONTROL Use case]**: Questa colonna specifica il caso d’uso della chiave:
+* **[!UICONTROL Name]**: nome definito durante l’installazione o la generazione della chiave.
+* **[!UICONTROL Use case]**: questa colonna specifica il caso di utilizzo della chiave:
 
-   ![](assets/gpg_icon_encrypt.png): La chiave è stata installata per la crittografia dei dati.
+   ![](assets/gpg_icon_encrypt.png): la chiave per la crittografia dei dati è stata installata.
 
-   ![](assets/gpg_icon_decrypt.png): La chiave è stata generata per consentire la decrittografia dei dati.
+   ![](assets/gpg_icon_decrypt.png): la chiave è stata generata per consentire la decrittografia dei dati.
 
-* **[!UICONTROL Fingerprint]**: l&#39;impronta digitale della chiave.
-* **[!UICONTROL Expires]**: Data di scadenza della chiave. Tieni presente che il Pannello di controllo Campaign fornirà indicazioni visive man mano che la chiave si avvicina alla data di scadenza:
+* **[!UICONTROL Fingerprint]**: impronta digitale della chiave.
+* **[!UICONTROL Expires]**: data di scadenza della chiave. Tieni presente che il Pannello di controllo Campaign fornirà indicazioni visive quando la chiave si avvicina alla sua data di scadenza:
 
-   * Urgente (rosso) viene mostrato 30 giorni prima.
-   * L&#39;avviso (giallo) viene visualizzato 60 giorni prima.
-   * Alla scadenza di una chiave viene visualizzato un banner rosso &quot;Scaduto&quot;.
+   * Urgente (rosso) viene visualizzato 30 giorni prima.
+   * L’avvertenza (gialla) viene visualizzata 60 giorni prima.
+   * Una volta scaduta la chiave, verrà visualizzato un banner rosso &quot;Scaduto&quot;.
 
    >[!NOTE]
    >
-   >Nota che non verrà inviata alcuna notifica e-mail dal Pannello di controllo Campaign.
+   >Tieni presente che il Pannello di controllo Campaign non invierà alcuna notifica e-mail.
 
-Come best practice, si consiglia di rimuovere qualsiasi chiave non più necessaria. A questo scopo, fai clic sul pulsante **...** quindi seleziona **[!UICONTROL Delete Key].**.
+Come best practice, è consigliabile rimuovere qualsiasi chiave non più necessaria. A questo scopo, fai clic su **...** quindi selezionare **[!UICONTROL Delete Key].**.
 
 ![](assets/gpg_delete.png)
 
 >[!IMPORTANT]
 >
->Prima di rimuovere una chiave, accertati che non sia utilizzata in alcun flusso di lavoro Adobe Campaign per evitare che si verifichino errori.
+>Prima di rimuovere una chiave, accertati che non venga utilizzata in alcun flusso di lavoro Adobe Campaign per evitare che si verifichino errori.
 
 ## Video tutorial {#video}
 
 Il video seguente mostra come generare e installare le chiavi GPG per la crittografia dei dati.
 
-Sono disponibili ulteriori video dimostrativi relativi alla gestione delle chiavi GPG in  [Campaign v7/v8](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/instance-settings/gpg-key-management/gpg-key-management-overview.html#instance-settings) e [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/instance-settings/gpg-key-management/gpg-key-management-overview.html#instance-settings) pagine dei tutorial.
+Sono disponibili ulteriori video relativi alla gestione delle chiavi GPG in  [Campaign v7/v8](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/instance-settings/gpg-key-management/gpg-key-management-overview.html#instance-settings) e [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/instance-settings/gpg-key-management/gpg-key-management-overview.html#instance-settings) pagine dei tutorial.
 
 >[!VIDEO](https://video.tv.adobe.com/v/36386?quality=12)

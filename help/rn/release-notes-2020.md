@@ -1,6 +1,6 @@
 ---
 title: Note sulla versione 2020
-description: In questa pagina sono elencate tutte le versioni del Pannello di controllo Campaign del 2020.
+description: In questa pagina sono elencate tutte le versioni del Pannello di controllo del 2020.
 exl-id: 70357a40-3dc1-486d-bba2-f500b3175d62
 source-git-commit: 9be5a3ae48dccf74f509aa95fee29bbfdafddcdf
 workflow-type: tm+mt
@@ -22,7 +22,7 @@ ht-degree: 100%
 <tbody>
 <tr>
 <td>
-<p>Il Pannello di controllo Campaign ora consente di configurare un sottodominio in modo che sia compatibile con Adobe tramite CNAME direttamente dall’interfaccia.</p><p>Per ulteriori informazioni, consulta la <a href="../subdomains-certificates/using/setting-up-new-subdomain.md">documentazione dettagliata</a>.</p>
+<p>Il Pannello di controllo ora consente di configurare un sottodominio in modo che sia compatibile con Adobe tramite CNAME direttamente dall’interfaccia.</p><p>Per ulteriori informazioni, consulta la <a href="../subdomains-certificates/using/setting-up-new-subdomain.md">documentazione dettagliata</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -54,7 +54,7 @@ ht-degree: 100%
 <tbody>
 <tr>
 <td>
-<p>Dopo aver delegato un nuovo sottodominio, il Pannello di controllo Campaign ora consente di monitorare l’audit eseguito dal team Deliverability.</p><p>Per ulteriori informazioni, consulta la <a href="../subdomains-certificates/using/setting-up-new-subdomain.md">documentazione dettagliata</a>.</p>
+<p>Dopo aver delegato un nuovo sottodominio, il Pannello di controllo ora consente di monitorare l’audit eseguito dal team Deliverability.</p><p>Per ulteriori informazioni, consulta la <a href="../subdomains-certificates/using/setting-up-new-subdomain.md">documentazione dettagliata</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -69,7 +69,7 @@ ht-degree: 100%
 <tbody>
 <tr>
 <td>
-<p>Il Pannello di controllo Campaign ora ti consente di generare una coppia di chiavi GPG, in modo da poter decrittografrare facilmente i dati che arrivano in Campaign dall’esterno. Inoltre, è stata aggiunta una funzionalità che ti consente di installare una chiave GPG pubblica per crittografare i dati in uscita da Campaign.</p><p>Per ulteriori informazioni, consulta la <a href="../instances-settings/using/gpg-keys-management.md">documentazione dettagliata</a>.</p>
+<p>Il Pannello di controllo ora ti consente di generare una coppia di chiavi GPG, in modo da poter decrittografrare facilmente i dati che arrivano in Campaign dall’esterno. Inoltre, è stata aggiunta una funzionalità che ti consente di installare una chiave GPG pubblica per crittografare i dati in uscita da Campaign.</p><p>Per ulteriori informazioni, consulta la <a href="../instances-settings/using/gpg-keys-management.md">documentazione dettagliata</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -84,7 +84,7 @@ ht-degree: 100%
 <tbody>
 <tr>
 <td>
-<p>Il Pannello di controllo Campaign ora consente di monitorare il numero di profili attivi utilizzati dalle istanze e conteggiati a scopo di fatturazione.</p><p>Per ulteriori informazioni, consulta la <a href="../performance-monitoring/using/active-profiles-monitoring.md">documentazione dettagliata</a>.</p>
+<p>Il Pannello di controllo ora consente di monitorare il numero di profili attivi utilizzati dalle istanze e conteggiati a scopo di fatturazione.</p><p>Per ulteriori informazioni, consulta la <a href="../performance-monitoring/using/active-profiles-monitoring.md">documentazione dettagliata</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -92,7 +92,7 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->Il monitoraggio profili attivi dal Pannello di controllo Campaign è disponibile in versione beta e soggetto a frequenti aggiornamenti e modifiche senza preavviso.
+>Il monitoraggio profili attivi dal Pannello di controllo è disponibile in versione beta e soggetto a frequenti aggiornamenti e modifiche senza preavviso.
 
 ## Maggio 2020 {#may-2020}
 
@@ -105,7 +105,7 @@ ht-degree: 100%
 <tbody>
 <tr>
 <td>
-<p>Il Pannello di controllo Campaign ora consente di rinnovare i certificati SSL dei sottodomini configurati con il metodo CNAME.</p><p>Per ulteriori informazioni, consulta la <a href="../subdomains-certificates/using/renewing-subdomain-certificate.md">documentazione dettagliata</a>.</p>
+<p>Il Pannello di controllo ora consente di rinnovare i certificati SSL dei sottodomini configurati con il metodo CNAME.</p><p>Per ulteriori informazioni, consulta la <a href="../subdomains-certificates/using/renewing-subdomain-certificate.md">documentazione dettagliata</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -160,7 +160,7 @@ ht-degree: 100%
 
 ## Gennaio 2020 {#january-2020}
 
-Sono state aggiunte nuove funzionalità che consentono agli utenti amministratori di configurare i sottodomini e rinnovare i certificati SSL dal Pannello di controllo Campaign.
+Sono state aggiunte nuove funzionalità che consentono agli utenti amministratori di configurare i sottodomini e rinnovare i certificati SSL dal Pannello di controllo.
 
 Per ulteriori informazioni, consulta le pagine seguenti:
 * [Configurazione di un nuovo sottodominio](../subdomains-certificates/using/setting-up-new-subdomain.md)

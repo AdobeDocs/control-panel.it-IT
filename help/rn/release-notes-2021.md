@@ -1,6 +1,6 @@
 ---
 title: Note sulla versione 2021
-description: In questa pagina sono elencate tutte le versioni di Pannello di controllo Campaign del 2021.
+description: In questa pagina sono elencate tutte le versioni di Pannello di controllo del 2021.
 exl-id: ee974059-9ede-4c8e-9e77-d0e67bb4e849
 source-git-commit: 9be5a3ae48dccf74f509aa95fee29bbfdafddcdf
 workflow-type: tm+mt
@@ -37,7 +37,7 @@ ht-degree: 100%
 <tbody>
 <tr>
 <td>
-<p>È ora possibile modificare gli <a href="../sftp/using/ip-range-allow-listing.md#editing-ip-ranges">Intervalli IP</a> e le <a href="../sftp/using/key-management.md#editing-public-keys">chiavi pubbliche</a> che crei. Questa funzione non è disponibile per gli elementi creati prima della versione del Pannello di controllo Campaign corrente.
+<p>È ora possibile modificare gli <a href="../sftp/using/ip-range-allow-listing.md#editing-ip-ranges">Intervalli IP</a> e le <a href="../sftp/using/key-management.md#editing-public-keys">chiavi pubbliche</a> che crei. Questa funzione non è disponibile per gli elementi creati prima della versione del Pannello di controllo corrente.
 </td>
 </tr>
 </tbody>
@@ -67,7 +67,7 @@ ht-degree: 100%
 <tbody>
 <tr>
 <td>
-<p>Le funzionalità di gestione <strong>Sottodominio</strong> e <strong>Certificato</strong> sono ora supportate da Pannello di controllo Campaign in Adobe Campaign v8.</a>.</p>
+<p>Le funzionalità di gestione <strong>Sottodominio</strong> e <strong>Certificato</strong> sono ora supportate da Pannello di controllo in Adobe Campaign v8.</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -84,7 +84,7 @@ ht-degree: 100%
 <tbody>
 <tr>
 <td>
-<p>Il Pannello di controllo Campaign è ora disponibile per Adobe Campaign v8, tranne le funzionalità di gestione <strong>Sottodominio</strong> e <strong>Certificato</strong> non ancora supportate.</p><p>Per ulteriori informazioni, consulta la <a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/deploy/self-service.html?lang=it" target="blank">Documentazione di Campaign v8</a>.</p>
+<p>Il Pannello di controllo è ora disponibile per Adobe Campaign v8, tranne le funzionalità di gestione <strong>Sottodominio</strong> e <strong>Certificato</strong> non ancora supportate.</p><p>Per ulteriori informazioni, consulta la <a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/deploy/self-service.html?lang=it" target="blank">Documentazione di Campaign v8</a>.</p>
 </td>
 </tr>
 </tbody>

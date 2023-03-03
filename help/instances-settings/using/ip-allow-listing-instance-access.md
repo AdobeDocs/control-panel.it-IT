@@ -2,7 +2,7 @@
 product: campaign
 solution: Campaign
 title: Inserimento di IP nell’elenco Consentiti
-description: Scopri come aggiungere indirizzi IP all’elenco Consentiti nel Pannello di controllo Campaign per accedere alle istanze
+description: Scopri come aggiungere indirizzi IP all’elenco Consentiti nel Pannello di controllo per accedere alle istanze
 feature: Control Panel
 role: Architect
 level: Intermediate
@@ -26,13 +26,13 @@ ht-degree: 84%
 
 >[!IMPORTANT]
 >
->Questa funzione è disponibile solo per le istanze Campaign v7/v8 .
+>Questa funzione è disponibile solo per le istanze Campaign v7/v8.
 
 Per impostazione predefinita, l’istanza di Adobe Campaign non è accessibile da vari indirizzi IP.
 
 Se il tuo indirizzo IP non è stato inserito nell’elenco Consentiti non potrai accedere all’istanza da tale indirizzo. Allo stesso modo, potresti non riuscire a collegare un’API al Message Center (Centro messaggi) o all’istanza Marketing se l’indirizzo IP non è stato inserito nell’elenco Consentiti insieme all’istanza in modo esplicito.
 
-Il Pannello di controllo Campaign ti consente di impostare nuove connessioni alle istanze tramite l’inserimento di intervalli IP nell’elenco Consentiti. Per farlo, attieniti alla procedura descritta di seguito.
+Il Pannello di controllo ti consente di impostare nuove connessioni alle istanze tramite l’inserimento di intervalli IP nell’elenco Consentiti. Per farlo, attieniti alla procedura descritta di seguito.
 
 Una volta inseriti gli indirizzi IP nell’elenco Consentiti, puoi creare e collegare ad essi gli operatori Campaign per consentire agli utenti di accedere all’istanza.
 
@@ -40,7 +40,7 @@ Una volta inseriti gli indirizzi IP nell’elenco Consentiti, puoi creare e coll
 
 ## Best practice {#best-practices}
 
-Accertati di seguire le raccomandazioni e le limitazioni riportate di seguito quando inserisci gli indirizzi IP nell’elenco Consentiti dal Pannello di controllo Campaign.
+Accertati di seguire le raccomandazioni e le limitazioni riportate di seguito quando inserisci gli indirizzi IP nell’elenco Consentiti dal Pannello di controllo.
 
 * **Non abilitare l’accesso IP per tutti i tipi di accesso** se non vuoi che l’indirizzo IP si connetta ai tuoi server RT o all’area di sicurezza AEM.
 * **Se hai temporaneamente attivato l’accesso all’istanza per un indirizzo IP**, assicurati di rimuoverlo dall’elenco Consentiti una volta che non è più necessario per connettersi all’istanza.
@@ -50,12 +50,12 @@ Accertati di seguire le raccomandazioni e le limitazioni riportate di seguito qu
 
 >[!CONTEXTUALHELP]
 >id="cp_instancesettings_iprange_add"
->title="Configurazione dell&#39;intervallo IP"
+>title="Configurazione intervallo IP"
 >abstract="Definisci l’intervallo IP da aggiungere all’elenco Consentiti per collegarti all’istanza."
 
 >[!NOTE]
 >
->Se la **[!UICONTROL Instance Settings]** la scheda non è visibile sulla home page del Pannello di controllo Campaign, questo significa che il tuo [ID organizzazione](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=it) non è associato ad alcuna istanza di Adobe Campaign v7/v8.
+>Se il **[!UICONTROL Instance Settings]** non è visibile nella home page del Pannello di controllo Campaign, il che significa che [ID organizzazione](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=it) non è associato ad alcuna istanza di Adobe Campaign v7/v8.
 
 Per aggiungere indirizzi IP all’elenco Consentiti, esegui i seguenti passaggi:
 
@@ -74,7 +74,7 @@ Per aggiungere indirizzi IP all’elenco Consentiti, esegui i seguenti passaggi:
 
    >[!NOTE]
    >
-   >CIDR (Classless Inter-Domain Routing) è il formato supportato per l’aggiunta di intervalli IP tramite l’interfaccia del Pannello di controllo Campaign. La sintassi è composta da un indirizzo IP seguito da un carattere “/” e da un numero decimale. Il formato e la sintassi sono descritti dettagliatamente in [questo articolo](https://whatismyipaddress.com/cidr).
+   >CIDR (Classless Inter-Domain Routing) è il formato supportato per l’aggiunta di intervalli IP tramite l’interfaccia del Pannello di controllo. La sintassi è composta da un indirizzo IP seguito da un carattere “/” e da un numero decimale. Il formato e la sintassi sono descritti dettagliatamente in [questo articolo](https://whatismyipaddress.com/cidr).
    >
    >Puoi cercare su Internet strumenti online gratuiti che ti aiuteranno a convertire gli intervalli IP che hai a disposizione in formato CIDR.
 
@@ -84,13 +84,13 @@ Per aggiungere indirizzi IP all’elenco Consentiti, esegui i seguenti passaggi:
 
 1. Specifica il tipo di accesso che desideri concedere agli indirizzi IP:
 
-   * **[!UICONTROL Campaign Console Access]**: Gli indirizzi IP saranno autorizzati a connettersi alla console client di Campaign. L’accesso alla console è abilitato solo per le istanze Marketing. L’accesso all’istanza MID e RT non è consentito e pertanto non è abilitato.
+   * **[!UICONTROL Campaign Console Access]**: gli indirizzi IP saranno autorizzati a connettersi alla console client di Campaign. L’accesso alla console è abilitato solo per le istanze Marketing. L’accesso all’istanza MID e RT non è consentito e pertanto non è abilitato.
    * **[!UICONTROL AEM connection]**: gli indirizzi IP AEM specificati saranno autorizzati a connettersi all’istanza Marketing.
    * **[!UICONTROL External API connection]**: le API esterne con gli indirizzi IP specificati saranno autorizzate a connettersi all’istanza Marketing e/o Message Center (Centro messaggi) (RT). La connessione delle istanze RT alla console non è abilitata.
 
    >[!NOTE]
    >
-   >Se utilizzi un’istanza con un modello di hosting ibrido, potrai aggiungere solo indirizzi IP in &quot;Connessione API esterna&quot; per le istanze MID e RT.
+   >Se utilizzi un’istanza con un modello di hosting ibrido, potrai aggiungere solo indirizzi IP in &quot;External API Connection&quot; per le istanze MID e RT.
 
    ![](assets/ip_whitelist_acesstype.png)
 
@@ -100,7 +100,7 @@ Per aggiungere indirizzi IP all’elenco Consentiti, esegui i seguenti passaggi:
 
 Per impostazione predefinita, l’istanza di Adobe Campaign non è accessibile da vari indirizzi IP.
 
-Per eliminare uno o più intervalli IP dall’elenco consentiti, selezionali, quindi fai clic sul pulsante **[!UICONTROL Delete IP range]** pulsante .
+Per eliminare uno o più intervalli IP dall’elenco consentiti, selezionali, quindi fai clic su **[!UICONTROL Delete IP range]** pulsante.
 
 ![](assets/ip_whitelist_delete.png)
 

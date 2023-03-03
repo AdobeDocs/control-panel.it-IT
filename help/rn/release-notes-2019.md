@@ -1,6 +1,6 @@
 ---
 title: Note sulla versione 2019
-description: In questa pagina sono elencate tutte le versioni del Pannello di controllo Campaign del 2019.
+description: In questa pagina sono elencate tutte le versioni del Pannello di controllo del 2019.
 exl-id: bb796bef-1a2b-4f2e-848e-ad682c6c7ea0
 source-git-commit: 9be5a3ae48dccf74f509aa95fee29bbfdafddcdf
 workflow-type: tm+mt
@@ -26,6 +26,6 @@ Inoltre, gli utenti amministratori possono ora eliminare le chiavi SSH aggiunte 
 
 ## Luglio 2019 {#july-2019}
 
-Sono state aggiunte nuove funzioni per consentire agli utenti amministratori di avere un maggiore controllo sulle impostazioni delle istanze di Campaign v7/v8. Le nuove funzionalità del Pannello di controllo Campaign includono la possibilità di aggiungere URL a cui Adobe Campaign si collega per il trasferimento di dati/file.
+Sono state aggiunte nuove funzioni per consentire agli utenti amministratori di avere un maggiore controllo sulle impostazioni delle istanze di Campaign v7/v8. Le nuove funzionalità del Pannello di controllo includono la possibilità di aggiungere URL a cui Adobe Campaign si collega per il trasferimento di dati/file.
 
 Per ulteriori informazioni, consulta la [documentazione dettagliata](../instances-settings/using/url-permissions.md).
