@@ -9,7 +9,7 @@ level: Beginner
 source-git-commit: a62bf4913a97c12ab282709d06c9a50b8b503d8d
 workflow-type: tm+mt
 source-wordcount: '160'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 94%
 + Note sulla versione {#release-notes}
    + [Ultima versione](rn/release-notes.md)
    + Versioni precedenti {#previous-releases}
-      + [Note sulle versioni 2023](rn/release-notes-2023.md)
+      + [Note sulla versione 2023](rn/release-notes-2023.md)
       + [Note sulla versione 2022](rn/release-notes-2022.md)
       + [Note sulla versione 2021](rn/release-notes-2021.md)
       + [Note sulla versione 2020](rn/release-notes-2020.md)
@@ -45,7 +45,7 @@ ht-degree: 94%
    + [Configurare un nuovo sottodominio](subdomains-certificates/using/setting-up-new-subdomain.md)
    + [Rimuovi la delega dei sottodomini ad Adobe](subdomains-certificates/using/remove-delegated-subdomains.md)
    + [Gestire i record TXT](subdomains-certificates/using/managing-txt-records.md)
-   + Gestire i certificati SSL {#manage-certificates}
+   + Gestisci i certificati SSL {#manage-certificates}
       + [Monitorare i certificati SSL](subdomains-certificates/using/monitoring-ssl-certificates.md)
       + [Rinnovare i certificati SSL](subdomains-certificates/using/renewing-subdomain-certificate.md)
       + [Generare la CSR](subdomains-certificates/using/generate-csr.md)

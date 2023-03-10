@@ -8,7 +8,7 @@ exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab
 source-git-commit: d0ba7f99eefd565ffa52dbe22771df0cd5438899
 workflow-type: tm+mt
 source-wordcount: '236'
-ht-degree: 73%
+ht-degree: 100%
 
 ---
 
@@ -26,13 +26,13 @@ Il Pannello di controllo Campaign ti aiuta ad amministrare Campaign Standard e v
 
 ## Novità
 
-**Rimozione della delega per i sottodomini delegata all’Adobe**
+**Rimozione della delega per i sottodomini delegati ad Adobe**
 
 Ora puoi rimuovere la delega di un sottodominio che è stato delegato ad Adobe, inclusa la configurazione del CNAME. [Ulteriori informazioni](../help/subdomains-certificates/using/remove-delegated-subdomains.md)
 
-**Calendario dei servizi**
+**Calendario del servizio**
 
-Service Calendar (Calendario dei servizi) ora fornisce una vista calendario per tenere traccia di eventi importanti che si verificano sulle istanze. Sono state inoltre aggiunte informazioni sulle notifiche inviate agli utenti abbonati agli avvisi di Pannello di controllo Campaign. [Ulteriori informazioni](../help/service-events/service-events.md)
+Il calendario del servizio ora fornisce una vista calendario per tenere traccia di eventi importanti che si verificano sulle istanze. Sono state inoltre aggiunte informazioni sulle notifiche inviate agli utenti abbonati agli avvisi del Pannello di controllo. [Ulteriori informazioni](../help/service-events/service-events.md)
 
 >[!CAUTION]
 >
