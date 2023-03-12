@@ -5,7 +5,7 @@ exl-id: 13aceffb-ceaa-4cfe-8741-95d66c5c6caa
 source-git-commit: 349eb8778a19263b83b70b8c920c401aff7fa24a
 workflow-type: tm+mt
 source-wordcount: '105'
-ht-degree: 30%
+ht-degree: 100%
 
 ---
 
@@ -15,7 +15,7 @@ Questa pagina elenca le nuove funzionalità e i miglioramenti introdotti in Pann
 
 ## Febbraio 2023 {#february-2023}
 
-**Rimozione della delega per i sottodomini delegata all’Adobe**
+**Rimozione della delega per i sottodomini delegati ad Adobe**
 
 Ora puoi rimuovere la delega di un sottodominio completamente delegato ad Adobe. [Ulteriori informazioni](../subdomains-certificates/using/remove-delegated-subdomains.md)
 
@@ -25,8 +25,8 @@ Ora puoi rimuovere la delega di un sottodominio completamente delegato ad Adobe.
 >
 >La rimozione della delega non è attualmente disponibile per i sottodomini impostati tramite CNAME.
 
-**Calendario dei servizi**
+**Calendario del servizio**
 
-Service Calendar (Calendario dei servizi) ora fornisce una vista calendario per tenere traccia di eventi importanti che si verificano sulle istanze. Sono state inoltre aggiunte informazioni sulle notifiche inviate agli utenti abbonati agli avvisi di Pannello di controllo Campaign. [Ulteriori informazioni](../service-events/service-events.md)
+Il calendario del servizio ora fornisce una vista calendario per tenere traccia di eventi importanti che si verificano sulle istanze. Sono state inoltre aggiunte informazioni sulle notifiche inviate agli utenti abbonati agli avvisi del Pannello di controllo. [Ulteriori informazioni](../service-events/service-events.md)
 
 ![](assets/do-not-localize/gif-calendar.gif)
