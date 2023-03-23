@@ -86,7 +86,7 @@ Per delegare completamente un sottodominio ad Adobe Campaign, effettua le seguen
 
 1. Una volta creato il sottodominio con le informazioni corrispondenti del server dei nomi Adobe, fai clic su **[!UICONTROL Next]**.
 
-1. Se hai selezionato un’istanza di Campaign v7/v8, seleziona il caso d’uso desiderato per il sottodominio: **Comunicazioni di marketing** o **Comunicazioni operative e transazionali**. I concetti globali sui casi di utilizzo dei sottodomini sono descritti in [questa sezione](../../subdomains-certificates/using/subdomains-branding.md#about-subdomains-use-cases).
+1. Se hai selezionato un’istanza Campaign v7/v8, seleziona il caso d’uso desiderato per il sottodominio: **Comunicazioni di marketing** o **Comunicazioni operative e transazionali**. I concetti globali sui casi di utilizzo dei sottodomini sono descritti in [questa sezione](../../subdomains-certificates/using/subdomains-branding.md#about-subdomains-use-cases).
 
    ![](assets/subdomain5.png)
 
@@ -130,7 +130,7 @@ Per configurare un sottodominio utilizzando i CNAME, segui i passaggi riportati 
 
    ![](assets/cname-method-selection.png)
 
-1. Se hai selezionato un’istanza di Campaign v7/v8, seleziona il caso d’uso desiderato per il sottodominio: **Comunicazioni di marketing** o **Comunicazioni operative e transazionali**. I concetti globali sui casi di utilizzo dei sottodomini sono descritti in [questa sezione](../../subdomains-certificates/using/subdomains-branding.md#about-subdomains-use-cases).
+1. Se hai selezionato un’istanza Campaign v7/v8, seleziona il caso d’uso desiderato per il sottodominio: **Comunicazioni di marketing** o **Comunicazioni operative e transazionali**. I concetti globali sui casi di utilizzo dei sottodomini sono descritti in [questa sezione](../../subdomains-certificates/using/subdomains-branding.md#about-subdomains-use-cases).
 
    ![](assets/cname-use-case.png)
 
@@ -162,7 +162,7 @@ Una volta inviato il sottodominio, il Pannello di controllo eseguirà vari contr
 
    >[!NOTE]
    >
-   >Durante l’esecuzione della configurazione di un sottodominio, altre richieste di Pannello di controllo Campaign verranno inserite in una coda ed eseguite solo al termine della configurazione del sottodominio, per evitare problemi di prestazioni.
+   >Durante l’esecuzione della configurazione del sottodominio, altre richieste di Pannello di controllo Campaign verranno inserite in una coda ed eseguite solo al termine della configurazione del sottodominio, per evitare problemi di prestazioni.
 
 1. Se i controlli hanno esito positivo, il Pannello di controllo avvia la configurazione del sottodominio con record DNS, URL aggiuntivi, caselle in entrata e così via.
 
@@ -178,7 +178,7 @@ Una volta inviato il sottodominio, il Pannello di controllo eseguirà vari contr
    >
    >I controlli di consegna eseguiti includono test di cicli di feedback e cicli di reclamo per posta indesiderata. Sconsigliamo quindi di utilizzare il sottodominio prima che l’audit sia stato completato, in quanto potrebbe portare a una cattiva reputazione del sottodominio.
    >
-   >Tuttavia, tieni presente che puoi eseguire operazioni relative ai certificati SSL sul tuo sottodominio, anche se l’audit del recapito messaggi è ancora in elaborazione.
+   >Tuttavia, puoi eseguire operazioni relative ai certificati SSL nel sottodominio, anche se il controllo del recapito messaggi è ancora in elaborazione.
 
 1. Al termine del processo, i sottodomini saranno configurati per lavorare con l’istanza Adobe Campaign e verranno creati gli elementi seguenti:
 

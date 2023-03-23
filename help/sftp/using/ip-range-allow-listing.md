@@ -22,7 +22,7 @@ ht-degree: 38%
 >abstract="In questa scheda puoi aggiungere intervalli IP all’elenco Consentiti per stabilire una connessione ai server SFTP. Solo i server SFTP a cui hai accesso sono visualizzati qui. Contatta l’amministratore per richiedere l’accesso ad altri server SFTP."
 >additional-url="https://images-tv.adobe.com/mpcv3/8a977e03-d76c-44d3-853c-95d0b799c870_1560205338.1920x1080at3000_h264.mp4#t=98" text="Guarda il video dimostrativo"
 
-I server SFTP sono protetti. Per potervi accedere e visualizzare i file o scriverne di nuovi, è necessario aggiungere all&#39;elenco consentiti l&#39;indirizzo IP pubblico del sistema o del client che accede ai server.
+I server SFTP sono protetti. Per potervi accedere per visualizzare i file o scriverne di nuovi, devi aggiungere all’elenco consentiti l’indirizzo IP pubblico del sistema o del client che accede ai server.
 
 ![](assets/do-not-localize/how-to-video.png) Scopri questa funzione nel video per [Campaign v7/v8](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/sftp-management/adding-ip-range-to-allow-list.html#sftp-management) o [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/sftp-management/adding-ip-range-to-allow-list.html#sftp-management)
 
@@ -32,7 +32,7 @@ CIDR (Classless Inter-Domain Routing) è il formato supportato per l’aggiunta 
 
 La sintassi è composta da un indirizzo IP seguito da un carattere “/” e da un numero decimale. Il formato e la sintassi sono descritti dettagliatamente in [questo articolo](https://whatismyipaddress.com/cidr){target="_blank"}.
 
-Puoi cercare su Internet strumenti online gratuiti che ti aiuteranno a convertire l’intervallo IP che hai a disposizione in formato CIDR.
+È possibile cercare su Internet strumenti online gratuiti che ti aiuteranno a convertire l&#39;intervallo IP in formato CIDR.
 
 ## Best practice {#best-practices}
 
@@ -41,13 +41,13 @@ Accertati di seguire le raccomandazioni e le limitazioni riportate di seguito qu
 * **Aggiungere intervalli IP all’elenco Consentiti** anziché indirizzi IP singoli. Per inserire un indirizzo IP singolo nell’elenco Consentiti, aggiungi “/32” per indicare che l’intervallo include un solo IP.
 * **Non aggiungere intervalli eccessivamente ampi all’elenco Consentiti**, ad esempio intervalli che includono > 265 indirizzi IP. Il Pannello di controllo rifiuterà qualsiasi intervallo in formato CIDR compreso tra /0 e /23.
 * Solo gli **indirizzi IP pubblici** possono essere aggiunti all’elenco Consentiti.
-* Assicurati di **eliminare regolarmente gli indirizzi IP** di cui non hai più bisogno dall’elenco consentiti.
+* Assicurati di **eliminare regolarmente gli indirizzi IP** che non ti serve più dall&#39;elenco consentiti.
 
 ## Aggiungere indirizzi IP all’elenco Consentiti {#adding-ip-addresses-allow-list}
 
 >[!CONTEXTUALHELP]
 >id="cp_sftp_iprange_add"
->title="Configurazione intervallo IP"
+>title="Configurazione dell&#39;intervallo IP"
 >abstract="Definisci gli intervalli IP che desideri aggiungere all’elenco Consentiti per la connessione ai server SFTP."
 
 Per aggiungere un intervallo IP all’elenco Consentiti, esegui questi passaggi:
@@ -69,91 +69,91 @@ Per aggiungere un intervallo IP all’elenco Consentiti, esegui questi passaggi:
 
    ![](assets/control_panel_add_range3.png)
 
-1. Definisci l’etichetta che verrà visualizzata per questo intervallo IP nell’elenco.
+1. Definisci l’etichetta da visualizzare per questo intervallo IP nell’elenco.
 
    ![](assets/control_panel_add_range2.png)
 
    >[!NOTE]
    >
-   >I seguenti caratteri speciali sono consentiti nel **[!UICONTROL Label]** campo:
+   >I seguenti caratteri speciali sono consentiti nella variabile **[!UICONTROL Label]** campo:
    > `. _ - : / ( ) # , @ [ ] + = & ; { } ! $`
 
-1. Per gestire meglio l’elenco consentiti IP, puoi impostare una durata per la disponibilità di ciascun intervallo IP. A tale scopo, selezionare un&#39;unità nella **[!UICONTROL Type]** e definire una durata nel campo corrispondente. Per ulteriori informazioni sulla scadenza dell’intervallo IP, consulta [questa sezione](#expiry).
+1. Per gestire meglio il tuo elenco consentiti IP, puoi impostare una durata per la disponibilità di ogni intervallo IP. A questo scopo, seleziona un’unità nella **[!UICONTROL Type]** elenco a discesa e definire una durata nel campo corrispondente. Per ulteriori informazioni sulla scadenza dell’intervallo IP, consulta [questa sezione](#expiry).
 
    ![](assets/control_panel_add_range5.png)
 
    >[!NOTE]
    >
-   >Per impostazione predefinita, il **[!UICONTROL Type]** è impostato su **[!UICONTROL Unlimited]**, il che significa che l’intervallo IP non scade mai.
+   >Per impostazione predefinita, la **[!UICONTROL Type]** campo impostato su **[!UICONTROL Unlimited]**, il che significa che l’intervallo IP non scade mai.
 
-1. In **[!UICONTROL Comment]** , è possibile indicare un motivo per l’autorizzazione di questo intervallo IP (perché, per chi, ecc.).
+1. In **[!UICONTROL Comment]** campo , puoi indicare un motivo per consentire questo intervallo IP (perché, per chi, ecc.).
 
-1. Fai clic sul pulsante **[!UICONTROL Save]**. L’aggiunta dell’intervallo IP all’elenco consentiti viene visualizzata come **[!UICONTROL Pending]** fino a quando la richiesta non è completamente elaborata, operazione che dovrebbe richiedere solo alcuni secondi.
+1. Fai clic sul pulsante **[!UICONTROL Save]**. L’intervallo IP aggiunto all’elenco consentiti verrà visualizzato come **[!UICONTROL Pending]** fino a quando la richiesta non viene completamente elaborata, il che dovrebbe richiedere solo pochi secondi.
 
    ![](assets/control_panel_add_range6.png)
 
 >[!IMPORTANT]
 >
->Se stai tentando di collegare i server SFTP a un nuovo sistema e quindi di aggiungere nuovi intervalli IP all’elenco consentiti, potrebbe essere necessario immettere nuove chiavi pubbliche per completare la connessione. Per ulteriori informazioni, consulta [questa sezione](key-management.md).
+>Se tenti di collegare i server SFTP a un nuovo sistema e quindi aggiungi nuovi intervalli IP all’elenco consentiti, potrebbe essere necessario immettere nuove chiavi pubbliche per completare la connessione. Per ulteriori informazioni, consulta [questa sezione](key-management.md).
 
 ## Gestione degli intervalli IP {#managing-ip-ranges}
 
-Gli intervalli IP creati vengono visualizzati in **[!UICONTROL IP Allow Listing]** scheda.
+Gli intervalli IP creati vengono visualizzati nel **[!UICONTROL IP Allow Listing]** scheda .
 
-Puoi ordinare gli elementi in base alla data di creazione o di edizione, all’utente che li ha creati o modificati e alla scadenza dell’intervallo IP.
+Puoi ordinare gli elementi in base alla data di creazione o di modifica, all’utente che lo ha creato o modificato e alla scadenza dell’intervallo IP.
 
-È inoltre possibile eseguire ricerche in un intervallo IP iniziando a digitare un&#39;etichetta, un intervallo, un nome o un commento.
+Puoi anche eseguire la ricerca in un intervallo IP iniziando a digitare un’etichetta, un intervallo, un nome o un commento.
 
 ![](assets/control_panel_allow_list_sort.png)
 
-Per modificare uno o più intervalli IP, consulta [questa sezione](#editing-ip-ranges).
+Per modificare uno o più intervalli IP, vedi [questa sezione](#editing-ip-ranges).
 
-Per eliminare uno o più intervalli IP dall’elenco consentiti, selezionali, quindi fai clic su **[!UICONTROL Delete IP range]** pulsante.
+Per eliminare uno o più intervalli IP dall’elenco consentiti, selezionali, quindi fai clic sul pulsante **[!UICONTROL Delete IP range]** pulsante .
 
 ![](assets/control_panel_delete_range.png)
 
 ### Scadenza {#expiry}
 
-Il **[!UICONTROL Expires]** mostra quanti giorni rimangono prima della scadenza dell’intervallo IP.
+La **[!UICONTROL Expires]** mostra quanti giorni rimangono fino alla scadenza dell’intervallo IP.
 
-Se ti sei iscritto a [avvisi e-mail](../../performance-monitoring/using/email-alerting.md), riceverai notifiche via e-mail 10 giorni e 5 giorni prima della scadenza di un intervallo IP e il giorno della scadenza. Dopo aver ricevuto l’avviso, puoi [modificare l’intervallo IP](#editing-ip-ranges) di prorogarne il periodo di validità, se necessario.
+Se hai effettuato la sottoscrizione a [avvisi e-mail](../../performance-monitoring/using/email-alerting.md), riceverai notifiche via e-mail 10 giorni e 5 giorni prima della scadenza di un intervallo IP e il giorno in cui scade. Dopo aver ricevuto l&#39;avviso, puoi [modifica dell’intervallo IP](#editing-ip-ranges) di prorogare, se necessario, il periodo di validità.
 
-Un intervallo IP scaduto verrà eliminato automaticamente dopo 7 giorni. Viene visualizzato come **[!UICONTROL Expired]** nel **[!UICONTROL Expires]** colonna. Entro questo periodo di 7 giorni:
+Un intervallo IP scaduto verrà eliminato automaticamente dopo 7 giorni. Viene visualizzato come **[!UICONTROL Expired]** in **[!UICONTROL Expires]** colonna. Entro questo periodo di 7 giorni:
 
 * Non è più possibile utilizzare un intervallo IP scaduto per accedere ai server SFTP.
 
-* Non puoi creare un altro intervallo IP che si sovrappone a un intervallo scaduto. Elimina l’intervallo IP scaduto prima di crearne uno nuovo.
+* Non puoi creare un altro intervallo IP che si sovrappone a un intervallo scaduto. Prima di creare il nuovo intervallo, devi prima eliminare l’intervallo IP scaduto.
 
 * È possibile [modifica](#editing-ip-ranges) un intervallo IP scaduto e aggiornarne la durata per renderlo nuovamente disponibile.
 
-* Puoi eliminarlo dall’elenco consentiti.
+* È possibile eliminarlo dall’elenco consentiti.
 
-## Modifica degli intervalli IP {#editing-ip-ranges}
+## Modifica di intervalli IP {#editing-ip-ranges}
 
 >[!CONTEXTUALHELP]
 >id="cp_sftp_iprange_update"
->title="Aggiornare gli intervalli IP"
+>title="Aggiorna intervalli IP"
 >abstract="Aggiorna gli intervalli IP selezionati consentiti per la connessione al server SFTP."
 
 Per modificare gli intervalli IP, effettua le seguenti operazioni.
 
 >[!NOTE]
 >
->Puoi modificare solo gli intervalli IP creati dal rilascio Pannello di controllo Campaign di ottobre 2021.
+>Puoi modificare solo gli intervalli IP creati a partire dalla versione di ottobre 2021 del Pannello di controllo Campaign.
 
 <!--Edition is not available for IP ranges that have been created before the Control Panel October 2021 release.-->
 
-1. Seleziona uno o più intervalli IP dall’ **[!UICONTROL IP Allow Listing]** elenco.
+1. Seleziona uno o più intervalli IP dal **[!UICONTROL IP Allow Listing]** elenco.
 
 1. Fai clic sul pulsante **[!UICONTROL Update IP range]**.
 
    ![](assets/control_panel_edit_range.png)
 
-1. Puoi modificare la scadenza dell’intervallo IP e/o aggiungere un nuovo commento.
+1. Puoi solo modificare la scadenza dell’intervallo IP e/o aggiungere un nuovo commento.
 
    >[!NOTE]
    >
-   >Per modificare il formato CIDR, la relativa etichetta o le istanze correlate, devi prima eliminare l’intervallo IP e crearne uno nuovo che corrisponda alle tue esigenze.
+   >Per modificare il formato CIDR, la relativa etichetta o le istanze correlate, devi prima eliminare l’intervallo IP e crearne uno nuovo corrispondente alle tue esigenze.
 
    ![](assets/control_panel_edit_range2.png)
 
@@ -161,7 +161,7 @@ Per modificare gli intervalli IP, effettua le seguenti operazioni.
 
 ## Monitoraggio delle modifiche {#monitoring-changes}
 
-Il **[!UICONTROL Job Logs]** nella home page del Pannello di controllo Campaign consente di monitorare tutte le modifiche apportate agli indirizzi IP nell’elenco consentiti.
+La **[!UICONTROL Job Logs]** nella home page del Pannello di controllo Campaign puoi monitorare e monitorare tutte le modifiche apportate agli indirizzi IP nell’elenco consentiti.
 
 Per ulteriori informazioni sull’interfaccia del Pannello di controllo, consulta [questa sezione](../../discover/using/discovering-the-interface.md).
 
