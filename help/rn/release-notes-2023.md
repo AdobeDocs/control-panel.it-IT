@@ -1,14 +1,20 @@
 ---
 title: Note sulla versione 2023
 description: In questa pagina sono elencate tutte le versioni del Pannello di controllo del 2023.
-source-git-commit: a62bf4913a97c12ab282709d06c9a50b8b503d8d
+source-git-commit: cca897c84f5b4db9233931086c1befc5719666b9
 workflow-type: tm+mt
-source-wordcount: '56'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # Note sulla versione 2023 {#rn-2023}
+
+## Marzo 2023 {#march-2023}
+
+**Rimozione della delega del sottodominio per i CNAME**
+
+Ora puoi rimuovere la delega dei sottodomini configurati utilizzando i CNAME. [Ulteriori informazioni](../subdomains-certificates/using/remove-delegated-subdomains.md)
 
 ## Gennaio 2023 {#january-2023}
 
