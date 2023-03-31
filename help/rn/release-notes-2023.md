@@ -2,9 +2,9 @@
 title: Note sulla versione 2023
 description: In questa pagina sono elencate tutte le versioni del Pannello di controllo del 2023.
 source-git-commit: 83138e63558125757259849064552904594e2e0b
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '134'
+ht-degree: 100%
 
 ---
 
