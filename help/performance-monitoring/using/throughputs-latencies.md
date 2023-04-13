@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: eddef17f-0667-4b43-bc56-2b1aeeae61bb
-source-git-commit: e0eb0bba95bcd02fef8f9bac4e9605711d3a9c30
+source-git-commit: ea738ea3764e4651e0eb7b4bcc68a9f7b3c8d1e5
 workflow-type: tm+mt
-source-wordcount: '424'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -46,7 +46,7 @@ Puoi anche visualizzare queste informazioni in formato tabulare con colonne ordi
 
 ![](assets/throughput-latencies-table.png)
 
-## Monitorare la velocità effettiva {#throughput}
+## Velocità effettiva del monitor {#throughput}
 
 L’area **[!UICONTROL Throughput]** fornisce informazioni sul numero di messaggi inviati all’ora dall’istanza di Campaign selezionata, per tutti i canali di comunicazione a cui hai diritto.
 
