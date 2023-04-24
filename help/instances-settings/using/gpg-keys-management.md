@@ -10,7 +10,7 @@ exl-id: 366dd2ea-c6be-41a2-a4d6-4ffecb5f3d39
 source-git-commit: 5d2f0d08b7f9ae78fecfaa169190d6248ec4505b
 workflow-type: tm+mt
 source-wordcount: '1189'
-ht-degree: 9%
+ht-degree: 12%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 9%
 >[!CONTEXTUALHELP]
 >id="cp_instancesettings_gpg_management"
 >title="Informazioni sulle chiavi GPG"
->abstract="In questa scheda, puoi installare e/o generare chiavi GPG in un’istanza di marketing per crittografare i dati inviati da Campaign e decrittografare i dati in arrivo."
+>abstract="In questa scheda puoi installare e/o generare chiavi GPG su un’istanza marketing per crittografare i dati inviati da Campaign e decrittografare i dati in arrivo."
 >additional-url="https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html?lang=it" text="Informazioni sul monitoraggio delle prestazioni"
 
 ## Informazioni sulla crittografia GPG {#about-gpg-encryption}

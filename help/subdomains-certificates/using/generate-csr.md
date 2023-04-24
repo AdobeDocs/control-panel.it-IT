@@ -18,7 +18,7 @@ ht-degree: 59%
 
 >[!CONTEXTUALHELP]
 >id="cp_generate_csr"
->title="Generazione CSR"
+>title="Generazione di CSR"
 >abstract="La richiesta di firma del certificato (CSR, Certificate Signing Request) deve essere generata per l’istanza e i sottodomini che intendi proteggere prima di acquistare un certificato."
 
 >[!CONTEXTUALHELP]

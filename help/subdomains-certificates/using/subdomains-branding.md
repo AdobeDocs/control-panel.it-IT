@@ -10,7 +10,7 @@ exl-id: a489d051-fb95-45cf-bb6d-33aef10b7795
 source-git-commit: f1f6388bd32927cb13359f8975748ca4a158e660
 workflow-type: tm+mt
 source-wordcount: '729'
-ht-degree: 75%
+ht-degree: 78%
 
 ---
 
@@ -57,7 +57,7 @@ Se hai domande sui metodi di configurazione dei sottodomini, rivolgiti al team d
 >[!CONTEXTUALHELP]
 >id="cp_add_subdomain_usecase_selection"
 >title="Seleziona il caso d’uso per il sottodominio"
->abstract="Suddividere i sottodomini per casi d’uso è una best practice per il recapito di messaggi. In questo modo, la reputazione di ciascun sottodominio è isolata e protetta."
+>abstract="Il raggruppamento dei sottodomini per casi d’uso è una best practice a supporto della recapitabilità. In questo modo, la reputazione di ciascun sottodominio è isolata e protetta."
 >additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=it" text="Configurazione di un nuovo sottodominio"
 >additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html?lang=it" text="Branding dei sottodomini"
 

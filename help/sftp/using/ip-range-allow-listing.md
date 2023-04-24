@@ -10,7 +10,7 @@ exl-id: 45a3bfcd-500c-4139-b610-d39989260ab7
 source-git-commit: c1c80c03a351613ec0c6870a11ab39a634e8eab7
 workflow-type: tm+mt
 source-wordcount: '1048'
-ht-degree: 38%
+ht-degree: 40%
 
 ---
 
@@ -47,7 +47,7 @@ Accertati di seguire le raccomandazioni e le limitazioni riportate di seguito qu
 
 >[!CONTEXTUALHELP]
 >id="cp_sftp_iprange_add"
->title="Configurazione dell&#39;intervallo IP"
+>title="Configurazione dell’intervallo IP"
 >abstract="Definisci gli intervalli IP che desideri aggiungere all’elenco Consentiti per la connessione ai server SFTP."
 
 Per aggiungere un intervallo IP all’elenco Consentiti, esegui questi passaggi:
@@ -132,7 +132,7 @@ Un intervallo IP scaduto verrà eliminato automaticamente dopo 7 giorni. Viene v
 
 >[!CONTEXTUALHELP]
 >id="cp_sftp_iprange_update"
->title="Aggiorna intervalli IP"
+>title="Aggiornare gli intervalli IP"
 >abstract="Aggiorna gli intervalli IP selezionati consentiti per la connessione al server SFTP."
 
 Per modificare gli intervalli IP, effettua le seguenti operazioni.

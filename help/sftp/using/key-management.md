@@ -10,7 +10,7 @@ exl-id: 03815e01-6371-4e1c-b4b8-7abe25957cee
 source-git-commit: c1c80c03a351613ec0c6870a11ab39a634e8eab7
 workflow-type: tm+mt
 source-wordcount: '1054'
-ht-degree: 36%
+ht-degree: 41%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 36%
 >[!CONTEXTUALHELP]
 >id="cp_key_management"
 >title="Informazioni sulla gestione delle chiavi pubbliche"
->abstract="In questa scheda, crea, gestisci e modifica le tue chiavi pubbliche."
+>abstract="In questa scheda puoi creare, gestire e modificare le tue chiavi pubbliche."
 >additional-url="https://images-tv.adobe.com/mpcv3/8a977e03-d76c-44d3-853c-95d0b799c870_1560205338.1920x1080at3000_h264.mp4#t=166" text="Guarda il video dimostrativo"
 
 Adobe consiglia a tutti i clienti di stabilire una connessione ai propri server SFTP con una **coppia di chiavi pubblica e privata**.
@@ -48,8 +48,8 @@ In rari casi, l’autenticazione basata su password è abilitata su alcuni serve
 
 >[!CONTEXTUALHELP]
 >id="cp_sftp_publickey_add"
->title="Aggiunta a chiave pubblica"
->abstract="Genera una chiave SSH pubblica per un’istanza e aggiungilo al Pannello di controllo Campaign per accedere al server SFTP."
+>title="Aggiunta di una chiave pubblica"
+>abstract="Genera una chiave SSH pubblica per un’istanza e aggiungila al Pannello di controllo per accedere al server SFTP."
 
 >[!IMPORTANT]
 >
@@ -149,7 +149,7 @@ Una chiave pubblica scaduta verrà eliminata automaticamente dopo 7 giorni. Vien
 
 >[!CONTEXTUALHELP]
 >id="cp_sftp_publickey_update"
->title="Modifica chiavi pubbliche"
+>title="Modificare le chiavi pubbliche"
 >abstract="Aggiorna le chiavi pubbliche selezionate per accedere al server SFTP."
 
 Per modificare le chiavi pubbliche, segui i passaggi seguenti.

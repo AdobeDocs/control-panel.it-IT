@@ -50,7 +50,7 @@ Accertati di seguire le raccomandazioni e le limitazioni riportate di seguito qu
 
 >[!CONTEXTUALHELP]
 >id="cp_instancesettings_iprange_add"
->title="Configurazione dell&#39;intervallo IP"
+>title="Configurazione dell’intervallo IP"
 >abstract="Definisci l’intervallo IP da aggiungere all’elenco Consentiti per collegarti all’istanza."
 
 >[!NOTE]

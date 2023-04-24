@@ -10,7 +10,7 @@ exl-id: a157cc27-577f-490f-8c4f-0f203219cfb5
 source-git-commit: c1c80c03a351613ec0c6870a11ab39a634e8eab7
 workflow-type: tm+mt
 source-wordcount: '397'
-ht-degree: 80%
+ht-degree: 87%
 
 ---
 
@@ -39,7 +39,7 @@ Per ulteriori informazioni sui profili attivi, consulta [Campaign Standard](http
 >[!CONTEXTUALHELP]
 >id="cp_performancemonitoring_active_profile"
 >title="Informazioni sul monitoraggio dei profili attivi"
->abstract="In questa scheda, puoi ottenere informazioni in tempo reale sull’utilizzo e l’evoluzione dei profili attivi più recenti e storici per ciascuna delle istanze Campaign."
+>abstract="In questa scheda, puoi ottenere informazioni in tempo reale con dati attuali e storici sull’utilizzo e l’evoluzione dei profili attivi per ciascuna istanza di Campaign."
 >additional-url="https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html?lang=it" text="Informazioni sul monitoraggio delle prestazioni"
 
 Il Pannello di controllo consente di monitorare l’utilizzo dei profili attivi per ciascuna istanza di Campaign.
