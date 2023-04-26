@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Intermediate
 exl-id: ff64acbe-d8cb-499b-b20f-b0934fb0f695
-source-git-commit: 803068a1f6dec68afba11a4ea49edae1eafcedd5
+source-git-commit: 96d18b56f70a6a8bf0270a5c94f5ba16923d0e9f
 workflow-type: tm+mt
-source-wordcount: '463'
-ht-degree: 100%
+source-wordcount: '555'
+ht-degree: 79%
 
 ---
 
@@ -21,7 +21,10 @@ ht-degree: 100%
 >title="Account esterni"
 >abstract="In questa schermata, i clienti con modello di hosting ibrido possono fornire l’URL dell’istanza MID/RT configurato nell’istanza marketing del Pannello di controllo, al fine di sfruttarne le funzionalità."
 
-Il Pannello di controllo consente ai clienti con un modello di hosting ibrido di sfruttarne le funzionalità specifiche. A questo scopo, è necessario fornire l’URL dell’istanza MID/RT configurato nell’istanza marketing nel Pannello di controllo.
+Il Pannello di controllo consente ai clienti con un modello di hosting ibrido di sfruttarne le funzionalità specifiche. A questo scopo, devi:
+
+* [Fornisci l’URL dell’istanza MID/RT](#add) configurato nella tua istanza di marketing nel Pannello di controllo Campaign,
+* [Aggiungi l’indirizzo IP dell’istanza MID/RT all’elenco consentiti](#ip) per consentire all’istanza di marketing di connettersi ad essa.
 
 Per ulteriori informazioni sui modelli di hosting, consulta la [documentazione di Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=it).
 
@@ -85,6 +88,14 @@ Puoi rimuovere o disattivare l’URL di un’istanza MID/RT in qualsiasi momento
 Inoltre puoi monitorare qualsiasi azione eseguita nella scheda **[!UICONTROL External Accounts]** sull’URL di un’istanza MID/RT da **[!UICONTROL Job Logs]**:
 
 ![](assets/external-account-logs.png)
+
+## Aggiungi l’indirizzo IP all’elenco consentiti {#ip}
+
+Una volta aggiunta l’istanza MID/RT, devi aggiungere il suo indirizzo IP all’elenco consentiti in modo che l’istanza di marketing possa connettersi ad essa.
+
+Questa operazione può essere eseguita dal **[!UICONTROL IP Allow Listing]** nella scheda **[!UICONTROL Instances Settings]** il Card. [Scopri come aggiungere gli indirizzi IP all’elenco consentiti](ip-allow-listing-instance-access.md)
+
+Al termine della procedura, potrai utilizzare le funzionalità di Pannello di controllo Campaign con la tua istanza MID/RT.
 
 ## Funzionalità disponibili per i clienti ibridi {#capabilities}
 
