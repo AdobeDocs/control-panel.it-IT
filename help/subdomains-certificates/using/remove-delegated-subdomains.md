@@ -8,9 +8,9 @@ role: Architect
 level: Experienced
 exl-id: 517818c9-8557-49fd-b49c-b98b60e48f1c
 source-git-commit: ea738ea3764e4651e0eb7b4bcc68a9f7b3c8d1e5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '818'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -78,7 +78,7 @@ Nella tabella seguente sono elencate le azioni da eseguire a seconda del tipo di
 
 {style="table-layout:auto"}
 
-Se è necessaria una di queste azioni per rimuovere la delega, un&#39;ulteriore **[!DNL Action]** viene visualizzato il passaggio prima di confermare la rimozione della delega. In questa schermata vengono elencati i record DNS da rimuovere o aggiungere, a seconda del contesto.
+Se è necessaria una di queste azioni per rimuovere la delega, un ulteriore passaggio **[!DNL Action]** viene visualizzato prima di confermare la rimozione della delega. In questa schermata vengono elencati i record DNS da rimuovere o aggiungere, a seconda del contesto.
 
 ![](assets/action-step.png)
 
