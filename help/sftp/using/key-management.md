@@ -38,7 +38,7 @@ Assicurati di utilizzare sempre la stessa autenticazione per connetterti al serv
 
 **Integrazione API con nome utente e password**
 
-In rari casi, l’autenticazione basata su password è abilitata su alcuni server SFTP. Adobe consiglia di utilizzare l’autenticazione basata sulle chiavi, in quanto questo metodo è più efficiente e sicuro. Puoi richiedere di passare all’autenticazione basata sulle chiavi contattando l’Assistenza clienti.
+In casi molto rari, l’autenticazione basata su password è abilitata su alcuni server SFTP. L’Adobe consiglia di utilizzare l’autenticazione basata su chiave, in quanto questo metodo è più efficiente e sicuro. Puoi richiedere di passare all’autenticazione basata sulle chiavi contattando l’Assistenza clienti.
 
 >[!IMPORTANT]
 >
@@ -53,7 +53,7 @@ In rari casi, l’autenticazione basata su password è abilitata su alcuni serve
 
 >[!IMPORTANT]
 >
->Devi sempre seguire le linee guida aziendali relative alle chiavi SSH. I passaggi seguenti sono solo un esempio di come è possibile creare chiavi SSH e possono fungere da utile punto di riferimento per la comunicazione dei requisiti al tuo team o gruppo di rete interno.
+>Devi sempre seguire le linee guida della tua organizzazione per quanto riguarda le chiavi SSH. I passaggi seguenti sono solo un esempio di come si può creare una chiave SSH e possono fungere da utile punto di riferimento per la comunicazione dei requisiti al team o al gruppo di rete interno.
 
 1. Accedi alla scheda **[!UICONTROL Key Management]**, quindi fai clic sul pulsante **[!UICONTROL Add new public key]**.
 
@@ -65,21 +65,21 @@ In rari casi, l’autenticazione basata su password è abilitata su alcuni serve
 
    >[!NOTE]
    >
-   >Il Pannello di controllo Campaign controllerà se un determinato nome utente è attivo in una determinata istanza e ti consentirà di attivare la chiave in una o più istanze.
+   >Il Pannello di controllo Campaign controlla se un determinato nome utente è attivo in una determinata istanza e ti consente di attivare la chiave in una o più istanze.
    >
    >Per ogni utente è possibile aggiungere una o più chiavi SSH pubbliche.
 
-1. Per gestire meglio le chiavi pubbliche, puoi impostare una durata per la disponibilità di ogni chiave. A questo scopo, seleziona un’unità nella **[!UICONTROL Type]** elenco a discesa e definire una durata nel campo corrispondente. Per ulteriori informazioni sulla scadenza della chiave pubblica, consulta [questa sezione](#expiry).
+1. Per gestire meglio le chiavi pubbliche, puoi impostare una durata per la disponibilità di ciascuna chiave. A tale scopo, selezionare un&#39;unità nella **[!UICONTROL Type]** e definire una durata nel campo corrispondente. Per ulteriori informazioni sulla scadenza della chiave pubblica, consulta [questa sezione](#expiry).
 
    ![](assets/key_expiry.png)
 
    >[!NOTE]
    >
-   >Per impostazione predefinita, la **[!UICONTROL Type]** campo impostato su **[!UICONTROL Unlimited]**, il che significa che la chiave pubblica non scade mai.
+   >Per impostazione predefinita, il **[!UICONTROL Type]** è impostato su **[!UICONTROL Unlimited]**, il che significa che la chiave pubblica non scade mai.
 
-1. In **[!UICONTROL Comment]** è possibile indicare un motivo per aggiungere questa chiave pubblica (perché, per chi, ecc.).
+1. In **[!UICONTROL Comment]** , è possibile indicare un motivo per l&#39;aggiunta di questa chiave pubblica (perché, per chi, ecc.).
 
-1. Per riempire il **[!UICONTROL Public Key]** , devi generare una chiave SSH pubblica. Segui i passaggi riportati di seguito in base al tuo sistema operativo.
+1. Essere in grado di compilare il **[!UICONTROL Public Key]** generare una chiave SSH pubblica. Seguire le istruzioni riportate di seguito in base al sistema operativo in uso.
 
    **Linux e Mac:**
 
@@ -91,7 +91,7 @@ In rari casi, l’autenticazione basata su password è abilitata su alcuni serve
 
    **Windows:**
 
-   Potrebbe essere necessario installare uno strumento di terze parti che ti aiuterà a generare una coppia di chiavi pubblica/privata nello stesso formato &quot;name.pub&quot;.
+   Potrebbe essere necessario installare uno strumento di terze parti che ti aiuterà a generare una coppia di chiavi privata/pubblica nello stesso formato &quot;name.pub&quot;.
 
 1. Apri il file .pub, quindi copia e incolla l’intera stringa a partire da “ssh...” nel Pannello di controllo.
 
@@ -99,15 +99,15 @@ In rari casi, l’autenticazione basata su password è abilitata su alcuni serve
 
    >[!NOTE]
    >
-   >La **[!UICONTROL Public Key]** accetta solo il formato OpenSSH. La dimensione della chiave SSH pubblica deve essere **2048 bit**.
+   >Il **[!UICONTROL Public Key]** accetta solo il formato OpenSSH. La dimensione della chiave SSH pubblica deve essere **2048 bit**.
 
 1. Fai clic sul pulsante **[!UICONTROL Save]** per creare la chiave. Il Pannello di controllo Campaign salva la chiave pubblica e l&#39;impronta digitale associata, crittografate con il formato SHA256.
 
 >[!IMPORTANT]
 >
->Se la chiave creata viene utilizzata per stabilire una connessione con un sistema che non è mai stato connesso al server SFTP selezionato in precedenza, dovrai aggiungere un IP pubblico di tale sistema all’elenco consentiti prima di poter utilizzare questo sistema con il server SFTP. Vedi [questa sezione](ip-range-allow-listing.md).
+>Se la chiave creata viene utilizzata per stabilire una connessione con un sistema che non è mai stato connesso al server SFTP selezionato in precedenza, dovrai aggiungere un IP pubblico di tale sistema all’elenco consentiti prima di poter utilizzare il sistema con il server SFTP. Vedi [questa sezione](ip-range-allow-listing.md).
 
-È possibile utilizzare le impronte digitali per far corrispondere le chiavi private salvate sul computer con le corrispondenti chiavi pubbliche salvate nel Pannello di controllo Campaign.
+È possibile utilizzare le impronte digitali per far corrispondere le chiavi private salvate nel computer con le corrispondenti chiavi pubbliche salvate nel Pannello di controllo Campaign.
 
 ![](assets/fingerprint_compare.png)
 
@@ -117,33 +117,33 @@ Il pulsante “**...**” ti consente di eliminare una chiave esistente o di cop
 
 ## Gestione delle chiavi pubbliche {#managing-public-keys}
 
-Le chiavi pubbliche che crei vengono visualizzate nel **[!UICONTROL Key Management]** scheda .
+Le chiavi pubbliche create vengono visualizzate in **[!UICONTROL Key Management]** scheda.
 
-Puoi ordinare gli elementi in base alla data di creazione o di modifica, all’utente che lo ha creato o modificato e alla scadenza dell’intervallo IP.
+Puoi ordinare gli elementi in base alla data di creazione o di edizione, all’utente che li ha creati o modificati e alla scadenza dell’intervallo IP.
 
 È inoltre possibile cercare una chiave pubblica iniziando a digitare un nome o un commento.
 
 ![](assets/control_panel_key_management_sort.png)
 
-Per modificare uno o più intervalli IP, vedi [questa sezione](#editing-public-keys).
+Per modificare uno o più intervalli IP, consulta [questa sezione](#editing-public-keys).
 
-Per eliminare una o più chiavi pubbliche dall’elenco, selezionale, quindi fai clic sul pulsante **[!UICONTROL Delete public key]** pulsante .
+Per eliminare una o più chiavi pubbliche dall’elenco, selezionale, quindi fai clic su **[!UICONTROL Delete public key]** pulsante.
 
 ![](assets/control_panel_delete_key.png)
 
 ### Scadenza {#expiry}
 
-La **[!UICONTROL Expires]** mostra quanti giorni rimangono fino alla scadenza della chiave pubblica.
+Il **[!UICONTROL Expires]** mostra quanti giorni mancano alla scadenza della chiave pubblica.
 
-Se hai effettuato la sottoscrizione a [avvisi e-mail](../../performance-monitoring/using/email-alerting.md), riceverai notifiche tramite e-mail 10 giorni e 5 giorni prima della scadenza di una chiave pubblica e il giorno in cui scade. Dopo aver ricevuto l&#39;avviso, puoi [modifica la chiave pubblica](#editing-public-keys) di prorogare, se necessario, il periodo di validità.
+Se ti sei iscritto a [avvisi e-mail](../../performance-monitoring/using/email-alerting.md), riceverai notifiche tramite e-mail 10 giorni e 5 giorni prima della scadenza di una chiave pubblica e il giorno della scadenza. Dopo aver ricevuto l’avviso, puoi [modifica la chiave pubblica](#editing-public-keys) di prorogarne il periodo di validità, se necessario.
 
-Una chiave pubblica scaduta verrà eliminata automaticamente dopo 7 giorni. Viene visualizzato come **[!UICONTROL Expired]** in **[!UICONTROL Expires]** colonna. Entro questo periodo di 7 giorni:
+Una chiave pubblica scaduta verrà eliminata automaticamente dopo 7 giorni. Viene visualizzato come **[!UICONTROL Expired]** nel **[!UICONTROL Expires]** colonna. Entro questo periodo di 7 giorni:
 
-* Impossibile più utilizzare una chiave pubblica scaduta per connettersi al server SFTP.
+* Una chiave pubblica scaduta non può più essere utilizzata per connettersi al server SFTP.
 
 * È possibile [modifica](#editing-public-keys) una chiave pubblica scaduta e aggiornarne la durata per renderla nuovamente disponibile.
 
-* È possibile eliminarlo dall’elenco.
+* Puoi eliminarlo dall’elenco.
 
 ## Modifica delle chiavi pubbliche {#editing-public-keys}
 
@@ -152,21 +152,21 @@ Una chiave pubblica scaduta verrà eliminata automaticamente dopo 7 giorni. Vien
 >title="Modificare le chiavi pubbliche"
 >abstract="Aggiorna le chiavi pubbliche selezionate per accedere al server SFTP."
 
-Per modificare le chiavi pubbliche, segui i passaggi seguenti.
+Per modificare le chiavi pubbliche, segui la procedura indicata di seguito.
 
 >[!NOTE]
 >
->Puoi modificare solo le chiavi pubbliche create a partire dalla versione di ottobre 2021 del Pannello di controllo Campaign.
+>Puoi modificare solo le chiavi pubbliche create dal rilascio del Pannello di controllo Campaign di ottobre 2021.
 
 1. Seleziona uno o più elementi dal **[!UICONTROL Key Management]** elenco.
 1. Fai clic sul pulsante **[!UICONTROL Update public key]**.
 
    ![](assets/control_panel_edit_key.png)
 
-1. È possibile modificare solo la scadenza della chiave pubblica e/o aggiungere un nuovo commento.
+1. Puoi modificare solo la scadenza della chiave pubblica e/o aggiungere un nuovo commento.
 
    >[!NOTE]
    >
-   >Per modificare il nome utente, l’istanza e la chiave pubblica in formato OpenSSH, elimina la chiave pubblica e creane una nuova corrispondente alle tue esigenze.
+   >Per modificare il nome utente, l&#39;istanza e la chiave pubblica in formato OpenSSH, elimina la chiave pubblica e creane una nuova corrispondente alle tue esigenze.
 
 1. Salva le modifiche.

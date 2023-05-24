@@ -2,7 +2,7 @@
 product: campaign
 solution: Campaign
 title: Panoramica sull’archiviazione
-description: Scopri come monitorare nel Pannello di controllo Campaign le diverse risorse di Campaign che occupano spazio nel database sulle istanze.
+description: Scopri come monitorare nel Pannello di controllo Campaign le diverse risorse di Campaign che occupano spazio nel database delle istanze.
 feature: Control Panel
 role: Architect
 level: Experienced
@@ -39,4 +39,4 @@ Puoi utilizzare l’elenco a discesa per perfezionare le tabelle di ricerca e vi
 
 ![](assets/database-storage-details.png)
 
-Questa schermata ti consente anche di monitorare i parametri del flusso di lavoro che possono richiedere un’attenzione specifica per evitare problemi nelle istanze. Per ulteriori informazioni, consulta [questa pagina](workflow-monitoring.md).
+Questa schermata consente inoltre di monitorare i parametri dei flussi di lavoro che possono richiedere un’attenzione specifica per evitare problemi alle istanze. Per ulteriori informazioni, consulta [questa pagina](workflow-monitoring.md).

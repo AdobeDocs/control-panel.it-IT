@@ -35,11 +35,11 @@ In questo modo potrai preservare la reputazione del tuo dominio e di altri sotto
 
 ## Metodi di configurazione dei sottodomini {#subdomain-delegation-methods}
 
-La configurazione dei sottodomini ti consente di configurare una sottosezione del dominio (tecnicamente una &quot;zona DNS&quot;) da utilizzare con Adobe Campaign. I metodi di configurazione disponibili sono:
+La configurazione del sottodominio ti consente di configurare una sottosezione del dominio (tecnicamente una &quot;zona DNS&quot;) per l’utilizzo con Adobe Campaign. I metodi di configurazione disponibili sono:
 
 * **Delega completa del sottodominio ad Adobe Campaign** (consigliato): il sottodominio viene delegato completamente ad Adobe. Adobe è in grado di fornire Campaign come servizio gestito controllando e mantenendo tutti gli aspetti del DNS necessari per la distribuzione, il rendering e il tracciamento delle campagne e-mail.
 
-* **Utilizzo dei CNAME**: Crea un sottodominio e utilizza i CNAME per puntare a record specifici per l’Adobe. Utilizzando questa configurazione, sia Adobe che il cliente condividono la responsabilità della manutenzione del DNS.
+* **Utilizzo dei CNAME**: crea un sottodominio e utilizza i CNAME per puntare a record specifici dell’Adobe. Utilizzando questa configurazione, sia Adobe che il cliente condividono la responsabilità della manutenzione del DNS.
 
 La tabella seguente fornisce un riepilogo del funzionamento di questi metodi, oltre al livello di impegno che comportano:
 
@@ -50,9 +50,9 @@ La tabella seguente fornisce un riepilogo del funzionamento di questi metodi, ol
 
 Ulteriori informazioni sulla configurazione del dominio sono disponibili in [questa documentazione](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/product-specific-resources/campaign/ac-domain-name-setup.html).
 
-Se hai domande sui metodi di configurazione dei sottodomini, rivolgiti al team di Adobe Deliverability o contatta l’Assistenza clienti per richiedere consulenza sul recapito messaggi.
+Per qualsiasi domanda sui metodi di configurazione dei sottodomini, rivolgiti al team di Adobi Deliverability o contatta l’Assistenza clienti per richiedere consulenza sul recapito dei messaggi.
 
-## Casi d’uso dei sottodomini (Campaign v7/v8){#subdomains-use-cases}
+## Casi di utilizzo dei sottodomini (Campaign v7/v8){#subdomains-use-cases}
 
 >[!CONTEXTUALHELP]
 >id="cp_add_subdomain_usecase_selection"
@@ -61,9 +61,9 @@ Se hai domande sui metodi di configurazione dei sottodomini, rivolgiti al team d
 >additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=it" text="Configurazione di un nuovo sottodominio"
 >additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html?lang=it" text="Branding dei sottodomini"
 
-Quando imposti i sottodomini per le istanze Campaign v7/v8, devi selezionare il caso d’uso per il quale verrà utilizzato il sottodominio (vedi [Configurazione di un nuovo sottodominio](../../subdomains-certificates/using/setting-up-new-subdomain.md)).
+Durante la configurazione dei sottodomini per le istanze Campaign v7/v8, è necessario selezionare il caso d’uso per il quale verrà utilizzato il sottodominio (vedi [Configurazione di un nuovo sottodominio](../../subdomains-certificates/using/setting-up-new-subdomain.md)).
 
-I casi d’uso possibili sono:
+I possibili casi d’uso sono:
 
 * **Comunicazioni di marketing**: comunicazioni destinate a scopi commerciali. Esempio: campagna e-mail di vendita.
 
@@ -78,7 +78,7 @@ I casi d’uso possibili sono:
 
 >[!NOTE]
 >
->Se utilizzi Campaign v7/v8, Pannelli di controllo Campaign ti consente di vedere quali istanze RT/MID sono collegate all’istanza Marketing con cui stai lavorando. Per ulteriori informazioni, consulta la sezione [Instance details](../../instances-settings/using/instance-details.md) (Dettagli istanza).
+>Se utilizzi Campaign v7/v8, il Pannello di controllo Campaign ti consente di vedere quali istanze RT/MID sono collegate all’istanza Marketing con cui stai lavorando. Per ulteriori informazioni, consulta la sezione [Instance details](../../instances-settings/using/instance-details.md) (Dettagli istanza).
 
 **Argomenti correlati:**
 

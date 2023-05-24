@@ -26,7 +26,7 @@ ht-degree: 85%
 
 >[!IMPORTANT]
 >
->Questa funzione è disponibile solo per le istanze Campaign v7/v8, dalla build 8850. Se utilizzi una build precedente, dovrai eseguire l’aggiornamento per utilizzare questa funzione.
+>Questa funzione è disponibile solo per le istanze Campaign v7/v8, a partire dalla build 8850. Se utilizzi una build precedente, dovrai eseguire l’aggiornamento per utilizzare questa funzione.
 
 L’elenco predefinito di URL che possono essere richiamati tramite codici JavaScript (flussi di lavoro, ecc.) dalle istanze Campaign è limitato. Si tratta di URL che consentono il corretto funzionamento delle istanze.
 
@@ -72,7 +72,7 @@ Per aggiungere un URL a cui l’istanza può connettersi, effettua le seguenti o
    >
    >Tutte le istanze Campaign vengono visualizzate nell’elenco del riquadro a sinistra.
    >
-   >Poiché la gestione delle autorizzazioni URL è dedicata solo alle istanze Campaign v7/v8, se selezioni un’istanza di Campaign Standard viene visualizzato il messaggio &quot;Non-Applicable Instance&quot; (&quot;Istanza non applicabile&quot;).
+   >Poiché la gestione delle autorizzazioni URL è dedicata solo alle istanze Campaign v7/v8, se selezioni un’istanza Campaign Standard viene visualizzato il messaggio &quot;Non-Applicable Instance&quot; (Istanza non applicabile).
 
 1. Digita l’URL da autorizzare, con il relativo protocollo associato (http, https o sftp).
 
