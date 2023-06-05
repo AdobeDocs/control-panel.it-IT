@@ -7,12 +7,13 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: d92781c3-14cc-4716-a131-580ccff46d6e
-source-git-commit: bbf1aa11ef7e1b43b4df7799c4a4491b73cfbef1
+source-git-commit: 3b128832fa453981d358f225e160e3ef6c648b50
 workflow-type: tm+mt
-source-wordcount: '1339'
-ht-degree: 92%
+source-wordcount: '1501'
+ht-degree: 81%
 
 ---
+
 
 # Configurazione di un nuovo sottodominio {#setting-up-subdomain}
 
@@ -21,6 +22,11 @@ ht-degree: 92%
 >title="Configurare nuovi sottodomini e gestire certificati"
 >abstract="Devi impostare un nuovo sottodominio e gestire i certificati SSL dei tuoi sottodomini per iniziare a inviare e-mail o pubblicare pagine di destinazione con Adobe Campaign."
 >additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html?lang=it" text="Monitoraggio dei certificati SSL"
+
+>[!CONTEXTUALHELP]
+>id="cp_managed_ssl"
+>title="Delega dei certificati SSL dei sottodomini ad Adobe"
+>abstract="Il Pannello di controllo Campaign ti consente di gestire i certificati SSL dei sottodomini in base a Adobe. Se utilizzi i CNAME per configurare il sottodominio, i record dei certificati verranno generati e forniti automaticamente per generare un certificato nella soluzione di hosting del dominio."
 
 ## Da leggere {#must-read}
 
@@ -94,6 +100,8 @@ Per delegare completamente un sottodominio ad Adobe Campaign, effettua le seguen
 
    Accertati di inserire il **nome completo** del sottodominio da delegare. Ad esempio, per delegare il sottodominio “usoffer.email.weretail.com”, digita “usoffer.email.weretail.com”.
 
+1. Per delegare ad Adobe la generazione del certificato SSL del sottodominio, abilita **[!UICONTROL Opt for Adobe managed SSL for sub-domains]** opzione.
+
    ![](assets/subdomain6.png)
 
 Una volta inviato il sottodominio, il Pannello di controllo eseguirà vari controlli e passaggi di configurazione. Per ulteriori informazioni, consulta [Controlli e configurazione dei sottodomini](#subdomain-checks-and-configuration).
@@ -134,25 +142,36 @@ Per configurare un sottodominio utilizzando i CNAME, segui i passaggi riportati 
 
    ![](assets/cname-use-case.png)
 
-1. Immetti il sottodominio creato nella tua soluzione di hosting, quindi fai clic su **[!UICONTROL Next]**.
+1. Immetti il sottodominio creato nella soluzione di hosting. Per delegare ad Adobe la generazione del certificato SSL del sottodominio, abilita **[!UICONTROL Opt for Adobe managed SSL for sub-domains]** opzione.
 
-   Accertati di inserire il **nome completo** del sottodominio da impostare. Ad esempio, per configurare il sottodominio “usoffers.email.weretail.com”, digita “usoffers.email.weretail.com”.
+   ![](assets/cname-adobe-managed.png)
 
-   ![](assets/cname-submit.png)
+   >[!NOTE]
+   >
+   >Accertati di inserire il **nome completo** del sottodominio da impostare. Ad esempio, per configurare il sottodominio “usoffers.email.weretail.com”, digita “usoffers.email.weretail.com”.
 
 1. Viene visualizzato l’elenco dei record da inserire nei server DNS. Copia questi record, uno per uno, o scaricando un file CSV, quindi accedi alla soluzione di hosting del tuo dominio per generare i record DNS corrispondenti.
 
    ![](assets/cname-generate-record.png)
 
-1. Assicurati che tutti i record DNS dei passaggi precedenti siano stati generati nella soluzione di hosting del tuo dominio. Se tutto è configurato correttamente, seleziona la prima opzione e fai clic su **[!UICONTROL Submit]** per confermare.
+1. Assicurati che tutti i record DNS dei passaggi precedenti siano stati generati nella soluzione di hosting del tuo dominio. Se tutto è configurato correttamente, seleziona la prima opzione e fai clic su **[!UICONTROL Next]** per confermare.
 
-   ![](assets/cname-confirmation.png)
+   Se desideri creare i record e inviare la configurazione del sottodominio in un secondo momento, seleziona la seconda istruzione. Potrai quindi riprendere la configurazione del sottodominio direttamente dalla schermata **[!UICONTROL Processing]**. Tieni presente che i record DNS da inserire nel server verranno conservati per 30 giorni dal Pannello di controllo. Oltre tale periodo, dovrai configurare il sottodominio da zero.
+
 
    >[!NOTE]
    >
-   >Se desideri creare i record e inviare la configurazione del sottodominio in un secondo momento, seleziona la seconda opzione e fai clic su **[!UICONTROL Submit later]**. Potrai quindi riprendere la configurazione del sottodominio direttamente dalla schermata **[!UICONTROL Processing]**.
-   >
-   >Tieni presente che i record DNS da inserire nel server verranno conservati per 30 giorni dal Pannello di controllo. Oltre tale periodo, dovrai configurare il sottodominio da zero.
+   >Se hai scelto di non delegare il certificato SSL ad Adobe, questo è l’ultimo passaggio della configurazione del sottodominio. Fai clic sul pulsante **[!UICONTROL Submit]**.
+
+   ![](assets/cname-confirmation.png)
+
+1. Se hai scelto di delegare il certificato dei sottodomini ad Adobe, il certificato viene generato automaticamente. Copia questi record, uno per uno o scaricando un file CSV, quindi accedi alla soluzione di hosting del tuo dominio per generare il certificato corrispondente.
+
+   ![](assets/cname-csr-generation.png)
+
+1. Assicurati che tutti i record del certificato siano stati generati nella soluzione di hosting del tuo dominio. Se tutto è configurato correttamente, seleziona la prima opzione e fai clic su **[!UICONTROL Submit]** per confermare.
+
+   ![](assets/cnames-submit.png)
 
 Una volta inviato il sottodominio, il Pannello di controllo eseguirà vari controlli e passaggi di configurazione. Per ulteriori informazioni, consulta [Controlli e configurazione dei sottodomini](#subdomain-checks-and-configuration).
 
