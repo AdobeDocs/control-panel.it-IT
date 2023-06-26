@@ -7,9 +7,9 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: d92781c3-14cc-4716-a131-580ccff46d6e
-source-git-commit: 47a11cbafe3c81aba81c2f16c83e7d31e571fb95
+source-git-commit: 40654418f0c5b298cc4fbd66a5d835355876a12c
 workflow-type: tm+mt
-source-wordcount: '1628'
+source-wordcount: '1549'
 ht-degree: 80%
 
 ---
@@ -22,11 +22,6 @@ ht-degree: 80%
 >title="Configurare nuovi sottodomini e gestire certificati"
 >abstract="Devi impostare un nuovo sottodominio e gestire i certificati SSL dei tuoi sottodomini per iniziare a inviare e-mail o pubblicare pagine di destinazione con Adobe Campaign."
 >additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html?lang=it" text="Monitoraggio dei certificati SSL"
-
->[!CONTEXTUALHELP]
->id="cp_managed_ssl"
->title="Delegare i certificati SSL dei sottodomini ad Adobe"
->abstract="Il Pannello di controllo ti consente di gestire i certificati SSL dei sottodomini gestiti da Adobe. Se utilizzi i CNAME per configurare il sottodominio, i record dei certificati verranno generati e forniti automaticamente per generare un certificato nella soluzione di hosting del dominio. Questa funzionalità è disponibile solo durante la configurazione di un nuovo sottodominio. Non puoi delegare certificati per sottodomini delegati esistenti."
 
 ## Da leggere {#must-read}
 
@@ -44,13 +39,13 @@ Se l’istanza selezionata nella procedura guidata non dispone di sottodomini gi
 
 ### Delegare i certificati SSL dei sottodomini ad Adobe
 
-Quando imposti un nuovo sottodominio, puoi far gestire il certificato SSL da Adobe. Si consiglia vivamente, in quanto Adobe creerà automaticamente il certificato e lo rinnoverà ogni anno prima della scadenza. La delega dei certificati SSL è disponibile solo durante la configurazione di un nuovo sottodominio. Non è disponibile per i sottodomini già delegati.
+Quando imposti un nuovo sottodominio, puoi far gestire il certificato SSL da Adobe. Si consiglia vivamente, in quanto Adobe creerà automaticamente il certificato e lo rinnoverà ogni anno prima della scadenza.
 
 Se utilizzi i CNAME per impostare una delega di sottodominio, Adobe fornirà i record del certificato da utilizzare nella soluzione di hosting del dominio per generare il certificato.
 
 >[!NOTE]
 >
->Adobe managed SSL è una funzione gratuita disponibile gratuitamente per gli utenti.
+>L’SSL gestito da Adobe è una funzione gratuita disponibile per gli utenti.
 
 ### Configurazione dei server dei nomi
 
@@ -66,7 +61,6 @@ Inoltre, **non creare un file di zona separato** per il nuovo sottodominio.
 >abstract="Adobe consiglia la delega completa del sottodominio. Tuttavia, puoi utilizzare CNAME o un metodo personalizzato per impostare i sottodomini."
 >additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=it" text="Configurazione di un nuovo sottodominio"
 >additional-url="https://helpx.adobe.com/it/enterprise/using/support-for-experience-cloud.html" text="Contattare l’Assistenza clienti"
-
 
 >[!CONTEXTUALHELP]
 >id="cp_add_subdomain_create_delegate"
@@ -110,7 +104,7 @@ Per delegare completamente un sottodominio ad Adobe Campaign, effettua le seguen
 
    Accertati di inserire il **nome completo** del sottodominio da delegare. Ad esempio, per delegare il sottodominio “usoffer.email.weretail.com”, digita “usoffer.email.weretail.com”.
 
-1. Per delegare ad Adobe la generazione del certificato SSL del sottodominio, abilita **[!UICONTROL Opt for Adobe managed SSL for sub-domains]** opzione.
+1. Per delegare ad Adobe la generazione del certificato SSL del sottodominio, abilita **[!UICONTROL Opt for Adobe managed SSL for sub-domains]** opzione. [Ulteriori informazioni sulla delega dei certificati SSL](delegate-ssl.md)
 
    ![](assets/subdomain6.png)
 
@@ -152,7 +146,9 @@ Per configurare un sottodominio utilizzando i CNAME, segui i passaggi riportati 
 
    ![](assets/cname-use-case.png)
 
-1. Immetti il sottodominio creato nella soluzione di hosting. Per delegare ad Adobe la generazione del certificato SSL del sottodominio, abilita **[!UICONTROL Opt for Adobe managed SSL for sub-domains]** opzione.
+1. Immetti il sottodominio creato nella soluzione di hosting.
+
+   Per delegare ad Adobe la generazione del certificato SSL del sottodominio, abilita **[!UICONTROL Opt for Adobe managed SSL for sub-domains]** opzione. [Ulteriori informazioni sulla delega dei certificati SSL](delegate-ssl.md)
 
    ![](assets/cname-adobe-managed.png)
 
@@ -167,7 +163,6 @@ Per configurare un sottodominio utilizzando i CNAME, segui i passaggi riportati 
 1. Assicurati che tutti i record DNS dei passaggi precedenti siano stati generati nella soluzione di hosting del tuo dominio. Se tutto è configurato correttamente, seleziona la prima opzione e fai clic su **[!UICONTROL Next]** per confermare.
 
    Se desideri creare i record e inviare la configurazione del sottodominio in un secondo momento, seleziona la seconda istruzione. Potrai quindi riprendere la configurazione del sottodominio direttamente dalla schermata **[!UICONTROL Processing]**. Tieni presente che i record DNS da inserire nel server verranno conservati per 30 giorni dal Pannello di controllo. Oltre tale periodo, dovrai configurare il sottodominio da zero.
-
 
    >[!NOTE]
    >

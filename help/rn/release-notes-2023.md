@@ -2,14 +2,26 @@
 title: Note sulla versione 2023
 description: In questa pagina sono elencate tutte le versioni del Pannello di controllo del 2023.
 exl-id: 9a83e32a-4c11-4784-a6fe-341ce9ebc7a7
-source-git-commit: f43dbc1d28ff22ca1f9092d6ca416c43eed2ebec
-workflow-type: ht
-source-wordcount: '156'
-ht-degree: 100%
+source-git-commit: 40654418f0c5b298cc4fbd66a5d835355876a12c
+workflow-type: tm+mt
+source-wordcount: '242'
+ht-degree: 99%
 
 ---
 
 # Note sulla versione 2023 {#rn-2023}
+
+## Miglioramenti di maggio 2023 {#june-2023}
+
+**Delega dei certificati SSL dei sottodomini ad Adobe**
+
+Ora i certificati SSL dei sottodomini possono essere gestiti da Adobe. Se utilizzi i CNAME per configurare il sottodominio, i record dei certificati verranno generati e forniti automaticamente per generare un certificato nella soluzione di hosting del dominio.
+
+Questa funzionalità è disponibile solo durante la configurazione di un nuovo sottodominio. Non puoi delegare certificati per sottodomini delegati esistenti. [Ulteriori informazioni](../subdomains-certificates/using/setting-up-new-subdomain.md)
+
+>[!NOTE]
+>
+>L’SSL gestito da Adobe è una funzione gratuita disponibile per gli utenti.
 
 ## Marzo 2023 {#march-2023}
 
