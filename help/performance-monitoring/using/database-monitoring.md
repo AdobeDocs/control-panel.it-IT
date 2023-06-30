@@ -31,7 +31,7 @@ Se ti sei iscritto a [avvisi e-mail](../../performance-monitoring/using/email-al
 >[!CONTEXTUALHELP]
 >id="cp_performancemonitoring_database"
 >title="Informazioni sul monitoraggio del database"
->abstract="In questa scheda, puoi ottenere informazioni in tempo reale dati attuali e storici sull’utilizzo e l’evoluzione del database per ciascuna istanza di Campaign."
+>abstract="In questa scheda puoi ottenere informazioni in tempo reale con dati attuali e storici sull’utilizzo e l’evoluzione del database per ciascuna istanza di Campaign."
 >additional-url="https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html?lang=it" text="Informazioni sul monitoraggio delle prestazioni"
 
 Il Pannello di controllo consente di monitorare l’utilizzo del database per ciascuna istanza di Campaign. Per fare questo, apri la scheda **[!UICONTROL Performance Monitoring]**, quindi seleziona la scheda **[!UICONTROL Databases]**.

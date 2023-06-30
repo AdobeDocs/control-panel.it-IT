@@ -25,7 +25,7 @@ L’area **[!UICONTROL Storage overview]** fornisce una rappresentazione grafica
 
 * **[!UICONTROL System resources]**
 
-   Tieni presente che, se le risorse di sistema occupano gran parte dello spazio del database, è consigliabile contattare l’Assistenza clienti.
+  Tieni presente che, se le risorse di sistema occupano gran parte dello spazio del database, è consigliabile contattare l’Assistenza clienti.
 
 * **[!UICONTROL Out-of-the-box tables]** fornite per impostazione predefinita con le istanze Campaign,
 * **[!UICONTROL Temporary tables]** create da flussi di lavoro e consegne,
