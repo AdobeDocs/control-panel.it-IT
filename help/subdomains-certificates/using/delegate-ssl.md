@@ -6,10 +6,10 @@ description: Scopri come delegare i certificati SSL dei sottodomini ad Adobe
 feature: Control Panel
 role: Architect
 level: Experienced
-source-git-commit: 0eefdbde25c955c84ee7534976256ca4df9a686c
-workflow-type: ht
-source-wordcount: '297'
-ht-degree: 100%
+source-git-commit: 01da21a883804b9c79c7ee4056d984f3df6cb96c
+workflow-type: tm+mt
+source-wordcount: '325'
+ht-degree: 83%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 100%
 >title="Delegare i certificati SSL dei sottodomini ad Adobe"
 >abstract="Il Pannello di controllo ti consente di gestire i certificati SSL dei sottodomini gestiti da Adobe. Se utilizzi i CNAME per configurare il sottodominio, i record dei certificati verranno generati e forniti automaticamente per generare un certificato nella soluzione di hosting del dominio."
 
-Si consiglia vivamente di delegare i certificati SSL dei sottodomini ad Adobe, in quanto Adobe creerà automaticamente il certificato e lo rinnoverà ogni anno prima della scadenza.
+Si consiglia vivamente di delegare la gestione dei certificati SSL dei sottodomini ad Adobe, in quanto Adobe creerà automaticamente il certificato e lo rinnoverà ogni anno prima della scadenza.
 
 Se utilizzi i CNAME per impostare una delega di sottodominio, Adobe fornirà i record del certificato da utilizzare nella soluzione di hosting del dominio per generare il certificato.
 
@@ -28,7 +28,8 @@ La delega dei certificati SSL ad Adobe può essere eseguita durante la configura
 
 >[!NOTE]
 >
->L’SSL gestito da Adobe è una funzione gratuita disponibile per gli utenti.
+>L’SSL gestito da Adobe è una funzione gratuita disponibile per gli utenti. La delega del certificato di un sottodominio ad Adobe è trasparente e non ha alcun impatto sulle campagne e sul recapito messaggi. [Ulteriori informazioni sulla gestione dei certificati SSL](monitoring-ssl-certificates.md#management)
+
 
 ## Delegare i certificati SSL dei nuovi sottodomini {#new}
 

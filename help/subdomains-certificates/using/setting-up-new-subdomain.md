@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: d92781c3-14cc-4716-a131-580ccff46d6e
-source-git-commit: 40654418f0c5b298cc4fbd66a5d835355876a12c
+source-git-commit: 7a355dee0482a519878a44407d133a8b6d94f00c
 workflow-type: tm+mt
-source-wordcount: '1549'
-ht-degree: 80%
+source-wordcount: '1555'
+ht-degree: 84%
 
 ---
 
@@ -45,7 +45,7 @@ Se utilizzi i CNAME per impostare una delega di sottodominio, Adobe fornirà i r
 
 >[!NOTE]
 >
->L’SSL gestito da Adobe è una funzione gratuita disponibile per gli utenti.
+>L’SSL gestito da Adobe è una funzione gratuita disponibile per gli utenti. [Ulteriori informazioni sulla gestione dei certificati SSL](monitoring-ssl-certificates.md#management)
 
 ### Configurazione dei server dei nomi
 
@@ -170,7 +170,7 @@ Per configurare un sottodominio utilizzando i CNAME, segui i passaggi riportati 
 
    ![](assets/cname-confirmation.png)
 
-1. Se hai scelto di delegare il certificato dei sottodomini ad Adobe, i record dei certificati vengono generati automaticamente. Copia questi record, uno per uno o scaricando un file CSV, quindi accedi alla soluzione di hosting del tuo dominio per generare il certificato corrispondente.
+1. Se hai scelto di delegare il certificato dei sottodomini ad Adobe, i record dei certificati vengono generati automaticamente. Copia questi record, uno per uno, oppure scaricando un file CSV, quindi accedi alla soluzione di hosting del tuo dominio per generare i certificati corrispondenti.
 
    ![](assets/cname-csr-generation.png)
 
