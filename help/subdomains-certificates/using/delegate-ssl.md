@@ -7,9 +7,9 @@ feature: Control Panel
 role: Architect
 level: Experienced
 source-git-commit: 01da21a883804b9c79c7ee4056d984f3df6cb96c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '325'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ La delega dei certificati SSL ad Adobe può essere eseguita durante la configura
 
 >[!NOTE]
 >
->L’SSL gestito da Adobe è una funzione gratuita disponibile per gli utenti. La delega del certificato di un sottodominio ad Adobe è trasparente e non ha alcun impatto sulle campagne e sul recapito messaggi. [Ulteriori informazioni sulla gestione dei certificati SSL](monitoring-ssl-certificates.md#management)
+>L’SSL gestito da Adobe è una funzione gratuita disponibile per gli utenti. La delega del certificato di un sottodominio ad Adobe è trasparente e non ha alcun impatto sulle campagne e sulla recapitabilità. [Ulteriori informazioni sulla gestione dei certificati SSL](monitoring-ssl-certificates.md#management)
 
 
 ## Delegare i certificati SSL dei nuovi sottodomini {#new}
