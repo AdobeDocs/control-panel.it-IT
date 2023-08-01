@@ -8,9 +8,9 @@ role: Architect
 level: Experienced
 exl-id: e9b7c67d-6afa-44f9-b19d-39c0ec9a7edd
 source-git-commit: 01da21a883804b9c79c7ee4056d984f3df6cb96c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '993'
-ht-degree: 71%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 71%
 
 >[!NOTE]
 >
->Il rinnovo dei certificati SSL dei sottodomini è necessario solo se hai scelto di gestire autonomamente i certificati anziché delegare questo processo ad Adobe. Si consiglia vivamente di delegare la gestione dei certificati SSL dei sottodomini ad Adobe, in quanto Adobe creerà automaticamente il certificato e lo rinnoverà ogni anno prima della scadenza. [Ulteriori informazioni sulla gestione dei certificati SSL](monitoring-ssl-certificates.md#management)
+>Il rinnovo dei certificati SSL dei sottodomini è necessario solo se si è scelto di gestire autonomamente i certificati anziché delegare questo processo ad Adobe. Si consiglia vivamente di delegare la gestione dei certificati SSL dei sottodomini ad Adobe, in quanto Adobe creerà automaticamente il certificato e lo rinnoverà ogni anno prima della scadenza. [Ulteriori informazioni sulla gestione dei certificati SSL](monitoring-ssl-certificates.md#management)
 
 Il processo di rinnovo del certificato SSL comprende 3 passaggi:
 
@@ -94,23 +94,23 @@ Per generare una richiesta di firma del certificato (CSR, Certificate Signing Re
 
    >[!NOTE]
    >
-   >Il **[!UICONTROL Copy CSR content]** consente di copiare tutte le informazioni relative alla CSR (ID organizzazione, istanza, nome organizzazione, nome comune, sottodomini inclusi, ecc.)
+   >Il pulsante **[!UICONTROL Copy CSR content]** consente di copiare tutte le informazioni relative alla CSR (ID organizzazione, istanza, nome organizzazione, nome comune, sottodomini inclusi, ecc.)
 
 1. Il file .csr corrispondente alla selezione viene generato e scaricato automaticamente. Ora puoi usarlo per acquistare il certificato SSL dall’autorità di certificazione approvata dalla tua azienda. Se devi scaricare nuovamente la CSR, segui i passaggi descritti in [questa sezione](#download).
 
 Una volta generata e scaricata la CSR, puoi utilizzarla per acquistare un certificato SSL da un’autorità di certificazione approvata dalla tua organizzazione.
 
-Una volta acquistato il certificato SSL, potrai installarlo nell’istanza per proteggere il sottodominio. [Ulteriori informazioni](#install)
+Dopo aver acquistato il certificato SSL, potrai installarlo nell’istanza per proteggere il sottodominio. [Ulteriori informazioni](#install)
 
 ## Scaricare la CSR {#download}
 
-Per acquistare un certificato SSL, devi innanzitutto scaricare la richiesta di firma del certificato. La CSR viene scaricata automaticamente dopo la generazione. Puoi scaricarlo nuovamente in qualsiasi momento dai Registri di lavoro:
+Per acquistare un certificato SSL, devi innanzitutto scaricare la richiesta di firma del certificato (CSR). La CSR viene scaricata automaticamente dopo essere stata generata. Inoltre, puoi scaricarla nuovamente in qualsiasi momento dai Registri dei processi:
 
-1. In **[!UICONTROL Job Logs]**, seleziona la **[!UICONTROL Finished]** , quindi filtra l’elenco per visualizzare i processi relativi alla gestione dei sottodomini.
+1. In **[!UICONTROL Job Logs]**, seleziona la scheda **[!UICONTROL Finished]**, quindi filtra l’elenco per visualizzare i processi relativi alla gestione dei sottodomini.
 
    ![](assets/renewal-download.png)
 
-1. Apri il processo corrispondente alla generazione della CSR, quindi fai clic su **[!UICONTROL Downbload]** per ottenere il file .csr.
+1. Apri il processo corrispondente alla generazione della CSR, quindi fai clic sul collegametno **[!UICONTROL Downbload]** per ottenere il file .csr.
 
    ![](assets/renewal-download-button.png)
 
@@ -124,7 +124,7 @@ Per acquistare un certificato SSL, devi innanzitutto scaricare la richiesta di f
 Una volta acquistato un certificato SSL, puoi installarlo nell’istanza. Prima di procedere, accertati di conoscere i prerequisiti seguenti:
 
 * La richiesta di firma del certificato (CSR, Certificate Signing Request) deve essere stata generata dal Pannello di controllo. In caso contrario, non potrai installare il certificato dal Pannello di controllo.
-* La richiesta di firma del certificato (CSR, Certificate Signing Request) deve corrispondere al sottodominio configurato per funzionare con Adobe. Ad esempio, non può contenere più sottodomini di quello configurato.
+* La richiesta di firma del certificato (CSR) deve corrispondere al sottodominio che è stato configurato per funzionare con Adobe. Ad esempio, non può contenere altri sottodomini oltre a quello che è stato configurato.
 * Il certificato deve avere una data corrente. Non è possibile installare certificati con date future e non deve essere scaduto (vale a dire date di inizio e fine valide).
 * Il certificato deve essere rilasciato da un’autorità di certificazione (CA, Certificate Authority) affidabile, come Comodo, DigiCert, GoDaddy, ecc..
 * La dimensione del certificato deve essere di 2048 bit e l’algoritmo deve essere RSA.
