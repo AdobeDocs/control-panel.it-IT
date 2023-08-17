@@ -40,7 +40,6 @@ Il calendario del servizio ora fornisce una vista calendario per tenere traccia 
 >
 >* Per Campaign v7, si applicano restrizioni di distribuzione. [Ulteriori informazioni](faq.md#v7-restrictions)
 
-
 ## Risorse aggiuntive {#additional-resources}
 
 <table>

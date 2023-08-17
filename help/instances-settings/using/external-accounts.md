@@ -67,13 +67,13 @@ Per poter accedere alle funzionalità del Pannello di controllo, devi fornire le
 
    * **[!UICONTROL URL]**: URL dell’istanza, accessibile nella console client di Campaign dal menu **[!UICONTROL Administration]** > **[!UICONTROL Platform]** > **[!UICONTROL External Accounts]**.
 
-      ![](assets/external-account-url.png)
+     ![](assets/external-account-url.png)
 
    * **[!UICONTROL Operator]** / **[!UICONTROL Password]**: credenziali dell’operatore fornite dopo il provisioning iniziale da Adobe Admin.
 
-      >[!NOTE]
-      >
-      >Se tali dettagli non sono disponibili, contatta l’Assistenza clienti.
+     >[!NOTE]
+     >
+     >Se tali dettagli non sono disponibili, contatta l’Assistenza clienti.
 
 1. Fai clic su **[!UICONTROL Save]** per confermare.
 

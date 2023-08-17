@@ -105,7 +105,7 @@ In casi molto rari, l’autenticazione basata su password è abilitata su alcuni
 
 >[!IMPORTANT]
 >
->Se la chiave creata viene utilizzata per stabilire una connessione con un sistema che non è mai stato connesso al server SFTP selezionato in precedenza, dovrai aggiungere un IP pubblico di tale sistema all’elenco consentiti prima di poter utilizzare il sistema con il server SFTP. Vedi [questa sezione](ip-range-allow-listing.md).
+>Se la chiave creata viene utilizzata per stabilire una connessione con un sistema che non è mai stato connesso al server SFTP selezionato in precedenza, dovrai aggiungere un IP pubblico di tale sistema all’elenco consentiti prima di poter utilizzare il sistema con il server SFTP. Consulta [questa sezione](ip-range-allow-listing.md).
 
 È possibile utilizzare le impronte digitali per far corrispondere le chiavi private salvate nel computer con le corrispondenti chiavi pubbliche salvate nel Pannello di controllo Campaign.
 

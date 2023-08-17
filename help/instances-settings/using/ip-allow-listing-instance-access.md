@@ -81,7 +81,6 @@ Per aggiungere indirizzi IP all’elenco Consentiti, esegui i seguenti passaggi:
    * **[!UICONTROL Label]**: l’etichetta che verrà visualizzata nell’elenco Consentiti.
    * **[!UICONTROL Name]**: il nome deve essere univoco per Access Type (Tipo di accesso), Instance (Istanza) (in caso di connessione API esterna) e per l’indirizzo IP.
 
-
 1. Specifica il tipo di accesso che desideri concedere agli indirizzi IP:
 
    * **[!UICONTROL Campaign Console Access]**: gli indirizzi IP saranno autorizzati a connettersi alla console client di Campaign. L’accesso alla console è abilitato solo per le istanze Marketing. L’accesso all’istanza MID e RT non è consentito e pertanto non è abilitato.

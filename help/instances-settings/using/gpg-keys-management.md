@@ -64,10 +64,9 @@ A questo scopo, devi generare una coppia di chiavi GPG da uno strumento di critt
    * **lunghezza chiave**: 3072 - 4096 bit
    * **nome reale** e **indirizzo e-mail**: consente di tenere traccia di chi ha creato la coppia di chiavi. Immetti un nome e un indirizzo e-mail collegati all’organizzazione o al reparto.
    * **commento**: l’aggiunta di un’etichetta al campo del commento ti aiuterà a identificare facilmente la chiave da utilizzare per crittografare i dati.
-
-      >[!IMPORTANT]
-      >
-      >Assicurati che questo campo non sia lasciato vuoto e che sia inserito un commento.
+     >[!IMPORTANT]
+     >
+     >Assicurati che questo campo non sia lasciato vuoto e che sia inserito un commento.
 
    * **scadenza**: data o &quot;0&quot; per nessuna data di scadenza.
    * **passphrase**
@@ -116,7 +115,7 @@ Per ulteriori informazioni su questo argomento, consulta la documentazione di Ad
 
 ## Decrittografia dei dati {#decrypting-data}
 
-Pannelli di controllo Campaign consente di decrittografare i dati esterni che entrano nelle istanze Adobe Campaign.
+Pannello di controllo Campaign consente di decrittografare i dati esterni che entrano nelle istanze Adobe Campaign.
 
 A questo scopo, devi generare una coppia di chiavi GPG direttamente dal Pannello di controllo Campaign.
 
@@ -168,9 +167,9 @@ L’elenco mostra tutte le chiavi GPG di crittografia e decrittografia installat
 * **[!UICONTROL Name]**: nome definito durante l’installazione o la generazione della chiave.
 * **[!UICONTROL Use case]**: questa colonna specifica il caso di utilizzo della chiave:
 
-   ![](assets/gpg_icon_encrypt.png): la chiave per la crittografia dei dati è stata installata.
+  ![](assets/gpg_icon_encrypt.png): la chiave per la crittografia dei dati è stata installata.
 
-   ![](assets/gpg_icon_decrypt.png): la chiave è stata generata per consentire la decrittografia dei dati.
+  ![](assets/gpg_icon_decrypt.png): la chiave è stata generata per consentire la decrittografia dei dati.
 
 * **[!UICONTROL Fingerprint]**: impronta digitale della chiave.
 * **[!UICONTROL Expires]**: data di scadenza della chiave. Tieni presente che il Pannello di controllo Campaign fornirà indicazioni visive quando la chiave si avvicina alla sua data di scadenza:
@@ -179,9 +178,9 @@ L’elenco mostra tutte le chiavi GPG di crittografia e decrittografia installat
    * L’avvertenza (gialla) viene visualizzata 60 giorni prima.
    * Una volta scaduta la chiave, verrà visualizzato un banner rosso &quot;Scaduto&quot;.
 
-   >[!NOTE]
-   >
-   >Tieni presente che il Pannello di controllo Campaign non invierà alcuna notifica e-mail.
+  >[!NOTE]
+  >
+  >Tieni presente che il Pannello di controllo Campaign non invierà alcuna notifica e-mail.
 
 Come best practice, è consigliabile rimuovere qualsiasi chiave non più necessaria. A questo scopo, fai clic su **...** quindi selezionare **[!UICONTROL Delete Key].**.
 

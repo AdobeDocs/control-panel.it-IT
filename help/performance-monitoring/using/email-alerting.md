@@ -16,7 +16,7 @@ ht-degree: 3%
 
 # Avvisi e-mail {#email-alerting}
 
-Per garantire una maggiore flessibilità al lavoro, Pannelli di controllo Campaign è dotato di funzionalità di avviso e-mail in tempo reale.
+Per garantire una maggiore flessibilità al lavoro, Pannello di controllo Campaign è dotato di funzionalità di avviso e-mail in tempo reale.
 
 ## Elenco delle segnalazioni {#list}
 

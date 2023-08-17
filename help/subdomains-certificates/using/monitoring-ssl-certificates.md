@@ -10,7 +10,7 @@ exl-id: a7888e1c-259d-4601-951b-0f1062d90dc2
 source-git-commit: 01da21a883804b9c79c7ee4056d984f3df6cb96c
 workflow-type: tm+mt
 source-wordcount: '567'
-ht-degree: 61%
+ht-degree: 65%
 
 ---
 
@@ -30,7 +30,7 @@ Adobe Campaign consiglia di proteggere i sottodomini che ospitano le pagine di d
 
 ## Gestione dei certificati SSL {#management}
 
-Il monitoraggio dei certificati SSL è fondamentale per garantire la sicurezza dei sottodomini. Con Pannelli di controllo Campaign, puoi installare e rinnovare i certificati SSL dei sottodomini direttamente da te stesso oppure delegarli ad Adobe in modo che questo processo venga eseguito automaticamente senza alcuna azione richiesta dal tuo lato.
+Il monitoraggio dei certificati SSL è fondamentale per garantire la sicurezza dei sottodomini. Con Pannello di controllo Campaign, puoi installare e rinnovare i certificati SSL dei sottodomini direttamente da te stesso oppure delegarli ad Adobe in modo che questo processo venga eseguito automaticamente senza alcuna azione richiesta dal tuo lato.
 
 Si consiglia vivamente di delegare la gestione dei certificati SSL dei sottodomini ad Adobe, in quanto Adobe creerà automaticamente il certificato e lo rinnoverà ogni anno prima della scadenza. In questo modo si riduce il rischio di errori che possono verificarsi durante la gestione manuale dei certificati. [Scopri come delegare i certificati SSL dei sottodomini ad Adobe](delegate-ssl.md)
 
