@@ -2,16 +2,22 @@
 title: Note sulla versione 2023
 description: In questa pagina sono elencate tutte le versioni del Pannello di controllo del 2023.
 exl-id: 9a83e32a-4c11-4784-a6fe-341ce9ebc7a7
-source-git-commit: 40654418f0c5b298cc4fbd66a5d835355876a12c
+source-git-commit: 2a1119022af2ced06052cf48b50d6ff7be2d1faa
 workflow-type: tm+mt
-source-wordcount: '242'
+source-wordcount: '270'
 ht-degree: 100%
 
 ---
 
 # Note sulla versione 2023 {#rn-2023}
 
-## Miglioramenti di maggio 2023 {#june-2023}
+## Giugno 2023 {#june-2023}
+
+* Ora puoi delegare i certificati SSL dei sottodomini già delegati ad Adobe direttamente dall’elenco dei sottodomini. [Ulteriori informazioni](../subdomains-certificates/using/delegate-ssl.md)
+
+* Il mittente delle e-mail di avviso è stato modificato in `"alert@notifications.campaign.adobe.com"`.
+
+## Miglioramenti di maggio 2023 {#may-2023}
 
 **Delega dei certificati SSL dei sottodomini ad Adobe**
 
