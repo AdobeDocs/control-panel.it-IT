@@ -6,9 +6,9 @@ description: Scopri come aggiungere un record DMARC per un sottodominio.
 feature: Control Panel
 role: Architect
 level: Experienced
-source-git-commit: fc026f157346253fc79bde4ce624e7efa3373af2
+source-git-commit: f87a13c8553173e4303c9b95cfea5de05ff49cee
 workflow-type: tm+mt
-source-wordcount: '535'
+source-wordcount: '693'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,8 @@ ht-degree: 0%
 ## Informazioni sui record DMARC {#about}
 
 DMARC (Domain Based Message Authentication, Reporting and Conformance) è uno standard del protocollo di autenticazione e-mail che aiuta le organizzazioni a proteggere i domini e-mail dagli attacchi di phishing e spoofing. Consente di decidere in che modo un provider di caselle di posta deve gestire le e-mail che non superano i controlli SPF e DKIM, fornendo un modo per autenticare il dominio del mittente e impedire l’uso non autorizzato del dominio per scopi dannosi.
+
+<!--Detailed information on DMARC implementation is available in [Adobe Deliverability Best Practice Guide](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/implement-bimi.html)-->
 
 ## Limitazioni e prerequisiti {#limitations}
 
@@ -37,11 +39,17 @@ Per aggiungere un record DMARC per un sottodominio, effettua le seguenti operazi
 
 1. Scegli la **[!UICONTROL Policy Type]** che il server del destinatario deve seguire quando una delle e-mail non riesce. I tipi di criteri disponibili sono:
 
-   * Nessuna,
-   * quarantena (posizionamento di cartelle di posta indesiderata),
-   * Rifiuta (blocca l’e-mail).
+   * **[!UICONTROL None]**,
+   * **[!UICONTROL Quarantine]** (inserimento di cartelle di posta indesiderata),
+   * **[!UICONTROL Reject]** (blocca l’e-mail).
 
-   Se il sottodominio è appena stato configurato, si consiglia di impostare questo valore su &quot;None&quot; finché il sottodominio non è completamente configurato e le e-mail non vengono inviate correttamente. Una volta che tutto è configurato correttamente, puoi impostare il Tipo di criterio su &quot;Quarantena&quot; o &quot;Rifiuta&quot;.
+   Come best practice, si consiglia di implementare lentamente l’implementazione di DMARC aumentando il livello dei criteri DMARC da p=none a p=quarantena, fino a p=rifiuta man mano che acquisisci una comprensione DMARC del potenziale impatto di DMARC.
+
+   * **Passaggio 1:** Analizza il feedback ricevuto e utilizza (p=none), che indica al destinatario di non eseguire azioni contro i messaggi che non superano l’autenticazione, ma inviano comunque i rapporti e-mail al mittente. Inoltre, se l&#39;autenticazione dei messaggi legittimi non riesce, esaminare e risolvere i problemi relativi a SPF/DKIM.
+
+   * **Passaggio 2:** Determina se SPF e DKIM sono allineati e trasmettono l’autenticazione per tutte le e-mail legittime, quindi sposta il criterio in (p=quarantena), che indica al server e-mail ricevente di mettere in quarantena le e-mail che non riescono a eseguire l’autenticazione (in genere significa inserire tali messaggi nella cartella di posta indesiderata). Se il criterio è impostato per la quarantena, si consiglia di iniziare con una piccola percentuale delle e-mail.
+
+   * **Passaggio 3:** Imposta criterio su (p=rifiuta). NOTA: utilizza questo criterio con cautela e determina se è appropriato per la tua organizzazione. Il criterio p= rifiuta indica al destinatario di rifiutare completamente (non recapitare) qualsiasi e-mail per il dominio che non supera l’autenticazione. Con questo criterio abilitato, solo i messaggi e-mail verificati come autenticati al 100% dal dominio avranno anche la possibilità di inserire la casella in entrata.
 
    >[!NOTE]
    >
@@ -52,9 +60,9 @@ Per aggiungere un record DMARC per un sottodominio, effettua le seguenti operazi
    * I rapporti Aggregate-DMARC forniscono informazioni di alto livello come, ad esempio, il numero di e-mail non riuscite per un determinato periodo.
    * I rapporti forensi sugli errori DMARC forniscono informazioni dettagliate, ad esempio l’indirizzo IP da cui proviene l’e-mail non riuscita.
 
-1. Per impostazione predefinita, il criterio DMARC selezionato viene applicato a tutte le e-mail. Puoi modificare questo parametro per applicarlo solo a una percentuale specifica di e-mail.
+1. Se il criterio DMARC è impostato su &quot;None&quot;, immettere una percentuale valida per il 100% delle e-mail.
 
-   Quando distribuisci gradualmente DMARC, puoi iniziare con una piccola percentuale dei messaggi. Man mano che più messaggi provenienti dal dominio passano l’autenticazione con i server riceventi, aggiorna il record con una percentuale più alta, fino a raggiungere il 100%.
+   Se il criterio è impostato su &quot;Rifiuta&quot; o &quot;Quarantena&quot;, si consiglia di iniziare con una piccola percentuale delle e-mail. Man mano che più e-mail dal dominio passano l’autenticazione con i server riceventi, aggiorna il record lentamente con una percentuale più alta.
 
    >[!NOTE]
    >
