@@ -6,9 +6,9 @@ role: Architect
 level: Beginner
 exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab
 source-git-commit: fc026f157346253fc79bde4ce624e7efa3373af2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '240'
-ht-degree: 70%
+ht-degree: 100%
 
 ---
 
@@ -28,12 +28,12 @@ Il Pannello di controllo Campaign ti aiuta ad amministrare Campaign Standard e v
 
 **Gestione dei record DMARC e BIMI**
 
-Ora puoi aggiungere record DMARC e BIMI direttamente dal Pannello di controllo Campaign:
+Ora puoi aggiungere record DMARC e BIMI direttamente dal Pannello di controllo:
 
-* **Record DMARC** fornire un modo per autenticare il dominio del mittente e impedire l’uso non autorizzato del dominio per scopi dannosi. [Scopri come aggiungere record DMARC](subdomains-certificates/using/dmarc.md)
+* I **record DMARC** forniscono un modo per autenticare il dominio del mittente e impedire l’uso non autorizzato del dominio per scopi dannosi. [Scopri come aggiungere record DMARC](subdomains-certificates/using/dmarc.md)
 
 
-* **Record BIMI** consente di visualizzare un logo approvato accanto alle e-mail nelle caselle in entrata dei provider di caselle postali per migliorare il riconoscimento e l’affidabilità del marchio. [Scopri come aggiungere record BIMI](subdomains-certificates/using/bimi.md)
+* I **record BIMI** consentono di visualizzare un logo approvato accanto alle e-mail nelle caselle in entrata dei provider di cassette postali per migliorare il riconoscimento e l’affidabilità del brand. [Scopri come aggiungere record BIMI](subdomains-certificates/using/bimi.md)
 
 >[!CAUTION]
 >
