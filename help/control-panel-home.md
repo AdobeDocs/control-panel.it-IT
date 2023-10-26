@@ -5,10 +5,10 @@ feature: Control Panel
 role: Architect
 level: Beginner
 exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab
-source-git-commit: fc026f157346253fc79bde4ce624e7efa3373af2
+source-git-commit: 6a4db9712d3a92d8057758eb134b0178213f5ff8
 workflow-type: tm+mt
-source-wordcount: '240'
-ht-degree: 100%
+source-wordcount: '290'
+ht-degree: 62%
 
 ---
 
@@ -26,14 +26,21 @@ Il Pannello di controllo Campaign ti aiuta ad amministrare Campaign Standard e v
 
 ## Novità
 
-**Gestione dei record DMARC e BIMI**
+**Interfaccia utente**
 
-Ora puoi aggiungere record DMARC e BIMI direttamente dal Pannello di controllo:
+* Il Pannello di controllo Campaign è ora disponibile in altre lingue. [Ulteriori informazioni](discover/using/discovering-the-interface.md#supported-languages-languages)
 
-* I **record DMARC** forniscono un modo per autenticare il dominio del mittente e impedire l’uso non autorizzato del dominio per scopi dannosi. [Scopri come aggiungere record DMARC](subdomains-certificates/using/dmarc.md)
+**Monitoraggio profili attivi**
 
+* Se utilizzi più istanze, ora puoi monitorare il numero di profili attivi a cui hai diritto per la tua organizzazione e il numero totale di profili utilizzati nell’organizzazione all’interno di tutte le istanze. [Ulteriori informazioni](performance-monitoring/using/active-profiles-monitoring.md)
 
-* I **record BIMI** ti consentono di visualizzare un logo approvato accanto alle e-mail nelle caselle in entrata dei provider di casette postali per migliorare il riconoscimento e l’affidabilità del brand. [Scopri come aggiungere record BIMI](subdomains-certificates/using/bimi.md)
+**Record DMARC**
+
+* Più indirizzi e-mail possono ora ricevere e-mail di report aggregati e di report di errori. [Ulteriori informazioni](subdomains-certificates/using/dmarc.md)
+* Sono state apportate modifiche se esistono record DMARC e BIMI per un sottodominio:
+
+   * Impossibile eliminare i record DMARC. Se desideri eliminarne uno, devi prima eliminare il record BIMI.
+   * È possibile modificare i record DMARC, ma il downgrade del criterio a &quot;None&quot; non è consentito e il relativo valore percentuale deve essere 100.
 
 >[!CAUTION]
 >

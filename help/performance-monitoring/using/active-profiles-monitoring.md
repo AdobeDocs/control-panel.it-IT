@@ -7,14 +7,14 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: a157cc27-577f-490f-8c4f-0f203219cfb5
-source-git-commit: c1c80c03a351613ec0c6870a11ab39a634e8eab7
+source-git-commit: ebebff05669160b97de7e0d58d898ba0e3a30df1
 workflow-type: tm+mt
-source-wordcount: '397'
-ht-degree: 87%
+source-wordcount: '433'
+ht-degree: 41%
 
 ---
 
-# Monitoraggio profili attivi {#active-profiles-monitoring}
+# Monitorare i profili attivi {#active-profiles-monitoring}
 
 ## Informazioni sui profili attivi {#about-active-profiles}
 
@@ -34,33 +34,30 @@ I profili sono considerati attivi se sono stati targetizzati o se è avvenuta un
 
 Per ulteriori informazioni sui profili attivi, consulta [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/profiles-and-audiences/managing-profiles/active-profiles.html) e [Campaign v7/v8](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/about-profiles.html#active-profiles) documentazioni.
 
-## Monitorare i profili attivi {#monitoring-active-profiles}
+## Monitorare l’utilizzo dei profili attivi {#monitoring-active-profiles}
 
 >[!CONTEXTUALHELP]
 >id="cp_performancemonitoring_active_profile"
 >title="Informazioni sul monitoraggio dei profili attivi"
->abstract="In questa scheda, puoi ottenere informazioni in tempo reale con dati attuali e storici sull’utilizzo e l’evoluzione dei profili attivi per ciascuna istanza di Campaign."
->additional-url="https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html?lang=it" text="Informazioni sul monitoraggio delle prestazioni"
+>abstract="In questa scheda, puoi ottenere informazioni in tempo reale sull’utilizzo e l’evoluzione più recenti e storici dei profili attivi per ogni istanza di Campaign e organizzazione."
 
-Il Pannello di controllo consente di monitorare l’utilizzo dei profili attivi per ciascuna istanza di Campaign.
+Le informazioni relative all’utilizzo dei profili attivi vengono aggiornate in Pannello di controllo Campaign in base ai [!DNL Campaign] flussi di lavoro tecnici che vengono eseguiti quotidianamente sulle istanze:
+* Il flusso di lavoro [“Billing”](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/technical-workflows.html?lang=it) (Fatturazione) per Campaign Standard,
+* Il [&quot;Numero di profili di fatturazione attivi&quot;](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/about-technical-workflows.html?lang=it) per Campaign v7/v8.
 
-Per farlo, esegui questi passaggi:
 
-1. Apri la scheda **[!UICONTROL Performance Monitoring]**, quindi seleziona la scheda **[!UICONTROL Active Profiles]**.
+Per monitorare l’utilizzo del profilo attivo nel Pannello di controllo Campaign, passa alla **[!UICONTROL Performance Monitoring]** scheda > **[!UICONTROL Active Profiles]** e selezionare l&#39;istanza desiderata dalla scheda **[!UICONTROL Instance List]**.
 
-1. Seleziona l’istanza desiderata da **[!UICONTROL Instance List]**.
-
-1. Viene visualizzato il numero di profili attivi utilizzati dall’istanza e l’ultima volta che il flusso di lavoro di fatturazione è stato eseguito sull’istanza.
+Vengono visualizzate informazioni sull’utilizzo dei profili attivi.
 
 ![](assets/active-profiles-graph.png)
 
->[!NOTE]
->
->I profili attivi vengono conteggiati in base ai flussi di lavoro tecnici dedicati che vengono eseguiti quotidianamente sulle istanze:
->
->* Il flusso di lavoro [“Billing”](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/technical-workflows.html?lang=it) (Fatturazione) per Campaign Standard,
->* Il [&quot;Numero di profili di fatturazione attivi&quot;](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/about-technical-workflows.html?lang=it) per Campaign v7/v8.
+Nella sezione superiore vengono visualizzate le seguenti informazioni:
 
-L’area inferiore fornisce una rappresentazione grafica dell’utilizzo dei profili attivi negli ultimi 30 giorni. Puoi impostare il periodo di tempo visualizzato a 1 anno utilizzando i filtri disponibili nell’angolo in alto a destra.
+* Il numero di profili attivi attualmente utilizzati nell’istanza selezionata, insieme alla marca temporale dell’esecuzione più recente del flusso di lavoro di fatturazione per l’istanza.
 
-Passando il puntatore del mouse su una delle barre del grafico è possibile ottenere il numero esatto di profili attivi utilizzati durante il periodo selezionato.
+* Numero totale di profili attivi utilizzati nell’organizzazione in tutte le istanze. Questa sezione è visibile solo se alla tua organizzazione sono associate più istanze.
+
+* Numero totale di profili attivi allocati all’organizzazione.
+
+La sezione inferiore fornisce una rappresentazione visiva dell’utilizzo del profilo attivo negli ultimi 30 giorni. Puoi impostare questo intervallo di tempo su 1 anno utilizzando il filtro posizionato nell’angolo in alto a destra. Passando il cursore del mouse sul grafico è possibile ottenere il numero esatto di profili attivi utilizzati nel periodo selezionato.

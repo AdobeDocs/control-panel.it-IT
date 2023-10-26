@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: 2ca66983-5beb-495a-9639-a31905500cff
-source-git-commit: 64ea5e26786eea107983ee5025025c81334b0a91
-workflow-type: ht
-source-wordcount: '714'
-ht-degree: 100%
+source-git-commit: 14c873011782eef0413fe5fdb3b1a0eb357fa3bd
+workflow-type: tm+mt
+source-wordcount: '774'
+ht-degree: 92%
 
 ---
 
@@ -26,6 +26,9 @@ Informazioni dettagliate sull’implementazione di DMARC sono disponibili nella 
 
 * I record SPF e DKIM sono prerequisiti per la creazione di un record DMARC.
 * I record DMARC possono essere aggiunti solo per i sottodomini che utilizzano la delega completa dei sottodomini. [Ulteriori informazioni sui metodi di configurazione dei sottodomini](subdomains-branding.md#subdomain-delegation-methods)
+* Se esistono record DMARC e BIMI per un sottodominio:
+   * Impossibile eliminare i record DMARC. Se si desidera eliminare un record DMARC, eliminare prima il record BIMI.
+   * È possibile modificare i record DMARC, ma il downgrade dei criteri DMARC a &quot;None&quot; non è consentito e il valore percentuale deve essere impostato su &quot;100&quot;.
 
 ## Aggiungere un record DMARC per un sottodominio {#add}
 
@@ -55,7 +58,7 @@ Per aggiungere un record DMARC per un sottodominio, segui questi passaggi:
    >
    > La creazione di record BIMI non è disponibile con un tipo di criterio di record DMARC impostato su “Nessuno”.
 
-1. Inserisci gli indirizzi e-mail che devono ricevere i rapporti DMARC. Quando una delle e-mail non riesce, i rapporti DMARC vengono inviati automaticamente all’indirizzo e-mail scelto:
+1. Inserisci gli indirizzi e-mail che devono ricevere i rapporti DMARC. Puoi aggiungere più indirizzi e-mail, separati da virgole. Quando una delle e-mail non riesce, i rapporti DMARC vengono inviati automaticamente all’indirizzo e-mail scelto:
 
    * I rapporti Aggregate-DMARC forniscono informazioni di alto livello come, ad esempio, il numero di e-mail non riuscite per un determinato periodo.
    * I rapporti forensi sugli errori DMARC forniscono informazioni dettagliate, ad esempio l’indirizzo IP da cui proviene l’e-mail non riuscita.

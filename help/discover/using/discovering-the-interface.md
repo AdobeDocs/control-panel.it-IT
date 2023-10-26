@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Intermediate
 exl-id: 20302017-d4b1-489b-a6b4-f086e5bad4d5
-source-git-commit: 99409f462993191d8fb4d6dfacc77c1e4b973f68
+source-git-commit: ca503b824422227e762eeaf75a4cf5aeed4801f8
 workflow-type: tm+mt
-source-wordcount: '124'
-ht-degree: 37%
+source-wordcount: '221'
+ht-degree: 28%
 
 ---
 
@@ -41,3 +41,22 @@ Il pulsante **[!UICONTROL Open]** (Apri) consente di accedere direttamente alla 
 Il **[!UICONTROL Help Resources]** Questa sezione fornisce un’utile documentazione per aiutarti a utilizzare il Pannello di controllo Campaign e i prodotti Campaign. Non esitate ad esplorarle.
 
 ![](assets/helpresources.png)
+
+## Lingue supportate {#languages}
+
+L’interfaccia utente del Pannello di controllo Campaign è progettata per essere visualizzata nella lingua che corrisponde alla configurazione del browser.
+
+Se il browser è impostato su una lingua non supportata, il Pannello di controllo Campaign controlla le prime tre lingue nell&#39;elenco delle lingue del browser fino a trovare una lingua supportata. Se nessuna delle prime tre lingue è supportata dal Pannello di controllo Campaign, per impostazione predefinita verrà utilizzato l&#39;inglese (Stati Uniti).
+
+Di seguito è riportato un elenco delle lingue attualmente supportate dal Pannello di controllo Campaign:
+
+* Inglese (Stati Uniti)
+* Tedesco
+* Francese
+* Giapponese
+* Italiano (Italia)
+* Spagnolo (Spagna)
+* Coreano
+* Portoghese (Brasile)
+* Cinese (semplificato)
+* Cinese (tradizionale)
