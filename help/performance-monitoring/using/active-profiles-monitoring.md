@@ -7,7 +7,7 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: a157cc27-577f-490f-8c4f-0f203219cfb5
-source-git-commit: ebebff05669160b97de7e0d58d898ba0e3a30df1
+source-git-commit: cb18dbcbb3a575d88d3c13fe3f22a657caea1e7e
 workflow-type: tm+mt
 source-wordcount: '433'
 ht-degree: 41%
@@ -56,7 +56,11 @@ Nella sezione superiore vengono visualizzate le seguenti informazioni:
 
 * Il numero di profili attivi attualmente utilizzati nell’istanza selezionata, insieme alla marca temporale dell’esecuzione più recente del flusso di lavoro di fatturazione per l’istanza.
 
-* Numero totale di profili attivi utilizzati nell’organizzazione in tutte le istanze. Questa sezione è visibile solo se alla tua organizzazione sono associate più istanze.
+* Numero totale di profili attivi utilizzati nell’organizzazione in tutte le istanze.
+
+  >[!NOTE]
+  >
+  >Questa sezione è visibile solo se alla tua organizzazione sono associate più istanze.
 
 * Numero totale di profili attivi allocati all’organizzazione.
 
