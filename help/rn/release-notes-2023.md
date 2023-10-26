@@ -2,14 +2,34 @@
 title: Note sulla versione 2023
 description: In questa pagina sono elencate tutte le versioni del Pannello di controllo del 2023.
 exl-id: 9a83e32a-4c11-4784-a6fe-341ce9ebc7a7
-source-git-commit: 2a1119022af2ced06052cf48b50d6ff7be2d1faa
+source-git-commit: a8e2fb9789e9755aa6b9c55019816d7e748606ec
 workflow-type: ht
-source-wordcount: '270'
+source-wordcount: '341'
 ht-degree: 100%
 
 ---
 
 # Note sulla versione 2023 {#rn-2023}
+
+## Settembre 2023 {#september-2023}
+
+<table>
+<thead>
+<tr>
+<th><strong>Gestione dei record DMARC e BIMI</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p><p>Ora puoi aggiungere record DMARC e BIMI direttamente dal Pannello di controllo:
+
+<ul><li>I <strong>record DMARC</strong> forniscono un modo per autenticare il dominio del mittente e impedire l’uso non autorizzato del dominio per scopi dannosi. <a href="../subdomains-certificates/using/dmarc.md">Scopri come aggiungere record DMARC</a></li>
+<li>I <strong>record BIMI</strong> ti consentono di visualizzare un logo approvato accanto alle e-mail nelle caselle in entrata dei provider di casette postali per migliorare il riconoscimento e l’affidabilità del brand. <a href="../subdomains-certificates/using/bimi.md">Scopri come aggiungere record BIMI</a></li></ul>
+</td>
+</tr>
+</tbody>
+</table>
 
 ## Giugno 2023 {#june-2023}
 
