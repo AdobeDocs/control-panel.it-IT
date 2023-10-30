@@ -6,9 +6,9 @@ role: Admin
 level: Experienced
 exl-id: 13aceffb-ceaa-4cfe-8741-95d66c5c6caa
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '148'
-ht-degree: 26%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ Questa pagina elenca le nuove funzionalità e i miglioramenti introdotti in Pann
 
 **Interfaccia utente**
 
-* Il Pannello di controllo Campaign è ora disponibile in altre lingue. [Ulteriori informazioni](../discover/using/discovering-the-interface.md#supported-languages-languages)
+* Il Pannello di controllo è ora disponibile in altre lingue. [Ulteriori informazioni](../discover/using/discovering-the-interface.md#supported-languages-languages)
 
 **Monitoraggio profili attivi**
 
@@ -32,5 +32,5 @@ Questa pagina elenca le nuove funzionalità e i miglioramenti introdotti in Pann
 * Sono state apportate modifiche se esistono record DMARC e BIMI per un sottodominio:
 
    * Impossibile eliminare i record DMARC. Se desideri eliminarne uno, devi prima eliminare il record BIMI.
-   * È possibile modificare i record DMARC, ma il downgrade del criterio a &quot;None&quot; non è consentito e il relativo valore percentuale deve essere 100.
+   * È possibile modificare i record DMARC, ma il downgrade del criterio a “Nessuno” non è consentito e il relativo valore percentuale deve essere 100.
 
