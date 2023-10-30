@@ -4,17 +4,17 @@ solution: Campaign
 title: Aggiungere record di verifica del sito Google per un sottodominio
 description: Scopri come aggiungere un record Google Site Verification per un sottodominio per la verifica della proprietà del dominio.
 feature: Control Panel
-role: Architect
+role: Admin
 level: Experienced
 exl-id: 547ca6f2-720f-4d58-b31b-5b2611ba9156
-source-git-commit: 355abf48cce3036d1c3e0f6c5fe3ca8fb63cf645
+source-git-commit: e8bffd8e7f571fd85c725adf837c2997f7615fcd
 workflow-type: tm+mt
 source-wordcount: '289'
-ht-degree: 73%
+ht-degree: 83%
 
 ---
 
-# Aggiungi record di verifica del sito Google {#adding-a-google-txt-record}
+# Aggiungere record di verifica del sito Google {#adding-a-google-txt-record}
 
 Al fine di garantire tassi di posta in arrivo elevati e tassi di posta indesiderata ridotti, alcuni servizi, come Google, richiedono l’aggiunta di un record TXT alle impostazioni del dominio per verificare che tu sia il proprietario del dominio.
 
@@ -24,7 +24,7 @@ Per aggiungere un record TXT di Google al tuo sottodominio utilizzato per inviar
 
 1. Dall’elenco dei sottodomini, fai clic sul pulsante con i puntini di sospensione accanto al sottodominio desiderato e seleziona **[!UICONTROL Subdomain details]**.
 
-1. Fai clic su **[!UICONTROL Add TXT record]** , quindi scegliere **[!UICONTROL Google Site Verification]** dal **[!UICONTROL Record Type]** elenco a discesa.
+1. Fai clic sul pulsante **[!UICONTROL Add TXT record]**, quindi scegli **[!UICONTROL Google Site Verification]** dall’elenco a discesa **[!UICONTROL Record Type]**.
 
 1. Immetti il valore generato negli strumenti di amministrazione di G Suite. Per ulteriori informazioni, consulta la [Guida di Amministratore di G Suite](https://support.google.com/a/answer/183895?hl=it).
 

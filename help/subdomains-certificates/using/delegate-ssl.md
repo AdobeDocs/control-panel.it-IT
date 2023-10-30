@@ -4,10 +4,10 @@ solution: Campaign
 title: Delegare i certificati SSL dei sottodomini ad Adobe
 description: Scopri come delegare i certificati SSL dei sottodomini ad Adobe
 feature: Control Panel
-role: Architect
+role: Admin
 level: Experienced
 exl-id: a2b3d409-704b-4e81-ae40-b734f755b598
-source-git-commit: 9548bef1500498c1778ce5854017388490320595
+source-git-commit: e8bffd8e7f571fd85c725adf837c2997f7615fcd
 workflow-type: tm+mt
 source-wordcount: '325'
 ht-degree: 100%

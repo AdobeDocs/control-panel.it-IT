@@ -4,10 +4,10 @@ solution: Campaign
 title: Accesso al Pannello di controllo
 description: Scopri come accedere al Pannello di controllo
 feature: Control Panel
-role: Architect
-level: Beginner
+role: Admin
+level: Experienced
 exl-id: eb67af6e-a64e-49a7-9656-782f91bc1d67
-source-git-commit: cca04cd965c00a9e2bc496de632ee41ce53a166a
+source-git-commit: e8bffd8e7f571fd85c725adf837c2997f7615fcd
 workflow-type: tm+mt
 source-wordcount: '174'
 ht-degree: 13%

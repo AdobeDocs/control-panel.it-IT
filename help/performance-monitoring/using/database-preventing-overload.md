@@ -4,10 +4,10 @@ solution: Campaign
 title: Prevenzione del sovraccarico del database
 description: Accedi alle risorse dalla documentazione di Campaign per evitare il sovraccarico del database sulle istanze.
 feature: Control Panel
-role: Architect
+role: Admin
 level: Experienced
 exl-id: 07118637-cebd-4dd8-8374-2d7c20a47a89
-source-git-commit: 95390bb1f8af21907ce8984279a6a73dd7828b00
+source-git-commit: e8bffd8e7f571fd85c725adf837c2997f7615fcd
 workflow-type: tm+mt
 source-wordcount: '174'
 ht-degree: 69%

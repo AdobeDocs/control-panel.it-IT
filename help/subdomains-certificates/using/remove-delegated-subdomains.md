@@ -4,10 +4,10 @@ solution: Campaign
 title: Rimuovi la delega dei sottodomini
 description: Scopri come rimuovere la delega dei sottodomini ad Adobe.
 feature: Control Panel
-role: Architect
+role: Admin
 level: Experienced
 exl-id: 517818c9-8557-49fd-b49c-b98b60e48f1c
-source-git-commit: ea738ea3764e4651e0eb7b4bcc68a9f7b3c8d1e5
+source-git-commit: e8bffd8e7f571fd85c725adf837c2997f7615fcd
 workflow-type: tm+mt
 source-wordcount: '818'
 ht-degree: 100%

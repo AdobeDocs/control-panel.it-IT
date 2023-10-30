@@ -4,10 +4,10 @@ solution: Campaign
 title: Monitoraggio dei sottodomini
 description: Monitora i sottodomini per assicurarti che siano tutti configurati correttamente per funzionare con Adobe Campaign.
 feature: Control Panel
-role: Architect
+role: Admin
 level: Experienced
 exl-id: edd55d07-bf0b-44b0-8281-be69c698d5e8
-source-git-commit: acf0334e894649d6b5edf0b96877c3f643894763
+source-git-commit: e8bffd8e7f571fd85c725adf837c2997f7615fcd
 workflow-type: tm+mt
 source-wordcount: '148'
 ht-degree: 10%

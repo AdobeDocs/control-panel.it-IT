@@ -4,10 +4,10 @@ solution: Campaign
 title: Domande comuni
 description: Ulteriori informazioni sulle domande comuni relative alla gestione SFTP
 feature: Control Panel
-role: Architect
+role: Admin
 level: Intermediate
 exl-id: f3aa4d56-491f-4d5d-9892-9bbafd6b1a50
-source-git-commit: 4fc34b07b497c743e2ca6c182e68d6ea5c180ac9
+source-git-commit: e8bffd8e7f571fd85c725adf837c2997f7615fcd
 workflow-type: tm+mt
 source-wordcount: '109'
 ht-degree: 100%

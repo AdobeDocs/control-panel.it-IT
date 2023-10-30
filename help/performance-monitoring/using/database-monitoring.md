@@ -4,10 +4,10 @@ solution: Campaign
 title: Informazioni sul monitoraggio del database
 description: Scopri come monitorare il database Campaign nel Pannello di controllo
 feature: Control Panel
-role: Architect
+role: Admin
 level: Experienced
 exl-id: 2bd7d2dd-97be-49bb-9f8e-7161d0742bc1
-source-git-commit: 80a96152ffcfa184fbeb6fc5cddcb119655ffab1
+source-git-commit: e8bffd8e7f571fd85c725adf837c2997f7615fcd
 workflow-type: tm+mt
 source-wordcount: '384'
 ht-degree: 78%

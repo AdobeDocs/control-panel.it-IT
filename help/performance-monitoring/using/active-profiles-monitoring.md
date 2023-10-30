@@ -4,10 +4,10 @@ solution: Campaign
 title: Monitoraggio profili attivi
 description: Scopri come ottenere informazioni in tempo reale su utilizzi ed evoluzioni più recenti e storici dei profili attivi per ciascuna delle istanze di Campaign.
 feature: Control Panel
-role: Architect
+role: Admin
 level: Experienced
 exl-id: a157cc27-577f-490f-8c4f-0f203219cfb5
-source-git-commit: cb18dbcbb3a575d88d3c13fe3f22a657caea1e7e
+source-git-commit: e8bffd8e7f571fd85c725adf837c2997f7615fcd
 workflow-type: tm+mt
 source-wordcount: '433'
 ht-degree: 41%
