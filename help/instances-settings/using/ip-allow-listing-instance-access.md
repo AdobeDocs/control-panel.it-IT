@@ -3,11 +3,11 @@ product: campaign
 solution: Campaign
 title: Inserimento di IP nell’elenco Consentiti
 description: Scopri come aggiungere indirizzi IP all’elenco Consentiti nel Pannello di controllo per accedere alle istanze
-feature: Control Panel
+feature: Control Panel, Access Management
 role: Admin
 level: Intermediate
 exl-id: 1d1eeff8-969e-4529-b947-2a68defb8d13
-source-git-commit: e8bffd8e7f571fd85c725adf837c2997f7615fcd
+source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
 workflow-type: tm+mt
 source-wordcount: '803'
 ht-degree: 84%

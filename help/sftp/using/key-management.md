@@ -3,11 +3,11 @@ product: campaign
 solution: Campaign
 title: Gestione delle chiavi
 description: Scopri come gestire le chiavi per la connessione ai server SFTP
-feature: Control Panel
+feature: Control Panel, SFTP Management
 role: Admin
 level: Experienced
 exl-id: 03815e01-6371-4e1c-b4b8-7abe25957cee
-source-git-commit: e8bffd8e7f571fd85c725adf837c2997f7615fcd
+source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
 workflow-type: tm+mt
 source-wordcount: '1054'
 ht-degree: 41%

@@ -3,11 +3,11 @@ product: campaign
 solution: Campaign
 title: Le 10 risorse temporanee principali
 description: Scopri come monitorare nel Pannello di controllo Campaign le 10 risorse temporanee più grandi generate dai flussi di lavoro e dalle consegne nel database di Campaign.
-feature: Control Panel
+feature: Control Panel, Monitoring
 role: Admin
 level: Experienced
 exl-id: 2fa2ffbb-102b-42c4-8feb-b0263ee9c930
-source-git-commit: e8bffd8e7f571fd85c725adf837c2997f7615fcd
+source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
 workflow-type: tm+mt
 source-wordcount: '175'
 ht-degree: 69%

@@ -3,11 +3,11 @@ product: campaign
 solution: Campaign
 title: Inserimento di intervalli IP nell’elenco Consentiti
 description: Scopri come aggiungere intervalli IP all’elenco Consentiti per accedere ai server SFTP
-feature: Control Panel
+feature: Control Panel, SFTP Management
 role: Admin
 level: Experienced
 exl-id: 45a3bfcd-500c-4139-b610-d39989260ab7
-source-git-commit: e8bffd8e7f571fd85c725adf837c2997f7615fcd
+source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
 workflow-type: tm+mt
 source-wordcount: '1048'
 ht-degree: 40%
