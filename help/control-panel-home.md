@@ -6,9 +6,9 @@ role: Admin
 level: Experienced
 exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab
 source-git-commit: e8bffd8e7f571fd85c725adf837c2997f7615fcd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '290'
-ht-degree: 62%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ Il Pannello di controllo Campaign ti aiuta ad amministrare Campaign Standard e v
 
 **Interfaccia utente**
 
-* Il Pannello di controllo Campaign è ora disponibile in altre lingue. [Ulteriori informazioni](discover/using/discovering-the-interface.md#supported-languages-languages)
+* Il Pannello di controllo è ora disponibile in altre lingue. [Ulteriori informazioni](discover/using/discovering-the-interface.md#supported-languages-languages)
 
 **Monitoraggio profili attivi**
 
@@ -38,7 +38,7 @@ Il Pannello di controllo Campaign ti aiuta ad amministrare Campaign Standard e v
 * Sono state apportate modifiche se esistono record DMARC e BIMI per un sottodominio:
 
    * Impossibile eliminare i record DMARC. Se desideri eliminarne uno, devi prima eliminare il record BIMI.
-   * È possibile modificare i record DMARC, ma il downgrade del criterio a &quot;None&quot; non è consentito e il relativo valore percentuale deve essere 100.
+   * È possibile modificare i record DMARC, ma il downgrade del criterio a “Nessuno” non è consentito e il relativo valore percentuale deve essere 100.
 
 >[!CAUTION]
 >
