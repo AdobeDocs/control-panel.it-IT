@@ -8,9 +8,9 @@ role: Admin
 level: Experienced
 exl-id: 2ca66983-5beb-495a-9639-a31905500cff
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '774'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ Informazioni dettagliate sull’implementazione di DMARC sono disponibili nella 
 * I record DMARC possono essere aggiunti solo per i sottodomini che utilizzano la delega completa dei sottodomini. [Ulteriori informazioni sui metodi di configurazione dei sottodomini](subdomains-branding.md#subdomain-delegation-methods)
 * Se esistono record DMARC e BIMI per un sottodominio:
    * Impossibile eliminare i record DMARC. Se si desidera eliminare un record DMARC, eliminare prima il record BIMI.
-   * È possibile modificare i record DMARC, ma il downgrade dei criteri DMARC a &quot;None&quot; non è consentito e il valore percentuale deve essere impostato su &quot;100&quot;.
+   * È possibile modificare i record DMARC, ma il downgrade dei criteri DMARC a “Nessuno” non è consentito e il valore percentuale deve essere impostato su “100”.
 
 ## Aggiungere un record DMARC per un sottodominio {#add}
 
@@ -58,7 +58,7 @@ Per aggiungere un record DMARC per un sottodominio, segui questi passaggi:
    >
    > La creazione di record BIMI non è disponibile con un tipo di criterio di record DMARC impostato su “Nessuno”.
 
-1. Inserisci gli indirizzi e-mail che devono ricevere i rapporti DMARC. Puoi aggiungere più indirizzi e-mail, separati da virgole. Quando una delle e-mail non riesce, i rapporti DMARC vengono inviati automaticamente all’indirizzo e-mail scelto:
+1. Inserisci gli indirizzi e-mail che devono ricevere i rapporti DMARC. Puoi aggiungere più indirizzi e-mail separati da virgole. Quando una delle e-mail non riesce, i rapporti DMARC vengono inviati automaticamente all’indirizzo e-mail scelto:
 
    * I rapporti Aggregate-DMARC forniscono informazioni di alto livello come, ad esempio, il numero di e-mail non riuscite per un determinato periodo.
    * I rapporti forensi sugli errori DMARC forniscono informazioni dettagliate, ad esempio l’indirizzo IP da cui proviene l’e-mail non riuscita.
