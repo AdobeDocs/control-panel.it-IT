@@ -2,15 +2,15 @@
 product: campaign
 solution: Campaign
 title: Esplorazione dell’interfaccia del Pannello di controllo
-description: Ulteriori informazioni sull'interfaccia di Pannello di controllo Campaign
+description: Ulteriori informazioni sull’interfaccia del Pannello di controllo
 feature: Control Panel, Overview
 role: Admin
 level: Intermediate
 exl-id: 20302017-d4b1-489b-a6b4-f086e5bad4d5
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '221'
-ht-degree: 28%
+ht-degree: 100%
 
 ---
 
@@ -24,9 +24,9 @@ Sono rappresentate da schede organizzate in argomenti, ad esempio **Monitoraggio
 
 ![](assets/control_panel_interface.png)
 
-## Registri del processi {#job-logs}
+## Registri dei lavori {#job-logs}
 
-Il **[!UICONTROL Job Logs]** nell’angolo in alto a destra puoi controllare tutte le modifiche che sono state apportate dagli utenti dell’organizzazione.
+Il pulsante **[!UICONTROL Job Logs]** nell’angolo in alto a destra consente di controllare tutte le modifiche che sono state apportate dagli utenti dell’organizzazione.
 
 ![](assets/control_panel_interface2.png)
 
@@ -36,19 +36,19 @@ Il pulsante **[!UICONTROL Open]** (Apri) consente di accedere direttamente alla 
 
 ![](assets/control_panel_logdetails.png)
 
-## Risorse di aiuto {#help-resources}
+## Risorse guida {#help-resources}
 
-Il **[!UICONTROL Help Resources]** Questa sezione fornisce un’utile documentazione per aiutarti a utilizzare il Pannello di controllo Campaign e i prodotti Campaign. Non esitate ad esplorarle.
+La sezione **[!UICONTROL Help Resources]** fornisce un’utile documentazione per aiutarti a utilizzare il Pannello di controllo e i prodotti Campaign. Non esitare ad esplorarle.
 
 ![](assets/helpresources.png)
 
 ## Lingue supportate {#languages}
 
-L’interfaccia utente del Pannello di controllo Campaign è progettata per essere visualizzata nella lingua che corrisponde alla configurazione del browser.
+L’interfaccia utente del Pannello di controllo è progettata per essere visualizzata nella lingua che corrisponde alla configurazione del browser.
 
-Se il browser è impostato su una lingua non supportata, il Pannello di controllo Campaign controlla le prime tre lingue nell&#39;elenco delle lingue del browser fino a trovare una lingua supportata. Se nessuna delle prime tre lingue è supportata dal Pannello di controllo Campaign, per impostazione predefinita verrà utilizzato l&#39;inglese (Stati Uniti).
+Se il browser è impostato su una lingua non supportata, il Pannello di controllo verifica le prime tre lingue nell’elenco delle lingue del browser fino a trovare una lingua supportata. Se nessuna delle prime tre lingue è supportata dal Pannello di controllo, per impostazione predefinita verrà utilizzato l’inglese (Stati Uniti).
 
-Di seguito è riportato un elenco delle lingue attualmente supportate dal Pannello di controllo Campaign:
+Di seguito è riportato un elenco delle lingue attualmente supportate dal Pannello di controllo:
 
 * Inglese (Stati Uniti)
 * Tedesco
