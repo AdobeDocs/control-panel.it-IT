@@ -8,9 +8,9 @@ role: Admin
 level: Experienced
 exl-id: a157cc27-577f-490f-8c4f-0f203219cfb5
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '433'
-ht-degree: 41%
+ht-degree: 100%
 
 ---
 
@@ -32,21 +32,21 @@ I profili sono considerati attivi se sono stati targetizzati o se è avvenuta un
 >
 >I canali Facebook e Twitter non vengono presi in considerazione.
 
-Per ulteriori informazioni sui profili attivi, consulta [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/profiles-and-audiences/managing-profiles/active-profiles.html) e [Campaign v7/v8](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/about-profiles.html#active-profiles) documentazioni.
+Per ulteriori informazioni sui profili attivi, consulta la documentazione [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/profiles-and-audiences/managing-profiles/active-profiles.html?lang=it) e [Campaign v7/v8](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/about-profiles.html?lang=it#active-profiles).
 
 ## Monitorare l’utilizzo dei profili attivi {#monitoring-active-profiles}
 
 >[!CONTEXTUALHELP]
 >id="cp_performancemonitoring_active_profile"
 >title="Informazioni sul monitoraggio dei profili attivi"
->abstract="In questa scheda, puoi ottenere informazioni in tempo reale sull’utilizzo e l’evoluzione più recenti e storici dei profili attivi per ogni istanza di Campaign e organizzazione."
+>abstract="In questa scheda, puoi ottenere informazioni in tempo reale con dati attuali e storici sull’utilizzo e l’evoluzione dei profili attivi per ciascuna istanza di Campaign."
 
-Le informazioni relative all’utilizzo dei profili attivi vengono aggiornate in Pannello di controllo Campaign in base ai [!DNL Campaign] flussi di lavoro tecnici che vengono eseguiti quotidianamente sulle istanze:
+Le informazioni relative all’utilizzo dei profili attivi vengono aggiornate in Pannello di controllo in base ai flussi di lavoro tecnici di [!DNL Campaign] che vengono eseguiti quotidianamente sulle istanze:
 * Il flusso di lavoro [“Billing”](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/technical-workflows.html?lang=it) (Fatturazione) per Campaign Standard,
-* Il [&quot;Numero di profili di fatturazione attivi&quot;](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/about-technical-workflows.html?lang=it) per Campaign v7/v8.
+* Il flusso di lavoro [“Number of active billing profiles”](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/about-technical-workflows.html?lang=it) (Numero di profili di fatturazione attivi) per Campaign v7/v8.
 
 
-Per monitorare l’utilizzo del profilo attivo nel Pannello di controllo Campaign, passa alla **[!UICONTROL Performance Monitoring]** scheda > **[!UICONTROL Active Profiles]** e selezionare l&#39;istanza desiderata dalla scheda **[!UICONTROL Instance List]**.
+Per monitorare l’utilizzo del profilo attivo nel Pannello di controllo, passa alla scheda **[!UICONTROL Performance Monitoring]** > **[!UICONTROL Active Profiles]** e seleziona l’istanza desiderata dalla scheda **[!UICONTROL Instance List]**.
 
 Vengono visualizzate informazioni sull’utilizzo dei profili attivi.
 
@@ -64,4 +64,4 @@ Nella sezione superiore vengono visualizzate le seguenti informazioni:
 
 * Numero totale di profili attivi allocati all’organizzazione.
 
-La sezione inferiore fornisce una rappresentazione visiva dell’utilizzo del profilo attivo negli ultimi 30 giorni. Puoi impostare questo intervallo di tempo su 1 anno utilizzando il filtro posizionato nell’angolo in alto a destra. Passando il cursore del mouse sul grafico è possibile ottenere il numero esatto di profili attivi utilizzati nel periodo selezionato.
+La sezione inferiore fornisce una rappresentazione visiva dell’utilizzo del profilo attivo negli ultimi 30 giorni. Puoi impostare questo intervallo di tempo su 1 anno utilizzando il filtro posizionato nell’angolo in alto a destra. Passando il puntatore del mouse su una delle barre del grafico è possibile ottenere il numero esatto di profili attivi utilizzati durante il periodo selezionato.
