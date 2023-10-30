@@ -5,7 +5,7 @@ feature: Control Panel
 role: Architect
 level: Beginner
 exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab
-source-git-commit: 6a4db9712d3a92d8057758eb134b0178213f5ff8
+source-git-commit: 5980b9d978e20996ac58fb730a286f0c0b92b781
 workflow-type: tm+mt
 source-wordcount: '290'
 ht-degree: 62%
@@ -19,8 +19,6 @@ ht-degree: 62%
 >title="Informazioni sul Pannello di controllo"
 >abstract="La home page del Pannello di controllo ti consente di accedere a tutte le azioni che possono essere eseguite sulle istanze Campaign."
 >additional-url="https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/accessing-control-panel.html?lang=it" text="Accesso al Pannello di controllo"
-
-![](assets/do-not-localize/banner.png)
 
 Il Pannello di controllo Campaign ti aiuta ad amministrare Campaign Standard e v7/v8 in modo più efficiente, consentendoti di gestire le impostazioni e tenere traccia dell’utilizzo di ciascuna istanza di Campaign.
 
