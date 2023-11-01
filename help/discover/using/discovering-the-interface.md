@@ -9,8 +9,8 @@ level: Intermediate
 exl-id: 20302017-d4b1-489b-a6b4-f086e5bad4d5
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
 workflow-type: tm+mt
-source-wordcount: '221'
-ht-degree: 100%
+source-wordcount: '226'
+ht-degree: 91%
 
 ---
 
@@ -26,7 +26,7 @@ Sono rappresentate da schede organizzate in argomenti, ad esempio **Monitoraggio
 
 ## Registri dei lavori {#job-logs}
 
-Il pulsante **[!UICONTROL Job Logs]** nell’angolo in alto a destra consente di controllare tutte le modifiche che sono state apportate dagli utenti dell’organizzazione.
+Il pulsante **[!UICONTROL Registri processi]** nell’angolo in alto a destra consente di controllare tutte le modifiche che sono state apportate dagli utenti dell’organizzazione.
 
 ![](assets/control_panel_interface2.png)
 
@@ -38,7 +38,7 @@ Il pulsante **[!UICONTROL Open]** (Apri) consente di accedere direttamente alla 
 
 ## Risorse guida {#help-resources}
 
-La sezione **[!UICONTROL Help Resources]** fornisce un’utile documentazione per aiutarti a utilizzare il Pannello di controllo e i prodotti Campaign. Non esitare ad esplorarle.
+Il **[!UICONTROL Risorse di aiuto]** Questa sezione fornisce un’utile documentazione per aiutarti a utilizzare il Pannello di controllo Campaign e i prodotti Campaign. Non esitare ad esplorarle.
 
 ![](assets/helpresources.png)
 

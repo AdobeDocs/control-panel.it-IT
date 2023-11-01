@@ -9,8 +9,8 @@ level: Experienced
 exl-id: a7888e1c-259d-4601-951b-0f1062d90dc2
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
 workflow-type: tm+mt
-source-wordcount: '567'
-ht-degree: 65%
+source-wordcount: '573'
+ht-degree: 57%
 
 ---
 
@@ -51,7 +51,7 @@ Di seguito è riportato un elenco completo degli impatti associati alla gestione
 >title="Dettagli del sottodominio"
 >abstract="Recupera informazioni sui certificati SSL dei sottodomini."
 
-Lo stato dei certificati SSL dei sottodomini è disponibile direttamente nell’elenco dei sottodomini selezionando la scheda **[!UICONTROL Subdomains & Certificates]**.
+Lo stato dei certificati SSL dei sottodomini è disponibile direttamente nell’elenco dei sottodomini selezionando l’opzione **[!UICONTROL Sottodomini e certificati]** Card.
 
 I sottodomini sono organizzati in base alla data di scadenza più vicina del certificato SSL, con informazioni visive sulla scadenza, espressa in giorni:
 
@@ -62,10 +62,10 @@ I sottodomini sono organizzati in base alla data di scadenza più vicina del cer
 
 ![](assets/subdomains_list.png)
 
-Per visualizzare ulteriori dettagli su un sottodominio, fai clic sul pulsante **[!UICONTROL Subdomain Details]**.
+Per ottenere ulteriori dettagli su un sottodominio, fai clic su **[!UICONTROL Dettagli del sottodominio]** pulsante.
 Viene visualizzato l’elenco di tutti i relativi sottodomini. In genere include i sottodomini di pagine di destinazione, pagine di risorse, ecc..
 
-La scheda **[!UICONTROL Sender info]** fornisce informazioni sulle caselle in entrata configurate (Sender, Reply to, Error email [Mittente, Risposta, E-mail di errore]).
+Il **[!UICONTROL Informazioni mittente]** fornisce informazioni sulle caselle in entrata configurate (Sender, Reply to, Error email [Mittente, Risposta, E-mail di errore]).
 
 ![](assets/subdomain_details.png)
 

@@ -9,8 +9,8 @@ level: Experienced
 exl-id: 03815e01-6371-4e1c-b4b8-7abe25957cee
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
 workflow-type: tm+mt
-source-wordcount: '1054'
-ht-degree: 41%
+source-wordcount: '1082'
+ht-degree: 38%
 
 ---
 
@@ -55,7 +55,7 @@ In casi molto rari, l’autenticazione basata su password è abilitata su alcuni
 >
 >Devi sempre seguire le linee guida della tua organizzazione per quanto riguarda le chiavi SSH. I passaggi seguenti sono solo un esempio di come si può creare una chiave SSH e possono fungere da utile punto di riferimento per la comunicazione dei requisiti al team o al gruppo di rete interno.
 
-1. Accedi alla scheda **[!UICONTROL Key Management]**, quindi fai clic sul pulsante **[!UICONTROL Add new public key]**.
+1. Accedi a **[!UICONTROL Gestione delle chiavi]** , quindi fare clic sulla scheda **[!UICONTROL Aggiungi nuova chiave pubblica]** pulsante.
 
    ![](assets/key0.png)
 
@@ -69,17 +69,17 @@ In casi molto rari, l’autenticazione basata su password è abilitata su alcuni
    >
    >Per ogni utente è possibile aggiungere una o più chiavi SSH pubbliche.
 
-1. Per gestire meglio le chiavi pubbliche, puoi impostare una durata per la disponibilità di ciascuna chiave. A tale scopo, selezionare un&#39;unità nella **[!UICONTROL Type]** e definire una durata nel campo corrispondente. Per ulteriori informazioni sulla scadenza della chiave pubblica, consulta [questa sezione](#expiry).
+1. Per gestire meglio le chiavi pubbliche, puoi impostare una durata per la disponibilità di ciascuna chiave. A tale scopo, selezionare un&#39;unità nella **[!UICONTROL Tipo]** e definire una durata nel campo corrispondente. Per ulteriori informazioni sulla scadenza della chiave pubblica, consulta [questa sezione](#expiry).
 
    ![](assets/key_expiry.png)
 
    >[!NOTE]
    >
-   >Per impostazione predefinita, il **[!UICONTROL Type]** è impostato su **[!UICONTROL Unlimited]**, il che significa che la chiave pubblica non scade mai.
+   >Per impostazione predefinita, il **[!UICONTROL Tipo]** è impostato su **[!UICONTROL Senza limiti]**, il che significa che la chiave pubblica non scade mai.
 
-1. In **[!UICONTROL Comment]** , è possibile indicare un motivo per l&#39;aggiunta di questa chiave pubblica (perché, per chi, ecc.).
+1. In **[!UICONTROL Commento]** , è possibile indicare un motivo per l&#39;aggiunta di questa chiave pubblica (perché, per chi, ecc.).
 
-1. Essere in grado di compilare il **[!UICONTROL Public Key]** generare una chiave SSH pubblica. Seguire le istruzioni riportate di seguito in base al sistema operativo in uso.
+1. Essere in grado di compilare il **[!UICONTROL Chiave pubblica]** generare una chiave SSH pubblica. Seguire le istruzioni riportate di seguito in base al sistema operativo in uso.
 
    **Linux e Mac:**
 
@@ -99,9 +99,9 @@ In casi molto rari, l’autenticazione basata su password è abilitata su alcuni
 
    >[!NOTE]
    >
-   >Il **[!UICONTROL Public Key]** accetta solo il formato OpenSSH. La dimensione della chiave SSH pubblica deve essere **2048 bit**.
+   >Il **[!UICONTROL Chiave pubblica]** accetta solo il formato OpenSSH. La dimensione della chiave SSH pubblica deve essere **2048 bit**.
 
-1. Fai clic sul pulsante **[!UICONTROL Save]** per creare la chiave. Il Pannello di controllo Campaign salva la chiave pubblica e l&#39;impronta digitale associata, crittografate con il formato SHA256.
+1. Fai clic su **[!UICONTROL Salva]** per creare la chiave. Il Pannello di controllo Campaign salva la chiave pubblica e l&#39;impronta digitale associata, crittografate con il formato SHA256.
 
 >[!IMPORTANT]
 >
@@ -117,7 +117,7 @@ Il pulsante “**...**” ti consente di eliminare una chiave esistente o di cop
 
 ## Gestione delle chiavi pubbliche {#managing-public-keys}
 
-Le chiavi pubbliche create vengono visualizzate in **[!UICONTROL Key Management]** scheda.
+Le chiavi pubbliche create vengono visualizzate in **[!UICONTROL Gestione delle chiavi]** scheda.
 
 Puoi ordinare gli elementi in base alla data di creazione o di edizione, all’utente che li ha creati o modificati e alla scadenza dell’intervallo IP.
 
@@ -127,17 +127,17 @@ Puoi ordinare gli elementi in base alla data di creazione o di edizione, all’u
 
 Per modificare uno o più intervalli IP, consulta [questa sezione](#editing-public-keys).
 
-Per eliminare una o più chiavi pubbliche dall’elenco, selezionale, quindi fai clic su **[!UICONTROL Delete public key]** pulsante.
+Per eliminare una o più chiavi pubbliche dall’elenco, selezionale, quindi fai clic su **[!UICONTROL Elimina chiave pubblica]** pulsante.
 
 ![](assets/control_panel_delete_key.png)
 
 ### Scadenza {#expiry}
 
-Il **[!UICONTROL Expires]** mostra quanti giorni mancano alla scadenza della chiave pubblica.
+Il **[!UICONTROL Scade]** mostra quanti giorni mancano alla scadenza della chiave pubblica.
 
 Se ti sei iscritto a [avvisi e-mail](../../performance-monitoring/using/email-alerting.md), riceverai notifiche tramite e-mail 10 giorni e 5 giorni prima della scadenza di una chiave pubblica e il giorno della scadenza. Dopo aver ricevuto l’avviso, puoi [modifica la chiave pubblica](#editing-public-keys) di prorogarne il periodo di validità, se necessario.
 
-Una chiave pubblica scaduta verrà eliminata automaticamente dopo 7 giorni. Viene visualizzato come **[!UICONTROL Expired]** nel **[!UICONTROL Expires]** colonna. Entro questo periodo di 7 giorni:
+Una chiave pubblica scaduta verrà eliminata automaticamente dopo 7 giorni. Viene visualizzato come **[!UICONTROL Scaduto]** nel **[!UICONTROL Scade]** colonna. Entro questo periodo di 7 giorni:
 
 * Una chiave pubblica scaduta non può più essere utilizzata per connettersi al server SFTP.
 
@@ -158,8 +158,8 @@ Per modificare le chiavi pubbliche, segui la procedura indicata di seguito.
 >
 >Puoi modificare solo le chiavi pubbliche create dal rilascio del Pannello di controllo Campaign di ottobre 2021.
 
-1. Seleziona uno o più elementi dal **[!UICONTROL Key Management]** elenco.
-1. Fai clic sul pulsante **[!UICONTROL Update public key]**.
+1. Seleziona uno o più elementi dal **[!UICONTROL Gestione delle chiavi]** elenco.
+1. Fai clic su **[!UICONTROL Aggiorna chiave pubblica]** pulsante.
 
    ![](assets/control_panel_edit_key.png)
 

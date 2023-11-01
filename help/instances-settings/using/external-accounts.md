@@ -8,9 +8,9 @@ role: Admin
 level: Intermediate
 exl-id: ff64acbe-d8cb-499b-b20f-b0934fb0f695
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
-workflow-type: ht
-source-wordcount: '555'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '581'
+ht-degree: 79%
 
 ---
 
@@ -53,11 +53,11 @@ I clienti ibridi devono connettersi al Pannello di controllo tramite Experience 
 >
 >Nel caso riscontrassi problemi durante l’accesso al Pannello di controllo, è probabile che l’istanza marketing non sia ancora stata mappata con il tuo [ID organizzazione](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=it). Contatta l’Assistenza clienti per completare la configurazione e procedere. Una volta stabilita la connessione, verrà visualizzata la pagina home del Pannello di controllo.
 
-Per poter accedere alle funzionalità del Pannello di controllo, devi fornire le informazioni sull’istanza MID/RT nella scheda **[!UICONTROL Instances Settings]**. A tale scopo, segui la procedura indicata di seguito.
+Per poter accedere alle funzionalità del Pannello di controllo, devi fornire le informazioni sull’istanza MID/RT in **[!UICONTROL Impostazioni delle istanze]** Card. A tale scopo, segui la procedura indicata di seguito.
 
-1. Nella scheda **[!UICONTROL Instances Settings]**, seleziona la scheda **[!UICONTROL External Accounts]**.
+1. In **[!UICONTROL Impostazioni delle istanze]** , seleziona la scheda **[!UICONTROL Account esterni]** scheda.
 
-1. Seleziona l’istanza marketing desiderata dall’elenco a discesa, quindi fai clic su **[!UICONTROL Add new URL]**.
+1. Seleziona l’istanza marketing desiderata dall’elenco a discesa, quindi fai clic su **[!UICONTROL Aggiungi nuovo URL]**.
 
    ![](assets/external-account-addbutton.png)
 
@@ -65,17 +65,17 @@ Per poter accedere alle funzionalità del Pannello di controllo, devi fornire le
 
    ![](assets/external-account-add.png)
 
-   * **[!UICONTROL URL]**: URL dell’istanza, accessibile nella console client di Campaign dal menu **[!UICONTROL Administration]** > **[!UICONTROL Platform]** > **[!UICONTROL External Accounts]**.
+   * **[!UICONTROL URL]**: URL dell’istanza, accessibile nella console client di Campaign in **[!UICONTROL Amministrazione]** > **[!UICONTROL Piattaforma]** > **[!UICONTROL Account esterni]** menu.
 
      ![](assets/external-account-url.png)
 
-   * **[!UICONTROL Operator]** / **[!UICONTROL Password]**: credenziali dell’operatore fornite dopo il provisioning iniziale da Adobe Admin.
+   * **[!UICONTROL Operatore]** / **[!UICONTROL Password]**: credenziali dell’operatore fornite dopo il provisioning iniziale da Adobe Admin.
 
      >[!NOTE]
      >
      >Se tali dettagli non sono disponibili, contatta l’Assistenza clienti.
 
-1. Fai clic su **[!UICONTROL Save]** per confermare.
+1. Clic **[!UICONTROL Salva]** per confermare.
 
 Quando si aggiunge un URL MID/RT, viene attivato un processo asincrono per convalidare la correttezza degli URL. Questo processo potrebbe richiedere alcuni minuti. Fino a quando l’URL dell’istanza MID/RT non viene convalidato, il lavoro risulterà in sospeso. Al completamento della convalida, potrai accedere alle funzionalità principali del Pannello di controllo.
 
@@ -85,7 +85,7 @@ Puoi rimuovere o disattivare l’URL di un’istanza MID/RT in qualsiasi momento
 
 ![](assets/external-account-edit.png)
 
-Inoltre puoi monitorare qualsiasi azione eseguita nella scheda **[!UICONTROL External Accounts]** sull’URL di un’istanza MID/RT da **[!UICONTROL Job Logs]**:
+Tieni presente che puoi monitorare qualsiasi azione eseguita in **[!UICONTROL Account esterni]** su un URL di istanza MID/RT dalla scheda **[!UICONTROL Registri processi]**:
 
 ![](assets/external-account-logs.png)
 
@@ -93,7 +93,7 @@ Inoltre puoi monitorare qualsiasi azione eseguita nella scheda **[!UICONTROL Ext
 
 Una volta che l’istanza MID/RT è stata aggiunta, è necessario aggiungere il relativo IP all’elenco Consentiti in modo che l’istanza di marketing possa connettersi ad essa.
 
-Questa operazione può essere eseguita dalla scheda **[!UICONTROL IP Allow Listing]** nella scheda **[!UICONTROL Instances Settings]**. [Scopri come aggiungere indirizzi IP all’elenco Consentiti](ip-allow-listing-instance-access.md)
+Questa operazione può essere eseguita dal **[!UICONTROL Elenco indirizzi IP consentiti]** scheda in **[!UICONTROL Impostazioni delle istanze]** Card. [Scopri come aggiungere indirizzi IP all’elenco Consentiti](ip-allow-listing-instance-access.md)
 
 Al termine della procedura, potrai utilizzare le funzionalità del Pannello di controllo con la tua istanza MID/RT.
 

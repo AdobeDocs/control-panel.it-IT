@@ -8,9 +8,9 @@ role: Admin
 level: Experienced
 exl-id: eb7863fb-6e6d-4821-a156-03fee03cdd0e
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
-workflow-type: ht
-source-wordcount: '494'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '508'
+ht-degree: 84%
 
 ---
 
@@ -39,15 +39,15 @@ Informazioni dettagliate sull’attuazione di BIMI sono disponibili nella [Guida
 
 Per aggiungere un record BIMI per un sottodominio, segui questi passaggi:
 
-1. Dall’elenco dei sottodomini, fai clic sul pulsante con i puntini di sospensione accanto al sottodominio desiderato e seleziona **[!UICONTROL Subdomain details]**.
+1. Dall’elenco dei sottodomini, fai clic sul pulsante con i puntini di sospensione accanto al sottodominio desiderato e seleziona **[!UICONTROL Dettagli del sottodominio]**.
 
-1. Fai clic sul pulsante **[!UICONTROL Add TXT record]**, quindi scegli **[!UICONTROL BIMI]** dall’elenco a discesa **[!UICONTROL Record type]**.
+1. Fai clic su **[!UICONTROL Aggiungi record TXT]** , quindi scegliere **[!UICONTROL BIMI]** dal **[!UICONTROL Tipo di record]** elenco a discesa.
 
    ![](assets/bimi-add.png)
 
-1. Nel **[!UICONTROL Company Logo URL]**, specifica l’URL del file SVG che contiene il logo.
+1. In **[!UICONTROL URL logo società]**, specifica l’URL del file SVG contenente il logo.
 
-1. Anche se **[!UICONTROL Certificate URL]** è facoltativo, è necessario per alcuni provider come Gmail e Apple che coprono l’80% del mercato delle cassette postali. Pertanto, è consigliabile ottenere un certificato VMC (Verified Mark Certificate) per sfruttare al meglio BIMI.
+1. Però **[!UICONTROL URL certificato]** è facoltativo, è necessario per alcuni provider di caselle postali come Gmail e Apple che coprono l’80% del mercato delle caselle postali. Pertanto, è consigliabile ottenere un certificato VMC (Verified Mark Certificate) per sfruttare al meglio BIMI.
 
    +++In che modo si ottiene un VMC?
 
@@ -64,6 +64,6 @@ Per aggiungere un record BIMI per un sottodominio, segui questi passaggi:
    Informazioni dettagliate sull’implementazione di BIMI sono disponibili nella [Documentazione standard di BIMI](https://bimigroup.org/implementation-guide/)
 +++
 
-1. Fai clic su **[!UICONTROL Add]** per confermare la creazione del record BIMI.
+1. Clic **[!UICONTROL Aggiungi]** per confermare la creazione del record BIMI.
 
 Una volta elaborata la creazione del record BIMI (circa 5 minuti), questo viene mostrato nella schermata dei dettagli dei sottodomini. [Scopri come monitorare i record TXT per i sottodomini](gs-txt-records.md#monitor)

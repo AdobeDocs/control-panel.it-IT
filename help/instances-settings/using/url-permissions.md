@@ -9,8 +9,8 @@ level: Intermediate
 exl-id: a7df90da-a2ce-409f-9bc3-c7d4fa3024c8
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
 workflow-type: tm+mt
-source-wordcount: '603'
-ht-degree: 85%
+source-wordcount: '612'
+ht-degree: 80%
 
 ---
 
@@ -56,7 +56,7 @@ Una volta aggiunto l’URL, viene inserito un suo riferimento nel file di config
 
 Per aggiungere un URL a cui l’istanza può connettersi, effettua le seguenti operazioni:
 
-1. Apri la scheda **[!UICONTROL Instances Settings]** (Impostazioni istanze) per accedere alla scheda **[!UICONTROL URL Permissions]** (Dettagli istanza).
+1. Apri la scheda **[!UICONTROL Instances Settings]** (Impostazioni istanze) per accedere alla scheda **[!UICONTROL URL Permissions]** (Autorizzazioni URL).
 
    >[!NOTE]
    >
@@ -64,7 +64,7 @@ Per aggiungere un URL a cui l’istanza può connettersi, effettua le seguenti o
    >
    >La scheda <b><span class="uicontrol">URL permissions (Autorizzazioni URL)</span></b> elenca tutti gli URL esterni a cui l’istanza può connettersi. Questo elenco non include gli URL necessari per il funzionamento di Campaign (ad esempio, le connessioni tra parti dell’infrastruttura).
 
-1. Seleziona nel riquadro di sinistra l’istanza desiderata, quindi fai clic sul pulsante **[!UICONTROL Add new URL]**.
+1. Seleziona nel riquadro a sinistra l’istanza desiderata, quindi fai clic sul pulsante **[!UICONTROL Aggiungi nuovo URL]** pulsante.
 
    ![](assets/add_url1.png)
 
@@ -90,7 +90,7 @@ Per aggiungere un URL a cui l’istanza può connettersi, effettua le seguenti o
 
    ![](assets/add_url_listnew.png)
 
-Puoi eliminare un URL in qualsiasi momento selezionandolo e facendo clic sul pulsante **[!UICONTROL Delete URL]**.
+Puoi eliminare un URL in qualsiasi momento selezionandolo e facendo clic sul pulsante **[!UICONTROL Elimina URL]** pulsante.
 
 Tieni presente che, se elimini un URL, l’istanza non sarà più in grado di richiamarlo.
 

@@ -9,8 +9,8 @@ level: Experienced
 exl-id: 547ca6f2-720f-4d58-b31b-5b2611ba9156
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
 workflow-type: tm+mt
-source-wordcount: '289'
-ht-degree: 83%
+source-wordcount: '300'
+ht-degree: 70%
 
 ---
 
@@ -22,15 +22,15 @@ Attualmente, Gmail è uno dei provider di indirizzi e-mail più popolari. Al fin
 
 Per aggiungere un record TXT di Google al tuo sottodominio utilizzato per inviare e-mail a indirizzi Gmail, procedi come segue:
 
-1. Dall’elenco dei sottodomini, fai clic sul pulsante con i puntini di sospensione accanto al sottodominio desiderato e seleziona **[!UICONTROL Subdomain details]**.
+1. Dall’elenco dei sottodomini, fai clic sul pulsante con i puntini di sospensione accanto al sottodominio desiderato e seleziona **[!UICONTROL Dettagli del sottodominio]**.
 
-1. Fai clic sul pulsante **[!UICONTROL Add TXT record]**, quindi scegli **[!UICONTROL Google Site Verification]** dall’elenco a discesa **[!UICONTROL Record Type]**.
+1. Fai clic su **[!UICONTROL Aggiungi record TXT]** , quindi scegliere **[!UICONTROL Verifica del sito Google]** dal **[!UICONTROL Tipo di record]** elenco a discesa.
 
 1. Immetti il valore generato negli strumenti di amministrazione di G Suite. Per ulteriori informazioni, consulta la [Guida di Amministratore di G Suite](https://support.google.com/a/answer/183895?hl=it).
 
    ![](assets/txt_addtxt.png)
 
-1. Fai clic sul pulsante **[!UICONTROL Add]** per confermare.
+1. Fai clic su **[!UICONTROL Aggiungi]** per confermare.
 
    ![](assets/txt_txtadded.png)
 

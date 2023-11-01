@@ -8,9 +8,9 @@ role: Admin
 level: Experienced
 exl-id: 517818c9-8557-49fd-b49c-b98b60e48f1c
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
-workflow-type: ht
-source-wordcount: '818'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '828'
+ht-degree: 82%
 
 ---
 
@@ -35,7 +35,7 @@ Prima di procedere, considera attentamente gli impatti che si verificano una vol
 
 Per rimuovere la delega di un sottodominio ad Adobe, effettua le seguenti operazioni:
 
-1. Fai clic sul pulsante con i puntini di sospensione accanto alla delega di dominio da rimuovere e seleziona **[!UICONTROL Remove delegation]**.
+1. Fai clic sul pulsante con i puntini di sospensione accanto alla delega di dominio da rimuovere e seleziona **[!UICONTROL Rimuovi delega]**.
 
    ![](assets/undelegate-subdomain.png)
 
@@ -43,15 +43,15 @@ Per rimuovere la delega di un sottodominio ad Adobe, effettua le seguenti operaz
 
 1. Rivedi le informazioni relative all’istanza a cui è associato il sottodominio, incluse le affinità IP e le configurazioni del brand correlate.
 
-   Se rimuovi la delega del dominio primario per l’istanza selezionata, devi scegliere il dominio che la sostituirà utilizzando l’elenco **[!UICONTROL Replacement Domain]**.
+   Se rimuovi la delega del dominio primario per l’istanza selezionata, devi scegliere il dominio che la sostituirà utilizzando **[!UICONTROL Sostituto per Dominio]** elenco.
 
-   Fai clic su **[!UICONTROL Next]** per procedere con la rimozione.
+   Clic **[!UICONTROL Successivo]** per procedere con la rimozione.
 
    ![](assets/undelegate-subdomain-details.png)
 
-1. Se rimuovi una delega di tipo CNAME o sostituisci un dominio primario con un dominio delegato tramite CNAME, un ulteriore passaggio **[!UICONTROL Action]** viene visualizzato per gestire i record DNS. [Per ulteriori informazioni, consulta questa sezione](#dns)
+1. Se rimuovi una delega di tipo CNAME o sostituisci un dominio primario con un dominio delegato tramite CNAME, viene visualizzata un’ulteriore pagina **[!UICONTROL Azione]** viene visualizzato un passaggio per gestire i record DNS. [Per ulteriori informazioni, consulta questa sezione](#dns)
 
-1. Esamina il riepilogo visualizzato. Per confermare la rimozione, digita l’URL del dominio per il quale vuoi rimuovere la delega e fai clic su **[!UICONTROL Submit]**.
+1. Esamina il riepilogo visualizzato. Per confermare la rimozione, digita l’URL del dominio per il quale vuoi rimuovere la delega e fai clic su **[!UICONTROL Invia]**.
 
    ![](assets/undelegate-submit.png)
 
@@ -85,14 +85,14 @@ Se è necessaria una di queste azioni per rimuovere la delega, un ulteriore pass
 ### Elimina record DNS
 
 1. Passa al server DNS e rimuovi i record elencati in Pannello di controllo di Campaign.
-1. Torna al Pannello di controllo e fai clic su **[!UICONTROL Next]** per procedere alla rimozione della delega.
+1. Torna al Pannello di controllo Campaign e fai clic su **[!UICONTROL Successivo]** per procedere con la rimozione della delega.
 
 ### Aggiungi record DNS
 
 1. Passa al server DNS e aggiungi i record elencati nel Pannello di controllo.
 1. Attendi che l’aggiunta al DNS sia efficace.
-1. Torna al Pannello di controllo e fai clic su **[!UICONTROL Verify]**.
-1. Una volta verificata correttamente l’aggiunta dei record, fai clic su **[!UICONTROL Next]** per procedere alla rimozione della delega.
+1. Torna al Pannello di controllo Campaign e fai clic su **[!UICONTROL Verifica]**.
+1. Dopo aver verificato l’aggiunta dei record, fai clic su **[!UICONTROL Successivo]** per procedere con la rimozione della delega.
 
 ## Codici di errore {#FAQ}
 

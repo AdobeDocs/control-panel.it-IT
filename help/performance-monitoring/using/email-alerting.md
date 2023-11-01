@@ -9,7 +9,7 @@ level: Experienced
 exl-id: 7942d2b1-d28f-4760-aa25-5ba94a627fd0
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
 workflow-type: tm+mt
-source-wordcount: '282'
+source-wordcount: '285'
 ht-degree: 3%
 
 ---
@@ -44,7 +44,7 @@ L’elenco delle segnalazioni è il seguente:
 
 Per iscriverti a questi avvisi, segui questi passaggi:
 
-1. Fai clic su **[!UICONTROL Alerting notifications]** disponibile da qualsiasi posizione nel Pannello di controllo Campaign, quindi fai clic su **[!UICONTROL Subscribe]**.
+1. Fai clic su **[!UICONTROL Avvisi di notifica]** disponibile da qualsiasi posizione nel Pannello di controllo Campaign, quindi fai clic su **[!UICONTROL Abbonati]**.
 
    ![](assets/subscribing.png)
 

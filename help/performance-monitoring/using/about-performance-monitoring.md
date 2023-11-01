@@ -9,8 +9,8 @@ level: Experienced
 exl-id: 80a5dc43-205e-4764-805a-85d2faabc20a
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
 workflow-type: tm+mt
-source-wordcount: '79'
-ht-degree: 36%
+source-wordcount: '81'
+ht-degree: 35%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 36%
 
 Il Pannello di controllo offre diverse funzionalità per monitorare le istanze e garantire prestazioni ottimali.
 
-Il **[!UICONTROL Performance monitoring]** nella home page del Pannello di controllo Campaign consente di monitorare l’utilizzo delle istanze di Campaign come, ad esempio, la capacità del database. Per ulteriori informazioni al riguardo, consulta [questa sezione](../../performance-monitoring/using/database-monitoring.md).
+Il **[!UICONTROL Monitoraggio delle prestazioni]** nella home page del Pannello di controllo Campaign consente di monitorare l’utilizzo delle istanze di Campaign come, ad esempio, la capacità del database. Per ulteriori informazioni al riguardo, consulta [questa sezione](../../performance-monitoring/using/database-monitoring.md).
 
 ![](assets/performance_card.png)
 

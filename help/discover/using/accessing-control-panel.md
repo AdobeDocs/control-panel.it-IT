@@ -9,8 +9,8 @@ level: Experienced
 exl-id: eb67af6e-a64e-49a7-9656-782f91bc1d67
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
 workflow-type: tm+mt
-source-wordcount: '174'
-ht-degree: 13%
+source-wordcount: '177'
+ht-degree: 12%
 
 ---
 
@@ -48,10 +48,10 @@ Il Pannello di controllo Campaign è accessibile anche dalla piattaforma Experie
 
 1. Apri il prodotto Campaign Standard.
 
-1. Seleziona la **[!UICONTROL Administration]** menu dal menu **Navigazione** riquadro.
+1. Seleziona la **[!UICONTROL Amministrazione]** menu dal menu **Navigazione** riquadro.
 
    ![](assets/control_panel_access3.png)
 
-1. Fai clic su **[!UICONTROL Control Panel]** icona.
+1. Fai clic su **[!UICONTROL Pannello di controllo Campaign]** icona.
 
    ![](assets/control_panel_access4.png)

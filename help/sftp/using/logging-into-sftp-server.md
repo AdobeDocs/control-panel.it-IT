@@ -9,7 +9,7 @@ level: Experienced
 exl-id: 713f23bf-fa95-4b8a-b3ec-ca06a4592aa3
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
 workflow-type: tm+mt
-source-wordcount: '348'
+source-wordcount: '356'
 ht-degree: 6%
 
 ---
@@ -30,7 +30,7 @@ Prima di effettuare l&#39;accesso al server, verificare che:
 
 Per connettersi al server SFTP, segui questi passaggi:
 
-1. Avvia il Pannello di controllo Campaign, quindi seleziona la **[!UICONTROL Key Management]** scheda da **[!UICONTROL SFTP]** Card.
+1. Avvia il Pannello di controllo Campaign, quindi seleziona la **[!UICONTROL Gestione delle chiavi]** scheda da **[!UICONTROL SFTP]** Card.
 
    ![](assets/sftp_card.png)
 
@@ -38,7 +38,7 @@ Per connettersi al server SFTP, segui questi passaggi:
 
    ![](assets/do-not-localize/connect1.png)
 
-1. In **[!UICONTROL SSH Private Key]** selezionare il file della chiave privata memorizzato nel computer. Corrisponde a un file di testo con lo stesso nome della chiave pubblica, senza estensione &quot;.pub&quot; (ad esempio, &quot;abilita&quot;).
+1. In **[!UICONTROL Chiave privata SSH]** selezionare il file della chiave privata memorizzato nel computer. Corrisponde a un file di testo con lo stesso nome della chiave pubblica, senza estensione &quot;.pub&quot; (ad esempio, &quot;abilita&quot;).
 
    ![](assets/do-not-localize/connect2.png)
 
@@ -56,6 +56,6 @@ Per connettersi al server SFTP, segui questi passaggi:
    >
    >`ssh-keygen -lf <path of the privatekey>`
 
-1. Una volta inserite tutte le informazioni, fai clic su **[!UICONTROL Connect]** per accedere al server SFTP.
+1. Una volta inserite tutte le informazioni, fai clic su **[!UICONTROL Connetti]** per accedere al server SFTP.
 
    ![](assets/do-not-localize/sftpconnected.png)

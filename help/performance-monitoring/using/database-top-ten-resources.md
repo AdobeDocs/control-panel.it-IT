@@ -9,14 +9,14 @@ level: Experienced
 exl-id: 2fa2ffbb-102b-42c4-8feb-b0263ee9c930
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
 workflow-type: tm+mt
-source-wordcount: '175'
-ht-degree: 69%
+source-wordcount: '182'
+ht-degree: 59%
 
 ---
 
 # Le 10 risorse temporanee principali {#top-10}
 
-Nell’area **[!UICONTROL Top 10 temporary resources]** sono elencate le 10 risorse temporanee più grandi generate dai flussi di lavoro e dalle consegne.
+Il **[!UICONTROL Le 10 risorse temporanee principali]** nell’area sono elencate le 10 risorse temporanee più grandi generate dai flussi di lavoro e dalle consegne.
 
 Il monitoraggio dei flussi di lavoro e delle consegne che creano grandi risorse temporanee è un passaggio chiave per monitorare il database. Se una risorsa temporanea occupa troppo spazio nel database, assicurati che il flusso di lavoro o la consegna sia effettivamente indispensabile e, nel caso non lo sia, accedi all’istanza per interromperla.
 
@@ -28,4 +28,4 @@ Il monitoraggio dei flussi di lavoro e delle consegne che creano grandi risorse 
 
 ![](assets/database-top10.png)
 
-Il **[!UICONTROL View all]** consente di accedere al **[!UICONTROL Storage overview]** dettagli per ottenere informazioni dettagliate su queste risorse temporanee. Per ulteriori informazioni, consulta [questa pagina](database-storage-overview.md).
+Il **[!UICONTROL Visualizza tutto]** consente di accedere al **[!UICONTROL Panoramica sull’archiviazione]** dettagli per ottenere informazioni dettagliate su queste risorse temporanee. Per ulteriori informazioni, consulta [questa pagina](database-storage-overview.md).

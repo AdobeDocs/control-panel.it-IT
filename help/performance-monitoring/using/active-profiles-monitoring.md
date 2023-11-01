@@ -9,8 +9,8 @@ level: Experienced
 exl-id: a157cc27-577f-490f-8c4f-0f203219cfb5
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
 workflow-type: tm+mt
-source-wordcount: '433'
-ht-degree: 100%
+source-wordcount: '439'
+ht-degree: 93%
 
 ---
 
@@ -46,7 +46,7 @@ Le informazioni relative all’utilizzo dei profili attivi vengono aggiornate in
 * Il flusso di lavoro [“Number of active billing profiles”](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/about-technical-workflows.html?lang=it) (Numero di profili di fatturazione attivi) per Campaign v7/v8.
 
 
-Per monitorare l’utilizzo del profilo attivo nel Pannello di controllo, passa alla scheda **[!UICONTROL Performance Monitoring]** > **[!UICONTROL Active Profiles]** e seleziona l’istanza desiderata dalla scheda **[!UICONTROL Instance List]**.
+Per monitorare l’utilizzo del profilo attivo nel Pannello di controllo Campaign, passa alla **[!UICONTROL Monitoraggio delle prestazioni]** scheda > **[!UICONTROL Profili attivi]** e selezionare l&#39;istanza desiderata dalla scheda **[!UICONTROL Elenco istanze]**.
 
 Vengono visualizzate informazioni sull’utilizzo dei profili attivi.
 

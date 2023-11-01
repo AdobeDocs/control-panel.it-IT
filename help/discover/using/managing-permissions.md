@@ -9,7 +9,7 @@ level: Intermediate
 exl-id: 7314a679-78c3-4650-bf3a-2bde8be82747
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
 workflow-type: tm+mt
-source-wordcount: '280'
+source-wordcount: '288'
 ht-degree: 6%
 
 ---
@@ -30,7 +30,7 @@ Il Pannello di controllo Campaign è disponibile per tutti gli utenti amministra
    >
    >Se il **Admin Console** non è visibile, significa che non disponi dei diritti di amministratore per la tua organizzazione. Contatta gli amministratori dell’organizzazione per eseguire i passaggi necessari.
 
-1. Dalla sezione **Admin Console**, seleziona il prodotto Campaign desiderato dalla sezione **[!UICONTROL Products and services]** elenco.
+1. Dalla sezione **Admin Console**, seleziona il prodotto Campaign desiderato dalla sezione **[!UICONTROL Prodotti e servizi]** elenco.
 
    ![](assets/do-not-localize/control_panel_product-list.png)
 
@@ -46,7 +46,7 @@ Il Pannello di controllo Campaign è disponibile per tutti gli utenti amministra
    >
    >Puoi aggiungere diversi utenti Admin per ogni istanza di Campaign. Gli utenti amministratori accederanno solo al Pannello di controllo Campaign dell’istanza a cui appartengono.
 
-1. L’elenco di **[!UICONTROL Product Profiles]** per l’istanza selezionata. Fai clic su **[!UICONTROL Administrators]** profilo di prodotto per accedere all’elenco degli utenti amministratore.
+1. L’elenco di **[!UICONTROL Profili di prodotto]** per l’istanza selezionata. Fai clic su **[!UICONTROL Amministratori]** profilo di prodotto per accedere all’elenco degli utenti amministratore.
 
    ![](assets/do-not-localize/control_panel_add_user_5.png)
 
@@ -54,7 +54,7 @@ Il Pannello di controllo Campaign è disponibile per tutti gli utenti amministra
    >
    >Per impostazione predefinita, gli utenti amministratore appartengono al profilo di prodotto &quot;Amministratori&quot;. In base alla configurazione dell’organizzazione, il profilo di prodotto può essere denominato in modo diverso (&quot;amministratore&quot;, &quot;amministratori&quot;, ecc.).
 
-1. Viene visualizzato l’elenco degli utenti Admin. Fai clic su **[!UICONTROL Add User]** per aggiungere l&#39;utente desiderato.
+1. Viene visualizzato l’elenco degli utenti Admin. Fai clic su **[!UICONTROL Aggiungi utente]** per aggiungere l&#39;utente desiderato.
 
    ![](assets/do-not-localize/control_panel_add_user_6.png)
 

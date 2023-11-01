@@ -9,8 +9,8 @@ level: Experienced
 exl-id: 02819bfc-9886-43fc-8014-9bfe64c42048
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
 workflow-type: tm+mt
-source-wordcount: '527'
-ht-degree: 75%
+source-wordcount: '536'
+ht-degree: 71%
 
 ---
 
@@ -62,10 +62,10 @@ Per ottenere informazioni sui server connessi alle istanze, procedi come segue:
 
 Le informazioni disponibili sono:
 
-* **[!UICONTROL Type]**: il tipo di server. I valori possibili sono MKT (Marketing), MID (Mid sourcing) e RT (Message Center / Real-time messaging [Centro messaggi/Messaggistica in tempo reale]).
-* **[!UICONTROL Name]**: il nome del server.
+* **[!UICONTROL Tipo]**: il tipo di server. I valori possibili sono MKT (Marketing), MID (Mid sourcing) e RT (Message Center / Real-time messaging [Centro messaggi/Messaggistica in tempo reale]).
+* **[!UICONTROL Nome]**: nome del server.
 * **[!UICONTROL Build:]** la versione di build installata sul server.
-* **[!UICONTROL Upgrade info]**: questa colonna indica se è necessario aggiornare il server.
+* **[!UICONTROL Informazioni sull&#39;aggiornamento]**: questa colonna indica se è necessario aggiornare il server.
    * Verde: il server è aggiornato, non è richiesto alcun aggiornamento.
    * Giallo: è consigliabile effettuare l’aggiornamento. Non disponi delle funzioni e delle correzioni più recenti.
    * Rosso: esegui l’aggiornamento il prima possibile. Non disponi di nuove funzioni e le prestazioni del server potrebbero non essere ottimali.

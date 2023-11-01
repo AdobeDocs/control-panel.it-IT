@@ -9,8 +9,8 @@ level: Experienced
 exl-id: bb9e1ce3-2472-4bc1-a82a-a301c6bf830e
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
 workflow-type: tm+mt
-source-wordcount: '160'
-ht-degree: 59%
+source-wordcount: '175'
+ht-degree: 30%
 
 ---
 
@@ -21,19 +21,19 @@ ht-degree: 59%
 >title="Panoramica sull’archiviazione"
 >abstract="In questa scheda puoi ottenere informazioni dettagliate sulle diverse risorse di Campaign che occupano spazio nel database."
 
-L’area **[!UICONTROL Storage overview]** fornisce una rappresentazione grafica dello spazio occupato da:
+Il **[!UICONTROL Panoramica sull’archiviazione]** L&#39;area fornisce una rappresentazione grafica dello spazio occupato da:
 
-* **[!UICONTROL System resources]**
+* **[!UICONTROL Risorse di sistema]**
 
   Tieni presente che, se le risorse di sistema occupano gran parte dello spazio del database, è consigliabile contattare l’Assistenza clienti.
 
-* **[!UICONTROL Out-of-the-box tables]** fornite per impostazione predefinita con le istanze Campaign,
-* **[!UICONTROL Temporary tables]** create da flussi di lavoro e consegne,
-* **[!UICONTROL Non-out of the box tables]** generate dopo la creazione di risorse personalizzate.
+* **[!UICONTROL Tabelle pronte all’uso]** fornite per impostazione predefinita con le istanze Campaign,
+* **[!UICONTROL Tabelle temporanee]** create da flussi di lavoro e consegne,
+* **[!UICONTROL Tabelle non pronte all’uso]** generate dopo la creazione di risorse personalizzate.
 
 ![](assets/database-storage-overview.png)
 
-Fai clic sul pulsante **[!UICONTROL View details]** per ottenere ulteriori dettagli sulle diverse risorse che occupano spazio nel database.
+Fai clic su **[!UICONTROL Visualizza dettagli]** per ottenere ulteriori dettagli sulle diverse risorse che occupano spazio nel database.
 
 Puoi utilizzare l’elenco a discesa per perfezionare le tabelle di ricerca e visualizzazione solo da un tipo di risorsa specifico (flussi di lavoro, consegne, destinatari).
 
