@@ -10,7 +10,7 @@ exl-id: 1d1eeff8-969e-4529-b947-2a68defb8d13
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
 workflow-type: tm+mt
 source-wordcount: '830'
-ht-degree: 68%
+ht-degree: 69%
 
 ---
 
@@ -46,7 +46,7 @@ Accertati di seguire le raccomandazioni e le limitazioni riportate di seguito qu
 * **Se hai temporaneamente attivato l’accesso all’istanza per un indirizzo IP**, assicurati di rimuoverlo dall’elenco Consentiti una volta che non è più necessario per connettersi all’istanza.
 * **Si sconsiglia di aggiungere all’elenco Consentiti gli indirizzi IP di luoghi pubblici** (aeroporti, alberghi, ecc.). Utilizza l’indirizzo VPN dell’azienda per proteggere sempre la tua istanza.
 
-## Aggiunta di indirizzi IP all’elenco consentiti per l’accesso alle istanze {#adding-ip-addresses-allow-list}
+## Aggiunta di indirizzi IP all’elenco consentito per accedere all’istanza {#adding-ip-addresses-allow-list}
 
 >[!CONTEXTUALHELP]
 >id="cp_instancesettings_iprange_add"
