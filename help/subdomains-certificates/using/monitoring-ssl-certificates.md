@@ -8,9 +8,9 @@ role: Admin
 level: Experienced
 exl-id: a7888e1c-259d-4601-951b-0f1062d90dc2
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '573'
-ht-degree: 57%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 57%
 
 Adobe Campaign consiglia di proteggere i sottodomini che ospitano le pagine di destinazione, in particolare quelli che raccolgono informazioni riservate dei clienti.
 
-**Crittografia SSL (Secure Socket Layer)** garantisce che i sottodomini configurati per l’utilizzo di Adobe siano protetti. Quando il cliente compila un modulo web o visita una pagina di destinazione ospitata da Adobe Campaign, per impostazione predefinita le informazioni vengono inviate tramite un protocollo non sicuro (HTTP). Per garantire ulteriore sicurezza, proteggi le informazioni inviate con un protocollo HTTPS. Ad esempio, l’indirizzo del sottodominio “http://info.mywebsite.com/” sarà “https://info.mywebsite.com/”.
+La **crittografia SSL (Secure Socket Layer)** garantisce che i sottodomini configurati per utilizzare Adobe siano protetti. Quando il cliente compila un modulo web o visita una pagina di destinazione ospitata da Adobe Campaign, per impostazione predefinita le informazioni vengono inviate tramite un protocollo non sicuro (HTTP). Per garantire ulteriore sicurezza, proteggi le informazioni inviate con un protocollo HTTPS. Ad esempio, l’indirizzo del sottodominio “http://info.mywebsite.com/” sarà “https://info.mywebsite.com/”.
 
 **I certificati SSL non sono installati nei sottodomini configurati stessi**. Sono installati nei sottodomini associati, principalmente quelli che ospitano pagine di destinazione, pagine di risorse e altri.
 
@@ -30,19 +30,19 @@ Adobe Campaign consiglia di proteggere i sottodomini che ospitano le pagine di d
 
 ## Gestione dei certificati SSL {#management}
 
-Il monitoraggio dei certificati SSL è fondamentale per garantire la sicurezza dei sottodomini. Con Pannello di controllo Campaign, puoi installare e rinnovare i certificati SSL dei sottodomini direttamente da te stesso oppure delegarli ad Adobe in modo che questo processo venga eseguito automaticamente senza alcuna azione richiesta dal tuo lato.
+Il monitoraggio dei certificati SSL è fondamentale per garantire la sicurezza dei sottodomini. Con il Pannello di controllo, puoi installare e rinnovare direttamente i certificati SSL dei sottodomini, oppure delegarli ad Adobe in modo che questo venga eseguito automaticamente senza alcun intervento da parte tua.
 
-Si consiglia vivamente di delegare la gestione dei certificati SSL dei sottodomini ad Adobe, in quanto Adobe creerà automaticamente il certificato e lo rinnoverà ogni anno prima della scadenza. In questo modo si riduce il rischio di errori che possono verificarsi durante la gestione manuale dei certificati. [Scopri come delegare i certificati SSL dei sottodomini ad Adobe](delegate-ssl.md)
+Si consiglia vivamente di delegare la gestione dei certificati SSL dei sottodomini ad Adobe, in quanto Adobe creerà automaticamente il certificato e lo rinnoverà ogni anno prima della scadenza. In questo modo si riduce il rischio che possono verificarsi errori durante la gestione manuale dei certificati. [Scopri come delegare i certificati SSL dei sottodomini ad Adobe](delegate-ssl.md)
 
-Di seguito è riportato un elenco completo degli impatti associati alla gestione manuale dei certificati, anziché delegare questa operazione ad Adobe:
+Di seguito è riportato un elenco completo degli impatti associati alla gestione manuale dei certificati, rispetto alla delega ad Adobe:
 
 |       | Certificato gestito dal cliente | Certificato gestito da Adobe |
 |  ---  |  ---  |  ---  |
-| Provider di certificati | Autorità di certificazione di terze parti | Adobe tramite AWS Certificate Manager |
-| Passaggi manuali | Generazione CSR, acquisto e installazione di certificati | Nessuna |
-| Processo di rinnovo | Responsabilità del cliente | Gestito automaticamente da Adobe |
-| Sicurezza dei sottodomini | Il dominio può avere sottodomini non protetti (tracciamento, mirroring e risoluzione) a meno che non si installino/rinnovino certificati. | Per impostazione predefinita, a ogni nuovo dominio (ad Adobe gestito) vengono protetti tutti i sottodomini. |
-| Costo certificato | Il cliente sostiene il costo dei certificati | Gratuito |
+| Fornitore di certificati | Autorità di Certificazione di terze parti | Adobe tramite AWS Certificate Manager |
+| Passaggi manuali | Generazione della CSR, acquisto e installazione del certificato | Nessuno |
+| Processo di rinnovo | Responsabilità del cliente | Gestito in automatico da Adobe |
+| Sicurezza dei sottodomini | Il dominio può avere dei sottodomini non protetti (tracciamento, mirror e res) a meno che non installi e rinnovi i certificati. | Ogni nuovo dominio (se si opta per la gestione da parte di Adobe) avrà per impostazione predefinita tutti i sottodomini protetti. |
+| Costo del certificato | Il cliente sostiene il costo dei certificati | Gratuito |
 
 ## Monitoraggio dei certificati SSL {#monitoring-certificates}
 
@@ -51,7 +51,7 @@ Di seguito è riportato un elenco completo degli impatti associati alla gestione
 >title="Dettagli del sottodominio"
 >abstract="Recupera informazioni sui certificati SSL dei sottodomini."
 
-Lo stato dei certificati SSL dei sottodomini è disponibile direttamente nell’elenco dei sottodomini selezionando l’opzione **[!UICONTROL Sottodomini e certificati]** Card.
+Lo stato dei certificati SSL dei sottodomini è disponibile direttamente nell’elenco dei sottodomini selezionando la scheda **[!UICONTROL Sottodomini e certificati]**.
 
 I sottodomini sono organizzati in base alla data di scadenza più vicina del certificato SSL, con informazioni visive sulla scadenza, espressa in giorni:
 
@@ -62,10 +62,10 @@ I sottodomini sono organizzati in base alla data di scadenza più vicina del cer
 
 ![](assets/subdomains_list.png)
 
-Per ottenere ulteriori dettagli su un sottodominio, fai clic su **[!UICONTROL Dettagli del sottodominio]** pulsante.
+Per visualizzare ulteriori dettagli su un sottodominio, fai clic sul pulsante **[!UICONTROL Dettagli sottodominio]**.
 Viene visualizzato l’elenco di tutti i relativi sottodomini. In genere include i sottodomini di pagine di destinazione, pagine di risorse, ecc..
 
-Il **[!UICONTROL Informazioni mittente]** fornisce informazioni sulle caselle in entrata configurate (Sender, Reply to, Error email [Mittente, Risposta, E-mail di errore]).
+La scheda **[!UICONTROL Informazioni mittente]** fornisce informazioni sulle caselle in entrata configurate (Mittente, Rispondi a, E-mail per errore).
 
 ![](assets/subdomain_details.png)
 
