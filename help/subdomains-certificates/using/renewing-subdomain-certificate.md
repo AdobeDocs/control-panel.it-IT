@@ -8,9 +8,9 @@ role: Admin
 level: Experienced
 exl-id: e9b7c67d-6afa-44f9-b19d-39c0ec9a7edd
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1027'
-ht-degree: 75%
+ht-degree: 100%
 
 ---
 
@@ -61,22 +61,22 @@ Il processo di rinnovo del certificato SSL comprende 3 passaggi:
 
 Per generare una richiesta di firma del certificato (CSR, Certificate Signing Request), procedi come segue:
 
-1. In **[!UICONTROL Sottodomini e certificati]** , seleziona l’istanza desiderata, quindi fai clic sulla scheda **[!UICONTROL Gestisci certificato]** pulsante.
+1. Nella scheda **[!UICONTROL Sottodomini e certificati]**, seleziona l’istanza desiderata, quindi fai clic sul pulsante **[!UICONTROL Gestisci certificato]**.
 
    ![](assets/renewal1.png)
 
-1. Seleziona **[!UICONTROL 1 - Generare una CSR]**, quindi fai clic su **[!UICONTROL Successivo]** per avviare la procedura guidata che ti guiderà attraverso il processo di generazione della CSR.
+1. Seleziona **[!UICONTROL 1 - Genera una CSR]**, quindi fai clic su **[!UICONTROL Avanti]** per avviare la procedura guidata per il processo di generazione della CSR.
 
    ![](assets/renewal2.png)
 
 1. Viene visualizzato un modulo con tutti i dettagli necessari per generare la CSR.
 
-   Assicurati di inserire le informazioni richieste in modo completo e accurato, altrimenti il certificato potrebbe non essere rinnovato (se necessario, contatta il team interno e i team di sicurezza e IT), quindi fai clic su **[!UICONTROL Successivo]**.
+   Assicurati di inserire le informazioni richieste in modo completo e accurato, altrimenti il certificato potrebbe non essere rinnovato (se necessario, contatta il team interno e i team di sicurezza e IT), quindi fai clic su **[!UICONTROL Avanti]**.
 
    * **[!UICONTROL Organizzazione]**: nome ufficiale dell’organizzazione.
-   * **[!UICONTROL Unità organizzativa]**: unità collegata al sottodominio (ad esempio: Marketing, IT).
-   * **[!UICONTROL Istanza]** (precompilato): URL dell’istanza Campaign associata al sottodominio.
-   * **[!UICONTROL Nome comune]**: il nome comune è selezionato per impostazione predefinita, se necessario puoi selezionare uno dei sottodomini.
+   * **[!UICONTROL Unità organizzativa]**: unità collegata al sottodominio (esempio: Marketing, IT).
+   * **[!UICONTROL Istanza]** (precompilato): URL dell’istanza di Campaign associata al sottodominio.
+   * **[!UICONTROL Nome comune]**:il nome comune è selezionato per impostazione predefinita, se necessario puoi selezionare uno dei sottodomini.
 
    ![](assets/renewal3.png)
 
@@ -84,17 +84,17 @@ Per generare una richiesta di firma del certificato (CSR, Certificate Signing Re
 
    ![](assets/renewal4.png)
 
-1. I sottodomini selezionati vengono visualizzati nell’elenco. Per ciascuno di essi, seleziona i sottodomini da includere, quindi fai clic su **[!UICONTROL Successivo]**.
+1. I sottodomini selezionati vengono visualizzati nell’elenco. Per ciascuno di essi, seleziona i sottodomini da includere, quindi fai clic su **[!UICONTROL Avanti]**.
 
    ![](assets/renewal5.png)
 
-1. Viene visualizzato un riepilogo dei sottodomini da includere nella CSR. Clic **[!UICONTROL Invia]** per confermare la richiesta.
+1. Viene visualizzato un riepilogo dei sottodomini da includere nella CSR. Fai clic su **[!UICONTROL Invia]** per confermare la richiesta.
 
    ![](assets/renewal6.png)
 
    >[!NOTE]
    >
-   >Il **[!UICONTROL Copiare contenuti CSR]** consente di copiare tutte le informazioni relative alla CSR (ID organizzazione, istanza, nome organizzazione, nome comune, sottodomini inclusi, ecc.)
+   >Il pulsante **[!UICONTROL Copia contenuto CSR]** consente di copiare tutte le informazioni relative alla CSR (ID organizzazione, istanza, nome organizzazione, nome comune, sottodomini inclusi, ecc.).
 
 1. Il file .csr corrispondente alla selezione viene generato e scaricato automaticamente. Ora puoi usarlo per acquistare il certificato SSL dall’autorità di certificazione approvata dalla tua azienda. Se devi scaricare nuovamente la CSR, segui i passaggi descritti in [questa sezione](#download).
 
@@ -106,11 +106,11 @@ Dopo aver acquistato il certificato SSL, potrai installarlo nell’istanza per p
 
 Per acquistare un certificato SSL, devi innanzitutto scaricare la richiesta di firma del certificato (CSR). La CSR viene scaricata automaticamente dopo essere stata generata. Inoltre, puoi scaricarla nuovamente in qualsiasi momento dai Registri dei processi:
 
-1. In **[!UICONTROL Registri processi]**, seleziona la **[!UICONTROL Completato]** , quindi filtra l’elenco per visualizzare i processi relativi alla gestione dei sottodomini.
+1. In **[!UICONTROL Registri dei processi]**, seleziona la scheda **[!UICONTROL Completati]**, quindi filtra l’elenco per visualizzare i processi relativi alla gestione dei sottodomini.
 
    ![](assets/renewal-download.png)
 
-1. Apri il processo corrispondente alla generazione della CSR, quindi fai clic su **[!UICONTROL Download]** per ottenere il file .csr.
+1. Apri il processo corrispondente alla generazione della CSR, quindi fai clic sul collegamento **[!UICONTROL Scarica]** per ottenere il file .csr.
 
    ![](assets/renewal-download-button.png)
 
@@ -139,11 +139,11 @@ Una volta acquistato un certificato SSL, puoi installarlo nell’istanza. Prima 
 
 Per installare il certificato, effettua le seguenti operazioni:
 
-1. In **[!UICONTROL Sottodomini e certificati]** , seleziona l’istanza desiderata, quindi fai clic sulla scheda **[!UICONTROL Gestisci certificato]** pulsante.
+1. Nella scheda **[!UICONTROL Sottodomini e certificati]**, seleziona l’istanza desiderata, quindi fai clic sul pulsante **[!UICONTROL Gestisci certificato]**.
 
    ![](assets/renewal1.png)
 
-1. Seleziona **[!UICONTROL 3 - Installare il pacchetto certificati]**, quindi fai clic su **[!UICONTROL Successivo]** per avviare la procedura guidata che ti guiderà attraverso il processo di installazione del certificato.
+1. Seleziona **[!UICONTROL 3 - Installa il pacchetto dei certificati]**, quindi fai clic su **[!UICONTROL Avanti]** per avviare la procedura guidata che ti accompagnerà nel processo di installazione del certificato.
 
    ![](assets/install1.png)
 
