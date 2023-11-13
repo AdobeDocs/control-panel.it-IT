@@ -8,9 +8,9 @@ role: Admin
 level: Experienced
 exl-id: a2b3d409-704b-4e81-ae40-b734f755b598
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '337'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ La delega dei certificati SSL ad Adobe può essere eseguita durante la configura
 
 ## Delegare i certificati SSL dei nuovi sottodomini {#new}
 
-Per delegare i certificati SSL durante la configurazione di un nuovo sottodominio, abilita **[!UICONTROL Opt per Adobe SSL gestito per i sottodomini]** della configurazione guidata del sottodominio. I record dei certificati da copiare nella soluzione di hosting verranno forniti più avanti nella procedura guidata di configurazione. I passaggi dettagliati sono documentati in [questa sezione](setting-up-new-subdomain.md).
+Per delegare i certificati SSL durante la configurazione di un nuovo sottodominio, abilita **[!UICONTROL Scegli l’opzione SSL gestito da Adobe per i sottodominii]** nella configurazione guidata del sottodominio. I record dei certificati da copiare nella soluzione di hosting verranno forniti più avanti nella procedura guidata di configurazione. I passaggi dettagliati sono documentati in [questa sezione](setting-up-new-subdomain.md).
 
 ![](assets/cname-adobe-managed.png){width="70%" align="left"}
 
