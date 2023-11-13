@@ -7,9 +7,9 @@ feature: Control Panel
 role: Admin
 level: Experienced
 source-git-commit: a892d5ff82fd0160faca2dbe76d3cd1b71073cff
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '184'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 98%
    + [Ultima versione](rn/release-notes.md)
    + Versioni precedenti {#previous-releases}
       + [Note sulla versione 2023](rn/release-notes-2023.md)
-      + [Note sulla versione 2022](rn/release-notes-2022.md)
+      + [Note sulle versioni 2022](rn/release-notes-2022.md)
       + [Note sulla versione 2021](rn/release-notes-2021.md)
       + [Note sulla versione 2020](rn/release-notes-2020.md)
       + [Note sulla versione 2019](rn/release-notes-2019.md)
@@ -67,7 +67,7 @@ ht-degree: 98%
       + [Monitorare i flussi di lavoro](performance-monitoring/using/workflow-monitoring.md)
       + [Impedire il sovraccarico del database](performance-monitoring/using/database-preventing-overload.md)
    + [Monitoraggio profili attivi](performance-monitoring/using/active-profiles-monitoring.md)
-   + [Trasmissione e monitoraggio della latenza](performance-monitoring/using/throughputs-latencies.md)
+   + [Monitoraggio delle velocità effettive e della latenza](performance-monitoring/using/throughputs-latencies.md)
 + Impostazioni delle istanze {#instances-settings}
    + [Inserimento degli IP nell’elenco Consentiti per l’accesso alle istanze](instances-settings/using/ip-allow-listing-instance-access.md)
    + [Autorizzazioni URL](instances-settings/using/url-permissions.md)
