@@ -8,9 +8,9 @@ role: Admin
 level: Experienced
 exl-id: d92781c3-14cc-4716-a131-580ccff46d6e
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1596'
-ht-degree: 72%
+ht-degree: 100%
 
 ---
 
@@ -39,7 +39,7 @@ Se l’istanza selezionata nella procedura guidata non dispone di sottodomini gi
 
 ### Delegare i certificati SSL dei sottodomini ad Adobe
 
-Quando imposti un nuovo sottodominio, puoi far gestire il certificato SSL da Adobe. Si consiglia vivamente, in quanto Adobe creerà automaticamente il certificato e lo rinnoverà ogni anno prima della scadenza.
+Durante la configurazione di un nuovo sottodominio, il certificato SSL può essere gestito da Adobe. Questo è consigliato vivamente, in quanto Adobe creerà automaticamente il certificato e lo rinnoverà ogni anno prima della sua scadenza.
 
 Se utilizzi i CNAME per impostare una delega di sottodominio, Adobe fornirà i record del certificato da utilizzare nella soluzione di hosting del dominio per generare il certificato.
 
@@ -74,15 +74,15 @@ Inoltre, **non creare un file di zona separato** per il nuovo sottodominio.
 >abstract="Conferma e invia il sottodominio configurato nei passaggi precedenti."
 >additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=it" text="Configurazione di un nuovo sottodominio"
 
-Per delegare completamente un sottodominio ad Adobe Campaign, effettua le seguenti operazioni.
+Per delegare completamente un sottodominio ad Adobe Campaign, segui la procedura indicata di seguito.
 
-![](assets/do-not-localize/how-to-video.png) Scopri questa funzione nel video per [Campaign v7/v8](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html?lang=it#subdomains-and-certificates) o [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html?lang=it#subdomains-and-certificates)
+![](assets/do-not-localize/how-to-video.png) Guarda il video su questa funzione per [Campaign v7/v8](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html?lang=it#subdomains-and-certificates) o [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html?lang=it#subdomains-and-certificates)
 
-1. In **[!UICONTROL Sottodomini e certificati]** , seleziona l’istanza di produzione desiderata, quindi fai clic su **[!UICONTROL Imposta nuovo sottodominio]**.
+1. Nella scheda **[!UICONTROL Sottodomini e certificati]**, seleziona l’istanza di produzione desiderata, quindi fai clic su **[!UICONTROL Configura nuovo sottodominio]**.
 
    ![](assets/subdomain1.png)
 
-1. Clic **[!UICONTROL Successivo]** per confermare il metodo di delega completa.
+1. Fai clic su **[!UICONTROL Avanti]** per confermare il metodo di delega completa.
 
    ![](assets/subdomain3.png)
 
@@ -94,7 +94,7 @@ Per delegare completamente un sottodominio ad Adobe Campaign, effettua le seguen
 
    ![](assets/subdomain4.png)
 
-1. Una volta creato il sottodominio con le informazioni corrispondenti del server dei nomi di Adobe, fai clic su **[!UICONTROL Successivo]**.
+1. Una volta creato il sottodominio con le informazioni corrispondenti del server dei nomi Adobe, fai clic su **[!UICONTROL Avanti]**.
 
 1. Se hai selezionato un’istanza di Campaign v7/v8, seleziona il caso d’uso desiderato per il sottodominio: **Comunicazioni di marketing** o **Comunicazioni operative e transazionali**. I concetti globali sui casi di utilizzo dei sottodomini sono descritti in [questa sezione](../../subdomains-certificates/using/subdomains-branding.md#about-subdomains-use-cases).
 
@@ -104,7 +104,7 @@ Per delegare completamente un sottodominio ad Adobe Campaign, effettua le seguen
 
    Accertati di inserire il **nome completo** del sottodominio da delegare. Ad esempio, per delegare il sottodominio “usoffer.email.weretail.com”, digita “usoffer.email.weretail.com”.
 
-1. Per delegare ad Adobe la generazione del certificato SSL del sottodominio, abilita **[!UICONTROL Opt per Adobe SSL gestito per i sottodomini]** opzione. [Ulteriori informazioni sulla delega dei certificati SSL](delegate-ssl.md)
+1. Per delegare ad Adobe la generazione del certificato SSL del sottodominio, abilita **[!UICONTROL Scegli l’opzione SSL gestito da Adobe per i sottodomini]**. [Ulteriori informazioni sulla delega dei certificati SSL](delegate-ssl.md)
 
    ![](assets/subdomain6.png)
 
@@ -130,15 +130,15 @@ Una volta inviato il sottodominio, il Pannello di controllo eseguirà vari contr
 >abstract="Conferma e invia il sottodominio configurato nei passaggi precedenti."
 >additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=it" text="Configurazione di un nuovo sottodominio"
 
-Per configurare un sottodominio utilizzando i CNAME, segui i passaggi riportati di seguito.
+Per configurare un sottodominio utilizzando i CNAME, segui la proceduta indicata di seguito.
 
-![](assets/do-not-localize/how-to-video.png) Scopri questa funzione nel video per [Campaign v7/v8](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/delegating-subdomains-using-cname.html?lang=it#subdomains-and-certificates) o [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/delegating-subdomains-using-cname.html?lang=it)
+![](assets/do-not-localize/how-to-video.png) Guarda il video su questa funzione per [Campaign v7/v8](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/delegating-subdomains-using-cname.html?lang=it#subdomains-and-certificates) o [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/delegating-subdomains-using-cname.html?lang=it)
 
-1. In **[!UICONTROL Sottodomini e certificati]** , seleziona l’istanza di produzione desiderata, quindi fai clic su **[!UICONTROL Imposta nuovo sottodominio]**.
+1. Nella scheda **[!UICONTROL Sottodomini e certificati]**, seleziona l’istanza di produzione desiderata, quindi fai clic su **[!UICONTROL Configura nuovo sottodominio]**.
 
    ![](assets/subdomain1.png)
 
-1. Seleziona la **[!UICONTROL CNAME]** , quindi fai clic su **[!UICONTROL Successivo]**.
+1. Seleziona il metodo **[!UICONTROL CNAME]**, quindi fai clic su **[!UICONTROL Avanti]**.
 
    ![](assets/cname-method-selection.png)
 
@@ -146,9 +146,9 @@ Per configurare un sottodominio utilizzando i CNAME, segui i passaggi riportati 
 
    ![](assets/cname-use-case.png)
 
-1. Immetti il sottodominio creato nella soluzione di hosting.
+1. Immetti il sottodominio creato nella tua soluzione di hosting.
 
-   Per delegare ad Adobe la generazione del certificato SSL del sottodominio, abilita **[!UICONTROL Opt per Adobe SSL gestito per i sottodomini]** opzione. [Ulteriori informazioni sulla delega dei certificati SSL](delegate-ssl.md)
+   Per delegare ad Adobe la generazione del certificato SSL del sottodominio, abilita **[!UICONTROL Scegli l’opzione SSL gestito da Adobe per i sottodomini]**. [Ulteriori informazioni sulla delega dei certificati SSL](delegate-ssl.md)
 
    ![](assets/cname-adobe-managed.png)
 
@@ -160,17 +160,17 @@ Per configurare un sottodominio utilizzando i CNAME, segui i passaggi riportati 
 
    ![](assets/cname-generate-record.png)
 
-1. Assicurati che tutti i record DNS dei passaggi precedenti siano stati generati nella soluzione di hosting del tuo dominio. Se tutto è configurato correttamente, seleziona la prima opzione e fai clic su **[!UICONTROL Successivo]** per confermare.
+1. Assicurati che tutti i record DNS dei passaggi precedenti siano stati generati nella soluzione di hosting del tuo dominio. Se tutto è configurato correttamente, seleziona la prima opzione e fai clic su **[!UICONTROL Avanti]** per confermare.
 
-   Se desideri creare i record e inviare la configurazione del sottodominio in un secondo momento, seleziona la seconda istruzione. Potrai quindi riprendere la configurazione del sottodominio direttamente dalla schermata gestione sottodominio **[!UICONTROL Elaborazione]** area. Tieni presente che i record DNS da inserire nel server verranno conservati per 30 giorni dal Pannello di controllo. Oltre tale periodo, dovrai configurare il sottodominio da zero.
+   Se desideri creare i record e inviare la configurazione del sottodominio in un secondo momento, seleziona la seconda opzione. Potrai quindi riprendere la configurazione del sottodominio direttamente dall’area **[!UICONTROL Elaborazione]** della schermata per la gestione del sottodominio. Tieni presente che i record DNS da inserire nel server verranno conservati per 30 giorni dal Pannello di controllo. Oltre tale periodo, dovrai configurare il sottodominio da zero.
 
    >[!NOTE]
    >
-   >Se hai scelto di non delegare il certificato SSL ad Adobe, questo è l’ultimo passaggio della configurazione del sottodominio. Fai clic su **[!UICONTROL Invia]** pulsante.
+   >Se hai scelto di non delegare il certificato SSL ad Adobe, questo è l’ultimo passaggio della configurazione del sottodominio. Fai clic sul pulsante **[!UICONTROL Invia]**.
 
    ![](assets/cname-confirmation.png)
 
-1. Se hai scelto di delegare il certificato dei sottodomini ad Adobe, i record dei certificati vengono generati automaticamente. Copia questi record, uno per uno, oppure scaricando un file CSV, quindi accedi alla soluzione di hosting del tuo dominio per generare i certificati corrispondenti.
+1. Se hai scelto di delegare il certificato dei sottodomini ad Adobe, i record dei certificati saranno generati automaticamente. Copia questi record, uno per uno, oppure scaricando un file CSV, quindi accedi alla soluzione di hosting del tuo dominio per generare i certificati corrispondenti.
 
    ![](assets/cname-csr-generation.png)
 
@@ -186,13 +186,13 @@ Una volta inviato il sottodominio, il Pannello di controllo eseguirà vari contr
 
    >[!NOTE]
    >
-   >Durante l’esecuzione della configurazione di un sottodominio, altre richieste di Pannello di controllo Campaign verranno inserite in una coda ed eseguite solo al termine della configurazione del sottodominio, per evitare problemi di prestazioni.
+   >Durante l’esecuzione della configurazione di un sottodominio, altre richieste effettuate tramite il Pannello di controllo verranno inserite in una coda ed eseguite solo al termine della configurazione del sottodominio, per evitare problemi di prestazioni.
 
 1. Se i controlli hanno esito positivo, il Pannello di controllo avvia la configurazione del sottodominio con record DNS, URL aggiuntivi, caselle in entrata e così via.
 
    ![](assets/subdomain7.png)
 
-   Per maggiori dettagli sull’avanzamento della configurazione, fai clic sulla configurazione del sottodominio **[!UICONTROL Dettagli]** pulsante.
+   Per maggiori dettagli sull’avanzamento della configurazione, fai clic sul pulsante di configurazione del sottodominio **[!UICONTROL Dettagli]**.
 
    ![](assets/subdomain_audit.png)
 
@@ -202,7 +202,7 @@ Una volta inviato il sottodominio, il Pannello di controllo eseguirà vari contr
    >
    >I controlli di consegna eseguiti includono test di cicli di feedback e cicli di reclamo per posta indesiderata. Sconsigliamo quindi di utilizzare il sottodominio prima che l’audit sia stato completato, in quanto potrebbe portare a una cattiva reputazione del sottodominio.
    >
-   >Tuttavia, tieni presente che puoi eseguire operazioni relative ai certificati SSL sul tuo sottodominio, anche se l’audit del recapito messaggi è ancora in elaborazione.
+   >Tuttavia, tieni presente che puoi eseguire operazioni relative ai certificati SSL nel tuo sottodominio, anche se l’audit della recapitabilità è ancora in elaborazione.
 
 1. Al termine del processo, i sottodomini saranno configurati per lavorare con l’istanza Adobe Campaign e verranno creati gli elementi seguenti:
 
@@ -212,7 +212,7 @@ Una volta inviato il sottodominio, il Pannello di controllo eseguirà vari contr
 
    Per impostazione predefinita, la casella in entrata “Reply-to” (“Risposta”) del Pannello di controllo è configurata per cancellare le e-mail e non si può esaminare. Se desideri monitorare la casella in entrata “Reply-to” (“Risposta”) per le tue campagne di marketing, non utilizzare questo indirizzo.
 
-Per ottenere ulteriori dettagli sul sottodominio, fai clic sul pulsante **[!UICONTROL Dettagli del sottodominio]** e **[!UICONTROL Informazioni mittente]** pulsanti.
+Per ottenere ulteriori dettagli sul sottodominio, fai clic sui pulsanti **[!UICONTROL Dettagli sottodominio]** e **[!UICONTROL Informazioni mittente]**.
 
 ![](assets/detail_buttons.png)
 
@@ -222,6 +222,6 @@ Per ottenere ulteriori dettagli sul sottodominio, fai clic sul pulsante **[!UICO
 
 ## Risoluzione dei problemi {#troubleshooting}
 
-* In alcuni casi, la configurazione viene eseguita, ma il sottodominio potrebbe non superare la verifica. Il sottodominio rimarrà nel **[!UICONTROL Configurato]** con un job log che fornisce informazioni sull&#39;errore. In caso di difficoltà nella risoluzione del problema, contatta l’Assistenza clienti.
-* Se il sottodominio viene visualizzato come &quot;Unverified&quot; (Non verificato) dopo la configurazione, avvia una nuova verifica del sottodominio (**...** / **[!UICONTROL Verifica sottodominio]**). Se viene ancora mostrato lo stesso stato, ciò potrebbe essere dovuto al fatto che è stata eseguita una personalizzazione sullo schema dei destinatari che non può essere verificata con i processi standard. Prova ad avviare una campagna con quel sottodominio.
+* In alcuni casi, la configurazione viene eseguita, ma il sottodominio potrebbe non superare la verifica. Il sottodominio resterà nell’elenco **[!UICONTROL Configurati]** con un registro di processo che fornisce informazioni sull’errore. In caso di difficoltà nella risoluzione del problema, contatta l’Assistenza clienti.
+* Se il sottodominio viene visualizzato come “Non verificato” dopo la configurazione, avvia una nuova verifica del sottodominio. (**...** / **[!UICONTROL Verifica sottodominio]**). Se viene ancora mostrato lo stesso stato, ciò potrebbe essere dovuto al fatto che è stata eseguita una personalizzazione sullo schema dei destinatari che non può essere verificata con i processi standard. Prova ad avviare una campagna con quel sottodominio.
 * Se la configurazione del sottodominio richiede troppo tempo (più di 10 giorni lavorativi) durante il passaggio dell’audit del recapito di messaggi, contatta l’Assistenza clienti.
