@@ -10,7 +10,7 @@ exl-id: 1d1eeff8-969e-4529-b947-2a68defb8d13
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
 workflow-type: tm+mt
 source-wordcount: '830'
-ht-degree: 69%
+ht-degree: 100%
 
 ---
 
@@ -26,9 +26,9 @@ ht-degree: 69%
 
 >[!IMPORTANT]
 >
->Questa funzione è disponibile solo per le istanze Campaign v7/v8.
+>Questa funzione è disponibile solo per le istanze di Campaign v7/v8.
 
-Per impostazione predefinita, l’istanza di Adobe Campaign non è accessibile da vari indirizzi IP.
+Per impostazione predefinita, l’istanza di Adobe Campaign non è accessibile da vari indirizzi IP.
 
 Se il tuo indirizzo IP non è stato inserito nell’elenco Consentiti non potrai accedere all’istanza da tale indirizzo. Allo stesso modo, potresti non riuscire a collegare un’API al Message Center (Centro messaggi) o all’istanza Marketing se l’indirizzo IP non è stato inserito nell’elenco Consentiti insieme all’istanza in modo esplicito.
 
@@ -36,7 +36,7 @@ Il Pannello di controllo ti consente di impostare nuove connessioni alle istanze
 
 Una volta inseriti gli indirizzi IP nell’elenco Consentiti, puoi creare e collegare ad essi gli operatori Campaign per consentire agli utenti di accedere all’istanza.
 
-![](assets/do-not-localize/how-to-video.png) [Scopri questa funzione nel video](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/instance-settings/ip-allow-listing.html#instance-settings)
+![](assets/do-not-localize/how-to-video.png) [Guarda il video su questa funzione](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/instance-settings/ip-allow-listing.html?lang=it#instance-settings)
 
 ## Best practice {#best-practices}
 
@@ -46,7 +46,7 @@ Accertati di seguire le raccomandazioni e le limitazioni riportate di seguito qu
 * **Se hai temporaneamente attivato l’accesso all’istanza per un indirizzo IP**, assicurati di rimuoverlo dall’elenco Consentiti una volta che non è più necessario per connettersi all’istanza.
 * **Si sconsiglia di aggiungere all’elenco Consentiti gli indirizzi IP di luoghi pubblici** (aeroporti, alberghi, ecc.). Utilizza l’indirizzo VPN dell’azienda per proteggere sempre la tua istanza.
 
-## Aggiunta di indirizzi IP all’elenco consentito per accedere all’istanza {#adding-ip-addresses-allow-list}
+## Aggiungere indirizzi IP all’elenco Consentiti per accedere alle istanze {#adding-ip-addresses-allow-list}
 
 >[!CONTEXTUALHELP]
 >id="cp_instancesettings_iprange_add"
@@ -55,11 +55,11 @@ Accertati di seguire le raccomandazioni e le limitazioni riportate di seguito qu
 
 >[!NOTE]
 >
->Se il **[!UICONTROL Impostazioni delle istanze]** non è visibile nella home page del Pannello di controllo Campaign, il che significa che [ID organizzazione](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=it) non è associato ad alcuna istanza di Adobe Campaign v7/v8.
+>Se la scheda **[!UICONTROL Impostazioni istanze]** non è visibile nella home page del Pannello di controllo, significa che il tuo [ID organizzazione](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=it) non è associato ad alcuna istanza di Adobe Campaign v7/v8.
 
 Per aggiungere indirizzi IP all’elenco Consentiti, esegui i seguenti passaggi:
 
-1. Apri **[!UICONTROL Scheda Instances Settings]** per accedere alla scheda inserimento di IP nell’elenco Consentiti, fai clic su **[!UICONTROL Aggiungi nuovo intervallo IP]**.
+1. Apri la **[!UICONTROL scheda Impostazioni istanze]** per accedere alla scheda per l’inserimento degli IP nell’elenco Consentiti, quindi fai clic su **[!UICONTROL Aggiungi nuovo intervallo IP]**.
 
 
 
@@ -69,8 +69,8 @@ Per aggiungere indirizzi IP all’elenco Consentiti, esegui i seguenti passaggi:
 
    ![](assets/ip_whitelist_add1.png)
 
-   * **[!UICONTROL Istanza/i]**: le istanze a cui gli indirizzi IP saranno in grado di connettersi. È possibile operare su più istanze contemporaneamente. Ad esempio, l’inserimento di IP nell’elenco Consentiti può essere eseguito sia sulle istanze Production che Stage nello stesso passaggio.
-   * **[!UICONTROL Intervallo IP]**: l’intervallo IP che desideri aggiungere all’elenco consentiti, in formato CIDR. Ricorda che un intervallo IP non può sovrapporsi a un intervallo esistente nell’elenco Consentiti. In tal caso, elimina prima l’intervallo che contiene l’IP sovrapposto.
+   * **[!UICONTROL Instanza/e]**: le istanze a cui potranno connettersi gli indirizzi IP. È possibile operare su più istanze contemporaneamente. Ad esempio, l’inserimento di IP nell’elenco Consentiti può essere eseguito sia sulle istanze Production che Stage nello stesso passaggio.
+   * **[!UICONTROL Intervallo IP]**: l’intervallo IP da aggiungere all’elenco Consentiti, in formato CIDR. Ricorda che un intervallo IP non può sovrapporsi a un intervallo esistente nell’elenco Consentiti. In tal caso, elimina prima l’intervallo che contiene l’IP sovrapposto.
 
    >[!NOTE]
    >
@@ -78,31 +78,31 @@ Per aggiungere indirizzi IP all’elenco Consentiti, esegui i seguenti passaggi:
    >
    >Puoi cercare su Internet strumenti online gratuiti che ti aiuteranno a convertire gli intervalli IP che hai a disposizione in formato CIDR.
 
-   * **[!UICONTROL Etichetta]**: etichetta che verrà visualizzata nell’elenco consentiti.
-   * **[!UICONTROL Nome]**: il nome deve essere univoco per Access Type (Tipo di accesso), Instance (Istanza) (in caso di connessione API esterna) e per l’indirizzo IP.
+   * **[!UICONTROL Etichetta]**: l’etichetta che verrà visualizzata nell’elenco Consentiti.
+   * **[!UICONTROL Nome]**: il nome deve essere univoco per Tipo di accesso, Istanza (in caso di connessione API esterna) e per l’indirizzo IP.
 
 1. Specifica il tipo di accesso che desideri concedere agli indirizzi IP:
 
-   * **[!UICONTROL Accesso alla console Campaign]**: gli indirizzi IP saranno autorizzati a connettersi alla console client di Campaign. L’accesso alla console è abilitato solo per le istanze Marketing. L’accesso all’istanza MID e RT non è consentito e pertanto non è abilitato.
+   * **[!UICONTROL Accesso alla console di Campaign]**: gli indirizzi IP saranno autorizzati a connettersi alla console client di Campaign. L’accesso alla console è abilitato solo per le istanze Marketing. L’accesso all’istanza MID e RT non è consentito e pertanto non è abilitato.
    * **[!UICONTROL Connessione AEM]**: gli indirizzi IP AEM specificati saranno autorizzati a connettersi all’istanza Marketing.
-   * **[!UICONTROL Connessione API esterna]**: le API esterne con gli indirizzi IP specificati saranno autorizzate a connettersi all’istanza Marketing e/o Message Center (Centro messaggi) (RT). La connessione delle istanze RT alla console non è abilitata.
+   * **[!UICONTROL Connessione API esterna]**: le API esterne con gli indirizzi IP specificati saranno autorizzate a connettersi all’istanza Marketing e/o Centro messaggi (RT). La connessione delle istanze RT alla console non è abilitata.
 
    >[!NOTE]
    >
-   >Se utilizzi un’istanza con un modello di hosting ibrido, potrai aggiungere solo indirizzi IP in &quot;External API Connection&quot; per le istanze MID e RT.
+   >Se utilizzi un’istanza con un modello di hosting ibrido, potrai aggiungere solo indirizzi IP in “Connessione API esterna” per le istanze MID e RT.
 
    ![](assets/ip_whitelist_acesstype.png)
 
-1. Fai clic su **[!UICONTROL Salva]** pulsante. L’intervallo IP viene aggiunto all’elenco Consentiti.
+1. Fai clic sul pulsante **[!UICONTROL Salva]**. L’intervallo IP viene aggiunto all’elenco Consentiti.
 
    <!--![](assets/ip_whitelist_added.png)-->
 
-Per impostazione predefinita, l’istanza di Adobe Campaign non è accessibile da vari indirizzi IP.
+Per impostazione predefinita, l’istanza di Adobe Campaign non è accessibile da vari indirizzi IP.
 
-Per eliminare uno o più intervalli IP dall’elenco consentiti, selezionali, quindi fai clic su **[!UICONTROL Elimina intervallo IP]** pulsante.
+Per eliminare uno o più intervalli IP dall’elenco Consentiti, selezionali, quindi fai clic sul pulsante **[!UICONTROL Elimina intervallo IP]**.
 
 ![](assets/ip_whitelist_delete.png)
 
 **Argomento correlato:**
 
-* [Collegamento di un’area di sicurezza a un operatore](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/additional-configurations/security-zones.html#linking-a-security-zone-to-an-operator)
+* [Collegamento di un’area di sicurezza a un operatore](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/additional-configurations/security-zones.html?lang=it#linking-a-security-zone-to-an-operator)
