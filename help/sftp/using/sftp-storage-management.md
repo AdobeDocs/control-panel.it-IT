@@ -8,9 +8,9 @@ role: Admin
 level: Experienced
 exl-id: eaf67573-f088-47d9-8a25-273d08dc541a
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '418'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ Se ti sei iscritto agli [avvisi e-mail](../../performance-monitoring/using/email
 
 ## Accesso alle informazioni sulla capacità di archiviazione {#accessing-storage-capacity-information}
 
-Le informazioni sullo spazio utilizzato da tutte le istanze a cui hai accesso sono disponibili nel **[!UICONTROL Storage]** della scheda SFTP. Vengono aggiornate a ogni aggiornamento di pagina.
+Le informazioni sullo spazio utilizzato da tutte le istanze a cui hai accesso sono disponibili nella scheda **[!UICONTROL Archiviazione]** della scheda SFTP. Vengono aggiornate a ogni aggiornamento di pagina.
 
 ![](assets/control_panel_space.png)
 
