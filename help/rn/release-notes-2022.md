@@ -204,7 +204,7 @@ I clienti con modello di hosting ibrido possono ora configurare nuovi sottodomin
 <table>
 <thead>
 <tr>
-<th><strong>Trasmissione e monitoraggio della latenza</strong><br/></th>
+<th><strong>Monitoraggio delle velocità effettive e della latenza</strong><br/></th>
 </tr>
 </thead>
 <tbody>
