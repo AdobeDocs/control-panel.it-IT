@@ -8,9 +8,9 @@ role: Admin
 level: Intermediate
 exl-id: d230aae6-4f0e-4201-bb3c-0e3f83a7c1b8
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '780'
-ht-degree: 71%
+ht-degree: 100%
 
 ---
 
@@ -27,11 +27,11 @@ ht-degree: 71%
 
 Per monitorare in modo efficace le istanze di Campaign, è fondamentale tenere traccia di eventi importanti che possono potenzialmente influire sulle istanze. Il Pannello di controllo consente di identificare eventi come nuove versioni, aggiornamenti, patch, correzioni rapide e così via e fornisce un elenco di contatti Adobe chiave per eventuali richieste o problemi.
 
-Queste informazioni sono accessibili da **[!UICONTROL Calendario dei servizi]** sulla home page del Pannello di controllo Campaign.
+Queste informazioni sono accessibili dalla scheda **[!UICONTROL Calendario del servizio]** sulla pagina home del Pannello di controllo.
 
 ## Contatti chiave {#key-contacts}
 
-Il **[!UICONTROL Contatti chiave]** In questa sezione sono elencate le persone in Adobe che puoi contattare per eventuali richieste o problemi relativi alle tue istanze.
+Nella sezione **[!UICONTROL Contatti chiave]** sono elencate le persone in Adobe che puoi contattare per eventuali richieste o problemi relativi alle tue istanze.
 
 >[!NOTE]
 >
@@ -41,17 +41,17 @@ Il **[!UICONTROL Contatti chiave]** In questa sezione sono elencate le persone i
 
 I contatti chiave includono i seguenti ruoli:
 
-* **[!UICONTROL TAM]**: Technical Account Manager,
-* **[!UICONTROL CSM]**: Customer Success Manager,
-* **[!UICONTROL Recapito messaggi]**: punto di contatto per le operazioni di consegna,
-* **[!UICONTROL Gestione transizioni]**: Managed Services Transition Manager (solo account Managed Services),
-* **[!UICONTROL Specialista all’onboarding]**: specialista assegnato all’account per aiutarti a iniziare con Campaign Classic (solo per account Managed Services).
+* **[!UICONTROL TAM]**: Technical Account Manager
+* **[!UICONTROL CSM]**: Customer Success Manager
+* **[!UICONTROL Deliverability]**: contatto per le operazioni di recapitabilità dei messaggi
+* **[!UICONTROL Transition Manager]**: Managed Services Transition Manager (solo per account Managed Services)
+* **[!UICONTROL On-boarding Specialist]**: specialista assegnato all’account per aiutarti a iniziare con Campaign Classic (solo per account Managed Services)
 
 ## Tenere traccia degli eventi importanti {#events}
 
-Il **[!UICONTROL Calendario eventi servizio]** Questa sezione mostra tutte le versioni precedenti e future, nonché gli avvisi per gli utenti abbonati agli avvisi e-mail del Pannello di controllo Campaign. Inoltre, il Pannello di controllo consente agli utenti di impostare promemoria e contrassegnare eventi rilevanti per l’istanza selezionata per una migliore organizzazione e una maggiore efficienza.
+La sezione **[!UICONTROL Calendario eventi di servizio]** mostra tutte le versioni passate e future, nonché gli avvisi per gli utenti iscritti agli avvisi e-mail del Pannello di controllo. Inoltre, il Pannello di controllo consente agli utenti di impostare promemoria e contrassegnare eventi rilevanti per l’istanza selezionata per una migliore organizzazione e una maggiore efficienza.
 
-Gli eventi vengono visualizzati in un calendario o in un elenco. È possibile passare da una visualizzazione all&#39;altra utilizzando **[!UICONTROL Calendario]** e **[!UICONTROL Elenco]** nell&#39;angolo superiore destro della sezione.
+Gli eventi vengono visualizzati in un calendario o in un elenco. È possibile passare da una visualizzazione all’altra utilizzando i pulsanti **[!UICONTROL Calendario]** e **[!UICONTROL Elenco]** in alto a destra in questa sezione.
 
 ![](assets/service-events-calendar.png)
 
@@ -67,12 +67,12 @@ Vengono visualizzati tre tipi di eventi:
 
 * Le **versioni** indicano sia le distribuzioni passate che quelle future nell’istanza, visualizzate rispettivamente in grigio e blu nella vista calendario. I dettagli dell’evento specificano il tipo di versione associata a ciascuna distribuzione:
 
-   * **[!UICONTROL Disponibilità generale]**: build stabile più recente disponibile.
-   * **[!UICONTROL Disponibilità limitata]**: solo per implementazione su richiesta.
-   * **[!UICONTROL Candidato alla versione]**: convalidata dal team Engineering. In attesa di prove di produzione.
-   * **[!UICONTROL Pre-release]**: disponibilità anticipata per esigenze specifiche dei clienti.
-   * **[!UICONTROL Non più disponibile]**: la build non contiene problemi importanti ma ne è disponibile una nuova con ulteriori correzioni di bug. È necessario un aggiornamento.
-   * **[!UICONTROL Obsoleto]**: build con regressioni note. La build non è più supportata. È obbligatorio eseguire l’aggiornamento.
+   * **[!UICONTROL Disponibilità generale]**: ultima versione stabile disponibile.
+   * **[!UICONTROL Disponibilità limitata]**: solo distribuzione su richiesta.
+   * **[!UICONTROL Versione candidata]**: convalidata dal team Engineering. In attesa di prove di produzione.
+   * **[!UICONTROL Pre-release]**: disponibilità anticipata per esigenze specifiche del cliente.
+   * **[!UICONTROL Non più disponibile]**: la versione non contiene problemi importanti ma ne è disponibile una nuova con nuove correzioni di bug. È necessario un aggiornamento.
+   * **[!UICONTROL Obsoleta]**: versione con regressioni note. La build non è più supportata. È obbligatorio eseguire l’aggiornamento.
 
 Puoi assegnare un flag a uno o più eventi in programma per tenerne traccia. A questo scopo, fai clic sul pulsante con i puntini di sospensione accanto al nome dell’evento.
 
@@ -88,7 +88,7 @@ Con Service Calendar (Calendario dei servizi), è possibile impostare i promemor
 
 Per impostare un avviso per un evento, effettua le seguenti operazioni:
 
-1. Passa il puntatore del mouse sull&#39;evento di cui vuoi cevere il promemoria oppure fai clic sul pulsante con i tre punti (...) nella vista a elenco e seleziona **[!UICONTROL Imposta promemoria]**.
+1. Passa il puntatore del mouse sull’evento di cui vuoi ricevere il promemoria oppure fai clic sul pulsante con i puntini di sospensione nella visualizzazione a elenco e seleziona **[!UICONTROL Imposta promemoria]**.
 
 1. Assegna un titolo al promemoria, quindi seleziona la data in cui desideri ricevere la notifica prima che si verifichi l’evento.
 
@@ -106,4 +106,4 @@ Per impostare un avviso per un evento, effettua le seguenti operazioni:
    >
    >È possibile impostare fino a 2 promemoria per lo stesso evento.
 
-1. Alla data specificata nel promemoria, verrà inviata un’e-mail per avvisarti dell’evento in arrivo e il promemoria verrà rimosso automaticamente dal **[!UICONTROL Promemoria]** nel menu Service Calendar (Calendario dei servizi).
+1. Alla data specificata nel promemoria, verrà inviata un’e-mail per avvisarti dell’evento imminente e il promemoria verrà rimosso automaticamente dall’elenco dei **[!UICONTROL Promemoria]** nel menu del Calendario del servizio.
