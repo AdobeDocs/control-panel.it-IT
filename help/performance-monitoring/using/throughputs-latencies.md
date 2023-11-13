@@ -8,9 +8,9 @@ role: Admin
 level: Experienced
 exl-id: eddef17f-0667-4b43-bc56-2b1aeeae61bb
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '436'
-ht-degree: 75%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ Il Pannello di controllo consente di monitorare le prestazione di consegna e la 
 
 Per comprendere l’utilizzo delle istanze e garantirne le prestazioni, è essenziale monitorare la tendenza degli output di consegna e della latenza in un determinato periodo di tempo.
 
-Queste informazioni sono rese disponibili in Pannello di controllo Campaign per ciascuna istanza di Campaign in **[!UICONTROL Monitoraggio delle prestazioni]** carta, **[!UICONTROL Throughput e latenza]** (il Pannello di controllo Campaign potrebbe richiedere fino a 1 ora per visualizzare le cifre).
+Queste informazioni sono disponibili nel Pannello di controllo per ciascuna istanza di Campaign nella sezione **[!UICONTROL Monitoraggio delle prestazioni]**, all’interno della scheda **[!UICONTROL Velocità effettive e latenza]** (tieni presente che il Pannello di controllo può richiedere fino a 1 ora prima di visualizzare idati).
 
 >[!NOTE]
 >
@@ -37,18 +37,18 @@ Queste informazioni sono rese disponibili in Pannello di controllo Campaign per 
 
 ![](assets/throughput-latencies-overview.png)
 
-Per impostazione predefinita, i dati vengono visualizzati per il giorno corrente. È possibile modificare il periodo di tempo visualizzato utilizzando **[!UICONTROL 6 mesi]**, **[!UICONTROL 30 giorni]** e **[!UICONTROL 7 giorni]** pulsanti. I dati verranno presentati come segue:
+Per impostazione predefinita, i dati vengono visualizzati per il giorno corrente. È possibile modificare il periodo di tempo visualizzato utilizzando i pulsanti **[!UICONTROL 6 mesi]**, **[!UICONTROL 30 giorni]** e **[!UICONTROL 7 giorni]**. I dati verranno presentati come segue:
 * Su base oraria per le visualizzazioni a 1 giorno e 7 giorni
 * Su base di 6 ore per la visualizzazione a 30 giorni
 * Su base giornaliera per la visualizzazione a 6 mesi
 
-Puoi anche visualizzare queste informazioni in formato tabulare con colonne ordinabili, anziché con un grafico. A questo scopo, fai clic su **[!UICONTROL Impostazioni di visualizzazione]** quindi selezionare **[!UICONTROL Tabella]**.
+Puoi anche visualizzare queste informazioni in formato tabulare con colonne ordinabili, anziché con un grafico. A questo scopo, fai clic sul pulsante **[!UICONTROL Impostazioni di visualizzazione]**, quindi seleziona **[!UICONTROL Tabella]**.
 
 ![](assets/throughput-latencies-table.png)
 
 ## Monitorare la velocità effettiva {#throughput}
 
-Il **[!UICONTROL Velocità effettiva]** L’area fornisce informazioni sul numero di messaggi inviati all’ora dall’istanza Campaign selezionata per tutti i canali di comunicazione a cui hai diritto.
+L’area **[!UICONTROL Velocità effettiva]** fornisce informazioni sul numero di messaggi inviati all’ora dall’istanza di Campaign selezionata per tutti i canali di comunicazione a cui hai diritto.
 
 >[!NOTE]
 >
@@ -60,7 +60,7 @@ Il Pannello di controllo consente inoltre di identificare gli ID delle prime 5 c
 
 ## Monitorare la latenza {#latency}
 
-Il **[!UICONTROL Latenza]** fornisce informazioni sulla latenza riscontrata nell’istanza selezionata durante l’invio di comunicazioni transazionali in tempo reale.
+L’area **[!UICONTROL Latenza]** fornisce informazioni sulla latenza riscontrata nell’istanza selezionata durante l’invio di comunicazioni transazionali in tempo reale.
 
 >[!NOTE]
 >
