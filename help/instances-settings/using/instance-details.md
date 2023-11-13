@@ -1,16 +1,16 @@
 ---
 product: campaign
 solution: Campaign
-title: Instance details (Dettagli istanza)
+title: Dettagli istanza
 description: Scopri come monitorare i dettagli dell’istanza nel Pannello di controllo
 feature: Control Panel, Monitoring
 role: Admin
 level: Experienced
 exl-id: 02819bfc-9886-43fc-8014-9bfe64c42048
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '536'
-ht-degree: 71%
+ht-degree: 100%
 
 ---
 
@@ -18,14 +18,14 @@ ht-degree: 71%
 
 >[!CONTEXTUALHELP]
 >id="cp_instancesettings_instancedetails"
->title="Informazioni su Instance details (Dettagli istanza)"
+>title="Informazioni su Dettagli istanza"
 >abstract="Visualizza i dettagli delle istanze di Adobe Campaign: tipi, nomi, informazioni sulla build e consigli su possibili aggiornamenti."
 
-## Informazioni su Instance details (Dettagli istanza)  {#about-instance-details}
+## Informazioni su Dettagli istanza {#about-instance-details}
 
 >[!IMPORTANT]
 >
->Questa funzione è disponibile solo per le istanze Campaign v7/v8.
+>Questa funzione è disponibile solo per le istanze di Campaign v7/v8.
 
 L’architettura dell’istanza di Adobe Campaign può contenere diversi server per consentire la flessibilità delle attività di marketing. Ad esempio, possono supportare l’istanza i server Marketing, Real Time (In tempo reale) (o Message Center [Centro messaggi]) e Mid Sourcing.
 
@@ -33,28 +33,28 @@ La funzionalità Instance Details (Dettagli istanza) consente di visualizzare l�
 
 >[!NOTE]
 >
->È consigliabile aggiornare le istanze almeno una volta all’anno per evitare il calo delle prestazioni e poter sfruttare le funzioni e le correzioni più recenti offerte da Adobe Campaign v7/v8.
+>È consigliabile aggiornare le istanze almeno una volta all’anno al fine di evitare il calo delle prestazioni e poter sfruttare le funzionalità più recenti e le correzioni offerte da Adobe Campaign v7/v8.
 
 **Argomenti correlati:**
 
-* [Esecuzione di un aggiornamento della build](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/updating-adobe-campaign/build-upgrade.html)
-* [Aggiornamento di Adobe Campaign](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/updating-adobe-campaign/introduction.html)
+* [Esecuzione di un aggiornamento della build](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/updating-adobe-campaign/build-upgrade.html?lang=it)
+* [Aggiornamento di Adobe Campaign](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/updating-adobe-campaign/introduction.html?lang=it)
 
 ## Recupero di informazioni sulle istanze {#retrieving-information-about-instances}
 
 Per ottenere informazioni sui server connessi alle istanze, procedi come segue:
 
-1. Apri la scheda **[!UICONTROL Instances Settings]** (Impostazioni istanze) per accedere alla scheda **[!UICONTROL Instance Details]** (Dettagli istanza).
+1. Apri la scheda **[!UICONTROL Impostazioni istanze]** per accedere alla scheda **[!UICONTROL Dettagli istanza]**.
 
    >[!NOTE]
    >
-   >Se la scheda Instance Settings (Impostazioni istanze) non è visibile nella home page del Pannello di controllo Campaign, significa che il tuo ID organizzazione non è associato ad alcuna istanza di Adobe Campaign v7/v8.
+   >Se la scheda Impostazioni istanze non è visibile nella home page del Pannello di controllo, significa che il tuo ID organizzazione non è associato ad alcuna istanza di Adobe Campaign v7/v8
 
-1. Seleziona nel riquadro a sinistra l’istanza Campaign desiderata.
+1. Seleziona nel riquadro a sinistra l’istanza di Campaign desiderata.
 
    >[!NOTE]
    >
-   >Tutte le istanze Campaign vengono visualizzate nell’elenco del riquadro a sinistra. Poiché la funzione Instance Details (Dettagli istanza) è dedicata solo alle istanze Campaign v7/v8, se selezioni un’istanza Campaign Standard viene visualizzato il messaggio &quot;Non-Applicable Instance&quot; (Istanza non applicabile).
+   >Tutte le istanze di Campaign vengono visualizzate nell’elenco del riquadro a sinistra. Poiché la funzione Dettagli istanza è dedicata solo alle istanze di Campaign v7/v8, se selezioni un’istanza di Campaign Standard viene visualizzato il messaggio “Istanza non applicabile”.
 
 1. Vengono visualizzati i server connessi all’istanza.
 
@@ -62,15 +62,15 @@ Per ottenere informazioni sui server connessi alle istanze, procedi come segue:
 
 Le informazioni disponibili sono:
 
-* **[!UICONTROL Tipo]**: il tipo di server. I valori possibili sono MKT (Marketing), MID (Mid sourcing) e RT (Message Center / Real-time messaging [Centro messaggi/Messaggistica in tempo reale]).
-* **[!UICONTROL Nome]**: nome del server.
+* **[!UICONTROL Tipo]**: il tipo di server. I valori possibili sono MKT (Marketing), MID (Mid sourcing) e RT (Centro messaggi/Messaggistica in tempo reale).
+* **[!UICONTROL Nome]**: il nome del server.
 * **[!UICONTROL Build:]** la versione di build installata sul server.
-* **[!UICONTROL Informazioni sull&#39;aggiornamento]**: questa colonna indica se è necessario aggiornare il server.
+* **[!UICONTROL Informazioni sull’aggiornamento]**: questa colonna indica se è necessario aggiornare il server.
    * Verde: il server è aggiornato, non è richiesto alcun aggiornamento.
    * Giallo: è consigliabile effettuare l’aggiornamento. Non disponi delle funzioni e delle correzioni più recenti.
    * Rosso: esegui l’aggiornamento il prima possibile. Non disponi di nuove funzioni e le prestazioni del server potrebbero non essere ottimali.
 
-Se uno dei server richiede l’aggiornamento, consulta [questa documentazione](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/updating-adobe-campaign/build-upgrade.html) per ulteriori informazioni su come procedere.
+Se uno dei server richiede l’aggiornamento, consulta [questa documentazione](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/updating-adobe-campaign/build-upgrade.html?lang=it) per ulteriori informazioni su come procedere.
 
 ## Domande comuni {#common-questions}
 
