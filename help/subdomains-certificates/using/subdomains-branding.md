@@ -8,9 +8,9 @@ role: Admin
 level: Intermediate
 exl-id: a489d051-fb95-45cf-bb6d-33aef10b7795
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '729'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
@@ -35,11 +35,11 @@ In questo modo potrai preservare la reputazione del tuo dominio e di altri sotto
 
 ## Metodi di configurazione dei sottodomini {#subdomain-delegation-methods}
 
-La configurazione del sottodominio ti consente di configurare una sottosezione del dominio (tecnicamente una &quot;zona DNS&quot;) per l’utilizzo con Adobe Campaign. I metodi di configurazione disponibili sono:
+La configurazione dei sottodomini consente di configurare una sottosezione del dominio (tecnicamente una “zona DNS”) per l’utilizzo con Adobe Campaign. I metodi di configurazione disponibili sono:
 
 * **Delega completa del sottodominio ad Adobe Campaign** (consigliato): il sottodominio viene delegato completamente ad Adobe. Adobe è in grado di fornire Campaign come servizio gestito controllando e mantenendo tutti gli aspetti del DNS necessari per la distribuzione, il rendering e il tracciamento delle campagne e-mail.
 
-* **Utilizzo dei CNAME**: crea un sottodominio e utilizza i CNAME per puntare a record specifici dell’Adobe. Utilizzando questa configurazione, sia Adobe che il cliente condividono la responsabilità della manutenzione del DNS.
+* **Utilizzo di CNAME**: crea un sottodominio e utilizza i CNAME per puntare a record specifici di Adobe. Utilizzando questa configurazione, sia Adobe che il cliente condividono la responsabilità della manutenzione del DNS.
 
 La tabella seguente fornisce un riepilogo del funzionamento di questi metodi, oltre al livello di impegno che comportano:
 
@@ -48,11 +48,11 @@ La tabella seguente fornisce un riepilogo del funzionamento di questi metodi, ol
 | **Delega completa** | Crea il record del sottodominio e dello spazio dei nomi. Adobe configurerà quindi tutti i record DNS necessari per Adobe Campaign.<br/><br/>In questa configurazione, Adobe si assume la piena responsabilità della gestione del sottodominio e di tutti i record DNS. | Basso |
 | **CNAME, metodo personalizzato** | Crea il record del sottodominio e dello spazio dei nomi. Adobe fornirà quindi i record da inserire nei server DNS e configurerà i valori corrispondenti nei server DNS di Adobe Campaign.<br/><br/>In questa configurazione, tu e Adobe condividete la responsabilità di mantenere il DNS. | Alto |
 
-Ulteriori informazioni sulla configurazione del dominio sono disponibili in [questa documentazione](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/product-specific-resources/campaign/ac-domain-name-setup.html).
+Per ulteriori informazioni sulla configurazione del dominio, consulta [questa documentazione](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/product-specific-resources/campaign/ac-domain-name-setup.html?lang=it).
 
-Per qualsiasi domanda sui metodi di configurazione dei sottodomini, rivolgiti al team di Adobi Deliverability o contatta l’Assistenza clienti per richiedere consulenza sul recapito dei messaggi.
+Se hai domande sui metodi di configurazione dei sottodomini, rivolgiti al team Adobe Deliverability oppure contatta l’Assistenza clienti per richiedere consulenza sulla recapitabilità.
 
-## Casi di utilizzo dei sottodomini (Campaign v7/v8){#subdomains-use-cases}
+## Casi d’uso dei sottodomini (Campaign v7/v8){#subdomains-use-cases}
 
 >[!CONTEXTUALHELP]
 >id="cp_add_subdomain_usecase_selection"
@@ -61,9 +61,9 @@ Per qualsiasi domanda sui metodi di configurazione dei sottodomini, rivolgiti al
 >additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=it" text="Configurazione di un nuovo sottodominio"
 >additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html?lang=it" text="Branding dei sottodomini"
 
-Durante la configurazione dei sottodomini per le istanze Campaign v7/v8, è necessario selezionare il caso d’uso per il quale verrà utilizzato il sottodominio (vedi [Configurazione di un nuovo sottodominio](../../subdomains-certificates/using/setting-up-new-subdomain.md)).
+Durante la configurazione dei sottodomini per le istanze di Campaign v7/v8, è necessario selezionare il caso d’uso per il quale verrà utilizzato il sottodominio (consulta [Configurazione di un nuovo sottodominio](../../subdomains-certificates/using/setting-up-new-subdomain.md)).
 
-I possibili casi d’uso sono:
+I casi d’uso possibili sono:
 
 * **Comunicazioni di marketing**: comunicazioni destinate a scopi commerciali. Esempio: campagna e-mail di vendita.
 
@@ -71,14 +71,14 @@ I possibili casi d’uso sono:
 
 **Suddividere i sottodomini in base ai casi di utilizzo è una best practice per il recapito di messaggi**. In questo modo, la reputazione di ciascun sottodominio è isolata e protetta. Ad esempio, se il tuo sottodominio per le comunicazioni di marketing viene inserito nell’elenco Bloccati dai provider di servizi Internet, il sottodominio delle comunicazioni transazionali non sarà coinvolto e continuerà a inviare comunicazioni.
 
-**Puoi configurare un sottodominio sia per i casi di utilizzo di marketing che per quelli transazionali**:
+**Puoi configurare un sottodominio sia per i casi d’uso di marketing che per quelli transazionali**:
 
 * Per i casi di utilizzo di marketing, i sottodomini saranno configurati sulle istanze **MID** (Mid sourcing).
 * Per i casi di utilizzo transazionali, i sottodomini saranno configurati su TUTTE le istanze **RT** (Message Center / Real-time messaging [Centro messaggi/Messaggistica in tempo reale]) per garantire la connettività. I sottodomini funzioneranno quindi con tutte le tue istanze RT.
 
 >[!NOTE]
 >
->Se utilizzi Campaign v7/v8, il Pannello di controllo Campaign ti consente di vedere quali istanze RT/MID sono collegate all’istanza Marketing con cui stai lavorando. Per ulteriori informazioni, consulta la sezione [Instance details](../../instances-settings/using/instance-details.md) (Dettagli istanza).
+>Se utilizzi Campaign v7/v8, il Pannello di controllo consente di visualizzare quali istanze RT/MID sono collegate all’istanza di marketing con cui stai lavorando. Per ulteriori informazioni, consulta la sezione [Dettagli istanza](../../instances-settings/using/instance-details.md).
 
 **Argomenti correlati:**
 
