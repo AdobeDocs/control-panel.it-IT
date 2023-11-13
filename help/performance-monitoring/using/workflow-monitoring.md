@@ -6,9 +6,9 @@ role: Admin
 level: Experienced
 exl-id: 8016f800-430a-413d-a77b-b7f18f5ab733
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '320'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -44,11 +44,11 @@ To clean paused and completed workflows, follow these steps:
 
 Monitor workflow parameters -->
 
-In Adobe Campaign, alcuni parametri dei flussi di lavoro possono richiedere particolare attenzione per evitare problemi alle istanze. Il Pannello di controllo Campaign **[!UICONTROL Panoramica sull’archiviazione]** I dettagli consentono di verificare se una di queste opzioni è abilitata per i flussi di lavoro.
+In Adobe Campaign, alcuni parametri dei flussi di lavoro possono richiedere particolare attenzione per evitare problemi alle istanze. I dettagli della **[!UICONTROL Panoramica dell’archiviazione]** nel Pannello di controllo consentono di verificare se una di queste opzioni è abilitata per i tuoi flussi di lavoro.
 
 ![](assets/wkf-monitoring-parameters.png)
 
-## **[!UICONTROL Conserva i risultati intermedi]** {#keep-results}
+## **[!UICONTROL Conserva i risultati provvisori]** {#keep-results}
 
 Quando è abilitata (valore “1”), questa opzione salva i risultati delle transizioni tra le varie attività di un flusso di lavoro. Per ulteriori informazioni, consulta la documentazione di [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/executing-a-workflow/managing-execution-options.html?lang=it) e [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/workflow-best-practices.html?lang=it#logs).
 
