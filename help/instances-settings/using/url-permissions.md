@@ -8,9 +8,9 @@ role: Admin
 level: Intermediate
 exl-id: a7df90da-a2ce-409f-9bc3-c7d4fa3024c8
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '612'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
@@ -26,20 +26,20 @@ ht-degree: 80%
 
 >[!IMPORTANT]
 >
->Questa funzione è disponibile solo per le istanze Campaign v7/v8, a partire dalla build 8850. Se utilizzi una build precedente, dovrai eseguire l’aggiornamento per utilizzare questa funzione.
+>Questa funzione è disponibile solo per le istanze di Campaign v7/v8, a partire dalla build 8850. Se utilizzi una build precedente, dovrai eseguire l’aggiornamento per utilizzare questa funzione.
 
-L’elenco predefinito di URL che possono essere richiamati tramite codici JavaScript (flussi di lavoro, ecc.) dalle istanze Campaign è limitato. Si tratta di URL che consentono il corretto funzionamento delle istanze.
+L’elenco predefinito di URL che possono essere richiamati tramite codici JavaScript (flussi di lavoro, ecc.) dalle istanze di Campaign è limitato. Si tratta di URL che consentono il corretto funzionamento delle istanze.
 
 Per impostazione predefinita, le istanze non possono connettersi a URL esterni. Il Pannello di controllo consente di aggiungere degli URL esterni all’elenco degli URL autorizzati, in modo che l’istanza possa connettersi a tali URL. Questo consente di connettere le istanze Campaign a sistemi esterni, ad esempio server SFTP o siti Web, per abilitare il trasferimento di file e/o dati.
 
 Una volta aggiunto l’URL, viene inserito un suo riferimento nel file di configurazione dell’istanza (serverConf.xml).
 
-![](assets/do-not-localize/how-to-video.png) [Scopri questa funzione nel video](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/instance-settings/adding-url-permissions.html#instance-settings)
+![](assets/do-not-localize/how-to-video.png) [Guarda il video su questa funzione](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/instance-settings/adding-url-permissions.html?lang=it#instance-settings)
 
 **Argomenti correlati:**
 
-* [Configurazione del server Campaign](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/additional-configurations/configuring-campaign-server.html)
-* [Protezione delle connessioni in uscita](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/security-privacy/server-configuration.html#outgoing-connection-protection)
+* [Configurazione del server Campaign](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/additional-configurations/configuring-campaign-server.html?lang=it)
+* [Protezione delle connessioni in uscita](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/security-privacy/server-configuration.html?lang=it#outgoing-connection-protection)
 
 ## Best practice {#best-practices}
 
@@ -56,23 +56,23 @@ Una volta aggiunto l’URL, viene inserito un suo riferimento nel file di config
 
 Per aggiungere un URL a cui l’istanza può connettersi, effettua le seguenti operazioni:
 
-1. Apri la scheda **[!UICONTROL Instances Settings]** (Impostazioni istanze) per accedere alla scheda **[!UICONTROL URL Permissions]** (Autorizzazioni URL).
+1. Apri la scheda **[!UICONTROL Impostazioni istanze]** per accedere alla scheda **[!UICONTROL Autorizzazioni URL]**.
 
    >[!NOTE]
    >
-   >Se la scheda Instance Settings (Impostazioni istanze) non è visibile nella home page del Pannello di controllo Campaign, significa che [ID organizzazione](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=it) non è associato ad alcuna istanza di Adobe Campaign
+   >Se la scheda Impostazioni istanze non è visibile nella home page del Pannello di controllo, significa che il tuo [ID organizzazione](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=it) non è associato ad alcuna istanza di Adobe Campaign.
    >
    >La scheda <b><span class="uicontrol">URL permissions (Autorizzazioni URL)</span></b> elenca tutti gli URL esterni a cui l’istanza può connettersi. Questo elenco non include gli URL necessari per il funzionamento di Campaign (ad esempio, le connessioni tra parti dell’infrastruttura).
 
-1. Seleziona nel riquadro a sinistra l’istanza desiderata, quindi fai clic sul pulsante **[!UICONTROL Aggiungi nuovo URL]** pulsante.
+1. Seleziona l’istanza desiderata nel riquadro di sinistra, quindi fai clic sul pulsante **[!UICONTROL Aggiungi nuovo URL]**.
 
    ![](assets/add_url1.png)
 
    >[!NOTE]
    >
-   >Tutte le istanze Campaign vengono visualizzate nell’elenco del riquadro a sinistra.
+   >Tutte le istanze di Campaign vengono visualizzate nell’elenco del riquadro a sinistra.
    >
-   >Poiché la gestione delle autorizzazioni URL è dedicata solo alle istanze Campaign v7/v8, se selezioni un’istanza Campaign Standard viene visualizzato il messaggio &quot;Non-Applicable Instance&quot; (Istanza non applicabile).
+   >Poiché la gestione delle autorizzazioni URL è dedicata solo alle istanze di Campaign v7/v8, se selezioni un’istanza di Campaign Standard, viene visualizzato il messaggio “Istanza non applicabile”.
 
 1. Digita l’URL da autorizzare, con il relativo protocollo associato (http, https o sftp).
 
@@ -90,7 +90,7 @@ Per aggiungere un URL a cui l’istanza può connettersi, effettua le seguenti o
 
    ![](assets/add_url_listnew.png)
 
-Puoi eliminare un URL in qualsiasi momento selezionandolo e facendo clic sul pulsante **[!UICONTROL Elimina URL]** pulsante.
+Puoi eliminare un URL in qualsiasi momento selezionandolo e facendo clic sul pulsante **[!UICONTROL Elimina URL]**.
 
 Tieni presente che, se elimini un URL, l’istanza non sarà più in grado di richiamarlo.
 
