@@ -7,10 +7,10 @@ feature: Control Panel, Monitoring
 role: Admin
 level: Experienced
 exl-id: a157cc27-577f-490f-8c4f-0f203219cfb5
-source-git-commit: 9d0686cd3bb0a037ae66b1a090c3f77d215ff61c
+source-git-commit: a9b150a4f24447d22d5c1ecff5d456ca39cb65e2
 workflow-type: tm+mt
-source-wordcount: '438'
-ht-degree: 85%
+source-wordcount: '442'
+ht-degree: 89%
 
 ---
 
@@ -30,7 +30,7 @@ I profili sono considerati attivi se sono stati targetizzati o se è avvenuta un
 
 >[!NOTE]
 >
->I canali Facebook e Twitter non vengono presi in considerazione.
+>I canali facebook e X (precedentemente noti come Twitter) non vengono presi in considerazione.
 
 Per ulteriori informazioni sui profili attivi, consulta la documentazione [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/profiles-and-audiences/managing-profiles/active-profiles.html?lang=it) e [Campaign v7/v8](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/about-profiles.html?lang=it#active-profiles).
 
@@ -41,7 +41,7 @@ Per ulteriori informazioni sui profili attivi, consulta la documentazione [Campa
 >title="Informazioni sul monitoraggio dei profili attivi"
 >abstract="In questa scheda, puoi ottenere informazioni in tempo reale con dati attuali e storici sull’utilizzo e l’evoluzione dei profili attivi per ciascuna istanza di Campaign."
 
-Per monitorare l’utilizzo del profilo attivo nel Pannello di controllo Campaign, passa alla **[!UICONTROL Monitoraggio delle prestazioni]** scheda > **[!UICONTROL Profili attivi]** e selezionare l&#39;istanza desiderata dalla scheda **[!UICONTROL Elenco istanze]**.
+Per monitorare l’utilizzo del profilo attivo nel Pannello di controllo, passa alla scheda **[!UICONTROL Monitoraggio delle prestazioni]** > **[!UICONTROL Profili attivi]** e seleziona l’istanza desiderata dall’**[!UICONTROL Elenco istanze]**.
 
 Vengono visualizzate informazioni sull’utilizzo dei profili attivi.
 
