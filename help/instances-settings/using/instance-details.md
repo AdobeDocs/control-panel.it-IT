@@ -78,4 +78,4 @@ Se uno dei server richiede l’aggiornamento, consulta [questa documentazione](h
 
 La tua istanza può avere un aspetto molto diverso e può non disporre di tutti i tipi di server, o può disporre di più server uguali. Se non disponi di un tipo di server o di un altro, non vuol dire che non puoi inviare un messaggio in tempo reale o eseguire altri tipi di attività. Puoi richiedere una capacità server aggiuntiva. Saranno applicati costi aggiuntivi.
 
-Se ritieni che alcuni server non siano visualizzati nella pagina “Instance Details” (“Dettagli istanza”), contatta l’Assistenza clienti. Ricorda di indicare l’URL specifico dell’istanza nel messaggio.
+Se ritieni che alcuni server non siano visualizzati nella pagina “Dettagli istanza”, contatta l’Assistenza clienti. Ricorda di indicare l’URL specifico dell’istanza nel messaggio.
