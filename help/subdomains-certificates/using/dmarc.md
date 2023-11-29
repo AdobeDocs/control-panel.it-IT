@@ -80,7 +80,7 @@ Per aggiungere un record DMARC per un sottodominio, segui questi passaggi:
    * **[!UICONTROL Rilassato]**: il server accetta l’autenticazione anche se l’e-mail viene inviata da un sottodominio,
    * In modalità **[!UICONTROL Rigoroso]**, l’autenticazione viene accettata solo se il dominio del mittente corrisponde esattamente a un dominio SPF e DKIM.
 
-   Supponiamo di utilizzare il dominio `http://www.luma.com`. In modalità “Rilassata”, le e-mail provenienti dal sottodominio `marketing.luma.com` verranno autorizzate dal server, mentre verranno rifiutate in modalità “Restrittiva”.
+   Supponiamo di utilizzare il dominio `http://www.luma.com`. In modalità “Rilassata”, le e-mail provenienti dal sottodominio `marketing.luma.com` verranno autorizzate dal server, mentre verranno rifiutate in modalità “Rigorosa”.
 
 1. Fai clic su **[!UICONTROL Aggiungi]** per confermare la creazione del record DMARC.
 
