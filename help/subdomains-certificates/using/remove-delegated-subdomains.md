@@ -84,7 +84,7 @@ Se è necessaria una di queste azioni per rimuovere la delega, un ulteriore pass
 
 ### Elimina record DNS
 
-1. Passa al server DNS e rimuovi i record elencati in Pannello di controllo di Campaign.
+1. Passa al server DNS e rimuovi i record elencati in Pannello di controllo.
 1. Torna al Pannello di controllo e fai clic su **[!UICONTROL Avanti]** per procedere alla rimozione della delega.
 
 ### Aggiungi record DNS
