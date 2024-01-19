@@ -7,10 +7,10 @@ feature: Control Panel, Subdomains and Certificates
 role: Admin
 level: Experienced
 exl-id: 2ca66983-5beb-495a-9639-a31905500cff
-source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
-workflow-type: ht
-source-wordcount: '801'
-ht-degree: 100%
+source-git-commit: aacaec4e6ed7b997c0d879c4a9d4bf85ddd18cf7
+workflow-type: tm+mt
+source-wordcount: '836'
+ht-degree: 95%
 
 ---
 
@@ -26,6 +26,9 @@ Informazioni dettagliate sull’implementazione di DMARC sono disponibili nella 
 
 * I record SPF e DKIM sono prerequisiti per la creazione di un record DMARC.
 * I record DMARC possono essere aggiunti solo per i sottodomini che utilizzano la delega completa dei sottodomini. [Ulteriori informazioni sui metodi di configurazione dei sottodomini](subdomains-branding.md#subdomain-delegation-methods)
+
+  Per stabilire un record DMARC in un sottodominio basato su CNAME, è possibile configurare il record DMARC nel relativo dominio padre. In questo modo tutti i sottodomini associati ereditano i parametri dei record DMARC, anche se delegati tramite CNAME.
+
 * Se esistono record DMARC e BIMI per un sottodominio:
    * Impossibile eliminare i record DMARC. Se si desidera eliminare un record DMARC, eliminare prima il record BIMI.
    * È possibile modificare i record DMARC, ma il downgrade dei criteri DMARC a “Nessuno” non è consentito e il valore percentuale deve essere impostato su “100”.
