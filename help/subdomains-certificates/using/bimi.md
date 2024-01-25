@@ -8,9 +8,9 @@ role: Admin
 level: Experienced
 exl-id: eb7863fb-6e6d-4821-a156-03fee03cdd0e
 source-git-commit: e601f74ae9e53d3a008c55e1fd568013ca0196f8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '577'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 86%
 
 Brand Indicators for Message Identification (BIMI) è uno standard di settore che consente la visualizzazione di un logo approvato accanto all’e-mail di un mittente nelle caselle in entrata dei provider di cassette postali per migliorare il riconoscimento e l’affidabilità del brand. Aiuta a prevenire lo spoofing e il phishing delle e-mail verificando l’identità del mittente tramite l’autenticazione DMARC, rendendo più difficile ai malintenzionati di impersonare brand legittimi nelle e-mail.
 
-È possibile avere più logo per un determinato sottodominio. A questo scopo, devi impostare un record BIMI per ogni logo e assegnare un selettore BIMI a ogni record. [Scopri come aggiungere un record BIMI](#add)
+Puoi avere più loghi per un determinato sottodominio. A questo scopo, devi impostare un record BIMI per ogni logo e assegnare un selettore BIMI a ogni record. [Scopri come aggiungere un record BIMI](#add)
 
 Informazioni dettagliate sull’attuazione di BIMI sono disponibili nella [Guida alle best practice per la recapitabilità di Adobe](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/implement-bimi.html?lang=it)
 
@@ -47,7 +47,7 @@ Per aggiungere un record BIMI per un sottodominio, segui questi passaggi:
 
    ![](assets/bimi-add.png)
 
-1. Il **[!UICONTROL Selettore]** consente di specificare un selettore BIMI per il record. Un selettore BIMI è un identificatore univoco che puoi assegnare a un record BIMI. Questo consente di definire più loghi per un determinato sottodominio.
+1. Il campo **[!UICONTROL Selettore]** consente di specificare un selettore BIMI per il record. Un selettore BIMI è un identificatore univoco che puoi assegnare a un record BIMI. Questo consente di definire più loghi per un determinato sottodominio.
 
 1. Nel campo **[!UICONTROL URL logo aziendale]**, specifica l’URL del file SVG che contiene il logo.
 
