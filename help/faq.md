@@ -7,10 +7,10 @@ feature: Control Panel
 role: Admin
 level: Intermediate
 exl-id: 4f329764-ed8b-4939-affc-ed994fd6101d
-source-git-commit: e8bffd8e7f571fd85c725adf837c2997f7615fcd
+source-git-commit: 98cf425548884c3a5e503c35ce5ea5b7ceaee67f
 workflow-type: tm+mt
-source-wordcount: '756'
-ht-degree: 100%
+source-wordcount: '719'
+ht-degree: 92%
 
 ---
 
@@ -78,19 +78,19 @@ Affinché tu possa gestire le impostazioni per la tua istanza, se utilizzi più 
 
 ### Cosa succede se dispongo di più ID organizzazione? 
 
-Se hai accesso a più soluzioni Adobe, potresti disporre di più ID organizzazione. In questo caso, l’ID organizzazione corretto da utilizzare è quello visualizzato nella tua istanza di Adobe Campaign.
+Disporre di un ID organizzazione per Analytics e Campaign è un requisito se intendi integrare le soluzioni per sfruttare i casi d’uso complessi, come l’abbandono del carrello (per Adobe Analytics + Adobe Campaign). Se hai accesso a più soluzioni Adobe, potresti disporre di più ID organizzazione. In questo caso, l’ID organizzazione corretto da utilizzare è quello visualizzato nella tua istanza di Adobe Campaign.
 
+<!--
 >[!NOTE]
 >
->Se disponi dello stesso ID organizzazione per Adobe Campaign e Adobe Analytics, il problema non si pone. Disporre di un ID organizzazione per Analytics e Campaign è un requisito se intendi integrare le soluzioni per sfruttare i casi d’uso complessi, come l’abbandono del carrello (per AA + AC).
->
->Se disponi di ID organizzazione diversi per Adobe Campaign e Adobe Analytics, contatta l’Assistenza clienti per allinearli.
+>If you have different organization IDs for Adobe Campaign and Adobe Analytics, please reach out to Customer Care to get them aligned.
+-->
 
 ### Come posso sapere se la mia istanza di Adobe Campaign è ospitata o meno su AWS?{#hosted-aws}
 
 Per verificare se l’istanza è ospitata su AWS, effettua le seguenti operazioni:
 
-1. Recupera l’URL di accesso. Si tratta dell’URL che utilizzi per accedere all’istanza Campaign e termina di solito con “.campaign.adobe.com” o “.neolane.net”.
+1. Recupera l’URL di accesso. Si tratta dell’URL che utilizzi per accedere all’istanza Campaign e termina principalmente con &quot;.campaign.adobe.com&quot; o &quot;.neolane.net&quot;.
 1. Apri il terminale, quindi esegui un’operazione **[!DNL nslookup]** sull’URL di accesso.
 
    `doe-macOS% nslookup myinstance.campaign.adobe.com`
