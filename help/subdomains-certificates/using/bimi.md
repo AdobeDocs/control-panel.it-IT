@@ -7,10 +7,10 @@ feature: Control Panel, Subdomains and Certificates
 role: Admin
 level: Experienced
 exl-id: eb7863fb-6e6d-4821-a156-03fee03cdd0e
-source-git-commit: e601f74ae9e53d3a008c55e1fd568013ca0196f8
+source-git-commit: c555a91ee0772fd615d38ebbb3964392649af907
 workflow-type: tm+mt
-source-wordcount: '577'
-ht-degree: 100%
+source-wordcount: '523'
+ht-degree: 80%
 
 ---
 
@@ -18,9 +18,7 @@ ht-degree: 100%
 
 ## Informazioni sui record BIMI {#about}
 
-Brand Indicators for Message Identification (BIMI) è uno standard di settore che consente la visualizzazione di un logo approvato accanto all’e-mail di un mittente nelle caselle in entrata dei provider di cassette postali per migliorare il riconoscimento e l’affidabilità del brand. Aiuta a prevenire lo spoofing e il phishing delle e-mail verificando l’identità del mittente tramite l’autenticazione DMARC, rendendo più difficile ai malintenzionati di impersonare brand legittimi nelle e-mail.
-
-Puoi avere più loghi per un determinato sottodominio. A questo scopo, devi impostare un record BIMI per ogni logo e assegnare un selettore BIMI a ogni record. [Scopri come aggiungere un record BIMI](#add)
+Gli indicatori del marchio per l’identificazione dei messaggi (BIMI, Brand Indicators for Message Identification) sono uno standard di settore che consente la visualizzazione di un logo approvato accanto all’e-mail di un mittente nelle caselle in entrata dei provider di caselle postali, al fine di migliorare il riconoscimento e l’affidabilità del marchio.
 
 Informazioni dettagliate sull’attuazione di BIMI sono disponibili nella [Guida alle best practice per la recapitabilità di Adobe](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/implement-bimi.html?lang=it)
 
@@ -29,10 +27,12 @@ Informazioni dettagliate sull’attuazione di BIMI sono disponibili nella [Guida
 ## Limitazioni e prerequisiti {#limitations}
 
 * I record SPF, DKIM e DMARC sono prerequisiti per la creazione di un record BIMI.
-* I record BIMI possono essere aggiunti solo per i sottodomini che utilizzano la delega completa dei sottodomini. [Ulteriori informazioni sui metodi di configurazione dei sottodomini](subdomains-branding.md#subdomain-delegation-methods)
+
+* Il record BIMI deve essere pubblicato nel DNS, per il dominio pienamente delegato, ciò è possibile tramite il Pannello di controllo Campaign. [Ulteriori informazioni sui metodi di configurazione dei sottodomini](subdomains-branding.md#subdomain-delegation-methods)
+
 * Prerequisiti per i record DMARC:
 
-   * Il tipo di criterio del record per il sottodominio deve essere impostato su “Quarantena” o “Rifiuta”. La creazione di record BIMI non è disponibile con un tipo di criterio DMARC impostato su “Nessuno”.
+   * Il tipo di criterio di record per il dominio organizzativo deve essere impostato su &quot;Quarantena&quot; o &quot;Rifiuta&quot;. La creazione di record BIMI non è disponibile con un tipo di criterio DMARC impostato su “Nessuno”.
    * La percentuale di e-mail a cui viene applicato il criterio DMARC deve essere 100%. BIMI non supporta i criteri DMARC con questa percentuale impostata su un valore inferiore al 100%.
 
 [Scopri come configurare i record DMARC](dmarc.md)
@@ -47,11 +47,11 @@ Per aggiungere un record BIMI per un sottodominio, segui questi passaggi:
 
    ![](assets/bimi-add.png)
 
-1. Il campo **[!UICONTROL Selettore]** consente di specificare un selettore BIMI per il record. Un selettore BIMI è un identificatore univoco che puoi assegnare a un record BIMI. Questo consente di definire più loghi per un determinato sottodominio.
+1. Il campo **[!UICONTROL Selettore]** consente di specificare un selettore BIMI per il record. Un selettore BIMI è un identificatore univoco che puoi assegnare a un record BIMI. Questo consente di definire più loghi per un determinato sottodominio. Al momento questo servizio non è supportato dai provider di cassette postali.
 
 1. Nel campo **[!UICONTROL URL logo aziendale]**, specifica l’URL del file SVG che contiene il logo.
 
-1. Anche se l’**[!UICONTROL URL del certificato]** è facoltativo, è necessario per alcuni provider come Gmail e Apple che coprono l’80% del mercato e-mail. Pertanto, è consigliabile ottenere un certificato VMC (Verified Mark Certificate) per sfruttare al meglio BIMI.
+1. Anche se l&#39;**[!UICONTROL URL certificato]** è facoltativo, è necessario per alcuni provider di cassette postali come Gmail e Apple. Pertanto, è consigliabile ottenere un certificato VMC (Verified Mark Certificate) per sfruttare al meglio BIMI.
 
    +++In che modo si ottiene un VMC?
 
