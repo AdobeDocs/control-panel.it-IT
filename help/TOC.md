@@ -9,7 +9,7 @@ level: Experienced
 source-git-commit: cc45dc517a8baa2583a082b99bc084bd84013918
 workflow-type: tm+mt
 source-wordcount: '180'
-ht-degree: 100%
+ht-degree: 88%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 100%
       + [2021](rn/release-notes-2021.md)
       + [2020](rn/release-notes-2020.md)
       + [2019](rn/release-notes-2019.md)
-+ Esplorare il Pannello di controllo {#discover-control-panel}
++ Scopri il Pannello di controllo {#discover-control-panel}
    + [Funzioni principali](discover/using/key-features.md)
    + [Pannello di controllo degli accessi Campaign](discover/using/accessing-control-panel.md)
    + [Gestione delle autorizzazioni al Pannello di controllo](discover/using/managing-permissions.md)
@@ -44,7 +44,7 @@ ht-degree: 100%
 + Sottodomini e certificati {#subdomains-and-certificates}
    + [Branding dei sottodomini](subdomains-certificates/using/subdomains-branding.md)
    + [Monitorare i sottodomini](subdomains-certificates/using/monitoring-subdomains.md)
-   + Delegare i sottodomini {#delegate-subdomains}
+   + Delega sottodomini {#delegate-subdomains}
       + [Configurare un nuovo sottodominio](subdomains-certificates/using/setting-up-new-subdomain.md)
       + [Rimuovi la delega dei sottodomini ad Adobe](subdomains-certificates/using/remove-delegated-subdomains.md)
    + Utilizzare i record TXT (Google, BIMI, DMARC) {#txt-records}
@@ -52,7 +52,7 @@ ht-degree: 100%
       + [Aggiungere record di verifica del sito Google](subdomains-certificates/using/managing-txt-records.md)
       + [Aggiungere record DMARC](subdomains-certificates/using/dmarc.md)
       + [Aggiungere record BIMI](subdomains-certificates/using/bimi.md)
-   + Monitorare i certificati SSL dei sottodomini {#manage-certificates}
+   + Gestire i certificati SSL dei sottodomini {#manage-certificates}
       + [Monitorare i certificati SSL](subdomains-certificates/using/monitoring-ssl-certificates.md)
       + [Delegare i certificati SSL ad Adobe](subdomains-certificates/using/delegate-ssl.md)
       + [Rinnovare i certificati SSL](subdomains-certificates/using/renewing-subdomain-certificate.md)
