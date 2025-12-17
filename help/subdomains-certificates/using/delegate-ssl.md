@@ -8,9 +8,9 @@ role: Admin
 level: Experienced
 exl-id: a2b3d409-704b-4e81-ae40-b734f755b598
 source-git-commit: 31d181770474428a7b42e96f2e603cc820db48d4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '483'
-ht-degree: 61%
+ht-degree: 100%
 
 ---
 
@@ -36,13 +36,13 @@ La delega dei certificati SSL ad Adobe può essere eseguita durante la configura
 
 Per delegare i certificati SSL durante la configurazione di un nuovo sottodominio, abilita **[!UICONTROL Scegli l’opzione SSL gestito da Adobe per i sottodominii]** nella configurazione guidata del sottodominio. Il processo di generazione del certificato varia in base al metodo di delega del sottodominio:
 
-* **Delega completa del sottodominio**: il certificato SSL viene richiesto e installato automaticamente da Adobe senza che sia necessaria alcuna azione da parte tua. Dopo aver inviato la configurazione del sottodominio, la richiesta di installazione del certificato viene elaborata immediatamente come parte del flusso di lavoro di configurazione del sottodominio. [Ulteriori informazioni sulla delega completa del sottodominio](setting-up-new-subdomain.md#full-subdomain-delegation)
+* **Delega completa del sottodominio**: il certificato SSL viene richiesto e installato automaticamente da Adobe senza che sia necessaria alcuna azione da parte tua. Dopo aver inviato la configurazione del sottodominio, la richiesta di installazione del certificato viene elaborata immediatamente come parte del flusso di lavoro di configurazione del sottodominio. [Ulteriori informazioni sulla delega completa dei sottodomini](setting-up-new-subdomain.md#full-subdomain-delegation)
 
-* **Delega CNAME**: i record del certificato da copiare nella soluzione di hosting verranno forniti più avanti nella procedura guidata di configurazione. Devi generare questi record di certificato nella soluzione di hosting del dominio prima di inviare la configurazione del sottodominio. [Ulteriori informazioni sulla delega CNAME](setting-up-new-subdomain.md#use-cnames)
+* **Delega CNAME**: i record dei certificati da copiare nella soluzione di hosting verranno forniti più avanti nella procedura guidata di configurazione. È necessario generare questi record di certificato nella soluzione di hosting del dominio prima di inviare la configurazione del sottodominio. [Ulteriori informazioni sulla delega CNAME](setting-up-new-subdomain.md#use-cnames)
 
 ![](assets/cname-adobe-managed.png){width="70%" align="left"}
 
-## Delegare i certificati SSL per i sottodomini già delegati {#delegated}
+## Delegare i certificati SSL per sottodomini già delegati {#delegated}
 
 Per delegare i certificati SSL per un sottodominio già delegato, fai clic sul pulsante con i puntini di sospensione accanto al sottodominio desiderato e fai clic su **[!UICONTROL Passa a SSL gestito]**.
 
@@ -52,7 +52,7 @@ Il processo di generazione del certificato dipende dalla configurazione original
 
 ### Sottodomini completamente delegati
 
-Per i sottodomini configurati con la delega completa del sottodominio (con i server dei nomi Adobe), il certificato SSL viene richiesto e installato automaticamente da Adobe. Dopo aver fatto clic su **[!UICONTROL Passa a SSL gestito]** e confermare, la richiesta di installazione del certificato viene inviata immediatamente senza richiedere alcuna azione aggiuntiva.
+Per i sottodomini configurati con la delega completa del sottodominio (con i server dei nomi Adobe), il certificato SSL viene richiesto e installato automaticamente da Adobe. Dopo aver fatto clic su **[!UICONTROL Passa a SSL gestito]** e confermato, la richiesta di installazione del certificato viene inviata immediatamente senza richiedere alcuna azione aggiuntiva da parte tua.
 
 ### Sottodomini delegati CNAME
 

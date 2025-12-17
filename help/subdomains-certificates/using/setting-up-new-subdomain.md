@@ -8,9 +8,9 @@ role: Admin
 level: Experienced
 exl-id: d92781c3-14cc-4716-a131-580ccff46d6e
 source-git-commit: 0b7cb860592508f7323bcd30345d1853e4a4ac94
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1526'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -86,7 +86,7 @@ Per delegare completamente un sottodominio ad Adobe Campaign, segui la procedura
 
    ![](assets/subdomain3.png)
 
-1. Crea il sottodominio e i server di nomi desiderati nella soluzione di hosting utilizzata dalla tua organizzazione. A questo scopo, copia e incolla le informazioni del server dei nomi Adobe visualizzate nella procedura guidata. Per ulteriori informazioni su come creare un sottodominio in una soluzione di hosting, guarda il [video tutorial](https://video.tv.adobe.com/v/39831?captions=ita).
+1. Crea il sottodominio e i server di nomi desiderati nella soluzione di hosting utilizzata dalla tua organizzazione. A questo scopo, copia e incolla le informazioni del server dei nomi Adobe visualizzate nella procedura guidata. Per ulteriori informazioni su come creare un sottodominio in una soluzione di hosting, guarda il [video tutorial](https://video.tv.adobe.com/v/30175).
 
    >[!NOTE]
    >
@@ -102,7 +102,7 @@ Per delegare completamente un sottodominio ad Adobe Campaign, segui la procedura
 
 1. Immetti il sottodominio creato nella tua soluzione di hosting, quindi fai clic su **[!UICONTROL Invia]**.
 
-   Accertati di inserire il **nome completo** del sottodominio da delegare. Ad esempio, per delegare il sottodominio &quot;email.weretail.com&quot;, digita &quot;email.weretail.com&quot;.
+   Accertati di inserire il **nome completo** del sottodominio da delegare. Ad esempio, per delegare il sottodominio “email.weretail.com”, digita “email.weretail.com”.
 
 
 1. Per delegare ad Adobe la generazione del certificato SSL del sottodominio, abilita **[!UICONTROL Scegli l’opzione SSL gestito da Adobe per i sottodomini]**. [Ulteriori informazioni sulla delega dei certificati SSL](delegate-ssl.md)
@@ -223,6 +223,6 @@ Per ottenere ulteriori dettagli sul sottodominio, fai clic sui pulsanti **[!UICO
 
 ## Risoluzione dei problemi {#troubleshooting}
 
-* In alcuni casi, la configurazione viene eseguita, ma il sottodominio potrebbe non superare la verifica. Il sottodominio resterà nell’elenco **[!UICONTROL Configurati]** con un registro di processo che fornisce informazioni sull’errore. In caso di difficoltà nella risoluzione del problema, contatta l’Assistenza clienti.
+* In alcuni casi, la configurazione viene eseguita, ma il sottodominio potrebbe non superare la verifica. Il sottodominio resterà nell’elenco **[!UICONTROL Configurati]** con un registro dei processi che fornisce informazioni sull’errore. In caso di difficoltà nella risoluzione del problema, contatta l’Assistenza clienti.
 * Se il sottodominio viene visualizzato come “Non verificato” dopo la configurazione, avvia una nuova verifica del sottodominio. (**...** / **[!UICONTROL Verifica sottodominio]**). Se viene ancora mostrato lo stesso stato, ciò potrebbe essere dovuto al fatto che è stata eseguita una personalizzazione sullo schema dei destinatari che non può essere verificata con i processi standard. Prova ad avviare una campagna con quel sottodominio.
 * Se la configurazione del sottodominio richiede troppo tempo (più di 10 giorni lavorativi) durante il passaggio dell’audit del recapito di messaggi, contatta l’Assistenza clienti.
