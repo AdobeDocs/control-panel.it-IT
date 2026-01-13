@@ -66,4 +66,4 @@ Il Pannello di controllo è disponibile per tutti gli utenti amministratori di u
 
 ## Video tutorial {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/27147?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/328147?captions=ita&quality=12)
