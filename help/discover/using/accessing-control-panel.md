@@ -7,10 +7,10 @@ feature: Control Panel, Access Management
 role: Admin
 level: Experienced
 exl-id: eb67af6e-a64e-49a7-9656-782f91bc1d67
-source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
+source-git-commit: aff51e72ac2781264d0cd028a816e00c3fcb8bdd
 workflow-type: tm+mt
-source-wordcount: '170'
-ht-degree: 100%
+source-wordcount: '235'
+ht-degree: 56%
 
 ---
 
@@ -20,11 +20,17 @@ Il Pannello di controllo è disponibile direttamente da Experience Cloud o dal p
 
 È accessibile solo agli **utenti amministratori**. Per ulteriori informazioni su come assegnare utenti al gruppo amministratori, consulta [questa sezione](../../discover/using/managing-permissions.md).
 
+>[!IMPORTANT]
+>
+>Per impostazione predefinita, il Pannello di controllo Campaign è accessibile agli utenti amministratori che appartengono al profilo di prodotto &quot;Amministratori&quot;. In base alla configurazione dell’organizzazione, il profilo di prodotto può essere denominato in modo diverso (&quot;admin&quot;, &quot;admins&quot;, &quot;approval admin&quot;, ecc.). **Qualsiasi profilo di prodotto che contiene la parola &quot;admin&quot; nel suo nome concederà automaticamente l&#39;accesso al Pannello di controllo Campaign.**
+>
+>Esamina attentamente la denominazione del profilo di prodotto per assicurarti che solo gli utenti autorizzati abbiano accesso al Pannello di controllo Campaign.
+
 ## Accedere da Experience Cloud Platform {#access-experience-cloud-platform}
 
 Per accedere al Pannello di controllo da Adobe Experience Cloud Platform, segui la procedura indicata di seguito.
 
-1. Accedi alla [pagina Home di Experience Cloud](https://experiencecloud.adobe.com/){target="_blank"}.
+1. Passa alla [home page di Experience Cloud](https://experiencecloud.adobe.com/){target="_blank"}.
 
 1. Fai clic sul collegamento dedicato nella sezione **Accesso rapido**.
 
@@ -32,7 +38,7 @@ Per accedere al Pannello di controllo da Adobe Experience Cloud Platform, segui 
 
 Il Pannello di controllo è accessibile anche dal **selettore soluzioni** di Experience Cloud Platform:
 
-1. Dalla [pagina Home di Adobe Experience Cloud](https://experiencecloud.adobe.com/){target="_blank"}, seleziona **Campaign** dalla sezione **Accesso rapido** o nel menu in alto a destra.
+1. Dalla [home page di Adobe Experience Cloud](https://experiencecloud.adobe.com/){target="_blank"}, seleziona **Campaign** dalla sezione **Accesso rapido** o dal menu superiore a destra.
 
    ![](assets/do-not-localize/control_panel_access1.png)
 
@@ -44,7 +50,7 @@ Il Pannello di controllo è accessibile anche dal **selettore soluzioni** di Exp
 
 >[!NOTE]
 >
->L’accesso dall’interno del prodotto è disponibile solo per [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/campaign-standard-home.html?lang=it){target="_blank"}.
+>L&#39;accesso da all&#39;interno del prodotto è disponibile solo per [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/campaign-standard-home.html?lang=it){target="_blank"}.
 
 1. Apri il prodotto Campaign Standard.
 

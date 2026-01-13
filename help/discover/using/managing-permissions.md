@@ -7,10 +7,10 @@ feature: Control Panel, Permissions
 role: Admin
 level: Intermediate
 exl-id: 7314a679-78c3-4650-bf3a-2bde8be82747
-source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
+source-git-commit: aff51e72ac2781264d0cd028a816e00c3fcb8bdd
 workflow-type: tm+mt
-source-wordcount: '287'
-ht-degree: 100%
+source-wordcount: '341'
+ht-degree: 74%
 
 ---
 
@@ -20,7 +20,7 @@ Il Pannello di controllo è disponibile per tutti gli utenti amministratori di u
 
 ![](assets/do-not-localize/how-to-video.png) Guarda il [video su questa funzione](../../discover/using/managing-permissions.md#video)
 
-1. Accedi alla [pagina home di Adobe Experience Cloud](https://experiencecloud.adobe.com/){target="_blank"}.
+1. Passare alla [home page di Adobe Experience Cloud](https://experiencecloud.adobe.com/){target="_blank"}.
 
 1. Avvia **Admin Console** facendo clic sul collegamento disponibile nella sezione **Accesso rapido** o dal menu in alto a destra.
 
@@ -50,9 +50,11 @@ Il Pannello di controllo è disponibile per tutti gli utenti amministratori di u
 
    ![](assets/do-not-localize/control_panel_add_user_5.png)
 
-   >[!NOTE]
+   >[!IMPORTANT]
    >
-   >Per impostazione predefinita, gli utenti amministratori appartengono al profilo di prodotto “Amministratori”. In base alla configurazione della tua organizzazione, il profilo di prodotto può essere denominato in modo diverso (“admin”, “amministratori”, ecc.).
+   >Per impostazione predefinita, il Pannello di controllo Campaign è accessibile agli utenti amministratori che appartengono al profilo di prodotto &quot;Amministratori&quot;. In base alla configurazione dell’organizzazione, il profilo di prodotto può essere denominato in modo diverso (&quot;admin&quot;, &quot;admins&quot;, &quot;approval admin&quot;, ecc.). **Qualsiasi profilo di prodotto che contiene la parola &quot;admin&quot; nel suo nome concederà automaticamente l&#39;accesso al Pannello di controllo Campaign.**
+   >
+   >Esamina attentamente le convenzioni di denominazione dei profili di prodotto in Admin Console per garantire che solo gli utenti autorizzati abbiano accesso al Pannello di controllo Campaign, in quanto consente di apportare modifiche significative alle istanze di Campaign.
 
 1. Viene visualizzato l’elenco degli utenti amministratori. Fai clic sul pulsante **[!UICONTROL Aggiungi utente]** per aggiungere l’utente desiderato.
 
@@ -64,4 +66,4 @@ Il Pannello di controllo è disponibile per tutti gli utenti amministratori di u
 
 ## Video tutorial {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/328147?quality=12&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/27147?quality=12)
