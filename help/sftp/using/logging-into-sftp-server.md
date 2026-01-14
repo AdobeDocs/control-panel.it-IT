@@ -8,7 +8,7 @@ role: Admin
 level: Experienced
 exl-id: 713f23bf-fa95-4b8a-b3ec-ca06a4592aa3
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '356'
 ht-degree: 100%
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 I passaggi seguenti descrivono in dettaglio come connettere il server SFTP tramite l’applicazione client SFTP.
 
-![](assets/do-not-localize/how-to-video.png) Guarda il [video su questa funzione](https://video.tv.adobe.com/v/328961?quality=12&captions=ita)
+![](assets/do-not-localize/how-to-video.png) Guarda il [video su questa funzione](https://video.tv.adobe.com/v/27263?quality=12)
 
 Prima di effettuare l’accesso al server, assicurati che i seguenti requisiti siano rispettati:
 

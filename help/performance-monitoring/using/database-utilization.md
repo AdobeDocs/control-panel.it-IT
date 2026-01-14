@@ -8,7 +8,7 @@ role: Admin
 level: Experienced
 exl-id: 5ecb4f0b-7f77-4856-9704-e1f317f3239d
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '118'
 ht-degree: 100%
 
@@ -22,6 +22,6 @@ Per modificare il periodo di tempo, utilizza i filtri disponibili nell’angolo 
 
 Per una migliore leggibilità, puoi anche evidenziare una o più curve nel grafico. A questo scopo, selezionali dalla legenda **[!UICONTROL Tipo di aggregazione]**.
 
-Per ulteriori dettagli su un periodo di tempo specifico, passa il cursore del mouse sul grafico per visualizzare le informazioni sull’utilizzo del database in quel momento.
+Per ulteriori dettagli su un periodo di tempo specifico, passa il puntatore sul grafico per visualizzare le informazioni sull’utilizzo del database in quel momento.
 
 ![](assets/databases_dashboard_detail.png)
