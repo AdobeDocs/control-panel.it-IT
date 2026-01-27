@@ -8,7 +8,7 @@ role: Admin
 level: Intermediate
 exl-id: d230aae6-4f0e-4201-bb3c-0e3f83a7c1b8
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '781'
 ht-degree: 100%
 
@@ -69,7 +69,7 @@ Vengono visualizzati tre tipi di eventi:
 
    * **[!UICONTROL Disponibilità generale]**: ultima versione stabile disponibile.
    * **[!UICONTROL Disponibilità limitata]**: solo distribuzione su richiesta.
-   * **[!UICONTROL Versione candidata]**: convalidata dal team Engineering. In attesa di prove di produzione.
+   * **[!UICONTROL Versione candidata]**: convalidata dal team Engineering. In attesa di verifica delle bozze di produzione.
    * **[!UICONTROL Pre-release]**: disponibilità anticipata per esigenze specifiche del cliente.
    * **[!UICONTROL Non più disponibile]**: la versione non contiene problemi importanti ma ne è disponibile una nuova con nuove correzioni di bug. È necessario un aggiornamento.
    * **[!UICONTROL Obsoleta]**: versione con regressioni note. La build non è più supportata. È obbligatorio eseguire l’aggiornamento.
@@ -88,7 +88,7 @@ Con Service Calendar (Calendario dei servizi), è possibile impostare i promemor
 
 Per impostare un avviso per un evento, effettua le seguenti operazioni:
 
-1. Passa il puntatore del mouse sull’evento di cui vuoi ricevere il promemoria oppure fai clic sul pulsante con i puntini di sospensione nella visualizzazione a elenco e seleziona **[!UICONTROL Imposta promemoria]**.
+1. Passa il puntatore sull’evento di cui vuoi ricevere il promemoria oppure fai clic sul pulsante con i puntini di sospensione nella visualizzazione a elenco e seleziona **[!UICONTROL Imposta promemoria]**.
 
 1. Assegna un titolo al promemoria, quindi seleziona la data in cui desideri ricevere la notifica prima che si verifichi l’evento.
 
@@ -98,7 +98,7 @@ Per impostare un avviso per un evento, effettua le seguenti operazioni:
    >
    >Se non ti sei iscritto agli avvisi del Pannello di controllo, verrà visualizzato un messaggio che ti consentirà di registrarti per ricevere le notifiche e-mail.
 
-1. Il promemoria è ora impostato per l’evento selezionato. Puoi passare il cursore sopra di esso in qualsiasi momento per visualizzarne il titolo.
+1. Il promemoria è ora impostato per l’evento selezionato. Puoi passare il puntatore sopra di esso in qualsiasi momento per visualizzarne il titolo.
 
    ![](assets/service-events-reminder.png)
 

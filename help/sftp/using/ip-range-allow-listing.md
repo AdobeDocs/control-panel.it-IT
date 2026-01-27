@@ -8,8 +8,8 @@ role: Admin
 level: Experienced
 exl-id: 45a3bfcd-500c-4139-b610-d39989260ab7
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
-workflow-type: tm+mt
-source-wordcount: '1059'
+workflow-type: ht
+source-wordcount: '1057'
 ht-degree: 100%
 
 ---
@@ -24,19 +24,19 @@ ht-degree: 100%
 
 I server SFTP sono protetti. Per potervi accedere e visualizzare i file o scriverne di nuovi, è necessario inserire nell’elenco Consentiti l’indirizzo IP pubblico del sistema o del client che accede ai server.
 
-![](assets/do-not-localize/how-to-video.png) Guarda il video su questa funzione per [Campaign v7/v8](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/sftp-management/adding-ip-range-to-allow-list.html?lang=it#sftp-management) o [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/sftp-management/adding-ip-range-to-allow-list.html?lang=it#sftp-management)
+![](assets/do-not-localize/how-to-video.png) Guarda il video su questa funzione per [Campaign v7/v8](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/sftp-management/adding-ip-range-to-allow-list.html?lang=it#sftp-management) o [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/sftp-management/adding-ip-range-to-allow-list.html?lang=it#sftp-management)
 
 ## Informazioni sul formato CIDR {#about-cidr-format}
 
 CIDR (Classless Inter-Domain Routing) è il formato supportato per l’aggiunta di intervalli IP tramite l’interfaccia del Pannello di controllo.
 
-La sintassi è composta da un indirizzo IP seguito da un carattere “/” e da un numero decimale. Il formato e la sintassi sono descritti nei dettagli in [questo articolo](https://whatismyipaddress.com/cidr){target="_blank"}.
+La sintassi è composta da un indirizzo IP seguito da un carattere “/” e da un numero decimale. Il formato e la sintassi sono descritti dettagliatamente in [questo articolo](https://whatismyipaddress.com/cidr){target="_blank"}.
 
 Puoi cercare su Internet strumenti online gratuiti che ti aiuteranno a convertire gli intervalli IP che hai a disposizione in formato CIDR.
 
 ## Best practice {#best-practices}
 
-Accertati di seguire le raccomandazioni e le limitazioni riportate di seguito quando inserisci gli indirizzi IP nell’elenco Consentiti dal Pannello di controllo.
+Accertati di seguire i consigli e le limitazioni riportati di seguito quando inserisci gli indirizzi IP nell’elenco Consentiti dal Pannello di controllo.
 
 * **Aggiungere intervalli IP all’elenco Consentiti** anziché indirizzi IP singoli. Per inserire un indirizzo IP singolo nell’elenco Consentiti, aggiungi “/32” per indicare che l’intervallo include un solo IP.
 * **Non aggiungere intervalli eccessivamente ampi all’elenco Consentiti**, ad esempio intervalli che includono > 265 indirizzi IP. Il Pannello di controllo rifiuterà qualsiasi intervallo in formato CIDR compreso tra /0 e /23.

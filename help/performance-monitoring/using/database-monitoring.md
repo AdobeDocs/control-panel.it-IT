@@ -8,7 +8,7 @@ role: Admin
 level: Experienced
 exl-id: 2bd7d2dd-97be-49bb-9f8e-7161d0742bc1
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '365'
 ht-degree: 100%
 
@@ -24,7 +24,7 @@ Nel tempo, i database possono raggiungere la loro capacità massima, soprattutto
 
 L’overflow del database di un’istanza può causare diversi problemi (impossibilità di accedere, inviare e-mail, ecc.). Il monitoraggio dei database delle istanze è quindi essenziale per garantire prestazioni ottimali.
 
-Iscrivendoti agli [avvisi e-mail](../../performance-monitoring/using/email-alerting.md), riceverai notifiche via e-mail quando uno dei tuoi server SFTP raggiunge o supera l’80% della capacità.
+Iscrivendoti agli [avvisi e-mail](../../performance-monitoring/using/email-alerting.md), riceverai notifiche via e-mail quando uno dei database delle tue istanze raggiunge o supera l’80% della capacità.
 
 ## Monitoraggio dell’utilizzo del database{#monitoring-database-usage}
 

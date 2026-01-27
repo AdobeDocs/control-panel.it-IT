@@ -8,7 +8,7 @@ role: Admin
 level: Experienced
 exl-id: a157cc27-577f-490f-8c4f-0f203219cfb5
 source-git-commit: 73cf3102c0926728595e975ee4c85bf110f2a23d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '418'
 ht-degree: 100%
 
@@ -59,7 +59,7 @@ Nella sezione superiore vengono visualizzate le seguenti informazioni:
 
 * Numero totale di profili attivi allocati all’organizzazione.
 
-La sezione inferiore fornisce una rappresentazione visiva dell’utilizzo del profilo attivo negli ultimi 30 giorni. Puoi impostare questo intervallo di tempo su 1 anno utilizzando il filtro posizionato nell’angolo in alto a destra. Passando il puntatore del mouse su una delle barre del grafico è possibile ottenere il numero esatto di profili attivi utilizzati durante il periodo selezionato.
+La sezione inferiore fornisce una rappresentazione visiva dell’utilizzo del profilo attivo negli ultimi 30 giorni. Puoi impostare questo intervallo di tempo su 1 anno utilizzando il filtro posizionato nell’angolo in alto a destra. Passando il puntatore su una delle barre del grafico è possibile ottenere il numero esatto di profili attivi utilizzati durante il periodo selezionato.
 
 Le informazioni relative all’utilizzo dei profili attivi vengono aggiornate nel Pannello di controllo in base ai flussi di lavoro tecnici di “Fatturazione” [!DNL Campaign] che vengono eseguiti a intervalli regolari sulle istanze:
 

@@ -7,9 +7,9 @@ feature: Control Panel
 role: Admin
 level: Experienced
 source-git-commit: cc45dc517a8baa2583a082b99bc084bd84013918
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '180'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -44,7 +44,7 @@ ht-degree: 88%
 + Sottodomini e certificati {#subdomains-and-certificates}
    + [Branding dei sottodomini](subdomains-certificates/using/subdomains-branding.md)
    + [Monitorare i sottodomini](subdomains-certificates/using/monitoring-subdomains.md)
-   + Delega sottodomini {#delegate-subdomains}
+   + Delegare i sottodomini {#delegate-subdomains}
       + [Configurare un nuovo sottodominio](subdomains-certificates/using/setting-up-new-subdomain.md)
       + [Rimuovi la delega dei sottodomini ad Adobe](subdomains-certificates/using/remove-delegated-subdomains.md)
    + Utilizzare i record TXT (Google, BIMI, DMARC) {#txt-records}

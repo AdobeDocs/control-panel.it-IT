@@ -8,7 +8,7 @@ role: Admin
 level: Experienced
 exl-id: e9b7c67d-6afa-44f9-b19d-39c0ec9a7edd
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1010'
 ht-degree: 100%
 
@@ -39,7 +39,7 @@ Il processo di rinnovo del certificato SSL comprende 3 passaggi:
 
    Installa il certificato SSL acquistato nel sottodominio desiderato per proteggerlo. [Ulteriori informazioni](#install)
 
-![](assets/do-not-localize/how-to-video.png) Scopri questa funzione nel video per [Campaign v7/v8](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/adding-ssl-certificates.html?lang=it#subdomains-and-certificates) o [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/adding-ssl-certificates.html?lang=it#adding-ssl-certificates)
+![](assets/do-not-localize/how-to-video.png) Guarda il video su questa funzione per [Campaign v7/v8](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/adding-ssl-certificates.html?lang=it#subdomains-and-certificates) o [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/adding-ssl-certificates.html?lang=it#adding-ssl-certificates)
 
 **Argomenti correlati:**
 
@@ -125,7 +125,7 @@ Una volta acquistato un certificato SSL, puoi installarlo nell’istanza. Prima 
 
 * La richiesta di firma del certificato (CSR, Certificate Signing Request) deve essere stata generata dal Pannello di controllo. In caso contrario, non potrai installare il certificato dal Pannello di controllo.
 * La richiesta di firma del certificato (CSR) deve corrispondere al sottodominio che è stato configurato per funzionare con Adobe. Ad esempio, non può contenere altri sottodomini oltre a quello che è stato configurato.
-* Il certificato deve avere una data corrente. Non è possibile installare certificati con date future e non deve essere scaduto (vale a dire date di inizio e fine valide).
+* Il certificato deve avere una data corrente. Non è possibile installare certificati con date future o scadute (le date di inizio e di fine devono essere valide).
 * Il certificato deve essere rilasciato da un’autorità di certificazione (CA, Certificate Authority) affidabile, come Comodo, DigiCert, GoDaddy, ecc..
 * La dimensione del certificato deve essere di 2048 bit e l’algoritmo deve essere RSA.
 * Il certificato deve essere in formato X.509 PEM.

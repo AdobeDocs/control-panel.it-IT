@@ -8,7 +8,7 @@ role: Admin
 level: Experienced
 exl-id: edd55d07-bf0b-44b0-8281-be69c698d5e8
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '154'
 ht-degree: 100%
 
@@ -29,7 +29,7 @@ La colonna **[!UICONTROL Ultima verifica]** indica quando un sottodominio è sta
 >
 >Adobe non consiglia di utilizzare sottodomini senza data di certificato, in quanto questo potrebbe indicare la presenza di problemi di recapitabilità in questi sottodomini.
 
-Quando si avvia una verifica, vengono eseguite diverse operazioni per controllare che il sottodominio sia configurato correttamente (controllo del tenant dell’istanza, test di invio e-mail, ecc.). Se la verifica del sottodominio non riesce, contatta l’Assistenza clienti Adobe per ulteriori indagini.
+All’avvio di una verifica, vengono eseguite diverse operazioni per accertarsi che il sottodominio sia configurato correttamente (controllo del tenant dell’istanza, test di invio e-mail, ecc.). Se la verifica del sottodominio non riesce, contatta l’Assistenza clienti di Adobe per ulteriori indagini.
 
 **Argomenti correlati:**
 

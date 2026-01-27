@@ -8,7 +8,7 @@ role: Admin
 level: Intermediate
 exl-id: ff64acbe-d8cb-499b-b20f-b0934fb0f695
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '567'
 ht-degree: 100%
 
@@ -77,7 +77,7 @@ Per poter accedere alle funzionalità del Pannello di controllo, devi fornire le
 
 1. Fai clic su **[!UICONTROL Salva]** per confermare.
 
-Quando si aggiunge un URL MID/RT, viene attivato un processo asincrono per convalidare la correttezza degli URL. Questo processo potrebbe richiedere alcuni minuti. Fino a quando l’URL dell’istanza MID/RT non viene convalidato, il lavoro risulterà in sospeso. Al completamento della convalida, potrai accedere alle funzionalità principali del Pannello di controllo.
+Quando si aggiunge un URL MID/RT, viene attivato un processo asincrono per convalidare la correttezza degli URL. Questo processo potrebbe richiedere alcuni minuti. Fino a quando l’URL dell’istanza MID/RT non viene convalidato, il processo risulterà in sospeso. Al completamento della convalida, potrai accedere alle funzionalità principali del Pannello di controllo.
 
 ![](assets/external-account-pending.png)
 

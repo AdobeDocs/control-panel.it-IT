@@ -8,7 +8,7 @@ role: Admin
 level: Experienced
 exl-id: 07118637-cebd-4dd8-8374-2d7c20a47a89
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '107'
 ht-degree: 100%
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 Campaign Standard e Classic offrono diversi modi per evitare un eccessivo consumo di spazio su disco del database.
 
-La sezione seguente fornisce utili riferimenti dalla documentazione di Campaign per ottimizzare l’utilizzo dei database:
+La sezione seguente fornisce utili risorse dalla documentazione di Campaign per ottimizzare l’utilizzo dei database:
 
 **Monitoraggio dei flussi di lavoro**
 

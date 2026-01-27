@@ -8,7 +8,7 @@ role: Admin
 level: Experienced
 exl-id: 02819bfc-9886-43fc-8014-9bfe64c42048
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '515'
 ht-degree: 100%
 
@@ -19,7 +19,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="cp_instancesettings_instancedetails"
 >title="Informazioni su Dettagli istanza"
->abstract="Visualizza i dettagli delle istanze di Adobe Campaign: tipi, nomi, informazioni sulla build e consigli su possibili aggiornamenti."
+>abstract="Visualizza i dettagli delle istanze di Adobe Campaign: tipi, nomi, informazioni sulla build ed eventuali consigli sull’aggiornamento."
 
 ## Informazioni su Dettagli istanza {#about-instance-details}
 
@@ -29,7 +29,7 @@ ht-degree: 100%
 
 L’architettura dell’istanza di Adobe Campaign può contenere diversi server per consentire la flessibilità delle attività di marketing. Ad esempio, possono supportare l’istanza i server Marketing, Real Time (In tempo reale) (o Message Center [Centro messaggi]) e Mid Sourcing.
 
-La funzionalità Instance Details (Dettagli istanza) consente di visualizzare l’architettura semplice dell’istanza. Oltre alle informazioni sul server, ti consente anche di sapere se la build dell’istanza è corrente o meno e consiglia gli aggiornamenti quando necessario.
+La funzionalità Instance Details (Dettagli istanza) consente di visualizzare l’architettura semplice dell’istanza. Oltre alle informazioni sul server, consente anche di sapere se la build dell’istanza è corrente o meno e, se necessario, consiglia eventuali aggiornamenti.
 
 >[!NOTE]
 >

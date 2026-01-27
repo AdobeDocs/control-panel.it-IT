@@ -8,7 +8,7 @@ role: Admin
 level: Experienced
 exl-id: 366dd2ea-c6be-41a2-a4d6-4ffecb5f3d39
 source-git-commit: de33a10a168358d0f38ca776fbcd88e0ccf63ce2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1146'
 ht-degree: 100%
 
@@ -34,7 +34,7 @@ Potrai quindi:
 
 * **Crittografare i dati inviati**: Adobe Campaign invia i dati dopo averli crittografati con la chiave pubblica installata.
 
-* **Decrittografare i dati in entrata**: Adobe Campaign riceve i dati crittografati da un sistema esterno che utilizza una chiave pubblica scaricata dal Pannello di controllo. Adobe Campaign decrifra i dati utilizzando una chiave privata generata dal Pannello di controllo.
+* **Decrittografare i dati in entrata**: Adobe Campaign riceve i dati crittografati da un sistema esterno che utilizza una chiave pubblica scaricata dal Pannello di controllo. Adobe Campaign decrittografa i dati utilizzando una chiave privata generata dal Pannello di controllo.
 
 ## Crittografia dei dati {#encrypting-data}
 
@@ -99,7 +99,7 @@ Una volta installata, la chiave pubblica viene visualizzata nell’elenco. Puoi 
 
 La chiave potrà quindi essere utilizzata nei flussi di lavoro di Adobe Campaign. Puoi utilizzarla per crittografare i dati quando utilizzi attività di estrazione dati.
 
-![](assets/do-not-localize/how-to-video.png)Guarda il [video su questa funzione](#video)
+![](assets/do-not-localize/how-to-video.png) Guarda il [video su questa funzione](#video)
 
 Per ulteriori informazioni su questo argomento, consulta la documentazione di Adobe Campaign:
 
@@ -122,7 +122,7 @@ A questo scopo, devi generare una coppia di chiavi GPG direttamente dal Pannello
 * La **chiave pubblica** verrà condivisa con il sistema esterno, che lo utilizzerà per crittografare i dati da inviare a Campaign.
 * La **chiave privata** verrà utilizzata da Campaign per decrittografare i dati crittografati in arrivo.
 
-![](assets/do-not-localize/how-to-video.png)Guarda il [video su questa funzione](#video)
+![](assets/do-not-localize/how-to-video.png) Guarda il [video su questa funzione](#video)
 
 Per generare una coppia di chiavi nel Pannello di controllo, effettua le seguenti operazioni:
 
@@ -196,4 +196,4 @@ Il video seguente mostra come generare e installare le chiavi GPG per la crittog
 
 Ulteriori video relativi alla gestione delle chiavi GPG sono disponibili nelle pagine dei tutorial per [Campaign v7/v8](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/instance-settings/gpg-key-management/gpg-key-management-overview.html?lang=it#instance-settings) e [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/instance-settings/gpg-key-management/gpg-key-management-overview.html?lang=it#instance-settings).
 
->[!VIDEO](https://video.tv.adobe.com/v/327885?quality=12&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/36386?quality=12)

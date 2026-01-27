@@ -66,7 +66,7 @@ Per aggiungere un record BIMI per un sottodominio, segui questi passaggi:
    1. Una volta che il record BIMI è visibile nella pagina dei dettagli del sottodominio per un determinato sottodominio, puoi utilizzare lo strumento Bimi Inspector disponibile [qui](https://bimigroup.org/bimi-generator/) per verificare il corretto funzionamento del record BIMI.
 
    Informazioni dettagliate sull’implementazione di BIMI sono disponibili nella [Documentazione standard di BIMI](https://bimigroup.org/implementation-guide/)
-+++
+   +++
 
 1. Fai clic su **[!UICONTROL Aggiungi]** per confermare la creazione del record BIMI.
 

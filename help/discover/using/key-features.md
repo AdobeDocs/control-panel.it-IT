@@ -8,7 +8,7 @@ role: Admin
 level: Experienced
 exl-id: cb6cc63b-d6cc-4c8b-870f-e108d05aa740
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '281'
 ht-degree: 100%
 
@@ -26,7 +26,7 @@ Vantaggi principali:
 
 >[!NOTE]
 >
->Il Pannello di controllo è riservato agli utenti amministratori. I passaggi per concedere a un utente i diritti da amministratore sono descritti in [questa sezione](managing-permissions.md).
+>Il Pannello di controllo è riservato agli utenti amministratori. I passaggi per concedere a un utente i diritti da amministratore sono descritti in [questa sezione](managing-permissions.md).
 >
 >Per Campaign v7/v8, tieni presente che l’istanza deve essere ospitata su Amazon Web Services (AWS) e aggiornata all’ultima [versione stabile di Campaign](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=it#rn-statuses) o alla versione 9032 o superiore. Scopri come controllare la versione in [questa sezione](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=it#getting-your-campaign-version). Per verificare se l’istanza è ospitata su AWS, segui i passaggi descritti in [questa sezione](../../faq.md#hosted-aws).
 

@@ -1,18 +1,18 @@
 ---
-title: Note sulle versioni 2022
+title: Note sulla versione 2022
 description: In questa pagina sono elencate tutte le versioni del Pannello di controllo del 2022.
 feature: Control Panel, Release Notes
 role: Admin
 level: Experienced
 exl-id: 9fb18bb6-c4e4-48aa-849c-d9129add5266
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '601'
 ht-degree: 100%
 
 ---
 
-# Note sulle versioni 2022 {#rn-2022}
+# Note sulla versione 2022 {#rn-2022}
 
 ## Ottobre 2022 {#october-2022}
 
@@ -87,7 +87,7 @@ I clienti con modello di hosting ibrido possono ora configurare nuovi sottodomin
 <tbody>
 <tr>
 <td>
-<p>Sono stati apportati diversi miglioramenti al processo di generazione della CSR. <a href="../subdomains-certificates/using/renewing-subdomain-certificate.md">Ulteriori informazioni</a></p><ul><li>Quando generi una CSR, ora puoi selezionare uno dei sottodomini inclusi come Nome comune.</li><li>Ora puoi copiare il riepilogo CSR prima di generare la CSR.</li><li>Una volta generata una CSR, puoi scaricarla nuovamente dai registri dei lavori. Questa funzionalità non si applica ai certificati generati prima di questa versione.</li></ul><p>
+<p>Sono stati apportati diversi miglioramenti al processo di generazione della CSR. <a href="../subdomains-certificates/using/renewing-subdomain-certificate.md">Ulteriori informazioni</a></p><ul><li>Quando generi una CSR, ora puoi selezionare uno dei sottodomini inclusi come Nome comune.</li><li>Ora puoi copiare il riepilogo CSR prima di generare la CSR.</li><li>Una volta generata una CSR, puoi scaricarla nuovamente dai registri dei processi. Questa funzionalità non si applica ai certificati generati prima di questa versione.</li></ul><p>
 
 </td>
 </tr>

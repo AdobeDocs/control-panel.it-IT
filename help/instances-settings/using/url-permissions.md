@@ -8,7 +8,7 @@ role: Admin
 level: Intermediate
 exl-id: a7df90da-a2ce-409f-9bc3-c7d4fa3024c8
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '572'
 ht-degree: 100%
 
@@ -28,13 +28,13 @@ ht-degree: 100%
 >
 >Questa funzione è disponibile solo per le istanze di Campaign v7/v8, a partire dalla build 8850. Se utilizzi una build precedente, dovrai eseguire l’aggiornamento per utilizzare questa funzione.
 
-L’elenco predefinito di URL che possono essere richiamati tramite codici JavaScript (flussi di lavoro, ecc.) dalle istanze di Campaign è limitato. Si tratta di URL che consentono il corretto funzionamento delle istanze.
+L’elenco predefinito di URL che possono essere richiamati tramite codici JavaScript (flussi di lavoro, ecc.) dalle tue istanze di Campaign è limitato. Si tratta di URL che consentono il corretto funzionamento delle istanze.
 
 Per impostazione predefinita, le istanze non possono connettersi a URL esterni. Il Pannello di controllo consente di aggiungere degli URL esterni all’elenco degli URL autorizzati, in modo che l’istanza possa connettersi a tali URL. Questo consente di connettere le istanze Campaign a sistemi esterni, ad esempio server SFTP o siti Web, per abilitare il trasferimento di file e/o dati.
 
 Una volta aggiunto l’URL, viene inserito un suo riferimento nel file di configurazione dell’istanza (serverConf.xml).
 
-![](assets/do-not-localize/how-to-video.png) [Guarda il video su questa funzione](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/instance-settings/adding-url-permissions.html?lang=it#instance-settings)
+![](assets/do-not-localize/how-to-video.png) [Guarda un video su questa funzione](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/instance-settings/adding-url-permissions.html?lang=it#instance-settings)
 
 **Argomenti correlati:**
 

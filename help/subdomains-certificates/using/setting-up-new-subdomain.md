@@ -76,7 +76,7 @@ Inoltre, **non creare un file di zona separato** per il nuovo sottodominio.
 
 Per delegare completamente un sottodominio ad Adobe Campaign, segui la procedura indicata di seguito.
 
-![](assets/do-not-localize/how-to-video.png) Guarda il video su questa funzione per [Campaign v7/v8](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html?lang=it#subdomains-and-certificates) o [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html?lang=it#subdomains-and-certificates)
+![](assets/do-not-localize/how-to-video.png) Guarda il video su questa funzione per [Campaign v7/v8](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html?lang=it#subdomains-and-certificates) o [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html?lang=it#subdomains-and-certificates)
 
 1. Nella scheda **[!UICONTROL Sottodomini e certificati]**, seleziona l’istanza di produzione desiderata, quindi fai clic su **[!UICONTROL Configura nuovo sottodominio]**.
 
@@ -86,7 +86,7 @@ Per delegare completamente un sottodominio ad Adobe Campaign, segui la procedura
 
    ![](assets/subdomain3.png)
 
-1. Crea il sottodominio e i server di nomi desiderati nella soluzione di hosting utilizzata dalla tua organizzazione. A questo scopo, copia e incolla le informazioni del server dei nomi Adobe visualizzate nella procedura guidata. Per ulteriori informazioni su come creare un sottodominio in una soluzione di hosting, guarda il [video tutorial](https://video.tv.adobe.com/v/39831?captions=ita).
+1. Crea il sottodominio e i server di nomi desiderati nella soluzione di hosting utilizzata dalla tua organizzazione. A questo scopo, copia e incolla le informazioni del server dei nomi Adobe visualizzate nella procedura guidata. Per ulteriori informazioni su come creare un sottodominio in una soluzione di hosting, guarda il [video tutorial](https://video.tv.adobe.com/v/30175).
 
    >[!NOTE]
    >
@@ -133,7 +133,7 @@ Una volta inviato il sottodominio, il Pannello di controllo eseguirà vari contr
 
 Per configurare un sottodominio utilizzando i CNAME, segui la proceduta indicata di seguito.
 
-![](assets/do-not-localize/how-to-video.png) Guarda il video su questa funzione per [Campaign v7/v8](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/delegating-subdomains-using-cname.html?lang=it#subdomains-and-certificates) o [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/delegating-subdomains-using-cname.html?lang=it)
+![](assets/do-not-localize/how-to-video.png) Guarda il video su questa funzione per [Campaign v7/v8](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/delegating-subdomains-using-cname.html?lang=it#subdomains-and-certificates) o [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/delegating-subdomains-using-cname.html?lang=it)
 
 1. Nella scheda **[!UICONTROL Sottodomini e certificati]**, seleziona l’istanza di produzione desiderata, quindi fai clic su **[!UICONTROL Configura nuovo sottodominio]**.
 

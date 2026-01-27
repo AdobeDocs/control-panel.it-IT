@@ -8,7 +8,7 @@ role: Admin
 level: Intermediate
 exl-id: 1d1eeff8-969e-4529-b947-2a68defb8d13
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '794'
 ht-degree: 100%
 
@@ -34,13 +34,13 @@ Se il tuo indirizzo IP non è stato inserito nell’elenco Consentiti non potrai
 
 Il Pannello di controllo ti consente di impostare nuove connessioni alle istanze tramite l’inserimento di intervalli IP nell’elenco Consentiti. Per farlo, attieniti alla procedura descritta di seguito.
 
-Una volta inseriti gli indirizzi IP nell’elenco Consentiti, puoi creare e collegare ad essi gli operatori Campaign per consentire agli utenti di accedere all’istanza.
+Una volta inseriti gli indirizzi IP nell’elenco Consentiti, puoi creare e collegare ad essi gli operatori di Campaign per consentire agli utenti di accedere all’istanza.
 
-![](assets/do-not-localize/how-to-video.png) [Guarda il video su questa funzione](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/instance-settings/ip-allow-listing.html?lang=it#instance-settings)
+![](assets/do-not-localize/how-to-video.png) [Guarda un video su questa funzione](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/instance-settings/ip-allow-listing.html?lang=it#instance-settings)
 
 ## Best practice {#best-practices}
 
-Accertati di seguire le raccomandazioni e le limitazioni riportate di seguito quando inserisci gli indirizzi IP nell’elenco Consentiti dal Pannello di controllo.
+Accertati di seguire i consigli e le limitazioni riportati di seguito quando inserisci gli indirizzi IP nell’elenco Consentiti dal Pannello di controllo.
 
 * **Non abilitare l’accesso IP per tutti i tipi di accesso** se non vuoi che l’indirizzo IP si connetta ai tuoi server RT o all’area di sicurezza AEM.
 * **Se hai temporaneamente attivato l’accesso all’istanza per un indirizzo IP**, assicurati di rimuoverlo dall’elenco Consentiti una volta che non è più necessario per connettersi all’istanza.

@@ -1,14 +1,14 @@
 ---
 product: campaign
 solution: Campaign
-title: Esplorazione dell’interfaccia del Pannello di controllo
+title: 'Esplorazione dell’interfaccia del Pannello di controllo '
 description: Ulteriori informazioni sull’interfaccia del Pannello di controllo
 feature: Control Panel, Overview
 role: Admin
 level: Intermediate
 exl-id: 20302017-d4b1-489b-a6b4-f086e5bad4d5
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '226'
 ht-degree: 100%
 
