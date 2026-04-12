@@ -8,8 +8,8 @@ role: Admin
 level: Experienced
 exl-id: a157cc27-577f-490f-8c4f-0f203219cfb5
 source-git-commit: 73cf3102c0926728595e975ee4c85bf110f2a23d
-workflow-type: ht
-source-wordcount: '418'
+workflow-type: tm+mt
+source-wordcount: '470'
 ht-degree: 100%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 100%
 
 In base al contratto, a ciascuna istanza di Campaign viene fornito un numero specifico di profili attivi conteggiati a scopo di fatturazione. Per informazioni sul numero di profili attivi acquistati, fai riferimento al contratto più recente.
 
-Per “profilo” si intende un registro di informazioni (ad esempio un record nella tabella nmsRecipient o una tabella esterna contenente un ID cookie, un ID cliente, un identificatore mobile o altre informazioni pertinenti a un canale specifico) che rappresenta un cliente finale, potenziale o un lead.
+Per “profilo” si intende un registro di informazioni (ad esempio un record nella tabella nmsRecipient o una tabella esterna contenente un ID cookie, un ID cliente, un identificatore mobile o altre informazioni pertinenti a un canale specifico) che rappresenta un cliente finale, potenziale cliente o un lead.
 
 I profili sono considerati attivi se sono stati targetizzati o se è avvenuta una comunicazione con essi negli ultimi 12 mesi tramite qualsiasi canale.
 

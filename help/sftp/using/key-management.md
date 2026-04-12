@@ -8,9 +8,9 @@ role: Admin
 level: Experienced
 exl-id: 03815e01-6371-4e1c-b4b8-7abe25957cee
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
-workflow-type: ht
-source-wordcount: '1058'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '1106'
+ht-degree: 96%
 
 ---
 
@@ -93,7 +93,7 @@ In casi molto rari l’autenticazione basata sulla password è abilitata su alcu
 
    Potrebbe essere necessario installare uno strumento di terze parti che ti aiuterà a generare una coppia di chiavi pubblica/privata nello stesso formato “name.pub”.
 
-1. Apri il file .pub, quindi copia e incolla nel Pannello di controllo l’intera stringa a partire da “ssh...”.
+1. Apri il file .pub, quindi copia e incolla l’intera stringa a partire da &quot;ssh...&quot; nel Pannello di controllo Campaign.
 
    ![](assets/publickey.png)
 
@@ -111,7 +111,7 @@ Puoi utilizzare le impronte digitali per far corrispondere le chiavi private sal
 
 ![](assets/fingerprint_compare.png)
 
-Il pulsante “**...**” consente di eliminare una chiave esistente o di copiarne l’impronta digitale negli Appunti.
+Il &quot;**...**&quot; consente di eliminare una chiave esistente o di copiarne l’impronta digitale negli Appunti.
 
 ![](assets/key_options.png)
 
@@ -137,7 +137,7 @@ La colonna **[!UICONTROL Scade]** mostra quanti giorni mancano alla scadenza del
 
 Se ti sei iscritto agli [avvisi e-mail](../../performance-monitoring/using/email-alerting.md), riceverai delle notifiche tramite e-mail 10 giorni e 5 giorni prima della scadenza di una chiave pubblica e il giorno stesso della scadenza. Dopo aver ricevuto l’avviso, puoi [modificare la chiave pubblica](#editing-public-keys) per prolungarne, se necessario, il periodo di validità.
 
-Una chiave pubblica scaduta verrà eliminata automaticamente dopo 7 giorni. Viene visualizzata come **[!UICONTROL Scaduta]** nella colonna **[!UICONTROL Scade]**. Entro questo periodo di 7 giorni:
+Una chiave pubblica scaduta verrà eliminata automaticamente dopo 7 giorni. Viene visualizzato come **[!UICONTROL Scaduto]** nella colonna **[!UICONTROL Scade]**. Entro questo periodo di 7 giorni:
 
 * Una chiave pubblica scaduta non può più essere utilizzata per connettersi al server SFTP.
 

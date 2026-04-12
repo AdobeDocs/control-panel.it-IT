@@ -8,9 +8,9 @@ role: Admin
 level: Experienced
 exl-id: e9b7c67d-6afa-44f9-b19d-39c0ec9a7edd
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
-workflow-type: ht
-source-wordcount: '1010'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '1060'
+ht-degree: 98%
 
 ---
 
@@ -43,7 +43,7 @@ Il processo di rinnovo del certificato SSL comprende 3 passaggi:
 
 **Argomenti correlati:**
 
-* [Guida alle best practice per il recapito messaggi - Processo di richiesta del certificato SSL per Adobe Campaign](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/ac-ssl-certificate-request.html?lang=it)
+* [Guida alle best practice per il recapito messaggi: processo di richiesta del certificato SSL per Adobe Campaign](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/ac-ssl-certificate-request.html?lang=it)
 * [Branding dei sottodomini](../../subdomains-certificates/using/subdomains-branding.md)
 * [Monitoraggio dei sottodomini](../../subdomains-certificates/using/monitoring-subdomains.md)
 
