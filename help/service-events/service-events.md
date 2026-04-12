@@ -8,9 +8,9 @@ role: Admin
 level: Intermediate
 exl-id: d230aae6-4f0e-4201-bb3c-0e3f83a7c1b8
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
-workflow-type: ht
-source-wordcount: '781'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '787'
+ht-degree: 96%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 100%
 >
 >La funzionalità Calendario dei servizi è disponibile in versione beta e soggetta a frequenti aggiornamenti e modifiche senza preavviso.
 
-Per monitorare in modo efficace le istanze di Campaign, è fondamentale tenere traccia di eventi importanti che possono potenzialmente influire sulle istanze. Il Pannello di controllo consente di identificare eventi come nuove versioni, aggiornamenti, patch, correzioni rapide e così via e fornisce un elenco di contatti Adobe chiave per eventuali richieste o problemi.
+Per monitorare in modo efficace le istanze di Campaign, è fondamentale tenere traccia di eventi importanti che possono potenzialmente influire sulle istanze. Il Pannello di controllo Campaign consente di identificare eventi come nuove versioni, aggiornamenti, patch, hotfix e così via, e fornisce un elenco di contatti chiave di Adobe per eventuali richieste o problemi.
 
 Queste informazioni sono accessibili dalla scheda **[!UICONTROL Calendario del servizio]** sulla pagina home del Pannello di controllo.
 

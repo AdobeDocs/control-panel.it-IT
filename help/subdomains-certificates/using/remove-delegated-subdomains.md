@@ -8,9 +8,9 @@ role: Admin
 level: Experienced
 exl-id: 517818c9-8557-49fd-b49c-b98b60e48f1c
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
-workflow-type: ht
-source-wordcount: '831'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '833'
+ht-degree: 98%
 
 ---
 
@@ -104,4 +104,4 @@ In questa sezione sono elencati i messaggi di errore che possono verificarsi qua
 | 8003 | La rimozione del dominio delegato richiesta non è supportata per questa istanza. | La rimozione della delega non è supportata per il sottodominio selezionato a causa di un problema tecnico. Rivolgiti all’Assistenza clienti. |
 | 8004 | La rimozione del dominio delegato richiesta non è consentita in quanto in questa istanza è presente un solo dominio. | È stato delegato un solo sottodominio per l’istanza selezionata. La rimozione della delega non è consentita. |
 | 8005 | La rimozione del dominio delegato richiesta non è supportata per questa configurazione. | La rimozione della delega non è supportata per il sottodominio selezionato a causa di un problema tecnico. Rivolgiti all’Assistenza clienti. |
-| 8006 | La rimozione del dominio delegato richiesta non è consentita per motivi sconosciuti. Contatta l’assistenza clienti. | La rimozione della delega non è supportata per l’istanza selezionata a causa di problemi sconosciuti. Rivolgiti all’assistenza clienti. |
+| 8006 | La rimozione del dominio delegato richiesto non è consentita per motivi sconosciuti. Contatta l’assistenza clienti. | La rimozione della delega non è supportata per l’istanza selezionata a causa di problemi sconosciuti. Rivolgiti all’assistenza clienti. |
