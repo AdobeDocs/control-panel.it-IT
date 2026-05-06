@@ -7,10 +7,10 @@ feature: Control Panel
 role: Admin
 level: Intermediate
 exl-id: 4f329764-ed8b-4939-affc-ed994fd6101d
-source-git-commit: 98cf425548884c3a5e503c35ce5ea5b7ceaee67f
-workflow-type: ht
-source-wordcount: '719'
-ht-degree: 100%
+source-git-commit: 2ee542f43c75d9645681228dea10c1d7ede63c23
+workflow-type: tm+mt
+source-wordcount: '801'
+ht-degree: 93%
 
 ---
 
@@ -38,7 +38,7 @@ Sì, puoi gestire solo le impostazioni per Adobe Campaign nel Pannello di contro
 
 ### Posso usare il Pannello di controllo?
 
-Il Pannello di controllo è accessibile solo agli amministratori di prodotto dei nostri clienti attuali che dispongono di Adobe Campaign ospitato su AWS.
+Il Pannello di controllo Campaign è aperto agli amministratori di prodotto dei clienti che dispongono di Adobe Campaign ospitato su AWS. Anche le istanze di Campaign v8 ospitate su Microsoft Azure hanno accesso a un sottoinsieme di funzionalità di Pannello di controllo Campaign: inserimento di IP nell’elenco Consentiti per l’accesso alle istanze, inserimento di IP nell’elenco Consentiti per i server SFTP e gestione dei certificati SSL gestiti dal cliente.
 
 Il Pannello di controllo consente ai clienti con un modello di hosting ibrido di sfruttarne le funzionalità specifiche. A questo scopo, è necessario fornire l’URL dell’istanza MID/RT configurato nell’istanza marketing nel Pannello di controllo. [Ulteriori informazioni](instances-settings/using/external-accounts.md)
 
@@ -58,7 +58,7 @@ Segui le istruzioni dettagliate riportate nella documentazione Accesso al Pannel
 
 No, non ci sono costi aggiuntivi se sei un cliente attuale di Adobe Campaign.
 
-## ID organizzazione  {#ims-org-id}
+## ID organizzazione {#ims-org-id}
 
 ### Cos’è un ID organizzazione?
 
@@ -66,17 +66,17 @@ Si tratta di un ID univoco fornito all’istanza al primo accesso ad Adobe Exper
 
 Per ulteriori informazioni, consulta la [documentazione di Adobe Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=it).
 
-### Dove posso trovare il mio ID organizzazione? 
+### Dove posso trovare il mio ID organizzazione?
 
 Un metodo consiste nel passare alla pagina [Home di Adobe Experience Cloud](https://experiencecloud.adobe.com/) > **[!UICONTROL Amministrazione]**. L’ID della tua organizzazione è riportato nella parte inferiore di **[!UICONTROL Accesso rapido]** nella sezione Amministrazione. Per maggiori informazioni, consulta la [documentazione di Adobe Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=it).
 
 L’altro modo consiste nell’avviare **Admin Console**. L’ID organizzazione sarà visibile nell’URL e avrà un aspetto simile a: https://adminconsole.adobe.com/it_IT/xxx@AdobeOrg/overview.
 
-### Perché devo conoscere il mio ID organizzazione? 
+### Perché devo conoscere il mio ID organizzazione?
 
 Affinché tu possa gestire le impostazioni per la tua istanza, se utilizzi più istanze per la tua azienda è importante essere certi che tu ottenga le informazioni giuste per una specifica istanza.
 
-### Cosa succede se dispongo di più ID organizzazione? 
+### Cosa succede se dispongo di più ID organizzazione?
 
 Se intendi integrare le soluzioni per affrontare casi d’uso complessi, come l’abbandono del carrello (per Adobe Analytics e Adobe Campaign), devi disporre dello stesso ID organizzazione per Analytics e Campaign. Se hai accesso a più soluzioni Adobe, potresti disporre di più ID organizzazione. In questo caso, l’ID organizzazione corretto da utilizzare è quello visualizzato nella tua istanza di Adobe Campaign.
 
