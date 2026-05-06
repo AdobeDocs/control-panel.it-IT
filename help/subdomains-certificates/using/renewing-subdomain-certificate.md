@@ -7,10 +7,10 @@ feature: Control Panel, Subdomains and Certificates
 role: Admin
 level: Experienced
 exl-id: e9b7c67d-6afa-44f9-b19d-39c0ec9a7edd
-source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
+source-git-commit: 2ee542f43c75d9645681228dea10c1d7ede63c23
 workflow-type: tm+mt
-source-wordcount: '1060'
-ht-degree: 98%
+source-wordcount: '1084'
+ht-degree: 96%
 
 ---
 
@@ -24,6 +24,8 @@ ht-degree: 98%
 >[!NOTE]
 >
 >Il rinnovo dei certificati SSL dei sottodomini è necessario solo se si è scelto di gestire autonomamente i certificati anziché delegare questo processo ad Adobe. Si consiglia vivamente di delegare la gestione dei certificati SSL dei sottodomini ad Adobe, in quanto Adobe creerà automaticamente il certificato e lo rinnoverà ogni anno prima della scadenza. [Ulteriori informazioni sulla gestione dei certificati SSL](monitoring-ssl-certificates.md#management)
+>
+>La gestione dei certificati SSL gestiti dal cliente è disponibile per le istanze di Campaign v7/v8 ospitate su AWS e per le istanze di Campaign v8 ospitate su Microsoft Azure.
 
 Il processo di rinnovo del certificato SSL comprende 3 passaggi:
 
