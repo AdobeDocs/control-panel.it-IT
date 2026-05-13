@@ -7,9 +7,12 @@ feature: Control Panel, SFTP Management
 role: Admin
 level: Experienced
 exl-id: 713f23bf-fa95-4b8a-b3ec-ca06a4592aa3
-source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
-workflow-type: ht
-source-wordcount: '356'
+TQID: https://experienceleague.adobe.com/m02LjIAF8WJEB3TTSerLtktGejxwoDFu7HfGUpYsYok
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 06babfad697fb874f2b77c5204e30580c55cd0d1
+workflow-type: tm+mt
+source-wordcount: 357
 ht-degree: 100%
 
 ---
@@ -18,7 +21,7 @@ ht-degree: 100%
 
 I passaggi seguenti descrivono in dettaglio come connettere il server SFTP tramite l’applicazione client SFTP.
 
-![](assets/do-not-localize/how-to-video.png) Guarda il [video su questa funzione](https://video.tv.adobe.com/v/328961?captions=ita&quality=12)
+![](assets/do-not-localize/how-to-video.png) Guarda il [video su questa funzione](https://video.tv.adobe.com/v/27263?quality=12)
 
 Prima di effettuare l’accesso al server, assicurati che i seguenti requisiti siano rispettati:
 
