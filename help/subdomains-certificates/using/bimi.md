@@ -7,9 +7,17 @@ feature: Control Panel, Subdomains and Certificates
 role: Admin
 level: Experienced
 exl-id: eb7863fb-6e6d-4821-a156-03fee03cdd0e
-source-git-commit: c555a91ee0772fd615d38ebbb3964392649af907
-workflow-type: ht
-source-wordcount: '523'
+TQID: https://experienceleague.adobe.com/gdmtHgMWI-8y3w6uzXdNxOatrjJMDdp6EWLuXz1mhhg
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 06babfad697fb874f2b77c5204e30580c55cd0d1
+workflow-type: tm+mt
+source-wordcount: 543
 ht-degree: 100%
 
 ---
@@ -35,7 +43,7 @@ Informazioni dettagliate sull’attuazione di BIMI sono disponibili nella [Guida
    * Il tipo di criterio del record per il dominio organizzativo deve essere impostato su “Quarantena” o “Rifiuta”. La creazione di record BIMI non è disponibile con un tipo di criterio DMARC impostato su “Nessuno”.
    * La percentuale di e-mail a cui viene applicato il criterio DMARC deve essere 100%. BIMI non supporta i criteri DMARC con questa percentuale impostata su un valore inferiore al 100%.
 
-[Scopri come configurare i record DMARC](dmarc.md)
+     [Scopri come configurare i record DMARC](dmarc.md)
 
 ## Aggiungere un record BIMI per un sottodominio {#add}
 
