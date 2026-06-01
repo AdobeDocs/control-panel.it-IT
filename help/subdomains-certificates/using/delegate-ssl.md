@@ -8,13 +8,10 @@ role: Admin
 level: Experienced
 exl-id: a2b3d409-704b-4e81-ae40-b734f755b598
 TQID: https://experienceleague.adobe.com/rkz8m-EBdNJEiimWc3YVlgsXSHYR9aA4R6y6cnZqRiw
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a075b2c1-7748-4328-b7f6-343aa314616a
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 06babfad697fb874f2b77c5204e30580c55cd0d1
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616a
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: e0e2ccba4ec069124297a26da48d210599671b48
 workflow-type: tm+mt
 source-wordcount: 485
 ht-degree: 100%
@@ -47,13 +44,13 @@ Per delegare i certificati SSL durante la configurazione di un nuovo sottodomini
 
 * **Delega CNAME**: i record dei certificati da copiare nella soluzione di hosting verranno forniti più avanti nella procedura guidata di configurazione. È necessario generare questi record di certificato nella soluzione di hosting del dominio prima di inviare la configurazione del sottodominio. [Ulteriori informazioni sulla delega CNAME](setting-up-new-subdomain.md#use-cnames)
 
-![](assets/cname-adobe-managed.png){width="70%" align="left"}
+![](assets/cname-adobe-managed.png){width="70%"}
 
 ## Delegare i certificati SSL per sottodomini già delegati {#delegated}
 
 Per delegare i certificati SSL per un sottodominio già delegato, fai clic sul pulsante con i puntini di sospensione accanto al sottodominio desiderato e fai clic su **[!UICONTROL Passa a SSL gestito]**.
 
-![](assets/delegate-ssl-list.png){width="70%" align="left"}
+![](assets/delegate-ssl-list.png){width="70%"}
 
 Il processo di generazione del certificato dipende dalla configurazione originale del sottodominio:
 
@@ -67,4 +64,4 @@ Per i sottodomini configurati tramite la delega CNAME, viene visualizzata una fi
 
 Assicurati che tutti i record del certificato siano stati generati nella soluzione di hosting del tuo dominio. Se tutto è configurato correttamente, conferma la creazione dei record, quindi fai clic su **[!UICONTROL Invia]**.
 
-![](assets/delegate-ssl.png){width="70%" align="left"}
+![](assets/delegate-ssl.png){width="70%"}
