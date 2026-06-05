@@ -15,9 +15,9 @@ role_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
 source-git-commit: 06babfad697fb874f2b77c5204e30580c55cd0d1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1348
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -113,12 +113,12 @@ Per ulteriori informazioni su questo argomento, consulta la documentazione di Ad
 **Campaign v7/v8:**
 
 * [Compressione o crittografia di un file](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/managing-data-encryption-compression/zip-encrypt.html?lang=it)
-* [Caso di utilizzo: crittografia ed esportazione di dati tramite una chiave installata sul Pannello di controllo Campaign](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html?lang=it#use-case-gpg-encrypt)
+* [Caso d’uso: crittografia ed esportazione di dati tramite una chiave installata nel Pannello di controllo](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html?lang=it#use-case-gpg-encrypt)
 
 **Campaign Standard:**
 
 * [Gestione dei dati crittografati](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html?lang=it)
-* [Caso di utilizzo: crittografia ed esportazione di dati tramite una chiave installata sul Pannello di controllo Campaign](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/managing-data-encryption-compression/zip-encrypt.html?lang=it#use-case-gpg-encrypt)
+* [Caso d’uso: crittografia ed esportazione di dati tramite una chiave installata nel Pannello di controllo](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/managing-data-encryption-compression/zip-encrypt.html?lang=it#use-case-gpg-encrypt)
 
 ## Decrittografia dei dati {#decrypting-data}
 
@@ -156,12 +156,12 @@ Per ulteriori informazioni, consulta la documentazione di Adobe Campaign:
 **Campaign v7 e v8:**
 
 * [Estrazione o decrittografia di un file prima dell’elaborazione](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/managing-data-encryption-compression/unzip-decrypt.html?lang=it)
-* [Caso di utilizzo: importazione di dati crittografati utilizzando una chiave generata dal Pannello di controllo Campaign](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/managing-data-encryption-compression/unzip-decrypt.html?lang=it#use-case-gpg-decrypt)
+* [Caso d’uso: importazione di dati crittografati utilizzando una chiave generata dal Pannello di controllo](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/managing-data-encryption-compression/unzip-decrypt.html?lang=it#use-case-gpg-decrypt)
 
 **Campaign Standard:**
 
 * [Gestione dei dati crittografati](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html?lang=it)
-* [Caso di utilizzo: importazione di dati crittografati utilizzando una chiave generata dal Pannello di controllo Campaign](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html?lang=it#use-case-gpg-decrypt)
+* [Caso d’uso: importazione di dati crittografati utilizzando una chiave generata dal Pannello di controllo](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html?lang=it#use-case-gpg-decrypt)
 
 ## Monitoraggio delle chiavi GPG
 

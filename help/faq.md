@@ -24,9 +24,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 57345245341bf2d04b9b01611d502532ba8f175b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 801
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -54,7 +54,7 @@ Sì, puoi gestire solo le impostazioni per Adobe Campaign nel Pannello di contro
 
 ### Posso usare il Pannello di controllo?
 
-Il Pannello di controllo Campaign è aperto agli amministratori di prodotto dei clienti che dispongono di Adobe Campaign ospitato su AWS. Anche le istanze di Campaign v8 ospitate su Microsoft Azure hanno accesso a un sottoinsieme di funzionalità di Pannello di controllo Campaign: inserimento di IP nell’elenco Consentiti per l’accesso alle istanze, inserimento di IP nell’elenco Consentiti per i server SFTP e gestione dei certificati SSL gestiti dal cliente.
+Il Pannello di controllo è accessibile agli amministratori di prodotto dei clienti che dispongono di Adobe Campaign ospitato su AWS. Anche le istanze di Campaign v8 ospitate su Microsoft Azure hanno accesso a un sottoinsieme di funzionalità di Pannello di controllo: inserimento di IP nell’elenco Consentiti per l’accesso alle istanze, inserimento di IP nell’elenco Consentiti per i server SFTP e gestione dei certificati SSL gestiti dal cliente.
 
 Il Pannello di controllo consente ai clienti con un modello di hosting ibrido di sfruttarne le funzionalità specifiche. A questo scopo, è necessario fornire l’URL dell’istanza MID/RT configurato nell’istanza marketing nel Pannello di controllo. [Ulteriori informazioni](instances-settings/using/external-accounts.md)
 

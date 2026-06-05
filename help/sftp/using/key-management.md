@@ -13,9 +13,9 @@ product_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: 06babfad697fb874f2b77c5204e30580c55cd0d1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1106
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -98,7 +98,7 @@ In casi molto rari l’autenticazione basata sulla password è abilitata su alcu
 
    Potrebbe essere necessario installare uno strumento di terze parti che ti aiuterà a generare una coppia di chiavi pubblica/privata nello stesso formato “name.pub”.
 
-1. Apri il file .pub, quindi copia e incolla l’intera stringa a partire da &quot;ssh...&quot; nel Pannello di controllo Campaign.
+1. Apri il file .pub, quindi copia e incolla l’intera stringa che inizia con “ssh...”nel Pannello di controllo.
 
    ![](assets/publickey.png)
 
@@ -116,7 +116,7 @@ Puoi utilizzare le impronte digitali per far corrispondere le chiavi private sal
 
 ![](assets/fingerprint_compare.png)
 
-Il &quot;**...**&quot; consente di eliminare una chiave esistente o di copiarne l’impronta digitale negli Appunti.
+Il pulsante “**...**”consente di eliminare una chiave esistente o di copiarne l’impronta digitale negli appunti.
 
 ![](assets/key_options.png)
 
