@@ -8,14 +8,12 @@ role: Admin
 level: Experienced
 exl-id: 517818c9-8557-49fd-b49c-b98b60e48f1c
 TQID: https://experienceleague.adobe.com/1PSG6lEWpdKabuTMelwKAPnMjK2nBT-ygtKuSqEGZd8
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: 06babfad697fb874f2b77c5204e30580c55cd0d1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 833
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -109,4 +107,4 @@ In questa sezione sono elencati i messaggi di errore che possono verificarsi qua
 | 8003 | La rimozione del dominio delegato richiesta non è supportata per questa istanza. | La rimozione della delega non è supportata per il sottodominio selezionato a causa di un problema tecnico. Rivolgiti all’Assistenza clienti. |
 | 8004 | La rimozione del dominio delegato richiesta non è consentita in quanto in questa istanza è presente un solo dominio. | È stato delegato un solo sottodominio per l’istanza selezionata. La rimozione della delega non è consentita. |
 | 8005 | La rimozione del dominio delegato richiesta non è supportata per questa configurazione. | La rimozione della delega non è supportata per il sottodominio selezionato a causa di un problema tecnico. Rivolgiti all’Assistenza clienti. |
-| 8006 | La rimozione del dominio delegato richiesto non è consentita per motivi sconosciuti. Contatta l’assistenza clienti. | La rimozione della delega non è supportata per l’istanza selezionata a causa di problemi sconosciuti. Rivolgiti all’assistenza clienti. |
+| 8006 | La rimozione del dominio delegato richiesta non è consentita per motivi sconosciuti.Contatta l’assistenza clienti. | La rimozione della delega non è supportata per l’istanza selezionata a causa di problemi sconosciuti. Rivolgiti all’assistenza clienti. |

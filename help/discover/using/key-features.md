@@ -8,9 +8,9 @@ role: Admin
 level: Experienced
 exl-id: cb6cc63b-d6cc-4c8b-870f-e108d05aa740
 source-git-commit: 2ee542f43c75d9645681228dea10c1d7ede63c23
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '236'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ Vantaggi principali:
 
 >[!NOTE]
 >
->Il Pannello di controllo è riservato agli utenti amministratori. I passaggi per concedere a un utente i diritti da amministratore sono descritti in [questa sezione](managing-permissions.md). Per i prerequisiti sui requisiti di hosting dell&#39;istanza, fare riferimento a [questa pagina](accessing-control-panel.md).
+>Il Pannello di controllo è riservato agli utenti amministratori. I passaggi per concedere a un utente i diritti da amministratore sono descritti in [questa sezione](managing-permissions.md). Per i prerequisiti sui requisiti di hosting dell’istanza, consulta [questa pagina](accessing-control-panel.md).
 
 <table style="table-layout:fixed">
 <tr>
