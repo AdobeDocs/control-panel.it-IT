@@ -11,9 +11,9 @@ product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 06babfad697fb874f2b77c5204e30580c55cd0d1
-workflow-type: ht
-source-wordcount: 176
+source-git-commit: 602d1039a9725ad68de0e0a2e558108b67d62e6c
+workflow-type: tm+mt
+source-wordcount: 192
 ht-degree: 100%
 
 ---
@@ -46,8 +46,7 @@ ht-degree: 100%
 <tbody>
 <tr>
 <td>
-<p>È ora possibile modificare gli <a href="../sftp/using/ip-range-allow-listing.md#editing-ip-ranges">intervalli IP</a> e le <a href="../sftp/using/key-management.md#editing-public-keys">chiavi pubbliche</a> che crei. Questa funzione non è disponibile per gli elementi creati prima della versione corrente del Pannello di controllo.
-</td>
+<p>È ora possibile modificare gli <a href="../sftp/using/ip-range-allow-listing.md#editing-ip-ranges">Intervalli IP</a> e le <a href="../sftp/using/key-management.md#editing-public-keys">chiavi pubbliche</a> che crei. Questa funzione non è disponibile per gli elementi creati prima della versione del Pannello di controllo corrente.</td>
 </tr>
 </tbody>
 </table>
@@ -98,5 +97,3 @@ ht-degree: 100%
 </tr>
 </tbody>
 </table>
-
-Fine.

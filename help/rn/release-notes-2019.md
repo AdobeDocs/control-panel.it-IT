@@ -11,7 +11,7 @@ product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 06babfad697fb874f2b77c5204e30580c55cd0d1
+source-git-commit: 602d1039a9725ad68de0e0a2e558108b67d62e6c
 workflow-type: tm+mt
 source-wordcount: 156
 ht-degree: 100%
@@ -22,8 +22,7 @@ ht-degree: 100%
 
 ## Settembre 2019 {#september-2019}
 
-Sono state introdotte nuove funzionalità che consentono agli utenti amministratori di aggiungere indirizzi IP all’elenco Consentiti per connettersi alle istanze di Campaign v7/v8.
-Inoltre, gli utenti amministratori possono ora visualizzare l’elenco delle istanze di Campaign v7/v8 e l’idoneità agli aggiornamenti della versione.
+Sono state introdotte nuove funzionalità che consentono agli utenti amministratori di aggiungere indirizzi IP all’elenco Consentiti per connettersi alle istanze di Campaign v7/v8.Inoltre, gli utenti amministratori possono ora visualizzare l’elenco delle istanze di Campaign v7/v8 e l’idoneità agli aggiornamenti della versione.
 
 Per ulteriori informazioni, consulta la [documentazione dedicata](../instances-settings/using/ip-allow-listing-instance-access.md).
 
@@ -38,3 +37,4 @@ Inoltre, gli utenti amministratori possono ora eliminare le chiavi SSH aggiunte 
 Sono state aggiunte nuove funzioni per consentire agli utenti amministratori di avere un maggiore controllo sulle impostazioni delle istanze di Campaign v7/v8. Le nuove funzionalità del Pannello di controllo includono la possibilità di aggiungere URL a cui Adobe Campaign si collega per il trasferimento di dati/file.
 
 Per ulteriori informazioni, consulta la [documentazione dettagliata](../instances-settings/using/url-permissions.md).
+
