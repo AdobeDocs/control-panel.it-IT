@@ -7,22 +7,32 @@ feature: Control Panel, Monitoring
 role: Admin
 level: Intermediate
 exl-id: d230aae6-4f0e-4201-bb3c-0e3f83a7c1b8
-TQID: https://experienceleague.adobe.com/qV--ZZUxv3WImUWYbWhboXoO-Hyo1geHtIVvrvwcfMQ
+TQID: 'https://experienceleague.adobe.com/qV--ZZUxv3WImUWYbWhboXoO-Hyo1geHtIVvrvwcfMQ'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+feature_v2:
+  - id: ae9127b0-c11d-467b-903d-a84cef43f6ed
+    internal-label: Control Panel
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
+subfeature_v2:
+  - id: e519a22f-a06a-42fc-9d09-d78a3ab2c434
+    internal-label: Monitoring guidelines
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 06babfad697fb874f2b77c5204e30580c55cd0d1
-workflow-type: ht
-source-wordcount: 787
+    internal-label: Customer experience
+source-git-commit: b2723b0683a305a992b710a37a3e47927e1fb65e
+workflow-type: tm+mt
+source-wordcount: '787'
 ht-degree: 100%
-
 ---
-
 # Identificare eventi e contatti chiave {#keycontacts-events}
 
 >[!CONTEXTUALHELP]
@@ -76,12 +86,12 @@ Vengono visualizzati tre tipi di eventi:
 
 * Le **versioni** indicano sia le distribuzioni passate che quelle future nell’istanza, visualizzate rispettivamente in grigio e blu nella vista calendario. I dettagli dell’evento specificano il tipo di versione associata a ciascuna distribuzione:
 
-   * **[!UICONTROL Disponibilità generale]**: ultima versione stabile disponibile.
-   * **[!UICONTROL Disponibilità limitata]**: solo distribuzione su richiesta.
-   * **[!UICONTROL Versione candidata]**: convalidata dal team Engineering. In attesa di verifica delle bozze di produzione.
-   * **[!UICONTROL Pre-release]**: disponibilità anticipata per esigenze specifiche del cliente.
-   * **[!UICONTROL Non più disponibile]**: la versione non contiene problemi importanti ma ne è disponibile una nuova con nuove correzioni di bug. È necessario un aggiornamento.
-   * **[!UICONTROL Obsoleta]**: versione con regressioni note. La build non è più supportata. È obbligatorio eseguire l’aggiornamento.
+  * **[!UICONTROL Disponibilità generale]**: ultima versione stabile disponibile.
+  * **[!UICONTROL Disponibilità limitata]**: solo distribuzione su richiesta.
+  * **[!UICONTROL Versione candidata]**: convalidata dal team Engineering. In attesa di verifica delle bozze di produzione.
+  * **[!UICONTROL Pre-release]**: disponibilità anticipata per esigenze specifiche del cliente.
+  * **[!UICONTROL Non più disponibile]**: la versione non contiene problemi importanti ma ne è disponibile una nuova con nuove correzioni di bug. È necessario un aggiornamento.
+  * **[!UICONTROL Obsoleta]**: versione con regressioni note. La build non è più supportata. È obbligatorio eseguire l’aggiornamento.
 
 Puoi assegnare un flag a uno o più eventi in programma per tenerne traccia. A questo scopo, fai clic sul pulsante con i puntini di sospensione accanto al nome dell’evento.
 

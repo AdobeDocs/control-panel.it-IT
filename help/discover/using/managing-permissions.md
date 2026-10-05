@@ -7,20 +7,29 @@ feature: Control Panel, Permissions
 role: Admin
 level: Intermediate
 exl-id: 7314a679-78c3-4650-bf3a-2bde8be82747
-TQID: https://experienceleague.adobe.com/RXVkX8Iu0brbRaFNzg3jK-PBGclyTMiGiAFptpajAo8
+TQID: 'https://experienceleague.adobe.com/RXVkX8Iu0brbRaFNzg3jK-PBGclyTMiGiAFptpajAo8'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+feature_v2:
+  - id: ae9127b0-c11d-467b-903d-a84cef43f6ed
+    internal-label: Control Panel
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
+subfeature_v2:
+  - id: e3988c18-3cfa-4f16-b812-ac2d2b1056fa
+    internal-label: Permissions
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 06babfad697fb874f2b77c5204e30580c55cd0d1
+    internal-label: Intermediate
+source-git-commit: b2723b0683a305a992b710a37a3e47927e1fb65e
 workflow-type: tm+mt
-source-wordcount: 342
+source-wordcount: '342'
 ht-degree: 100%
-
 ---
-
 # Gestione delle autorizzazioni di accesso al Pannello di controllo {#managing-permissions-control-panel}
 
 Il Pannello di controllo è disponibile per tutti gli utenti amministratori di un’istanza di Campaign. Per assegnare utenti al gruppo Amministratori e concedere loro l’accesso al Pannello di controllo, segui i passaggi seguenti.
@@ -73,4 +82,4 @@ Il Pannello di controllo è disponibile per tutti gli utenti amministratori di u
 
 ## Video tutorial {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/328147?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/27147?quality=12)
